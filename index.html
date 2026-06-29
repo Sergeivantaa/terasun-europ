@@ -958,7 +958,7 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
 <div class="modal-bg" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
   <div class="modal">
     <h2 id="modal-title" class="modal h3">Enquiry sent</h2>
-    <p>Thank you for contacting Terasun Europe. We will respond within 2 business days.<br><br>For urgent matters: <strong>info@terasuneurope.com</strong></p>
+    <p>Thank you! Your message has been sent successfully.<br><br>We will respond within 2 business days. For urgent matters: <strong>info@terasuneurope.com</strong></p>
     <button class="modal-close" onclick="closeModal()">Close</button>
   </div>
 </div>
@@ -1047,26 +1047,30 @@ function handleSubmit(e){
     return;
   }
 
-  /*
-   * Replace this block with your real integration:
-   *
-   * Formspree example:
-   * fetch('https://formspree.io/f/YOUR_FORM_ID',{
-   *   method:'POST',
-   *   headers:{'Content-Type':'application/json','Accept':'application/json'},
-   *   body:JSON.stringify({name,email,company,country,
-   *     volume:document.getElementById('f-volume').value,
-   *     website:document.getElementById('f-website').value,
-   *     enquiry_type:document.getElementById('f-type').value,
-   *     message:msg})
-   * }).then(function(r){
-   *   if(r.ok){openModal();}
-   *   else{alert('Submission failed. Please email info@terasuneurope.com.');}
-   * }).catch(function(){alert('Network error. Please email info@terasuneurope.com.');});
-   * return;
-   */
+  var btn=document.querySelector('#contactForm button[type="submit"]');
+  if(btn){btn.disabled=true;btn.textContent='Sending…';}
 
-  openModal();
+  fetch('https://formspree.io/f/mbdvkyak',{
+    method:'POST',
+    headers:{'Content-Type':'application/json','Accept':'application/json'},
+    body:JSON.stringify({
+      name:name,
+      email:email,
+      company:company,
+      country:country,
+      volume:document.getElementById('f-volume').value,
+      website:document.getElementById('f-website').value,
+      enquiry_type:document.getElementById('f-type').value,
+      message:msg
+    })
+  }).then(function(r){
+    if(btn){btn.disabled=false;btn.textContent='Send enquiry';}
+    if(r.ok){openModal();}
+    else{alert('Submission failed. Please email info@terasuneurope.com.');}
+  }).catch(function(){
+    if(btn){btn.disabled=false;btn.textContent='Send enquiry';}
+    alert('Network error. Please email info@terasuneurope.com.');
+  });
 }
 
 function openModal(){
