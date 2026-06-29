@@ -597,6 +597,9 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
       <div class="card card-gold"><h3>Silica aggregate</h3><p>Filler contributing to density, compressive strength, and surface hardness of the finished board.</p></div>
       <div class="card card-gold"><h3>Autoclaved curing</h3><p>High-pressure steam curing ensures permanent hydration and eliminates post-installation shrinkage.</p></div>
     </div>
+    <div style="margin-top:2.5rem">
+      <button class="btn-p" onclick="go('quotation')" style="font-size:12px">Request a quotation →</button>
+    </div>
   </div>
 </section>
 
@@ -688,6 +691,9 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
       <div class="cert-card"><div class="cert-icon" aria-hidden="true">📜</div><div><h3>Authorisation letter</h3><span class="cert-ref">Manufacturer → Terasun Europe</span><p>Confirms Terasun Europe as the Authorised European Representative of Zhejiang Terasun Air Duct Co., Ltd.</p><a class="dl-btn" href="/docs/Terasun-Authorization-Letter.pdf">↓ Download PDF</a></div></div>
       <div class="cert-card"><div class="cert-icon" aria-hidden="true">⚗️</div><div><h3>REACH / SVHC declaration</h3><span class="cert-ref">No SVHC above 0.1% w/w</span><p>EU REACH regulation compliance. Asbestos-free confirmed. Available on request.</p><a class="dl-btn" href="mailto:info@terasuneurope.com">↓ Request by email</a></div></div>
     </div>
+    <div style="margin-top:2.5rem">
+      <button class="btn-p" onclick="go('quotation')" style="font-size:12px">Request a quotation →</button>
+    </div>
   </div>
 </section>
 
@@ -751,6 +757,9 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
     <div class="event-banner">
       <div><h3>Meet us at FinnBuild 2026</h3><p>Helsinki · Messukeskus · Nordic region's leading construction trade fair</p></div>
       <div class="event-date"><time datetime="2026-09-29">29 Sep – 1 Oct 2026</time></div>
+    </div>
+    <div style="margin-top:2.5rem">
+      <button class="btn-p" onclick="go('quotation')" style="font-size:12px">Request a distributor quotation →</button>
     </div>
   </div>
 </section>
@@ -837,18 +846,19 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
     <p class="stag">Price quotation</p>
     <h2 class="stitle">Request a Quotation</h2>
     <div class="rule" aria-hidden="true"></div>
-    <p class="ssub">Fill in the form below to receive a price offer for Terasun TSM cement boards. All fields marked * are required.</p>
+    <p class="ssub">Complete the form below to receive a detailed price offer covering product cost and logistics to your destination. All fields marked * are required.</p>
     <div class="quot-wrap">
       <div>
         <form id="quotationForm" action="https://formspree.io/f/mbdvkyak" method="POST" novalidate>
 
           <!-- Hidden fields -->
-          <input type="hidden" name="form_type" value="Price quotation request">
+          <input type="hidden" name="form_type" value="Quotation request">
           <input type="hidden" name="source" value="Terasun Europe website">
+          <input type="hidden" name="product" value="TSM Cement Board">
 
-          <!-- Customer information -->
+          <!-- 1. Customer information -->
           <div class="quot-group">
-            <div class="quot-group-title">Customer information</div>
+            <div class="quot-group-title">1 — Customer information</div>
             <div class="quot-group-body">
               <div class="form-row">
                 <div class="form-field"><label for="q-name">Full name *</label><input type="text" id="q-name" name="name" placeholder="Anna Müller" required autocomplete="name"></div>
@@ -870,77 +880,51 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
                 </div>
                 <div class="form-field"><label for="q-website">Company website</label><input type="url" id="q-website" name="website" placeholder="https://yourcompany.com" autocomplete="url"></div>
               </div>
+              <div class="form-field"><label for="q-biztype">Business type</label>
+                <select id="q-biztype" name="business_type">
+                  <option value="">Select type</option>
+                  <option>Distributor</option>
+                  <option>Building contractor</option>
+                  <option>Facade contractor</option>
+                  <option>Wet room contractor</option>
+                  <option>Architect / designer</option>
+                  <option>Developer</option>
+                  <option>Retailer / building material store</option>
+                  <option>Other</option>
+                </select>
+              </div>
             </div>
           </div>
 
-          <!-- Product selection -->
+          <!-- 2. Product selection -->
           <div class="quot-group">
-            <div class="quot-group-title">Product selection</div>
+            <div class="quot-group-title">2 — Product selection</div>
             <div class="quot-group-body">
-              <div class="form-field">
-                <label for="q-product">Product</label>
-                <input type="text" id="q-product" name="product" value="TSM Cement Board" readonly style="background:var(--white);color:var(--muted);cursor:default">
-              </div>
               <div class="form-row">
                 <div class="form-field"><label for="q-thickness">Thickness *</label>
                   <select id="q-thickness" name="thickness" required>
                     <option value="">Select thickness</option>
-                    <option>6 mm</option>
-                    <option>8 mm</option>
-                    <option>9 mm</option>
-                    <option>10 mm</option>
-                    <option>12 mm</option>
-                    <option>15 mm</option>
-                    <option>18 mm</option>
-                    <option>Other / ask separately</option>
+                    <option>6 mm</option><option>8 mm</option><option>9 mm</option><option>10 mm</option>
+                    <option>12 mm</option><option>15 mm</option><option>18 mm</option>
+                    <option>Other / please specify</option>
                   </select>
                 </div>
-                <div class="form-field"><label for="q-size">Board size</label>
-                  <select id="q-size" name="board_size">
+                <div class="form-field"><label for="q-size">Board size *</label>
+                  <select id="q-size" name="board_size" required>
                     <option value="">Select size</option>
                     <option>1200 × 2400 mm</option>
                     <option>1200 × 2500 mm</option>
                     <option>1200 × 2600 mm</option>
                     <option>1200 × 3000 mm</option>
-                    <option>Other size</option>
+                    <option>Other / please specify</option>
                   </select>
                 </div>
               </div>
-            </div>
-          </div>
-
-          <!-- Quantity -->
-          <div class="quot-group">
-            <div class="quot-group-title">Quantity *</div>
-            <div class="quot-group-body">
-              <div class="form-row">
-                <div class="form-field"><label for="q-qty-boards">Number of boards</label><input type="number" id="q-qty-boards" name="quantity_boards" min="1" placeholder="e.g. 500"></div>
-                <div class="form-field"><label for="q-qty-m2">Square metres (m²)</label><input type="number" id="q-qty-m2" name="quantity_m2" min="1" placeholder="e.g. 720"></div>
-              </div>
-              <div class="form-row">
-                <div class="form-field"><label for="q-qty-pallets">Pallets</label><input type="number" id="q-qty-pallets" name="quantity_pallets" min="1" placeholder="e.g. 10"></div>
-                <div class="form-field"><label for="q-qty-container">Container / truckload enquiry</label>
-                  <select id="q-qty-container" name="quantity_container">
-                    <option value="">— select if applicable —</option>
-                    <option>1 container (20ft)</option>
-                    <option>1 container (40ft)</option>
-                    <option>1 truckload</option>
-                    <option>Multiple containers / regular supply</option>
-                  </select>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Application -->
-          <div class="quot-group">
-            <div class="quot-group-title">Application</div>
-            <div class="quot-group-body">
-              <div class="form-field"><label for="q-application">Intended use</label>
+              <div class="form-field"><label for="q-application">Application</label>
                 <select id="q-application" name="application">
                   <option value="">Select application</option>
-                  <option>Facade</option>
-                  <option>Wet room</option>
+                  <option>Facade cladding</option>
+                  <option>Wet room substrate</option>
                   <option>Fire-rated partition</option>
                   <option>Ceiling</option>
                   <option>Floor</option>
@@ -951,51 +935,146 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
             </div>
           </div>
 
-          <!-- Delivery -->
+          <!-- 3. Quantity -->
           <div class="quot-group">
-            <div class="quot-group-title">Delivery</div>
+            <div class="quot-group-title">3 — Quantity * <span style="font-weight:400;text-transform:none;letter-spacing:0;font-size:10px;color:var(--light)">(fill in at least one)</span></div>
             <div class="quot-group-body">
               <div class="form-row">
-                <div class="form-field"><label for="q-del-country">Delivery country</label><input type="text" id="q-del-country" name="delivery_country" placeholder="e.g. Germany" autocomplete="country-name"></div>
-                <div class="form-field"><label for="q-del-city">Delivery city / port</label><input type="text" id="q-del-city" name="delivery_city" placeholder="e.g. Hamburg" autocomplete="address-level2"></div>
+                <div class="form-field"><label for="q-qty-boards">Number of boards</label><input type="number" id="q-qty-boards" name="quantity_boards" min="1" placeholder="e.g. 500"></div>
+                <div class="form-field"><label for="q-qty-m2">Square metres (m²)</label><input type="number" id="q-qty-m2" name="quantity_m2" min="1" placeholder="e.g. 720"></div>
               </div>
               <div class="form-row">
-                <div class="form-field"><label for="q-del-time">Desired delivery time</label><input type="text" id="q-del-time" name="delivery_time" placeholder="e.g. Q3 2026 / ASAP"></div>
-                <div class="form-field"><label for="q-incoterms">Incoterms / delivery preference</label>
-                  <select id="q-incoterms" name="incoterms">
-                    <option value="">— if known —</option>
-                    <option>EXW (Ex Works)</option>
-                    <option>FOB</option>
-                    <option>CIF</option>
-                    <option>DAP (Delivered at Place)</option>
-                    <option>DDP (Delivered Duty Paid)</option>
-                    <option>Not sure / open to advice</option>
+                <div class="form-field"><label for="q-qty-pallets">Number of pallets</label><input type="number" id="q-qty-pallets" name="quantity_pallets" min="1" placeholder="e.g. 10"></div>
+                <div class="form-field"><label for="q-qty-container">Container enquiry</label>
+                  <select id="q-qty-container" name="quantity_container">
+                    <option value="">— select if applicable —</option>
+                    <option>Less than container load</option>
+                    <option>20 ft container</option>
+                    <option>40 ft container</option>
+                    <option>Multiple containers</option>
+                    <option>Not sure yet</option>
                   </select>
                 </div>
               </div>
             </div>
           </div>
 
-          <!-- Message -->
+          <!-- 4. Logistics -->
           <div class="quot-group">
-            <div class="quot-group-title">Additional information</div>
+            <div class="quot-group-title">4 — Logistics &amp; delivery</div>
             <div class="quot-group-body">
-              <div class="form-field"><label for="q-message">Project details / additional notes</label><textarea id="q-message" name="message" placeholder="Describe the project, site conditions, or any additional requirements."></textarea></div>
+              <p style="font-size:12px;color:var(--muted);line-height:1.7;margin-bottom:1rem;padding:.65rem .9rem;background:var(--gold-light);border:1px solid var(--gold-border);border-radius:4px">
+                <strong style="color:var(--dark)">Important:</strong> Terasun Europe can calculate sea freight to the arrival port. Inland delivery from the port to the final destination must be calculated separately — please specify both.
+              </p>
+              <div class="form-row">
+                <div class="form-field"><label for="q-incoterms">Preferred Incoterms</label>
+                  <select id="q-incoterms" name="incoterms">
+                    <option value="">— select or ask —</option>
+                    <option>FOB China port</option>
+                    <option>CIF arrival port</option>
+                    <option>DAP final destination</option>
+                    <option>DDP if available</option>
+                    <option>Not sure / please advise</option>
+                  </select>
+                </div>
+                <div class="form-field"><label for="q-arrival-port">Preferred arrival port *</label>
+                  <select id="q-arrival-port" name="arrival_port" required>
+                    <option value="">Select port</option>
+                    <option>Helsinki</option><option>Kotka</option><option>Turku</option>
+                    <option>Stockholm</option><option>Gothenburg</option><option>Oslo</option>
+                    <option>Copenhagen</option><option>Hamburg</option><option>Rotterdam</option>
+                    <option>Antwerp</option><option>Gdansk</option><option>Tallinn</option>
+                    <option>Riga</option><option>Klaipeda</option>
+                    <option>Other port / please specify</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-field"><label for="q-del-country">Final delivery country *</label><input type="text" id="q-del-country" name="delivery_country" placeholder="e.g. Germany" required autocomplete="country-name"></div>
+                <div class="form-field"><label for="q-del-city">Final delivery city *</label><input type="text" id="q-del-city" name="delivery_city" placeholder="e.g. Hamburg" required autocomplete="address-level2"></div>
+              </div>
+              <div class="form-row">
+                <div class="form-field"><label for="q-del-postal">Postal code</label><input type="text" id="q-del-postal" name="delivery_postal_code" placeholder="e.g. 20457" autocomplete="postal-code"></div>
+                <div class="form-field"><label for="q-del-address">Delivery address</label><input type="text" id="q-del-address" name="delivery_address" placeholder="Street address if available" autocomplete="street-address"></div>
+              </div>
+              <div class="form-row">
+                <div class="form-field"><label for="q-unloading">Unloading equipment at destination</label>
+                  <select id="q-unloading" name="unloading_equipment">
+                    <option value="">— select —</option>
+                    <option>Yes, forklift available</option>
+                    <option>Yes, crane available</option>
+                    <option>No unloading equipment</option>
+                    <option>Not sure</option>
+                  </select>
+                </div>
+                <div class="form-field"><label for="q-del-access">Delivery access</label>
+                  <select id="q-del-access" name="delivery_access">
+                    <option value="">— select —</option>
+                    <option>Warehouse</option>
+                    <option>Construction site</option>
+                    <option>Retail store</option>
+                    <option>Port pickup only</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-field"><label for="q-del-time">Desired delivery time</label>
+                <select id="q-del-time" name="delivery_time">
+                  <option value="">— select —</option>
+                  <option>As soon as possible</option>
+                  <option>Within 1 month</option>
+                  <option>Within 2–3 months</option>
+                  <option>Flexible</option>
+                  <option>Specific deadline (specify in message)</option>
+                </select>
+              </div>
             </div>
           </div>
 
-          <div id="quot-error" role="alert" style="display:none;color:#c0392b;font-size:13px;margin-bottom:.75rem;padding:.6rem .9rem;background:#fff0f0;border:1px solid #f5c6c6;border-radius:4px"></div>
+          <!-- 5. Project information -->
+          <div class="quot-group">
+            <div class="quot-group-title">5 — Project information</div>
+            <div class="quot-group-body">
+              <div class="form-row">
+                <div class="form-field"><label for="q-project-name">Project name</label><input type="text" id="q-project-name" name="project_name" placeholder="e.g. Riverside Apartments Block C"></div>
+                <div class="form-field"><label for="q-project-type">Project type</label>
+                  <select id="q-project-type" name="project_type">
+                    <option value="">Select type</option>
+                    <option>Residential</option><option>Commercial</option><option>Industrial</option>
+                    <option>Public building</option><option>Renovation</option><option>New construction</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-field"><label for="q-annual-vol">Estimated annual volume (if distributor)</label><input type="text" id="q-annual-vol" name="annual_volume" placeholder="e.g. 2–3 containers / year"></div>
+                <div class="form-field"><label for="q-supply-type">One-time or recurring supply</label>
+                  <select id="q-supply-type" name="supply_type">
+                    <option value="">— select —</option>
+                    <option>One-time project</option>
+                    <option>Regular supply</option>
+                    <option>Distributor stock order</option>
+                    <option>Not sure yet</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-field"><label for="q-message">Additional message / technical requirements</label><textarea id="q-message" name="message" placeholder="Project details, site conditions, specific technical requirements, or any other information that will help us prepare an accurate quotation."></textarea></div>
+            </div>
+          </div>
+
+          <div id="quot-error" role="alert" style="display:none;color:#c0392b;font-size:13px;margin-bottom:.75rem;padding:.75rem 1rem;background:#fff0f0;border:1px solid #f5c6c6;border-radius:4px"></div>
           <button type="submit" class="submit-btn">Send quotation request →</button>
-          <p style="font-size:11px;color:var(--light);margin-top:.75rem">We respond within 2 business days. Your information is handled confidentially.</p>
+          <p style="font-size:11px;color:var(--light);margin-top:.75rem">We respond within 2 business days. Your information is handled confidentially and not shared with third parties.</p>
         </form>
       </div>
       <div class="quot-sidebar">
         <div class="quot-why">
           <h3>Why request a quotation?</h3>
-          <div class="quot-why-item"><div class="quot-why-dot"></div><p>Receive a detailed price offer tailored to your project volume and delivery destination.</p></div>
-          <div class="quot-why-item"><div class="quot-why-dot"></div><p>All quotations include product specification, available sizes, and lead time estimate.</p></div>
-          <div class="quot-why-item"><div class="quot-why-dot"></div><p>We support single shipments and ongoing distributor supply arrangements.</p></div>
-          <div class="quot-why-item"><div class="quot-why-dot"></div><p>CE certificate, DoP, EPD and full technical documentation provided on request.</p></div>
+          <div class="quot-why-item"><div class="quot-why-dot"></div><p>Receive a price offer covering both product cost and sea freight to your preferred arrival port.</p></div>
+          <div class="quot-why-item"><div class="quot-why-dot"></div><p>Inland delivery from the port to your site can be arranged separately — specify both locations in the form.</p></div>
+          <div class="quot-why-item"><div class="quot-why-dot"></div><p>All quotations include lead time, packaging details, and CE documentation references.</p></div>
+          <div class="quot-why-item"><div class="quot-why-dot"></div><p>We support single project shipments and ongoing distributor stock arrangements.</p></div>
+          <div class="quot-why-item"><div class="quot-why-dot"></div><p>CE certificate, DoP, EPD and full technical documentation included on request.</p></div>
         </div>
         <div class="quot-note-box">
           <p><strong style="color:var(--dark)">Product:</strong> Terasun TSM Cement Board<br>
@@ -1173,7 +1252,7 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
 <div class="modal-bg" id="modal-quot" role="dialog" aria-modal="true" aria-labelledby="modal-quot-title" aria-hidden="true">
   <div class="modal">
     <h2 id="modal-quot-title" class="modal h3">Quotation request sent</h2>
-    <p>Thank you. Your quotation request has been sent. Terasun Europe will contact you shortly.<br><br>For urgent matters: <strong>info@terasuneurope.com</strong></p>
+    <p>Thank you. Your quotation request has been sent. Terasun Europe will review the product specification and logistics details and contact you shortly.<br><br>For urgent matters: <strong>info@terasuneurope.com</strong></p>
     <button class="modal-close" onclick="closeModal('modal-quot')">Close</button>
   </div>
 </div>
@@ -1374,25 +1453,41 @@ document.addEventListener('keydown',function(e){
     var company=document.getElementById('q-company').value.trim();
     var country=document.getElementById('q-country').value;
     var thickness=document.getElementById('q-thickness').value;
+    var size=document.getElementById('q-size').value;
     var boards=document.getElementById('q-qty-boards').value.trim();
     var m2=document.getElementById('q-qty-m2').value.trim();
     var pallets=document.getElementById('q-qty-pallets').value.trim();
     var container=document.getElementById('q-qty-container').value;
+    var arrivalPort=document.getElementById('q-arrival-port').value;
+    var delCountry=document.getElementById('q-del-country').value.trim();
+    var delCity=document.getElementById('q-del-city').value.trim();
 
-    if(!name||!email||!company||!country){
-      showErr('Please fill in your full name, company, country and email.');
+    if(!name||!company||!country||!email){
+      showErr('Something went wrong. Please check the required fields or contact Terasun Europe directly.');
       return;
     }
     if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){
-      showErr('Please enter a valid email address.');
+      showErr('Something went wrong. Please check the required fields or contact Terasun Europe directly.');
       return;
     }
     if(!thickness){
-      showErr('Please select a product thickness.');
+      showErr('Something went wrong. Please check the required fields or contact Terasun Europe directly.');
+      return;
+    }
+    if(!size){
+      showErr('Something went wrong. Please check the required fields or contact Terasun Europe directly.');
       return;
     }
     if(!boards&&!m2&&!pallets&&!container){
-      showErr('Please enter a quantity (boards, m², pallets, or container type).');
+      showErr('Something went wrong. Please check the required fields or contact Terasun Europe directly.');
+      return;
+    }
+    if(!arrivalPort){
+      showErr('Something went wrong. Please check the required fields or contact Terasun Europe directly.');
+      return;
+    }
+    if(!delCountry||!delCity){
+      showErr('Something went wrong. Please check the required fields or contact Terasun Europe directly.');
       return;
     }
 
@@ -1416,20 +1511,18 @@ document.addEventListener('keydown',function(e){
       } else {
         return r.json().then(function(data){
           console.error('[Formspree/quot] Error:',JSON.stringify(data));
-          var errMsg=data&&data.errors
-            ?data.errors.map(function(x){return x.message;}).join(' ')
-            :'Submission failed (HTTP '+r.status+').';
+          console.error('[Formspree/quot] Error response:',JSON.stringify(data));
           if(btn){btn.disabled=false;btn.textContent='Send quotation request →';}
-          showErr(errMsg+' Please email info@terasuneurope.com.');
+          showErr('Something went wrong. Please check the required fields or contact Terasun Europe directly.');
         }).catch(function(){
           if(btn){btn.disabled=false;btn.textContent='Send quotation request →';}
-          showErr('Submission failed (HTTP '+r.status+'). Please email info@terasuneurope.com.');
+          showErr('Something went wrong. Please check the required fields or contact Terasun Europe directly.');
         });
       }
     }).catch(function(err){
       console.error('[Formspree/quot] Network error:',err);
       if(btn){btn.disabled=false;btn.textContent='Send quotation request →';}
-      showErr('Network error — please email info@terasuneurope.com.');
+      showErr('Something went wrong. Please check the required fields or contact Terasun Europe directly.');
     });
   });
 })();
