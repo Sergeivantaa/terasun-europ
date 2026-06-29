@@ -1,0 +1,1062 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Terasun Europe — Fiber Cement Boards | Authorised European Representative</title>
+<meta name="description" content="Terasun TSM fiber cement boards — CE certified, ETA 24/0895. Authorised European Representative: Terasun Europe, Helsinki, Finland.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#f8f7f4;--white:#fff;--dark:#1a1c22;--dark2:#2c2f3a;
+  --gold:#b8932a;--gold2:#d4a832;--gold-light:#f5edd8;--gold-border:#e8d5a0;
+  --text:#1a1c22;--muted:#6b6e7a;--light:#9a9da8;--border:#e2e0d8;--border2:#d0cdc3;
+  --r:4px;
+}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'Helvetica Neue',Arial,sans-serif;font-size:16px;line-height:1.6}
+a{color:var(--gold);text-decoration:none}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:300;background:var(--white);border-bottom:1px solid var(--border);box-shadow:0 1px 10px rgba(0,0,0,.06)}
+.nav-inner{max-width:1280px;margin:0 auto;display:flex;align-items:center;height:64px;padding:0 2rem}
+.logo-wrap{display:flex;flex-direction:column;margin-right:2rem;flex-shrink:0;cursor:pointer}
+.logo-main{font-size:17px;font-weight:700;letter-spacing:1.5px;color:var(--dark);line-height:1}
+.logo-sub{font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-top:2px}
+.nav-links{display:flex;flex:1;overflow:hidden}
+.nav-links a{font-size:11px;font-weight:600;letter-spacing:.4px;color:var(--muted);padding:0 10px;height:64px;display:flex;align-items:center;white-space:nowrap;border-bottom:2px solid transparent;transition:color .2s,border-color .2s;text-decoration:none;text-transform:uppercase}
+.nav-links a:hover{color:var(--gold);border-bottom-color:var(--gold)}
+.nav-actions{display:flex;gap:8px;margin-left:1rem;flex-shrink:0}
+.btn-ghost{font-size:11px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:var(--gold);border:1px solid var(--gold-border);background:transparent;padding:8px 14px;border-radius:var(--r);cursor:pointer;transition:background .2s;white-space:nowrap}
+.btn-ghost:hover{background:var(--gold-light)}
+.btn-nav{font-size:11px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:var(--white);background:var(--gold);border:none;padding:8px 16px;border-radius:var(--r);cursor:pointer;transition:background .2s;white-space:nowrap}
+.btn-nav:hover{background:var(--gold2)}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;margin-left:.5rem;background:none;border:none}
+.hamburger span{display:block;width:22px;height:2px;background:var(--dark);border-radius:2px;transition:all .3s}
+@media(max-width:960px){.nav-links{display:none}.nav-actions .btn-ghost{display:none}.hamburger{display:flex}}
+@media(max-width:480px){.nav-actions .btn-nav{display:none}}
+
+/* MOBILE MENU */
+.mobile-menu{display:none;position:fixed;top:64px;left:0;right:0;bottom:0;background:var(--white);z-index:299;overflow-y:auto;padding:1.5rem;flex-direction:column;border-top:1px solid var(--border)}
+.mobile-menu.open{display:flex}
+.mobile-menu a{display:block;padding:.9rem 0;font-size:15px;font-weight:600;color:var(--text);border-bottom:1px solid var(--border);text-decoration:none}
+.mobile-menu a:hover{color:var(--gold)}
+.mob-btns{display:flex;flex-direction:column;gap:.75rem;margin-top:1.5rem}
+.mob-btn-p{background:var(--gold);color:#fff;padding:13px;font-size:12px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;border:none;border-radius:var(--r);cursor:pointer;width:100%}
+.mob-btn-s{background:transparent;color:var(--gold);padding:12px;font-size:12px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;border:1px solid var(--gold-border);border-radius:var(--r);cursor:pointer;width:100%}
+
+/* LAYOUT */
+section{padding:5rem 2rem}
+.container{max-width:1280px;margin:0 auto}
+.stag{font-size:10px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-bottom:.75rem}
+.stitle{font-size:clamp(1.7rem,3.2vw,2.6rem);font-weight:700;line-height:1.15;letter-spacing:-.5px;color:var(--dark);margin-bottom:1rem}
+.ssub{font-size:15px;color:var(--muted);max-width:640px;line-height:1.8;margin-bottom:2.5rem}
+.rule{width:36px;height:2px;background:var(--gold);margin:0 0 2rem}
+.s-alt{background:var(--white)}
+.s-dark{background:var(--dark)}
+.s-dark .stag{color:var(--gold2)}
+.s-dark .stitle{color:#fff}
+.s-dark .ssub{color:#9aa0b4}
+.s-dark .rule{opacity:1}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start}
+@media(max-width:800px){.two-col{grid-template-columns:1fr}}
+
+/* HERO */
+.hero{background:var(--dark);min-height:92vh;display:flex;align-items:center;padding:6rem 2rem 4rem;position:relative;overflow:hidden}
+.hero::after{content:'';position:absolute;right:0;top:0;width:40%;height:100%;background:linear-gradient(135deg,rgba(184,147,42,.07),transparent 60%);pointer-events:none}
+.hero-inner{max-width:1280px;margin:0 auto;width:100%;display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:center;position:relative;z-index:1}
+@media(max-width:800px){.hero-inner{grid-template-columns:1fr}}
+.hero-eyebrow{font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--gold2);margin-bottom:1.5rem;display:flex;align-items:center;gap:10px}
+.hero-eyebrow::before{content:'';display:block;width:28px;height:1px;background:var(--gold2)}
+.hero h1{font-size:clamp(2rem,4.5vw,3.8rem);font-weight:700;line-height:1.1;letter-spacing:-1px;color:#fff;margin-bottom:1.25rem}
+.hero h1 em{color:var(--gold2);font-style:normal}
+.hero-sub{font-size:15px;color:#9aa0b4;line-height:1.8;margin-bottom:2.5rem;max-width:480px}
+.hero-btns{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:1.75rem}
+.btn-p{background:var(--gold);color:#fff;font-size:12px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;padding:13px 26px;border-radius:var(--r);border:none;cursor:pointer;transition:background .2s}
+.btn-p:hover{background:var(--gold2)}
+.btn-s{background:transparent;color:#ccc;font-size:12px;font-weight:600;padding:13px 20px;border-radius:var(--r);border:1px solid rgba(255,255,255,.18);cursor:pointer;transition:all .2s}
+.btn-s:hover{border-color:var(--gold2);color:var(--gold2)}
+.hero-note{font-size:11px;color:#3a3e4e;line-height:1.6}
+.cert-grid-hero{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
+.hcert{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.09);border-radius:6px;padding:1rem 1.25rem}
+.hcert-label{font-size:9px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold2);margin-bottom:.3rem}
+.hcert-val{font-size:13px;font-weight:700;color:#fff;line-height:1.3}
+.hcert-note{font-size:11px;color:#6a6e7e;margin-top:2px}
+.hero-tagline{font-size:11px;color:#3a3e4e;margin-top:.75rem}
+
+/* TRUST BAR */
+.trust-bar{background:var(--white);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:1.25rem 2rem}
+.trust-inner{max-width:1280px;margin:0 auto;display:flex;justify-content:center;gap:2.5rem;flex-wrap:wrap;align-items:center}
+.trust-item{display:flex;align-items:center;gap:.5rem;font-size:11px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;color:var(--muted)}
+.trust-dot{width:5px;height:5px;border-radius:50%;background:var(--gold);flex-shrink:0}
+
+/* CARDS */
+.card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.25rem}
+.card{background:var(--white);border:1px solid var(--border);border-radius:6px;padding:1.75rem}
+.card-gold{border-top:2px solid var(--gold)}
+.card h3{font-size:.9rem;font-weight:700;margin-bottom:.5rem;color:var(--dark)}
+.card p{font-size:13px;color:var(--muted);line-height:1.7}
+
+/* ABOUT */
+.status-notice{background:var(--gold-light);border:1px solid var(--gold-border);border-radius:6px;padding:1.5rem;margin-top:1.5rem}
+.status-notice h4{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);margin-bottom:.6rem}
+.status-notice p{font-size:13px;color:#5a4a20;line-height:1.7}
+.apoints{display:flex;flex-direction:column;gap:1.25rem}
+.apoint{display:flex;gap:1rem;align-items:flex-start}
+.amark{color:var(--gold);font-size:13px;flex-shrink:0;margin-top:4px;font-weight:700}
+.apoint h4{font-size:.88rem;font-weight:700;margin-bottom:3px}
+.apoint p{font-size:13px;color:var(--muted);line-height:1.6}
+.mini-stats{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1.25rem}
+.mstat{background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:1.25rem}
+.mstat-num{font-size:1.6rem;font-weight:700;color:var(--gold);line-height:1}
+.mstat-label{font-size:11px;color:var(--muted);margin-top:4px}
+
+/* AUTHORISED REP */
+.auth-highlight{background:var(--gold-light);border:1px solid var(--gold-border);border-left:3px solid var(--gold);border-radius:6px;padding:1.75rem 2rem;margin-bottom:2rem}
+.auth-highlight h3{font-size:1rem;font-weight:700;color:var(--dark);margin-bottom:.75rem}
+.auth-highlight p{font-size:14px;color:#5a4a20;line-height:1.8}
+.auth-detail-row{display:flex;gap:2.5rem;flex-wrap:wrap;margin-top:1rem}
+.auth-detail strong{display:block;font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--gold);margin-bottom:3px}
+.auth-detail span{font-size:13px;color:#5a4a20}
+.auth-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.25rem;margin-top:2rem}
+.auth-card{background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:1.75rem}
+.auth-card h3{font-size:.9rem;font-weight:700;color:var(--dark);margin-bottom:.5rem}
+.auth-card p{font-size:13px;color:var(--muted);line-height:1.7}
+
+/* MANUFACTURER */
+.mfr-stats{display:grid;grid-template-columns:1fr 1fr;gap:.75rem;margin-bottom:1.25rem}
+.mfr-stat{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.09);border-radius:6px;padding:1.25rem}
+.mfr-stat-num{font-size:1.6rem;font-weight:700;color:var(--gold2);line-height:1}
+.mfr-stat-label{font-size:11px;color:#8a8e9e;margin-top:4px}
+.dark-box{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:6px;padding:1.25rem 1.5rem;margin-bottom:1.5rem}
+.dark-box p{font-size:12px;color:#5a5e6e;line-height:1.8}
+
+/* TIMELINE */
+.timeline{display:flex;flex-direction:column;margin-top:1rem}
+.tl-item{display:flex;gap:1.5rem;padding-bottom:2rem;position:relative}
+.tl-item::before{content:'';position:absolute;left:19px;top:40px;bottom:0;width:1px;background:var(--border2)}
+.tl-item:last-child::before{display:none}
+.tl-dot{width:40px;height:40px;border-radius:50%;background:var(--dark);border:2px solid var(--gold2);display:flex;align-items:center;justify-content:center;font-size:9px;font-weight:700;color:var(--gold2);flex-shrink:0;text-align:center;line-height:1.2}
+.tl-content h4{font-size:.88rem;font-weight:700;color:#ddd;margin-bottom:3px}
+.tl-content p{font-size:13px;color:#7a7e8e;line-height:1.6}
+
+/* SPEC TABLE */
+.spec-table{width:100%;border-collapse:collapse;font-size:14px;margin-bottom:2rem}
+.spec-table th{background:var(--dark);color:#fff;font-size:10px;font-weight:700;letter-spacing:.6px;text-transform:uppercase;padding:11px 16px;text-align:left}
+.spec-table td{padding:11px 16px;border-bottom:1px solid var(--border);color:var(--text)}
+.spec-table tr:nth-child(even) td{background:var(--white)}
+.spec-table td:first-child{font-weight:600;color:var(--muted);font-size:11px;letter-spacing:.3px;text-transform:uppercase;white-space:nowrap}
+
+/* APPLICATIONS */
+.app-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.25rem}
+.app-card{background:var(--white);border:1px solid var(--border);border-radius:6px;padding:1.75rem;transition:box-shadow .2s;position:relative;overflow:hidden}
+.app-card:hover{box-shadow:0 4px 20px rgba(0,0,0,.08)}
+.app-card::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:var(--gold);opacity:0;transition:opacity .2s}
+.app-card:hover::after{opacity:1}
+.app-icon{width:42px;height:42px;border-radius:6px;background:var(--gold-light);border:1px solid var(--gold-border);display:flex;align-items:center;justify-content:center;font-size:18px;margin-bottom:1rem}
+.app-card h3{font-size:.9rem;font-weight:700;margin-bottom:.4rem}
+.app-card p{font-size:13px;color:var(--muted);line-height:1.7}
+.tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:.75rem}
+.tag{font-size:10px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;background:var(--bg);border:1px solid var(--border2);color:var(--muted);padding:3px 8px;border-radius:2px}
+
+/* FEATURE CARDS */
+.three-col{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.25rem}
+.feat-card{background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:1.75rem}
+.feat-num{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);margin-bottom:.6rem}
+.feat-card h3{font-size:.9rem;font-weight:700;margin-bottom:.5rem;color:var(--dark)}
+.feat-card p{font-size:13px;color:var(--muted);line-height:1.7}
+
+/* CERTIFICATIONS */
+.cert-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.25rem}
+.cert-card{background:var(--white);border:1px solid var(--border);border-radius:6px;padding:1.5rem;display:flex;gap:1.25rem;align-items:flex-start;transition:box-shadow .2s}
+.cert-card:hover{box-shadow:0 4px 16px rgba(0,0,0,.07)}
+.cert-icon{width:46px;height:46px;background:var(--gold-light);border:1px solid var(--gold-border);border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0}
+.cert-ref{font-size:10px;font-weight:700;letter-spacing:.5px;color:var(--gold);margin:.2rem 0 .4rem;display:block}
+.cert-card h4{font-size:.88rem;font-weight:700;margin-bottom:2px}
+.cert-card p{font-size:12px;color:var(--muted);line-height:1.5}
+.dl-btn{display:inline-flex;align-items:center;gap:5px;font-size:10px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:var(--gold);background:var(--gold-light);border:1px solid var(--gold-border);padding:5px 11px;border-radius:2px;cursor:pointer;margin-top:.6rem;text-decoration:none;transition:background .2s}
+.dl-btn:hover{background:var(--gold-border)}
+
+/* DOWNLOADS */
+.dl-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1rem}
+.dl-card{background:var(--white);border:1px solid var(--border);border-radius:6px;padding:1.1rem 1.4rem;display:flex;align-items:center;gap:1rem;transition:box-shadow .2s}
+.dl-card:hover{box-shadow:0 3px 14px rgba(0,0,0,.07)}
+.dl-file-icon{width:38px;height:38px;background:var(--bg);border:1px solid var(--border);border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+.dl-card h4{font-size:.82rem;font-weight:700;margin-bottom:2px}
+.dl-card p{font-size:11px;color:var(--muted)}
+.dl-link{margin-left:auto;font-size:18px;font-weight:700;color:var(--gold);text-decoration:none;flex-shrink:0;transition:color .2s}
+.dl-link:hover{color:var(--gold2)}
+
+/* DISTRIBUTOR */
+.dist-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1.25rem}
+.dist-card{background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:1.5rem}
+.dist-card h4{font-size:10px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;color:var(--gold);margin-bottom:.4rem}
+.dist-card p{font-size:13px;color:var(--muted);line-height:1.7}
+.eu-chips{display:flex;flex-wrap:wrap;gap:8px;margin:1.5rem 0}
+.chip{background:var(--white);border:1px solid var(--border);border-radius:3px;font-size:12px;padding:6px 13px;color:var(--muted);font-weight:500}
+.chip.active{background:var(--gold-light);border-color:var(--gold-border);color:var(--gold);font-weight:700}
+.event-banner{background:var(--dark);border-radius:6px;padding:2rem 2.5rem;display:flex;align-items:center;justify-content:space-between;gap:2rem;flex-wrap:wrap;margin-top:2.5rem}
+.event-banner h3{font-size:1rem;font-weight:700;color:#fff}
+.event-banner p{font-size:13px;color:#8a8e9e;margin-top:3px}
+.event-date{background:var(--gold);color:#fff;font-size:11px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;padding:8px 18px;border-radius:var(--r);white-space:nowrap}
+
+/* LOGISTICS */
+.log-steps{display:flex;flex-direction:column;gap:.75rem;max-width:860px}
+.log-step{display:flex;gap:1.5rem;background:var(--white);border:1px solid var(--border);border-radius:6px;padding:1.4rem}
+.log-num{font-size:10px;font-weight:700;letter-spacing:1px;color:var(--gold);flex-shrink:0;width:24px;padding-top:3px}
+.log-step h4{font-size:.88rem;font-weight:700;margin-bottom:4px}
+.log-step p{font-size:13px;color:var(--muted);line-height:1.6}
+.info-box{background:var(--white);border:1px solid var(--border);border-left:3px solid var(--gold);border-radius:4px;padding:1.25rem 1.5rem;margin-top:1.5rem}
+.info-box p{font-size:13px;color:var(--muted);line-height:1.8}
+
+/* COMPARISON */
+.comp-wrap{overflow-x:auto}
+table.comp{width:100%;border-collapse:collapse;font-size:13px;white-space:nowrap}
+table.comp th{background:var(--dark);color:#fff;font-size:10px;font-weight:700;letter-spacing:.7px;text-transform:uppercase;padding:11px 15px;text-align:left}
+table.comp td{padding:10px 15px;border-bottom:1px solid var(--border);color:var(--muted)}
+table.comp tr td:first-child{color:var(--text);font-weight:600}
+table.comp tr.tr-ours td{background:var(--gold-light)}
+table.comp tr.tr-ours td:first-child{color:var(--gold);font-weight:700}
+.ck{color:#3a9e5f;font-weight:700}
+.cn{color:#bbb}
+
+/* FAQ */
+.faq-list{max-width:800px;display:flex;flex-direction:column;gap:.6rem}
+.faq-item{background:var(--white);border:1px solid var(--border);border-radius:6px;overflow:hidden}
+.faq-q{padding:1rem 1.4rem;font-size:.88rem;font-weight:600;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:1rem;user-select:none;color:var(--dark)}
+.faq-q:hover{background:var(--bg)}
+.faq-arrow{color:var(--gold);font-size:15px;flex-shrink:0;transition:transform .25s}
+.faq-a{display:none;padding:.2rem 1.4rem 1rem;font-size:13px;color:var(--muted);line-height:1.8}
+.faq-item.open .faq-a{display:block}
+.faq-item.open .faq-arrow{transform:rotate(180deg)}
+
+/* CONTACT */
+.contact-wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:4rem;align-items:start}
+@media(max-width:800px){.contact-wrap{grid-template-columns:1fr}}
+.form-field{margin-bottom:.85rem}
+.form-field label{display:block;font-size:10px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
+.form-field input,.form-field select,.form-field textarea{width:100%;background:var(--bg);border:1px solid var(--border);border-radius:var(--r);padding:11px 13px;font-size:13px;color:var(--text);outline:none;font-family:inherit;transition:border-color .2s}
+.form-field input:focus,.form-field select:focus,.form-field textarea:focus{border-color:var(--gold);background:var(--white)}
+.form-field textarea{resize:vertical;min-height:110px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:.75rem}
+@media(max-width:500px){.form-row{grid-template-columns:1fr}}
+.submit-btn{width:100%;background:var(--gold);color:#fff;font-size:12px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;padding:14px;border-radius:var(--r);border:none;cursor:pointer;margin-top:.5rem;transition:background .2s}
+.submit-btn:hover{background:var(--gold2)}
+.cinfo-cards{display:flex;flex-direction:column;gap:1rem}
+.cinfo-card{background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:1.4rem}
+.cinfo-card h4{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);margin-bottom:.85rem}
+.cinfo-line{display:flex;gap:.75rem;align-items:baseline;font-size:13px;color:var(--muted);margin-bottom:.45rem;line-height:1.5}
+.cinfo-label{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.4px;color:var(--light);width:72px;flex-shrink:0}
+.social-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:.5rem}
+.social-btn{background:var(--white);border:1px solid var(--border);border-radius:3px;padding:7px 13px;font-size:11px;font-weight:600;color:var(--muted);cursor:pointer;text-decoration:none;transition:all .2s}
+.social-btn:hover{border-color:var(--gold);color:var(--gold)}
+
+/* FOOTER */
+footer{background:var(--dark2);padding:3rem 2rem 2rem}
+.footer-inner{max-width:1280px;margin:0 auto}
+.footer-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:3rem;margin-bottom:2.5rem}
+@media(max-width:800px){.footer-top{grid-template-columns:1fr 1fr}}
+@media(max-width:480px){.footer-top{grid-template-columns:1fr}}
+.footer-brand{font-size:15px;font-weight:700;color:#fff;letter-spacing:1px;margin-bottom:.3rem}
+.footer-brand-sub{font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold2);margin-bottom:1rem}
+.footer-desc{font-size:12px;line-height:1.8;color:#5a5e6e}
+.footer-col h5{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#fff;margin-bottom:.9rem}
+.footer-col a{font-size:12px;color:#5a5e6e;display:block;margin-bottom:.4rem;text-decoration:none;transition:color .2s}
+.footer-col a:hover{color:var(--gold2)}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.07);padding-top:1.5rem;display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:1rem}
+.footer-legal{font-size:11px;color:#3a3e4e;line-height:1.8;max-width:700px}
+.footer-links{display:flex;gap:1.5rem;flex-wrap:wrap}
+.footer-links a{font-size:11px;color:#3a3e4e;text-decoration:none;transition:color .2s}
+.footer-links a:hover{color:var(--gold2)}
+
+/* MODAL */
+.modal-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:999;align-items:center;justify-content:center;padding:1rem}
+.modal-bg.open{display:flex}
+.modal{background:var(--white);border-radius:8px;padding:2.5rem;max-width:400px;width:100%;text-align:center;border-top:3px solid var(--gold)}
+.modal h3{font-size:1.1rem;font-weight:700;color:var(--dark);margin-bottom:.75rem}
+.modal p{font-size:13px;color:var(--muted);line-height:1.7}
+.modal-close{margin-top:1.5rem;background:var(--gold);color:#fff;font-weight:700;border:none;border-radius:var(--r);padding:10px 28px;cursor:pointer;font-size:13px}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <div class="logo-wrap" onclick="go('top')">
+      <div class="logo-main">TERASUN</div>
+      <div class="logo-sub">Europe</div>
+    </div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#authorised">Authorisation</a>
+      <a href="#manufacturer">Manufacturer</a>
+      <a href="#product">Product</a>
+      <a href="#certs">Certificates</a>
+      <a href="#downloads">Downloads</a>
+      <a href="#distributors">Distributors</a>
+      <a href="#logistics">Logistics</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="nav-actions">
+      <button class="btn-ghost" onclick="go('downloads')">Downloads</button>
+      <button class="btn-nav" onclick="go('contact')">Request pricing</button>
+    </div>
+    <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" onclick="closeMenu()">About Terasun Europe</a>
+  <a href="#authorised" onclick="closeMenu()">Authorised Representative</a>
+  <a href="#manufacturer" onclick="closeMenu()">Manufacturer</a>
+  <a href="#product" onclick="closeMenu()">Product</a>
+  <a href="#applications" onclick="closeMenu()">Applications</a>
+  <a href="#architects" onclick="closeMenu()">For Architects</a>
+  <a href="#contractors" onclick="closeMenu()">For Contractors</a>
+  <a href="#quality" onclick="closeMenu()">Quality Control</a>
+  <a href="#certs" onclick="closeMenu()">Certifications</a>
+  <a href="#downloads" onclick="closeMenu()">Downloads</a>
+  <a href="#distributors" onclick="closeMenu()">Distributors</a>
+  <a href="#logistics" onclick="closeMenu()">Logistics</a>
+  <a href="#compare" onclick="closeMenu()">Compare</a>
+  <a href="#faq" onclick="closeMenu()">FAQ</a>
+  <a href="#contact" onclick="closeMenu()">Contact</a>
+  <div class="mob-btns">
+    <button class="mob-btn-p" onclick="go('downloads');closeMenu()">Download documents</button>
+    <button class="mob-btn-s" onclick="go('contact');closeMenu()">Request pricing</button>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero" id="top">
+  <div class="hero-inner">
+    <div>
+      <div class="hero-eyebrow">Authorised European Representative · Helsinki, Finland</div>
+      <h1>Fiber cement boards<br>for <em>European</em><br>construction</h1>
+      <p class="hero-sub">Terasun TSM — CE certified, ETA approved fiber cement boards for facade systems, fire-rated partitions, and wet room applications. Backed by full European technical documentation.</p>
+      <div class="hero-btns">
+        <button class="btn-p" onclick="go('contact')">Request distributor pricing</button>
+        <button class="btn-s" onclick="go('distributors')">Become a partner</button>
+        <button class="btn-s" onclick="go('downloads')">Download documents</button>
+      </div>
+      <p class="hero-note">Terasun Europe · Authorised European Representative · Helsinki, Finland<br>Manufacturer: Zhejiang Terasun Air Duct Co., Ltd.</p>
+    </div>
+    <div>
+      <div class="cert-grid-hero">
+        <div class="hcert"><div class="hcert-label">CE Marking</div><div class="hcert-val">1023-CPR-1565 P</div><div class="hcert-note">Construction Products Regulation</div></div>
+        <div class="hcert"><div class="hcert-label">ETA</div><div class="hcert-val">24/0895</div><div class="hcert-note">European Technical Assessment</div></div>
+        <div class="hcert"><div class="hcert-label">Fire Resistance</div><div class="hcert-val">E 120 / EI 90 / EW 120</div><div class="hcert-note">FIRES-CR-284-25-AUPE</div></div>
+        <div class="hcert"><div class="hcert-label">EPD</div><div class="hcert-val">EPD-IES-0018268</div><div class="hcert-note">Valid until 2029-03-14</div></div>
+      </div>
+      <div class="hero-tagline">9.96 kg/m² · 12 mm × 1200 mm × 2400 mm · Asbestos-free</div>
+    </div>
+  </div>
+</section>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+  <div class="trust-inner">
+    <div class="trust-item"><div class="trust-dot"></div>CE 1023-CPR-1565 P</div>
+    <div class="trust-item"><div class="trust-dot"></div>ETA 24/0895</div>
+    <div class="trust-item"><div class="trust-dot"></div>EPD ISO 14025</div>
+    <div class="trust-item"><div class="trust-dot"></div>E 120 / EI 90 / EW 120</div>
+    <div class="trust-item"><div class="trust-dot"></div>Full DoP</div>
+    <div class="trust-item"><div class="trust-dot"></div>REACH Compliant</div>
+    <div class="trust-item"><div class="trust-dot"></div>Asbestos-Free</div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section class="s-alt" id="about">
+  <div class="container">
+    <div class="two-col">
+      <div>
+        <div class="stag">About Terasun Europe</div>
+        <h2 class="stitle">Your European partner for Terasun fiber cement</h2>
+        <div class="rule"></div>
+        <div class="apoints">
+          <div class="apoint"><div class="amark">—</div><div><h4>Who we are</h4><p>Terasun Europe is the Authorised European Representative of Zhejiang Terasun Air Duct Co., Ltd. Based in Helsinki, Finland, we manage distribution, technical documentation, and commercial partnerships for Terasun TSM fiber cement boards across Europe.</p></div></div>
+          <div class="apoint"><div class="amark">—</div><div><h4>European regulatory expertise</h4><p>We manage CE certification, ETA documentation, and all European regulatory compliance. We provide full technical support and commercial partnerships across the EU and EEA.</p></div></div>
+          <div class="apoint"><div class="amark">—</div><div><h4>Established in Finland</h4><p>Since our founding, we have been actively distributing and supporting Terasun TSM boards in Finland, building references with contractors, developers, and architects.</p></div></div>
+          <div class="apoint"><div class="amark">—</div><div><h4>European distribution network</h4><p>We are building a structured European distributor network with open partnership opportunities across all major EU and EEA markets.</p></div></div>
+        </div>
+      </div>
+      <div>
+        <div class="stag">Our mission</div>
+        <p style="font-size:15px;color:var(--muted);line-height:1.9;margin-bottom:1.5rem">To bring a technically superior, fully CE-certified fiber cement board to European architects, contractors, and distributors — supported by professional documentation, reliable supply, and long-term partnership.</p>
+        <div class="status-notice">
+          <h4>Authorised European Representative</h4>
+          <p>Terasun Europe acts as the Authorised European Representative of Zhejiang Terasun Air Duct Co., Ltd. We manage all European documentation, certification, logistics, and commercial relationships. Terasun Europe is not the manufacturer of Terasun products.</p>
+        </div>
+        <div class="mini-stats">
+          <div class="mstat"><div class="mstat-num">3+</div><div class="mstat-label">Years active in Finland</div></div>
+          <div class="mstat"><div class="mstat-num">EU+</div><div class="mstat-label">Open distribution markets</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- AUTHORISED EUROPEAN REPRESENTATIVE -->
+<section id="authorised">
+  <div class="container">
+    <div class="stag">Legal status</div>
+    <h2 class="stitle">Authorised European Representative</h2>
+    <div class="rule"></div>
+    <div class="auth-highlight">
+      <h3>Terasun Europe — Authorised European Representative</h3>
+      <p>Terasun Europe is the Authorised European Representative of Zhejiang Terasun Air Duct Co., Ltd. (China), headquartered in Helsinki, Finland. We represent Terasun for the purpose of making Terasun TSM fiber cement boards available on the European market in compliance with the EU Construction Products Regulation (CPR).</p>
+      <div class="auth-detail-row">
+        <div class="auth-detail"><strong>Company</strong><span>Terasun Europe</span></div>
+        <div class="auth-detail"><strong>Status</strong><span>Authorised European Representative</span></div>
+        <div class="auth-detail"><strong>Location</strong><span>Helsinki, Finland</span></div>
+        <div class="auth-detail"><strong>Manufacturer</strong><span>Zhejiang Terasun Air Duct Co., Ltd.</span></div>
+      </div>
+    </div>
+    <div class="auth-grid">
+      <div class="auth-card">
+        <h3>CPR compliance management</h3>
+        <p>Terasun Europe holds and maintains the CE marking (1023-CPR-1565 P), Declaration of Performance (DoP TRS-20250610F), and European Technical Assessment (ETA 24/0895) required under the EU Construction Products Regulation for Terasun TSM boards.</p>
+      </div>
+      <div class="auth-card">
+        <h3>Technical documentation</h3>
+        <p>All European technical documentation — ETA, CE, DoP, EPD, fire test report, REACH declaration, and installation guides — is managed and distributed by Terasun Europe on behalf of the manufacturer.</p>
+      </div>
+      <div class="auth-card">
+        <h3>Manufacturer relationship</h3>
+        <p>Zhejiang Terasun Air Duct Co., Ltd. is the product manufacturer, founded in 1989 and based in China. The company produces Terasun TSM fiber cement boards for the European market under the CE/ETA framework managed by Terasun Europe.</p>
+      </div>
+      <div class="auth-card">
+        <h3>Authorisation letter</h3>
+        <p>An authorisation letter confirming Terasun Europe's role as Authorised European Representative is available for download. Provided for use in procurement, tendering, and specification processes.</p>
+        <a class="dl-btn" href="/downloads/Terasun-Authorization-Letter.pdf">↓ Download authorisation letter</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MANUFACTURER -->
+<section class="s-dark" id="manufacturer">
+  <div class="container">
+    <div class="two-col">
+      <div>
+        <div class="stag">About the manufacturer</div>
+        <h2 class="stitle">Zhejiang Terasun Air Duct Co., Ltd.</h2>
+        <div class="rule"></div>
+        <p style="font-size:15px;color:#9aa0b4;line-height:1.9;margin-bottom:1.5rem">Founded in 1989, Zhejiang Terasun Air Duct Co., Ltd. is an established Chinese manufacturer of fiber cement and construction board products. With decades of manufacturing experience, Terasun has developed a product range fully compliant with European technical standards.</p>
+        <div class="apoints">
+          <div class="apoint"><div class="amark" style="color:var(--gold2)">—</div><div><h4 style="color:#ddd">Manufacturing facilities</h4><p style="color:#9aa0b4">Modern production lines with capacity for large-volume export orders. Factory equipped for consistent quality control across all board specifications.</p></div></div>
+          <div class="apoint"><div class="amark" style="color:var(--gold2)">—</div><div><h4 style="color:#ddd">Quality control</h4><p style="color:#9aa0b4">All boards produced in compliance with ETA 24/0895 requirements. Third-party testing ensures performance data matches the Declaration of Performance.</p></div></div>
+          <div class="apoint"><div class="amark" style="color:var(--gold2)">—</div><div><h4 style="color:#ddd">International certifications</h4><p style="color:#9aa0b4">CE marked for the EU market. ETA 24/0895 issued. EPD EPD-IES-0018268 (ISO 14025) available. Fire resistance independently tested per FIRES-CR-284-25-AUPE.</p></div></div>
+        </div>
+      </div>
+      <div>
+        <div class="mfr-stats">
+          <div class="mfr-stat"><div class="mfr-stat-num">1989</div><div class="mfr-stat-label">Founded</div></div>
+          <div class="mfr-stat"><div class="mfr-stat-num">EI 90</div><div class="mfr-stat-label">Fire resistance</div></div>
+          <div class="mfr-stat"><div class="mfr-stat-num">CE</div><div class="mfr-stat-label">EU certified</div></div>
+          <div class="mfr-stat"><div class="mfr-stat-num">EPD</div><div class="mfr-stat-label">Eco declaration</div></div>
+        </div>
+        <div class="dark-box">
+          <p>Manufacturer: Zhejiang Terasun Air Duct Co., Ltd., China.<br>European Representative: Terasun Europe, Helsinki, Finland.<br>Terasun Europe is not the manufacturer of Terasun products.</p>
+        </div>
+        <div class="stag" style="color:var(--gold2)">Company history</div>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-dot">1989</div>
+            <div class="tl-content"><h4>Founded</h4><p>Zhejiang Terasun Air Duct Co., Ltd. established as a fiber cement manufacturer in China.</p></div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot">2024</div>
+            <div class="tl-content"><h4>ETA 24/0895 issued</h4><p>European Technical Assessment granted, confirming product performance for the EU market.</p></div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot" style="font-size:8px">2025</div>
+            <div class="tl-content"><h4>EPD published</h4><p>EPD-IES-0018268 published 2025-03-14, valid until 2029-03-14. ISO 14025 compliant.</p></div>
+          </div>
+          <div class="tl-item">
+            <div class="tl-dot">2026</div>
+            <div class="tl-content"><h4>European expansion</h4><p>Terasun Europe opens structured distribution partnerships across EU and EEA markets.</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCT -->
+<section id="product">
+  <div class="container">
+    <div class="stag">Product</div>
+    <h2 class="stitle">Terasun TSM — Fiber Cement Board</h2>
+    <div class="rule"></div>
+    <p class="ssub">A cement-based construction panel reinforced with cellulose fiber. Engineered for structural performance, moisture resistance, and fire safety. Asbestos-free. CE certified for European markets.</p>
+    <h3 style="font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-bottom:1rem">Technical specifications — verified values only</h3>
+    <div style="overflow-x:auto;margin-bottom:3rem">
+      <table class="spec-table">
+        <thead><tr><th>Property</th><th>Value</th><th>Reference / note</th></tr></thead>
+        <tbody>
+          <tr><td>Board size (declared)</td><td>12 mm × 1200 mm × 2400 mm</td><td>Declared unit per EPD-IES-0018268</td></tr>
+          <tr><td>Weight</td><td>9.96 kg/m²</td><td>At 12 mm — EPD-IES-0018268</td></tr>
+          <tr><td>EPD declared unit</td><td>1 m²</td><td>EPD-IES-0018268</td></tr>
+          <tr><td>EPD publication date</td><td>2025-03-14</td><td>EPD-IES-0018268</td></tr>
+          <tr><td>EPD valid until</td><td>2029-03-14</td><td>EPD-IES-0018268</td></tr>
+          <tr><td>Fire resistance</td><td>E 120 / EI 90 / EW 120</td><td>Test report FIRES-CR-284-25-AUPE</td></tr>
+          <tr><td>CE Marking</td><td>1023-CPR-1565 P</td><td>Construction Products Regulation</td></tr>
+          <tr><td>ETA</td><td>24/0895</td><td>European Technical Assessment</td></tr>
+          <tr><td>Declaration of Performance</td><td>DoP TRS-20250610F</td><td>Per ETA 24/0895</td></tr>
+          <tr><td>Binder</td><td>Portland cement</td><td>—</td></tr>
+          <tr><td>Reinforcement</td><td>Cellulose fiber</td><td>Asbestos-free</td></tr>
+          <tr><td>Manufacturing process</td><td>Autoclaved</td><td>Dimensional stability</td></tr>
+          <tr><td>Moisture resistance</td><td>High</td><td>Wet room and facade applications</td></tr>
+          <tr><td>Stud spacing</td><td>400 or 600 mm</td><td>Timber or steel frame</td></tr>
+          <tr><td>Storage</td><td>Dry, flat, off the ground</td><td>Covered, horizontally stacked</td></tr>
+          <tr><td>Packaging</td><td>Palletised, shrink-wrapped</td><td>Container supply</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <h3 style="font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-bottom:1rem">Composition</h3>
+    <div class="card-grid">
+      <div class="card card-gold"><h3>Portland cement</h3><p>Primary binder providing structural rigidity and dimensional stability under load and temperature variation.</p></div>
+      <div class="card card-gold"><h3>Cellulose fiber</h3><p>Reinforcement matrix improving tensile strength and impact resistance. Asbestos-free formulation.</p></div>
+      <div class="card card-gold"><h3>Silica aggregate</h3><p>Filler contributing to density, compressive strength, and surface hardness of the finished board.</p></div>
+      <div class="card card-gold"><h3>Autoclaved curing</h3><p>High-pressure steam curing ensures permanent hydration and eliminates post-installation shrinkage.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- APPLICATIONS -->
+<section class="s-alt" id="applications">
+  <div class="container">
+    <div class="stag">Applications</div>
+    <h2 class="stitle">Where Terasun TSM is used</h2>
+    <div class="rule"></div>
+    <div class="app-grid">
+      <div class="app-card"><div class="app-icon">🏗️</div><h3>Facade cladding</h3><p>Ventilated facade systems (CBSS / CBMV). New construction and renovation across all European climate zones.</p><div class="tags"><span class="tag">Ventilated</span><span class="tag">All climates</span><span class="tag">Paintable</span></div></div>
+      <div class="app-card"><div class="app-icon">🔥</div><h3>Fire-rated partitions</h3><p>E 120 / EI 90 / EW 120 partition systems for commercial, public, and industrial buildings. Independently tested.</p><div class="tags"><span class="tag">E 120</span><span class="tag">EI 90</span><span class="tag">EW 120</span></div></div>
+      <div class="app-card"><div class="app-icon">🚿</div><h3>Wet rooms &amp; bathrooms</h3><p>High-moisture-resistance substrate compatible with Mapei Mapegum WPS and Schönox HA waterproofing systems.</p><div class="tags"><span class="tag">Mapei</span><span class="tag">Schönox</span></div></div>
+      <div class="app-card"><div class="app-icon">🏢</div><h3>Commercial buildings</h3><p>Interior and exterior applications in offices, retail, hospitality, and mixed-use developments.</p><div class="tags"><span class="tag">Interior</span><span class="tag">Exterior</span></div></div>
+      <div class="app-card"><div class="app-icon">🏭</div><h3>Industrial buildings</h3><p>Cladding and partition solutions for warehouses, production facilities, and logistics centres.</p><div class="tags"><span class="tag">Industrial</span><span class="tag">Heavy-duty</span></div></div>
+      <div class="app-card"><div class="app-icon">🏠</div><h3>Residential buildings</h3><p>Facade and wet room applications for multi-family housing and timber-frame residential construction.</p><div class="tags"><span class="tag">Residential</span><span class="tag">Timber frame</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FOR ARCHITECTS -->
+<section id="architects">
+  <div class="container">
+    <div class="stag">For architects &amp; specifiers</div>
+    <h2 class="stitle">Specify with confidence</h2>
+    <div class="rule"></div>
+    <p class="ssub">Terasun TSM provides the full documentation package required for specification on public and commercial projects across Europe.</p>
+    <div class="three-col">
+      <div class="feat-card"><div class="feat-num">01 — Documentation</div><h3>Complete technical package</h3><p>CE, ETA 24/0895, DoP, EPD, fire test report, REACH — all available for download. Ready for building authority submission.</p></div>
+      <div class="feat-card"><div class="feat-num">02 — Sustainability</div><h3>EPD for green building</h3><p>EPD-IES-0018268 (ISO 14025, valid until 2029-03-14) supports LEED, BREEAM, and DGNB. Declared unit: 1 m² at 12 mm, 9.96 kg/m².</p></div>
+      <div class="feat-card"><div class="feat-num">03 — Fire safety</div><h3>Tested fire performance</h3><p>Classification E 120 / EI 90 / EW 120 per independent report FIRES-CR-284-25-AUPE. Suitable for fire-rated partition specification.</p></div>
+      <div class="feat-card"><div class="feat-num">04 — System drawings</div><h3>System documentation</h3><p>Facade system guide (CBSS/CBMV), wet room system guide, and fire partition guide available in the download centre.</p></div>
+      <div class="feat-card"><div class="feat-num">05 — Support</div><h3>Specification assistance</h3><p>Our team provides product selection guidance and system-level technical advice for architects and project teams.</p></div>
+      <div class="feat-card"><div class="feat-num">06 — Samples</div><h3>Sample boards</h3><p>Physical sample boards available for material evaluation and client presentations. Contact us to arrange delivery.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- FOR CONTRACTORS -->
+<section class="s-alt" id="contractors">
+  <div class="container">
+    <div class="stag">For contractors &amp; installers</div>
+    <h2 class="stitle">Easy to install. Built for the job site.</h2>
+    <div class="rule"></div>
+    <p class="ssub">Terasun TSM is designed for efficient installation with standard tools and framing systems used across European construction sites.</p>
+    <div class="three-col">
+      <div class="feat-card"><div class="feat-num">01 — Weight</div><h3>Lightweight handling</h3><p>At 9.96 kg/m² (12 mm board), Terasun TSM reduces installation effort and structural load requirements.</p></div>
+      <div class="feat-card"><div class="feat-num">02 — Framing</div><h3>Standard frame compatibility</h3><p>Compatible with timber and steel stud framing at 400 mm or 600 mm centres. No proprietary framing required.</p></div>
+      <div class="feat-card"><div class="feat-num">03 — Cutting</div><h3>Standard cutting tools</h3><p>Cut with a circular saw fitted with a fiber cement blade, or score-and-snap for straight cuts. Pre-drill near edges.</p></div>
+      <div class="feat-card"><div class="feat-num">04 — Fixing</div><h3>Standard fasteners</h3><p>Fixed with corrosion-resistant screws or system-specific concealed fixings. Full instructions in the installation manual.</p></div>
+      <div class="feat-card"><div class="feat-num">05 — Documents</div><h3>Complete installation guides</h3><p>Facade guide, wet room guide, fire partition guide, storage &amp; handling, and cutting &amp; fixing instructions — all downloadable.</p></div>
+      <div class="feat-card"><div class="feat-num">06 — Support</div><h3>Technical helpdesk</h3><p>Installation questions answered by our technical team via email or phone. On-site support queries welcomed.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- QUALITY CONTROL -->
+<section id="quality">
+  <div class="container">
+    <div class="stag">Quality control</div>
+    <h2 class="stitle">Manufacturing quality you can verify</h2>
+    <div class="rule"></div>
+    <p class="ssub">Every Terasun TSM board is produced to the performance values declared in ETA 24/0895 and the Declaration of Performance. European documentation enables full traceability.</p>
+    <div class="card-grid">
+      <div class="card card-gold"><h3>ETA compliance</h3><p>Production conforms to ETA 24/0895 requirements. Third-party assessment confirms performance characteristics.</p></div>
+      <div class="card card-gold"><h3>Declaration of Performance</h3><p>DoP TRS-20250610F declares all relevant performance values per CPR and ETA 24/0895. Available for download.</p></div>
+      <div class="card card-gold"><h3>Fire resistance testing</h3><p>Independent test report FIRES-CR-284-25-AUPE confirms E 120 / EI 90 / EW 120 for the tested system.</p></div>
+      <div class="card card-gold"><h3>EPD traceability</h3><p>EPD-IES-0018268 (published 2025-03-14, valid 2029-03-14) provides verified environmental data per ISO 14025. Weight: 9.96 kg/m² at 12 mm.</p></div>
+      <div class="card card-gold"><h3>REACH compliance</h3><p>No substances of very high concern above 0.1% w/w. Asbestos-free confirmed. REACH/SVHC declaration available on request.</p></div>
+      <div class="card card-gold"><h3>VOC / emissions</h3><p>VOC and indoor air emissions data available (Intertek). Suitable for projects requiring low-emission product specification.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section class="s-alt" id="certs">
+  <div class="container">
+    <div class="stag">Certifications &amp; declarations</div>
+    <h2 class="stitle">Full European certification documentation</h2>
+    <div class="rule"></div>
+    <p class="ssub">All certificates available for download. Contact us if you require documents in a specific format for your market's building authority.</p>
+    <div class="cert-grid">
+      <div class="cert-card"><div class="cert-icon">🏷️</div><div><h4>CE Marking</h4><span class="cert-ref">CE 1023-CPR-1565 P</span><p>Mandatory for sale and use in the EEA. Construction Products Regulation compliance confirmed.</p><a class="dl-btn" href="/downloads/CE-1023-CPR-1565-P.pdf">↓ Download PDF</a></div></div>
+      <div class="cert-card"><div class="cert-icon">📋</div><div><h4>European Technical Assessment</h4><span class="cert-ref">ETA 24/0895</span><p>Independent assessment of product performance for intended uses, issued by a designated ETA body.</p><a class="dl-btn" href="/downloads/ETA-24-0895.pdf">↓ Download PDF</a></div></div>
+      <div class="cert-card"><div class="cert-icon">📄</div><div><h4>Declaration of Performance</h4><span class="cert-ref">DoP TRS-20250610F</span><p>Full declaration of all performance characteristics in accordance with the CPR and ETA 24/0895.</p><a class="dl-btn" href="/downloads/DoP-Terasun-TRS-20250610F.pdf">↓ Download PDF</a></div></div>
+      <div class="cert-card"><div class="cert-icon">🌿</div><div><h4>Environmental Product Declaration</h4><span class="cert-ref">EPD-IES-0018268 · Valid until 2029-03-14</span><p>ISO 14025. Declared unit: 1 m² at 12 mm, weight 9.96 kg/m². Supports LEED, BREEAM, DGNB.</p><a class="dl-btn" href="/downloads/EPD-IES-0018268.pdf">↓ Download PDF</a></div></div>
+      <div class="cert-card"><div class="cert-icon">🔥</div><div><h4>Fire resistance test report</h4><span class="cert-ref">FIRES-CR-284-25-AUPE</span><p>Classification E 120 / EI 90 / EW 120. Independent test by notified body.</p><a class="dl-btn" href="/downloads/FIRES-CR-284-25-AUPE.pdf">↓ Download PDF</a></div></div>
+      <div class="cert-card"><div class="cert-icon">💨</div><div><h4>VOC / Emissions declaration</h4><span class="cert-ref">Intertek</span><p>Indoor air emissions data for projects requiring VOC compliance or low-emission product specification.</p><a class="dl-btn" href="/downloads/VOC-Intertek.pdf">↓ Download PDF</a></div></div>
+      <div class="cert-card"><div class="cert-icon">📜</div><div><h4>Authorisation letter</h4><span class="cert-ref">Manufacturer → Terasun Europe</span><p>Confirms Terasun Europe as the Authorised European Representative of Zhejiang Terasun Air Duct Co., Ltd.</p><a class="dl-btn" href="/downloads/Terasun-Authorization-Letter.pdf">↓ Download PDF</a></div></div>
+      <div class="cert-card"><div class="cert-icon">⚗️</div><div><h4>REACH / SVHC declaration</h4><span class="cert-ref">No SVHC above 0.1% w/w</span><p>EU REACH regulation compliance. Asbestos-free confirmed. Available on request.</p><a class="dl-btn" href="mailto:info@terasuneurope.com">↓ Request by email</a></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- DOWNLOADS -->
+<section id="downloads">
+  <div class="container">
+    <div class="stag">Download centre</div>
+    <h2 class="stitle">Technical &amp; commercial documents</h2>
+    <div class="rule"></div>
+    <div class="dl-grid">
+      <div class="dl-card"><div class="dl-file-icon">📊</div><div><h4>Technical Data Sheet</h4><p>Full product specification</p></div><a class="dl-link" href="/downloads/TDS-Terasun-TSM.pdf">↓</a></div>
+      <div class="dl-card"><div class="dl-file-icon">📘</div><div><h4>Installation Manual</h4><p>General installation guide</p></div><a class="dl-link" href="/downloads/Installation-Manual.pdf">↓</a></div>
+      <div class="dl-card"><div class="dl-file-icon">📰</div><div><h4>Product Brochure</h4><p>Commercial overview</p></div><a class="dl-link" href="/downloads/Terasun-TSM-Brochure.pdf">↓</a></div>
+      <div class="dl-card"><div class="dl-file-icon">🏗️</div><div><h4>Facade System Guide</h4><p>CBSS / CBMV systems</p></div><a class="dl-link" href="/downloads/Facade-System-Guide.pdf">↓</a></div>
+      <div class="dl-card"><div class="dl-file-icon">🚿</div><div><h4>Wet Room System Guide</h4><p>Mapei &amp; Schönox systems</p></div><a class="dl-link" href="/downloads/Wet-Room-System-Guide.pdf">↓</a></div>
+      <div class="dl-card"><div class="dl-file-icon">🔥</div><div><h4>Fire Partition Guide</h4><p>E 120 / EI 90 systems</p></div><a class="dl-link" href="/downloads/Fire-Partition-Guide.pdf">↓</a></div>
+      <div class="dl-card"><div class="dl-file-icon">✂️</div><div><h4>Cutting &amp; Fixing Guide</h4><p>Tools, fasteners, spacing</p></div><a class="dl-link" href="/downloads/Cutting-Fixing-Guide.pdf">↓</a></div>
+      <div class="dl-card"><div class="dl-file-icon">📦</div><div><h4>Storage &amp; Handling Guide</h4><p>Site requirements</p></div><a class="dl-link" href="/downloads/Storage-Handling-Guide.pdf">↓</a></div>
+      <div class="dl-card"><div class="dl-file-icon">🏷️</div><div><h4>CE Certificate</h4><p>CE 1023-CPR-1565 P</p></div><a class="dl-link" href="/downloads/CE-1023-CPR-1565-P.pdf">↓</a></div>
+      <div class="dl-card"><div class="dl-file-icon">📋</div><div><h4>ETA 24/0895</h4><p>European Technical Assessment</p></div><a class="dl-link" href="/downloads/ETA-24-0895.pdf">↓</a></div>
+      <div class="dl-card"><div class="dl-file-icon">📄</div><div><h4>Declaration of Performance</h4><p>DoP TRS-20250610F</p></div><a class="dl-link" href="/downloads/DoP-Terasun-TRS-20250610F.pdf">↓</a></div>
+      <div class="dl-card"><div class="dl-file-icon">🌿</div><div><h4>EPD</h4><p>EPD-IES-0018268</p></div><a class="dl-link" href="/downloads/EPD-IES-0018268.pdf">↓</a></div>
+      <div class="dl-card"><div class="dl-file-icon">🔥</div><div><h4>Fire Test Report</h4><p>FIRES-CR-284-25-AUPE</p></div><a class="dl-link" href="/downloads/FIRES-CR-284-25-AUPE.pdf">↓</a></div>
+      <div class="dl-card"><div class="dl-file-icon">💨</div><div><h4>VOC Declaration</h4><p>Intertek emissions data</p></div><a class="dl-link" href="/downloads/VOC-Intertek.pdf">↓</a></div>
+      <div class="dl-card"><div class="dl-file-icon">📜</div><div><h4>Authorisation Letter</h4><p>Manufacturer → Terasun Europe</p></div><a class="dl-link" href="/downloads/Terasun-Authorization-Letter.pdf">↓</a></div>
+    </div>
+    <p style="font-size:12px;color:var(--light);margin-top:1.5rem">Links point to <code style="font-size:11px;background:var(--border);padding:1px 5px;border-radius:2px">/downloads/</code> on your server. Upload PDF files to activate. Need documents now? Email <a href="mailto:info@terasuneurope.com">info@terasuneurope.com</a></p>
+  </div>
+</section>
+
+<!-- DISTRIBUTOR -->
+<section class="s-alt" id="distributors">
+  <div class="container">
+    <div class="stag">Distributor programme</div>
+    <h2 class="stitle">Become a Terasun distribution partner</h2>
+    <div class="rule"></div>
+    <p class="ssub">We are building a professional European distribution network. Here is what we offer to committed partners.</p>
+    <div class="dist-grid">
+      <div class="dist-card"><h4>Available territories</h4><p>Most European markets are open. Territory coverage discussed individually based on your network and target volumes.</p></div>
+      <div class="dist-card"><h4>Minimum order</h4><p>One 20 ft or 40 ft container. Exact volume depends on thickness and size mix. Trial arrangements possible for new partners.</p></div>
+      <div class="dist-card"><h4>Sample kits</h4><p>Sample boards available for evaluation before placing a container order. Shipping costs apply outside Finland.</p></div>
+      <div class="dist-card"><h4>Commercial margin</h4><p>Attractive margin structure above confirmed factory floor price. Detailed pricing provided under NDA upon request.</p></div>
+      <div class="dist-card"><h4>Technical support</h4><p>Full CE documentation, installation guidance, and technical response for your clients, architects, and contractors.</p></div>
+      <div class="dist-card"><h4>Marketing support</h4><p>Datasheets, system drawings, and co-branded materials in your language. We support your market entry.</p></div>
+      <div class="dist-card"><h4>Sales training</h4><p>Remote or in-person training covering product, systems, and certifications for your sales and technical teams.</p></div>
+      <div class="dist-card"><h4>Long-term cooperation</h4><p>We invest in long-term partnerships — joint marketing, trade fair presence, and ongoing product development input.</p></div>
+    </div>
+    <div style="margin-top:3rem">
+      <div class="stag">Open distribution territories</div>
+      <div class="eu-chips">
+        <div class="chip active">🇫🇮 Finland — active</div>
+        <div class="chip">🇸🇪 Sweden</div><div class="chip">🇳🇴 Norway</div>
+        <div class="chip">🇩🇰 Denmark</div><div class="chip">🇩🇪 Germany</div>
+        <div class="chip">🇳🇱 Netherlands</div><div class="chip">🇧🇪 Belgium</div>
+        <div class="chip">🇫🇷 France</div><div class="chip">🇵🇱 Poland</div>
+        <div class="chip">🇨🇿 Czech Republic</div><div class="chip">🇦🇹 Austria</div>
+        <div class="chip">🇪🇪 Estonia</div><div class="chip">🇱🇻 Latvia</div>
+        <div class="chip">🇱🇹 Lithuania</div><div class="chip">+ other EU / EEA</div>
+      </div>
+    </div>
+    <div class="event-banner">
+      <div><h3>Meet us at FinnBuild 2026</h3><p>Helsinki · Messukeskus · Nordic region's leading construction trade fair</p></div>
+      <div class="event-date">29 Sep – 1 Oct 2026</div>
+    </div>
+  </div>
+</section>
+
+<!-- LOGISTICS -->
+<section id="logistics">
+  <div class="container">
+    <div class="stag">Logistics &amp; supply chain</div>
+    <h2 class="stitle">From factory to your warehouse</h2>
+    <div class="rule"></div>
+    <p class="ssub">Terasun TSM boards are manufactured in China and supplied to European buyers via direct container shipment. Terasun Europe coordinates the full supply chain on your behalf.</p>
+    <div class="log-steps">
+      <div class="log-step"><div class="log-num">01</div><div><h4>Manufacturing (China)</h4><p>Production at Zhejiang Terasun factory. Lead time from order confirmation: typically 3–5 weeks depending on volume and specification.</p></div></div>
+      <div class="log-step"><div class="log-num">02</div><div><h4>Container loading &amp; export documentation</h4><p>Boards palletised, shrink-wrapped, loaded into 20 ft or 40 ft containers. Full export documentation: packing list, invoice, CE certificates, bill of lading.</p></div></div>
+      <div class="log-step"><div class="log-num">03</div><div><h4>Ocean freight to Europe</h4><p>Transit to European ports (Hamburg, Rotterdam, Helsinki, Tallinn, Gdańsk): approximately 4–6 weeks. Terasun Europe works with established freight forwarders.</p></div></div>
+      <div class="log-step"><div class="log-num">04</div><div><h4>EU customs clearance</h4><p>Import documentation, customs duties, and CE compliance managed by Terasun Europe or our nominated customs broker.</p></div></div>
+      <div class="log-step"><div class="log-num">05</div><div><h4>Delivery to distributor warehouse</h4><p>Container delivered to your warehouse after port clearance. Inland transport arranged by Terasun Europe or handled by the distributor from the nominated port.</p></div></div>
+      <div class="log-step"><div class="log-num">06</div><div><h4>European stock (under evaluation)</h4><p>A central European stock point is under evaluation for 2026–2027, enabling smaller replenishment orders with shorter lead times. Partners will be notified when available.</p></div></div>
+    </div>
+    <div class="info-box">
+      <p><strong>Estimated total lead time:</strong> From order confirmation to delivery in Central Europe — approximately 10–14 weeks. Plan initial orders well in advance of your sales season.</p>
+    </div>
+  </div>
+</section>
+
+<!-- COMPARISON -->
+<section class="s-alt" id="compare">
+  <div class="container">
+    <div class="stag">Market position</div>
+    <h2 class="stitle">Terasun TSM vs. competing products</h2>
+    <div class="rule"></div>
+    <p class="ssub">Factual comparison based on publicly available product literature as of 2025. Terasun data based on certified documentation. No claim of equivalence or superiority under all conditions.</p>
+    <div class="comp-wrap">
+      <table class="comp">
+        <thead><tr><th>Product</th><th>CE</th><th>ETA</th><th>EPD</th><th>Fire class</th><th>Weight (12 mm)</th><th>Origin</th><th>Price level</th></tr></thead>
+        <tbody>
+          <tr class="tr-ours"><td>Terasun TSM ★</td><td><span class="ck">✔</span></td><td><span class="ck">✔</span></td><td><span class="ck">✔</span></td><td>E 120 / EI 90 / EW 120</td><td>9.96 kg/m²</td><td>China</td><td>Competitive</td></tr>
+          <tr><td>Knauf Aquapanel</td><td><span class="ck">✔</span></td><td><span class="ck">✔</span></td><td><span class="ck">✔</span></td><td>Various</td><td>~13 kg/m²</td><td>Europe</td><td>Premium</td></tr>
+          <tr><td>Fermacell</td><td><span class="ck">✔</span></td><td><span class="ck">✔</span></td><td><span class="ck">✔</span></td><td>Various</td><td>~12.5 kg/m²</td><td>Europe</td><td>Premium</td></tr>
+          <tr><td>Cembrit / Swisspearl</td><td><span class="ck">✔</span></td><td><span class="cn">◎</span></td><td><span class="ck">✔</span></td><td>A1 / A2-s1,d0</td><td>~16–20 kg/m²</td><td>Europe</td><td>Premium</td></tr>
+          <tr><td>Siniat</td><td><span class="ck">✔</span></td><td><span class="cn">◎</span></td><td><span class="cn">◎</span></td><td>Various</td><td>~13 kg/m²</td><td>Europe</td><td>Mid-range</td></tr>
+          <tr><td>James Hardie</td><td><span class="ck">✔</span></td><td><span class="cn">◎</span></td><td><span class="cn">◎</span></td><td>A2-s1,d0</td><td>~14 kg/m²</td><td>Intl.</td><td>Mid–Premium</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="font-size:12px;color:var(--light);margin-top:1rem;line-height:1.7">◎ = Product line-dependent or not confirmed across all markets. ★ = This product. Competitor data from public product literature; subject to change. Always verify with current manufacturer documentation.</p>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="container">
+    <div class="stag">FAQ</div>
+    <h2 class="stitle">Frequently asked questions</h2>
+    <div class="rule"></div>
+    <div class="faq-list">
+      <div class="faq-item"><div class="faq-q" onclick="faq(this)">Does Terasun TSM have CE marking?<span class="faq-arrow">⌄</span></div><div class="faq-a">Yes. CE 1023-CPR-1565 P. The product complies with the EU Construction Products Regulation and carries CE marking for sale and use across the European Economic Area.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="faq(this)">Is there a European Technical Assessment (ETA)?<span class="faq-arrow">⌄</span></div><div class="faq-a">Yes. ETA 24/0895 has been issued by a designated ETA body. It independently confirms the product's performance characteristics for its intended uses. Full ETA available for download.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="faq(this)">Is there an EPD (Environmental Product Declaration)?<span class="faq-arrow">⌄</span></div><div class="faq-a">Yes. EPD-IES-0018268, published 2025-03-14, valid until 2029-03-14. ISO 14025 compliant. Declared unit: 1 m² at 12 mm, weight 9.96 kg/m². Supports LEED, BREEAM, and DGNB certification projects.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="faq(this)">What is the declared weight of the board?<span class="faq-arrow">⌄</span></div><div class="faq-a">The declared weight is 9.96 kg/m² for the 12 mm × 1200 mm × 2400 mm board, as stated in EPD-IES-0018268.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="faq(this)">What fire resistance does the board achieve?<span class="faq-arrow">⌄</span></div><div class="faq-a">E 120 / EI 90 / EW 120 in the tested system configuration. Independent test report: FIRES-CR-284-25-AUPE. Full fire report available for download.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="faq(this)">Can Terasun TSM be used in wet rooms?<span class="faq-arrow">⌄</span></div><div class="faq-a">Yes. Terasun TSM has high moisture resistance and is suitable as a wet room substrate. Compatible with Mapei Mapegum WPS and Schönox HA waterproofing membranes. Always follow the waterproofing manufacturer's system requirements.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="faq(this)">Can the board be used for exterior facade cladding?<span class="faq-arrow">⌄</span></div><div class="faq-a">Yes. Suitable for ventilated facade systems (CBSS and CBMV) across all European climate zones when installed per the Terasun facade system guide.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="faq(this)">Is the board asbestos-free?<span class="faq-arrow">⌄</span></div><div class="faq-a">Yes. Terasun TSM is asbestos-free. Reinforcement is cellulose fiber. REACH/SVHC compliance confirmed — no substances of very high concern above 0.1% w/w.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="faq(this)">What is the minimum order quantity?<span class="faq-arrow">⌄</span></div><div class="faq-a">The minimum order is one container (20 ft or 40 ft). Volume depends on thickness and size mix. Flexible arrangements possible for initial trial orders from new partners.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="faq(this)">Are samples available before placing an order?<span class="faq-arrow">⌄</span></div><div class="faq-a">Yes. Sample boards available for technical evaluation and customer presentations. Shipping costs apply outside Finland.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="faq(this)">How long does delivery take?<span class="faq-arrow">⌄</span></div><div class="faq-a">Approximately 10–14 weeks from order confirmation to delivery in Central Europe: production (3–5 weeks) + ocean freight (4–6 weeks) + customs clearance and inland transport.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="faq(this)">Where is the product manufactured?<span class="faq-arrow">⌄</span></div><div class="faq-a">Terasun TSM boards are manufactured by Zhejiang Terasun Air Duct Co., Ltd. in China. Terasun Europe, based in Helsinki, Finland, acts as the Authorised European Representative and manages all European documentation, logistics, and commercial relationships.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="faq(this)">What is Terasun Europe?<span class="faq-arrow">⌄</span></div><div class="faq-a">Terasun Europe is the Authorised European Representative of Zhejiang Terasun Air Duct Co., Ltd., headquartered in Helsinki, Finland. We manage all European documentation, distribution, and commercial relationships for Terasun TSM fiber cement boards.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="faq(this)">Is there an authorisation letter from the manufacturer?<span class="faq-arrow">⌄</span></div><div class="faq-a">Yes. An authorisation letter confirming Terasun Europe as the Authorised European Representative is available for download. This document can be used in procurement, tendering, and specification processes.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="faq(this)">Can I become a distributor in my country?<span class="faq-arrow">⌄</span></div><div class="faq-a">Yes — most European markets are open. Use the contact form to describe your distribution network, target market, and expected volumes. We respond within 2 business days.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="faq(this)">Which countries are open for distribution?<span class="faq-arrow">⌄</span></div><div class="faq-a">Finland is our active market. All other EU and EEA countries are open, including Sweden, Norway, Denmark, Germany, Netherlands, Belgium, France, Poland, Czech Republic, Austria, Estonia, Latvia, Lithuania, and more.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="faq(this)">What stud spacing is required?<span class="faq-arrow">⌄</span></div><div class="faq-a">400 mm or 600 mm centres, compatible with standard timber and steel frame construction. No proprietary framing system required.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="faq(this)">Is technical training available for distributors?<span class="faq-arrow">⌄</span></div><div class="faq-a">Yes. Remote and in-person training for distributor sales and technical teams, covering product knowledge, system applications, certifications, and installation best practices.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="faq(this)">Can Terasun TSM be used on public and infrastructure projects?<span class="faq-arrow">⌄</span></div><div class="faq-a">Yes. CE marking, ETA 24/0895, DoP, EPD, and fire test report provide the full documentation package required for specification on public projects and building authority submission across the EU.</div></div>
+      <div class="faq-item"><div class="faq-q" onclick="faq(this)">What cutting tools are needed for installation?<span class="faq-arrow">⌄</span></div><div class="faq-a">Circular saw with a fiber cement blade, or score-and-snap for straight cuts. Pre-drill near edges. Full instructions in the Cutting &amp; Fixing Guide available in the download centre.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="s-alt" id="contact">
+  <div class="container">
+    <div class="stag">Contact</div>
+    <h2 class="stitle">Get in touch</h2>
+    <div class="rule"></div>
+    <div class="contact-wrap">
+      <div>
+        <p style="font-size:15px;color:var(--muted);line-height:1.8;margin-bottom:1.5rem">Request distributor pricing, order samples, or enquire about partnership opportunities in your market. All enquiries handled personally and confidentially.</p>
+        <!--
+          ══ FORM INTEGRATION ════════════════════════════════════════════
+
+          OPTION 1 — Formspree (recommended, zero backend):
+            1. Sign up at formspree.io → create form → copy your form ID
+            2. In handleSubmit(), replace the demo modal line with:
+
+               fetch('https://formspree.io/f/YOUR_FORM_ID', {
+                 method: 'POST',
+                 headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+                 body: JSON.stringify({
+                   name: document.getElementById('f-name').value,
+                   email: document.getElementById('f-email').value,
+                   company: document.getElementById('f-company').value,
+                   country: document.getElementById('f-country').value,
+                   volume: document.getElementById('f-volume').value,
+                   website: document.getElementById('f-website').value,
+                   enquiry_type: document.getElementById('f-type').value,
+                   message: document.getElementById('f-message').value
+                 })
+               }).then(function(r) {
+                 if (r.ok) { document.getElementById('modal').classList.add('open'); }
+                 else { alert('Submission failed. Please email us directly.'); }
+               }).catch(function() {
+                 alert('Network error. Please email us directly.');
+               });
+               return;
+
+          OPTION 2 — EmailJS:
+            Load SDK: <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"><\/script>
+            Init: emailjs.init("YOUR_PUBLIC_KEY");
+            In handleSubmit():
+               emailjs.sendForm('SERVICE_ID', 'TEMPLATE_ID', '#contactForm')
+                 .then(function() { document.getElementById('modal').classList.add('open'); })
+                 .catch(function() { alert('Submission failed. Please email us directly.'); });
+               return;
+
+          OPTION 3 — Netlify Forms:
+            Change outer div to: <form id="contactForm" netlify name="contact">
+            Change button to type="submit". No JS needed.
+
+          ════════════════════════════════════════════════════════════════
+        -->
+        <div id="contactForm">
+          <div class="form-row">
+            <div class="form-field"><label>Full name *</label><input type="text" id="f-name" name="name" placeholder="Anna Müller" required></div>
+            <div class="form-field"><label>Company *</label><input type="text" id="f-company" name="company" placeholder="Your company name" required></div>
+          </div>
+          <div class="form-row">
+            <div class="form-field"><label>Email *</label><input type="email" id="f-email" name="email" placeholder="you@company.com" required></div>
+            <div class="form-field"><label>Phone / WhatsApp</label><input type="tel" id="f-phone" name="phone" placeholder="+49 ..."></div>
+          </div>
+          <div class="form-row">
+            <div class="form-field"><label>Country *</label>
+              <select id="f-country" name="country" required>
+                <option value="">Select country</option>
+                <option>Finland</option><option>Sweden</option><option>Norway</option><option>Denmark</option>
+                <option>Germany</option><option>Netherlands</option><option>Belgium</option><option>France</option>
+                <option>Poland</option><option>Czech Republic</option><option>Austria</option>
+                <option>Estonia</option><option>Latvia</option><option>Lithuania</option><option>Other EU/EEA</option>
+              </select>
+            </div>
+            <div class="form-field"><label>Annual purchase volume</label>
+              <select id="f-volume" name="volume">
+                <option value="">Select range</option>
+                <option>Evaluation / samples only</option>
+                <option>1–3 containers / year</option>
+                <option>4–10 containers / year</option>
+                <option>10+ containers / year</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-field"><label>Company website</label><input type="url" id="f-website" name="website" placeholder="https://yourcompany.com"></div>
+          <div class="form-field"><label>Enquiry type</label>
+            <select id="f-type" name="enquiry_type">
+              <option value="">Select type</option>
+              <option>Distributor partnership</option>
+              <option>Pricing &amp; availability</option>
+              <option>Sample request</option>
+              <option>Technical documentation</option>
+              <option>Specification support</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-field"><label>Message *</label><textarea id="f-message" name="message" placeholder="Describe your distribution network, market, and expected annual volumes." required></textarea></div>
+          <button type="button" class="submit-btn" onclick="handleSubmit()">Send enquiry →</button>
+          <p style="font-size:11px;color:var(--light);margin-top:.75rem">We respond within 2 business days. Your information is handled confidentially and not shared with third parties.</p>
+        </div>
+      </div>
+      <div class="cinfo-cards">
+        <div class="cinfo-card">
+          <h4>Terasun Europe</h4>
+          <div class="cinfo-line"><span class="cinfo-label">Company</span><span>Terasun Europe</span></div>
+          <div class="cinfo-line"><span class="cinfo-label">Status</span><span>Authorised European Representative</span></div>
+          <div class="cinfo-line"><span class="cinfo-label">Location</span><span>Helsinki, Finland</span></div>
+          <div class="cinfo-line"><span class="cinfo-label">Email</span><a href="mailto:info@terasuneurope.com">info@terasuneurope.com</a></div>
+          <div class="cinfo-line"><span class="cinfo-label">Phone</span><span>+358 — (to be added)</span></div>
+          <div class="cinfo-line"><span class="cinfo-label">WhatsApp</span><span>Contact by email first</span></div>
+          <div class="cinfo-line"><span class="cinfo-label">Website</span><a href="https://terasuneurope.com" target="_blank" rel="noopener">terasuneurope.com</a></div>
+        </div>
+        <div class="cinfo-card">
+          <h4>Connect with us</h4>
+          <div class="social-row">
+            <a class="social-btn" href="#" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="social-btn" href="mailto:info@terasuneurope.com">Email</a>
+            <a class="social-btn" href="#">WhatsApp</a>
+            <a class="social-btn" href="#" target="_blank" rel="noopener">Google Maps</a>
+          </div>
+        </div>
+        <div class="cinfo-card" style="background:var(--gold-light);border-color:var(--gold-border)">
+          <h4>FinnBuild 2026</h4>
+          <p style="font-size:13px;color:#5a4a20;line-height:1.7">Meet us in Helsinki at Finland's largest construction trade fair.<br><strong>29 September – 1 October 2026</strong><br>Messukeskus, Helsinki, Finland</p>
+        </div>
+        <div class="cinfo-card">
+          <h4>Response time</h4>
+          <p style="font-size:13px;color:var(--muted);line-height:1.7">All enquiries are handled personally and confidentially. We respond within 2 business days. For urgent matters, contact us directly by email.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div>
+        <div class="footer-brand">TERASUN EUROPE</div>
+        <div class="footer-brand-sub">Authorised European Representative</div>
+        <p class="footer-desc">Terasun Europe · Helsinki, Finland<br>Authorised European Representative of Zhejiang Terasun Air Duct Co., Ltd.<br>for the distribution of Terasun TSM fiber cement boards in Europe.<br>Terasun Europe is not the manufacturer of Terasun products.</p>
+      </div>
+      <div class="footer-col">
+        <h5>Product</h5>
+        <a href="#product">TSM fiber cement board</a>
+        <a href="#applications">Applications</a>
+        <a href="#quality">Quality control</a>
+        <a href="#compare">Comparison</a>
+      </div>
+      <div class="footer-col">
+        <h5>Documentation</h5>
+        <a href="#certs">Certifications</a>
+        <a href="#downloads">All downloads</a>
+        <a href="/downloads/ETA-24-0895.pdf">ETA 24/0895</a>
+        <a href="/downloads/EPD-IES-0018268.pdf">EPD</a>
+        <a href="/downloads/FIRES-CR-284-25-AUPE.pdf">Fire report</a>
+        <a href="/downloads/Terasun-Authorization-Letter.pdf">Authorisation letter</a>
+      </div>
+      <div class="footer-col">
+        <h5>Company</h5>
+        <a href="#about">About us</a>
+        <a href="#authorised">Authorisation</a>
+        <a href="#manufacturer">Manufacturer</a>
+        <a href="#distributors">Distributors</a>
+        <a href="#logistics">Logistics</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-legal">
+        © 2026 Terasun Europe · Helsinki, Finland · Authorised European Representative for Terasun fiber cement products<br>
+        Manufacturer: Zhejiang Terasun Air Duct Co., Ltd. · Terasun Europe is not the manufacturer.<br>
+        Technical data per: EPD-IES-0018268 · ETA 24/0895 · CE 1023-CPR-1565 P · FIRES-CR-284-25-AUPE. Subject to change without notice.
+      </div>
+      <div class="footer-links">
+        <a href="#">Privacy policy</a>
+        <a href="#">Cookie policy</a>
+        <a href="#">Terms of use</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- SUCCESS MODAL -->
+<div class="modal-bg" id="modal">
+  <div class="modal">
+    <h3>Enquiry sent ✓</h3>
+    <p>Thank you for contacting Terasun Europe. We will respond within 2 business days.<br><br>For urgent matters: <strong>info@terasuneurope.com</strong></p>
+    <button class="modal-close" onclick="document.getElementById('modal').classList.remove('open')">Close</button>
+  </div>
+</div>
+
+<script>
+// Smooth scroll
+function go(id){
+  var el=document.getElementById(id);
+  if(el)el.scrollIntoView({behavior:'smooth'});
+}
+
+// Hamburger / mobile menu
+var menuOpen=false;
+
+function toggleMenu(){
+  menuOpen=!menuOpen;
+  var menu=document.getElementById('mobileMenu');
+  var hbg=document.getElementById('hamburger');
+  var spans=hbg.querySelectorAll('span');
+  if(menuOpen){
+    menu.classList.add('open');
+    spans[0].style.transform='rotate(45deg) translate(5px,5px)';
+    spans[1].style.opacity='0';
+    spans[2].style.transform='rotate(-45deg) translate(5px,-5px)';
+    hbg.setAttribute('aria-label','Close menu');
+  } else {
+    menu.classList.remove('open');
+    spans[0].style.transform='';
+    spans[1].style.opacity='1';
+    spans[2].style.transform='';
+    hbg.setAttribute('aria-label','Open menu');
+  }
+}
+
+function closeMenu(){
+  if(!menuOpen)return;
+  menuOpen=false;
+  document.getElementById('mobileMenu').classList.remove('open');
+  var spans=document.getElementById('hamburger').querySelectorAll('span');
+  spans[0].style.transform='';
+  spans[1].style.opacity='1';
+  spans[2].style.transform='';
+  document.getElementById('hamburger').setAttribute('aria-label','Open menu');
+}
+
+// Close mobile menu when clicking outside nav/menu
+document.addEventListener('click',function(e){
+  if(menuOpen&&!e.target.closest('nav')&&!e.target.closest('.mobile-menu')){
+    closeMenu();
+  }
+});
+
+// FAQ accordion — one open at a time
+function faq(el){
+  var item=el.parentElement;
+  var wasOpen=item.classList.contains('open');
+  document.querySelectorAll('.faq-item').forEach(function(i){i.classList.remove('open')});
+  if(!wasOpen)item.classList.add('open');
+}
+
+// Contact form — validation and submission
+function handleSubmit(){
+  var name=document.getElementById('f-name').value.trim();
+  var email=document.getElementById('f-email').value.trim();
+  var company=document.getElementById('f-company').value.trim();
+  var country=document.getElementById('f-country').value;
+  var msg=document.getElementById('f-message').value.trim();
+
+  if(!name||!email||!company||!country||!msg){
+    alert('Please complete all required fields (marked *).');
+    return;
+  }
+  var emailRe=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if(!emailRe.test(email)){
+    alert('Please enter a valid email address.');
+    return;
+  }
+
+  /*
+   * Replace this block with your real integration (see comments above form).
+   * Example Formspree snippet (uncomment and add YOUR_FORM_ID):
+   *
+   * fetch('https://formspree.io/f/YOUR_FORM_ID',{
+   *   method:'POST',
+   *   headers:{'Content-Type':'application/json','Accept':'application/json'},
+   *   body:JSON.stringify({
+   *     name:name,email:email,company:company,country:country,
+   *     volume:document.getElementById('f-volume').value,
+   *     website:document.getElementById('f-website').value,
+   *     enquiry_type:document.getElementById('f-type').value,
+   *     message:msg
+   *   })
+   * }).then(function(r){
+   *   if(r.ok){document.getElementById('modal').classList.add('open');}
+   *   else{alert('Submission failed. Please email info@terasuneurope.com.');}
+   * }).catch(function(){
+   *   alert('Network error. Please email info@terasuneurope.com.');
+   * });
+   * return;
+   */
+
+  // Demo fallback — remove once real integration is active:
+  document.getElementById('modal').classList.add('open');
+}
+
+// Close modal on background click
+document.getElementById('modal').addEventListener('click',function(e){
+  if(e.target===this)this.classList.remove('open');
+});
+</script>
+</body>
+</html>
