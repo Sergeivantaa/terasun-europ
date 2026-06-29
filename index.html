@@ -1031,6 +1031,7 @@ function faq(btn){
 
 function handleSubmit(e){
   e.preventDefault();
+  var form=e.target;
   var name=document.getElementById('f-name').value.trim();
   var email=document.getElementById('f-email').value.trim();
   var company=document.getElementById('f-company').value.trim();
@@ -1047,28 +1048,28 @@ function handleSubmit(e){
     return;
   }
 
-  var btn=document.querySelector('#contactForm button[type="submit"]');
+  var btn=form.querySelector('button[type="submit"]');
   if(btn){btn.disabled=true;btn.textContent='Sending…';}
 
   fetch('https://formspree.io/f/mbdvkyak',{
     method:'POST',
-    headers:{'Content-Type':'application/json','Accept':'application/json'},
-    body:JSON.stringify({
-      name:name,
-      email:email,
-      company:company,
-      country:country,
-      volume:document.getElementById('f-volume').value,
-      website:document.getElementById('f-website').value,
-      enquiry_type:document.getElementById('f-type').value,
-      message:msg
-    })
+    headers:{'Accept':'application/json'},
+    body:new FormData(form)
   }).then(function(r){
-    if(btn){btn.disabled=false;btn.textContent='Send enquiry';}
-    if(r.ok){openModal();}
-    else{alert('Submission failed. Please email info@terasuneurope.com.');}
+    if(btn){btn.disabled=false;btn.textContent='Send enquiry →';}
+    if(r.ok){
+      form.reset();
+      openModal();
+    } else {
+      return r.json().then(function(data){
+        var msg=data&&data.errors?data.errors.map(function(x){return x.message;}).join(', '):'Submission failed.';
+        alert(msg+' Please email info@terasuneurope.com.');
+      }).catch(function(){
+        alert('Submission failed. Please email info@terasuneurope.com.');
+      });
+    }
   }).catch(function(){
-    if(btn){btn.disabled=false;btn.textContent='Send enquiry';}
+    if(btn){btn.disabled=false;btn.textContent='Send enquiry →';}
     alert('Network error. Please email info@terasuneurope.com.');
   });
 }
