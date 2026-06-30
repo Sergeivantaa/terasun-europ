@@ -738,6 +738,9 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
       <form id="docAccessForm" action="https://formspree.io/f/mbdvkyak" method="POST" novalidate>
         <input type="hidden" name="form_type" value="Document access request">
         <input type="hidden" name="source" value="Terasun Europe website">
+        <input type="hidden" id="da-ref" name="inquiry_reference" value="">
+        <input type="hidden" id="da-replyto" name="_replyto" value="">
+        <input type="hidden" id="da-subject" name="_subject" value="">
 
         <!-- 1 — Contact details -->
         <div class="quot-group">
@@ -974,6 +977,9 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
           <input type="hidden" name="form_type" value="Quotation request">
           <input type="hidden" name="source" value="Terasun Europe website">
           <input type="hidden" name="product" value="TSM Cement Board">
+          <input type="hidden" id="q-ref" name="inquiry_reference" value="">
+          <input type="hidden" id="q-replyto" name="_replyto" value="">
+          <input type="hidden" id="q-subject" name="_subject" value="">
 
           <!-- 1. Customer information -->
           <div class="quot-group">
@@ -1225,6 +1231,11 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
       <div>
         <p style="font-size:15px;color:var(--muted);line-height:1.8;margin-bottom:1.5rem">Request distributor pricing, order samples, or enquire about partnership opportunities in your market. All enquiries handled personally and confidentially.</p>
         <form id="contactForm" action="https://formspree.io/f/mbdvkyak" method="POST" novalidate>
+          <input type="hidden" name="form_type" value="Contact enquiry">
+          <input type="hidden" name="source" value="Terasun Europe website">
+          <input type="hidden" id="f-ref" name="inquiry_reference" value="">
+          <input type="hidden" id="f-replyto" name="_replyto" value="">
+          <input type="hidden" id="f-subject" name="_subject" value="">
           <div class="form-row">
             <div class="form-field"><label for="f-name">Full name *</label><input type="text" id="f-name" name="name" placeholder="Anna Müller" required autocomplete="name"></div>
             <div class="form-field"><label for="f-company">Company *</label><input type="text" id="f-company" name="company" placeholder="Your company name" required autocomplete="organization"></div>
@@ -1359,7 +1370,7 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
 <div class="modal-bg" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
   <div class="modal">
     <h2 id="modal-title" class="modal h3">Enquiry sent</h2>
-    <p>Thank you! Your message has been sent successfully.<br><br>We will respond within 2 business days. For urgent matters: <strong>info@terasuneurope.com</strong></p>
+    <p id="modal-body">Thank you. Your request has been received.<br><br>Terasun Europe will review your request and contact you within 2 business days.<br><br>For urgent matters: <strong>info@terasuneurope.com</strong></p>
     <button class="modal-close" onclick="closeModal('modal')">Close</button>
   </div>
 </div>
@@ -1368,7 +1379,7 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
 <div class="modal-bg" id="modal-quot" role="dialog" aria-modal="true" aria-labelledby="modal-quot-title" aria-hidden="true">
   <div class="modal">
     <h2 id="modal-quot-title" class="modal h3">Quotation request sent</h2>
-    <p>Thank you. Your quotation request has been sent. Terasun Europe will review the product specification and logistics details and contact you shortly.<br><br>For urgent matters: <strong>info@terasuneurope.com</strong></p>
+    <p id="modal-quot-body">Thank you. Your request has been received.<br><br>Terasun Europe will review your request and contact you within 2 business days.<br><br>For urgent matters: <strong>info@terasuneurope.com</strong></p>
     <button class="modal-close" onclick="closeModal('modal-quot')">Close</button>
   </div>
 </div>
@@ -1376,7 +1387,7 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
 <div class="modal-bg" id="modal-docaccess" role="dialog" aria-modal="true" aria-labelledby="modal-docaccess-title" aria-hidden="true">
   <div class="modal">
     <h2 id="modal-docaccess-title" class="modal h3">Document access request sent</h2>
-    <p>Thank you. Your document access request has been sent. Terasun Europe will review your company details and contact you shortly.<br><br>For urgent matters: <strong>info@terasuneurope.com</strong></p>
+    <p id="modal-docaccess-body">Thank you. Your request has been received.<br><br>Terasun Europe will review your request and contact you within 2 business days.<br><br>For urgent matters: <strong>info@terasuneurope.com</strong></p>
     <button class="modal-close" onclick="closeModal('modal-docaccess')">Close</button>
   </div>
 </div>
@@ -1385,6 +1396,24 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
 function go(id){
   var el=document.getElementById(id);
   if(el)el.scrollIntoView({behavior:'smooth'});
+}
+
+function generateRef(){
+  var now=new Date();
+  var y=now.getFullYear();
+  var m=String(now.getMonth()+1).padStart(2,'0');
+  var d=String(now.getDate()).padStart(2,'0');
+  var rnd=String(Math.floor(100+Math.random()*900));
+  return 'TE-'+y+m+d+'-'+rnd;
+}
+
+function setModalBody(modalId,ref,formLabel){
+  var el=document.getElementById(modalId+'-body');
+  if(!el)return;
+  el.innerHTML='Thank you. Your request has been received.<br><br>'
+    +'Your reference number is: <strong>'+ref+'</strong><br><br>'
+    +'Terasun Europe will review your '+formLabel+' and contact you within 2 business days.<br><br>'
+    +'For urgent matters: <strong>info@terasuneurope.com</strong>';
 }
 
 var menuOpen=false;
@@ -1482,11 +1511,19 @@ function faq(btn){
       return;
     }
 
+    var ref=generateRef();
+    var refEl=document.getElementById('f-ref');
+    if(refEl)refEl.value=ref;
+    var rtoEl=document.getElementById('f-replyto');
+    if(rtoEl)rtoEl.value=email;
+    var subEl=document.getElementById('f-subject');
+    if(subEl)subEl.value='New Terasun Europe enquiry ['+ref+']';
+
     var btn=form.querySelector('button[type="submit"]');
     if(btn){btn.disabled=true;btn.textContent='Sending…';}
 
     var endpoint='https://formspree.io/f/mbdvkyak';
-    console.log('[Formspree] POST →',endpoint);
+    console.log('[Formspree] POST →',endpoint,'ref:',ref);
 
     fetch(endpoint,{
       method:'POST',
@@ -1495,8 +1532,9 @@ function faq(btn){
     }).then(function(r){
       console.log('[Formspree] HTTP',r.status,r.statusText);
       if(r.ok){
-        console.log('[Formspree] Submission accepted ✓');
+        console.log('[Formspree] Submission accepted ✓ ref:',ref);
         if(btn){btn.disabled=false;btn.textContent='Send enquiry →';}
+        setModalBody('modal',ref,'enquiry');
         form.reset();
         openModal('modal');
       } else {
@@ -1615,11 +1653,19 @@ document.addEventListener('keydown',function(e){
       return;
     }
 
+    var ref=generateRef();
+    var refEl=document.getElementById('q-ref');
+    if(refEl)refEl.value=ref;
+    var rtoEl=document.getElementById('q-replyto');
+    if(rtoEl)rtoEl.value=email;
+    var subEl=document.getElementById('q-subject');
+    if(subEl)subEl.value='New Terasun Europe quotation request ['+ref+']';
+
     var btn=form.querySelector('button[type="submit"]');
     if(btn){btn.disabled=true;btn.textContent='Sending…';}
 
     var endpoint='https://formspree.io/f/mbdvkyak';
-    console.log('[Formspree/quot] POST →',endpoint);
+    console.log('[Formspree/quot] POST →',endpoint,'ref:',ref);
 
     fetch(endpoint,{
       method:'POST',
@@ -1628,8 +1674,9 @@ document.addEventListener('keydown',function(e){
     }).then(function(r){
       console.log('[Formspree/quot] HTTP',r.status,r.statusText);
       if(r.ok){
-        console.log('[Formspree/quot] Quotation request accepted ✓');
+        console.log('[Formspree/quot] Quotation request accepted ✓ ref:',ref);
         if(btn){btn.disabled=false;btn.textContent='Send quotation request →';}
+        setModalBody('modal-quot',ref,'quotation request');
         form.reset();
         openModal('modal-quot');
       } else {
@@ -1691,11 +1738,19 @@ document.addEventListener('keydown',function(e){
       return;
     }
 
+    var ref=generateRef();
+    var refEl=document.getElementById('da-ref');
+    if(refEl)refEl.value=ref;
+    var rtoEl=document.getElementById('da-replyto');
+    if(rtoEl)rtoEl.value=email;
+    var subEl=document.getElementById('da-subject');
+    if(subEl)subEl.value='New Terasun Europe document access request ['+ref+']';
+
     var btn=form.querySelector('button[type="submit"]');
     if(btn){btn.disabled=true;btn.textContent='Sending…';}
 
     var endpoint='https://formspree.io/f/mbdvkyak';
-    console.log('[Formspree/docaccess] POST →',endpoint);
+    console.log('[Formspree/docaccess] POST →',endpoint,'ref:',ref);
 
     fetch(endpoint,{
       method:'POST',
@@ -1704,8 +1759,9 @@ document.addEventListener('keydown',function(e){
     }).then(function(r){
       console.log('[Formspree/docaccess] HTTP',r.status,r.statusText);
       if(r.ok){
-        console.log('[Formspree/docaccess] Document access request accepted ✓');
+        console.log('[Formspree/docaccess] Document access request accepted ✓ ref:',ref);
         if(btn){btn.disabled=false;btn.textContent='Send document access request →';}
+        setModalBody('modal-docaccess',ref,'document access request');
         form.reset();
         openModal('modal-docaccess');
       } else {
