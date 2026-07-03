@@ -974,12 +974,12 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
 <!-- CONTACT / ENQUIRY -->
 <section class="s-alt" id="contact">
   <div class="container">
-    <p class="stag">Enquiry</p>
-    <h2 class="stitle">How can we help you?</h2>
+    <p class="stag">Enquiry &amp; quotation</p>
+    <h2 class="stitle">Request a Quotation or Send an Enquiry</h2>
     <div class="rule" aria-hidden="true"></div>
     <div class="quot-wrap">
       <div>
-        <p style="font-size:15px;color:var(--muted);line-height:1.8;margin-bottom:1.5rem">One form for all enquiries — whether you want to become a distributor, request a price offer, order samples, or ask for technical documentation.</p>
+        <p style="font-size:15px;color:var(--muted);line-height:1.8;margin-bottom:1.5rem">Use this form to request a price quotation, become a distributor, order samples, or ask for technical documentation. All fields relevant to your request help us respond faster and more accurately.</p>
         <form id="contactForm" action="https://formspree.io/f/mbdvkyak" method="POST" novalidate>
           <input type="hidden" id="u-form-type" name="form_type" value="General enquiry">
           <input type="hidden" name="source" value="Terasun Europe website">
@@ -990,7 +990,7 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
 
           <!-- Intent -->
           <div class="quot-group">
-            <div class="quot-group-title">What are you requesting? *</div>
+            <div class="quot-group-title">0 — Request type *</div>
             <div class="quot-group-body">
               <div class="form-field">
                 <select id="u-intent" name="request_type" required>
@@ -1007,7 +1007,7 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
 
           <!-- Contact details -->
           <div class="quot-group">
-            <div class="quot-group-title">Your details</div>
+            <div class="quot-group-title">1 — Customer information</div>
             <div class="quot-group-body">
               <div class="form-row">
                 <div class="form-field"><label for="u-name">Full name *</label><input type="text" id="u-name" name="name" placeholder="Anna Müller" required autocomplete="name"></div>
@@ -1058,8 +1058,8 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
           </div>
 
           <!-- Product selection (quotation only) -->
-          <div class="quot-group" id="u-product-group" style="display:none">
-            <div class="quot-group-title">Product selection</div>
+          <div class="quot-group" id="u-product-group">
+            <div class="quot-group-title">2 — Product selection</div>
             <div class="quot-group-body">
               <div class="form-row">
                 <div class="form-field"><label for="u-thickness">Thickness *</label>
@@ -1097,8 +1097,8 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
           </div>
 
           <!-- Quantity (quotation only) -->
-          <div class="quot-group" id="u-qty-group" style="display:none">
-            <div class="quot-group-title">Quantity * <span style="font-weight:400;text-transform:none;letter-spacing:0;font-size:10px;color:var(--light)">(fill in at least one)</span></div>
+          <div class="quot-group" id="u-qty-group">
+            <div class="quot-group-title">3 — Quantity <span style="font-weight:400;text-transform:none;letter-spacing:0;font-size:10px;color:var(--light)">(fill in at least one, if applicable)</span></div>
             <div class="quot-group-body">
               <div class="form-row">
                 <div class="form-field"><label for="u-qty-boards">Number of boards</label><input type="number" id="u-qty-boards" name="quantity_boards" min="1" placeholder="e.g. 500"></div>
@@ -1121,8 +1121,8 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
           </div>
 
           <!-- Logistics (quotation only) -->
-          <div class="quot-group" id="u-logistics-group" style="display:none">
-            <div class="quot-group-title">Logistics &amp; delivery</div>
+          <div class="quot-group" id="u-logistics-group">
+            <div class="quot-group-title">4 — Logistics &amp; delivery</div>
             <div class="quot-group-body">
               <p style="font-size:12px;color:var(--muted);line-height:1.7;margin-bottom:1rem;padding:.65rem .9rem;background:var(--gold-light);border:1px solid var(--gold-border);border-radius:4px">
                 <strong style="color:var(--dark)">Note:</strong> Sea freight and arrival port costs can be estimated separately from inland transport. Please provide both the preferred arrival port and final delivery location so we can calculate a realistic full delivery quotation.
@@ -1193,8 +1193,8 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
           </div>
 
           <!-- Project info (quotation only) -->
-          <div class="quot-group" id="u-project-group" style="display:none">
-            <div class="quot-group-title">Project information</div>
+          <div class="quot-group" id="u-project-group">
+            <div class="quot-group-title">5 — Project information</div>
             <div class="quot-group-body">
               <div class="form-row">
                 <div class="form-field"><label for="u-project-name">Project name</label><input type="text" id="u-project-name" name="project_name" placeholder="e.g. Riverside Apartments Block C"></div>
@@ -1224,14 +1224,14 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
 
           <!-- Message -->
           <div class="quot-group">
-            <div class="quot-group-title">Message</div>
+            <div class="quot-group-title">6 — Message</div>
             <div class="quot-group-body">
               <div class="form-field"><label for="u-message">Message *</label><textarea id="u-message" name="message" placeholder="Describe your enquiry, project, or the documents you need." required></textarea></div>
             </div>
           </div>
 
           <div id="form-error" role="alert" style="display:none;color:#c0392b;font-size:13px;margin-bottom:.75rem;padding:.6rem .9rem;background:#fff0f0;border:1px solid #f5c6c6;border-radius:4px"></div>
-          <button type="submit" class="submit-btn">Send request →</button>
+          <button type="submit" class="submit-btn">Send enquiry / request quotation →</button>
           <p style="font-size:11px;color:var(--light);margin-top:.75rem">We respond within 2 business days. Your information is handled confidentially and not shared with third parties.</p>
         </form>
       </div>
@@ -1433,11 +1433,6 @@ function faq(btn){
 
   document.getElementById('u-intent').addEventListener('change',function(){
     var v=this.value;
-    var isQuot=(v==='quotation');
-    quotGroups.forEach(function(id){
-      var el=document.getElementById(id);
-      if(el)el.style.display=isQuot?'':'none';
-    });
     var ft=document.getElementById('u-form-type');
     if(ft)ft.value=intentLabels[v]||'General enquiry';
   });
@@ -1512,28 +1507,24 @@ function faq(btn){
       console.log('[Formspree] HTTP',r.status,r.statusText);
       if(r.ok){
         console.log('[Formspree] Accepted ✓ ref:',ref);
-        if(btn){btn.disabled=false;btn.textContent='Send request →';}
+        if(btn){btn.disabled=false;btn.textContent='Send enquiry / request quotation →';}
         setModalBody('modal',ref,label.toLowerCase());
         form.reset();
-        quotGroups.forEach(function(id){
-          var el=document.getElementById(id);
-          if(el)el.style.display='none';
-        });
         openModal('modal');
       } else {
         return r.json().then(function(data){
           console.error('[Formspree] Error:',JSON.stringify(data));
           var errMsg=data&&data.errors?data.errors.map(function(x){return x.message;}).join(' '):'Submission failed (HTTP '+r.status+').';
-          if(btn){btn.disabled=false;btn.textContent='Send request →';}
+          if(btn){btn.disabled=false;btn.textContent='Send enquiry / request quotation →';}
           showError(errMsg+' Please email sales@terasun-europe.eu.');
         }).catch(function(){
-          if(btn){btn.disabled=false;btn.textContent='Send request →';}
+          if(btn){btn.disabled=false;btn.textContent='Send enquiry / request quotation →';}
           showError('Submission failed (HTTP '+r.status+'). Please email sales@terasun-europe.eu.');
         });
       }
     }).catch(function(err){
       console.error('[Formspree] Network error:',err);
-      if(btn){btn.disabled=false;btn.textContent='Send request →';}
+      if(btn){btn.disabled=false;btn.textContent='Send enquiry / request quotation →';}
       showError('Network error — please email sales@terasun-europe.eu.');
     });
   });
