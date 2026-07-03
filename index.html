@@ -193,6 +193,19 @@ section{padding:5rem 2rem}
 .spec-table td{padding:11px 16px;border-bottom:1px solid var(--border);color:var(--text)}
 .spec-table tr:nth-child(even) td{background:var(--white)}
 .spec-table td:first-child{font-weight:600;color:var(--muted);font-size:11px;letter-spacing:.3px;text-transform:uppercase;white-space:nowrap}
+.tsm-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-bottom:2.5rem}
+@media(max-width:800px){.tsm-cards{grid-template-columns:1fr}}
+.tsm-card{border:1px solid var(--border);border-radius:6px;overflow:hidden;background:var(--white)}
+.tsm-card-hdr{background:var(--dark);color:#fff;font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:10px 16px}
+.tsm-card table{width:100%;border-collapse:collapse;font-size:13px}
+.tsm-card table th{background:#f6f7f9;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);padding:8px 14px;text-align:left;border-bottom:1px solid var(--border)}
+.tsm-card table td{padding:8px 14px;border-bottom:1px solid var(--border);color:var(--text);vertical-align:middle}
+.tsm-card table tr:last-child td{border-bottom:none}
+.tsm-card table td:first-child{font-weight:600;color:var(--dark)}
+.tsm-card table td.cert{font-size:11px;color:var(--muted)}
+.tsm-badge{display:inline-block;font-size:10px;font-weight:700;padding:2px 7px;border-radius:2px;background:var(--gold-light);border:1px solid var(--gold-border);color:var(--gold);margin-left:4px;vertical-align:middle}
+.tsm-dot-declared{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--gold);margin-right:4px;flex-shrink:0}
+.tsm-note{font-size:11px;color:var(--muted);padding:10px 14px;border-top:1px solid var(--border);background:#fafafa;line-height:1.6}
 
 /* APPLICATIONS */
 .app-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.25rem}
@@ -576,27 +589,76 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
     <h2 class="stitle">Terasun TSM — Fiber Cement Board</h2>
     <div class="rule" aria-hidden="true"></div>
     <p class="ssub">A cement-based construction panel reinforced with cellulose fiber. Engineered for structural performance, moisture resistance, and fire safety. Asbestos-free. CE certified for European markets.</p>
-    <h3 style="font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-bottom:1rem">Technical specifications — verified values only</h3>
+    <!-- Product format cards -->
+    <div class="tsm-cards">
+
+      <!-- Card 1: Thicknesses -->
+      <div class="tsm-card">
+        <div class="tsm-card-hdr">Available thicknesses</div>
+        <table>
+          <thead><tr><th>Thickness</th><th>Weight</th></tr></thead>
+          <tbody>
+            <tr><td>6 mm</td><td class="cert">on request</td></tr>
+            <tr><td>8 mm</td><td class="cert">on request</td></tr>
+            <tr><td>9 mm</td><td class="cert">on request</td></tr>
+            <tr><td>10 mm</td><td class="cert">on request</td></tr>
+            <tr><td>12 mm <span class="tsm-badge">EPD</span></td><td><strong>9.96 kg/m²</strong></td></tr>
+            <tr><td>15 mm</td><td class="cert">on request</td></tr>
+            <tr><td>18 mm</td><td class="cert">on request</td></tr>
+          </tbody>
+        </table>
+        <div class="tsm-note">Weight certified at 12 mm per EPD-IES-0018268. Other thicknesses available — contact for data sheet.</div>
+      </div>
+
+      <!-- Card 2: Board formats -->
+      <div class="tsm-card">
+        <div class="tsm-card-hdr">Board formats</div>
+        <table>
+          <thead><tr><th>Width × Length</th><th>Area / sheet</th></tr></thead>
+          <tbody>
+            <tr><td>1200 × 2400 mm</td><td>2.88 m²</td></tr>
+            <tr><td>1200 × 2500 mm</td><td>3.00 m²</td></tr>
+            <tr><td>1200 × 2600 mm</td><td>3.12 m²</td></tr>
+            <tr><td>1200 × 3000 mm</td><td>3.60 m²</td></tr>
+          </tbody>
+        </table>
+        <div class="tsm-note">Standard format: 1200 × 2400 mm. Other lengths available on order. Confirm availability by thickness when ordering.</div>
+      </div>
+
+      <!-- Card 3: Packaging -->
+      <div class="tsm-card">
+        <div class="tsm-card-hdr">Packaging &amp; pallet</div>
+        <table>
+          <thead><tr><th>Parameter</th><th>Value</th></tr></thead>
+          <tbody>
+            <tr><td>Packing type</td><td>Palletised, shrink-wrapped</td></tr>
+            <tr><td>Sheets / pallet</td><td class="cert">confirm by thickness</td></tr>
+            <tr><td>Pallet dimensions</td><td class="cert">confirm by thickness</td></tr>
+            <tr><td>Pallets / 20 ft container</td><td class="cert">confirm on order</td></tr>
+            <tr><td>Pallets / 40 ft container</td><td class="cert">confirm on order</td></tr>
+            <tr><td>Supply unit</td><td>1 container (min. order)</td></tr>
+          </tbody>
+        </table>
+        <div class="tsm-note">Exact pallet counts and container loading plans provided with quotation. Request a quotation for full logistics data.</div>
+      </div>
+
+    </div>
+
+    <!-- Certified technical data -->
+    <h3 style="font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-bottom:1rem">Certified technical data</h3>
     <div style="overflow-x:auto;margin-bottom:3rem">
       <table class="spec-table">
-        <thead><tr><th scope="col">Property</th><th scope="col">Value</th><th scope="col">Reference / note</th></tr></thead>
+        <thead><tr><th scope="col">Property</th><th scope="col">Value</th><th scope="col">Reference</th></tr></thead>
         <tbody>
-          <tr><td>Board size (declared)</td><td>12 mm × 1200 mm × 2400 mm</td><td>Declared unit per EPD-IES-0018268</td></tr>
-          <tr><td>Weight</td><td>9.96 kg/m²</td><td>At 12 mm — EPD-IES-0018268</td></tr>
-          <tr><td>EPD declared unit</td><td>1 m²</td><td>EPD-IES-0018268</td></tr>
-          <tr><td>EPD publication date</td><td>2025-03-14</td><td>EPD-IES-0018268</td></tr>
-          <tr><td>EPD valid until</td><td>2029-03-14</td><td>EPD-IES-0018268</td></tr>
-          <tr><td>Fire resistance</td><td>E 120 / EI 90 / EW 120</td><td>Test report FIRES-CR-284-25-AUPE</td></tr>
-          <tr><td>CE Marking</td><td>1023-CPR-1565 P</td><td>Construction Products Regulation</td></tr>
-          <tr><td>ETA</td><td>24/0895</td><td>European Technical Assessment</td></tr>
+          <tr><td>CE Marking</td><td>1023-CPR-1565 P</td><td>EU Construction Products Regulation</td></tr>
+          <tr><td>European Technical Assessment</td><td>ETA 24/0895</td><td>Issued by designated ETA body</td></tr>
           <tr><td>Declaration of Performance</td><td>DoP TRS-20250610F</td><td>Per ETA 24/0895</td></tr>
-          <tr><td>Binder</td><td>Portland cement</td><td>—</td></tr>
-          <tr><td>Reinforcement</td><td>Cellulose fiber</td><td>Asbestos-free</td></tr>
-          <tr><td>Manufacturing process</td><td>Autoclaved</td><td>Dimensional stability</td></tr>
-          <tr><td>Moisture resistance</td><td>High</td><td>Wet room and facade applications</td></tr>
+          <tr><td>Fire resistance</td><td>E 120 / EI 90 / EW 120</td><td>FIRES-CR-284-25-AUPE</td></tr>
+          <tr><td>Declared weight (12 mm)</td><td>9.96 kg/m²</td><td>EPD-IES-0018268</td></tr>
+          <tr><td>EPD valid until</td><td>2029-03-14</td><td>EPD-IES-0018268 — ISO 14025</td></tr>
+          <tr><td>Binder</td><td>Portland cement</td><td>Asbestos-free</td></tr>
+          <tr><td>Reinforcement</td><td>Cellulose fiber</td><td>Autoclaved manufacturing</td></tr>
           <tr><td>Stud spacing</td><td>400 or 600 mm</td><td>Timber or steel frame</td></tr>
-          <tr><td>Storage</td><td>Dry, flat, off the ground</td><td>Covered, horizontally stacked</td></tr>
-          <tr><td>Packaging</td><td>Palletised, shrink-wrapped</td><td>Container supply</td></tr>
         </tbody>
       </table>
     </div>
