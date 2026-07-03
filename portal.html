@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Partner Portal — Terasun Europe</title>
+<meta name="description" content="Terasun Europe partner and distributor portal. Login to access price lists, technical documents, and order management.">
+<meta name="robots" content="noindex,nofollow">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231a1c22'/%3E%3Ctext x='16' y='24' font-family='Arial' font-size='22' font-weight='700' fill='%23b8932a' text-anchor='middle'%3ET%3C/text%3E%3C/svg%3E">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#f8f7f4;--white:#fff;--dark:#1a1c22;--dark2:#2c2f3a;
+  --gold:#b8932a;--gold2:#d4a832;--gold-light:#f5edd8;--gold-border:#e8d5a0;
+  --text:#1a1c22;--muted:#6b6e7a;--light:#9a9da8;--border:#e2e0d8;--border2:#d0cdc3;
+  --r:4px;
+}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:'Helvetica Neue',Arial,sans-serif;font-size:16px;line-height:1.6;min-height:100vh;display:flex;flex-direction:column}
+a{color:var(--gold);text-decoration:none}
+
+/* NAV */
+nav{background:var(--white);border-bottom:1px solid var(--border);padding:0 2rem;height:64px;display:flex;align-items:center;justify-content:space-between}
+.logo-wrap{display:flex;flex-direction:column;cursor:pointer}
+.logo-wrap a{text-decoration:none}
+.logo-main{font-size:17px;font-weight:700;letter-spacing:1.5px;color:var(--dark);line-height:1}
+.logo-sub{font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-top:2px}
+.nav-right{display:flex;align-items:center;gap:1rem;font-size:13px;color:var(--muted)}
+.nav-right a{color:var(--muted)}
+.nav-right a:hover{color:var(--gold)}
+
+/* PORTAL LAYOUT */
+.portal-outer{flex:1;display:flex;align-items:center;justify-content:center;padding:3rem 1.5rem}
+.portal-wrap{display:grid;grid-template-columns:1fr 1fr;gap:0;max-width:900px;width:100%;background:var(--white);border-radius:8px;box-shadow:0 4px 40px rgba(0,0,0,.09);overflow:hidden;border:1px solid var(--border)}
+@media(max-width:640px){.portal-wrap{grid-template-columns:1fr}.portal-brand-panel{display:none}}
+
+/* BRAND PANEL */
+.portal-brand-panel{background:var(--dark);padding:3rem 2.5rem;display:flex;flex-direction:column;justify-content:space-between}
+.pb-logo{font-size:20px;font-weight:700;letter-spacing:1.5px;color:#fff;margin-bottom:.4rem}
+.pb-sub{font-size:9px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold2)}
+.pb-desc{font-size:13px;color:#8a8e9e;line-height:1.8;margin-top:2rem}
+.pb-items{margin-top:2rem;display:flex;flex-direction:column;gap:.85rem}
+.pb-item{display:flex;align-items:flex-start;gap:.75rem;font-size:12px;color:#8a8e9e;line-height:1.5}
+.pb-dot{width:5px;height:5px;border-radius:50%;background:var(--gold2);flex-shrink:0;margin-top:5px}
+.pb-footer{font-size:11px;color:#555;margin-top:2rem;line-height:1.6}
+.pb-footer a{color:var(--gold2)}
+
+/* FORM PANEL */
+.portal-form-panel{padding:3rem 2.5rem}
+.portal-tabs{display:flex;gap:0;margin-bottom:2rem;border-bottom:2px solid var(--border)}
+.portal-tab{font-size:13px;font-weight:600;color:var(--muted);padding:.6rem 1.25rem;cursor:pointer;border:none;background:none;border-bottom:2px solid transparent;margin-bottom:-2px;transition:all .2s;letter-spacing:.2px}
+.portal-tab.active{color:var(--gold);border-bottom-color:var(--gold)}
+.portal-tab:hover:not(.active){color:var(--dark)}
+
+/* FORM FIELDS */
+.pf-title{font-size:1.35rem;font-weight:700;color:var(--dark);margin-bottom:.35rem}
+.pf-sub{font-size:13px;color:var(--muted);margin-bottom:1.75rem;line-height:1.6}
+.pf-group{margin-bottom:1.1rem}
+.pf-label{font-size:12px;font-weight:600;color:var(--dark);margin-bottom:.4rem;display:block;letter-spacing:.2px}
+.pf-input{width:100%;padding:.65rem .9rem;font-size:14px;border:1px solid var(--border2);border-radius:var(--r);background:var(--white);color:var(--text);transition:border-color .2s;font-family:inherit}
+.pf-input:focus{outline:none;border-color:var(--gold)}
+.pf-input::placeholder{color:var(--light)}
+select.pf-input{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236b6e7a' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right .85rem center;padding-right:2.25rem;cursor:pointer}
+.pf-row{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+@media(max-width:400px){.pf-row{grid-template-columns:1fr}}
+.pf-btn{width:100%;padding:.8rem;font-size:13px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:#fff;background:var(--gold);border:none;border-radius:var(--r);cursor:pointer;transition:background .2s;margin-top:.5rem}
+.pf-btn:hover{background:var(--gold2)}
+.pf-btn:disabled{opacity:.6;cursor:not-allowed}
+.pf-link{font-size:12px;color:var(--muted);text-align:center;margin-top:1rem}
+.pf-link a{color:var(--gold)}
+.pf-divider{border:none;border-top:1px solid var(--border);margin:1.5rem 0}
+.pf-error{display:none;color:#c0392b;font-size:12px;margin-bottom:.75rem;padding:.65rem .9rem;background:#fff0f0;border:1px solid #f5c6c6;border-radius:4px}
+.pf-success{display:none;color:#1a6b3c;font-size:13px;padding:.85rem 1rem;background:#e8f5ee;border:1px solid #a8d8bc;border-radius:4px;line-height:1.6}
+.pf-note{font-size:11px;color:var(--light);line-height:1.6;margin-top:.75rem}
+.pf-forgot{font-size:11px;color:var(--muted);float:right;margin-top:-1.5rem;margin-bottom:1rem}
+.pf-forgot a{color:var(--gold)}
+
+/* PANEL VISIBILITY */
+.tab-panel{display:none}
+.tab-panel.active{display:block}
+
+/* FOOTER */
+footer{padding:1.25rem 2rem;text-align:center;font-size:11px;color:var(--light);border-top:1px solid var(--border);background:var(--white)}
+footer a{color:var(--muted)}
+footer a:hover{color:var(--gold)}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="logo-wrap" href="index.html">
+    <span class="logo-main">TERASUN EUROPE</span>
+    <span class="logo-sub">Partner Portal</span>
+  </a>
+  <div class="nav-right">
+    <a href="index.html">← Back to website</a>
+    <span>·</span>
+    <a href="mailto:sales@terasun-europe.eu">sales@terasun-europe.eu</a>
+  </div>
+</nav>
+
+<div class="portal-outer">
+  <div class="portal-wrap">
+
+    <!-- Brand panel -->
+    <div class="portal-brand-panel">
+      <div>
+        <div class="pb-logo">TERASUN EUROPE</div>
+        <div class="pb-sub">Authorised European Representative</div>
+        <p class="pb-desc">The partner portal gives authorised distributors and dealers access to exclusive resources, pricing, and order management tools.</p>
+        <div class="pb-items">
+          <div class="pb-item"><div class="pb-dot"></div><span>Current price lists and container quotations</span></div>
+          <div class="pb-item"><div class="pb-dot"></div><span>Full technical documentation library</span></div>
+          <div class="pb-item"><div class="pb-dot"></div><span>Order tracking and shipment status</span></div>
+          <div class="pb-item"><div class="pb-dot"></div><span>Marketing materials and system drawings</span></div>
+          <div class="pb-item"><div class="pb-dot"></div><span>Dedicated account manager contact</span></div>
+        </div>
+      </div>
+      <div class="pb-footer">
+        Not a partner yet? <a href="index.html#contact">Apply for partnership →</a><br>
+        Questions: <a href="mailto:sales@terasun-europe.eu">sales@terasun-europe.eu</a><br>
+        Tel: <a href="tel:+358465887177">+358 465 887 177</a>
+      </div>
+    </div>
+
+    <!-- Form panel -->
+    <div class="portal-form-panel">
+      <div class="portal-tabs" role="tablist">
+        <button class="portal-tab active" role="tab" aria-selected="true" aria-controls="panel-login" onclick="switchTab('login',this)">Login</button>
+        <button class="portal-tab" role="tab" aria-selected="false" aria-controls="panel-register" onclick="switchTab('register',this)">Request access</button>
+      </div>
+
+      <!-- LOGIN -->
+      <div class="tab-panel active" id="panel-login" role="tabpanel">
+        <p class="pf-title">Welcome back</p>
+        <p class="pf-sub">Login to your Terasun Europe partner account.</p>
+        <form id="loginForm" novalidate>
+          <div class="pf-group">
+            <label class="pf-label" for="l-email">Email address</label>
+            <input class="pf-input" type="email" id="l-email" placeholder="you@company.com" autocomplete="email" required>
+          </div>
+          <div class="pf-group">
+            <label class="pf-label" for="l-password">Password</label>
+            <input class="pf-input" type="password" id="l-password" placeholder="••••••••" autocomplete="current-password" required>
+          </div>
+          <div class="pf-forgot"><a href="mailto:sales@terasun-europe.eu?subject=Password reset request">Forgot password?</a></div>
+          <div class="pf-error" id="l-error"></div>
+          <button class="pf-btn" type="submit">Login →</button>
+          <p class="pf-note">Access is restricted to authorised Terasun Europe partners and distributors. If you have lost access, contact <a href="mailto:sales@terasun-europe.eu" style="color:var(--gold)">sales@terasun-europe.eu</a>.</p>
+        </form>
+        <hr class="pf-divider">
+        <p class="pf-link">Not yet a partner? <a href="javascript:void(0)" onclick="switchTab('register',document.querySelectorAll('.portal-tab')[1])">Request access →</a></p>
+      </div>
+
+      <!-- REGISTER / REQUEST ACCESS -->
+      <div class="tab-panel" id="panel-register" role="tabpanel">
+        <p class="pf-title">Request portal access</p>
+        <p class="pf-sub">Complete the form below. We will review your application and send login credentials within 2 business days if approved.</p>
+        <form id="registerForm" action="https://formspree.io/f/mbdvkyak" method="POST" novalidate>
+          <input type="hidden" name="form_type" value="Partner portal access request">
+          <input type="hidden" name="source" value="Terasun Europe partner portal">
+          <input type="hidden" id="r-subject" name="_subject" value="">
+          <input type="hidden" id="r-replyto" name="_replyto" value="">
+
+          <div class="pf-row">
+            <div class="pf-group">
+              <label class="pf-label" for="r-name">Full name *</label>
+              <input class="pf-input" type="text" id="r-name" name="name" placeholder="Anna Müller" required autocomplete="name">
+            </div>
+            <div class="pf-group">
+              <label class="pf-label" for="r-company">Company *</label>
+              <input class="pf-input" type="text" id="r-company" name="company" placeholder="Your company" required autocomplete="organization">
+            </div>
+          </div>
+          <div class="pf-row">
+            <div class="pf-group">
+              <label class="pf-label" for="r-email">Business email *</label>
+              <input class="pf-input" type="email" id="r-email" name="email" placeholder="you@company.com" required autocomplete="email">
+            </div>
+            <div class="pf-group">
+              <label class="pf-label" for="r-phone">Phone / WhatsApp</label>
+              <input class="pf-input" type="tel" id="r-phone" name="phone" placeholder="+358 ..." autocomplete="tel">
+            </div>
+          </div>
+          <div class="pf-row">
+            <div class="pf-group">
+              <label class="pf-label" for="r-country">Country *</label>
+              <select class="pf-input" id="r-country" name="country" required>
+                <option value="">Select country</option>
+                <option>Finland</option><option>Sweden</option><option>Norway</option><option>Denmark</option>
+                <option>Germany</option><option>Netherlands</option><option>Belgium</option><option>France</option>
+                <option>Poland</option><option>Czech Republic</option><option>Austria</option>
+                <option>Estonia</option><option>Latvia</option><option>Lithuania</option><option>Other EU/EEA</option>
+              </select>
+            </div>
+            <div class="pf-group">
+              <label class="pf-label" for="r-role">Your role</label>
+              <select class="pf-input" id="r-role" name="role">
+                <option value="">Select role</option>
+                <option>Owner / director</option>
+                <option>Sales manager</option>
+                <option>Procurement</option>
+                <option>Technical manager</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+          <div class="pf-group">
+            <label class="pf-label" for="r-biztype">Business type *</label>
+            <select class="pf-input" id="r-biztype" name="business_type" required>
+              <option value="">Select type</option>
+              <option>Distributor / importer</option>
+              <option>Building contractor</option>
+              <option>Facade contractor</option>
+              <option>Wet room contractor</option>
+              <option>Architect / designer firm</option>
+              <option>Developer</option>
+              <option>Retailer / building material store</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="pf-group">
+            <label class="pf-label" for="r-website">Company website</label>
+            <input class="pf-input" type="url" id="r-website" name="website" placeholder="https://yourcompany.com" autocomplete="url">
+          </div>
+          <div class="pf-group">
+            <label class="pf-label" for="r-message">Why are you requesting access?</label>
+            <textarea class="pf-input" id="r-message" name="message" rows="3" placeholder="Briefly describe your business and how you plan to work with Terasun products."></textarea>
+          </div>
+          <div class="pf-error" id="r-error"></div>
+          <div class="pf-success" id="r-success">
+            Your access request has been submitted. Terasun Europe will review your application and contact you within 2 business days at the email address you provided.
+          </div>
+          <button class="pf-btn" type="submit" id="r-btn">Submit access request →</button>
+          <p class="pf-note">All information is handled confidentially. Portal access is granted at the discretion of Terasun Europe.</p>
+        </form>
+        <hr class="pf-divider">
+        <p class="pf-link">Already have an account? <a href="javascript:void(0)" onclick="switchTab('login',document.querySelectorAll('.portal-tab')[0])">Login →</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <a href="index.html">Terasun Europe</a> · 01370 Vantaa, Finland · VAT FI33599486 ·
+  <a href="mailto:sales@terasun-europe.eu">sales@terasun-europe.eu</a> ·
+  <a href="tel:+358465887177">+358 465 887 177</a>
+</footer>
+
+<script>
+function switchTab(name, btn) {
+  document.querySelectorAll('.portal-tab').forEach(function(t){
+    t.classList.remove('active');
+    t.setAttribute('aria-selected','false');
+  });
+  document.querySelectorAll('.tab-panel').forEach(function(p){
+    p.classList.remove('active');
+  });
+  btn.classList.add('active');
+  btn.setAttribute('aria-selected','true');
+  document.getElementById('panel-'+name).classList.add('active');
+}
+
+// Login form — placeholder (redirect to real auth system when ready)
+document.getElementById('loginForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  var email = document.getElementById('l-email').value.trim();
+  var password = document.getElementById('l-password').value;
+  var errEl = document.getElementById('l-error');
+  errEl.style.display = 'none';
+  if(!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){
+    errEl.textContent = 'Please enter a valid email address.';
+    errEl.style.display = 'block';
+    return;
+  }
+  if(!password){
+    errEl.textContent = 'Please enter your password.';
+    errEl.style.display = 'block';
+    return;
+  }
+  // TODO: Replace with real authentication endpoint
+  errEl.textContent = 'Portal login is being set up. Please contact sales@terasun-europe.eu for direct access.';
+  errEl.style.display = 'block';
+});
+
+// Register form — Formspree
+(function(){
+  var form = document.getElementById('registerForm');
+  if(!form) return;
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var name = document.getElementById('r-name').value.trim();
+    var company = document.getElementById('r-company').value.trim();
+    var email = document.getElementById('r-email').value.trim();
+    var country = document.getElementById('r-country').value;
+    var biztype = document.getElementById('r-biztype').value;
+    var errEl = document.getElementById('r-error');
+    var sucEl = document.getElementById('r-success');
+    errEl.style.display = 'none';
+    sucEl.style.display = 'none';
+    if(!name || !company || !country || !biztype){
+      errEl.textContent = 'Please complete all required fields (marked *).';
+      errEl.style.display = 'block';
+      return;
+    }
+    if(!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){
+      errEl.textContent = 'Please enter a valid business email address.';
+      errEl.style.display = 'block';
+      return;
+    }
+    var now = new Date();
+    var ref = 'TE-'+now.getFullYear()+String(now.getMonth()+1).padStart(2,'0')+String(now.getDate()).padStart(2,'0')+'-'+String(Math.floor(100+Math.random()*900));
+    document.getElementById('r-subject').value = 'Partner portal access request ['+ref+'] — '+company;
+    document.getElementById('r-replyto').value = email;
+    var btn = document.getElementById('r-btn');
+    btn.disabled = true;
+    btn.textContent = 'Submitting…';
+    fetch('https://formspree.io/f/mbdvkyak', {
+      method: 'POST',
+      headers: {'Accept': 'application/json'},
+      body: new FormData(form)
+    }).then(function(r){
+      if(r.ok){
+        sucEl.style.display = 'block';
+        form.reset();
+        btn.disabled = false;
+        btn.textContent = 'Submit access request →';
+      } else {
+        btn.disabled = false;
+        btn.textContent = 'Submit access request →';
+        errEl.textContent = 'Submission failed. Please email sales@terasun-europe.eu directly.';
+        errEl.style.display = 'block';
+      }
+    }).catch(function(){
+      btn.disabled = false;
+      btn.textContent = 'Submit access request →';
+      errEl.textContent = 'Network error. Please email sales@terasun-europe.eu.';
+      errEl.style.display = 'block';
+    });
+  });
+})();
+</script>
+</body>
+</html>

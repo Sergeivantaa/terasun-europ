@@ -373,6 +373,40 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
 .modal p{font-size:13px;color:var(--muted);line-height:1.7}
 .modal-close{margin-top:1.5rem;background:var(--gold);color:#fff;font-weight:700;border:none;border-radius:var(--r);padding:10px 28px;cursor:pointer;font-size:13px}
 .modal-close:focus-visible{outline:2px solid var(--gold2);outline-offset:2px}
+/* PHOTO GRID */
+.photo-grid{display:grid;gap:1rem;margin:2rem 0}
+.photo-grid-3{grid-template-columns:repeat(3,1fr)}
+.photo-grid-2{grid-template-columns:repeat(2,1fr)}
+@media(max-width:700px){.photo-grid-3,.photo-grid-2{grid-template-columns:1fr 1fr}}
+@media(max-width:440px){.photo-grid-3,.photo-grid-2{grid-template-columns:1fr}}
+.photo-slot{aspect-ratio:4/3;background:var(--border);border-radius:6px;overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center}
+.photo-slot img{width:100%;height:100%;object-fit:cover;display:block}
+.photo-slot-ph{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.5rem;width:100%;height:100%;background:linear-gradient(135deg,var(--border2) 0%,var(--border) 100%)}
+.photo-slot-ph span{font-size:28px;opacity:.5}
+.photo-slot-ph small{font-size:10px;color:var(--light);letter-spacing:1px;text-transform:uppercase}
+.photo-slot.wide{aspect-ratio:16/7}
+.photo-slot.tall{aspect-ratio:3/4}
+
+/* GALLERY SECTION */
+.gallery-filter{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.5rem}
+.gf-btn{font-size:11px;font-weight:600;letter-spacing:.3px;padding:6px 14px;border-radius:20px;border:1px solid var(--border);background:var(--white);color:var(--muted);cursor:pointer;transition:all .2s}
+.gf-btn.active,.gf-btn:hover{border-color:var(--gold);color:var(--gold);background:var(--gold-light)}
+.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+@media(max-width:700px){.gallery-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:440px){.gallery-grid{grid-template-columns:1fr}}
+.gallery-item{position:relative;border-radius:6px;overflow:hidden;cursor:pointer;background:var(--border)}
+.gallery-item img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}
+.gallery-item:hover img{transform:scale(1.04)}
+.gallery-item-ph{aspect-ratio:4/3;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(135deg,#e8e6e0 0%,var(--border) 100%)}
+.gallery-item-ph span{font-size:36px;opacity:.4}
+.gallery-caption{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(26,28,34,.85) 0%,transparent 100%);padding:1.25rem .9rem .75rem;color:#fff;font-size:12px;font-weight:600;letter-spacing:.2px}
+.gallery-caption small{display:block;font-size:10px;font-weight:400;color:#aaa;margin-top:2px}
+
+/* PARTNER LOGIN BUTTON */
+.btn-portal{font-size:11px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:var(--dark);background:transparent;border:1px solid var(--border2);padding:7px 13px;border-radius:var(--r);cursor:pointer;transition:all .2s;white-space:nowrap;display:flex;align-items:center;gap:5px}
+.btn-portal:hover,.btn-portal:focus-visible{border-color:var(--gold);color:var(--gold);background:var(--gold-light)}
+.btn-portal svg{width:13px;height:13px;flex-shrink:0}
+
 </style>
 </head>
 <body>
@@ -395,12 +429,14 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
       <a href="#downloads" role="listitem">Downloads</a>
       <a href="#distributors" role="listitem">Distributors</a>
       <a href="#logistics" role="listitem">Logistics</a>
+      <a href="#gallery" role="listitem">Gallery</a>
       <a href="#faq" role="listitem">FAQ</a>
       <a href="#contact" role="listitem">Contact</a>
     </div>
     <div class="nav-actions">
       <button class="btn-ghost" onclick="go('downloads')">Downloads</button>
       <button class="btn-ghost" onclick="go('contact')">Request quotation</button>
+      <a class="btn-portal" href="portal.html" title="Partner &amp; distributor portal"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="8" cy="5" r="3"/><path d="M2 14c0-3.3 2.7-6 6-6s6 2.7 6 6"/></svg>Login</a>
       <button class="btn-nav" onclick="go('contact')">Contact</button>
     </div>
     <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
@@ -424,9 +460,11 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
   <a href="#distributors" onclick="closeMenu()">Distributors</a>
   <a href="#logistics" onclick="closeMenu()">Logistics</a>
   <a href="#compare" onclick="closeMenu()">Compare</a>
+  <a href="#gallery" onclick="closeMenu()">Gallery</a>
   <a href="#faq" onclick="closeMenu()">FAQ</a>
   <a href="#contact" onclick="closeMenu()">Contact</a>
   <div class="mob-btns">
+    <a class="mob-btn-s" href="portal.html" style="text-align:center;display:block;padding:13px">Partner login</a>
     <button class="mob-btn-p" onclick="go('contact');closeMenu()">Request quotation</button>
     <button class="mob-btn-s" onclick="go('downloads');closeMenu()">Download documents</button>
     <button class="mob-btn-s" onclick="go('contact');closeMenu()">Contact us</button>
@@ -654,6 +692,20 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
         <div class="tsm-note">Exact pallet counts and container loading plans provided with quotation. Request a quotation for full logistics data.</div>
       </div>
 
+    </div>
+
+    <!-- Product photos -->
+    <h3 style="font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-bottom:1rem">Product photos</h3>
+    <div class="photo-grid photo-grid-3" style="margin-bottom:2.5rem">
+      <div class="photo-slot">
+        <div class="photo-slot-ph"><span>📷</span><small>Board surface</small></div>
+      </div>
+      <div class="photo-slot">
+        <div class="photo-slot-ph"><span>📷</span><small>Cross-section</small></div>
+      </div>
+      <div class="photo-slot">
+        <div class="photo-slot-ph"><span>📷</span><small>Pallet / packaging</small></div>
+      </div>
     </div>
 
     <!-- Certified technical data -->
@@ -940,6 +992,50 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
 </section>
 
 <!-- FAQ -->
+<!-- PROJECT GALLERY -->
+<section id="gallery">
+  <div class="container">
+    <p class="stag">Project gallery</p>
+    <h2 class="stitle">Terasun TSM in use</h2>
+    <div class="rule" aria-hidden="true"></div>
+    <p class="ssub">Real installations across Europe — facade cladding, wet room systems, fire-rated partitions, and more. Photos added as project references become available.</p>
+    <div class="gallery-filter" role="list" aria-label="Filter gallery">
+      <button class="gf-btn active">All</button>
+      <button class="gf-btn">Facade</button>
+      <button class="gf-btn">Wet room</button>
+      <button class="gf-btn">Fire partition</button>
+      <button class="gf-btn">Industrial</button>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <div class="gallery-item-ph"><span>🏗️</span></div>
+        <div class="gallery-caption">Facade cladding — Finland<small>Ventilated system · 12 mm TSM</small></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-item-ph"><span>🚿</span></div>
+        <div class="gallery-caption">Wet room substrate — Sweden<small>Mapei Mapegum WPS system</small></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-item-ph"><span>🔥</span></div>
+        <div class="gallery-caption">Fire partition — Norway<small>EI 90 rated system</small></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-item-ph"><span>🏢</span></div>
+        <div class="gallery-caption">Commercial facade — Estonia<small>15 mm TSM · steel subframe</small></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-item-ph"><span>🏠</span></div>
+        <div class="gallery-caption">Residential facade — Denmark<small>Timber frame · 12 mm TSM</small></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-item-ph"><span>🏭</span></div>
+        <div class="gallery-caption">Industrial panel — Latvia<small>18 mm TSM · heavy duty</small></div>
+      </div>
+    </div>
+    <p style="font-size:13px;color:var(--muted);margin-top:1.5rem;text-align:center">Have a completed project using Terasun TSM? <a href="#contact" onclick="go('contact')" style="color:var(--gold)">Send us your photos</a> — we'd love to feature it here.</p>
+  </div>
+</section>
+
 <section id="faq">
   <div class="container">
     <p class="stag">FAQ</p>
@@ -1303,6 +1399,7 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
         <a href="#distributors">Distributors</a>
         <a href="#logistics">Logistics</a>
         <a href="#contact">Request enquiry</a>
+        <a href="#gallery">Project gallery</a>
         <a href="#faq">FAQ</a>
         <a href="#contact">Contact</a>
       </nav>
