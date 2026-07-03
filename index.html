@@ -242,6 +242,16 @@ section{padding:5rem 2rem}
 .eu-chips{display:flex;flex-wrap:wrap;gap:8px;margin:1.5rem 0}
 .chip{background:var(--white);border:1px solid var(--border);border-radius:3px;font-size:12px;padding:6px 13px;color:var(--muted);font-weight:500}
 .chip.active{background:var(--gold-light);border-color:var(--gold-border);color:var(--gold);font-weight:700}
+.chip.covered{background:#e8f5f0;border-color:#7ec8a8;color:#2a7a55;font-weight:600}
+.chip.open{background:#eef3ff;border-color:#8aaae0;color:#2650a0;font-weight:600}
+.territory-legend{display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;margin-bottom:1rem;font-size:11px;color:var(--muted)}
+.territory-legend span{display:flex;align-items:center;gap:.35rem}
+.territory-legend .dot{width:10px;height:10px;border-radius:2px;flex-shrink:0}
+.partner-models{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin-top:1.25rem}
+@media(max-width:600px){.partner-models{grid-template-columns:1fr}}
+.partner-model-card{border:1px solid var(--border);border-radius:6px;padding:1.25rem 1.5rem;background:var(--white)}
+.partner-model-card h4{font-size:15px;font-weight:700;color:var(--dark);margin-bottom:.5rem}
+.partner-model-card p{font-size:13px;color:var(--muted);line-height:1.7;margin:0}
 .event-banner{background:var(--dark);border-radius:6px;padding:2rem 2.5rem;display:flex;align-items:center;justify-content:space-between;gap:2rem;flex-wrap:wrap;margin-top:2.5rem}
 .event-banner h3{font-size:1rem;font-weight:700;color:#fff}
 .event-banner p{font-size:13px;color:#8a8e9e;margin-top:3px}
@@ -849,39 +859,82 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
 <!-- DISTRIBUTOR -->
 <section class="s-alt" id="distributors">
   <div class="container">
-    <p class="stag">Distributor programme</p>
-    <h2 class="stitle">Become a Terasun distribution partner</h2>
+    <p class="stag">Partnership programme</p>
+    <h2 class="stitle">Join the Terasun Europe network</h2>
     <div class="rule" aria-hidden="true"></div>
-    <p class="ssub">We are building a professional European distribution network. Here is what we offer to committed partners.</p>
-    <div class="dist-grid">
-      <div class="dist-card"><h3>Available territories</h3><p>Most European markets are open. Territory coverage discussed individually based on your network and target volumes.</p></div>
-      <div class="dist-card"><h3>Minimum order</h3><p>One 20 ft or 40 ft container. Exact volume depends on thickness and size mix. Trial arrangements possible for new partners.</p></div>
-      <div class="dist-card"><h3>Sample kits</h3><p>Sample boards available for evaluation before placing a container order. Shipping costs apply outside Finland.</p></div>
-      <div class="dist-card"><h3>Commercial margin</h3><p>Attractive margin structure above confirmed factory floor price. Detailed pricing provided under NDA upon request.</p></div>
-      <div class="dist-card"><h3>Technical support</h3><p>Full CE documentation, installation guidance, and technical response for your clients, architects, and contractors.</p></div>
-      <div class="dist-card"><h3>Marketing support</h3><p>Datasheets, system drawings, and co-branded materials in your language. We support your market entry.</p></div>
-      <div class="dist-card"><h3>Sales training</h3><p>Remote or in-person training covering product, systems, and certifications for your sales and technical teams.</p></div>
-      <div class="dist-card"><h3>Long-term cooperation</h3><p>We invest in long-term partnerships — joint marketing, trade fair presence, and ongoing product development input.</p></div>
-    </div>
-    <div style="margin-top:3rem">
-      <p class="stag">Open distribution territories</p>
-      <div class="eu-chips" aria-label="Distribution territory status">
-        <div class="chip active">🇫🇮 Finland — active</div>
-        <div class="chip">🇸🇪 Sweden</div><div class="chip">🇳🇴 Norway</div>
-        <div class="chip">🇩🇰 Denmark</div><div class="chip">🇩🇪 Germany</div>
-        <div class="chip">🇳🇱 Netherlands</div><div class="chip">🇧🇪 Belgium</div>
-        <div class="chip">🇫🇷 France</div><div class="chip">🇵🇱 Poland</div>
-        <div class="chip">🇨🇿 Czech Republic</div><div class="chip">🇦🇹 Austria</div>
-        <div class="chip">🇪🇪 Estonia</div><div class="chip">🇱🇻 Latvia</div>
-        <div class="chip">🇱🇹 Lithuania</div><div class="chip">+ other EU / EEA</div>
+    <p class="ssub">We work with different types of partners depending on your business model — from stocking distributors to project-specific cooperation. If you import, distribute, install or specify construction materials in your market, we want to hear from you.</p>
+
+    <!-- Partner models -->
+    <div style="margin-bottom:2.5rem">
+      <p class="stag" style="margin-bottom:.75rem">Who we work with</p>
+      <div class="partner-models">
+        <div class="partner-model-card">
+          <h4>B2B distributor / importer</h4>
+          <p>You maintain stock in your market, sell to contractors, retailers, or developers, and handle local logistics. We supply by container with full CE documentation and technical support. Ideal for companies already distributing construction board products or dry-wall systems.</p>
+        </div>
+        <div class="partner-model-card">
+          <h4>Project-based cooperation</h4>
+          <p>You have a specific construction project, tender, or specification requiring CE-certified fiber cement boards. We supply directly for that project — no long-term stocking commitment required. Suitable for contractors, developers, architects and procurement companies with a defined project volume.</p>
+        </div>
       </div>
     </div>
+
+    <!-- What we offer -->
+    <p class="stag" style="margin-bottom:.75rem">What we provide</p>
+    <div class="dist-grid">
+      <div class="dist-card"><h3>Minimum order</h3><p>One 20 ft or 40 ft container. Exact volume depends on thickness and size mix. Trial arrangements possible for new partners entering the market.</p></div>
+      <div class="dist-card"><h3>Sample kits</h3><p>Sample boards available for evaluation before placing a container order. Shipping costs apply outside Finland.</p></div>
+      <div class="dist-card"><h3>Technical documentation</h3><p>Full CE certificate, ETA 24/0895, Declaration of Performance, EPD, fire test report, and VOC declaration — provided to all qualified partners and project specifiers.</p></div>
+      <div class="dist-card"><h3>Technical support</h3><p>Installation guidance, system drawings, and technical response for your clients, architects, and building control authorities.</p></div>
+      <div class="dist-card"><h3>Marketing support</h3><p>Datasheets, system drawings, and co-branded materials in your language. We support your market entry and ongoing sales activities.</p></div>
+      <div class="dist-card"><h3>Sales &amp; product training</h3><p>Remote or in-person training covering product performance, installation systems, and certifications for your sales and technical teams.</p></div>
+      <div class="dist-card"><h3>Logistics coordination</h3><p>Terasun Europe coordinates container shipment, export documentation, EU customs clearance, and delivery to your nominated port or warehouse.</p></div>
+      <div class="dist-card"><h3>Long-term partnership</h3><p>We invest in partners committed to their market — joint marketing activities, trade fair presence, and ongoing input into product and system development.</p></div>
+    </div>
+
+    <!-- Territory status -->
+    <div style="margin-top:3rem">
+      <p class="stag" style="margin-bottom:.75rem">Territory status</p>
+      <div class="territory-legend" aria-hidden="true">
+        <span><span class="dot" style="background:#f0c040"></span>Terasun Europe HQ</span>
+        <span><span class="dot" style="background:#7ec8a8"></span>Partner active</span>
+        <span><span class="dot" style="background:#8aaae0"></span>Open — seeking partner</span>
+        <span><span class="dot" style="background:var(--border)"></span>Available on request</span>
+      </div>
+      <div class="eu-chips" aria-label="Distribution territory status">
+        <div class="chip active">🇫🇮 Finland — HQ</div>
+        <div class="chip covered">🇳🇴 Norway — partner active</div>
+        <div class="chip covered">🇩🇰 Denmark — partner active</div>
+        <div class="chip covered">🇸🇪 Sweden — partner active</div>
+        <div class="chip covered">🇪🇪 Estonia — partner active</div>
+        <div class="chip covered">🇱🇻 Latvia — partner active</div>
+        <div class="chip covered">🇱🇹 Lithuania — partner active</div>
+        <div class="chip open">🇵🇱 Poland — open</div>
+        <div class="chip open">🇨🇿 Czech Republic — open</div>
+        <div class="chip open">🇸🇰 Slovakia — open</div>
+        <div class="chip open">🇭🇺 Hungary — open</div>
+        <div class="chip open">🇪🇸 Spain — open</div>
+        <div class="chip open">🇩🇪 Germany — open</div>
+        <div class="chip open">🇳🇱 Netherlands — open</div>
+        <div class="chip open">🇧🇪 Belgium — open</div>
+        <div class="chip open">🇫🇷 France — open</div>
+        <div class="chip open">🇦🇹 Austria — open</div>
+        <div class="chip open">🇨🇭 Switzerland — open</div>
+        <div class="chip open">🇮🇹 Italy — open</div>
+        <div class="chip">🇷🇴 Romania</div>
+        <div class="chip">🇧🇬 Bulgaria</div>
+        <div class="chip">🇭🇷 Croatia</div>
+        <div class="chip">🇵🇹 Portugal</div>
+        <div class="chip">+ other EU / EEA</div>
+      </div>
+    </div>
+
     <div class="event-banner">
       <div><h3>Meet us at FinnBuild 2026</h3><p>Helsinki · Messukeskus · Nordic region's leading construction trade fair</p></div>
       <div class="event-date"><time datetime="2026-09-29">29 Sep – 1 Oct 2026</time></div>
     </div>
     <div style="margin-top:2.5rem">
-      <button class="btn-p" onclick="go('quotation')" style="font-size:12px">Request a distributor quotation →</button>
+      <button class="btn-p" onclick="go('contact')" style="font-size:12px">Contact us about partnership →</button>
     </div>
   </div>
 </section>
