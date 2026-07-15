@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale} from 'next-intl/server'
 import { SITE_URL, DOWNLOAD_BASE } from '@/lib/constants'
 import { locales } from '@/i18n/routing'
 import { products } from '@/data/products'
@@ -11,6 +11,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
+  setRequestLocale(locale)
   const t = await getTranslations({ locale, namespace: 'meta.downloads' })
   const url = `${SITE_URL}/${locale}/downloads`
   const hreflang = Object.fromEntries(locales.map(l => [l, `${SITE_URL}/${l}/downloads`]))

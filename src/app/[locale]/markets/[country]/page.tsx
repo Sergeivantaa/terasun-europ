@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale} from 'next-intl/server'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { SITE_URL } from '@/lib/constants'
@@ -15,6 +15,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; country: string }> }) {
   const { locale, country } = await params
+  setRequestLocale(locale)
   const c = countries.find(x => x.slug === country)
   if (!c) return notFound()
   const t = await getTranslations({ locale, namespace: 'markets' })

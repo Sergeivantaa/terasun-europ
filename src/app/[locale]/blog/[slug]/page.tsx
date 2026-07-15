@@ -5,6 +5,7 @@ import { locales } from '@/i18n/routing'
 import JsonLd from '@/components/seo/JsonLd'
 import { breadcrumbSchema } from '@/lib/structured-data'
 import { getBlogPost, getBlogSlugs } from '@/lib/content'
+import { setRequestLocale } from 'next-intl/server'
 
 export function generateStaticParams() {
   const slugs = getBlogSlugs()
@@ -15,6 +16,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale, slug } = await params
+  setRequestLocale(locale)
   const post = getBlogPost(slug, locale)
   if (!post) return { title: 'Not found' }
   const url = `${SITE_URL}/${locale}/blog/${slug}`

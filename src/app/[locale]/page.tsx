@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale} from 'next-intl/server'
 import Link from 'next/link'
 import Image from 'next/image'
 import JsonLd from '@/components/seo/JsonLd'
@@ -15,6 +15,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params
+  setRequestLocale(locale)
   const t = await getTranslations({ locale, namespace: 'meta.home' })
   return {
     title: t('title'),
