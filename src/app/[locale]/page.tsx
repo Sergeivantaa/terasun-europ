@@ -182,10 +182,10 @@ export default async function HomePage({ params }: Props) {
           <h2 className="stitle">{auth('title')}</h2>
           <div className="rule" aria-hidden="true"/>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {(auth.raw('cards') as {title:string;text:string;cta?:string}[]).map((card) => (
+            {Object.values(auth.raw('cards') as Record<string, {title:string;body:string;cta?:string}>).map((card) => (
               <div key={card.title} className="bg-card border border-border rounded-lg p-5">
                 <h3 className="text-sm font-bold text-white mb-2">{card.title}</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">{card.text}</p>
+                <p className="text-sm text-gray-400 leading-relaxed">{card.body}</p>
                 {card.cta && (
                   <Link href={navHref('/contact')} className="inline-block mt-3 text-xs font-semibold text-gold hover:text-gold2 transition-colors">
                     {card.cta} →
