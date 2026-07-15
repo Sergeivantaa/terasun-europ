@@ -20,6 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const t = await getTranslations({ locale, namespace: 'markets' })
   const url = `${SITE_URL}/${locale}/markets/${country}`
   const hreflang = Object.fromEntries(locales.map(l => [l, `${SITE_URL}/${l}/markets/${country}`]))
+  hreflang['x-default'] = `${SITE_URL}/en/markets/${country}`
   return {
     title: t(`${country}.metaTitle`),
     description: t(`${country}.metaDesc`),
@@ -39,7 +40,7 @@ export default async function MarketPage({ params }: { params: Promise<{ locale:
 
   return (
     <>
-      <JsonLd data={localBusinessSchema(c.name, locale)} />
+      <JsonLd data={localBusinessSchema(c.name, c.slug, locale)} />
       <JsonLd data={productSchema()} />
       <JsonLd data={breadcrumbSchema([
         { name: bc('home'), url: `${SITE_URL}/${locale}` },

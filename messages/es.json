@@ -1,20 +1,20 @@
 {
   "meta": {
     "home": {
-      "title": "Terasun Europe — Placas de fibrocemento certificadas CE",
-      "description": "Representante europeo autorizado para placas de fibrocemento Terasun TSM. CE 1023-CPR-1565 P · ETA 24/0895 · EPD."
+      "title": "Terasun Europe — Placas fibrocemento certificadas CE",
+      "description": "Representante Europeo Autorizado de placas Terasun TSM. CE 1023-CPR-1565 P · ETA 24/0895 · EPD. Suministro a contratistas, arquitectos y distribuidores en Europa."
     },
     "about": {
-      "title": "About Terasun Europe — Authorised European Representative",
-      "description": "Terasun Europe is the Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd., based in Vantaa, Finland. CE-certified fiber cement board for European construction."
+      "title": "Sobre Terasun Europe — Representante Europeo Autorizado",
+      "description": "Terasun Europe es el Representante Europeo Autorizado en Vantaa, Finlandia."
     },
     "manufacturer": {
       "title": "Manufacturer — Zhejiang Terasun Air Duct Co., Ltd. | Terasun Europe",
       "description": "Founded 1989 in Zhejiang Province, China. Manufacturer of Terasun TSM fiber cement board with CE, ETA 24/0895, and EPD for European markets."
     },
     "products": {
-      "title": "Terasun TSM Fiber Cement Board — CE & ETA Certified | Terasun Europe",
-      "description": "Lightweight asbestos-free fiber cement board. 9.96 kg/m² at 12 mm. CE 1023-CPR-1565 P · ETA 24/0895 · EPD-IES-0018268 · Fire E120/EI90/EW120. Thicknesses 6–18 mm."
+      "title": "Terasun TSM Placas fibrocemento — CE & ETA | Terasun Europe",
+      "description": "Placas fibrocemento ligeras sin amianto. CE · ETA 24/0895 · EPD-IES-0018268 · Resistencia al fuego E120/EI90/EW120."
     },
     "applications": {
       "title": "Fiber Cement Board Applications — Facades, Fire, Wet Rooms | Terasun Europe",
@@ -29,8 +29,8 @@
       "description": "Installation guide for Terasun TSM fiber cement board: tools, cutting, fastening, joints, weather protection, and finishing. Download the full installation manual."
     },
     "certifications": {
-      "title": "Certifications — CE · ETA · EPD · Fire · REACH | Terasun Europe",
-      "description": "Terasun TSM certifications: CE 1023-CPR-1565 P, ETA 24/0895, DoP TRS-20250610F, EPD-IES-0018268, Fire FIRES-CR-284-25-AUPE, VOC/Intertek, REACH."
+      "title": "Certificaciones — CE · ETA · EPD · Fuego | Terasun Europe",
+      "description": "Certificaciones Terasun TSM: CE 1023-CPR-1565 P, ETA 24/0895, DoP, EPD, resistencia al fuego E120."
     },
     "downloads": {
       "title": "Document Library — Technical Documents | Terasun Europe",
@@ -49,12 +49,12 @@
       "description": "Photos of Terasun TSM fiber cement board installations: facade cladding, wet rooms, fire partitions, and more across European construction projects."
     },
     "faq": {
-      "title": "FAQ — Terasun TSM Fiber Cement Board | Terasun Europe",
-      "description": "Frequently asked questions about Terasun TSM: CE marking, ETA, fire rating, wet room use, MOQ, lead times, distribution, and installation."
+      "title": "FAQ — Terasun TSM Placas fibrocemento | Terasun Europe",
+      "description": "Preguntas frecuentes sobre Terasun TSM: CE, ETA, resistencia al fuego, zonas húmedas, MOQ y plazos."
     },
     "contact": {
-      "title": "Contact & Quotation Request — Terasun Europe",
-      "description": "Request a quotation, sample, or technical information for Terasun TSM fiber cement board. We respond within 1 business day."
+      "title": "Contacto & Solicitud de presupuesto — Terasun Europe",
+      "description": "Solicite presupuesto, muestra o información técnica. Respondemos en 1 día laborable."
     },
     "blog": {
       "title": "Blog & Resources — Fiber Cement Construction | Terasun Europe",
@@ -62,13 +62,13 @@
     }
   },
   "nav": {
-    "about": "Acerca de",
-    "manufacturer": "Manufacturer",
+    "about": "Sobre nosotros",
+    "manufacturer": "Fabricante",
     "products": "Producto",
     "applications": "Aplicaciones",
     "certifications": "Certificaciones",
     "downloads": "Descargas",
-    "distributors": "Distribuidores",
+    "distributors": "Distribución",
     "logistics": "Logística",
     "gallery": "Galería",
     "faq": "FAQ",
@@ -76,20 +76,24 @@
     "login": "Acceso socios",
     "requestQuotation": "Solicitar presupuesto",
     "more": "Más",
-    "mobileLogin": "Partner Login",
-    "technicalData": "Technical Data",
-    "installation": "Installation"
+    "mobileLogin": "Acceso socios",
+    "technicalData": "Datos técnicos",
+    "installation": "Instalación"
   },
   "hero": {
     "eyebrow": "CE · ETA · EPD · Fire certified",
-    "h1": "Placas de fibrocemento ligeras para la construcción europea",
-    "sub": "Terasun TSM — sin amianto, certificado CE, 9,96 kg/m² a 12 mm.",
+    "h1": "Placas fibrocemento ligeras para la construcción europea",
+    "sub": "Terasun TSM — sin amianto, certificado CE, 9,96 kg/m² a 12 mm. Entrega directa de fábrica.",
     "btnQuote": "Solicitar presupuesto",
-    "btnContact": "Contacto",
-    "btnDownloads": "Downloads",
+    "btnContact": "Contactar",
+    "btnDownloads": "Descargas",
     "tagline": "Authorised European Representative",
     "note": "Terasun Europe is the Authorised European Representative.",
-    "noteManufacturer": "Terasun Europe is not the manufacturer of Terasun products."
+    "noteManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
+    "h1Line1": "Placas fibrocemento ligeras",
+    "h1Line2Emphasis": "certificadas CE",
+    "h1Line2": "para la construcción europea",
+    "h1Line3": "— ETA 24/0895 · EPD · Fuego E120"
   },
   "trustBar": {
     "items": [
@@ -109,7 +113,29 @@
     "statusText": "Terasun Europe is the officially appointed Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd. We are responsible for CE documentation, EU market compliance, and European customer support.",
     "body": "We serve architects, main contractors, building material distributors, and project specifiers across all EU member states. Our team provides technical guidance, documentation, logistics coordination, and long-term supply relationships.",
     "disclaimerTitle": "Important: Terasun Europe is not the manufacturer",
-    "disclaimerText": "Terasun Europe is the Authorised European Representative only. The product is manufactured by Zhejiang Terasun Air Duct Co., Ltd. in Zhejiang Province, China. Terasun Europe is responsible for CE marking documentation and European market compliance in accordance with EU Construction Products Regulation."
+    "disclaimerText": "Terasun Europe is the Authorised European Representative only. The product is manufactured by Zhejiang Terasun Air Duct Co., Ltd. in Zhejiang Province, China. Terasun Europe is responsible for CE marking documentation and European market compliance in accordance with EU Construction Products Regulation.",
+    "stag": "About us",
+    "title": "Your authorised European partner for fiber cement board",
+    "missionStag": "Our mission",
+    "missionText": "To give European construction professionals reliable access to CE-certified, technically documented fiber cement board — with responsive logistics and expert support.",
+    "stat1Num": "1989",
+    "stat1Label": "Manufacturer founded",
+    "stat2Num": "25",
+    "stat2Label": "EU languages supported",
+    "points": [
+      {
+        "title": "Documentación CE",
+        "text": "Mantenimiento de todos los documentos de conformidad UE — Declaración de Prestaciones, marcado CE y expedientes técnicos."
+      },
+      {
+        "title": "Suministro europeo",
+        "text": "Suministro directo en contenedor desde China a distribuidores y contratistas en todos los estados miembros de la UE."
+      },
+      {
+        "title": "Soporte técnico",
+        "text": "ETA, EPD, informes de ensayo de fuego y declaraciones REACH para arquitectos y autoridades de construcción."
+      }
+    ]
   },
   "authorised": {
     "eyebrow": "Our role in the supply chain",
@@ -132,7 +158,9 @@
         "title": "European Markets",
         "body": "Serving all EU member states, EEA countries, and the wider European market from our base in Vantaa, Finland."
       }
-    }
+    },
+    "stag": "Our role",
+    "title": "Authorised European Representative"
   },
   "manufacturer": {
     "eyebrow": "About the manufacturer",
@@ -1002,21 +1030,21 @@
     }
   },
   "breadcrumb": {
-    "home": "Home",
-    "about": "About",
-    "manufacturer": "Manufacturer",
-    "products": "Product",
-    "applications": "Applications",
-    "technicalData": "Technical Data",
-    "certifications": "Certifications",
-    "downloads": "Downloads",
-    "distributors": "Distributors",
-    "logistics": "Logistics",
-    "gallery": "Gallery",
+    "home": "Inicio",
+    "about": "Sobre nosotros",
+    "manufacturer": "Fabricante",
+    "products": "Producto",
+    "applications": "Aplicaciones",
+    "technicalData": "Datos técnicos",
+    "certifications": "Certificaciones",
+    "downloads": "Descargas",
+    "distributors": "Distribución",
+    "logistics": "Logística",
+    "gallery": "Galería",
     "faq": "FAQ",
-    "contact": "Contact",
-    "installation": "Installation",
-    "markets": "Markets"
+    "contact": "Contacto",
+    "installation": "Instalación",
+    "markets": "Mercados"
   },
   "common": {
     "learnMore": "Learn more",

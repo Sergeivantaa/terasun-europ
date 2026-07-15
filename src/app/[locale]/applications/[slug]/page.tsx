@@ -20,6 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const t = await getTranslations({ locale, namespace: 'applications' })
   const url = `${SITE_URL}/${locale}/applications/${slug}`
   const hreflang = Object.fromEntries(locales.map(l => [l, `${SITE_URL}/${l}/applications/${slug}`]))
+  hreflang['x-default'] = `${SITE_URL}/en/applications/${slug}`
   return {
     title: t(`${slug}.metaTitle`),
     description: t(`${slug}.metaDesc`),

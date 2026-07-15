@@ -16,6 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const t = await getTranslations({ locale, namespace: 'meta.products' })
   const url = `${SITE_URL}/${locale}/products`
   const hreflang = Object.fromEntries(locales.map(l => [l, `${SITE_URL}/${l}/products`]))
+  hreflang['x-default'] = `${SITE_URL}/en/products`
   return {
     title: t('title'),
     description: t('description'),
@@ -32,7 +33,7 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
 
   return (
     <>
-      <JsonLd data={productSchema()} />
+      <JsonLd data={productSchema(locale)} />
       <JsonLd data={breadcrumbSchema([
         { name: bc('home'), url: `${SITE_URL}/${locale}` },
         { name: bc('products'), url: `${SITE_URL}/${locale}/products` },

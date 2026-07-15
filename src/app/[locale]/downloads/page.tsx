@@ -14,6 +14,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const t = await getTranslations({ locale, namespace: 'meta.downloads' })
   const url = `${SITE_URL}/${locale}/downloads`
   const hreflang = Object.fromEntries(locales.map(l => [l, `${SITE_URL}/${l}/downloads`]))
+  hreflang['x-default'] = `${SITE_URL}/en/downloads`
   return {
     title: t('title'),
     description: t('description'),
