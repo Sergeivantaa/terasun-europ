@@ -89,10 +89,21 @@
     "btnDownloads": "Downloads",
     "tagline": "Authorised European Representative",
     "note": "Terasun Europe is the Authorised European Representative.",
-    "noteManufacturer": "Terasun Europe is not the manufacturer of Terasun products."
+    "noteManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
+    "h1Line1": "Lightweight fiber cement board",
+    "h1Line2Emphasis": "CE-certified",
+    "h1Line2": "for European construction",
+    "h1Line3": "— ETA 24/0895 · EPD · Fire E120"
   },
   "trustBar": {
-    "items": ["CE 1023-CPR-1565 P","ETA 24/0895","EPD-IES-0018268","Fire E120 · EI90 · EW120","REACH compliant","25 EU languages"]
+    "items": [
+      "CE 1023-CPR-1565 P",
+      "ETA 24/0895",
+      "EPD-IES-0018268",
+      "Fire E120 · EI90 · EW120",
+      "REACH compliant",
+      "25 EU languages"
+    ]
   },
   "about": {
     "eyebrow": "About Terasun Europe",
@@ -102,7 +113,29 @@
     "statusText": "Terasun Europe is the officially appointed Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd. We are responsible for CE documentation, EU market compliance, and European customer support.",
     "body": "We serve architects, main contractors, building material distributors, and project specifiers across all EU member states. Our team provides technical guidance, documentation, logistics coordination, and long-term supply relationships.",
     "disclaimerTitle": "Important: Terasun Europe is not the manufacturer",
-    "disclaimerText": "Terasun Europe is the Authorised European Representative only. The product is manufactured by Zhejiang Terasun Air Duct Co., Ltd. in Zhejiang Province, China. Terasun Europe is responsible for CE marking documentation and European market compliance in accordance with EU Construction Products Regulation."
+    "disclaimerText": "Terasun Europe is the Authorised European Representative only. The product is manufactured by Zhejiang Terasun Air Duct Co., Ltd. in Zhejiang Province, China. Terasun Europe is responsible for CE marking documentation and European market compliance in accordance with EU Construction Products Regulation.",
+    "stag": "About us",
+    "title": "Your authorised European partner for fiber cement board",
+    "missionStag": "Our mission",
+    "missionText": "To give European construction professionals reliable access to CE-certified, technically documented fiber cement board — with responsive logistics and expert support.",
+    "stat1Num": "1989",
+    "stat1Label": "Manufacturer founded",
+    "stat2Num": "25",
+    "stat2Label": "EU languages supported",
+    "points": [
+      {
+        "title": "CE documentation",
+        "text": "Maintaining all EU construction product compliance documents — Declaration of Performance, CE marking, and technical files."
+      },
+      {
+        "title": "European supply",
+        "text": "Direct container supply from factory in China to distributors and contractors across all EU and EEA member states."
+      },
+      {
+        "title": "Technical support",
+        "text": "ETA, EPD, fire test reports, and REACH declarations for architects, specifiers, and building authorities."
+      }
+    ]
   },
   "authorised": {
     "eyebrow": "Our role in the supply chain",
@@ -125,7 +158,9 @@
         "title": "European Markets",
         "body": "Serving all EU member states, EEA countries, and the wider European market from our base in Vantaa, Finland."
       }
-    }
+    },
+    "stag": "Our role",
+    "title": "Authorised European Representative"
   },
   "manufacturer": {
     "eyebrow": "About the manufacturer",
@@ -134,19 +169,55 @@
     "desc1": "Zhejiang Terasun Air Duct Co., Ltd. is an established cement board manufacturer producing fiber cement and construction board products since 1989. Its Terasun range includes products supported by full European technical documentation including CE, ETA, EPD, and fire test certifications.",
     "desc2": "All boards are produced in compliance with ETA 24/0895 requirements. Third-party testing confirms performance data matches the Declaration of Performance. Modern production lines support large-volume export orders with quality control applied across all board specifications.",
     "stats": {
-      "capacity": { "value": "1989", "label": "Founded" },
-      "employees": { "value": "CE + ETA", "label": "Certified" },
-      "countries": { "value": "EPD", "label": "ISO 14025" },
-      "patents": { "value": "E120", "label": "Fire tested" }
+      "capacity": {
+        "value": "1989",
+        "label": "Founded"
+      },
+      "employees": {
+        "value": "CE + ETA",
+        "label": "Certified"
+      },
+      "countries": {
+        "value": "EPD",
+        "label": "ISO 14025"
+      },
+      "patents": {
+        "value": "E120",
+        "label": "Fire tested"
+      }
     },
     "timelineTitle": "Company milestones",
     "timeline": {
-      "founded": { "year": "1989", "title": "Company founded", "body": "Zhejiang Terasun Air Duct Co., Ltd. established in Zhejiang Province, China." },
-      "iso": { "year": "2000s", "title": "ISO certification", "body": "Manufacturing processes certified to international quality management standards." },
-      "expansion": { "year": "2018", "title": "Production expansion", "body": "Expanded fiber cement board production capacity to serve growing European export demand." },
-      "europe": { "year": "2023", "title": "European representative appointed", "body": "Terasun Europe established as the Authorised European Representative in Vantaa, Finland." },
-      "eta": { "year": "2024", "title": "ETA 24/0895 issued", "body": "European Technical Assessment issued by a designated ETA body. CE marking confirmed under CPR." },
-      "epd": { "year": "2025", "title": "EPD published", "body": "EPD-IES-0018268 published March 2025, valid until 2029. ISO 14025 compliant environmental declaration." }
+      "founded": {
+        "year": "1989",
+        "title": "Company founded",
+        "body": "Zhejiang Terasun Air Duct Co., Ltd. established in Zhejiang Province, China."
+      },
+      "iso": {
+        "year": "2000s",
+        "title": "ISO certification",
+        "body": "Manufacturing processes certified to international quality management standards."
+      },
+      "expansion": {
+        "year": "2018",
+        "title": "Production expansion",
+        "body": "Expanded fiber cement board production capacity to serve growing European export demand."
+      },
+      "europe": {
+        "year": "2023",
+        "title": "European representative appointed",
+        "body": "Terasun Europe established as the Authorised European Representative in Vantaa, Finland."
+      },
+      "eta": {
+        "year": "2024",
+        "title": "ETA 24/0895 issued",
+        "body": "European Technical Assessment issued by a designated ETA body. CE marking confirmed under CPR."
+      },
+      "epd": {
+        "year": "2025",
+        "title": "EPD published",
+        "body": "EPD-IES-0018268 published March 2025, valid until 2029. ISO 14025 compliant environmental declaration."
+      }
     },
     "noteTitle": "Manufacturer relationship",
     "noteText": "Terasun Europe is the Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd. Terasun Europe does not manufacture Terasun products. All products are manufactured in China and supplied via direct container shipment. European Representative: Terasun Europe, 01370 Vantaa, Finland."
@@ -177,12 +248,30 @@
       "studSpacing": "Stud spacing"
     },
     "composition": {
-      "cement": { "name": "Portland cement", "detail": "Primary structural binder — asbestos-free" },
-      "cellulose": { "name": "Cellulose fiber", "detail": "Natural reinforcement for flexibility and impact resistance" },
-      "silica": { "name": "Silica", "detail": "For dimensional stability and surface hardness" },
-      "autoclaved": { "name": "Autoclaved manufacturing", "detail": "High-pressure steam curing for strength and durability" },
-      "asbestosFree": { "name": "Asbestos-free", "detail": "Fully compliant with EU regulations — no asbestos content" },
-      "waterResistant": { "name": "Moisture resistant", "detail": "Suitable for exterior use and wet room applications" }
+      "cement": {
+        "name": "Portland cement",
+        "detail": "Primary structural binder — asbestos-free"
+      },
+      "cellulose": {
+        "name": "Cellulose fiber",
+        "detail": "Natural reinforcement for flexibility and impact resistance"
+      },
+      "silica": {
+        "name": "Silica",
+        "detail": "For dimensional stability and surface hardness"
+      },
+      "autoclaved": {
+        "name": "Autoclaved manufacturing",
+        "detail": "High-pressure steam curing for strength and durability"
+      },
+      "asbestosFree": {
+        "name": "Asbestos-free",
+        "detail": "Fully compliant with EU regulations — no asbestos content"
+      },
+      "waterResistant": {
+        "name": "Moisture resistant",
+        "detail": "Suitable for exterior use and wet room applications"
+      }
     }
   },
   "applications": {
@@ -382,18 +471,54 @@
       "text": "Public documents are available to all. Protected documents (installation manuals, system guides) require partner registration and account approval."
     },
     "docs": {
-      "tds": { "name": "Technical Data Sheet", "desc": "Declared specifications, physical properties, and compliance references" },
-      "installation": { "name": "Installation Manual", "desc": "Step-by-step installation guide for all system types" },
-      "brochure": { "name": "Product Brochure", "desc": "Overview of Terasun TSM applications and features" },
-      "facade": { "name": "Facade System Guide", "desc": "CBSS and CBMV ventilated facade system specifications" },
-      "wetroom": { "name": "Wet Room System Guide", "desc": "Mapei and Schönox approved wet room tile backing systems" },
-      "cutting": { "name": "Cutting & Fixing Guide", "desc": "Tools, cutting methods, and fixing specifications" },
-      "sds": { "name": "Safety Data Sheet", "desc": "Material safety data for handling and disposal" },
-      "ce": { "name": "CE Certificate", "desc": "CE marking certificate — 1023-CPR-1565 P" },
-      "eta": { "name": "European Technical Assessment", "desc": "ETA 24/0895 — full assessment document" },
-      "epd": { "name": "Environmental Product Declaration", "desc": "EPD-IES-0018268 — ISO 14025, valid until 2029" },
-      "fire": { "name": "Fire Test Report", "desc": "FIRES-CR-284-25-AUPE — E120/EI90/EW120 system test" },
-      "voc": { "name": "VOC / Intertek Certificate", "desc": "Indoor air quality and VOC emission test certificate" }
+      "tds": {
+        "name": "Technical Data Sheet",
+        "desc": "Declared specifications, physical properties, and compliance references"
+      },
+      "installation": {
+        "name": "Installation Manual",
+        "desc": "Step-by-step installation guide for all system types"
+      },
+      "brochure": {
+        "name": "Product Brochure",
+        "desc": "Overview of Terasun TSM applications and features"
+      },
+      "facade": {
+        "name": "Facade System Guide",
+        "desc": "CBSS and CBMV ventilated facade system specifications"
+      },
+      "wetroom": {
+        "name": "Wet Room System Guide",
+        "desc": "Mapei and Schönox approved wet room tile backing systems"
+      },
+      "cutting": {
+        "name": "Cutting & Fixing Guide",
+        "desc": "Tools, cutting methods, and fixing specifications"
+      },
+      "sds": {
+        "name": "Safety Data Sheet",
+        "desc": "Material safety data for handling and disposal"
+      },
+      "ce": {
+        "name": "CE Certificate",
+        "desc": "CE marking certificate — 1023-CPR-1565 P"
+      },
+      "eta": {
+        "name": "European Technical Assessment",
+        "desc": "ETA 24/0895 — full assessment document"
+      },
+      "epd": {
+        "name": "Environmental Product Declaration",
+        "desc": "EPD-IES-0018268 — ISO 14025, valid until 2029"
+      },
+      "fire": {
+        "name": "Fire Test Report",
+        "desc": "FIRES-CR-284-25-AUPE — E120/EI90/EW120 system test"
+      },
+      "voc": {
+        "name": "VOC / Intertek Certificate",
+        "desc": "Indoor air quality and VOC emission test certificate"
+      }
     }
   },
   "distributors": {
@@ -401,10 +526,26 @@
     "h1": "European distribution partnerships",
     "sub": "Terasun Europe works with stocking distributors, importers, and project partners across all European markets.",
     "benefits": {
-      "margin": { "icon": "💰", "title": "Competitive margins", "body": "Exclusive territory pricing with attractive distributor margins. Volume discounts for stocking partners." },
-      "support": { "icon": "🛠️", "title": "Technical support", "body": "Full documentation support including CE, ETA, EPD, and fire test documents for your customer's building authorities." },
-      "training": { "icon": "📚", "title": "Training & marketing", "body": "Product training, installation guidance, and marketing materials to support your sales team and projects." },
-      "territory": { "icon": "🗺️", "title": "Exclusive territory", "body": "Territory-based distribution agreements. Priority markets available now." }
+      "margin": {
+        "icon": "💰",
+        "title": "Competitive margins",
+        "body": "Exclusive territory pricing with attractive distributor margins. Volume discounts for stocking partners."
+      },
+      "support": {
+        "icon": "🛠️",
+        "title": "Technical support",
+        "body": "Full documentation support including CE, ETA, EPD, and fire test documents for your customer's building authorities."
+      },
+      "training": {
+        "icon": "📚",
+        "title": "Training & marketing",
+        "body": "Product training, installation guidance, and marketing materials to support your sales team and projects."
+      },
+      "territory": {
+        "icon": "🗺️",
+        "title": "Exclusive territory",
+        "body": "Territory-based distribution agreements. Priority markets available now."
+      }
     },
     "mapTitle": "Markets across Europe",
     "status": {
@@ -423,18 +564,48 @@
     "h1": "Cement board supply from factory to warehouse",
     "sub": "Full supply chain coordination — from manufacturing in China to delivery at your European site or warehouse.",
     "steps": {
-      "order": { "title": "Order confirmation", "body": "Submit your requirements — product specification, quantity, format, and destination. We confirm pricing, incoterms, and lead time." },
-      "production": { "title": "Manufacturing (China)", "body": "Production at Zhejiang Terasun factory. Boards manufactured to ETA 24/0895 specification with factory quality control." },
-      "quality": { "title": "Quality inspection", "body": "Third-party or factory quality inspection before loading. Documents prepared: packing list, COO, phytosanitary, CE documents." },
-      "shipping": { "title": "Container shipping", "body": "20' or 40' container loaded and shipped from Chinese port. Tracking provided throughout. Transit time typically 4–6 weeks." },
-      "customs": { "title": "EU customs clearance", "body": "Import documents prepared. EU customs duties and VAT handled per agreed incoterms. CE documents available for customs." },
-      "delivery": { "title": "Delivery to warehouse", "body": "DAP or DDP delivery to your European warehouse or construction site. Unloading coordination on request." }
+      "order": {
+        "title": "Order confirmation",
+        "body": "Submit your requirements — product specification, quantity, format, and destination. We confirm pricing, incoterms, and lead time."
+      },
+      "production": {
+        "title": "Manufacturing (China)",
+        "body": "Production at Zhejiang Terasun factory. Boards manufactured to ETA 24/0895 specification with factory quality control."
+      },
+      "quality": {
+        "title": "Quality inspection",
+        "body": "Third-party or factory quality inspection before loading. Documents prepared: packing list, COO, phytosanitary, CE documents."
+      },
+      "shipping": {
+        "title": "Container shipping",
+        "body": "20' or 40' container loaded and shipped from Chinese port. Tracking provided throughout. Transit time typically 4–6 weeks."
+      },
+      "customs": {
+        "title": "EU customs clearance",
+        "body": "Import documents prepared. EU customs duties and VAT handled per agreed incoterms. CE documents available for customs."
+      },
+      "delivery": {
+        "title": "Delivery to warehouse",
+        "body": "DAP or DDP delivery to your European warehouse or construction site. Unloading coordination on request."
+      }
     },
     "leadTimesTitle": "Typical lead times",
     "leadTimes": {
-      "stock": { "value": "~2 wks", "label": "From stock (Finland)", "desc": "Small quantities from Finnish warehouse when available" },
-      "production": { "value": "6–10 wks", "label": "Standard container", "desc": "Full container order from China production" },
-      "custom": { "value": "On request", "label": "Custom specification", "desc": "Non-standard sizes or custom board specifications" }
+      "stock": {
+        "value": "~2 wks",
+        "label": "From stock (Finland)",
+        "desc": "Small quantities from Finnish warehouse when available"
+      },
+      "production": {
+        "value": "6–10 wks",
+        "label": "Standard container",
+        "desc": "Full container order from China production"
+      },
+      "custom": {
+        "value": "On request",
+        "label": "Custom specification",
+        "desc": "Non-standard sizes or custom board specifications"
+      }
     },
     "incotermsTitle": "Available incoterms",
     "incotermsNote": "We supply on EXW, FOB, CFR, CIF, DAP, and DDP terms. Agreed per order at quotation stage."
@@ -546,12 +717,36 @@
     "h1": "Installing Terasun TSM fiber cement board",
     "sub": "Complete contractor guide — tools, cutting, fastening, joints, weather protection, and finishing.",
     "features": {
-      "tools": { "icon": "🔧", "title": "Tools required", "body": "Circular saw or angle grinder with fibre cement blade, drill/driver, measuring tape, chalk line, and PPE (dust mask, goggles)." },
-      "cutting": { "icon": "✂️", "title": "Cutting methods", "body": "Cut with circular saw (fibre cement blade) or score-and-snap for straight cuts on thinner boards. Wet cutting reduces dust." },
-      "fastening": { "icon": "🔩", "title": "Fastening", "body": "Fix with stainless steel or corrosion-resistant self-tapping screws or annular ring nails. Min 12 mm edge distance, 200 mm edge spacing, 300 mm field spacing." },
-      "joints": { "icon": "📐", "title": "Joints & gaps", "body": "Leave 3 mm expansion gap at all board edges. Tape and fill butt joints for interior. For exterior, leave open joints with sealant or cover with feature joint profiles." },
-      "weather": { "icon": "🌧️", "title": "Weather protection", "body": "Do not install in freezing conditions. Protect boards from rain until system is weather-sealed. Store under cover — boards must not sit in standing water." },
-      "finishing": { "icon": "🎨", "title": "Finishing & paint", "body": "Prime with alkali-resistant primer before paint or render. Compatible with mineral, silicone, and acrylic finishes. Interior surfaces can be directly tiled with polymer-modified adhesive." }
+      "tools": {
+        "icon": "🔧",
+        "title": "Tools required",
+        "body": "Circular saw or angle grinder with fibre cement blade, drill/driver, measuring tape, chalk line, and PPE (dust mask, goggles)."
+      },
+      "cutting": {
+        "icon": "✂️",
+        "title": "Cutting methods",
+        "body": "Cut with circular saw (fibre cement blade) or score-and-snap for straight cuts on thinner boards. Wet cutting reduces dust."
+      },
+      "fastening": {
+        "icon": "🔩",
+        "title": "Fastening",
+        "body": "Fix with stainless steel or corrosion-resistant self-tapping screws or annular ring nails. Min 12 mm edge distance, 200 mm edge spacing, 300 mm field spacing."
+      },
+      "joints": {
+        "icon": "📐",
+        "title": "Joints & gaps",
+        "body": "Leave 3 mm expansion gap at all board edges. Tape and fill butt joints for interior. For exterior, leave open joints with sealant or cover with feature joint profiles."
+      },
+      "weather": {
+        "icon": "🌧️",
+        "title": "Weather protection",
+        "body": "Do not install in freezing conditions. Protect boards from rain until system is weather-sealed. Store under cover — boards must not sit in standing water."
+      },
+      "finishing": {
+        "icon": "🎨",
+        "title": "Finishing & paint",
+        "body": "Prime with alkali-resistant primer before paint or render. Compatible with mineral, silicone, and acrylic finishes. Interior surfaces can be directly tiled with polymer-modified adhesive."
+      }
     },
     "downloadTitle": "Download the installation manual",
     "downloadText": "Full installation guidance including system drawings, fixing patterns, and substrate requirements."
@@ -589,10 +784,22 @@
   "markets": {
     "eyebrow": "European market",
     "country_features": {
-      "certifications": { "title": "Full CE documentation", "body": "CE 1023-CPR-1565 P, ETA 24/0895, DoP, EPD, and fire test documents for building authority submissions." },
-      "delivery": { "title": "Direct delivery", "body": "Container delivery to your port or warehouse. DDP and DAP terms available. Typical lead time 6–10 weeks." },
-      "support": { "title": "Technical support", "body": "Technical data sheets and installation manuals available for local building authorities." },
-      "partner": { "title": "Distribution opportunity", "body": "Exclusive territory distribution available. Competitive margins and full technical support." }
+      "certifications": {
+        "title": "Full CE documentation",
+        "body": "CE 1023-CPR-1565 P, ETA 24/0895, DoP, EPD, and fire test documents for building authority submissions."
+      },
+      "delivery": {
+        "title": "Direct delivery",
+        "body": "Container delivery to your port or warehouse. DDP and DAP terms available. Typical lead time 6–10 weeks."
+      },
+      "support": {
+        "title": "Technical support",
+        "body": "Technical data sheets and installation manuals available for local building authorities."
+      },
+      "partner": {
+        "title": "Distribution opportunity",
+        "body": "Exclusive territory distribution available. Competitive margins and full technical support."
+      }
     },
     "ctaQuote": "Request quotation for",
     "ctaPartner": "Become a distributor",

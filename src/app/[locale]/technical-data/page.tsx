@@ -15,6 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const t = await getTranslations({ locale, namespace: 'meta.technicalData' })
   const url = `${SITE_URL}/${locale}/technical-data`
   const hreflang = Object.fromEntries(locales.map(l => [l, `${SITE_URL}/${l}/technical-data`]))
+  hreflang['x-default'] = `${SITE_URL}/en/technical-data`
   return {
     title: t('title'),
     description: t('description'),
@@ -31,7 +32,7 @@ export default async function TechnicalDataPage({ params }: { params: Promise<{ 
 
   return (
     <>
-      <JsonLd data={productSchema()} />
+      <JsonLd data={productSchema(locale)} />
       <JsonLd data={breadcrumbSchema([
         { name: bc('home'), url: `${SITE_URL}/${locale}` },
         { name: bc('technicalData'), url: `${SITE_URL}/${locale}/technical-data` },

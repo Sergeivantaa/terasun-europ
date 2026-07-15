@@ -22,7 +22,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     metadataBase: new URL(SITE_URL),
     alternates: {
       canonical: `${SITE_URL}/${locale}`,
-      languages: Object.fromEntries(routing.locales.map((l) => [l, `${SITE_URL}/${l}`])),
+      languages: {
+        ...Object.fromEntries(routing.locales.map((l) => [l, `${SITE_URL}/${l}`])),
+        'x-default': `${SITE_URL}/en`,
+      },
     },
     openGraph: {
       type: 'website',
@@ -30,7 +33,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: t('description'),
       url: `${SITE_URL}/${locale}`,
       siteName: 'Terasun Europe',
-      locale,
       images: [{ url: `${SITE_URL}/imgs/products/product1.jpeg`, width: 1200, height: 900 }],
     },
     twitter: { card: 'summary_large_image', title: t('title'), description: t('description') },
@@ -56,7 +58,7 @@ export default async function HomePage({ params }: Props) {
 
   return (
     <>
-      <JsonLd data={[organizationSchema(), webSiteSchema(), productSchema()]} />
+      <JsonLd data={[organizationSchema(locale), webSiteSchema(locale), productSchema(locale)]} />
 
       {/* ── HERO ── */}
       <section className="relative bg-darker overflow-hidden" id="top">

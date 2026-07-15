@@ -15,6 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const t = await getTranslations({ locale, namespace: 'meta.manufacturer' })
   const url = `${SITE_URL}/${locale}/manufacturer`
   const hreflang = Object.fromEntries(locales.map(l => [l, `${SITE_URL}/${l}/manufacturer`]))
+  hreflang['x-default'] = `${SITE_URL}/en/manufacturer`
   return {
     title: t('title'),
     description: t('description'),
@@ -33,7 +34,7 @@ export default async function ManufacturerPage({ params }: { params: Promise<{ l
 
   return (
     <>
-      <JsonLd data={organizationSchema()} />
+      <JsonLd data={organizationSchema(locale)} />
       <JsonLd data={breadcrumbSchema([
         { name: bc('home'), url: `${SITE_URL}/${locale}` },
         { name: bc('manufacturer'), url: `${SITE_URL}/${locale}/manufacturer` },

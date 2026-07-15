@@ -1,38 +1,51 @@
 import { SITE_URL, CONTACT, MANUFACTURER, PRODUCT } from './constants'
 
-export function organizationSchema() {
+export function organizationSchema(locale = 'en') {
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
+    '@id': `${SITE_URL}/#organization`,
     name: 'Terasun Europe',
-    url: SITE_URL,
-    logo: `${SITE_URL}/imgs/products/product1.jpeg`,
+    url: `${SITE_URL}/${locale}`,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${SITE_URL}/imgs/products/product1.jpeg`,
+    },
     email: CONTACT.email,
     telephone: CONTACT.phone,
     vatID: CONTACT.vat,
     address: {
       '@type': 'PostalAddress',
+      streetAddress: CONTACT.address,
       postalCode: '01370',
       addressLocality: 'Vantaa',
       addressCountry: 'FI',
     },
-    areaServed: 'Europe',
+    areaServed: {
+      '@type': 'Continent',
+      name: 'Europe',
+    },
     contactPoint: {
       '@type': 'ContactPoint',
       email: CONTACT.email,
       telephone: CONTACT.phone,
-      contactType: 'customer support',
+      contactType: 'sales',
+      availableLanguage: ['English', 'Finnish', 'German', 'French'],
       areaServed: 'Europe',
     },
+    sameAs: [MANUFACTURER.website],
   }
 }
 
-export function webSiteSchema() {
+export function webSiteSchema(locale = 'en') {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
+    '@id': `${SITE_URL}/#website`,
     name: 'Terasun Europe',
-    url: SITE_URL,
+    url: `${SITE_URL}/${locale}`,
+    inLanguage: locale,
+    publisher: { '@id': `${SITE_URL}/#organization` },
     potentialAction: {
       '@type': 'SearchAction',
       target: { '@type': 'EntryPoint', urlTemplate: `${SITE_URL}/en/faq?q={search_term_string}` },
@@ -41,16 +54,14 @@ export function webSiteSchema() {
   }
 }
 
-export function productSchema() {
+export function productSchema(locale = 'en', description?: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Product',
+    '@id': `${SITE_URL}/${locale}/products#product`,
     name: PRODUCT.name,
-    description: `CE-certified lightweight fiber cement board for European construction. ${PRODUCT.weightKgM2} kg/m² at ${PRODUCT.thickness} mm.`,
-    brand: {
-      '@type': 'Brand',
-      name: 'Terasun',
-    },
+    description: description ?? `CE-certified lightweight fiber cement board for European construction. ${PRODUCT.weightKgM2} kg/m² at ${PRODUCT.thickness} mm.`,
+    brand: { '@type': 'Brand', name: 'Terasun' },
     manufacturer: {
       '@type': 'Organization',
       name: MANUFACTURER.name,
@@ -63,12 +74,14 @@ export function productSchema() {
       priceCurrency: 'EUR',
       availability: 'https://schema.org/InStock',
       areaServed: 'Europe',
+      url: `${SITE_URL}/${locale}/contact`,
     },
     hasCertification: [
-      { '@type': 'Certification', name: `CE ${PRODUCT.ce}` },
-      { '@type': 'Certification', name: `ETA ${PRODUCT.eta}` },
+      { '@type': 'Certification', name: `CE ${PRODUCT.ce}`, issuedBy: { '@type': 'Organization', name: 'Notified Body 1023' } },
+      { '@type': 'Certification', name: `ETA ${PRODUCT.eta}`, issuedBy: { '@type': 'Organization', name: 'EOTA' } },
       { '@type': 'Certification', name: `EPD ${PRODUCT.epd}` },
     ],
+    countryOfAssembly: 'CN',
   }
 }
 
@@ -84,15 +97,19 @@ export function faqSchema(items: { question: string; answer: string }[]) {
   }
 }
 
-export function localBusinessSchema(country: string, locale: string) {
+export function localBusinessSchema(countryName: string, countrySlug: string, locale: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    name: `Terasun Europe — ${country}`,
-    url: `${SITE_URL}/${locale}/markets/${country.toLowerCase().replace(/\s+/g, '-')}`,
+    name: `Terasun Europe — ${countryName}`,
+    url: `${SITE_URL}/${locale}/markets/${countrySlug}`,
     email: CONTACT.email,
     telephone: CONTACT.phone,
-    areaServed: country,
+    parentOrganization: { '@id': `${SITE_URL}/#organization` },
+    areaServed: {
+      '@type': 'Country',
+      name: countryName,
+    },
   }
 }
 
