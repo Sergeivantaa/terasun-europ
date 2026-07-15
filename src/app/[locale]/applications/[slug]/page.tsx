@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale} from 'next-intl/server'
 import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
@@ -16,6 +16,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale, slug } = await params
+  setRequestLocale(locale)
   if (!applications.find(a => a.slug === slug)) return notFound()
   const t = await getTranslations({ locale, namespace: 'applications' })
   const url = `${SITE_URL}/${locale}/applications/${slug}`
@@ -113,7 +114,6 @@ export default async function ApplicationDetailPage({ params }: { params: Promis
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 50vw, 33vw"
-                onError={() => {}}
               />
             </div>
           ))}

@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale} from 'next-intl/server'
 import Link from 'next/link'
 import { SITE_URL } from '@/lib/constants'
 import { locales } from '@/i18n/routing'
@@ -12,6 +12,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
+  setRequestLocale(locale)
   const t = await getTranslations({ locale, namespace: 'meta.blog' })
   const url = `${SITE_URL}/${locale}/blog`
   const hreflang = Object.fromEntries(locales.map(l => [l, `${SITE_URL}/${l}/blog`]))

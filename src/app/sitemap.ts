@@ -1,4 +1,6 @@
 import { MetadataRoute } from 'next'
+
+export const dynamic = 'force-static'
 import { locales } from '@/i18n/routing'
 import { countries } from '@/data/countries'
 import { applications } from '@/data/applications'

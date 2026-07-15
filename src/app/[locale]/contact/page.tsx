@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale} from 'next-intl/server'
 import { CONTACT, SITE_URL } from '@/lib/constants'
 import { locales, type Locale } from '@/i18n/routing'
 import JsonLd from '@/components/seo/JsonLd'
@@ -11,6 +11,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params
+  setRequestLocale(locale)
   const t = await getTranslations({ locale, namespace: 'meta.contact' })
   const url = `${SITE_URL}/${locale}/contact`
   const hreflang = Object.fromEntries(locales.map(l => [l, `${SITE_URL}/${l}/contact`]))
