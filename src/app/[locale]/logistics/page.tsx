@@ -58,7 +58,7 @@ export default async function LogisticsPage({ params }: { params: Promise<{ loca
                 <span className="w-8 h-8 rounded-full bg-accent/20 border border-[#D8E1E9] flex items-center justify-center text-accent font-bold text-sm shrink-0">
                   {i + 1}
                 </span>
-                <h3 className="font-bold text-white">{t(`steps.${step}.title`)}</h3>
+                <h3 className="font-bold text-[#132238]">{t(`steps.${step}.title`)}</h3>
               </div>
               <p className="text-[#4A5B6D] text-sm leading-relaxed">{t(`steps.${step}.body`)}</p>
             </div>
@@ -71,8 +71,8 @@ export default async function LogisticsPage({ params }: { params: Promise<{ loca
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
             {['stock', 'production', 'custom'].map(lt => (
               <div key={lt} className="text-center">
-                <p className="text-3xl font-black text-sky mb-1">{t(`leadTimes.${lt}.value`)}</p>
-                <p className="text-white text-sm font-semibold mb-1">{t(`leadTimes.${lt}.label`)}</p>
+                <p className="text-3xl font-black text-[#245A85] mb-1">{t(`leadTimes.${lt}.value`)}</p>
+                <p className="text-[#132238] text-sm font-semibold mb-1">{t(`leadTimes.${lt}.label`)}</p>
                 <p className="text-[#4A5B6D] text-xs">{t(`leadTimes.${lt}.desc`)}</p>
               </div>
             ))}

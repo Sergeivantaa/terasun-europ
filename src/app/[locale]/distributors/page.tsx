@@ -74,7 +74,7 @@ export default async function DistributorsPage({ params }: { params: Promise<{ l
             >
               <span className="text-lg">{country.flag}</span>
               <div>
-                <p className="text-xs font-semibold text-white">{country.name}</p>
+                <p className="text-xs font-semibold text-[#132238]">{country.name}</p>
                 <p className={`text-xs ${statusColor[country.status].split(' ')[1]}`}>{t(`status.${country.status}`)}</p>
               </div>
             </Link>
