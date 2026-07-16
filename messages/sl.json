@@ -632,84 +632,84 @@
     "h1": "Pogosto zastavljena vprašanja",
     "sub": "Tehnična, komercialna in logistična vprašanja o ploščah Terasun TSM iz vlaknenih cementov.",
     "ce": {
-      "question": "Does Terasun TSM have CE marking?",
-      "answer": "Yes. CE 1023-CPR-1565 P. The product complies with the EU Construction Products Regulation and carries CE marking for sale and use across the European Economic Area."
+      "question": "Ali ima Terasun TSM oznako CE?",
+      "answer": "Da. CE 1023-CPR-1565 P. Proizvod je v skladu s CPR (Uredbo EU o gradbenih proizvodih) in ima oznako CE za prodajo in uporabo na območju Evropskega gospodarskega prostora."
     },
     "eta": {
-      "question": "Is there a European Technical Assessment (ETA)?",
-      "answer": "Yes. ETA 24/0895 has been issued by a designated ETA body. It independently confirms the product's performance characteristics for its intended uses. Full ETA available for download."
+      "question": "Ali obstaja Evropska tehnična ocena (ETA)?",
+      "answer": "Da. ETA 24/0895 je bila izdana s strani pooblaščenega organa za ETA. Neodvisno potrjuje karakteristike zmogljivosti proizvoda za namenske uporabe. Polna ETA je na voljo za prenos."
     },
     "epd": {
-      "question": "Is there an EPD (Environmental Product Declaration)?",
-      "answer": "Yes. EPD-IES-0018268, published 2025-03-14, valid until 2029-03-14. ISO 14025 compliant. Declared unit: 1 m² at 12 mm, weight 9.96 kg/m². Supports LEED, BREEAM, and DGNB certification projects."
+      "question": "Ali obstaja EPD (Izjava o okoljskih lastnostih proizvoda)?",
+      "answer": "Da. EPD-IES-0018268, objavljena 2025-03-14, veljavna do 2029-03-14. Skladna s standardi ISO 14025. Deklarirana enota: 1 m² pri 12 mm, teža 9,96 kg/m². Podpira certifikacijske projekte LEED, BREEAM in DGNB."
     },
     "weight": {
-      "question": "What is the declared weight of the board?",
-      "answer": "The declared weight per EPD-IES-0018268 is 9.96 kg/m² at 12 mm thickness. Thinner boards are proportionally lighter. Full thickness/weight table in the technical data sheet."
+      "question": "Kakšna je deklarirana teža plošče?",
+      "answer": "Deklarirana teža po EPD-IES-0018268 je 9,96 kg/m² pri debelini 12 mm. Tanjše plošče so sorazmerno lažje. Polna tabela debeline/teže je v tehničnem listu podatkov."
     },
     "fire": {
-      "question": "What fire resistance does the board achieve?",
-      "answer": "The tested system achieves E 120 (integrity 120 min), EI 90 (integrity and insulation 90 min), and EW 120 (integrity and radiation limitation 120 min). Test reference: FIRES-CR-284-25-AUPE. These are system-level classifications — specify the tested system configuration."
+      "question": "Kakšno ognjevarnost doseže plošča?",
+      "answer": "Testirani sistem dosega E 120 (nepropustnost 120 min), EI 90 (nepropustnost in izolacijska sposobnost 90 min) in EW 120 (nepropustnost in omejevanje sevanja 120 min). Referenca testa: FIRES-CR-284-25-AUPE. To so klasifikacije na ravni sistema — navedite testirano konfiguracijo sistema."
     },
     "wetroom": {
-      "question": "Can Terasun TSM be used in wet rooms?",
-      "answer": "Yes. Approved as a tile backing substrate in Mapei and Schönox wet room systems. Dimensionally stable, moisture-resistant substrate for bathrooms, showers, and commercial kitchens."
+      "question": "Ali se lahko Terasun TSM uporablja v mokrih prostorih?",
+      "answer": "Da. Odobreno kot podlaga za ploščice v Mapei in Schönox sistemih za mokre prostore. Dimenzionalno stabilna, odporna na vlago podlaga za kopalnice, tuše in komercialne kuhinje."
     },
     "facade": {
-      "question": "Can the board be used for exterior facade cladding?",
-      "answer": "Yes. Specified as the facade board in CBSS and CBMV ventilated facade systems. Can also be used as a render carrier. Suitable for all European climate zones."
+      "question": "Ali se lahko plošča uporablja za zunanjo fasadno oblogo?",
+      "answer": "Da. Navedena kot fasadna plošča v CBSS in CBMV ventiliranih fasadnih sistemih. Lahko se uporablja tudi kot nosilec ometa. Primerna za vse evropske podnebne cone."
     },
     "asbestos": {
-      "question": "Is the board asbestos-free?",
-      "answer": "Yes. Terasun TSM is completely asbestos-free. The board uses Portland cement with inorganic binders and fibreglass mesh reinforcement. REACH SVHC declaration confirming no SVHC above 0.1% w/w is available."
+      "question": "Ali je plošča brez azbesta?",
+      "answer": "Da. Terasun TSM je popolnoma brez azbesta. Plošča uporablja Portland cement z anorganskimi vezivi in ojačanjem s steklenimi vlakni. Dostopna je REACH SVHC izjava, ki potrjuje odsotnost SVHC nad 0,1% m/m."
     },
     "moq": {
-      "question": "What is the minimum order quantity?",
-      "answer": "Minimum order is typically one 20-foot container (approx. 1,600–2,200 m² depending on thickness). Smaller quantities may be available from Finnish warehouse stock. Contact us for availability."
+      "question": "Kaj je minimalna količina naročila?",
+      "answer": "Najmanjše naročilo je običajno en 20-metrski kontejner (približno 1.600–2.200 m² odvisno od debeline). Manjše količine so lahko dostopne iz finskih skladiščnih zalog. Kontaktirajte nas za informacije o razpoložljivosti."
     },
     "samples": {
-      "question": "Are samples available before placing an order?",
-      "answer": "Yes. Physical samples and documentation packs are available to qualified distributors, architects, and contractors. Contact us to request a sample pack including board, TDS, CE certificate, and ETA."
+      "question": "Ali so vzorci na voljo pred oddajo naročila?",
+      "answer": "Da. Fizični vzorci in dokumentacijski paketi so na voljo kvalificiranim distributerjem, arhitektom in izvajalcem. Kontaktirajte nas, da zahtevate vzorčni paket, ki vključuje ploščo, TDS, CE certifikat in ETA."
     },
     "leadtime": {
-      "question": "How long does delivery take?",
-      "answer": "Container orders take approximately 6–10 weeks from order confirmation to European port delivery. DDP warehouse delivery adds 1–2 weeks. Finnish stock: 1–2 weeks."
+      "question": "Kako dolgo traja dostava?",
+      "answer": "Naročila v kontejnerjih trajajo približno 6–10 tednov od potrditve naročila do dostave v evropsko pristanišče. Dostava DDP v skladišče dodaja 1–2 tedna. Finski zalogi: 1–2 tedna."
     },
     "origin": {
-      "question": "Where is the product manufactured?",
-      "answer": "Manufactured by Zhejiang Terasun Air Duct Co., Ltd. in Zhejiang Province, People's Republic of China. Terasun Europe is the Authorised European Representative responsible for CE documentation and EU market compliance."
+      "question": "Kje je izdelek proizveden?",
+      "answer": "Proizvedeno pri Zhejiang Terasun Air Duct Co., Ltd. v provinci Zhejiang, Ljudske republike Kitajske. Terasun Europe je pooblaščeni evropski zastopnik, odgovoren za CE dokumentacijo in skladnost na trgu EU."
     },
     "whoIsTerasun": {
-      "question": "What is Terasun Europe?",
-      "answer": "Terasun Europe is the Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd., based in Vantaa, Finland. We manage CE documentation, EU market compliance, and European customer relationships. We are not the manufacturer of Terasun products."
+      "question": "Kaj je Terasun Europe?",
+      "answer": "Terasun Europe je pooblaščeni evropski zastopnik za Zhejiang Terasun Air Duct Co., Ltd., s sedežem v Vantaaju, Finska. Upravljamo CE dokumentacijo, skladnost na trgu EU in razmerja s evropskimi strankami. Nismo proizvajalec proizvodov Terasun."
     },
     "authorisation": {
-      "question": "Is there an authorisation letter from the manufacturer?",
-      "answer": "Yes. Official authorisation letter from Zhejiang Terasun Air Duct Co., Ltd. confirming Terasun Europe as the Authorised European Representative is available for review."
+      "question": "Ali obstaja pooblastilno pismo proizvajalca?",
+      "answer": "Da. Uradno pooblastilno pismo Zhejiang Terasun Air Duct Co., Ltd., ki potrjuje Terasun Europe kot pooblaščeni evropski zastopnik, je na voljo za pregled."
     },
     "distributor": {
-      "question": "Can I become a distributor in my country?",
-      "answer": "Yes. We are actively seeking stocking distributors and project partners across Europe. Territory-based agreements, competitive margins, documentation support, and technical training. Contact us to discuss."
+      "question": "Ali je mogoče postati distributor v svoji državi?",
+      "answer": "Da. Aktivno iščemo skladiščne distributerje in projektne partnerje po Evropi. Dogovori na ozemeljski podlagi, konkurenčne marže, podpora pri dokumentaciji in tehnično usposabljanje. Kontaktirajte nas za pogovor."
     },
     "openMarkets": {
-      "question": "Which countries are open for distribution?",
-      "answer": "Germany, Netherlands, Belgium, France, Spain, Portugal, Italy, Austria, Switzerland, Poland, Czech Republic, Slovakia, Hungary, and others are open for new distribution partners. Contact us for territory availability."
+      "question": "Katere države so odperte za distribucijo?",
+      "answer": "Nemčija, Nizozemska, Belgija, Francija, Španija, Portugalska, Italija, Avstrija, Švica, Poljska, Češka, Slovaška, Madžarska in druge so odperte za nove distribucijske partnerje. Kontaktirajte nas za razpoložljivost območja."
     },
     "studSpacing": {
-      "question": "What stud spacing is required?",
-      "answer": "Compatible with 400 mm and 600 mm stud spacing in both timber and steel frame systems. Specific recommendations depend on board thickness, orientation, and load — refer to the technical data sheet."
+      "question": "Kakšen razmak med stojinami je potreben?",
+      "answer": "Kompatibilno s 400 mm in 600 mm razmakom med stojinami v lesenih in jeklenih konstrukcijskih sistemih. Specifična priporočila so odvisna od debeline plošče, orientacije in obremenitve — glejte tehnični list podatkov."
     },
     "training": {
-      "question": "Is technical training available for distributors?",
-      "answer": "Yes. Technical product training, installation guidance, and documentation support are available to registered distributors. Training can be delivered on-site or remotely."
+      "question": "Ali je tehnično usposabljanje na voljo za distributerje?",
+      "answer": "Da. Tehnično usposabljanje proizvoda, navodila za montažo in dokumentacijska podpora so na voljo registriranim distributerjem. Usposabljanje je mogoče izvesti na mestu ali na daljavo."
     },
     "publicProjects": {
-      "question": "Can Terasun TSM be used on public and infrastructure projects?",
-      "answer": "Yes. CE, ETA, DoP, EPD, and fire test documentation meets the requirements of public sector procurement across Europe. Full documentation packs available for specification and tender submission."
+      "question": "Ali se Terasun TSM lahko uporablja v javnih in infrastrukturnih projektih?",
+      "answer": "Da. Dokumentacija CE, ETA, DoP, EPD in preizkusa požara izpolnjuje zahteve javnega sektorja pri nabavi po vsej Evropi. Polni paket dokumentacije je na voljo za specifikacijo in oddajo ponudbe."
     },
     "cuttingTools": {
-      "question": "What cutting tools are needed for installation?",
-      "answer": "Terasun TSM can be cut with a circular saw or angle grinder fitted with a fibre cement or diamond blade. Score-and-snap for straight cuts on thinner boards. Wear a dust mask and eye protection. Full guidance in the installation manual."
+      "question": "Katera rezalna orodja so potrebna za montažo?",
+      "answer": "Terasun TSM je mogoče rezati s krožno žago ali kotno brusilko, opremljeno z ploščo iz vlaknastega cementa ali diamantno ploščo. Za ravne reze na tanjših ploščah uporabite označevanje in lomljenje. Nosite prašno masko in zaščito za oči. Popolno navodilo v priročniku za montažo."
     }
   },
   "contact": {

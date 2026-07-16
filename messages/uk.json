@@ -632,84 +632,84 @@
     "h1": "Часто запитувані питання",
     "sub": "Технічні, комерційні та логістичні питання про волокнистоцементну плиту Terasun TSM.",
     "ce": {
-      "question": "Does Terasun TSM have CE marking?",
-      "answer": "Yes. CE 1023-CPR-1565 P. The product complies with the EU Construction Products Regulation and carries CE marking for sale and use across the European Economic Area."
+      "question": "Чи має Terasun TSM маркування CE?",
+      "answer": "Так. CE 1023-CPR-1565 P. Продукт відповідає Регламенту ЄС про будівельну продукцію та має маркування CE для продажу та використання на території Європейської економічної зони."
     },
     "eta": {
-      "question": "Is there a European Technical Assessment (ETA)?",
-      "answer": "Yes. ETA 24/0895 has been issued by a designated ETA body. It independently confirms the product's performance characteristics for its intended uses. Full ETA available for download."
+      "question": "Чи є Європейська технічна оцінка (ETA)?",
+      "answer": "Так. ETA 24/0895 видана уповноваженим органом ETA. Вона незалежно підтверджує характеристики продукту для його призначеного використання. Повний ETA доступний для завантаження."
     },
     "epd": {
-      "question": "Is there an EPD (Environmental Product Declaration)?",
-      "answer": "Yes. EPD-IES-0018268, published 2025-03-14, valid until 2029-03-14. ISO 14025 compliant. Declared unit: 1 m² at 12 mm, weight 9.96 kg/m². Supports LEED, BREEAM, and DGNB certification projects."
+      "question": "Чи є EPD (Декларація про екологічні характеристики продукту)?",
+      "answer": "Так. EPD-IES-0018268, опублікована 2025-03-14, дійсна до 2029-03-14. Відповідає ISO 14025. Задекларована одиниця: 1 м² при товщині 12 мм, вага 9,96 кг/м². Підтримує сертифікаційні проекти LEED, BREEAM та DGNB."
     },
     "weight": {
-      "question": "What is the declared weight of the board?",
-      "answer": "The declared weight per EPD-IES-0018268 is 9.96 kg/m² at 12 mm thickness. Thinner boards are proportionally lighter. Full thickness/weight table in the technical data sheet."
+      "question": "Яка задекларована вага плити?",
+      "answer": "Задекларована вага згідно з EPD-IES-0018268 становить 9,96 кг/м² при товщині 12 мм. Тонші плити пропорційно легші. Повна таблиця товщини/ваги в технічному паспорті."
     },
     "fire": {
-      "question": "What fire resistance does the board achieve?",
-      "answer": "The tested system achieves E 120 (integrity 120 min), EI 90 (integrity and insulation 90 min), and EW 120 (integrity and radiation limitation 120 min). Test reference: FIRES-CR-284-25-AUPE. These are system-level classifications — specify the tested system configuration."
+      "question": "Яку вогнестійкість забезпечує плита?",
+      "answer": "Випробувана система досягає E 120 (герметичність 120 хв), EI 90 (герметичність та ізоляція 90 хв) та EW 120 (герметичність та обмеження теплового випромінювання 120 хв). Посилання на випробування: FIRES-CR-284-25-AUPE. Це класифікації рівня системи — вкажіть конфігурацію випробуваної системи."
     },
     "wetroom": {
-      "question": "Can Terasun TSM be used in wet rooms?",
-      "answer": "Yes. Approved as a tile backing substrate in Mapei and Schönox wet room systems. Dimensionally stable, moisture-resistant substrate for bathrooms, showers, and commercial kitchens."
+      "question": "Чи можна використовувати Terasun TSM у вологих приміщеннях?",
+      "answer": "Так. Затверджено як основа для плиток у вологих системах Mapei та Schönox. Розмірно стабільна, вологостійка основа для ванних кімнат, душових та комерційних кухонь."
     },
     "facade": {
-      "question": "Can the board be used for exterior facade cladding?",
-      "answer": "Yes. Specified as the facade board in CBSS and CBMV ventilated facade systems. Can also be used as a render carrier. Suitable for all European climate zones."
+      "question": "Чи можна використовувати плиту для зовнішнього облицювання фасаду?",
+      "answer": "Так. Вказана як плита для фасаду в системах вентильованого фасаду CBSS та CBMV. Можна також використовувати як основу для штукатурки. Придатна для всіх європейських кліматичних зон."
     },
     "asbestos": {
-      "question": "Is the board asbestos-free?",
-      "answer": "Yes. Terasun TSM is completely asbestos-free. The board uses Portland cement with inorganic binders and fibreglass mesh reinforcement. REACH SVHC declaration confirming no SVHC above 0.1% w/w is available."
+      "question": "Чи плита вільна від азбесту?",
+      "answer": "Так. Terasun TSM повністю вільна від азбесту. Плита використовує портландцемент з неорганічними в'яжучими та армуванням склопластиковою сіткою. Доступна декларація REACH SVHC, яка підтверджує, що SVHC відсутні понад 0,1% w/w."
     },
     "moq": {
-      "question": "What is the minimum order quantity?",
-      "answer": "Minimum order is typically one 20-foot container (approx. 1,600–2,200 m² depending on thickness). Smaller quantities may be available from Finnish warehouse stock. Contact us for availability."
+      "question": "Яка мінімальна кількість замовлення?",
+      "answer": "Мінімальне замовлення зазвичай становить один контейнер на 20 футів (приблизно 1 600–2 200 м² залежно від товщини). Менші кількості можуть бути доступні зі складів у Фінляндії. Зв'яжіться з нами для з'ясування наявності."
     },
     "samples": {
-      "question": "Are samples available before placing an order?",
-      "answer": "Yes. Physical samples and documentation packs are available to qualified distributors, architects, and contractors. Contact us to request a sample pack including board, TDS, CE certificate, and ETA."
+      "question": "Чи доступні зразки перед розміщенням замовлення?",
+      "answer": "Так. Фізичні зразки та пакети документації доступні для кваліфікованих дистриб'юторів, архітекторів та підрядників. Зв'яжіться з нами, щоб запросити пакет зразків, включаючи плиту, TDS, сертифікат CE та ETA."
     },
     "leadtime": {
-      "question": "How long does delivery take?",
-      "answer": "Container orders take approximately 6–10 weeks from order confirmation to European port delivery. DDP warehouse delivery adds 1–2 weeks. Finnish stock: 1–2 weeks."
+      "question": "Скільки часу займає доставка?",
+      "answer": "Замовлення контейнерів займають приблизно 6–10 тижнів від підтвердження замовлення до доставки на європейський порт. Доставка на склад DDP додає 1–2 тижні. Фінський склад: 1–2 тижні."
     },
     "origin": {
-      "question": "Where is the product manufactured?",
-      "answer": "Manufactured by Zhejiang Terasun Air Duct Co., Ltd. in Zhejiang Province, People's Republic of China. Terasun Europe is the Authorised European Representative responsible for CE documentation and EU market compliance."
+      "question": "Де виробляється продукт?",
+      "answer": "Виробляється компанією Zhejiang Terasun Air Duct Co., Ltd. у провінції Zhejiang, Китайська Народна Республіка. Terasun Europe є Уповноважним європейським представником, відповідальним за CE документацію та відповідність ринку ЄС."
     },
     "whoIsTerasun": {
-      "question": "What is Terasun Europe?",
-      "answer": "Terasun Europe is the Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd., based in Vantaa, Finland. We manage CE documentation, EU market compliance, and European customer relationships. We are not the manufacturer of Terasun products."
+      "question": "Що таке Terasun Europe?",
+      "answer": "Terasun Europe є Уповноважним європейським представником для Zhejiang Terasun Air Duct Co., Ltd., розташована у Vantaa, Фінляндія. Ми керуємо CE документацією, відповідністю ринку ЄС та європейськими стосунками з клієнтами. Ми не є виробником продуктів Terasun."
     },
     "authorisation": {
-      "question": "Is there an authorisation letter from the manufacturer?",
-      "answer": "Yes. Official authorisation letter from Zhejiang Terasun Air Duct Co., Ltd. confirming Terasun Europe as the Authorised European Representative is available for review."
+      "question": "Чи є письмо про авторизацію від виробника?",
+      "answer": "Так. Офіційне письмо про авторизацію від Zhejiang Terasun Air Duct Co., Ltd., що підтверджує Terasun Europe як Уповноважений європейський представник, доступне для огляду."
     },
     "distributor": {
-      "question": "Can I become a distributor in my country?",
-      "answer": "Yes. We are actively seeking stocking distributors and project partners across Europe. Territory-based agreements, competitive margins, documentation support, and technical training. Contact us to discuss."
+      "question": "Чи можу я стати дистриб'ютором у своїй країні?",
+      "answer": "Так. Ми активно шукаємо дистриб'юторів зі складом та партнерів проектів по всій Європі. Територіальні угоди, конкурентні маржі, підтримка документації та технічне навчання. Зв'яжіться з нами для обговорення."
     },
     "openMarkets": {
-      "question": "Which countries are open for distribution?",
-      "answer": "Germany, Netherlands, Belgium, France, Spain, Portugal, Italy, Austria, Switzerland, Poland, Czech Republic, Slovakia, Hungary, and others are open for new distribution partners. Contact us for territory availability."
+      "question": "Які країни відкриті для розповсюдження?",
+      "answer": "Німеччина, Нідерланди, Бельгія, Франція, Іспанія, Португалія, Італія, Австрія, Швейцарія, Польща, Чеська Республіка, Словаччина, Угорщина та інші країни відкриті для нових партнерів розповсюдження. Зв'яжіться з нами щодо доступності територій."
     },
     "studSpacing": {
-      "question": "What stud spacing is required?",
-      "answer": "Compatible with 400 mm and 600 mm stud spacing in both timber and steel frame systems. Specific recommendations depend on board thickness, orientation, and load — refer to the technical data sheet."
+      "question": "Який потрібен крок стійок?",
+      "answer": "Сумісний з кроком стійок 400 мм та 600 мм як у дерев'яних, так і в стальних каркасних системах. Конкретні рекомендації залежать від товщини плити, орієнтації та навантаження — див. технічний лист даних."
     },
     "training": {
-      "question": "Is technical training available for distributors?",
-      "answer": "Yes. Technical product training, installation guidance, and documentation support are available to registered distributors. Training can be delivered on-site or remotely."
+      "question": "Чи доступне технічне навчання для дистриб'юторів?",
+      "answer": "Так. Технічне навчання продукту, керівництво з монтажу та підтримка документації доступні для зареєстрованих дистриб'юторів. Навчання можна проводити на місці або дистанційно."
     },
     "publicProjects": {
-      "question": "Can Terasun TSM be used on public and infrastructure projects?",
-      "answer": "Yes. CE, ETA, DoP, EPD, and fire test documentation meets the requirements of public sector procurement across Europe. Full documentation packs available for specification and tender submission."
+      "question": "Чи можна використовувати Terasun TSM у громадських та інфраструктурних проектах?",
+      "answer": "Так. Документація CE, ETA, DoP, EPD та результати тестів на вогнетривкість відповідають вимогам державних закупівель у всій Європі. Повні пакети документації доступні для технічних умов та подання пропозицій."
     },
     "cuttingTools": {
-      "question": "What cutting tools are needed for installation?",
-      "answer": "Terasun TSM can be cut with a circular saw or angle grinder fitted with a fibre cement or diamond blade. Score-and-snap for straight cuts on thinner boards. Wear a dust mask and eye protection. Full guidance in the installation manual."
+      "question": "Які інструменти для різання потрібні для монтажу?",
+      "answer": "Terasun TSM можна різати циркулярною пилкою або кутошліфувальною машиною, обладнаною лезом з волокнистого цементу або алмазним лезом. Крайкування та розламування для прямих різів на тонших плитах. Носіть маску від пилу та захист для очей. Повні інструкції в посібнику з монтажу."
     }
   },
   "contact": {
