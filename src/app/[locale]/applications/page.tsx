@@ -38,47 +38,53 @@ export default async function ApplicationsPage({ params }: { params: Promise<{ l
         { name: bc('applications'), url: `${SITE_URL}/${locale}/applications` },
       ])} />
 
-      <section className="container-page py-12 md:py-16">
-        <div className="stag mb-12">
-          <p className="text-gold text-xs font-bold tracking-widest uppercase mb-2">{t('eyebrow')}</p>
-          <h1 className="stitle">{t('h1')}</h1>
+      <div className="page-hero">
+        <div className="container-page">
+          <p className="stag">{t('eyebrow')}</p>
+          <h1 className="stitle-xl">{t('h1')}</h1>
           <p className="ssub max-w-2xl">{t('sub')}</p>
         </div>
+      </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-          {applications.map(app => (
-            <Link
-              key={app.slug}
-              href={navHref(`/applications/${app.slug}`)}
-              className="group card-gold p-6 flex flex-col gap-4 hover:border-gold transition-colors"
-            >
-              <div className="text-4xl">{app.icon}</div>
-              <div>
-                <h2 className="text-white font-bold text-lg mb-2 group-hover:text-gold2 transition-colors">
-                  {t(`${app.slug}.title`)}
-                </h2>
-                <p className="text-gray-400 text-sm leading-relaxed mb-4">
-                  {t(`${app.slug}.summary`)}
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  {app.tags.map(tag => (
-                    <span key={tag} className="px-2 py-0.5 rounded text-xs bg-white/5 text-gray-400 border border-border">
-                      {t(`tags.${tag}`)}
-                    </span>
-                  ))}
+      <section className="section-alt py-16">
+        <div className="container-page">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+            {applications.map(app => (
+              <Link
+                key={app.slug}
+                href={navHref(`/applications/${app.slug}`)}
+                className="group bg-white rounded-2xl border border-slate-200 p-7 flex flex-col gap-4 card-lift hover:border-accent/40"
+              >
+                <div className="w-12 h-12 rounded-xl bg-accent/10 flex items-center justify-center text-2xl">
+                  {app.icon}
                 </div>
-              </div>
-              <div className="text-gold text-sm font-semibold mt-auto group-hover:translate-x-1 transition-transform">
-                Learn more →
-              </div>
-            </Link>
-          ))}
-        </div>
+                <div>
+                  <h2 className="text-slate-900 font-bold text-lg mb-2 group-hover:text-accent transition-colors">
+                    {t(`${app.slug}.title`)}
+                  </h2>
+                  <p className="text-gray-500 text-sm leading-relaxed mb-4">
+                    {t(`${app.slug}.summary`)}
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {app.tags.map(tag => (
+                      <span key={tag} className="px-2.5 py-0.5 rounded-full text-xs bg-accent/8 text-accent border border-accent/20 font-medium">
+                        {t(`tags.${tag}`)}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <div className="text-accent text-sm font-semibold mt-auto group-hover:translate-x-1 transition-transform">
+                  Learn more →
+                </div>
+              </Link>
+            ))}
+          </div>
 
-        <div className="mt-16 text-center rounded-2xl border border-border bg-card p-10">
-          <h2 className="text-xl font-bold text-white mb-3">{t('ctaTitle')}</h2>
-          <p className="text-gray-400 text-sm mb-6">{t('ctaText')}</p>
-          <Link href={navHref('/contact')} className="btn-primary px-8 py-3">Request project consultation</Link>
+          <div className="mt-16 text-center rounded-2xl border border-slate-200 bg-white p-10 shadow-sm">
+            <h2 className="text-2xl font-bold text-slate-900 mb-3">{t('ctaTitle')}</h2>
+            <p className="text-gray-500 text-sm mb-6 max-w-xl mx-auto">{t('ctaText')}</p>
+            <Link href={navHref('/contact')} className="btn-primary px-8 py-3">Request project consultation</Link>
+          </div>
         </div>
       </section>
     </>

@@ -19,7 +19,7 @@ export default function Footer({ locale }: Props) {
           {/* Brand */}
           <div>
             <div className="text-lg font-black tracking-widest text-white mb-0.5">{t('brand')}</div>
-            <div className="text-xs font-semibold tracking-wider text-gold uppercase mb-4">{t('brandSub')}</div>
+            <div className="text-xs font-semibold tracking-wider text-accent/80 uppercase mb-4">{t('brandSub')}</div>
             <p className="text-sm text-gray-400 leading-relaxed">
               {t('desc')}<br/>
               <a href={`tel:${CONTACT.phone}`} className="hover:text-white transition-colors">{CONTACT.phoneDisplay}</a>
@@ -34,7 +34,7 @@ export default function Footer({ locale }: Props) {
 
           {/* Product links */}
           <div>
-            <h3 className="text-xs font-bold tracking-wider text-gold2 uppercase mb-3">{t('colProduct')}</h3>
+            <h3 className="text-xs font-bold tracking-wider text-slate-400 uppercase mb-3">{t('colProduct')}</h3>
             <div className="flex flex-col gap-2">
               <Link href={navHref('/products')} className="text-sm text-gray-400 hover:text-white transition-colors">{nav('products')}</Link>
               <Link href={navHref('/applications')} className="text-sm text-gray-400 hover:text-white transition-colors">{nav('applications')}</Link>
@@ -45,7 +45,7 @@ export default function Footer({ locale }: Props) {
 
           {/* Documentation links */}
           <div>
-            <h3 className="text-xs font-bold tracking-wider text-gold2 uppercase mb-3">{t('colDocs')}</h3>
+            <h3 className="text-xs font-bold tracking-wider text-slate-400 uppercase mb-3">{t('colDocs')}</h3>
             <div className="flex flex-col gap-2">
               <Link href={navHref('/certifications')} className="text-sm text-gray-400 hover:text-white transition-colors">{nav('certifications')}</Link>
               <Link href={navHref('/downloads')} className="text-sm text-gray-400 hover:text-white transition-colors">{nav('downloads')}</Link>
@@ -56,7 +56,7 @@ export default function Footer({ locale }: Props) {
 
           {/* Company links */}
           <div>
-            <h3 className="text-xs font-bold tracking-wider text-gold2 uppercase mb-3">{t('colCompany')}</h3>
+            <h3 className="text-xs font-bold tracking-wider text-slate-400 uppercase mb-3">{t('colCompany')}</h3>
             <div className="flex flex-col gap-2">
               <Link href={navHref('/about')} className="text-sm text-gray-400 hover:text-white transition-colors">{nav('about')}</Link>
               <Link href={navHref('/manufacturer')} className="text-sm text-gray-400 hover:text-white transition-colors">{nav('manufacturer')}</Link>

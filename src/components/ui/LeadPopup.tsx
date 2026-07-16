@@ -97,7 +97,7 @@ function SampleForm({ csrf, onSuccess }: { csrf: string; onSuccess: () => void }
       <button
         type="submit"
         disabled={status === 'sending'}
-        className="w-full bg-gold hover:bg-amber-600 disabled:opacity-60 text-white font-semibold text-sm py-2.5 rounded transition-colors"
+        className="w-full btn-primary disabled:opacity-60 text-white font-semibold text-sm py-2.5 rounded transition-colors"
       >
         {status === 'sending' ? 'Sending…' : 'Request Free Sample →'}
       </button>
@@ -177,7 +177,7 @@ function DistributorForm({ csrf, onSuccess }: { csrf: string; onSuccess: () => v
       <button
         type="submit"
         disabled={status === 'sending'}
-        className="w-full bg-gold hover:bg-amber-600 disabled:opacity-60 text-white font-semibold text-sm py-2.5 rounded transition-colors"
+        className="w-full btn-primary disabled:opacity-60 text-white font-semibold text-sm py-2.5 rounded transition-colors"
       >
         {status === 'sending' ? 'Sending…' : 'Apply to Become a Distributor →'}
       </button>
@@ -257,7 +257,7 @@ function QuotationForm({ csrf, onSuccess }: { csrf: string; onSuccess: () => voi
       <button
         type="submit"
         disabled={status === 'sending'}
-        className="w-full bg-gold hover:bg-amber-600 disabled:opacity-60 text-white font-semibold text-sm py-2.5 rounded transition-colors"
+        className="w-full btn-primary disabled:opacity-60 text-white font-semibold text-sm py-2.5 rounded transition-colors"
       >
         {status === 'sending' ? 'Sending…' : 'Request a Quotation →'}
       </button>
@@ -284,7 +284,7 @@ function SuccessScreen({ onClose }: { onClose: () => void }) {
       <p className="text-gray-400 text-sm mb-6">
         We will review your request and get back to you within 1–2 business days.
       </p>
-      <button onClick={onClose} className="text-sm text-gold hover:text-gold2 transition-colors font-medium">
+      <button onClick={onClose} className="text-sm text-accent hover:text-accent-dark transition-colors font-medium">
         Close
       </button>
     </div>
@@ -490,7 +490,7 @@ export default function LeadPopup() {
                 <div className="space-y-2.5">
                   <button
                     onClick={() => setView('sample')}
-                    className="w-full bg-gold hover:bg-amber-600 text-white font-bold text-sm py-3 rounded-lg transition-colors"
+                    className="w-full btn-primary text-white font-bold text-sm py-3 rounded-lg transition-colors"
                   >
                     Request Free Sample
                   </button>
