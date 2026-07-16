@@ -632,84 +632,84 @@
     "h1": "Hyppigt stillede spørgsmål",
     "sub": "Tekniske, kommercielle og logistiske spørgsmål om Terasun TSM fiber cement plade.",
     "ce": {
-      "question": "Does Terasun TSM have CE marking?",
-      "answer": "Yes. CE 1023-CPR-1565 P. The product complies with the EU Construction Products Regulation and carries CE marking for sale and use across the European Economic Area."
+      "question": "Har Terasun TSM CE-mærkning?",
+      "answer": "Ja. CE 1023-CPR-1565 P. Produktet opfylder EU's Construction Products Regulation og har CE-mærkning til salg og brug i hele det europæiske økonomiske område."
     },
     "eta": {
-      "question": "Is there a European Technical Assessment (ETA)?",
-      "answer": "Yes. ETA 24/0895 has been issued by a designated ETA body. It independently confirms the product's performance characteristics for its intended uses. Full ETA available for download."
+      "question": "Findes der en europæisk teknisk vurdering (ETA)?",
+      "answer": "Ja. ETA 24/0895 er udstedt af et udpeget ETA-organ. Det bekræfter uafhængigt produktets præstationskarakteristika til dets tilsigtede anvendelser. Fuld ETA tilgængelig til download."
     },
     "epd": {
-      "question": "Is there an EPD (Environmental Product Declaration)?",
-      "answer": "Yes. EPD-IES-0018268, published 2025-03-14, valid until 2029-03-14. ISO 14025 compliant. Declared unit: 1 m² at 12 mm, weight 9.96 kg/m². Supports LEED, BREEAM, and DGNB certification projects."
+      "question": "Findes der en EPD (miljøproduktdeklaration)?",
+      "answer": "Ja. EPD-IES-0018268, udgivet 2025-03-14, gyldig til 2029-03-14. ISO 14025 kompatibel. Deklareret enhed: 1 m² ved 12 mm, vægt 9,96 kg/m². Understøtter LEED, BREEAM og DGNB certificeringsprojekter."
     },
     "weight": {
-      "question": "What is the declared weight of the board?",
-      "answer": "The declared weight per EPD-IES-0018268 is 9.96 kg/m² at 12 mm thickness. Thinner boards are proportionally lighter. Full thickness/weight table in the technical data sheet."
+      "question": "Hvad er den deklarerede vægt på pladen?",
+      "answer": "Den deklarerede vægt per EPD-IES-0018268 er 9,96 kg/m² ved 12 mm tykkelse. Tyndere plader er proportionalt lettere. Komplet tykkelse/vægt tabel i det tekniske datablad."
     },
     "fire": {
-      "question": "What fire resistance does the board achieve?",
-      "answer": "The tested system achieves E 120 (integrity 120 min), EI 90 (integrity and insulation 90 min), and EW 120 (integrity and radiation limitation 120 min). Test reference: FIRES-CR-284-25-AUPE. These are system-level classifications — specify the tested system configuration."
+      "question": "Hvilken brandmodstand opnår pladen?",
+      "answer": "Det testede system opnår E 120 (integritet 120 min), EI 90 (integritet og isolering 90 min) og EW 120 (integritet og strålingsbegrænsning 120 min). Testreferencer: FIRES-CR-284-25-AUPE. Disse er systemklassifikationer — angiv den testede systemkonfiguration."
     },
     "wetroom": {
-      "question": "Can Terasun TSM be used in wet rooms?",
-      "answer": "Yes. Approved as a tile backing substrate in Mapei and Schönox wet room systems. Dimensionally stable, moisture-resistant substrate for bathrooms, showers, and commercial kitchens."
+      "question": "Kan Terasun TSM bruges på våde rum?",
+      "answer": "Ja. Godkendt som flisunderlag i Mapei og Schönox vådrumssystemer. Dimensionelt stabilt og fugtsikkert underlag til badeværelser, brusebokse og kommercielle køkkener."
     },
     "facade": {
-      "question": "Can the board be used for exterior facade cladding?",
-      "answer": "Yes. Specified as the facade board in CBSS and CBMV ventilated facade systems. Can also be used as a render carrier. Suitable for all European climate zones."
+      "question": "Kan pladen bruges til ydre facadebeklædning?",
+      "answer": "Ja. Specificeret som facadeplade i CBSS og CBMV ventilerede facadesystemer. Kan også bruges som pudsunderlag. Egnet til alle europæiske klimazoner."
     },
     "asbestos": {
-      "question": "Is the board asbestos-free?",
-      "answer": "Yes. Terasun TSM is completely asbestos-free. The board uses Portland cement with inorganic binders and fibreglass mesh reinforcement. REACH SVHC declaration confirming no SVHC above 0.1% w/w is available."
+      "question": "Er pladen asbestfri?",
+      "answer": "Ja. Terasun TSM er fuldstændig asbestfri. Pladen bruger Portlandcement med uorganiske bindemidler og glasfiberarmering. REACH SVHC-erklæring bekræfter ingen SVHC over 0,1% w/w."
     },
     "moq": {
-      "question": "What is the minimum order quantity?",
-      "answer": "Minimum order is typically one 20-foot container (approx. 1,600–2,200 m² depending on thickness). Smaller quantities may be available from Finnish warehouse stock. Contact us for availability."
+      "question": "Hvad er minimumordremængden?",
+      "answer": "Minimumordren er typisk en 20-fods container (ca. 1.600–2.200 m² afhængigt af tykkelse). Mindre mængder kan være tilgængelige fra finsk lagerbeholdning. Kontakt os for tilgængelighed."
     },
     "samples": {
-      "question": "Are samples available before placing an order?",
-      "answer": "Yes. Physical samples and documentation packs are available to qualified distributors, architects, and contractors. Contact us to request a sample pack including board, TDS, CE certificate, and ETA."
+      "question": "Er prøver tilgængelige før ordreafgivelse?",
+      "answer": "Ja. Fysiske prøver og dokumentationspakker er tilgængelige for kvalificerede distributører, arkitekter og entreprenører. Kontakt os for at anmode om en prøvepakke med plade, TDS, CE-certifikat og ETA."
     },
     "leadtime": {
-      "question": "How long does delivery take?",
-      "answer": "Container orders take approximately 6–10 weeks from order confirmation to European port delivery. DDP warehouse delivery adds 1–2 weeks. Finnish stock: 1–2 weeks."
+      "question": "Hvor lang tid tager leveringen?",
+      "answer": "Containerordrer tager cirka 6–10 uger fra ordrebekræftelse til europæisk havnelevering. DDP-lagerlevering tilføjer 1–2 uger. Finsk lager: 1–2 uger."
     },
     "origin": {
-      "question": "Where is the product manufactured?",
-      "answer": "Manufactured by Zhejiang Terasun Air Duct Co., Ltd. in Zhejiang Province, People's Republic of China. Terasun Europe is the Authorised European Representative responsible for CE documentation and EU market compliance."
+      "question": "Hvor fremstilles produktet?",
+      "answer": "Fremstillet af Zhejiang Terasun Air Duct Co., Ltd. i Zhejiang-provinsen, Folkerepublikken Kina. Terasun Europe er den autoriserede europæiske repræsentant, der er ansvarlig for CE-dokumentation og EU-markedscompliance."
     },
     "whoIsTerasun": {
-      "question": "What is Terasun Europe?",
-      "answer": "Terasun Europe is the Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd., based in Vantaa, Finland. We manage CE documentation, EU market compliance, and European customer relationships. We are not the manufacturer of Terasun products."
+      "question": "Hvad er Terasun Europe?",
+      "answer": "Terasun Europe er den autoriserede europæiske repræsentant for Zhejiang Terasun Air Duct Co., Ltd., baseret i Vantaa, Finland. Vi administrerer CE-dokumentation, EU-markedscompliance og europæiske kundeforhold. Vi er ikke producenten af Terasun-produkter."
     },
     "authorisation": {
-      "question": "Is there an authorisation letter from the manufacturer?",
-      "answer": "Yes. Official authorisation letter from Zhejiang Terasun Air Duct Co., Ltd. confirming Terasun Europe as the Authorised European Representative is available for review."
+      "question": "Er der et autorisationsbrev fra producenten?",
+      "answer": "Ja. Officielt autorisationsbrev fra Zhejiang Terasun Air Duct Co., Ltd., der bekræfter Terasun Europe som den autoriserede europæiske repræsentant, er tilgængeligt for gennemsyn."
     },
     "distributor": {
-      "question": "Can I become a distributor in my country?",
-      "answer": "Yes. We are actively seeking stocking distributors and project partners across Europe. Territory-based agreements, competitive margins, documentation support, and technical training. Contact us to discuss."
+      "question": "Kan jeg blive distributør i mit land?",
+      "answer": "Ja. Vi søger aktivt lagerdistributører og projektpartnere i hele Europa. Områdebegrænsede aftaler, konkurrencedygtige marginer, dokumentationsstøtte og teknisk træning. Kontakt os for at diskutere."
     },
     "openMarkets": {
-      "question": "Which countries are open for distribution?",
-      "answer": "Germany, Netherlands, Belgium, France, Spain, Portugal, Italy, Austria, Switzerland, Poland, Czech Republic, Slovakia, Hungary, and others are open for new distribution partners. Contact us for territory availability."
+      "question": "Hvilke lande er åbne for distribution?",
+      "answer": "Tyskland, Nederlandene, Belgien, Frankrig, Spanien, Portugal, Italien, Østrig, Schweiz, Polen, Tjekkiet, Slovakiet, Ungarn og andre er åbne for nye distributørpartnere. Kontakt os vedr. tilgængelige territorier."
     },
     "studSpacing": {
-      "question": "What stud spacing is required?",
-      "answer": "Compatible with 400 mm and 600 mm stud spacing in both timber and steel frame systems. Specific recommendations depend on board thickness, orientation, and load — refer to the technical data sheet."
+      "question": "Hvilken stavafstand er påkrævet?",
+      "answer": "Kompatibel med 400 mm og 600 mm stavafstand i både træ- og stålrammesystemer. Specifikke anbefalinger afhænger af pladernes tykkelse, orientering og belastning — se det tekniske datablad."
     },
     "training": {
-      "question": "Is technical training available for distributors?",
-      "answer": "Yes. Technical product training, installation guidance, and documentation support are available to registered distributors. Training can be delivered on-site or remotely."
+      "question": "Er der teknisk træning tilgængelig for distributører?",
+      "answer": "Ja. Teknisk produkttræning, installationsvejledning og dokumentationsstøtte er tilgængelig for registrerede distributører. Træning kan leveres på stedet eller virtuelt."
     },
     "publicProjects": {
-      "question": "Can Terasun TSM be used on public and infrastructure projects?",
-      "answer": "Yes. CE, ETA, DoP, EPD, and fire test documentation meets the requirements of public sector procurement across Europe. Full documentation packs available for specification and tender submission."
+      "question": "Kan Terasun TSM bruges til offentlige og infrastrukturprojekter?",
+      "answer": "Ja. CE, ETA, DoP, EPD og brandtestdokumentation opfylder kravene for offentlig indkøb på tværs af Europa. Komplette dokumentationspakker er tilgængelige til specifikation og tilbudsindgivelse."
     },
     "cuttingTools": {
-      "question": "What cutting tools are needed for installation?",
-      "answer": "Terasun TSM can be cut with a circular saw or angle grinder fitted with a fibre cement or diamond blade. Score-and-snap for straight cuts on thinner boards. Wear a dust mask and eye protection. Full guidance in the installation manual."
+      "question": "Hvilke skæreværktøjer er påkrævet til installation?",
+      "answer": "Terasun TSM kan skæres med en cirkelsav eller vinkelsliber udstyret med et fibercement- eller diamantblad. Ridse-og-knæk til lige snit på tyndere plader. Bær støvmaske og øjenbeskyttelse. Fuldstændig vejledning i installationsmanualen."
     }
   },
   "contact": {

@@ -164,7 +164,7 @@
   },
   "manufacturer": {
     "eyebrow": "Σχετικά με τον κατασκευαστή",
-    "h1": "Zhejiang Terasun Air Duct Co., Ltd.",
+    "h1": "Zhejiang Terasun Αεραγωγός Ε.Π.Ε.",
     "sub": "Ιδρύθηκε το 1989 στην επαρχία Zhejiang, Κίνα — κατασκευαστής του Terasun TSM fiber cement board με πλήρη ευρωπαϊκή πιστοποίηση.",
     "desc1": "Η Zhejiang Terasun Air Duct Co., Ltd. είναι ένας καθιερωμένος κατασκευαστής σανίδων τσιμέντου που παράγει fiber cement και construction board products από το 1989. Η σειρά Terasun περιλαμβάνει προϊόντα που υποστηρίζονται από πλήρη ευρωπαϊκή τεχνική τεκμηρίωση συμπεριλαμβανομένων CE, ETA, EPD και πιστοποιήσεων δοκιμής πυρκαγιάς.",
     "desc2": "Όλες οι σανίδες παράγονται σύμφωνα με τις απαιτήσεις ETA 24/0895. Δοκιμή τρίτου μέρους επιβεβαιώνει ότι τα δεδομένα απόδοσης συμφωνούν με τη Δήλωση Απόδοσης. Οι σύγχρονες γραμμές παραγωγής υποστηρίζουν εξαγωγικές παραγγελίες μεγάλου όγκου με έλεγχο ποιότητας που εφαρμόζεται σε όλες τις προδιαγραφές σανίδων.",
@@ -532,9 +532,9 @@
     }
   },
   "distributors": {
-    "eyebrow": "Partnership programme",
-    "h1": "European distribution partnerships",
-    "sub": "Terasun Europe works with stocking distributors, importers, and project partners across all European markets.",
+    "eyebrow": "Πρόγραμμα Εταιρικής Συνεργασίας",
+    "h1": "Ευρωπαϊκές συμπράξεις διανομής",
+    "sub": "Η Terasun Europe συνεργάζεται με διανομείς αποθέματος, εισαγωγείς και συμμέτοχους έργων σε όλες τις ευρωπαϊκές αγορές.",
     "benefits": {
       "margin": {
         "icon": "💰",
@@ -557,17 +557,17 @@
         "body": "Territory-based distribution agreements. Priority markets available now."
       }
     },
-    "mapTitle": "Markets across Europe",
+    "mapTitle": "Αγορές σε όλη την Ευρώπη",
     "status": {
       "hq": "HQ — Finland",
       "active": "Active partner",
       "open": "Partner wanted",
       "available": "Available"
     },
-    "ctaTitle": "Apply for distribution in your country",
-    "ctaText": "We are actively seeking stocking distributors, importers, and project partners across Europe. Exclusive territory agreements available.",
-    "ctaApply": "Apply to become a distributor",
-    "ctaEmail": "Email us directly"
+    "ctaTitle": "Υποβάλετε αίτηση για διανομή στη χώρα σας",
+    "ctaText": "Αναζητούμε ενεργά διανομείς αποθέματος, εισαγωγείς και συμμέτοχους έργων σε όλη την Ευρώπη. Διατίθενται αποκλειστικές συμφωνίες περιοχής.",
+    "ctaApply": "Υποβάλετε αίτηση για να γίνετε διανομέας",
+    "ctaEmail": "Στείλτε μας ένα email απευθείας"
   },
   "logistics": {
     "eyebrow": "Logistics & Αλυσίδα Εφοδιασμού",
@@ -622,10 +622,10 @@
     "ctaFreight": "Ζητήστε προσφορά μεταφοράς"
   },
   "gallery": {
-    "eyebrow": "Project gallery",
-    "h1": "Terasun TSM in use",
-    "sub": "Real installations across Europe — facade cladding, wet room systems, fire-rated partitions, and more.",
-    "cta": "Have a completed project using Terasun TSM? Send us your photos."
+    "eyebrow": "Γκαλερί έργων",
+    "h1": "Terasun TSM σε χρήση",
+    "sub": "Πραγματικές εγκαταστάσεις σε όλη την Ευρώπη — επένδυση πρόσοψης, συστήματα υγρών χώρων, χωρίσματα αντιπυρικής κατηγορίας και πολλά άλλα.",
+    "cta": "Έχετε ένα ολοκληρωμένο έργο που χρησιμοποιεί Terasun TSM; Στείλτε μας τις φωτογραφίες σας."
   },
   "faq": {
     "eyebrow": "FAQ",
@@ -724,9 +724,9 @@
     }
   },
   "installation": {
-    "eyebrow": "Installation guide",
-    "h1": "Installing Terasun TSM fiber cement board",
-    "sub": "Complete contractor guide — tools, cutting, fastening, joints, weather protection, and finishing.",
+    "eyebrow": "Οδηγός εγκατάστασης",
+    "h1": "Εγκατάσταση σανίδας ινοτσιμέντου Terasun TSM",
+    "sub": "Πλήρης οδηγός ανάδοχου — εργαλεία, κοπή, στερέωση, αρμοί, προστασία από τις καιρικές συνθήκες και φινίρισμα.",
     "features": {
       "tools": {
         "icon": "🔧",
@@ -759,8 +759,8 @@
         "body": "Prime with alkali-resistant primer before paint or render. Compatible with mineral, silicone, and acrylic finishes. Interior surfaces can be directly tiled with polymer-modified adhesive."
       }
     },
-    "downloadTitle": "Download the installation manual",
-    "downloadText": "Full installation guidance including system drawings, fixing patterns, and substrate requirements."
+    "downloadTitle": "Κατεβάστε το εγχειρίδιο εγκατάστασης",
+    "downloadText": "Πλήρης οδηγία εγκατάστασης συμπεριλαμβανομένων των σχεδίων συστήματος, των σχημάτων στερέωσης και των απαιτήσεων του υποστρώματος."
   },
   "footer": {
     "brand": "TERASUN",
@@ -793,7 +793,7 @@
     "loginLink": "Sign in"
   },
   "markets": {
-    "eyebrow": "European market",
+    "eyebrow": "Ευρωπαϊκή αγορά",
     "country_features": {
       "certifications": {
         "title": "Full CE documentation",
@@ -812,9 +812,9 @@
         "body": "Exclusive territory distribution available. Competitive margins and full technical support."
       }
     },
-    "ctaQuote": "Request quotation for",
-    "ctaPartner": "Become a distributor",
-    "marketInfo": "Market information",
+    "ctaQuote": "Ζητήστε προσφορά για",
+    "ctaPartner": "Γίνετε διανομέας",
+    "marketInfo": "Πληροφορίες αγοράς",
     "finland": {
       "metaTitle": "Fiber Cement Board Finland | Terasun TSM | CE & ETA | Terasun Europe",
       "metaDesc": "CE-certified Terasun TSM fiber cement board in Finland. Based in Vantaa. Supply to Finnish contractors, architects, and distributors.",
