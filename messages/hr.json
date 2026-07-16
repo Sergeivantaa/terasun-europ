@@ -271,7 +271,9 @@
       "waterResistant": {
         "name": "Moisture resistant",
         "detail": "Suitable for exterior use and wet room applications"
-      }
+      },
+      "short": "Lagana cementna osnova s anorganskim vezivima i ojačanjem od staklene mrežice.",
+      "full": "TSM cementna ploča je lagana građevinska ploča na cementnoj bazi izrađena od anorganskih cementnih veziva, laganih komponenti i ojačavajuće staklene mrežice. Njezina lagana, blago porozna cementna osnova smanjuje težinu ploče uz zadržavanje prikladnosti za dokumentirane unutarnje i vanjske građevinske primjene."
     },
     "thicknessNote": "Potpuni asortiman 3–25 mm, ovisno o naručenoj količini i dostupnosti proizvodnje. Tehnički podaci potvrđeni za 12 mm; ostale debljine na upit."
   },

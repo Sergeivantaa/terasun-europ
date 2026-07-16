@@ -271,7 +271,9 @@
       "waterResistant": {
         "name": "Moisture resistant",
         "detail": "Suitable for exterior use and wet room applications"
-      }
+      },
+      "short": "Kevyt sementtipohjaine ydin epäorgaanisilla sideaineilla ja lasikasukkavahvistuksella.",
+      "full": "TSM-sementtilevy on kevyt sementtipohjaine rakennuslevy, joka on valmistettu epäorgaanisista sementtisideaineista, kevyistä komponenteista ja vahvistavasta lasikuituverkosta. Sen kevyt, hieman huokoinen sementtiydin vähentää levyn painoa säilyttäen samalla soveltuvuuden dokumentoituihin sisä- ja ulkorakentamissovelluksiin."
     },
     "thicknessNote": "Täydellinen valikoima 3–25 mm, tilaustarpeen ja tuotannon saatavuuden mukaan. Tekniset tiedot vahvistettu 12 mm:lle; muut paksuudet pyydettäessä."
   },

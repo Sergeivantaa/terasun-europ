@@ -271,7 +271,9 @@
       "waterResistant": {
         "name": "Moisture resistant",
         "detail": "Suitable for exterior use and wet room applications"
-      }
+      },
+      "short": "Lehký cementový základ s anorganickými pojivy a výztuží ze skleněné mřížky.",
+      "full": "Cementová deska TSM je lehká stavební deska na bázi cementu vyrobená z anorganických cementových pojiv, lehkých komponent a vyztužující skleněné mřížky. Lehký, mírně porézní cementový základ snižuje hmotnost desky při zachování vhodnosti pro dokumentované vnitřní a vnější stavební aplikace."
     },
     "thicknessNote": "Kompletní sortiment 3–25 mm, v závislosti na objemu objednávky a výrobní dostupnosti. Technická data potvrzena pro 12 mm; ostatní tloušťky na vyžádání."
   },

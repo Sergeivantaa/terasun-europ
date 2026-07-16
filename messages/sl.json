@@ -271,7 +271,9 @@
       "waterResistant": {
         "name": "Moisture resistant",
         "detail": "Suitable for exterior use and wet room applications"
-      }
+      },
+      "short": "Lahka cementna osnova z anorganskimi vezivi in armaturo iz steklene mrežice.",
+      "full": "Cementna plošča TSM je lahka gradbena plošča na cementni osnovi, izdelana iz anorganskih cementnih veziv, lahkih komponent in ojačitvene steklene mrežice. Njena lahka, rahlo porozna cementna osnova zmanjšuje težo plošče ob hkratnem ohranjanju primernosti za dokumentirane notranje in zunanje gradbene aplikacije."
     },
     "thicknessNote": "Celoten sortiment 3–25 mm, odvisno od obsega naročila in razpoložljivosti proizvodnje. Tehnični podatki potrjeni za 12 mm; druge debeline na zahtevo."
   },

@@ -271,7 +271,9 @@
       "waterResistant": {
         "name": "Moisture resistant",
         "detail": "Suitable for exterior use and wet room applications"
-      }
+      },
+      "short": "Lett sementbasert kjerne med uorganiske bindemidler og glassfibernettverksforsterkning.",
+      "full": "TSM-sementplate er en lett sementbasert bygningsplate fremstilt av uorganiske sementbindemidler, lette komponenter og forsterkende glassfibernett. Dens lette, lett porøse sementkjerne reduserer platevekten og opprettholder egnethet for dokumenterte innendørs og utendørs bygningsapplikasjoner."
     },
     "thicknessNote": "Komplett sortiment 3–25 mm, avhengig av bestillingsvolum og produksjonstilgjengelighet. Tekniske data bekreftet for 12 mm; andre tykkelser på forespørsel."
   },

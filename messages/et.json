@@ -271,7 +271,9 @@
       "waterResistant": {
         "name": "Moisture resistant",
         "detail": "Suitable for exterior use and wet room applications"
-      }
+      },
+      "short": "Kerge tsemendipõhine tuum anorgaaniliste sideainetega ja klaaskiuvõrgu tugevdusega.",
+      "full": "TSM tsemenditahvel on kerge tsemendipõhine ehitustahvel, mis on valmistatud anorgaanilistest tsementsideainetest, kergetest komponentidest ja tugevdavast klaaskiuvõrgust. Selle kerge, kergelt poorne tsementtuum vähendab tahvli kaalu, säilitades samas sobivuse dokumenteeritud sise- ja välisehitusrakendusteks."
     },
     "thicknessNote": "Täielik valik 3–25 mm, sõltuvalt tellimismahust ja tootmise saadavusest. Tehnilised andmed kinnitatud 12 mm jaoks; muud paksused päringul."
   },

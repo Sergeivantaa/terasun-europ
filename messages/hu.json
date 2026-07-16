@@ -271,7 +271,9 @@
       "waterResistant": {
         "name": "Moisture resistant",
         "detail": "Suitable for exterior use and wet room applications"
-      }
+      },
+      "short": "Könnyű cementalapú mag szervetlen kötőanyagokkal és üvegszálas háló erősítéssel.",
+      "full": "A TSM cement lap egy könnyű cementalapú építőlap, amelyet szervetlen cementkötőanyagokból, könnyű komponensekből és erősítő üvegszálas hálóból gyártanak. Könnyű, enyhén porózus cementalapja csökkenti a lap súlyát, miközben fenntartja az alkalmasságát a dokumentált bel- és kültéri építési alkalmazásokhoz."
     },
     "thicknessNote": "Teljes választék 3–25 mm, a rendelési mennyiségtől és a gyártási elérhetőségtől függően. Műszaki adatok 12 mm-re megerősítve; egyéb vastagságok kérésre."
   },

@@ -271,7 +271,9 @@
       "waterResistant": {
         "name": "Moisture resistant",
         "detail": "Suitable for exterior use and wet room applications"
-      }
+      },
+      "short": "Viegls cementbāzēts kodols ar neorganiskiem saistvielu un stikla šķiedras sieta pastiprinājumu.",
+      "full": "TSM cementa plāksne ir viegla cementbāzēta celtniecības plāksne, kas ražota no neorganiskiem cementa saistvielu, viegliem komponentiem un pastiprinoša stikla šķiedras sieta. Tās vieglais, nedaudz porains cementa kodols samazina plāksnes svaru, vienlaikus saglabājot piemērotību dokumentētajiem iekštelpu un āra celtniecības pielietojumiem."
     },
     "thicknessNote": "Pilns klāsts 3–25 mm, atkarībā no pasūtījuma apjoma un ražošanas pieejamības. Tehniskie dati apstiprināti 12 mm; citi biezumi pēc pieprasījuma."
   },
