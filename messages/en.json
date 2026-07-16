@@ -211,7 +211,7 @@
       "eta": {
         "year": "2024",
         "title": "ETA 24/0895 issued",
-        "body": "European Technical Assessment issued by a designated ETA body. CE marking confirmed under CPR."
+        "body": "European Technical Assessment issued by a designated ETA body. CE marking confirmed under the EU Construction Products Regulation."
       },
       "epd": {
         "year": "2025",
@@ -283,7 +283,7 @@
       "h1": "Fiber cement board for facade systems",
       "lead": "Specified as a facade cement board in CBSS and CBMV ventilated facade systems across European climate zones.",
       "body1": "Terasun TSM is used as the facade board in ventilated cladding systems, providing a lightweight exterior skin that breathes and drains behind cladding rails. The board is paintable with mineral or silicone render finishes.",
-      "body2": "In render carrier applications, TSM acts as the substrate for external mineral render systems. Its autoclaved surface provides excellent adhesion and dimensional stability for render finishes in exposed conditions.",
+      "body2": "In render carrier applications, TSM acts as the substrate for external mineral render systems. Its cement board surface provides excellent adhesion and dimensional stability for mineral and silicone render finishes in exposed conditions.",
       "featuresTitle": "Key technical features",
       "feature1": "Lightweight — 9.96 kg/m² at 12 mm reduces structural load",
       "feature2": "CE certified under EN 12467 — mandatory for EEA use",
@@ -309,7 +309,7 @@
       "feature2": "EI 90 — integrity and insulation 90 minutes",
       "feature3": "EW 120 — integrity and radiation limitation 120 minutes",
       "feature4": "Independently tested — FIRES-CR-284-25-AUPE",
-      "feature5": "CE certified for fire performance under CPR",
+      "feature5": "CE certified for fire performance under the EU Construction Products Regulation",
       "feature6": "Suitable for commercial, public, and industrial occupancies",
       "spec_E 120": "Integrity 120 min",
       "spec_EI 90": "Integrity + insulation 90 min",
@@ -323,7 +323,7 @@
       "h1": "Fiber cement board for wet rooms",
       "lead": "Moisture-resistant tile backing in Mapei and Schönox approved wet room systems.",
       "body1": "Terasun TSM is used as the tile backing substrate in Mapei and Schönox approved wet area tiling systems. The board provides a dimensionally stable, moisture-resistant surface for direct tile application.",
-      "body2": "The autoclaved surface does not expand or contract with moisture cycling — ideal for areas with continuous water exposure.",
+      "body2": "The board surface remains dimensionally stable under continuous moisture exposure — ideal for wet rooms and commercial kitchens.",
       "featuresTitle": "Wet room performance",
       "feature1": "Moisture resistant — dimensionally stable in wet conditions",
       "feature2": "Direct tile substrate — compatible with polymer-modified adhesives",
@@ -409,7 +409,7 @@
     "dop": {
       "badge": "DoP Declared",
       "label": "Declaration of Performance",
-      "desc": "DoP TRS-20250610F. Full declaration of all performance characteristics in accordance with CPR and ETA 24/0895.",
+      "desc": "DoP TRS-20250610F. Full declaration of all performance characteristics in accordance with the EU Construction Products Regulation and ETA 24/0895.",
       "eyebrow": "Declaration of Performance",
       "title": "Download the Declaration of Performance",
       "text": "The Declaration of Performance (DoP TRS-20250610F) declares all technical performance values in accordance with ETA 24/0895 and the EU Construction Products Regulation. Required by building authorities in all EEA member states.",
