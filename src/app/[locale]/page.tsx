@@ -341,23 +341,14 @@ export default async function HomePage({ params }: Props) {
         <div className="container-page">
           <div className="grid lg:grid-cols-2 gap-14 items-center">
             <ScrollReveal>
-              <p className="stag">Free sample programme</p>
+              <p className="stag">{home('sampleStag')}</p>
               <h2 className="text-2xl lg:text-3xl font-black text-[#132238] leading-tight mb-4">
-                Evaluate TSM Board Quality<br/>
-                <span className="text-[#245A85]">Before Your Next Project</span>
+                {home('sampleTitle')}
               </h2>
               <div className="rule" aria-hidden="true"/>
-              <p className="text-[#4A5B6D] leading-relaxed mb-7">
-                We provide physical board samples to qualified construction companies, architects, contractors, and distributors across Europe. Evaluate the surface finish, weight, and cut behaviour before committing to a project order.
-              </p>
+              <p className="text-[#4A5B6D] leading-relaxed mb-7">{home('sampleDesc')}</p>
               <ul className="space-y-3 mb-8">
-                {[
-                  'Full-size A4 sample piece with CE documentation',
-                  'Technical data sheet and DoP included',
-                  'Shipped within 5–7 business days across EU/EEA',
-                  'Available for architects, contractors, and distributors',
-                  'No cost — qualified companies only',
-                ].map((item) => (
+                {(home.raw('samplePoints') as string[]).map((item) => (
                   <li key={item} className="flex items-start gap-3 text-sm text-[#4A5B6D]">
                     <span className="w-5 h-5 rounded-full bg-[#EBF4FB] border border-[#5CA4D6]/35 flex items-center justify-center shrink-0 mt-0.5">
                       <Check className="w-2.5 h-2.5 text-[#245A85]" />
@@ -368,12 +359,12 @@ export default async function HomePage({ params }: Props) {
               </ul>
               <Link href={navHref('/contact')}
                 className="btn-primary px-8 py-3 text-sm font-bold shadow-lg shadow-[#245A85]/20">
-                Request Free Sample →
+                {home('sampleBtnRequest')} →
               </Link>
             </ScrollReveal>
 
             <ScrollReveal delay={120}>
-              <div className="relative rounded-2xl overflow-hidden aspect-[4/3] bg-[#F4F7FA]">
+              <div className="relative rounded-2xl overflow-hidden aspect-[4/3] bg-[#EBF4FB] flex items-center justify-center">
                 <Image
                   src="https://terasun-europe.eu/imgs/products/product1.jpeg"
                   alt="TSM cement board sample showing surface texture"
@@ -383,7 +374,6 @@ export default async function HomePage({ params }: Props) {
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-br from-transparent to-[#0F2742]/30" />
-                {/* Info badge */}
                 <div className="absolute bottom-5 left-5 right-5 bg-white/95 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-[#D8E1E9]">
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-lg bg-[#EBF4FB] border border-[#5CA4D6]/30 flex items-center justify-center shrink-0">
@@ -393,8 +383,8 @@ export default async function HomePage({ params }: Props) {
                       </svg>
                     </div>
                     <div>
-                      <p className="text-xs font-bold text-[#132238]">CE 1023-CPR-1565 P · ETA 24/0895</p>
-                      <p className="text-[11px] text-[#6B7A8D]">Full certification documentation included with every sample</p>
+                      <p className="text-xs font-bold text-[#132238]">{home('sampleBadgeTitle')}</p>
+                      <p className="text-[11px] text-[#6B7A8D]">{home('sampleBadgeText')}</p>
                     </div>
                   </div>
                 </div>
@@ -550,13 +540,7 @@ export default async function HomePage({ params }: Props) {
                 </h2>
                 <p className="text-[#B8CADE] leading-relaxed mb-8 text-sm">{home('distDesc')}</p>
                 <ul className="space-y-3 mb-8">
-                  {[
-                    'Exclusive territory arrangements available',
-                    'Full technical and marketing support',
-                    'Competitive ex-works pricing from China',
-                    'CE/ETA documentation included',
-                    'Sample stock programme for new partners',
-                  ].map((item) => (
+                  {(home.raw('distPoints') as string[]).map((item) => (
                     <li key={item} className="flex items-center gap-3 text-sm text-[#D0E3F4]">
                       <span className="w-4 h-4 rounded-full bg-[#5CA4D6]/20 border border-[#5CA4D6]/40 flex items-center justify-center shrink-0">
                         <Check className="w-2.5 h-2.5 text-[#5CA4D6]" />
@@ -580,7 +564,7 @@ export default async function HomePage({ params }: Props) {
               <ScrollReveal delay={100}>
                 {/* Open market map placeholder */}
                 <div className="bg-white/[0.06] border border-white/[0.12] rounded-2xl p-7">
-                  <p className="text-xs font-bold tracking-widest text-[#5CA4D6] uppercase mb-4">Open Markets</p>
+                  <p className="text-xs font-bold tracking-widest text-[#5CA4D6] uppercase mb-4">{home('distOpenMarketsLabel')}</p>
                   <div className="flex flex-wrap gap-2 mb-6">
                     {['Germany', 'Netherlands', 'France', 'Poland', 'Czech Republic', 'Spain', 'Italy', 'Austria', 'Belgium', 'Hungary'].map((c) => (
                       <span key={c} className="text-xs bg-white/[0.08] border border-white/[0.15] text-[#D0E3F4] px-3 py-1.5 rounded-full">
@@ -590,9 +574,9 @@ export default async function HomePage({ params }: Props) {
                   </div>
                   <div className="border-t border-white/[0.12] pt-5 space-y-3">
                     {[
-                      { label: 'Min. order', val: '250 m² / container' },
-                      { label: 'Lead time', val: '6–10 weeks from order' },
-                      { label: 'Incoterms', val: 'EXW, FOB, CIF available' },
+                      { label: home('distLabelMinOrder'), val: home('distMinOrder') },
+                      { label: home('distLabelLeadTime'), val: home('distLeadTime') },
+                      { label: home('distLabelIncoterms'), val: home('distIncoterms') },
                     ].map((r) => (
                       <div key={r.label} className="flex justify-between text-sm">
                         <span className="text-[#6B7A8D]">{r.label}</span>

@@ -1079,6 +1079,33 @@
     "btnOpenForm": "Open enquiry form",
     "labelEmail": "Email",
     "labelPhone": "Phone",
-    "labelLocation": "Location"
+    "labelLocation": "Location",
+    "sampleStag": "Free sample programme",
+    "sampleTitle": "Evaluate TSM Board Quality Before Your Next Project",
+    "sampleDesc": "We provide physical board samples to qualified construction companies, architects, contractors, and distributors across Europe. Evaluate the surface finish, weight, and cut behaviour before committing to a project order.",
+    "samplePoints": [
+      "Full-size A4 sample piece with CE documentation",
+      "Technical data sheet and DoP included",
+      "Shipped within 5–7 business days across EU/EEA",
+      "Available for architects, contractors, and distributors",
+      "No cost — qualified companies only"
+    ],
+    "sampleBtnRequest": "Request Free Sample",
+    "sampleBadgeTitle": "CE 1023-CPR-1565 P · ETA 24/0895",
+    "sampleBadgeText": "Full certification documentation included with every sample",
+    "distPoints": [
+      "Exclusive territory arrangements available",
+      "Full technical and marketing support",
+      "Competitive ex-works pricing from China",
+      "CE/ETA documentation included",
+      "Sample stock programme for new partners"
+    ],
+    "distOpenMarketsLabel": "Open Markets",
+    "distMinOrder": "250 m² / container",
+    "distLeadTime": "6–10 weeks from order",
+    "distIncoterms": "EXW, FOB, CIF available",
+    "distLabelMinOrder": "Min. order",
+    "distLabelLeadTime": "Lead time",
+    "distLabelIncoterms": "Incoterms"
   }
 }
