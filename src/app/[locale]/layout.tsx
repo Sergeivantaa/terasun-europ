@@ -7,6 +7,7 @@ import { routing } from '@/i18n/routing'
 import { SITE_URL, SITE_NAME } from '@/lib/constants'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
+import LeadPopup from '@/components/ui/LeadPopup'
 import '@/app/globals.css'
 
 const inter = Inter({
@@ -87,6 +88,7 @@ export default async function LocaleLayout({ children, params }: Props) {
           <Header locale={locale} />
           <main id="main-content">{children}</main>
           <Footer locale={locale} />
+          <LeadPopup />
         </NextIntlClientProvider>
       </body>
     </html>

@@ -243,36 +243,15 @@
       "fireResistance": "Fire resistance",
       "weight12mm": "Declared weight (12 mm)",
       "epd": "EPD reference",
-      "binder": "Binder",
+      "binder": "Binder system",
       "reinforcement": "Reinforcement",
       "studSpacing": "Stud spacing"
     },
     "composition": {
-      "cement": {
-        "name": "Portland cement",
-        "detail": "Primary structural binder — asbestos-free"
-      },
-      "cellulose": {
-        "name": "Cellulose fiber",
-        "detail": "Natural reinforcement for flexibility and impact resistance"
-      },
-      "silica": {
-        "name": "Silica",
-        "detail": "For dimensional stability and surface hardness"
-      },
-      "autoclaved": {
-        "name": "Autoclaved manufacturing",
-        "detail": "High-pressure steam curing for strength and durability"
-      },
-      "asbestosFree": {
-        "name": "Asbestos-free",
-        "detail": "Fully compliant with EU regulations — no asbestos content"
-      },
-      "waterResistant": {
-        "name": "Moisture resistant",
-        "detail": "Suitable for exterior use and wet room applications"
-      }
-    }
+      "short": "Lightweight cement-based core with inorganic binders and fibreglass mesh reinforcement.",
+      "full": "TSM Cement Board is a lightweight cement-based construction board manufactured from inorganic cementitious binders, lightweight components and reinforcing fibreglass mesh. Its lightweight, slightly porous cementitious core reduces board weight while maintaining suitability for documented interior and exterior construction applications."
+    },
+    "thicknessNote": "Full commercial range 3–25 mm, subject to order volume and production availability. Technical data confirmed for 12 mm; contact us for other thicknesses."
   },
   "applications": {
     "eyebrow": "Applications",

@@ -80,12 +80,23 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
 
         {/* Thicknesses */}
         <div className="mb-16">
-          <h2 className="text-xl font-bold text-white mb-6">{t('thicknessTitle')}</h2>
+          <h2 className="text-xl font-bold text-white mb-2">{t('thicknessTitle')}</h2>
+          <p className="text-gray-400 text-sm mb-6">{t('thicknessNote')}</p>
           <div className="flex flex-wrap gap-3">
-            {products.thicknesses.map(th => (
-              <div key={th} className="cert-badge text-base px-5 py-2">{th} mm</div>
-            ))}
+            {products.thicknessesAll.map(th => {
+              const isPrimary = th === products.primaryThickness
+              return (
+                <div key={th} className={`text-sm font-bold rounded px-4 py-2 border ${
+                  isPrimary
+                    ? 'bg-gold/10 border-gold/50 text-gold2'
+                    : 'bg-card border-border text-gray-300'
+                }`}>
+                  {th} mm{isPrimary && <span className="ml-1 text-[10px] text-gold">★</span>}
+                </div>
+              )
+            })}
           </div>
+          <p className="text-xs text-gray-600 mt-3">★ Primary documented thickness — CE marked, ETA 24/0895, EPD declared weight 9.96 kg/m².</p>
         </div>
 
         {/* Board formats */}
@@ -103,17 +114,9 @@ export default async function ProductsPage({ params }: { params: Promise<{ local
 
         {/* Composition */}
         <div className="mb-16">
-          <h2 className="text-xl font-bold text-white mb-6">{t('compositionTitle')}</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {products.composition.map(c => (
-              <div key={c.key} className="flex items-start gap-3 p-4 rounded-lg bg-card border border-border">
-                <span className="text-gold text-lg">•</span>
-                <div>
-                  <p className="text-white text-sm font-semibold">{t(`composition.${c.key}.name`)}</p>
-                  <p className="text-gray-400 text-xs mt-0.5">{t(`composition.${c.key}.detail`)}</p>
-                </div>
-              </div>
-            ))}
+          <h2 className="text-xl font-bold text-white mb-4">{t('compositionTitle')}</h2>
+          <div className="rounded-xl border border-border bg-card p-6 max-w-3xl">
+            <p className="text-gray-300 text-sm leading-relaxed">{products.compositionFull}</p>
           </div>
         </div>
 
