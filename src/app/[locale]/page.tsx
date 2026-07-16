@@ -100,7 +100,7 @@ export default async function HomePage({ params }: Props) {
             <div>
               <div className="grid grid-cols-2 gap-3 mb-4">
                 {HERO_CERTS.map((c) => (
-                  <div key={c.label} className="bg-card border border-border rounded-lg p-4">
+                  <div key={c.label} className="bg-card-dark border border-border-dark rounded-lg p-4">
                     <div className="text-[10px] font-bold tracking-widest text-gray-400 uppercase mb-1">{c.label}</div>
                     <div className="text-sm font-bold text-gold2 mb-1">{c.val}</div>
                     <div className="text-[11px] text-gray-500">{c.note}</div>
@@ -114,10 +114,10 @@ export default async function HomePage({ params }: Props) {
       </section>
 
       {/* ── TRUST BAR ── */}
-      <div className="bg-card border-y border-border overflow-x-auto" role="list" aria-label="Certifications summary">
+      <div className="bg-white border-y border-gray-200 overflow-x-auto" role="list" aria-label="Certifications summary">
         <div className="container-page py-3 flex items-center gap-6 min-w-max">
           {(tabs.raw('items') as string[]).map((item: string) => (
-            <div key={item} role="listitem" className="flex items-center gap-2 text-xs font-medium text-gray-400 whitespace-nowrap">
+            <div key={item} role="listitem" className="flex items-center gap-2 text-xs font-medium text-gray-600 whitespace-nowrap">
               <span className="w-1.5 h-1.5 rounded-full bg-gold shrink-0" aria-hidden="true"/>
               {item}
             </div>
@@ -126,7 +126,7 @@ export default async function HomePage({ params }: Props) {
       </div>
 
       {/* ── ABOUT (condensed) ── */}
-      <section className="bg-dark py-16 lg:py-20" id="about">
+      <section className="bg-white py-16 lg:py-20" id="about">
         <div className="container-page">
           <div className="grid lg:grid-cols-2 gap-12 items-start">
             <div>
@@ -138,8 +138,8 @@ export default async function HomePage({ params }: Props) {
                   <div key={p.title} className="flex gap-4">
                     <span className="text-gold font-bold mt-0.5 shrink-0">—</span>
                     <div>
-                      <h3 className="text-sm font-semibold text-white mb-1">{p.title}</h3>
-                      <p className="text-sm text-gray-400 leading-relaxed">{p.text}</p>
+                      <h3 className="text-sm font-semibold text-gray-900 mb-1">{p.title}</h3>
+                      <p className="text-sm text-gray-600 leading-relaxed">{p.text}</p>
                     </div>
                   </div>
                 ))}
@@ -147,19 +147,19 @@ export default async function HomePage({ params }: Props) {
             </div>
             <div>
               <p className="stag">{about('missionStag')}</p>
-              <p className="text-base text-gray-400 leading-relaxed mb-6">{about('missionText')}</p>
+              <p className="text-base text-gray-600 leading-relaxed mb-6">{about('missionText')}</p>
               <div className="bg-gold-light border border-gold-border rounded-lg p-5 mb-6">
-                <h3 className="text-sm font-bold text-dark mb-2">{about('statusTitle')}</h3>
-                <p className="text-sm text-amber-900 leading-relaxed">{about('statusText')}</p>
+                <h3 className="text-sm font-bold text-amber-900 mb-2">{about('statusTitle')}</h3>
+                <p className="text-sm text-amber-800 leading-relaxed">{about('statusText')}</p>
               </div>
               <div className="grid grid-cols-2 gap-4 mb-6">
-                <div className="bg-card border border-border rounded-lg p-4 text-center">
-                  <div className="text-2xl font-black text-gold2">{about('stat1Num')}</div>
-                  <div className="text-xs text-gray-400 mt-1">{about('stat1Label')}</div>
+                <div className="bg-page border border-gray-200 rounded-lg p-4 text-center">
+                  <div className="text-2xl font-black text-gold">{about('stat1Num')}</div>
+                  <div className="text-xs text-gray-500 mt-1">{about('stat1Label')}</div>
                 </div>
-                <div className="bg-card border border-border rounded-lg p-4 text-center">
-                  <div className="text-2xl font-black text-gold2">{about('stat2Num')}</div>
-                  <div className="text-xs text-gray-400 mt-1">{about('stat2Label')}</div>
+                <div className="bg-page border border-gray-200 rounded-lg p-4 text-center">
+                  <div className="text-2xl font-black text-gold">{about('stat2Num')}</div>
+                  <div className="text-xs text-gray-500 mt-1">{about('stat2Label')}</div>
                 </div>
               </div>
               <div className="flex justify-center">
@@ -177,18 +177,18 @@ export default async function HomePage({ params }: Props) {
       </section>
 
       {/* ── AUTHORISED REP ── */}
-      <section className="bg-darker py-16 lg:py-20" id="authorised">
+      <section className="bg-page py-16 lg:py-20" id="authorised">
         <div className="container-page">
           <p className="stag">{auth('stag')}</p>
           <h2 className="stitle">{auth('title')}</h2>
           <div className="rule" aria-hidden="true"/>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {Object.values(auth.raw('cards') as Record<string, {title:string;body:string;cta?:string}>).map((card) => (
-              <div key={card.title} className="bg-card border border-border rounded-lg p-5">
-                <h3 className="text-sm font-bold text-white mb-2">{card.title}</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">{card.body}</p>
+              <div key={card.title} className="bg-white border border-gray-200 rounded-lg p-5 shadow-sm">
+                <h3 className="text-sm font-bold text-gray-900 mb-2">{card.title}</h3>
+                <p className="text-sm text-gray-600 leading-relaxed">{card.body}</p>
                 {card.cta && (
-                  <Link href={navHref('/contact')} className="inline-block mt-3 text-xs font-semibold text-gold hover:text-gold2 transition-colors">
+                  <Link href={navHref('/contact')} className="inline-block mt-3 text-xs font-semibold text-gold hover:text-amber-700 transition-colors">
                     {card.cta} →
                   </Link>
                 )}
@@ -206,8 +206,8 @@ export default async function HomePage({ params }: Props) {
               <p className="stag">Product</p>
               <h2 className="stitle">Terasun TSM lightweight cement board</h2>
               <div className="rule" aria-hidden="true"/>
-              <p className="text-base text-gray-400 leading-relaxed mb-6">
-                A lightweight cement panel reinforced with cellulose fiber and designed for structural performance, moisture resistance, and fire safety. CE-certified, ETA-approved, asbestos-free.
+              <p className="text-base leading-relaxed mb-6" style={{color:'var(--body-color)'}}>
+                A lightweight cement-based panel reinforced with fibreglass mesh, designed for structural performance, moisture resistance, and fire safety. CE-certified, ETA-approved, asbestos-free.
               </p>
               <div className="grid grid-cols-3 gap-3 mb-6">
                 {[
@@ -215,7 +215,7 @@ export default async function HomePage({ params }: Props) {
                   { label: 'Thickness', val: `${PRODUCT.thickness} mm` },
                   { label: 'Standard size', val: `${PRODUCT.width}×${PRODUCT.length}` },
                 ].map((s) => (
-                  <div key={s.label} className="bg-card border border-border rounded-lg p-3 text-center">
+                  <div key={s.label} className="bg-card-dark border border-border-dark rounded-lg p-3 text-center">
                     <div className="text-base font-bold text-gold2">{s.val}</div>
                     <div className="text-[11px] text-gray-500 mt-0.5">{s.label}</div>
                   </div>
@@ -241,7 +241,7 @@ export default async function HomePage({ params }: Props) {
       </section>
 
       {/* ── MANUFACTURER ── */}
-      <section className="bg-darker py-16 lg:py-20" id="manufacturer">
+      <section className="bg-white py-16 lg:py-20" id="manufacturer">
         <div className="container-page">
           <p className="stag">Manufacturer</p>
           <h2 className="stitle">{MANUFACTURER.name}</h2>
@@ -252,24 +252,24 @@ export default async function HomePage({ params }: Props) {
               { label: 'Country', val: MANUFACTURER.country },
               { label: 'Website', val: MANUFACTURER.websiteDisplay, href: MANUFACTURER.website },
             ].map((s) => (
-              <div key={s.label} className="bg-card border border-border rounded-lg p-5">
+              <div key={s.label} className="bg-page border border-gray-200 rounded-lg p-5">
                 <div className="text-xs text-gray-500 mb-1">{s.label}</div>
                 {s.href
-                  ? <a href={s.href} target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-gold2 hover:text-white transition-colors">{s.val}</a>
-                  : <div className="text-base font-semibold text-white">{s.val}</div>
+                  ? <a href={s.href} target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-gold hover:text-amber-700 transition-colors">{s.val}</a>
+                  : <div className="text-base font-semibold text-gray-900">{s.val}</div>
                 }
               </div>
             ))}
           </div>
           <p className="text-sm text-gray-500 mt-4">
             Terasun Europe is not the manufacturer. We act as the Authorised European Representative managing CE/ETA documentation and European distribution.{' '}
-            <Link href={navHref('/manufacturer')} className="text-gold hover:text-gold2 transition-colors">Learn more →</Link>
+            <Link href={navHref('/manufacturer')} className="text-gold hover:text-amber-700 transition-colors">Learn more →</Link>
           </p>
         </div>
       </section>
 
       {/* ── APPLICATIONS ── */}
-      <section className="bg-dark py-16 lg:py-20" id="applications">
+      <section className="bg-page py-16 lg:py-20" id="applications">
         <div className="container-page">
           <p className="stag">Applications</p>
           <h2 className="stitle">Cement board applications</h2>
@@ -283,12 +283,12 @@ export default async function HomePage({ params }: Props) {
               { icon: '🏭', title: 'Steel-frame construction', href: '/applications/steel-frame',       tags: ['Industrial', '400/600 mm'] },
               { icon: '🏠', title: 'Residential',             href: '/applications/residential',        tags: ['Timber frame'] },
             ].map((app) => (
-              <Link key={app.href} href={navHref(app.href)} className="bg-card border border-border rounded-lg p-5 hover:border-gold/40 transition-colors group">
+              <Link key={app.href} href={navHref(app.href)} className="bg-white border border-gray-200 rounded-lg p-5 hover:border-gold/60 hover:shadow-md transition-all group">
                 <div className="text-2xl mb-3">{app.icon}</div>
-                <h3 className="text-sm font-semibold text-white mb-2 group-hover:text-gold2 transition-colors">{app.title}</h3>
+                <h3 className="text-sm font-semibold text-gray-900 mb-2 group-hover:text-gold transition-colors">{app.title}</h3>
                 <div className="flex flex-wrap gap-1">
                   {app.tags.map((tag) => (
-                    <span key={tag} className="text-[11px] bg-border text-gray-400 px-2 py-0.5 rounded">{tag}</span>
+                    <span key={tag} className="text-[11px] bg-gray-100 text-gray-500 px-2 py-0.5 rounded">{tag}</span>
                   ))}
                 </div>
               </Link>
@@ -313,7 +313,7 @@ export default async function HomePage({ params }: Props) {
               { icon: '📄', label: 'Fire Resistance', ref: PRODUCT.fireClass },
               { icon: '🌿', label: 'EPD',             ref: PRODUCT.epd },
             ].map((c) => (
-              <div key={c.ref} className="bg-card border border-border rounded-lg p-4">
+              <div key={c.ref} className="bg-card-dark border border-border-dark rounded-lg p-4">
                 <div className="text-xl mb-2">{c.icon}</div>
                 <div className="text-xs text-gray-500 mb-1">{c.label}</div>
                 <div className="text-sm font-bold text-gold2">{c.ref}</div>
@@ -325,9 +325,9 @@ export default async function HomePage({ params }: Props) {
       </section>
 
       {/* ── DISTRIBUTORS CTA ── */}
-      <section className="bg-dark py-16 lg:py-20">
+      <section className="bg-white py-16 lg:py-20">
         <div className="container-page">
-          <div className="bg-card border border-border rounded-xl p-8 lg:p-12 text-center">
+          <div className="bg-dark border border-border-dark rounded-xl p-8 lg:p-12 text-center">
             <p className="stag text-center">Partnership</p>
             <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">Become a European distributor</h2>
             <p className="text-gray-400 max-w-xl mx-auto mb-8 leading-relaxed">
@@ -335,14 +335,14 @@ export default async function HomePage({ params }: Props) {
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               {['Germany', 'Netherlands', 'France', 'Poland', 'Czech Republic', 'Spain', 'Italy', 'Austria'].map((c) => (
-                <span key={c} className="text-xs bg-border text-gray-400 px-3 py-1.5 rounded-full">{c} — open</span>
+                <span key={c} className="text-xs bg-card-dark text-gray-400 px-3 py-1.5 rounded-full">{c} — open</span>
               ))}
             </div>
             <div className="flex flex-wrap justify-center gap-3">
               <Link href={navHref('/distributors')} className="btn-primary">Partnership programme →</Link>
               <Link href={navHref('/contact')} className="btn-secondary">Contact us</Link>
             </div>
-            <div className="mt-8 pt-6 border-t border-border">
+            <div className="mt-8 pt-6 border-t border-border-dark">
               <p className="text-sm font-semibold text-gold2 mb-1">FinnBuild 2026</p>
               <p className="text-sm text-gray-400">Meet us in Helsinki · {FINNBUILD.dates} · {FINNBUILD.venue}</p>
             </div>
@@ -371,7 +371,7 @@ export default async function HomePage({ params }: Props) {
                 { label: 'Phone',    val: CONTACT.phoneDisplay, href: `tel:${CONTACT.phone}` },
                 { label: 'Location', val: CONTACT.location,     href: undefined },
               ].map((c) => (
-                <div key={c.label} className="bg-card border border-border rounded-lg p-4 flex items-center gap-4">
+                <div key={c.label} className="bg-card-dark border border-border-dark rounded-lg p-4 flex items-center gap-4">
                   <div className="text-xs font-bold tracking-wider text-gray-500 uppercase w-16 shrink-0">{c.label}</div>
                   {c.href
                     ? <a href={c.href} className="text-sm text-white hover:text-gold2 transition-colors">{c.val}</a>

@@ -12,7 +12,7 @@ export default function Footer({ locale }: Props) {
   const navHref = (path: string) => `/${locale}${path}`
 
   return (
-    <footer className="bg-darker border-t border-border mt-16">
+    <footer className="bg-darker border-t border-border-dark mt-16">
       <div className="container-page py-12">
         {/* Top grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
@@ -68,7 +68,7 @@ export default function Footer({ locale }: Props) {
         </div>
 
         {/* Bottom */}
-        <div className="border-t border-border pt-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+        <div className="border-t border-border-dark pt-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div>
             <p className="text-xs text-gray-500 leading-relaxed">
               {t('legal')}<br/>

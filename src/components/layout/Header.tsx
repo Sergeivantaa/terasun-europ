@@ -48,7 +48,7 @@ export default function Header({ locale }: Props) {
   const navHref = (path: string) => `/${locale}${path}`
 
   return (
-    <nav className="sticky top-0 z-50 bg-dark/95 backdrop-blur border-b border-border" aria-label="Main navigation">
+    <nav className="sticky top-0 z-50 bg-dark/95 backdrop-blur border-b border-border-dark" aria-label="Main navigation">
       <div className="container-page flex items-center justify-between h-16">
         {/* Logo */}
         <Link href={navHref('')} className="flex flex-col leading-none group">
@@ -80,7 +80,7 @@ export default function Header({ locale }: Props) {
               </svg>
             </button>
             {moreOpen && (
-              <div className="absolute top-full left-0 mt-1 bg-card border border-border rounded-lg shadow-xl py-1 min-w-[160px]" role="menu">
+              <div className="absolute top-full left-0 mt-1 bg-card-dark border border-border-dark rounded-lg shadow-xl py-1 min-w-[160px]" role="menu">
                 {MORE_LINKS.map(({ key, href }) => (
                   <Link
                     key={key}
@@ -102,14 +102,14 @@ export default function Header({ locale }: Props) {
           {/* Language picker */}
           <div className="relative">
             <button
-              className="px-2.5 py-1.5 text-xs font-bold text-gray-400 hover:text-white border border-border rounded hover:border-gray-500 transition-colors"
+              className="px-2.5 py-1.5 text-xs font-bold text-gray-400 hover:text-white border border-border-dark rounded hover:border-gray-500 transition-colors"
               onClick={() => setLangOpen(!langOpen)}
               aria-label="Select language"
             >
               {LOCALE_LABELS[locale as Locale] ?? locale.toUpperCase()}
             </button>
             {langOpen && (
-              <div className="absolute right-0 top-full mt-1 bg-card border border-border rounded-lg shadow-xl py-1 max-h-64 overflow-y-auto min-w-[80px]">
+              <div className="absolute right-0 top-full mt-1 bg-card-dark border border-border-dark rounded-lg shadow-xl py-1 max-h-64 overflow-y-auto min-w-[80px]">
                 {locales.map((loc) => (
                   <Link
                     key={loc}
@@ -123,7 +123,7 @@ export default function Header({ locale }: Props) {
               </div>
             )}
           </div>
-          <Link href={navHref('/contact')} className="btn-secondary text-xs py-2 px-4">
+          <Link href={navHref('/contact')} className="inline-flex items-center gap-2 border border-gray-600 text-gray-300 font-medium px-4 py-2 rounded text-xs hover:border-gray-400 hover:text-white transition-colors duration-200">
             {t('requestQuotation')}
           </Link>
           <a href={LOGIN_URL} className="flex items-center gap-1.5 btn-primary text-xs py-2 px-4">
