@@ -757,17 +757,17 @@
   "footer": {
     "brand": "TERASUN",
     "brandSub": "Europe",
-    "desc": "Authorised European Representative for Terasun TSM fiber cement board.",
-    "authLine": "Authorised European Representative",
-    "notManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
-    "colProduct": "Product",
-    "colDocs": "Documentation",
-    "colCompany": "Company",
-    "privacy": "Privacy policy",
-    "cookies": "Cookie policy",
-    "terms": "Terms of use",
+    "desc": "Уполномоченный Европейский Представитель по фиброцементным плитам Terasun TSM.",
+    "authLine": "Уполномоченный Европейский Представитель",
+    "notManufacturer": "Terasun Europe не является производителем продукции Terasun.",
+    "colProduct": "Продукт",
+    "colDocs": "Документация",
+    "colCompany": "Компания",
+    "privacy": "Политика конфиденциальности",
+    "cookies": "Политика cookies",
+    "terms": "Условия использования",
     "legal": "© 2025 Terasun Europe. Все права защищены.",
-    "legalMfr": "Products manufactured by Zhejiang Terasun Air Duct Co., Ltd., China.",
+    "legalMfr": "Продукты произведены компанией Zhejiang Terasun Air Duct Co., Ltd., Китай.",
     "legalCerts": "CE 1023-CPR-1565 P · ETA 24/0895 · EPD-IES-0018268"
   },
   "portal": {
@@ -1050,13 +1050,13 @@
     "markets": "Рынки"
   },
   "common": {
-    "learnMore": "Learn more",
-    "requestQuotation": "Request quotation",
-    "contactUs": "Contact us",
-    "downloadDocs": "Download documents",
-    "notManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
-    "authRep": "Authorised European Representative",
-    "backToTop": "Back to top"
+    "learnMore": "Подробнее",
+    "requestQuotation": "Запрос КП",
+    "contactUs": "Связаться с нами",
+    "downloadDocs": "Скачать документы",
+    "notManufacturer": "Terasun Europe не является производителем продукции Terasun.",
+    "authRep": "Уполномоченный Европейский Представитель",
+    "backToTop": "Наверх"
   },
   "home": {
     "productStag": "Продукт",

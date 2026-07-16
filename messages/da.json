@@ -81,15 +81,15 @@
     "installation": "Installation"
   },
   "hero": {
-    "eyebrow": "CE · ETA · EPD · Fire certified",
+    "eyebrow": "CE · ETA · EPD · Brandcertificeret",
     "h1": "Lette fibercementplader til europæisk byggeri",
     "sub": "Terasun TSM — asbestfri, CE-certificeret, 9,96 kg/m² ved 12 mm. Direkte levering fra fabrik.",
     "btnQuote": "Anmod om tilbud",
     "btnContact": "Kontakt os",
     "btnDownloads": "Downloads",
-    "tagline": "Authorised European Representative",
-    "note": "Terasun Europe is the Authorised European Representative.",
-    "noteManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
+    "tagline": "Autoriseret Europæisk Repræsentant",
+    "note": "Terasun Europe er den Autoriserede Europæiske Repræsentant.",
+    "noteManufacturer": "Terasun Europe er ikke producenten af Terasun-produkter.",
     "h1Line1": "Lette fibercementplader",
     "h1Line2Emphasis": "CE-certificeret",
     "h1Line2": "til europæisk byggeri",
@@ -757,17 +757,17 @@
   "footer": {
     "brand": "TERASUN",
     "brandSub": "Europe",
-    "desc": "Authorised European Representative for Terasun TSM fiber cement board.",
-    "authLine": "Authorised European Representative",
-    "notManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
-    "colProduct": "Product",
-    "colDocs": "Documentation",
-    "colCompany": "Company",
-    "privacy": "Privacy policy",
-    "cookies": "Cookie policy",
-    "terms": "Terms of use",
+    "desc": "Autoriseret Europæisk Repræsentant for Terasun TSM fibercementplader.",
+    "authLine": "Autoriseret Europæisk Repræsentant",
+    "notManufacturer": "Terasun Europe er ikke producenten af Terasun-produkter.",
+    "colProduct": "Produkt",
+    "colDocs": "Dokumentation",
+    "colCompany": "Virksomhed",
+    "privacy": "Privatlivspolitik",
+    "cookies": "Cookiepolitik",
+    "terms": "Brugsvilkår",
     "legal": "© 2025 Terasun Europe. Alle rettigheder forbeholdes.",
-    "legalMfr": "Products manufactured by Zhejiang Terasun Air Duct Co., Ltd., China.",
+    "legalMfr": "Produkter fremstillet af Zhejiang Terasun Air Duct Co., Ltd., Kina.",
     "legalCerts": "CE 1023-CPR-1565 P · ETA 24/0895 · EPD-IES-0018268"
   },
   "portal": {
@@ -1050,13 +1050,13 @@
     "markets": "Markeder"
   },
   "common": {
-    "learnMore": "Learn more",
-    "requestQuotation": "Request quotation",
-    "contactUs": "Contact us",
-    "downloadDocs": "Download documents",
-    "notManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
-    "authRep": "Authorised European Representative",
-    "backToTop": "Back to top"
+    "learnMore": "Læs mere",
+    "requestQuotation": "Anmod om tilbud",
+    "contactUs": "Kontakt os",
+    "downloadDocs": "Download dokumenter",
+    "notManufacturer": "Terasun Europe er ikke producenten af Terasun-produkter.",
+    "authRep": "Autoriseret Europæisk Repræsentant",
+    "backToTop": "Tilbage til toppen"
   },
   "home": {
     "productStag": "Produkt",

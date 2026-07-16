@@ -81,15 +81,15 @@
     "installation": "Montage"
   },
   "hero": {
-    "eyebrow": "CE · ETA · EPD · Fire certified",
+    "eyebrow": "CE · ETA · EPD · Brandschutz zertifiziert",
     "h1": "Leichte Faserzementplatten für den europäischen Bau",
     "sub": "Terasun TSM — asbestfrei, CE-zertifiziert, 9,96 kg/m² bei 12 mm. Direkt ab Werk zu Ihrem Projekt oder Lager geliefert.",
     "btnQuote": "Angebot anfragen",
     "btnContact": "Kontakt aufnehmen",
     "btnDownloads": "Downloads",
-    "tagline": "Authorised European Representative",
-    "note": "Terasun Europe is the Authorised European Representative.",
-    "noteManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
+    "tagline": "Autorisierter Europäischer Vertreter",
+    "note": "Terasun Europe ist der Autorisierte Europäische Vertreter.",
+    "noteManufacturer": "Terasun Europe ist nicht der Hersteller von Terasun-Produkten.",
     "h1Line1": "Leichte Faserzementplatten",
     "h1Line2Emphasis": "CE-zertifiziert",
     "h1Line2": "für europäische Bauprojekte",
@@ -757,17 +757,17 @@
   "footer": {
     "brand": "TERASUN",
     "brandSub": "Europe",
-    "desc": "Authorised European Representative for Terasun TSM fiber cement board.",
-    "authLine": "Authorised European Representative",
-    "notManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
-    "colProduct": "Product",
-    "colDocs": "Documentation",
-    "colCompany": "Company",
-    "privacy": "Privacy policy",
-    "cookies": "Cookie policy",
-    "terms": "Terms of use",
+    "desc": "Autorisierter Europäischer Vertreter für Terasun TSM Faserzementplatten.",
+    "authLine": "Autorisierter Europäischer Vertreter",
+    "notManufacturer": "Terasun Europe ist nicht der Hersteller von Terasun-Produkten.",
+    "colProduct": "Produkt",
+    "colDocs": "Dokumentation",
+    "colCompany": "Unternehmen",
+    "privacy": "Datenschutzrichtlinie",
+    "cookies": "Cookie-Richtlinie",
+    "terms": "Nutzungsbedingungen",
     "legal": "© 2025 Terasun Europe. Alle Rechte vorbehalten.",
-    "legalMfr": "Products manufactured by Zhejiang Terasun Air Duct Co., Ltd., China.",
+    "legalMfr": "Produkte hergestellt von Zhejiang Terasun Air Duct Co., Ltd., China.",
     "legalCerts": "CE 1023-CPR-1565 P · ETA 24/0895 · EPD-IES-0018268"
   },
   "portal": {
@@ -1050,13 +1050,13 @@
     "markets": "Märkte"
   },
   "common": {
-    "learnMore": "Learn more",
-    "requestQuotation": "Request quotation",
-    "contactUs": "Contact us",
-    "downloadDocs": "Download documents",
-    "notManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
-    "authRep": "Authorised European Representative",
-    "backToTop": "Back to top"
+    "learnMore": "Mehr erfahren",
+    "requestQuotation": "Angebot anfragen",
+    "contactUs": "Kontakt aufnehmen",
+    "downloadDocs": "Dokumente herunterladen",
+    "notManufacturer": "Terasun Europe ist nicht der Hersteller von Terasun-Produkten.",
+    "authRep": "Autorisierter Europäischer Vertreter",
+    "backToTop": "Nach oben"
   },
   "home": {
     "productStag": "Produkt",
