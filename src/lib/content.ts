@@ -29,6 +29,9 @@ export interface BlogPost {
   coverImage?: string
   body: string          // Markdown
   draft?: boolean
+  faq?: { q: string; a: string }[]
+  downloads?: { label: string; url: string }[]
+  relatedSlugs?: string[]
 }
 
 export interface BlogPostMeta extends Omit<BlogPost, 'body'> {}

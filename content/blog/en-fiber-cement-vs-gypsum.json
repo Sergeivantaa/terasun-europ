@@ -1,12 +1,36 @@
 {
   "slug": "fiber-cement-vs-gypsum",
   "locale": "en",
-  "title": "Fiber Cement Board vs Gypsum Board: Which is Right for Your Project?",
-  "description": "A technical comparison of fiber cement and gypsum board for European construction — fire performance, moisture resistance, weight, and CE compliance.",
-  "publishedAt": "2025-07-01",
+  "title": "Fiber Cement Board vs Gypsum Board: A Technical Comparison for European Construction",
+  "description": "A detailed comparison of fiber cement and gypsum board for European construction professionals — moisture resistance, fire performance, CE compliance, weight, and cost.",
+  "publishedAt": "2025-07-12",
   "author": "Terasun Europe Technical Team",
-  "tags": ["fiber cement", "comparison", "fire protection", "wet rooms"],
-  "coverImage": "/imgs/products/product1.jpeg",
+  "tags": ["fiber cement", "comparison", "fire protection", "wet rooms", "specifiers"],
+  "coverImage": "/imgs/products/product2.jpeg",
   "draft": false,
-  "body": "## Introduction\n\nFiber cement board and gypsum board are both widely used in European construction, but they serve different purposes and perform very differently in demanding conditions.\n\n## Key Differences\n\n**Moisture resistance**: Fiber cement board (Terasun TSM) is dimensionally stable in wet and humid conditions. Gypsum board swells, degrades, and can fail when exposed to sustained moisture. For wet rooms, bathrooms, and exterior applications, fiber cement is the correct choice.\n\n**Fire performance**: Terasun TSM achieves E 120 / EI 90 / EW 120 fire resistance in tested wall systems. This is system-level performance, independently verified by test report FIRES-CR-284-25-AUPE.\n\n**Weight**: Terasun TSM at 12 mm weighs 9.96 kg/m², which is heavier than standard gypsum board but provides greater rigidity and impact resistance.\n\n**CE compliance**: Both products can carry CE marking. Terasun TSM is CE marked under 1023-CPR-1565 P with ETA 24/0895.\n\n## When to Specify Fiber Cement\n\n- Exterior facade cladding\n- Wet rooms and bathrooms\n- Fire-rated partition walls\n- Industrial and commercial applications requiring impact resistance\n- Projects requiring EPD documentation for LEED/BREEAM"
+  "relatedSlugs": ["fire-rated-cement-board", "waterproof-cement-board-wet-rooms", "ce-certified-fiber-cement-europe"],
+  "downloads": [
+    { "label": "CE Certificate 1023-CPR-1565 P", "url": "/en/downloads" },
+    { "label": "Declaration of Performance TRS-20250610F", "url": "/en/downloads" },
+    { "label": "ETA 24/0895", "url": "/en/downloads" }
+  ],
+  "faq": [
+    {
+      "q": "When should I use fiber cement instead of gypsum board?",
+      "a": "Specify fiber cement board when moisture, fire resistance, impact resistance, or exterior use is a factor. The key scenarios are: wet rooms and bathrooms, exterior facades, fire-rated wall assemblies, industrial and commercial areas with heavy use, and below-grade installations."
+    },
+    {
+      "q": "Is fiber cement board more expensive than gypsum?",
+      "a": "Fiber cement board typically costs more per m² than standard gypsum board but is comparable to specialised moisture-resistant or fire-rated gypsum variants. The lifetime cost comparison often favours fiber cement in wet or exterior applications where gypsum requires early replacement."
+    },
+    {
+      "q": "Can fiber cement board replace gypsum board in all situations?",
+      "a": "Technically yes, but it is not always economical or necessary. In standard dry interior partitions with no moisture, fire, or impact exposure, gypsum board is lighter, easier to cut, and cheaper. Use fiber cement where its specific performance advantages justify the additional cost."
+    },
+    {
+      "q": "Does fiber cement board require special tools to cut?",
+      "a": "Terasun TSM can be cut with an angle grinder (diamond disc), circular saw (fiber cement blade), or score-and-snap for straight cuts. It is harder to cut than gypsum board. Always wear respiratory protection when cutting — cement dust is a respiratory irritant."
+    }
+  ],
+  "body": "## Two different products for different problems\n\nGypsum board and fiber cement board are both used in European wall construction, but they are fundamentally different products designed for different performance requirements.\n\n**Gypsum board** (plasterboard, drywall) consists of a gypsum core between two paper faces. It is light, easy to work, and inexpensive — making it the dominant interior partition material across Europe.\n\n**Fiber cement board** consists of cement, fibreglass reinforcement, and lightweight aggregates. It weighs more than gypsum, costs more, and requires different tools — but it performs fundamentally differently under moisture, fire, and impact.\n\n## Full property comparison\n\n| Property | Gypsum board | Moisture-resistant gypsum | **Terasun TSM fiber cement** |\n|---|---|---|---|\n| **Weight (12 mm)** | ~8.5 kg/m² | ~9.0 kg/m² | **9.96 kg/m²** |\n| **Moisture resistance** | Poor | Moderate | **Excellent (EN 12467 Cat. A)** |\n| **Exterior use** | No | No | **Yes** |\n| **Impact resistance** | Low | Low | **High** |\n| **Fire resistance (system)** | EI 30–60 typical | EI 30–60 typical | **E120 / EI90 / EW120** |\n| **CE marking** | Yes | Yes | **Yes — 1023-CPR-1565 P** |\n| **ETA** | No | No | **Yes — 24/0895** |\n| **EPD** | Some | Some | **Yes — EPD-IES-0018268** |\n| **Mould risk** | High if wet | Moderate | **Very low** |\n| **Machinability** | Easy | Easy | Requires carbide tools |\n| **Relative cost** | Low | Low–medium | **Medium** |\n\n![Terasun TSM fiber cement board surface texture and cross-section detail](https://terasun-europe.eu/imgs/products/product2.jpeg)\n\n## Fire performance: system vs material\n\nBoth products achieve fire resistance through the tested wall **system** — not the board alone. The classification (EI 60, EI 90, E120) belongs to the complete assembly: frame, insulation, board thickness, and fixing pattern.\n\nTerasun TSM in the tested wall assembly achieves **E 120 / EI 90 / EW 120** (fire test report FIRES-CR-284-25-AUPE) — exceeding typical gypsum wall systems.\n\n> The fire test report FIRES-CR-284-25-AUPE documents a specific wall assembly. This must be replicated exactly for the classification to apply. Substituting any component — including the board — requires re-testing or engineering justification.\n\n[CTA:sample]\n\n## Moisture resistance: where gypsum fails\n\nThe gypsum core absorbs moisture when wet:\n\n1. Gypsum swells, causing surface cracking and joint failure\n2. Paper facing absorbs moisture, providing a food source for mould\n3. Over time, the core loses compressive strength and the board may fail\n\n**Terasun TSM is dimensionally stable when wet.** It contains no gypsum. Cement-mineral matrix does not absorb water in the same way — confirmed by EN 12467 Category A moisture classification.\n\n| Application | Gypsum | Fiber cement |\n|---|---|---|\n| Dry interior partition | ✓ | ✓ (over-specified) |\n| Bathroom (non-shower) | ⚠ Use MR grade | ✓ Ideal |\n| Shower enclosure | ✗ Not suitable | ✓ With tanking layer |\n| Basement wall | ✗ Not suitable | ✓ |\n| Exterior facade | ✗ Not suitable | ✓ |\n| Below-grade application | ✗ Not suitable | ✓ |\n| Wet room floor substrate | ✗ Not suitable | ✓ |\n\n## Impact resistance: commercial environments\n\nGypsum board punctures and dents easily under impact. Fiber cement board's dense mineral matrix provides significantly higher impact resistance — reducing maintenance costs in schools, hospitals, warehouses, and retail.\n\n## When to specify each product\n\n### Specify gypsum board for:\n- Standard dry interior partitions and ceilings\n- Residential rooms with no moisture exposure\n- Cost-sensitive projects with no special performance requirements\n\n### Specify Terasun TSM fiber cement for:\n- Wet rooms, bathrooms, shower enclosures\n- Exterior and semi-exterior cladding\n- Fire-rated wall assemblies requiring high classification\n- Basement and below-grade installations\n- Commercial and industrial high-impact zones\n- Projects requiring EPD documentation (LEED, BREEAM, DGNB)\n\n---\n\n## Related articles\n\n- [Waterproof board for wet rooms →](/en/blog/waterproof-cement-board-wet-rooms)\n- [Fire-rated wall systems →](/en/blog/fire-rated-cement-board)\n- [CE certification explained →](/en/blog/ce-certified-fiber-cement-europe)\n- [All applications →](/en/applications)\n\n[CTA:quote]\n\n[CTA:distributor]"
 }

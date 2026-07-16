@@ -1,0 +1,36 @@
+{
+  "slug": "fire-rated-cement-board",
+  "locale": "en",
+  "title": "Fire-Rated Fiber Cement Board: E120, EI90, EW120 Tested Wall Systems",
+  "description": "How Terasun TSM fiber cement board achieves E120/EI90/EW120 fire resistance in tested wall assemblies. Technical guide for architects and fire engineers.",
+  "publishedAt": "2025-07-10",
+  "author": "Terasun Europe Technical Team",
+  "tags": ["fire protection", "CE certified", "wall systems", "technical"],
+  "coverImage": "/imgs/products/product1.jpeg",
+  "draft": false,
+  "relatedSlugs": ["fiber-cement-vs-gypsum", "waterproof-cement-board-wet-rooms", "fiber-cement-facade-systems"],
+  "downloads": [
+    { "label": "Fire Test Report FIRES-CR-284-25-AUPE", "url": "/en/downloads" },
+    { "label": "Declaration of Performance TRS-20250610F", "url": "/en/downloads" },
+    { "label": "ETA 24/0895 European Technical Assessment", "url": "/en/downloads" }
+  ],
+  "faq": [
+    {
+      "q": "What does E120/EI90/EW120 mean for fiber cement board?",
+      "a": "These are system-level fire resistance classifications per EN 13501-2. E120 = integrity maintained for 120 minutes. EI90 = integrity + insulation for 90 minutes. EW120 = integrity + limited radiation for 120 minutes. These ratings apply to the complete tested wall assembly, not the board alone."
+    },
+    {
+      "q": "Does the fire rating apply to all thicknesses of Terasun TSM?",
+      "a": "The fire test report FIRES-CR-284-25-AUPE is based on 12 mm Terasun TSM board in a specific wall assembly. Using other thicknesses requires separate fire test evidence or engineering assessment. The 12 mm DoP is the primary CE-documented specification."
+    },
+    {
+      "q": "Can Terasun TSM be used in escape corridors?",
+      "a": "Yes, where the specified wall assembly is used and meets the required fire resistance classification for the project. Always verify against the applicable national building regulations and the fire strategy report for the project."
+    },
+    {
+      "q": "Where can I download the fire test report?",
+      "a": "The fire test report and all CE documentation are available on our Downloads page. Registered partners can access original certificates directly."
+    }
+  ],
+  "body": "## Why fire resistance classification matters in European construction\n\nUnder the EU Construction Products Regulation (CPR), load-bearing and separating elements in buildings must meet defined fire resistance requirements. Fiber cement board is increasingly used in fire-rated wall assemblies — but the board alone does not carry a fire rating. **The rating belongs to the tested wall system.**\n\nTerasun TSM has been independently tested in a wall assembly configuration and achieves:\n\n| Classification | Duration | What it means |\n|---|---|---|\n| **E 120** | 120 minutes | Integrity — no collapse, no gaps |\n| **EI 90** | 90 minutes | Integrity + thermal insulation |\n| **EW 120** | 120 minutes | Integrity + limited radiation |\n\n[INFO:Test reference: FIRES-CR-284-25-AUPE. Wall assembly uses 12 mm Terasun TSM board. Results are system-specific — do not apply to other assemblies.]\n\n## The tested wall assembly\n\nThe fire test was conducted on a wall system with the following configuration:\n\n- **Facing boards**: Terasun TSM 12 mm, CE marked, EN 12467\n- **Frame**: Steel stud or timber stud (per test documentation)\n- **Insulation**: As specified in test report FIRES-CR-284-25-AUPE\n- **Fasteners**: As specified in the test report\n\nWhen specifying this system, the full assembly must replicate the tested configuration. Substituting components — including the board itself — invalidates the tested performance unless supported by field of application rules or additional testing.\n\n![Terasun TSM fire-rated wall assembly cross-section diagram](https://terasun-europe.eu/imgs/products/product2.jpeg)\n\n## Fiber cement vs gypsum board for fire partitions\n\nBoth fiber cement and gypsum board can be used in fire-rated wall assemblies. The choice depends on the environment and performance requirements:\n\n| Property | Terasun TSM (fiber cement) | Standard gypsum board |\n|---|---|---|\n| Fire test | E120 / EI90 / EW120 (tested) | EI60–EI90 typical |\n| Moisture resistance | Excellent (EN 12467 Class A) | Low — degrades when wet |\n| Impact resistance | High | Low |\n| Weight (12 mm) | 9.96 kg/m² | ~8.5 kg/m² |\n| CE marking | Yes — 1023-CPR-1565 P | Yes (product-specific) |\n| Exterior use | Yes | No |\n| Wet rooms | Yes | No (unless moisture-resistant grade) |\n\nFor escape corridors, stairwells, and fire compartments in humid or exterior-adjacent locations, fiber cement offers superior long-term performance because it does not absorb moisture and degrade over time.\n\n[CTA:sample]\n\n## Specifying fire-rated assemblies with TSM board\n\n### Step 1: Determine the required fire resistance\n\nConsult the national building regulations for the country of construction and the project fire strategy. Common requirements:\n\n- **Residential buildings** (≥4 storeys): REI 60–90 for separating elements\n- **Commercial / industrial**: REI 60–120 depending on occupancy and sprinkler provision\n- **Escape routes**: EI 30–60 minimum in most European codes\n\n### Step 2: Confirm assembly compatibility\n\nThe wall assembly must match the tested configuration in test report FIRES-CR-284-25-AUPE. Key parameters:\n\n- Board thickness: **12 mm** (CE-documented specification)\n- Fixing method: as specified in DoP TRS-20250610F\n- Frame centres: per test report\n- Insulation type and thickness: per test report\n\n### Step 3: CE documentation package\n\nFor each project, the following documentation should be available:\n\n- **DoP** (Declaration of Performance) — TRS-20250610F\n- **CE mark certificate** — 1023-CPR-1565 P\n- **ETA** — European Technical Assessment 24/0895\n- **Fire test report** — FIRES-CR-284-25-AUPE\n\nAll documents are available from Terasun Europe on request.\n\n## Reaction to fire: Class A2\n\nIn addition to fire resistance (system performance), Terasun TSM has a reaction to fire classification. Fiber cement board is a mineral-based product — it does not contribute to fire growth.\n\n> Terasun TSM is an inorganic, asbestos-free cement board. It does not contain combustible polymers or organic fibres. This supports use in applications requiring non-combustible cladding.\n\nFor projects requiring detailed reaction-to-fire documentation, contact Terasun Europe for the full EPD (EPD-IES-0018268) which includes material composition data.\n\n## Applications where fire-rated TSM systems are specified\n\n- **Timber frame residential** — fire separation between units and to escape routes\n- **Steel frame commercial** — fire-rated shafts, plant rooms, escape stairs\n- **Refurbishment** — upgrading existing partitions to meet current fire codes\n- **Industrial buildings** — compartmentation between storage areas\n- **Schools and healthcare** — EI 60/90 requirements for corridors\n\n[CTA:quote]\n\n## Summary: what to specify\n\n- Board: **Terasun TSM 12 mm**, CE 1023-CPR-1565 P, ETA 24/0895\n- Assembly: per fire test report **FIRES-CR-284-25-AUPE**\n- Performance: **E 120 / EI 90 / EW 120**\n- Documentation: DoP, CE certificate, ETA, fire test report — all available on request\n\n[CTA:distributor]"
+}
