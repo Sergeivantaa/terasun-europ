@@ -89,7 +89,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
 
               <div className="rounded-xl border border-blue-200 bg-blue-50 p-4">
                 <p className="text-xs text-blue-700 leading-relaxed">
-                  <strong>Note:</strong> Terasun Europe is the Authorised European Representative only. We are not the manufacturer of Terasun products.
+                  {t('notMfrNote')}
                 </p>
               </div>
             </aside>

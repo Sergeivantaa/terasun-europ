@@ -721,7 +721,8 @@
       "responseTitle": "Response time",
       "responseText": "We respond to all enquiries within 1 business day. For urgent requests, please call or WhatsApp.",
       "addressTitle": "Our address"
-    }
+    },
+    "notMfrNote": "Terasun Europe является исключительно Уполномоченным Европейским Представителем. Мы не являемся производителем продукции Terasun."
   },
   "installation": {
     "eyebrow": "Installation guide",
