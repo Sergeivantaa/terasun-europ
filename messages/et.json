@@ -612,7 +612,8 @@
       }
     },
     "incotermsTitle": "Available incoterms",
-    "incotermsNote": "We supply on EXW, FOB, CFR, CIF, DAP, and DDP terms. Agreed per order at quotation stage."
+    "incotermsNote": "We supply on EXW, FOB, CFR, CIF, DAP, and DDP terms. Agreed per order at quotation stage.",
+    "ctaFreight": "Request freight quotation"
   },
   "gallery": {
     "eyebrow": "Project gallery",
