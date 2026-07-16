@@ -1102,6 +1102,33 @@
     "btnOpenForm": "Åpne forespørselsskjema",
     "labelEmail": "E-post",
     "labelPhone": "Telefon",
-    "labelLocation": "Plassering"
+    "labelLocation": "Plassering",
+    "sampleStag": "Gratis prøveprogram",
+    "sampleTitle": "Evaluer TSM-brettets kvalitet før ditt neste prosjekt",
+    "sampleDesc": "Vi tilbyr fysiske brettprøver til kvalifiserte byggefirmaer, arkitekter, entrepenører og distributører i Europa. Evaluer overflaten, vekten og skjæringsegenskaper før du satser på en prosjektbestilling.",
+    "samplePoints": [
+      "Fullformat A4-prøve med CE-dokumentasjon",
+      "Teknisk datablad og DoP inkludert",
+      "Sendt innen 5–7 virkedager i EU/EEA",
+      "Tilgjengelig for arkitekter, entrepenører og distributører",
+      "Kostnadsfritt – bare for kvalifiserte selskaper"
+    ],
+    "sampleBtnRequest": "Be om gratis prøve",
+    "sampleBadgeTitle": "CE 1023-CPR-1565 P · ETA 24/0895",
+    "sampleBadgeText": "Fullstendig sertifiseringsdokumentasjon inkludert med hver prøve",
+    "distPoints": [
+      "Eksklusive territorienavtaler tilgjengelig",
+      "Fullstendig teknisk og markedsføringsstøtte",
+      "Konkurransedyktig EXW-prising fra Kina",
+      "CE/ETA-dokumentasjon inkludert",
+      "Lagerbeholdningsprogram for nye partnere"
+    ],
+    "distOpenMarketsLabel": "Åpne markeder",
+    "distMinOrder": "250 m² / container",
+    "distLeadTime": "6–10 uker fra bestilling",
+    "distIncoterms": "EXW, FOB, CIF tilgjengelig",
+    "distLabelMinOrder": "Min. bestilling",
+    "distLabelLeadTime": "Leveringstid",
+    "distLabelIncoterms": "Incoterms"
   }
 }

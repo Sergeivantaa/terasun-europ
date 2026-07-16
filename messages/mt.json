@@ -1078,7 +1078,34 @@
     "btnOpenForm": "Open enquiry form",
     "labelEmail": "Email",
     "labelPhone": "Phone",
-    "labelLocation": "Location"
+    "labelLocation": "Location",
+    "sampleStag": "Programm ta' Kampjun Liberu",
+    "sampleTitle": "Evalwa l-Kwalità tal-Bord TSM Qabel Il-Prossim Proġett Tiegħek",
+    "sampleDesc": "Nipprovdu kampjuni ta' bord fiżiċi lill-kumpaniji tal-kostruzzjoni kwalifikati, arkitetti, kontratturi, u distribuiduri fl-Ewropa. Evalwa l-finitura tal-wiċċ, il-piż, u l-imġiba tal-qtugħ qabel l-impenn għal ordni tal-proġett.",
+    "samplePoints": [
+      "Biċċa kampjun ta' daqs sħiħ A4 b'dokumentazzjoni CE",
+      "Folja ta' data teknika u DoP inkluża",
+      "Magħbur f'5–7 ijiem ta' xogħol fuq l-EU/EEA",
+      "Disponibbli għal arkitetti, kontratturi, u distribuiduri",
+      "Bla spiża — kumpaniji kwalifikati biss"
+    ],
+    "sampleBtnRequest": "Itlob Kampjun Liberu",
+    "sampleBadgeTitle": "CE 1023-CPR-1565 P · ETA 24/0895",
+    "sampleBadgeText": "Dokumentazzjoni tal-ċertifikazzjoni kompleta inkluża ma' kull kampjun",
+    "distPoints": [
+      "Arranġamenti ta' territorju eskluzzivi disponibbli",
+      "Appoġġ teknika u ta' marketing kompletu",
+      "Prezzar kompetittiv ex-works minn iċ-Ċina",
+      "Dokumentazzjoni CE/ETA inkluża",
+      "Programm ta' stokk tal-kampjun għal sħab ġodda"
+    ],
+    "distOpenMarketsLabel": "Suq Miftuħ",
+    "distMinOrder": "250 m² / kontenitur",
+    "distLeadTime": "6–10 ġimgħat mill-ordni",
+    "distIncoterms": "EXW, FOB, CIF disponibbli",
+    "distLabelMinOrder": "Ordni min.",
+    "distLabelLeadTime": "Ħin tal-Invitu",
+    "distLabelIncoterms": "Incoterms"
   },
   "_meta": {
     "status": "ai-translated",

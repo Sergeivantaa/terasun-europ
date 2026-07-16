@@ -1102,6 +1102,33 @@
     "btnOpenForm": "Deschide formularul de solicitare",
     "labelEmail": "E-mail",
     "labelPhone": "Telefon",
-    "labelLocation": "Locație"
+    "labelLocation": "Locație",
+    "sampleStag": "Program de mostre gratuite",
+    "sampleTitle": "Evaluați calitatea plăcilor TSM înainte de următorul dvs. proiect",
+    "sampleDesc": "Oferim mostre fizice de plăci companiilor de construcții calificate, arhitecților, antreprenorilor și distribuitorilor din întreaga Europă. Evaluați finisajul suprafeței, greutatea și comportamentul de tăiere înainte de a vă angaja într-o comandă de proiect.",
+    "samplePoints": [
+      "Mostră de dimensiune completă A4 cu documentație CE",
+      "Fișa de date tehnică și DoP incluse",
+      "Expediat în termen de 5–7 zile lucrătoare în întreaga EU/EEA",
+      "Disponibil pentru arhitecți, antreprenori și distribuitori",
+      "Fără cost — doar pentru companii calificate"
+    ],
+    "sampleBtnRequest": "Solicitați mostră gratuită",
+    "sampleBadgeTitle": "CE 1023-CPR-1565 P · ETA 24/0895",
+    "sampleBadgeText": "Documentația de certificare completă inclusă în fiecare mostră",
+    "distPoints": [
+      "Aranjamente exclusive de teritoriu disponibile",
+      "Suport tehnic și de marketing complet",
+      "Prețuri competitive ex-works din China",
+      "Documentația CE/ETA inclusă",
+      "Program de stoc de mostre pentru partenerii noi"
+    ],
+    "distOpenMarketsLabel": "Piețe deschise",
+    "distMinOrder": "250 m² / container",
+    "distLeadTime": "6–10 săptămâni de la comandă",
+    "distIncoterms": "EXW, FOB, CIF disponibil",
+    "distLabelMinOrder": "Com. min.",
+    "distLabelLeadTime": "Timp de livrare",
+    "distLabelIncoterms": "Termeni comerciali"
   }
 }

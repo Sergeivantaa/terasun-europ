@@ -1095,6 +1095,33 @@
     "btnOpenForm": "Åpne forespørselsskjema",
     "labelEmail": "E-post",
     "labelPhone": "Telefon",
-    "labelLocation": "Plassering"
+    "labelLocation": "Plassering",
+    "sampleStag": "Gratis sampleprogram",
+    "sampleTitle": "Evaluer TSM Board-kvalitet før ditt neste prosjekt",
+    "sampleDesc": "Vi leverer fysiske boardsampler til kvalifiserte byggefirmaer, arkitekter, entreprenører og distributører i hele Europa. Evaluer overflatebehandling, vekt og kuttegenskaper før du forplikter deg til en prosjektbestilling.",
+    "samplePoints": [
+      "Fullstørrelse A4 samplestykke med CE-dokumentasjon",
+      "Teknisk datablad og DoP inkludert",
+      "Sendt innen 5–7 arbeidsdager i hele EU/EØS",
+      "Tilgjengelig for arkitekter, entreprenører og distributører",
+      "Uten kostnad — bare kvalifiserte bedrifter"
+    ],
+    "sampleBtnRequest": "Be om gratis sample",
+    "sampleBadgeTitle": "CE 1023-CPR-1565 P · ETA 24/0895",
+    "sampleBadgeText": "Fullstendig sertifiseringsdokumentasjon inkludert med hvert sample",
+    "distPoints": [
+      "Eksklusive territorielavtaler tilgjengelig",
+      "Fullstendig teknisk og markedsføringsstøtte",
+      "Konkurransedyktig EXW-prising fra Kina",
+      "CE/ETA-dokumentasjon inkludert",
+      "Samplelagerprogram for nye partnere"
+    ],
+    "distOpenMarketsLabel": "Åpne markeder",
+    "distMinOrder": "250 m² / container",
+    "distLeadTime": "6–10 uker fra bestilling",
+    "distIncoterms": "EXW, FOB, CIF tilgjengelig",
+    "distLabelMinOrder": "Min. ordre",
+    "distLabelLeadTime": "Leveringstid",
+    "distLabelIncoterms": "Incoterms"
   }
 }

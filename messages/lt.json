@@ -1102,6 +1102,33 @@
     "btnOpenForm": "Atidaryti užklausos formą",
     "labelEmail": "El. paštas",
     "labelPhone": "Telefonas",
-    "labelLocation": "Vieta"
+    "labelLocation": "Vieta",
+    "sampleStag": "Nemokama mėginių programa",
+    "sampleTitle": "Įvertinkite TSM plokštės kokybę prieš kitą savo projektą",
+    "sampleDesc": "Mes teikiame fizinių plokščių mėginius tinkamoms statybos kompanijoms, architektams, rangovams ir platintojams visoje Europoje. Įvertinkite paviršiaus apdailą, svorį ir pjovimo elgesį prieš įsipareigojimu projekto užsakymui.",
+    "samplePoints": [
+      "Pilno dydžio A4 mėginio gabalas su CE dokumentacija",
+      "Techninė duomenų lentelė ir DoP yra priede",
+      "Išsiųsta per 5–7 darbo dienas visoje EU/EEA",
+      "Prieinama architektams, rangovams ir platintojams",
+      "Nemokamai — tik tinkamos kompanijos"
+    ],
+    "sampleBtnRequest": "Užsakyti nemokamą mėginį",
+    "sampleBadgeTitle": "CE 1023-CPR-1565 P · ETA 24/0895",
+    "sampleBadgeText": "Išsami sertifikavimo dokumentacija yra priede kiekviename mėginyje",
+    "distPoints": [
+      "Galimi išskirtiniai teritoriniai susitarimai",
+      "Visapusė techninė ir rinkodaros pagalba",
+      "Konkurencinga EXW kaina iš Kinijos",
+      "CE/ETA dokumentacija yra priede",
+      "Mėginių atsargų programa naujiems partneriams"
+    ],
+    "distOpenMarketsLabel": "Atviros rinkos",
+    "distMinOrder": "250 m² / konteineris",
+    "distLeadTime": "6–10 savaičių nuo užsakymo",
+    "distIncoterms": "EXW, FOB, CIF galimi",
+    "distLabelMinOrder": "Min. užsakymas",
+    "distLabelLeadTime": "Pristatymo laikas",
+    "distLabelIncoterms": "Prekybos sąlygos"
   }
 }
