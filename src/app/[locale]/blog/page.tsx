@@ -40,7 +40,7 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
 
       <section className="container-page py-12 md:py-16">
         <div className="stag mb-12">
-          <p className="text-gold text-xs font-bold tracking-widest uppercase mb-2">Knowledge base</p>
+          <p className="stag">Knowledge base</p>
           <h1 className="stitle">Blog & Resources</h1>
           <p className="ssub max-w-2xl">Articles, technical guides and news about fiber cement construction for European professionals.</p>
         </div>
@@ -51,19 +51,19 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
               <Link
                 key={post.slug}
                 href={`/${locale}/blog/${post.slug}`}
-                className="card-gold p-6 flex flex-col hover:border-gold/60 transition-colors"
+                className="card-gold p-6 flex flex-col hover:border-accent/60 transition-colors"
               >
                 {post.tags && post.tags.length > 0 && (
                   <div className="flex gap-2 mb-3 flex-wrap">
                     {post.tags.slice(0, 3).map((tag) => (
-                      <span key={tag} className="text-[10px] font-bold tracking-wider text-gold uppercase border border-gold/30 rounded px-2 py-0.5">
+                      <span key={tag} className="text-[10px] font-bold tracking-wider text-accent uppercase border border-accent/30 rounded px-2 py-0.5">
                         {tag}
                       </span>
                     ))}
                   </div>
                 )}
-                <h2 className="text-white font-bold text-base leading-snug mb-2">{post.title}</h2>
-                <p className="text-gray-400 text-sm leading-relaxed flex-1">{post.description}</p>
+                <h2 className="text-[#132238] font-bold text-base leading-snug mb-2">{post.title}</h2>
+                <p className="text-[#4A5B6D] text-sm leading-relaxed flex-1">{post.description}</p>
                 <div className="mt-4 text-xs text-gray-500">
                   {new Date(post.publishedAt).toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' })}
                 </div>
@@ -71,10 +71,10 @@ export default async function BlogPage({ params }: { params: Promise<{ locale: s
             ))}
           </div>
         ) : (
-          <div className="rounded-2xl border border-border bg-card p-12 text-center">
+          <div className="rounded-2xl border border-[#D8E1E9] bg-white p-12 text-center">
             <div className="text-5xl mb-4">📝</div>
-            <h2 className="text-xl font-bold text-white mb-3">Coming soon</h2>
-            <p className="text-gray-400 text-sm">We are preparing in-depth articles on fiber cement installation, design, and building regulations across Europe.</p>
+            <h2 className="text-xl font-bold text-[#132238] mb-3">Coming soon</h2>
+            <p className="text-[#4A5B6D] text-sm">We are preparing in-depth articles on fiber cement installation, design, and building regulations across Europe.</p>
           </div>
         )}
       </section>

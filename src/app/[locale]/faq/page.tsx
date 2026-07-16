@@ -44,15 +44,20 @@ export default async function FaqPage({ params }: { params: Promise<{ locale: st
         { name: bc('faq'), url: `${SITE_URL}/${locale}/faq` },
       ])} />
 
-      <section className="container-page py-12 md:py-16">
-        <div className="stag mb-12">
-          <p className="text-gold text-xs font-bold tracking-widest uppercase mb-2">{t('eyebrow')}</p>
-          <h1 className="stitle">{t('h1')}</h1>
+      <div className="page-hero">
+        <div className="container-page">
+          <p className="stag">{t('eyebrow')}</p>
+          <h1 className="stitle-xl">{t('h1')}</h1>
           <p className="ssub max-w-2xl">{t('sub')}</p>
         </div>
+      </div>
+
+      <section className="section-alt py-16">
+        <div className="container-page">
 
         <div className="max-w-3xl">
           <FaqAccordion items={items} />
+        </div>
         </div>
       </section>
     </>

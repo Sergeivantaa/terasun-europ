@@ -88,8 +88,8 @@ export default function Header({ locale }: Props) {
 
         {/* Logo */}
         <Link href={navHref('')} className="flex flex-col leading-none group shrink-0">
-          <span className="text-lg font-black tracking-widest text-white group-hover:text-gold2 transition-colors duration-200">TERASUN</span>
-          <span className="text-[10px] font-semibold tracking-[0.25em] text-gold uppercase">Europe</span>
+          <span className="text-lg font-black tracking-widest text-white group-hover:text-[#5CA4D6] transition-colors duration-200">TERASUN</span>
+          <span className="text-[10px] font-semibold tracking-[0.25em] text-[#5CA4D6] uppercase">Europe</span>
         </Link>
 
         {/* Desktop nav */}
@@ -101,7 +101,7 @@ export default function Header({ locale }: Props) {
               className="relative px-3 py-2 text-sm text-gray-300 hover:text-white transition-colors duration-150 rounded-md hover:bg-white/6 group"
             >
               {t(key)}
-              <span className="absolute bottom-1 left-3 right-3 h-px bg-gold scale-x-0 group-hover:scale-x-100 transition-transform duration-200 origin-left" />
+              <span className="absolute bottom-1 left-3 right-3 h-px bg-[#5CA4D6] scale-x-0 group-hover:scale-x-100 transition-transform duration-200 origin-left" />
             </Link>
           ))}
 
@@ -139,7 +139,7 @@ export default function Header({ locale }: Props) {
                   className="flex items-center gap-2 px-4 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-white/6 transition-colors duration-150 group"
                   onClick={() => setMoreOpen(false)}
                 >
-                  <span className="w-1 h-1 rounded-full bg-gold opacity-0 group-hover:opacity-100 transition-opacity shrink-0" />
+                  <span className="w-1 h-1 rounded-full bg-[#5CA4D6] opacity-0 group-hover:opacity-100 transition-opacity shrink-0" />
                   {t(key)}
                 </Link>
               ))}
@@ -173,7 +173,7 @@ export default function Header({ locale }: Props) {
                   key={loc}
                   href={localePath(loc)}
                   className={`block px-3 py-1.5 text-xs font-bold transition-colors duration-150 hover:bg-white/6 ${
-                    loc === locale ? 'text-gold' : 'text-gray-400 hover:text-white'
+                    loc === locale ? 'text-[#5CA4D6]' : 'text-gray-400 hover:text-white'
                   }`}
                   onClick={() => setLangOpen(false)}
                 >
@@ -262,7 +262,7 @@ export default function Header({ locale }: Props) {
                     href={localePath(loc)}
                     className={`px-2 py-1 text-xs font-bold rounded-md border transition-colors duration-150 ${
                       loc === locale
-                        ? 'border-gold text-gold bg-gold/10'
+                        ? 'border-[#245A85] text-[#245A85] bg-[#245A85]/10'
                         : 'border-border-dark text-gray-400 hover:text-white hover:border-gray-500'
                     }`}
                     onClick={() => setMobileOpen(false)}

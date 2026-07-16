@@ -136,7 +136,7 @@ export default async function HomePage({ params }: Props) {
               ].map((c) => (
                 <div key={c.val} className="flex items-center gap-1.5 bg-white/5 border border-white/10 rounded-lg px-3 py-1.5">
                   <span className="text-[9px] font-bold tracking-widest text-slate-400 uppercase">{c.label}</span>
-                  <span className="text-[11px] font-bold text-gold2">{c.val}</span>
+                  <span className="text-[11px] font-bold text-sky">{c.val}</span>
                 </div>
               ))}
             </div>
@@ -357,7 +357,7 @@ export default async function HomePage({ params }: Props) {
               <ScrollReveal key={c.ref} delay={i * 70}>
                 <div className="card-lift h-full bg-page border border-border-light rounded-xl p-5">
                   <div className="flex items-start justify-between mb-4">
-                    <span className="text-[9px] font-bold tracking-wider text-gold bg-amber-50 border border-gold/20 rounded px-2 py-0.5 uppercase">{c.badge}</span>
+                    <span className="text-[9px] font-bold tracking-wider text-accent bg-amber-50 border border-accent/20 rounded px-2 py-0.5 uppercase">{c.badge}</span>
                   </div>
                   <div className="text-xs font-bold tracking-wide text-gray-500 uppercase mb-1">{c.label}</div>
                   <div className="text-base font-black text-gray-900 mb-2">{c.ref}</div>

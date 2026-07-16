@@ -67,14 +67,14 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
       <JsonLd data={articleSchema} />
 
       <article className="container-page py-12 md:py-16 max-w-3xl">
-        <Link href={`/${locale}/blog`} className="text-sm text-gold hover:text-white transition-colors mb-8 inline-block">
+        <Link href={`/${locale}/blog`} className="text-sm text-accent hover:text-white transition-colors mb-8 inline-block">
           ← Back to blog
         </Link>
 
         {post.tags && post.tags.length > 0 && (
           <div className="flex gap-2 mb-4 flex-wrap">
             {post.tags.map((tag) => (
-              <span key={tag} className="text-[10px] font-bold tracking-wider text-gold uppercase border border-gold/30 rounded px-2 py-0.5">
+              <span key={tag} className="text-[10px] font-bold tracking-wider text-accent uppercase border border-accent/30 rounded px-2 py-0.5">
                 {tag}
               </span>
             ))}
@@ -90,8 +90,8 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
 
         <div className="prose prose-invert max-w-none text-gray-300 leading-relaxed space-y-4">
           {post.body.split('\n\n').map((block, i) => {
-            if (block.startsWith('## ')) return <h2 key={i} className="text-xl font-bold text-white mt-8 mb-3">{block.slice(3)}</h2>
-            if (block.startsWith('### ')) return <h3 key={i} className="text-lg font-semibold text-white mt-6 mb-2">{block.slice(4)}</h3>
+            if (block.startsWith('## ')) return <h2 key={i} className="text-xl font-bold text-[#132238] mt-8 mb-3">{block.slice(3)}</h2>
+            if (block.startsWith('### ')) return <h3 key={i} className="text-lg font-semibold text-[#132238] mt-6 mb-2">{block.slice(4)}</h3>
             if (block.startsWith('- ') || block.includes('\n- ')) {
               const items = block.split('\n').filter(l => l.startsWith('- '))
               return <ul key={i} className="list-disc list-inside space-y-1">{items.map((item, j) => <li key={j}>{item.slice(2)}</li>)}</ul>

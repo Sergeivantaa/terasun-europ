@@ -10,31 +10,32 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // ── Dark/navy (all dark sections) ──
-        dark:     '#0C1929',
-        darker:   '#080F1A',
-        // ── Blue accent — primary CTA, replaces orange as lead color ──
-        accent:        '#2563EB',
-        'accent-dark': '#1D4ED8',
-        'accent-light':'#EFF6FF',
-        // ── Gold — secondary only: cert badges, cert numbers ──
+        // ── Dark section backgrounds (deep navy) ──
+        dark:     '#0F2742',   // primary navy bg
+        darker:   '#081A2D',   // deepest navy
+        // ── Blue scale — primary action colour ──
+        accent:        '#245A85',   // buttons, CTAs, links (contrast 5.4:1 on white)
+        'accent-dark': '#1A4470',   // hover state
+        'accent-light':'#EBF4FB',   // tinted bg for chips/tags
+        sky:           '#5CA4D6',   // lighter blue highlight on dark sections
+        // ── Gold — cert badges ONLY, never in UI structure ──
         gold:     '#B45309',
         gold2:    '#F59E0B',
         'gold-light':   '#FEF3C7',
         'gold-border':  '#FDE68A',
-        // ── Page backgrounds ──
-        page:     '#F4F7FB',
-        // ── Utility text ──
-        muted:    '#64748B',
-        light:    '#94A3B8',
-        // ── Dark-section borders + cards (navy tint) ──
-        border:       '#1E3A57',
-        'border-dark': '#162E47',
-        card:        '#0F2135',
-        'card-dark': '#0F2135',
-        // ── Light-section tokens ──
-        surface:      '#FFFFFF',
-        'border-light': '#D1DCF0',
+        // ── Page/card backgrounds ──
+        page:     '#F4F7FA',   // off-white page bg
+        card:     '#FFFFFF',   // white cards (light sections)
+        'card-dark': '#152D4A', // card inside dark sections
+        // ── Text ──
+        muted:    '#4A5B6D',   // secondary body text (5.7:1 on white) ✓ WCAG AA
+        light:    '#6B7A8D',   // tertiary/captions
+        // ── Borders ──
+        border:        '#D8E1E9',   // light section border
+        'border-dark': '#1E3B5C',   // dark section border
+        // ── Aliases ──
+        surface:       '#FFFFFF',
+        'border-light': '#D8E1E9',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],

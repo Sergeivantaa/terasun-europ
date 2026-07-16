@@ -15,7 +15,9 @@ export default function FaqAccordion({ items }: { items: Item[] }) {
           <div
             key={item.key}
             className={`rounded-xl border overflow-hidden transition-colors duration-200 ${
-              isOpen ? 'border-gold/30 bg-card-dark' : 'border-border-dark bg-card-dark hover:border-border'
+              isOpen
+                ? 'border-[#245A85]/40 bg-white shadow-sm'
+                : 'border-[#D8E1E9] bg-white hover:border-[#245A85]/30'
             }`}
           >
             <button
@@ -23,16 +25,18 @@ export default function FaqAccordion({ items }: { items: Item[] }) {
               onClick={() => setOpen(isOpen ? null : item.key)}
               aria-expanded={isOpen}
             >
-              <span className={`text-sm font-semibold transition-colors duration-200 ${isOpen ? 'text-gold2' : 'text-white'}`}>
+              <span className={`text-sm font-semibold transition-colors duration-200 ${isOpen ? 'text-[#245A85]' : 'text-[#132238]'}`}>
                 {item.question}
               </span>
               <span
                 className={`shrink-0 w-6 h-6 rounded-full border flex items-center justify-center transition-all duration-300 ${
-                  isOpen ? 'border-gold bg-gold/15 rotate-180' : 'border-border-dark'
+                  isOpen
+                    ? 'border-[#245A85] bg-[#245A85]/10 rotate-180'
+                    : 'border-[#D8E1E9]'
                 }`}
               >
                 <svg
-                  className={`w-3 h-3 transition-colors duration-200 ${isOpen ? 'text-gold' : 'text-gray-500'}`}
+                  className={`w-3 h-3 transition-colors duration-200 ${isOpen ? 'text-[#245A85]' : 'text-[#6B7A8D]'}`}
                   viewBox="0 0 12 8" fill="none" stroke="currentColor" strokeWidth="2"
                 >
                   <path d="M1 1l5 5 5-5" strokeLinecap="round" strokeLinejoin="round"/>
@@ -40,7 +44,6 @@ export default function FaqAccordion({ items }: { items: Item[] }) {
               </span>
             </button>
 
-            {/* Smooth height animation via max-height */}
             <div
               className="overflow-hidden transition-all ease-in-out"
               style={{
@@ -49,8 +52,8 @@ export default function FaqAccordion({ items }: { items: Item[] }) {
               }}
             >
               <div className="px-5 pb-5">
-                <div className="w-8 h-px bg-gold/50 mb-4" />
-                <p className="text-sm text-gray-300 leading-relaxed whitespace-pre-line">{item.answer}</p>
+                <div className="w-8 h-px bg-[#245A85]/30 mb-4" />
+                <p className="text-sm text-[#4A5B6D] leading-relaxed whitespace-pre-line">{item.answer}</p>
               </div>
             </div>
           </div>

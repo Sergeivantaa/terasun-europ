@@ -46,52 +46,55 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
         { name: bc('about'), url: `${SITE_URL}/${locale}/about` },
       ])} />
 
-      <section className="container-page py-12 md:py-16">
-        {/* Header */}
-        <div className="stag mb-16">
-          <p className="text-gold text-xs font-bold tracking-widest uppercase mb-2">{t('eyebrow')}</p>
-          <h1 className="stitle">{t('h1')}</h1>
+      <div className="page-hero">
+        <div className="container-page">
+          <p className="stag">{t('eyebrow')}</p>
+          <h1 className="stitle-xl">{t('h1')}</h1>
           <p className="ssub max-w-2xl">{t('sub')}</p>
         </div>
+      </div>
 
-        {/* Who we are */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-20">
-          <div>
-            <div className="inline-flex items-center gap-2 rounded-full border border-gold-border bg-gold/10 px-4 py-1.5 text-xs font-bold text-gold uppercase tracking-wider mb-6">
-              {t('statusTitle')}
-            </div>
-            <p className="text-gray-300 text-base leading-relaxed mb-4">{t('statusText')}</p>
-            <p className="text-gray-400 text-sm leading-relaxed mb-6">{t('body')}</p>
-            <div className="text-sm text-gray-400 space-y-1">
-              <p>📍 {CONTACT.address}, {CONTACT.city}</p>
-              <p>📧 <a href={`mailto:${CONTACT.email}`} className="text-gold2 hover:text-white transition-colors">{CONTACT.email}</a></p>
-              <p>📞 <a href={`tel:${CONTACT.phone}`} className="hover:text-white transition-colors">{CONTACT.phoneDisplay}</a></p>
-              <p>🏢 VAT: {CONTACT.vat}</p>
-            </div>
-          </div>
-          <div className="grid grid-cols-2 gap-4">
-            {authCards.map(card => (
-              <div key={card.key} className="card-gold p-5">
-                <div className="text-2xl mb-3">{card.icon}</div>
-                <h3 className="font-bold text-white text-sm mb-2">{auth(`cards.${card.key}.title`)}</h3>
-                <p className="text-gray-400 text-xs leading-relaxed">{auth(`cards.${card.key}.body`)}</p>
+      <section className="section-light py-16">
+        <div className="container-page">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mb-16">
+            <div>
+              <div className="inline-flex items-center gap-2 rounded-full border border-[#D8E1E9] bg-[#EBF4FB] px-4 py-1.5 text-xs font-bold text-[#245A85] uppercase tracking-wider mb-6">
+                {t('statusTitle')}
               </div>
-            ))}
+              <p className="text-[#132238] text-base leading-relaxed mb-4">{t('statusText')}</p>
+              <p className="text-[#4A5B6D] text-sm leading-relaxed mb-6">{t('body')}</p>
+              <div className="text-sm text-[#4A5B6D] space-y-2">
+                <p>📍 {CONTACT.address}, {CONTACT.city}</p>
+                <p>📧 <a href={`mailto:${CONTACT.email}`} className="text-[#245A85] hover:text-[#1A4470] transition-colors font-medium">{CONTACT.email}</a></p>
+                <p>📞 <a href={`tel:${CONTACT.phone}`} className="text-[#132238] hover:text-[#245A85] transition-colors font-medium">{CONTACT.phoneDisplay}</a></p>
+                <p>🏢 VAT: {CONTACT.vat}</p>
+              </div>
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              {authCards.map(card => (
+                <div key={card.key} className="bg-white border border-[#D8E1E9] rounded-xl p-5 shadow-sm">
+                  <div className="w-10 h-10 rounded-lg bg-[#EBF4FB] flex items-center justify-center text-xl mb-4">
+                    {card.icon}
+                  </div>
+                  <h3 className="font-bold text-[#132238] text-sm mb-2">{auth(`cards.${card.key}.title`)}</h3>
+                  <p className="text-[#4A5B6D] text-xs leading-relaxed">{auth(`cards.${card.key}.body`)}</p>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
 
-        {/* Not manufacturer disclaimer */}
-        <div className="rounded-2xl border border-yellow-700/40 bg-yellow-950/20 p-8 mb-12">
-          <h2 className="text-lg font-bold text-yellow-300 mb-3">{t('disclaimerTitle')}</h2>
-          <p className="text-yellow-200/80 text-sm leading-relaxed">{t('disclaimerText')}</p>
-          <Link href={navHref('/manufacturer')} className="inline-block mt-4 text-sm text-yellow-300 hover:text-white underline">
-            Learn about Zhejiang Terasun Air Duct Co., Ltd. →
-          </Link>
-        </div>
+          {/* Not manufacturer disclaimer */}
+          <div className="rounded-2xl bg-[#0F2742] p-8 mb-12">
+            <h2 className="text-lg font-bold text-white mb-3">{t('disclaimerTitle')}</h2>
+            <p className="text-[#B8CADE] text-sm leading-relaxed mb-4">{t('disclaimerText')}</p>
+            <Link href={navHref('/manufacturer')} className="inline-block text-sm text-[#5CA4D6] hover:text-white transition-colors underline">
+              Learn about Zhejiang Terasun Air Duct Co., Ltd. →
+            </Link>
+          </div>
 
-        {/* CTA */}
-        <div className="text-center">
-          <Link href={navHref('/contact')} className="btn-primary px-8 py-3">Contact us</Link>
+          <div className="text-center">
+            <Link href={navHref('/contact')} className="btn-primary px-8 py-3">Contact us</Link>
+          </div>
         </div>
       </section>
     </>

@@ -67,15 +67,15 @@ export default async function ApplicationDetailPage({ params }: { params: Promis
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-16">
           <div className="lg:col-span-2 space-y-6">
             <p className="text-gray-300 text-base leading-relaxed">{t(`${slug}.body1`)}</p>
-            <p className="text-gray-400 text-sm leading-relaxed">{t(`${slug}.body2`)}</p>
+            <p className="text-[#4A5B6D] text-sm leading-relaxed">{t(`${slug}.body2`)}</p>
 
             {/* Features */}
             <div>
-              <h2 className="text-lg font-bold text-white mb-4">{t(`${slug}.featuresTitle`)}</h2>
+              <h2 className="text-lg font-bold text-[#132238] mb-4">{t(`${slug}.featuresTitle`)}</h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {[1,2,3,4,5,6].map(n => (
                   <div key={n} className="flex items-start gap-3 p-3 rounded-lg bg-card border border-border">
-                    <span className="text-gold font-bold text-sm mt-0.5">✓</span>
+                    <span className="text-accent font-bold text-sm mt-0.5">✓</span>
                     <p className="text-sm text-gray-300">{t(`${slug}.feature${n}`)}</p>
                   </div>
                 ))}
@@ -86,19 +86,19 @@ export default async function ApplicationDetailPage({ params }: { params: Promis
           {/* Sidebar */}
           <aside className="space-y-6">
             <div className="card-gold p-6">
-              <h3 className="font-bold text-white mb-4">Specifications</h3>
+              <h3 className="font-bold text-[#132238] mb-4">Specifications</h3>
               <div className="space-y-3">
                 {app.tags.map(tag => (
-                  <div key={tag} className="flex justify-between text-sm border-b border-border pb-2">
+                  <div key={tag} className="flex justify-between text-sm border-b border-[#D8E1E9] pb-2">
                     <span className="text-gray-400">{t(`tags.${tag}`)}</span>
-                    <span className="text-white font-medium">{t(`${slug}.spec_${tag}`)}</span>
+                    <span className="text-[#132238] font-medium">{t(`${slug}.spec_${tag}`)}</span>
                   </div>
                 ))}
               </div>
             </div>
             <div className="card-gold p-6">
-              <h3 className="font-bold text-white mb-3">Get a quotation</h3>
-              <p className="text-gray-400 text-xs mb-4">Tell us about your project for a tailored offer.</p>
+              <h3 className="font-bold text-[#132238] mb-3">Get a quotation</h3>
+              <p className="text-[#4A5B6D] text-xs mb-4">Tell us about your project for a tailored offer.</p>
               <Link href={navHref('/contact')} className="btn-primary text-sm py-2 px-4 w-full text-center block">Request quotation</Link>
             </div>
           </aside>
@@ -121,10 +121,10 @@ export default async function ApplicationDetailPage({ params }: { params: Promis
 
         {/* Related applications */}
         <div>
-          <h2 className="text-lg font-bold text-white mb-6">Other applications</h2>
+          <h2 className="text-lg font-bold text-[#132238] mb-6">Other applications</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {applications.filter(a => a.slug !== slug).slice(0, 3).map(other => (
-              <Link key={other.slug} href={navHref(`/applications/${other.slug}`)} className="card-gold p-4 flex items-center gap-3 hover:border-gold transition-colors group">
+              <Link key={other.slug} href={navHref(`/applications/${other.slug}`)} className="card-gold p-4 flex items-center gap-3 hover:border-accent/60 transition-colors group">
                 <span className="text-2xl">{other.icon}</span>
                 <span className="text-sm text-gray-300 group-hover:text-white transition-colors">{t(`${other.slug}.title`)}</span>
               </Link>

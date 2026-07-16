@@ -461,7 +461,7 @@ export default function LeadPopup() {
               <>
                 {/* Menu view */}
                 <div className="text-center mb-6">
-                  <div className="inline-flex items-center gap-1.5 text-[10px] font-bold tracking-widest text-gold uppercase border border-gold/30 rounded-full px-3 py-1 mb-4">
+                  <div className="inline-flex items-center gap-1.5 text-[10px] font-bold tracking-widest text-accent uppercase border border-accent/30 rounded-full px-3 py-1 mb-4">
                     Terasun TSM Cement Board
                   </div>
                   <h2 className="text-xl font-black text-white leading-tight mb-2">
@@ -476,8 +476,8 @@ export default function LeadPopup() {
                 <ul className="space-y-2 mb-6">
                   {BENEFITS.map(b => (
                     <li key={b} className="flex items-center gap-2.5 text-sm text-gray-300">
-                      <span className="w-4 h-4 rounded-full bg-gold/20 border border-gold/40 flex items-center justify-center shrink-0">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="w-2.5 h-2.5 text-gold">
+                      <span className="w-4 h-4 rounded-full bg-accent/20 border border-accent/40 flex items-center justify-center shrink-0">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="w-2.5 h-2.5 text-accent">
                           <polyline points="20 6 9 17 4 12" />
                         </svg>
                       </span>
