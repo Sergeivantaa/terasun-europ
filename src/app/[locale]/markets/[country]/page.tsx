@@ -61,7 +61,7 @@ export default async function MarketPage({ params }: { params: Promise<{ locale:
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-16">
           <div className="lg:col-span-2">
-            <p className="text-gray-300 text-base leading-relaxed mb-4">{t(`${country}.body1`)}</p>
+            <p className="text-[#4A5B6D] text-base leading-relaxed mb-4">{t(`${country}.body1`)}</p>
             <p className="text-[#4A5B6D] text-sm leading-relaxed mb-6">{t(`${country}.body2`)}</p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
@@ -88,16 +88,16 @@ export default async function MarketPage({ params }: { params: Promise<{ locale:
               <h3 className="font-bold text-[#132238] mb-4">{t('marketInfo')}</h3>
               <div className="space-y-3 text-sm">
                 <div className="flex justify-between">
-                  <span className="text-gray-400">Country</span>
+                  <span className="text-[#6B7A8D] text-xs">Country</span>
                   <span className="text-[#132238] font-medium">{c.flag} {c.name}</span>
                 </div>
                 <div className="flex justify-between">
-                  <span className="text-gray-400">Status</span>
-                  <span className={c.status === 'active' ? 'text-green-400' : c.status === 'open' ? 'text-blue-400' : 'text-accent'}>{c.status}</span>
+                  <span className="text-[#6B7A8D] text-xs">Status</span>
+                  <span className={c.status === 'active' ? 'text-green-700 font-semibold' : c.status === 'open' ? 'text-[#245A85] font-semibold' : 'text-[#4A5B6D]'}>{c.status}</span>
                 </div>
                 {c.port && (
                   <div className="flex justify-between">
-                    <span className="text-gray-400">Main port</span>
+                    <span className="text-[#6B7A8D] text-xs">Main port</span>
                     <span className="text-white">{c.port}</span>
                   </div>
                 )}
@@ -109,7 +109,7 @@ export default async function MarketPage({ params }: { params: Promise<{ locale:
               <h3 className="font-bold text-[#132238] text-sm mb-3">Other markets</h3>
               <div className="grid grid-cols-2 gap-2">
                 {countries.filter(x => x.slug !== country).slice(0, 6).map(other => (
-                  <Link key={other.slug} href={navHref(`/markets/${other.slug}`)} className="flex items-center gap-2 text-xs text-gray-400 hover:text-white transition-colors">
+                  <Link key={other.slug} href={navHref(`/markets/${other.slug}`)} className="flex items-center gap-2 text-xs text-[#4A5B6D] hover:text-[#132238] transition-colors">
                     <span>{other.flag}</span>
                     <span>{other.name}</span>
                   </Link>

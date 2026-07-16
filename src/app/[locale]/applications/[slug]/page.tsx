@@ -50,11 +50,11 @@ export default async function ApplicationDetailPage({ params }: { params: Promis
       <section className="container-page py-12 md:py-16">
         {/* Breadcrumb */}
         <nav className="text-xs text-gray-500 mb-8 flex gap-2 items-center flex-wrap">
-          <Link href={navHref('')} className="hover:text-white transition-colors">{bc('home')}</Link>
+          <Link href={navHref('')} className="hover:text-[#132238] transition-colors">{bc('home')}</Link>
           <span>/</span>
-          <Link href={navHref('/applications')} className="hover:text-white transition-colors">{bc('applications')}</Link>
+          <Link href={navHref('/applications')} className="hover:text-[#132238] transition-colors">{bc('applications')}</Link>
           <span>/</span>
-          <span className="text-gray-300">{t(`${slug}.title`)}</span>
+          <span className="text-[#132238]">{t(`${slug}.title`)}</span>
         </nav>
 
         <div className="stag mb-12">
@@ -66,7 +66,7 @@ export default async function ApplicationDetailPage({ params }: { params: Promis
         {/* Content */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-16">
           <div className="lg:col-span-2 space-y-6">
-            <p className="text-gray-300 text-base leading-relaxed">{t(`${slug}.body1`)}</p>
+            <p className="text-[#4A5B6D] text-base leading-relaxed">{t(`${slug}.body1`)}</p>
             <p className="text-[#4A5B6D] text-sm leading-relaxed">{t(`${slug}.body2`)}</p>
 
             {/* Features */}
@@ -76,7 +76,7 @@ export default async function ApplicationDetailPage({ params }: { params: Promis
                 {[1,2,3,4,5,6].map(n => (
                   <div key={n} className="flex items-start gap-3 p-3 rounded-lg bg-card border border-border">
                     <span className="text-accent font-bold text-sm mt-0.5">✓</span>
-                    <p className="text-sm text-gray-300">{t(`${slug}.feature${n}`)}</p>
+                    <p className="text-sm text-[#4A5B6D]">{t(`${slug}.feature${n}`)}</p>
                   </div>
                 ))}
               </div>
@@ -90,7 +90,7 @@ export default async function ApplicationDetailPage({ params }: { params: Promis
               <div className="space-y-3">
                 {app.tags.map(tag => (
                   <div key={tag} className="flex justify-between text-sm border-b border-[#D8E1E9] pb-2">
-                    <span className="text-gray-400">{t(`tags.${tag}`)}</span>
+                    <span className="text-[#6B7A8D] text-xs">{t(`tags.${tag}`)}</span>
                     <span className="text-[#132238] font-medium">{t(`${slug}.spec_${tag}`)}</span>
                   </div>
                 ))}
@@ -126,7 +126,7 @@ export default async function ApplicationDetailPage({ params }: { params: Promis
             {applications.filter(a => a.slug !== slug).slice(0, 3).map(other => (
               <Link key={other.slug} href={navHref(`/applications/${other.slug}`)} className="card-gold p-4 flex items-center gap-3 hover:border-accent/60 transition-colors group">
                 <span className="text-2xl">{other.icon}</span>
-                <span className="text-sm text-gray-300 group-hover:text-white transition-colors">{t(`${other.slug}.title`)}</span>
+                <span className="text-sm text-[#4A5B6D] group-hover:text-[#132238] transition-colors font-medium">{t(`${other.slug}.title`)}</span>
               </Link>
             ))}
           </div>
