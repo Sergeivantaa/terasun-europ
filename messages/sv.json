@@ -300,120 +300,120 @@
       "Timber frame": "Timber frame"
     },
     "facade-systems": {
-      "title": "Facade systems",
-      "summary": "Lightweight facade cladding in ventilated and render systems for exterior walls across all European climate zones.",
-      "metaTitle": "Fiber Cement Board Facade Systems | Terasun TSM | Terasun Europe",
-      "metaDesc": "Terasun TSM for ventilated facade systems (CBSS/CBMV). Lightweight, CE-certified, paintable. Supply across Europe.",
-      "h1": "Fiber cement board for facade systems",
-      "lead": "Specified as a facade cement board in CBSS and CBMV ventilated facade systems across European climate zones.",
-      "body1": "Terasun TSM is used as the facade board in ventilated cladding systems, providing a lightweight exterior skin that breathes and drains behind cladding rails. The board is paintable with mineral or silicone render finishes.",
+      "title": "Fasadsystem",
+      "summary": "Lätt fasadbekläning i ventilerade och putsade system för ytterväggar i alla europeiska klimatzoner.",
+      "metaTitle": "Fibercement Fasadsystem | Terasun TSM | Terasun Europe",
+      "metaDesc": "Terasun TSM för ventilerade fasadsystem (CBSS/CBMV). Lätt, CE-certifierad, målbar. Distribution i Europa.",
+      "h1": "Fibercement för fasadsystem",
+      "lead": "Specificerad som fasadcement i CBSS och CBMV ventilerade fasadsystem i europeiska klimatzoner.",
+      "body1": "Terasun TSM används som fasadskiva i ventilerade beklädnadssystem och ger en lätt ytterskal som andas och dränerar bakom beklädningsbrädor. Skivan är målbar med mineral- eller silikonputsbeläggningar.",
       "body2": "In render carrier applications, TSM acts as the substrate for external mineral render systems. Its autoclaved surface provides excellent adhesion and dimensional stability for render finishes in exposed conditions.",
-      "featuresTitle": "Key technical features",
-      "feature1": "Lightweight — 9.96 kg/m² at 12 mm reduces structural load",
-      "feature2": "CE certified under EN 12467 — mandatory for EEA use",
-      "feature3": "Suitable for ventilated and direct fix systems",
-      "feature4": "Paintable — compatible with mineral and silicone renders",
-      "feature5": "All climates — tested for Nordic and Central European conditions",
-      "feature6": "Available in thicknesses 6–18 mm for different facade loads",
-      "spec_Ventilated": "CBSS / CBMV systems",
-      "spec_All climates": "Nordic to Mediterranean",
-      "spec_Paintable": "Mineral / silicone render"
+      "featuresTitle": "Viktiga tekniska egenskaper",
+      "feature1": "Lätt — 9.96 kg/m² vid 12 mm minskar strukturbelastningen",
+      "feature2": "CE-certifierad enligt EN 12467 — obligatorisk för EES-användning",
+      "feature3": "Lämplig för ventilerade och direktfastade system",
+      "feature4": "Målbar — kompatibel med mineral- och silikonputs",
+      "feature5": "Alla klimat — testad för nordiska och centraleuropeiska förhållanden",
+      "feature6": "Tillgänglig i tjocklekar 6–18 mm för olika fasadbelastningar",
+      "spec_Ventilated": "CBSS / CBMV-system",
+      "spec_All climates": "Nordiskt till medelhavet",
+      "spec_Paintable": "Mineral / silikon puts"
     },
     "fire-protection": {
-      "title": "Fire protection",
-      "summary": "Independently tested fire-rated partition systems achieving E120, EI90, and EW120 fire resistance classifications.",
-      "metaTitle": "Fire Resistant Cement Board Partitions | E120 EI90 EW120 | Terasun Europe",
-      "metaDesc": "Terasun TSM fire-rated wall system: E120 / EI90 / EW120. Independently tested per FIRES-CR-284-25-AUPE.",
-      "h1": "Fire-resistant cement board partitions",
-      "lead": "Independently tested fire-rated wall system achieving E 120, EI 90, and EW 120 classifications.",
-      "body1": "The Terasun TSM fire-rated wall system achieves E 120, EI 90, and EW 120 classifications per FIRES-CR-284-25-AUPE.",
-      "body2": "Suitable for commercial, public, and industrial buildings. Specifications should reference the tested system configuration.",
-      "featuresTitle": "Fire performance features",
-      "feature1": "E 120 — integrity 120 minutes",
-      "feature2": "EI 90 — integrity and insulation 90 minutes",
-      "feature3": "EW 120 — integrity and radiation limitation 120 minutes",
-      "feature4": "Independently tested — FIRES-CR-284-25-AUPE",
-      "feature5": "CE certified for fire performance under the EU Construction Products Regulation",
-      "feature6": "Suitable for commercial, public, and industrial occupancies",
-      "spec_E 120": "Integrity 120 min",
-      "spec_EI 90": "Integrity + insulation 90 min",
-      "spec_EW 120": "Integrity + radiation 120 min"
+      "title": "Brandskydd",
+      "summary": "Oberoende testad brandklassificerad väggssystem med E120, EI90 och EW120 brandklassificeringar.",
+      "metaTitle": "Brandskyddade cementskivväggar | E120 EI90 EW120 | Terasun Europe",
+      "metaDesc": "Terasun TSM brandklassificerat väggssystem: E120 / EI90 / EW120. Oberoende testat enligt FIRES-CR-284-25-AUPE.",
+      "h1": "Brandskyddade cementskivväggar",
+      "lead": "Oberoende testat brandklassificerat väggssystem med E 120, EI 90 och EW 120 klassificeringar.",
+      "body1": "Terasun TSM brandklassificerat väggssystem uppnår E 120, EI 90 och EW 120 klassificeringar enligt FIRES-CR-284-25-AUPE.",
+      "body2": "Lämplig för kommersiella, offentliga och industriella byggnader. Specifikationer bör referera till den testade systemkonfigurationen.",
+      "featuresTitle": "Brandprestandaegenskaper",
+      "feature1": "E 120 — integritet 120 minuter",
+      "feature2": "EI 90 — integritet och isolering 90 minuter",
+      "feature3": "EW 120 — integritet och strålningsbegränsning 120 minuter",
+      "feature4": "Oberoende testat — FIRES-CR-284-25-AUPE",
+      "feature5": "CE-certifierad för brandprestanda enligt EU:s konstruktionsproduktsförordning",
+      "feature6": "Lämplig för kommersiella, offentliga och industriella användningar",
+      "spec_E 120": "Integritet 120 min",
+      "spec_EI 90": "Integritet + isolering 90 min",
+      "spec_EW 120": "Integritet + strålning 120 min"
     },
     "wet-rooms": {
-      "title": "Wet room systems",
-      "summary": "Tile backing substrate in Mapei and Schönox approved wet room systems for bathrooms, showers, and commercial kitchens.",
-      "metaTitle": "Fiber Cement Wet Room Substrate | Mapei Schönox | Terasun Europe",
-      "metaDesc": "Terasun TSM as tile backing in Mapei and Schönox wet room systems. CE-certified, moisture-resistant.",
-      "h1": "Fiber cement board for wet rooms",
-      "lead": "Moisture-resistant tile backing in Mapei and Schönox approved wet room systems.",
-      "body1": "Terasun TSM is used as the tile backing substrate in Mapei and Schönox approved wet area tiling systems. The board provides a dimensionally stable, moisture-resistant surface for direct tile application.",
+      "title": "Våtrumsystem",
+      "summary": "Kakelbotten i Mapei- och Schönox-godkända våtrumsystem för badrum, duschar och kommersiella kök.",
+      "metaTitle": "Fiber-cement våtrumsbotten | Mapei Schönox | Terasun Europe",
+      "metaDesc": "Terasun TSM som kakelbotten i Mapei och Schönox våtrumsystem. CE-märkt, fuktresilient.",
+      "h1": "Fiber-cementskiva för våtrum",
+      "lead": "Fuktresilient kakelbotten i Mapei- och Schönox-godkända våtrumsystem.",
+      "body1": "Terasun TSM används som kakelbotten i Mapei- och Schönox-godkända våtrumssystem. Skivan ger en dimensionsstabil, fuktresilient yta för direkt kakelpalstering.",
       "body2": "The autoclaved surface does not expand or contract with moisture cycling — ideal for areas with continuous water exposure.",
-      "featuresTitle": "Wet room performance",
-      "feature1": "Moisture resistant — dimensionally stable in wet conditions",
-      "feature2": "Direct tile substrate — compatible with polymer-modified adhesives",
-      "feature3": "Mapei system approved",
-      "feature4": "Schönox system approved",
-      "feature5": "CE certified for wet area applications",
-      "feature6": "Suitable for floors, walls, and ceilings in wet rooms",
-      "spec_Mapei": "Mapei approved system",
-      "spec_Schönox": "Schönox approved system"
+      "featuresTitle": "Våtrumsegenskaper",
+      "feature1": "Fuktresilient — dimensionsstabil i våta förhållanden",
+      "feature2": "Direkt kakelbotten — kompatibel med polymermodifierade limpor",
+      "feature3": "Mapei-systemgodkänd",
+      "feature4": "Schönox-systemgodkänd",
+      "feature5": "CE-märkt för våtrumstillämpningar",
+      "feature6": "Lämplig för golv, väggar och tak i våtrum",
+      "spec_Mapei": "Mapei-godkänt system",
+      "spec_Schönox": "Schönox-godkänt system"
     },
     "commercial-buildings": {
-      "title": "Commercial buildings",
-      "summary": "Interior and exterior cladding for commercial buildings, retail, offices, and mixed-use developments.",
-      "metaTitle": "Fiber Cement Cladding Commercial Buildings | CE | Terasun Europe",
-      "metaDesc": "Terasun TSM for commercial building cladding. CE-certified, lightweight, EPD for LEED/BREEAM projects.",
-      "h1": "Fiber cement board for commercial buildings",
-      "lead": "Interior and exterior cladding for commercial buildings requiring CE-certified, durable panels.",
-      "body1": "Terasun TSM is specified for offices, retail, hospitality, and mixed-use developments. CE marking and EPD support green building certification.",
-      "body2": "The board's lightweight nature reduces structural loads. Large format boards up to 1200×3000 mm reduce joints and installation time.",
-      "featuresTitle": "Commercial features",
-      "feature1": "CE certified — mandatory documentation for commercial specification",
-      "feature2": "EPD available — supports LEED, BREEAM, DGNB projects",
-      "feature3": "Lightweight — reduces structural loads",
-      "feature4": "Fire rated — E120/EI90/EW120",
-      "feature5": "Interior and exterior — single product for whole-building specification",
-      "feature6": "Large format — 1200×3000 mm reduces joints",
-      "spec_Interior": "Drylining, ceilings, partitions",
-      "spec_Exterior": "Facade cladding, soffits"
+      "title": "Kommersiella byggnader",
+      "summary": "Inre och yttre beklädnad för kommersiella byggnader, detaljhandel, kontor och blandade utvecklingsprojekt.",
+      "metaTitle": "Fibercementbeklädnad kommersiella byggnader | CE | Terasun Europe",
+      "metaDesc": "Terasun TSM för kommersiell byggnadsbeklädnad. CE-certifierad, lätt, EPD för LEED/BREEAM-projekt.",
+      "h1": "Fibercementskiva för kommersiella byggnader",
+      "lead": "Inre och yttre beklädnad för kommersiella byggnader som kräver CE-certifierade, hållbara skivor.",
+      "body1": "Terasun TSM är specificerad för kontor, detaljhandel, hotell och blandade utvecklingsprojekt. CE-märkning och EPD stödjer grön byggcertifiering.",
+      "body2": "Skivans låga vikt minskar strukturella belastningar. Stora formatskivor upp till 1200×3000 mm minskar fogar och installationstid.",
+      "featuresTitle": "Kommersiella funktioner",
+      "feature1": "CE-certifierad — obligatorisk dokumentation för kommersiell specifikation",
+      "feature2": "EPD tillgänglig — stödjer LEED, BREEAM, DGNB-projekt",
+      "feature3": "Lätt — minskar strukturella belastningar",
+      "feature4": "Brandklassificerad — E120/EI90/EW120",
+      "feature5": "Inre och yttre — en enda produkt för specifikation av hela byggnad",
+      "feature6": "Stort format — 1200×3000 mm minskar fogar",
+      "spec_Interior": "Torrvägg, tak, skiljeväggar",
+      "spec_Exterior": "Fasadbeklädnad, soffit"
     },
     "steel-frame": {
-      "title": "Steel frame construction",
-      "summary": "Heavy-duty industrial sheathing and cladding for steel frame structures, warehouses, and industrial buildings.",
-      "metaTitle": "Fiber Cement Steel Frame Industrial | Heavy-Duty | Terasun Europe",
-      "metaDesc": "Terasun TSM for steel frame industrial sheathing. CE-certified, heavy-duty for warehouses and industrial buildings.",
-      "h1": "Fiber cement board for steel frame construction",
-      "lead": "Heavy-duty industrial sheathing for steel frame structures, warehouses, and industrial buildings.",
-      "body1": "Terasun TSM provides robust sheathing for steel frame industrial buildings. High density and impact resistance make it suitable for warehouse walls, industrial facades, and machine room cladding.",
-      "body2": "Compatible with standard steel stud systems at 400 mm or 600 mm spacing and direct fix to purlins.",
-      "featuresTitle": "Steel frame features",
-      "feature1": "Compatible with 400 mm and 600 mm steel stud spacing",
-      "feature2": "High impact resistance for industrial environments",
-      "feature3": "CE certified for commercial and industrial use",
-      "feature4": "Fire rated — E120/EI90/EW120",
-      "feature5": "Available up to 18 mm for heavy-duty loads",
-      "feature6": "Paintable surface for finished industrial aesthetics",
-      "spec_Industrial": "Warehouses, machine rooms",
-      "spec_Heavy-duty": "Direct fix to steel purlins"
+      "title": "Stålramkonstruktion",
+      "summary": "Robust industriell beklädnad och fasadskiva för stålramkonstruktioner, lagerlokaler och industribyggnader.",
+      "metaTitle": "Fibercement stålram industri | Robust | Terasun Europe",
+      "metaDesc": "Terasun TSM för stålramsindustriell beklädnad. CE-certifierad, robust för lagerlokaler och industribyggnader.",
+      "h1": "Fibercement skiva för stålramkonstruktion",
+      "lead": "Robust industriell beklädnad för stålramkonstruktioner, lagerlokaler och industribyggnader.",
+      "body1": "Terasun TSM erbjuder robust beklädnad för stålramsindustribyggnader. Hög densitet och slagtålighet gör det lämpligt för lagerkonstruktioner, industriella fasader och maskinrumsbeklädnad.",
+      "body2": "Kompatibel med standard stålstolpsystem med 400 mm eller 600 mm avstånd och direktmontering på takbalkage.",
+      "featuresTitle": "Funktioner för stålramkonstruktion",
+      "feature1": "Kompatibel med 400 mm och 600 mm stålstolsavstånd",
+      "feature2": "Högt slagtålighet för industriella miljöer",
+      "feature3": "CE-certifierad för kommersiell och industriell användning",
+      "feature4": "Brandklassad — E120/EI90/EW120",
+      "feature5": "Tillgänglig upp till 18 mm för tunga belastningar",
+      "feature6": "Målningsbar yta för färdig industriell estetik",
+      "spec_Industrial": "Lagerlokaler, maskinrum",
+      "spec_Heavy-duty": "Direktmontering på stålbalkage"
     },
     "residential": {
-      "title": "Residential construction",
-      "summary": "Lightweight exterior and interior boards for timber frame and masonry residential buildings.",
-      "metaTitle": "Fiber Cement Board Residential Timber Frame | CE | Terasun Europe",
-      "metaDesc": "Terasun TSM for residential timber frame and masonry. CE-certified lightweight boards for houses and apartments.",
-      "h1": "Fiber cement board for residential construction",
-      "lead": "Lightweight exterior and interior boards for timber frame and masonry residential buildings.",
-      "body1": "Terasun TSM is widely used in residential construction for facade cladding, wet room substrates, and interior wall sheathing in timber frame and masonry builds.",
-      "body2": "Moisture resistance and fire performance make it suitable for all residential occupancy types, including multi-family apartments requiring fire-rated separation.",
-      "featuresTitle": "Residential features",
-      "feature1": "Lightweight — easy handling on residential sites",
-      "feature2": "Timber frame compatible — 400 mm and 600 mm stud spacing",
-      "feature3": "Moisture resistant — exterior and wet area use",
-      "feature4": "Fire rated — suitable for party wall fire separation",
-      "feature5": "CE certified for residential building regulations",
-      "feature6": "Wet room substrate — direct tile application in bathrooms",
-      "spec_Residential": "Houses, apartments, terraced",
-      "spec_Timber frame": "Timber stud at 400 / 600 mm"
+      "title": "Bostadsbyggnation",
+      "summary": "Lätta utvändiga och invändiga skivor för trästomme och murad bostadsbyggnation.",
+      "metaTitle": "Fibercements skivor Bostadskonstruktion Trästomme | CE | Terasun Europe",
+      "metaDesc": "Terasun TSM för bostadsbyggnation med trästomme och murad konstruktion. CE-certifierade lätta skivor för hus och lägenheter.",
+      "h1": "Fibercements skivor för bostadsbyggnation",
+      "lead": "Lätta utvändiga och invändiga skivor för trästomme och murad bostadsbyggnation.",
+      "body1": "Terasun TSM används ofta inom bostadsbyggnation för fasadskoning, badrumsunderlag och inre väggbeklädnad i trästomme- och murad konstruktion.",
+      "body2": "Fuktmotstånd och brandprestanda gör den lämplig för all slags bostadsbebyggelse, inklusive flerbostadshus som kräver brandklassificerad separation.",
+      "featuresTitle": "Bostadsegenskaper",
+      "feature1": "Lätt — enkel hantering på byggplatsen",
+      "feature2": "Kompatibel med trästomme — 400 mm och 600 mm stolpavstånd",
+      "feature3": "Fuktresistent — för utvändig och våt miljö",
+      "feature4": "Brandklassificerad — lämplig för brandskild vägg mellan enheter",
+      "feature5": "CE-certifierad för bostadskonstruktionsregler",
+      "feature6": "Badrumsunderlag — direkt plattsättning i badrum",
+      "spec_Residential": "Hus, lägenheter, radhus",
+      "spec_Timber frame": "Träkarm på 400 / 600 mm"
     },
     "sidebarSpecs": "Specifikationer",
     "sidebarQuote": "Få en offert",
@@ -632,84 +632,84 @@
     "h1": "Vanliga frågor",
     "sub": "Tekniska, kommersiella och logistikfrågor om Terasun TSM fibercement-skiva.",
     "ce": {
-      "question": "Does Terasun TSM have CE marking?",
-      "answer": "Yes. CE 1023-CPR-1565 P. The product complies with the EU Construction Products Regulation and carries CE marking for sale and use across the European Economic Area."
+      "question": "Har Terasun TSM CE-märkning?",
+      "answer": "Ja. CE 1023-CPR-1565 P. Produkten uppfyller EU:s konstruktionsproduktförordning (CPR) och har CE-märkning för försäljning och användning i hela det europeiska ekonomiska området."
     },
     "eta": {
-      "question": "Is there a European Technical Assessment (ETA)?",
-      "answer": "Yes. ETA 24/0895 has been issued by a designated ETA body. It independently confirms the product's performance characteristics for its intended uses. Full ETA available for download."
+      "question": "Finns det en europeisk teknisk bedömning (ETA)?",
+      "answer": "Ja. ETA 24/0895 har utfärdats av ett utsett ETA-organ. Det bekräftar oberoende produktens prestandaegenskaper för dess avsedda användningsändamål. Fullständig ETA tillgänglig för nedladdning."
     },
     "epd": {
-      "question": "Is there an EPD (Environmental Product Declaration)?",
-      "answer": "Yes. EPD-IES-0018268, published 2025-03-14, valid until 2029-03-14. ISO 14025 compliant. Declared unit: 1 m² at 12 mm, weight 9.96 kg/m². Supports LEED, BREEAM, and DGNB certification projects."
+      "question": "Finns det en EPD (Environmental Product Declaration)?",
+      "answer": "Ja. EPD-IES-0018268, publicerad 2025-03-14, giltig till 2029-03-14. ISO 14025-motsvarande. Deklarerad enhet: 1 m² vid 12 mm, vikt 9,96 kg/m². Stöder LEED-, BREEAM- och DGNB-certifieringsprojekt."
     },
     "weight": {
-      "question": "What is the declared weight of the board?",
-      "answer": "The declared weight per EPD-IES-0018268 is 9.96 kg/m² at 12 mm thickness. Thinner boards are proportionally lighter. Full thickness/weight table in the technical data sheet."
+      "question": "Vad är brädans deklarerade vikt?",
+      "answer": "Den deklarerade vikten enligt EPD-IES-0018268 är 9,96 kg/m² vid 12 mm tjocklek. Tunnare brädor är proportionellt lättare. Fullständig tjocklek-/vikttabell i det tekniska databladen."
     },
     "fire": {
-      "question": "What fire resistance does the board achieve?",
-      "answer": "The tested system achieves E 120 (integrity 120 min), EI 90 (integrity and insulation 90 min), and EW 120 (integrity and radiation limitation 120 min). Test reference: FIRES-CR-284-25-AUPE. These are system-level classifications — specify the tested system configuration."
+      "question": "Vilken brandmotståndsklass uppnår brädan?",
+      "answer": "Det testade systemet uppnår E 120 (integritet 120 min), EI 90 (integritet och värmeisolering 90 min) och EW 120 (integritet och strålningsbegränsning 120 min). Testreferens: FIRES-CR-284-25-AUPE. Dessa är klassificeringar på systemnivå — ange den testade systemkonfigurationen."
     },
     "wetroom": {
-      "question": "Can Terasun TSM be used in wet rooms?",
-      "answer": "Yes. Approved as a tile backing substrate in Mapei and Schönox wet room systems. Dimensionally stable, moisture-resistant substrate for bathrooms, showers, and commercial kitchens."
+      "question": "Kan Terasun TSM användas i badrum?",
+      "answer": "Ja. Godkänd som flisunderlag i Mapei och Schönox fuktiga rumssystem. Dimensionsstabil, fukttålig underlag för badrum, duschar och kommersiella kök."
     },
     "facade": {
-      "question": "Can the board be used for exterior facade cladding?",
-      "answer": "Yes. Specified as the facade board in CBSS and CBMV ventilated facade systems. Can also be used as a render carrier. Suitable for all European climate zones."
+      "question": "Kan plattan användas för yttre fasadbeklädnad?",
+      "answer": "Ja. Specificerad som fasadplatta i CBSS och CBMV ventilerad fasadsystem. Kan även användas som putsbärare. Lämplig för alla europeiska klimatzoner."
     },
     "asbestos": {
-      "question": "Is the board asbestos-free?",
-      "answer": "Yes. Terasun TSM is completely asbestos-free. The board uses Portland cement with inorganic binders and fibreglass mesh reinforcement. REACH SVHC declaration confirming no SVHC above 0.1% w/w is available."
+      "question": "Är plattan asbestfri?",
+      "answer": "Ja. Terasun TSM är helt asbestfri. Plattan använder Portlandcement med oorganiska bindemedel och glasfiberarmering. REACH SVHC-deklaration som bekräftar ingen SVHC över 0,1% w/w är tillgänglig."
     },
     "moq": {
-      "question": "What is the minimum order quantity?",
-      "answer": "Minimum order is typically one 20-foot container (approx. 1,600–2,200 m² depending on thickness). Smaller quantities may be available from Finnish warehouse stock. Contact us for availability."
+      "question": "Vilken är den minsta orderkvantiteten?",
+      "answer": "Minsta order är typiskt en 20-fots container (ca 1 600–2 200 m² beroende på tjocklek). Mindre mängder kan vara tillgängliga från finskt lager. Kontakta oss för tillgänglighet."
     },
     "samples": {
-      "question": "Are samples available before placing an order?",
-      "answer": "Yes. Physical samples and documentation packs are available to qualified distributors, architects, and contractors. Contact us to request a sample pack including board, TDS, CE certificate, and ETA."
+      "question": "Är prover tillgängliga innan du lägger en beställning?",
+      "answer": "Ja. Fysiska prover och dokumentationspaket är tillgängliga för kvalificerade distributörer, arkitekter och entreprenörer. Kontakta oss för att begära ett provpaket inklusive platta, TDS, CE-certifikat och ETA."
     },
     "leadtime": {
-      "question": "How long does delivery take?",
-      "answer": "Container orders take approximately 6–10 weeks from order confirmation to European port delivery. DDP warehouse delivery adds 1–2 weeks. Finnish stock: 1–2 weeks."
+      "question": "Hur lång tid tar leveransen?",
+      "answer": "Containerorder tar cirka 6–10 veckor från orderbekräftelse till leverans till europeisk hamn. DDP-lagerleverans tillägger 1–2 veckor. Finskt lager: 1–2 veckor."
     },
     "origin": {
-      "question": "Where is the product manufactured?",
-      "answer": "Manufactured by Zhejiang Terasun Air Duct Co., Ltd. in Zhejiang Province, People's Republic of China. Terasun Europe is the Authorised European Representative responsible for CE documentation and EU market compliance."
+      "question": "Var tillverkas produkten?",
+      "answer": "Tillverkad av Zhejiang Terasun Air Duct Co., Ltd. i provinsen Zhejiang, Folkrepubliken Kina. Terasun Europe är den auktoriserade europeiska representanten ansvarig för CE-dokumentation och EU-marknadsöverensstämmelse."
     },
     "whoIsTerasun": {
-      "question": "What is Terasun Europe?",
-      "answer": "Terasun Europe is the Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd., based in Vantaa, Finland. We manage CE documentation, EU market compliance, and European customer relationships. We are not the manufacturer of Terasun products."
+      "question": "Vad är Terasun Europe?",
+      "answer": "Terasun Europe är den auktoriserade europeiska representanten för Zhejiang Terasun Air Duct Co., Ltd., baserad i Vantaa, Finland. Vi hanterar CE-dokumentation, EU-marknadsöverensstämmelse och europeiska kundrelationer. Vi är inte tillverkaren av Terasun-produkter."
     },
     "authorisation": {
-      "question": "Is there an authorisation letter from the manufacturer?",
-      "answer": "Yes. Official authorisation letter from Zhejiang Terasun Air Duct Co., Ltd. confirming Terasun Europe as the Authorised European Representative is available for review."
+      "question": "Finns det ett auktoriseringsbrev från tillverkaren?",
+      "answer": "Ja. Officiellt auktoriseringsbrev från Zhejiang Terasun Air Duct Co., Ltd. som bekräftar Terasun Europe som den auktoriserade europeiska representanten är tillgängligt för granskning."
     },
     "distributor": {
-      "question": "Can I become a distributor in my country?",
-      "answer": "Yes. We are actively seeking stocking distributors and project partners across Europe. Territory-based agreements, competitive margins, documentation support, and technical training. Contact us to discuss."
+      "question": "Kan jag bli distributör i mitt land?",
+      "answer": "Ja. Vi söker aktivt distributörer med lagerhållning och projektpartner över hela Europa. Territoriumsbaserade avtal, konkurrenskraftiga marginaler, dokumentationsstöd och teknisk utbildning. Kontakta oss för att diskutera."
     },
     "openMarkets": {
-      "question": "Which countries are open for distribution?",
-      "answer": "Germany, Netherlands, Belgium, France, Spain, Portugal, Italy, Austria, Switzerland, Poland, Czech Republic, Slovakia, Hungary, and others are open for new distribution partners. Contact us for territory availability."
+      "question": "Vilka länder är öppna för distribution?",
+      "answer": "Tyskland, Nederländerna, Belgien, Frankrike, Spanien, Portugal, Italien, Österrike, Schweiz, Polen, Tjeckien, Slovakien, Ungern och andra länder är öppna för nya distributionspartner. Kontakta oss angående territoriernas tillgänglighet."
     },
     "studSpacing": {
-      "question": "What stud spacing is required?",
-      "answer": "Compatible with 400 mm and 600 mm stud spacing in both timber and steel frame systems. Specific recommendations depend on board thickness, orientation, and load — refer to the technical data sheet."
+      "question": "Vilket regelavstånd krävs?",
+      "answer": "Kompatibel med 400 mm och 600 mm regelavstånd i både trä- och stålramssystem. Specifika rekommendationer beror på skivtjocklek, orientering och belastning — se den tekniska databladet."
     },
     "training": {
-      "question": "Is technical training available for distributors?",
-      "answer": "Yes. Technical product training, installation guidance, and documentation support are available to registered distributors. Training can be delivered on-site or remotely."
+      "question": "Finns teknisk utbildning tillgänglig för distributörer?",
+      "answer": "Ja. Teknisk produktutbildning, installationsvägledning och dokumentationsstöd är tillgängliga för registrerade distributörer. Utbildning kan levereras på plats eller på distans."
     },
     "publicProjects": {
-      "question": "Can Terasun TSM be used on public and infrastructure projects?",
-      "answer": "Yes. CE, ETA, DoP, EPD, and fire test documentation meets the requirements of public sector procurement across Europe. Full documentation packs available for specification and tender submission."
+      "question": "Kan Terasun TSM användas på offentliga projekt och infrastrukturprojekt?",
+      "answer": "Ja. CE, ETA, DoP, EPD och brandtestdokumentation uppfyller kraven för offentlig upphandling i hela Europa. Kompletta dokumentationspaket tillgängliga för specifikation och anbudsinlämning."
     },
     "cuttingTools": {
-      "question": "What cutting tools are needed for installation?",
-      "answer": "Terasun TSM can be cut with a circular saw or angle grinder fitted with a fibre cement or diamond blade. Score-and-snap for straight cuts on thinner boards. Wear a dust mask and eye protection. Full guidance in the installation manual."
+      "question": "Vilka skärverktyg behövs för installation?",
+      "answer": "Terasun TSM kan skäras med en cirkelsåg eller vinkelslipar utrustad med ett fibercementblad eller diamantblad. Märka och knäcka för raka snitt på tunnare skivor. Bär dammmask och ögonbeskyttning. Fullständig vägledning i installationsmanualen."
     }
   },
   "contact": {

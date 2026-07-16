@@ -164,7 +164,7 @@
   },
   "manufacturer": {
     "eyebrow": "Informazioni sul produttore",
-    "h1": "Zhejiang Terasun Air Duct Co., Ltd.",
+    "h1": "Zhejiang Terasun Condotto d'aria Co., Ltd.",
     "sub": "Fondata nel 1989 nella provincia dello Zhejiang, Cina — produttore di pannelli in fibrocemento Terasun TSM con piena certificazione europea.",
     "desc1": "Zhejiang Terasun Air Duct Co., Ltd. è un affermato produttore di pannelli in cemento che produce prodotti in fibrocemento e pannelli da costruzione dal 1989. La gamma Terasun include prodotti supportati da completa documentazione tecnica europea che comprende certificazioni CE, ETA, EPD e test di resistenza al fuoco.",
     "desc2": "Tutti i pannelli sono prodotti in conformità ai requisiti ETA 24/0895. I test di terze parti confermano che i dati di prestazione corrispondono alla Dichiarazione di Prestazione. Le linee di produzione moderne supportano ordini di esportazione di grandi volumi con controllo qualità applicato a tutte le specifiche dei pannelli.",
@@ -300,120 +300,120 @@
       "Timber frame": "Timber frame"
     },
     "facade-systems": {
-      "title": "Facade systems",
-      "summary": "Lightweight facade cladding in ventilated and render systems for exterior walls across all European climate zones.",
-      "metaTitle": "Fiber Cement Board Facade Systems | Terasun TSM | Terasun Europe",
-      "metaDesc": "Terasun TSM for ventilated facade systems (CBSS/CBMV). Lightweight, CE-certified, paintable. Supply across Europe.",
-      "h1": "Fiber cement board for facade systems",
-      "lead": "Specified as a facade cement board in CBSS and CBMV ventilated facade systems across European climate zones.",
-      "body1": "Terasun TSM is used as the facade board in ventilated cladding systems, providing a lightweight exterior skin that breathes and drains behind cladding rails. The board is paintable with mineral or silicone render finishes.",
+      "title": "Sistemi di facciata",
+      "summary": "Rivestimento in facciata leggero in sistemi ventilati e a intonaco per pareti esterne in tutte le zone climatiche europee.",
+      "metaTitle": "Sistemi di Facciata in Pannelli di Cemento Fibroso | Terasun TSM | Terasun Europe",
+      "metaDesc": "Terasun TSM per sistemi di facciata ventilati (CBSS/CBMV). Leggero, certificato CE, dipingibile. Fornitura in tutta Europa.",
+      "h1": "Pannelli di cemento fibroso per sistemi di facciata",
+      "lead": "Specificato come pannello di cemento per facciata nei sistemi di facciata ventilati CBSS e CBMV in tutte le zone climatiche europee.",
+      "body1": "Terasun TSM viene utilizzato come pannello di facciata in sistemi di rivestimento ventilati, fornendo una pelle esterna leggera che respira e drena dietro le guide di rivestimento. Il pannello è dipingibile con finiture a intonaco minerale o siliconico.",
       "body2": "In render carrier applications, TSM acts as the substrate for external mineral render systems. Its autoclaved surface provides excellent adhesion and dimensional stability for render finishes in exposed conditions.",
-      "featuresTitle": "Key technical features",
-      "feature1": "Lightweight — 9.96 kg/m² at 12 mm reduces structural load",
-      "feature2": "CE certified under EN 12467 — mandatory for EEA use",
-      "feature3": "Suitable for ventilated and direct fix systems",
-      "feature4": "Paintable — compatible with mineral and silicone renders",
-      "feature5": "All climates — tested for Nordic and Central European conditions",
-      "feature6": "Available in thicknesses 6–18 mm for different facade loads",
-      "spec_Ventilated": "CBSS / CBMV systems",
-      "spec_All climates": "Nordic to Mediterranean",
-      "spec_Paintable": "Mineral / silicone render"
+      "featuresTitle": "Caratteristiche tecniche principali",
+      "feature1": "Leggero — 9,96 kg/m² a 12 mm riduce il carico strutturale",
+      "feature2": "Certificato CE secondo EN 12467 — obbligatorio per l'uso nello SEE",
+      "feature3": "Idoneo per sistemi ventilati e di fissaggio diretto",
+      "feature4": "Dipingibile — compatibile con intonaci minerali e siliconici",
+      "feature5": "Tutti i climi — testato per le condizioni del Nord Europa e dell'Europa Centrale",
+      "feature6": "Disponibile in spessori 6–18 mm per diversi carichi di facciata",
+      "spec_Ventilated": "Sistemi CBSS / CBMV",
+      "spec_All climates": "Dal Nord Europa al Mediterraneo",
+      "spec_Paintable": "Intonaco minerale / siliconico"
     },
     "fire-protection": {
-      "title": "Fire protection",
-      "summary": "Independently tested fire-rated partition systems achieving E120, EI90, and EW120 fire resistance classifications.",
-      "metaTitle": "Fire Resistant Cement Board Partitions | E120 EI90 EW120 | Terasun Europe",
-      "metaDesc": "Terasun TSM fire-rated wall system: E120 / EI90 / EW120. Independently tested per FIRES-CR-284-25-AUPE.",
-      "h1": "Fire-resistant cement board partitions",
-      "lead": "Independently tested fire-rated wall system achieving E 120, EI 90, and EW 120 classifications.",
-      "body1": "The Terasun TSM fire-rated wall system achieves E 120, EI 90, and EW 120 classifications per FIRES-CR-284-25-AUPE.",
-      "body2": "Suitable for commercial, public, and industrial buildings. Specifications should reference the tested system configuration.",
-      "featuresTitle": "Fire performance features",
-      "feature1": "E 120 — integrity 120 minutes",
-      "feature2": "EI 90 — integrity and insulation 90 minutes",
-      "feature3": "EW 120 — integrity and radiation limitation 120 minutes",
-      "feature4": "Independently tested — FIRES-CR-284-25-AUPE",
-      "feature5": "CE certified for fire performance under the EU Construction Products Regulation",
-      "feature6": "Suitable for commercial, public, and industrial occupancies",
-      "spec_E 120": "Integrity 120 min",
-      "spec_EI 90": "Integrity + insulation 90 min",
-      "spec_EW 120": "Integrity + radiation 120 min"
+      "title": "Protezione dal fuoco",
+      "summary": "Sistemi di partizione resistenti al fuoco testati indipendentemente che raggiungono le classificazioni di resistenza al fuoco E120, EI90 ed EW120.",
+      "metaTitle": "Partizioni in Pannello di Cemento Resistenti al Fuoco | E120 EI90 EW120 | Terasun Europe",
+      "metaDesc": "Sistema di parete resistente al fuoco Terasun TSM: E120 / EI90 / EW120. Testato indipendentemente secondo FIRES-CR-284-25-AUPE.",
+      "h1": "Partizioni in pannello di cemento resistenti al fuoco",
+      "lead": "Sistema di parete resistente al fuoco testato indipendentemente che raggiunge le classificazioni E 120, EI 90 ed EW 120.",
+      "body1": "Il sistema di parete resistente al fuoco Terasun TSM raggiunge le classificazioni E 120, EI 90 ed EW 120 secondo FIRES-CR-284-25-AUPE.",
+      "body2": "Adatto per edifici commerciali, pubblici e industriali. Le specifiche devono fare riferimento alla configurazione del sistema testato.",
+      "featuresTitle": "Caratteristiche di prestazione antincendio",
+      "feature1": "E 120 — integrità 120 minuti",
+      "feature2": "EI 90 — integrità e isolamento 90 minuti",
+      "feature3": "EW 120 — integrità e limitazione delle radiazioni 120 minuti",
+      "feature4": "Testato indipendentemente — FIRES-CR-284-25-AUPE",
+      "feature5": "Certificato CE per le prestazioni antincendio secondo il Regolamento sui prodotti da costruzione dell'UE",
+      "feature6": "Adatto per usi commerciali, pubblici e industriali",
+      "spec_E 120": "Integrità 120 min",
+      "spec_EI 90": "Integrità + isolamento 90 min",
+      "spec_EW 120": "Integrità + radiazioni 120 min"
     },
     "wet-rooms": {
-      "title": "Wet room systems",
-      "summary": "Tile backing substrate in Mapei and Schönox approved wet room systems for bathrooms, showers, and commercial kitchens.",
-      "metaTitle": "Fiber Cement Wet Room Substrate | Mapei Schönox | Terasun Europe",
-      "metaDesc": "Terasun TSM as tile backing in Mapei and Schönox wet room systems. CE-certified, moisture-resistant.",
-      "h1": "Fiber cement board for wet rooms",
-      "lead": "Moisture-resistant tile backing in Mapei and Schönox approved wet room systems.",
-      "body1": "Terasun TSM is used as the tile backing substrate in Mapei and Schönox approved wet area tiling systems. The board provides a dimensionally stable, moisture-resistant surface for direct tile application.",
+      "title": "Sistemi per bagni umidi",
+      "summary": "Substrato di supporto piastrelle nei sistemi per bagni umidi approvati Mapei e Schönox per bagni, docce e cucine commerciali.",
+      "metaTitle": "Substrato in Fibrocemento per Bagni Umidi | Mapei Schönox | Terasun Europe",
+      "metaDesc": "Terasun TSM come supporto piastrelle nei sistemi per bagni umidi Mapei e Schönox. Certificato CE, resistente all'umidità.",
+      "h1": "Pannello in fibrocemento per bagni umidi",
+      "lead": "Supporto piastrelle resistente all'umidità nei sistemi per bagni umidi approvati Mapei e Schönox.",
+      "body1": "Terasun TSM è utilizzato come substrato di supporto piastrelle nei sistemi di piastrellatura per zone umide approvati Mapei e Schönox. Il pannello fornisce una superficie dimensionalmente stabile e resistente all'umidità per l'applicazione diretta delle piastrelle.",
       "body2": "The autoclaved surface does not expand or contract with moisture cycling — ideal for areas with continuous water exposure.",
-      "featuresTitle": "Wet room performance",
-      "feature1": "Moisture resistant — dimensionally stable in wet conditions",
-      "feature2": "Direct tile substrate — compatible with polymer-modified adhesives",
-      "feature3": "Mapei system approved",
-      "feature4": "Schönox system approved",
-      "feature5": "CE certified for wet area applications",
-      "feature6": "Suitable for floors, walls, and ceilings in wet rooms",
-      "spec_Mapei": "Mapei approved system",
-      "spec_Schönox": "Schönox approved system"
+      "featuresTitle": "Prestazioni per bagni umidi",
+      "feature1": "Resistente all'umidità — dimensionalmente stabile in condizioni umide",
+      "feature2": "Substrato piastrelle diretto — compatibile con adesivi modificati con polimeri",
+      "feature3": "Sistema Mapei approvato",
+      "feature4": "Sistema Schönox approvato",
+      "feature5": "Certificato CE per applicazioni in zone umide",
+      "feature6": "Adatto per pavimenti, pareti e soffitti in bagni umidi",
+      "spec_Mapei": "Sistema approvato Mapei",
+      "spec_Schönox": "Sistema approvato Schönox"
     },
     "commercial-buildings": {
-      "title": "Commercial buildings",
-      "summary": "Interior and exterior cladding for commercial buildings, retail, offices, and mixed-use developments.",
-      "metaTitle": "Fiber Cement Cladding Commercial Buildings | CE | Terasun Europe",
-      "metaDesc": "Terasun TSM for commercial building cladding. CE-certified, lightweight, EPD for LEED/BREEAM projects.",
-      "h1": "Fiber cement board for commercial buildings",
-      "lead": "Interior and exterior cladding for commercial buildings requiring CE-certified, durable panels.",
-      "body1": "Terasun TSM is specified for offices, retail, hospitality, and mixed-use developments. CE marking and EPD support green building certification.",
-      "body2": "The board's lightweight nature reduces structural loads. Large format boards up to 1200×3000 mm reduce joints and installation time.",
-      "featuresTitle": "Commercial features",
-      "feature1": "CE certified — mandatory documentation for commercial specification",
-      "feature2": "EPD available — supports LEED, BREEAM, DGNB projects",
-      "feature3": "Lightweight — reduces structural loads",
-      "feature4": "Fire rated — E120/EI90/EW120",
-      "feature5": "Interior and exterior — single product for whole-building specification",
-      "feature6": "Large format — 1200×3000 mm reduces joints",
-      "spec_Interior": "Drylining, ceilings, partitions",
-      "spec_Exterior": "Facade cladding, soffits"
+      "title": "Edifici commerciali",
+      "summary": "Rivestimento interno ed esterno per edifici commerciali, negozi, uffici e sviluppi a uso misto.",
+      "metaTitle": "Rivestimento in Fibrocemento per Edifici Commerciali | CE | Terasun Europe",
+      "metaDesc": "Terasun TSM per rivestimento edifici commerciali. Certificato CE, leggero, EPD per progetti LEED/BREEAM.",
+      "h1": "Pannello in fibrocemento per edifici commerciali",
+      "lead": "Rivestimento interno ed esterno per edifici commerciali che richiedono pannelli certificati CE e durevoli.",
+      "body1": "Terasun TSM è specificato per uffici, negozi, ospitalità e sviluppi a uso misto. La marcatura CE e l'EPD supportano la certificazione edilizia sostenibile.",
+      "body2": "La natura leggera del pannello riduce i carichi strutturali. I pannelli in formato grande fino a 1200×3000 mm riducono i giunti e i tempi di installazione.",
+      "featuresTitle": "Caratteristiche commerciali",
+      "feature1": "Certificato CE — documentazione obbligatoria per la specifica commerciale",
+      "feature2": "EPD disponibile — supporta i progetti LEED, BREEAM, DGNB",
+      "feature3": "Leggero — riduce i carichi strutturali",
+      "feature4": "Classe di fuoco — E120/EI90/EW120",
+      "feature5": "Interno ed esterno — singolo prodotto per la specifica di interi edifici",
+      "feature6": "Formato grande — 1200×3000 mm riduce i giunti",
+      "spec_Interior": "Isolamento a secco, controsoffitti, pareti divisorie",
+      "spec_Exterior": "Rivestimento di facciata, soffitti"
     },
     "steel-frame": {
-      "title": "Steel frame construction",
-      "summary": "Heavy-duty industrial sheathing and cladding for steel frame structures, warehouses, and industrial buildings.",
-      "metaTitle": "Fiber Cement Steel Frame Industrial | Heavy-Duty | Terasun Europe",
-      "metaDesc": "Terasun TSM for steel frame industrial sheathing. CE-certified, heavy-duty for warehouses and industrial buildings.",
-      "h1": "Fiber cement board for steel frame construction",
-      "lead": "Heavy-duty industrial sheathing for steel frame structures, warehouses, and industrial buildings.",
-      "body1": "Terasun TSM provides robust sheathing for steel frame industrial buildings. High density and impact resistance make it suitable for warehouse walls, industrial facades, and machine room cladding.",
-      "body2": "Compatible with standard steel stud systems at 400 mm or 600 mm spacing and direct fix to purlins.",
-      "featuresTitle": "Steel frame features",
-      "feature1": "Compatible with 400 mm and 600 mm steel stud spacing",
-      "feature2": "High impact resistance for industrial environments",
-      "feature3": "CE certified for commercial and industrial use",
-      "feature4": "Fire rated — E120/EI90/EW120",
-      "feature5": "Available up to 18 mm for heavy-duty loads",
-      "feature6": "Paintable surface for finished industrial aesthetics",
-      "spec_Industrial": "Warehouses, machine rooms",
-      "spec_Heavy-duty": "Direct fix to steel purlins"
+      "title": "Costruzione a telaio in acciaio",
+      "summary": "Rivestimento industriale e cladding di alta portata per strutture a telaio in acciaio, magazzini ed edifici industriali.",
+      "metaTitle": "Cemento Fibrorinforzato Telaio in Acciaio Industriale | Alta Portata | Terasun Europe",
+      "metaDesc": "Terasun TSM per rivestimento industriale a telaio in acciaio. Certificato CE, alta portata per magazzini e edifici industriali.",
+      "h1": "Pannello in cemento fibrorinforzato per costruzioni a telaio in acciaio",
+      "lead": "Rivestimento industriale di alta portata per strutture a telaio in acciaio, magazzini ed edifici industriali.",
+      "body1": "Terasun TSM fornisce rivestimento robusto per edifici industriali a telaio in acciaio. L'alta densità e la resistenza all'impatto lo rendono adatto per pareti di magazzini, facciate industriali e rivestimenti di locali tecnici.",
+      "body2": "Compatibile con sistemi standard di montanti in acciaio a spaziatura di 400 mm o 600 mm e fissaggio diretto ai travetti.",
+      "featuresTitle": "Caratteristiche per telaio in acciaio",
+      "feature1": "Compatibile con spaziatura dei montanti in acciaio di 400 mm e 600 mm",
+      "feature2": "Alta resistenza all'impatto per ambienti industriali",
+      "feature3": "Certificato CE per uso commerciale e industriale",
+      "feature4": "Classificazione antincendio — E120/EI90/EW120",
+      "feature5": "Disponibile fino a 18 mm per carichi pesanti",
+      "feature6": "Superficie verniciabile per un aspetto industriale rifinito",
+      "spec_Industrial": "Magazzini, locali tecnici",
+      "spec_Heavy-duty": "Fissaggio diretto ai travetti in acciaio"
     },
     "residential": {
-      "title": "Residential construction",
-      "summary": "Lightweight exterior and interior boards for timber frame and masonry residential buildings.",
-      "metaTitle": "Fiber Cement Board Residential Timber Frame | CE | Terasun Europe",
-      "metaDesc": "Terasun TSM for residential timber frame and masonry. CE-certified lightweight boards for houses and apartments.",
-      "h1": "Fiber cement board for residential construction",
-      "lead": "Lightweight exterior and interior boards for timber frame and masonry residential buildings.",
-      "body1": "Terasun TSM is widely used in residential construction for facade cladding, wet room substrates, and interior wall sheathing in timber frame and masonry builds.",
-      "body2": "Moisture resistance and fire performance make it suitable for all residential occupancy types, including multi-family apartments requiring fire-rated separation.",
-      "featuresTitle": "Residential features",
-      "feature1": "Lightweight — easy handling on residential sites",
-      "feature2": "Timber frame compatible — 400 mm and 600 mm stud spacing",
-      "feature3": "Moisture resistant — exterior and wet area use",
-      "feature4": "Fire rated — suitable for party wall fire separation",
-      "feature5": "CE certified for residential building regulations",
-      "feature6": "Wet room substrate — direct tile application in bathrooms",
-      "spec_Residential": "Houses, apartments, terraced",
-      "spec_Timber frame": "Timber stud at 400 / 600 mm"
+      "title": "Costruzione residenziale",
+      "summary": "Pannelli leggeri esterni e interni per edifici residenziali con struttura in legno e muratura.",
+      "metaTitle": "Pannello in Fibrocemento Residenziale Struttura Legno | CE | Terasun Europe",
+      "metaDesc": "Terasun TSM per strutture residenziali in legno e muratura. Pannelli leggeri certificati CE per case e appartamenti.",
+      "h1": "Pannello in fibrocemento per la costruzione residenziale",
+      "lead": "Pannelli leggeri esterni e interni per edifici residenziali con struttura in legno e muratura.",
+      "body1": "Terasun TSM è ampiamente utilizzato nella costruzione residenziale per rivestimenti di facciata, substrati per stanze umide e pannelli interni in strutture in legno e muratura.",
+      "body2": "La resistenza all'umidità e le prestazioni antincendio lo rendono adatto a tutti i tipi di occupazione residenziale, inclusi gli edifici multifamiliari che richiedono separazione antincendio.",
+      "featuresTitle": "Caratteristiche residenziali",
+      "feature1": "Leggero — facile movimentazione nei cantieri residenziali",
+      "feature2": "Compatibile con strutture in legno — interassi di 400 mm e 600 mm",
+      "feature3": "Resistente all'umidità — uso esterno e in aree umide",
+      "feature4": "Classificazione antincendio — adatto per la separazione antincendio tra muri condivisi",
+      "feature5": "Certificato CE secondo le normative edilizie residenziali",
+      "feature6": "Substrato per stanze umide — applicazione diretta di piastrelle nei bagni",
+      "spec_Residential": "Case, appartamenti, in linea",
+      "spec_Timber frame": "Struttura in legno a 400 / 600 mm"
     },
     "sidebarSpecs": "Specifiche",
     "sidebarQuote": "Richiedi preventivo",
@@ -532,9 +532,9 @@
     }
   },
   "distributors": {
-    "eyebrow": "Partnership programme",
-    "h1": "European distribution partnerships",
-    "sub": "Terasun Europe works with stocking distributors, importers, and project partners across all European markets.",
+    "eyebrow": "Programma di partnership",
+    "h1": "Partnership di distribuzione europea",
+    "sub": "Terasun Europe collabora con distributori, importatori e partner di progetto in tutti i mercati europei.",
     "benefits": {
       "margin": {
         "icon": "💰",
@@ -557,17 +557,17 @@
         "body": "Territory-based distribution agreements. Priority markets available now."
       }
     },
-    "mapTitle": "Markets across Europe",
+    "mapTitle": "Mercati in tutta Europa",
     "status": {
       "hq": "HQ — Finland",
       "active": "Active partner",
       "open": "Partner wanted",
       "available": "Available"
     },
-    "ctaTitle": "Apply for distribution in your country",
-    "ctaText": "We are actively seeking stocking distributors, importers, and project partners across Europe. Exclusive territory agreements available.",
-    "ctaApply": "Apply to become a distributor",
-    "ctaEmail": "Email us directly"
+    "ctaTitle": "Candidati per la distribuzione nel tuo paese",
+    "ctaText": "Stiamo cercando attivamente distributori, importatori e partner di progetto in tutta Europa. Sono disponibili accordi di territorio esclusivo.",
+    "ctaApply": "Candidati per diventare distributore",
+    "ctaEmail": "Contattaci direttamente via email"
   },
   "logistics": {
     "eyebrow": "Logistica e catena di approvvigionamento",
@@ -622,94 +622,94 @@
     "ctaFreight": "Richiedi preventivo di spedizione"
   },
   "gallery": {
-    "eyebrow": "Project gallery",
-    "h1": "Terasun TSM in use",
-    "sub": "Real installations across Europe — facade cladding, wet room systems, fire-rated partitions, and more.",
-    "cta": "Have a completed project using Terasun TSM? Send us your photos."
+    "eyebrow": "Galleria progetti",
+    "h1": "Terasun TSM in uso",
+    "sub": "Installazioni reali in tutta Europa — rivestimenti in facciata, sistemi per bagni umidi, pareti antincendio e altro.",
+    "cta": "Hai un progetto completato con Terasun TSM? Inviaci le tue foto."
   },
   "faq": {
     "eyebrow": "FAQ",
     "h1": "Domande frequenti",
     "sub": "Domande tecniche, commerciali e logistiche su Terasun TSM lastra in fibrocemento.",
     "ce": {
-      "question": "Does Terasun TSM have CE marking?",
-      "answer": "Yes. CE 1023-CPR-1565 P. The product complies with the EU Construction Products Regulation and carries CE marking for sale and use across the European Economic Area."
+      "question": "Ha Terasun TSM la marcatura CE?",
+      "answer": "Sì. CE 1023-CPR-1565 P. Il prodotto è conforme al Regolamento sui Prodotti da Costruzione dell'UE e porta la marcatura CE per la vendita e l'utilizzo in tutta l'Area Economica Europea."
     },
     "eta": {
-      "question": "Is there a European Technical Assessment (ETA)?",
-      "answer": "Yes. ETA 24/0895 has been issued by a designated ETA body. It independently confirms the product's performance characteristics for its intended uses. Full ETA available for download."
+      "question": "Esiste una valutazione tecnica europea (ETA)?",
+      "answer": "Sì. ETA 24/0895 è stata rilasciata da un organismo ETA designato. Conferma in modo indipendente le caratteristiche prestazionali del prodotto per i suoi usi previsti. ETA completo disponibile per il download."
     },
     "epd": {
-      "question": "Is there an EPD (Environmental Product Declaration)?",
-      "answer": "Yes. EPD-IES-0018268, published 2025-03-14, valid until 2029-03-14. ISO 14025 compliant. Declared unit: 1 m² at 12 mm, weight 9.96 kg/m². Supports LEED, BREEAM, and DGNB certification projects."
+      "question": "Esiste una dichiarazione ambientale del prodotto (EPD)?",
+      "answer": "Sì. EPD-IES-0018268, pubblicata il 2025-03-14, valida fino al 2029-03-14. Conforme a ISO 14025. Unità dichiarata: 1 m² a 12 mm, peso 9,96 kg/m². Supporta progetti di certificazione LEED, BREEAM e DGNB."
     },
     "weight": {
-      "question": "What is the declared weight of the board?",
-      "answer": "The declared weight per EPD-IES-0018268 is 9.96 kg/m² at 12 mm thickness. Thinner boards are proportionally lighter. Full thickness/weight table in the technical data sheet."
+      "question": "Qual è il peso dichiarato della tavola?",
+      "answer": "Il peso dichiarato secondo EPD-IES-0018268 è 9,96 kg/m² a 12 mm di spessore. Le tavole più sottili sono proporzionalmente più leggere. Tabella completa spessore/peso nel foglio tecnico."
     },
     "fire": {
-      "question": "What fire resistance does the board achieve?",
-      "answer": "The tested system achieves E 120 (integrity 120 min), EI 90 (integrity and insulation 90 min), and EW 120 (integrity and radiation limitation 120 min). Test reference: FIRES-CR-284-25-AUPE. These are system-level classifications — specify the tested system configuration."
+      "question": "Che resistenza al fuoco raggiunge la tavola?",
+      "answer": "Il sistema testato raggiunge E 120 (integrità 120 min), EI 90 (integrità e isolamento 90 min) e EW 120 (integrità e limitazione delle radiazioni 120 min). Riferimento del test: FIRES-CR-284-25-AUPE. Queste sono classificazioni a livello di sistema: specificare la configurazione del sistema testato."
     },
     "wetroom": {
-      "question": "Can Terasun TSM be used in wet rooms?",
-      "answer": "Yes. Approved as a tile backing substrate in Mapei and Schönox wet room systems. Dimensionally stable, moisture-resistant substrate for bathrooms, showers, and commercial kitchens."
+      "question": "Terasun TSM può essere utilizzato in bagni umidi?",
+      "answer": "Sì. Approvato come substrato di supporto per piastrelle nei sistemi per bagni umidi Mapei e Schönox. Substrato dimensionalmente stabile e resistente all'umidità per bagni, docce e cucine commerciali."
     },
     "facade": {
-      "question": "Can the board be used for exterior facade cladding?",
-      "answer": "Yes. Specified as the facade board in CBSS and CBMV ventilated facade systems. Can also be used as a render carrier. Suitable for all European climate zones."
+      "question": "La tavola può essere utilizzata per il rivestimento di facciate esterne?",
+      "answer": "Sì. Specificato come tavola di facciata nei sistemi di facciata ventilata CBSS e CBMV. Può anche essere utilizzato come supporto per intonaco. Adatto per tutte le zone climatiche europee."
     },
     "asbestos": {
-      "question": "Is the board asbestos-free?",
-      "answer": "Yes. Terasun TSM is completely asbestos-free. The board uses Portland cement with inorganic binders and fibreglass mesh reinforcement. REACH SVHC declaration confirming no SVHC above 0.1% w/w is available."
+      "question": "La tavola è priva di amianto?",
+      "answer": "Sì. Terasun TSM è completamente privo di amianto. La tavola utilizza cemento Portland con leganti inorganici e rinforzo in mesh di fibra di vetro. È disponibile una dichiarazione REACH SVHC che conferma l'assenza di SVHC sopra lo 0,1% w/w."
     },
     "moq": {
-      "question": "What is the minimum order quantity?",
-      "answer": "Minimum order is typically one 20-foot container (approx. 1,600–2,200 m² depending on thickness). Smaller quantities may be available from Finnish warehouse stock. Contact us for availability."
+      "question": "Qual è la quantità minima di ordine?",
+      "answer": "L'ordine minimo è tipicamente un contenitore da 20 piedi (circa 1.600–2.200 m² a seconda dello spessore). Quantità più piccole potrebbero essere disponibili dalle scorte del magazzino finlandese. Contattaci per la disponibilità."
     },
     "samples": {
-      "question": "Are samples available before placing an order?",
-      "answer": "Yes. Physical samples and documentation packs are available to qualified distributors, architects, and contractors. Contact us to request a sample pack including board, TDS, CE certificate, and ETA."
+      "question": "Sono disponibili campioni prima di effettuare un ordine?",
+      "answer": "Sì. Campioni fisici e pacchetti di documentazione sono disponibili per distributori qualificati, architetti e appaltatori. Contattaci per richiedere un pacchetto di campioni che include la tavola, TDS, certificato CE e ETA."
     },
     "leadtime": {
-      "question": "How long does delivery take?",
-      "answer": "Container orders take approximately 6–10 weeks from order confirmation to European port delivery. DDP warehouse delivery adds 1–2 weeks. Finnish stock: 1–2 weeks."
+      "question": "Quanto tempo richiede la consegna?",
+      "answer": "Gli ordini in container richiedono approssimativamente 6–10 settimane dalla conferma dell'ordine alla consegna al porto europeo. La consegna in magazzino DDP aggiunge 1–2 settimane. Stock finlandese: 1–2 settimane."
     },
     "origin": {
-      "question": "Where is the product manufactured?",
-      "answer": "Manufactured by Zhejiang Terasun Air Duct Co., Ltd. in Zhejiang Province, People's Republic of China. Terasun Europe is the Authorised European Representative responsible for CE documentation and EU market compliance."
+      "question": "Dove viene prodotto il prodotto?",
+      "answer": "Prodotto da Zhejiang Terasun Air Duct Co., Ltd. nella provincia dello Zhejiang, Repubblica Popolare Cinese. Terasun Europe è il Rappresentante Europeo Autorizzato responsabile della documentazione CE e della conformità al mercato UE."
     },
     "whoIsTerasun": {
-      "question": "What is Terasun Europe?",
-      "answer": "Terasun Europe is the Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd., based in Vantaa, Finland. We manage CE documentation, EU market compliance, and European customer relationships. We are not the manufacturer of Terasun products."
+      "question": "Che cosa è Terasun Europe?",
+      "answer": "Terasun Europe è il Rappresentante Europeo Autorizzato per Zhejiang Terasun Air Duct Co., Ltd., con sede a Vantaa, Finlandia. Gestiamo la documentazione CE, la conformità al mercato UE e le relazioni con i clienti europei. Non siamo il produttore dei prodotti Terasun."
     },
     "authorisation": {
-      "question": "Is there an authorisation letter from the manufacturer?",
-      "answer": "Yes. Official authorisation letter from Zhejiang Terasun Air Duct Co., Ltd. confirming Terasun Europe as the Authorised European Representative is available for review."
+      "question": "È disponibile una lettera di autorizzazione dal produttore?",
+      "answer": "Sì. La lettera di autorizzazione ufficiale da Zhejiang Terasun Air Duct Co., Ltd. che conferma Terasun Europe come Rappresentante Europeo Autorizzato è disponibile per la revisione."
     },
     "distributor": {
-      "question": "Can I become a distributor in my country?",
-      "answer": "Yes. We are actively seeking stocking distributors and project partners across Europe. Territory-based agreements, competitive margins, documentation support, and technical training. Contact us to discuss."
+      "question": "Posso diventare un distributore nel mio paese?",
+      "answer": "Sì. Stiamo cercando attivamente distributori di stock e partner di progetto in tutta Europa. Accordi basati sul territorio, margini competitivi, supporto documentale e formazione tecnica. Contattaci per discutere."
     },
     "openMarkets": {
-      "question": "Which countries are open for distribution?",
-      "answer": "Germany, Netherlands, Belgium, France, Spain, Portugal, Italy, Austria, Switzerland, Poland, Czech Republic, Slovakia, Hungary, and others are open for new distribution partners. Contact us for territory availability."
+      "question": "Quali paesi sono aperti alla distribuzione?",
+      "answer": "Germania, Paesi Bassi, Belgio, Francia, Spagna, Portogallo, Italia, Austria, Svizzera, Polonia, Repubblica Ceca, Slovacchia, Ungheria e altri sono aperti per nuovi partner di distribuzione. Contattaci per verificare la disponibilità territoriale."
     },
     "studSpacing": {
-      "question": "What stud spacing is required?",
-      "answer": "Compatible with 400 mm and 600 mm stud spacing in both timber and steel frame systems. Specific recommendations depend on board thickness, orientation, and load — refer to the technical data sheet."
+      "question": "Quale distanza tra i montanti è richiesta?",
+      "answer": "Compatibile con distanza tra i montanti di 400 mm e 600 mm in sistemi sia a telaio in legno che in acciaio. Le raccomandazioni specifiche dipendono dallo spessore della tavola, dall'orientamento e dal carico — fare riferimento al foglio di dati tecnici."
     },
     "training": {
-      "question": "Is technical training available for distributors?",
-      "answer": "Yes. Technical product training, installation guidance, and documentation support are available to registered distributors. Training can be delivered on-site or remotely."
+      "question": "È disponibile formazione tecnica per i distributori?",
+      "answer": "Sì. Formazione tecnica sui prodotti, guida all'installazione e supporto alla documentazione sono disponibili per i distributori registrati. La formazione può essere erogata in loco o in remoto."
     },
     "publicProjects": {
-      "question": "Can Terasun TSM be used on public and infrastructure projects?",
-      "answer": "Yes. CE, ETA, DoP, EPD, and fire test documentation meets the requirements of public sector procurement across Europe. Full documentation packs available for specification and tender submission."
+      "question": "Terasun TSM può essere utilizzato su progetti pubblici e infrastrutturali?",
+      "answer": "Sì. La documentazione CE, ETA, DoP, EPD e i test antincendio soddisfano i requisiti degli appalti del settore pubblico in tutta Europa. Pacchetti di documentazione completi disponibili per la specifica e la presentazione delle offerte."
     },
     "cuttingTools": {
-      "question": "What cutting tools are needed for installation?",
-      "answer": "Terasun TSM can be cut with a circular saw or angle grinder fitted with a fibre cement or diamond blade. Score-and-snap for straight cuts on thinner boards. Wear a dust mask and eye protection. Full guidance in the installation manual."
+      "question": "Quali attrezzi di taglio sono necessari per l'installazione?",
+      "answer": "Terasun TSM può essere tagliato con una sega circolare o una smerigliatrice angolare munita di lama in cemento fibrato o diamantata. Traccia e spezza per tagli dritti su tavole più sottili. Indossare una mascherina antipolvere e protezione per gli occhi. Guida completa nel manuale di installazione."
     }
   },
   "contact": {
@@ -725,9 +725,9 @@
     "notMfrNote": "Terasun Europe è esclusivamente il Rappresentante Europeo Autorizzato. Non siamo il produttore dei prodotti Terasun."
   },
   "installation": {
-    "eyebrow": "Installation guide",
-    "h1": "Installing Terasun TSM fiber cement board",
-    "sub": "Complete contractor guide — tools, cutting, fastening, joints, weather protection, and finishing.",
+    "eyebrow": "Guida all'installazione",
+    "h1": "Installazione della lastra in fibrocemento Terasun TSM",
+    "sub": "Guida completa per l'appaltatore — strumenti, taglio, fissaggio, giunti, protezione dalle intemperie e finitura.",
     "features": {
       "tools": {
         "icon": "🔧",
@@ -760,8 +760,8 @@
         "body": "Prime with alkali-resistant primer before paint or render. Compatible with mineral, silicone, and acrylic finishes. Interior surfaces can be directly tiled with polymer-modified adhesive."
       }
     },
-    "downloadTitle": "Download the installation manual",
-    "downloadText": "Full installation guidance including system drawings, fixing patterns, and substrate requirements."
+    "downloadTitle": "Scarica il manuale di installazione",
+    "downloadText": "Guida completa all'installazione inclusa disegni di sistema, modelli di fissaggio e requisiti del substrato."
   },
   "footer": {
     "brand": "TERASUN",
@@ -794,7 +794,7 @@
     "loginLink": "Sign in"
   },
   "markets": {
-    "eyebrow": "European market",
+    "eyebrow": "Mercato europeo",
     "country_features": {
       "certifications": {
         "title": "Full CE documentation",
@@ -813,9 +813,9 @@
         "body": "Exclusive territory distribution available. Competitive margins and full technical support."
       }
     },
-    "ctaQuote": "Request quotation for",
-    "ctaPartner": "Become a distributor",
-    "marketInfo": "Market information",
+    "ctaQuote": "Richiedi preventivo per",
+    "ctaPartner": "Diventa un distributore",
+    "marketInfo": "Informazioni di mercato",
     "finland": {
       "metaTitle": "Fiber Cement Board Finland | Terasun TSM | CE & ETA | Terasun Europe",
       "metaDesc": "CE-certified Terasun TSM fiber cement board in Finland. Based in Vantaa. Supply to Finnish contractors, architects, and distributors.",
