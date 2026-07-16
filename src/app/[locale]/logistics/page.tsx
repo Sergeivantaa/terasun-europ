@@ -84,7 +84,7 @@ export default async function LogisticsPage({ params }: { params: Promise<{ loca
           <h2 className="text-xl font-bold text-[#132238] mb-4">{t('incotermsTitle')}</h2>
           <div className="flex flex-wrap gap-3">
             {['EXW', 'FOB', 'CFR', 'CIF', 'DAP', 'DDP'].map(term => (
-              <span key={term} className="cert-badge text-sm px-4 py-1.5">{term}</span>
+              <span key={term} className="text-xs font-bold tracking-wider rounded px-3 py-1.5 text-[#245A85] bg-[#E8F1F8] border border-[#245A85]/25">{term}</span>
             ))}
           </div>
           <p className="text-[#4A5B6D] text-sm mt-3">{t('incotermsNote')}</p>
