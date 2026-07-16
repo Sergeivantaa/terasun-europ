@@ -3,41 +3,34 @@
 @tailwind utilities;
 
 @layer base {
-  /* ── Design tokens (light default) ── */
   :root {
     --gold: #B45309;
     --gold2: #F59E0B;
     --gold-light: #FEF3C7;
     --gold-border: #FDE68A;
+    --accent: #2563EB;
 
-    /* Text color tokens — overridden by dark-bg contexts */
-    --title-color: #111827;
+    /* Text tokens — context-aware */
+    --title-color: #0F172A;
     --body-color:  #374151;
-    --muted-color: #6B7280;
-    --tag-color:   #B45309;
+    --muted-color: #64748B;
+    --tag-color:   #1D4ED8;   /* blue tags on light sections */
   }
 
-  /* Dark-background sections override text tokens automatically */
-  .bg-dark,
-  .bg-darker,
-  .section-dark {
-    --title-color: #F9FAFB;
-    --body-color:  #D1D5DB;
-    --muted-color: #9CA3AF;
-    --tag-color:   #F59E0B;
+  .bg-dark, .bg-darker, .section-dark {
+    --title-color: #F1F5F9;
+    --body-color:  #CBD5E1;
+    --muted-color: #94A3B8;
+    --tag-color:   #F59E0B;   /* gold tags on dark sections */
   }
 
-  html {
-    scroll-behavior: smooth;
-  }
+  html { scroll-behavior: smooth; }
 
   body {
     @apply bg-page text-gray-800 font-sans antialiased;
   }
 
-  * {
-    box-sizing: border-box;
-  }
+  * { box-sizing: border-box; }
 
   @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {
@@ -53,19 +46,24 @@
     @apply max-w-content mx-auto px-4 sm:px-6 lg:px-8;
   }
 
-  /* Section variants */
-  .section-light { @apply bg-white; }
-  .section-alt   { @apply bg-page; }
-  .section-dark  { @apply bg-dark; }
+  /* ── Section backgrounds ── */
+  .section-light  { @apply bg-white; }
+  .section-alt    { @apply bg-page; }
+  .section-dark   { @apply bg-dark; }
 
-  /* ── Typography utilities (context-aware via CSS vars) ── */
+  /* ── Typography — context-aware via CSS vars ── */
   .stag {
-    @apply text-xs font-bold tracking-widest uppercase mb-3;
+    @apply text-[11px] font-bold tracking-[0.18em] uppercase mb-3;
     color: var(--tag-color);
   }
 
   .stitle {
-    @apply text-2xl sm:text-3xl font-bold leading-tight mb-4;
+    @apply text-2xl sm:text-3xl font-bold leading-tight mb-4 tracking-tight;
+    color: var(--title-color);
+  }
+
+  .stitle-xl {
+    @apply text-3xl sm:text-4xl lg:text-5xl font-black leading-[1.1] mb-6 tracking-tight;
     color: var(--title-color);
   }
 
@@ -75,130 +73,122 @@
   }
 
   .rule {
-    @apply w-12 h-0.5 mb-8;
-    background-color: var(--gold);
+    @apply w-10 h-0.5 mb-8;
+    background: linear-gradient(90deg, var(--accent) 0%, transparent 100%);
   }
 
   /* ── Buttons ── */
   .btn-primary {
-    @apply relative overflow-hidden inline-flex items-center gap-2 bg-gold text-white font-semibold px-5 py-2.5 rounded text-sm
-           hover:bg-amber-700 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold;
+    @apply relative overflow-hidden inline-flex items-center gap-2 bg-accent text-white font-semibold px-5 py-2.5 rounded-lg text-sm
+           transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent;
   }
+  .btn-primary:hover { background-color: #1D4ED8; transform: translateY(-1px); }
   .btn-primary::after {
     content: '';
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(105deg, transparent 40%, rgba(255,255,255,0.18) 50%, transparent 60%);
+    position: absolute; inset: 0;
+    background: linear-gradient(105deg, transparent 40%, rgba(255,255,255,0.16) 50%, transparent 60%);
     transform: translateX(-100%);
-    transition: transform 0.45s ease;
+    transition: transform 0.42s ease;
     pointer-events: none;
   }
-  .btn-primary:hover::after {
-    transform: translateX(100%);
-  }
+  .btn-primary:hover::after { transform: translateX(100%); }
 
   .btn-secondary {
-    @apply inline-flex items-center gap-2 border border-gray-300 text-gray-700 font-medium px-5 py-2.5 rounded text-sm
-           hover:border-gray-500 hover:text-gray-900 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-400;
+    @apply inline-flex items-center gap-2 border border-gray-300 text-gray-700 font-medium px-5 py-2.5 rounded-lg text-sm
+           hover:border-gray-500 hover:text-gray-900 transition-all duration-200
+           focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-400;
   }
-  .btn-secondary:hover {
-    transform: translateY(-1px);
-  }
+  .btn-secondary:hover { transform: translateY(-1px); }
 
   /* btn-secondary inside dark sections */
-  .bg-dark .btn-secondary,
-  .bg-darker .btn-secondary,
-  .section-dark .btn-secondary {
-    @apply border-gray-600 text-gray-300 hover:border-gray-400 hover:text-white;
+  .bg-dark .btn-secondary, .bg-darker .btn-secondary, .section-dark .btn-secondary {
+    @apply border-slate-600 text-slate-300 hover:border-slate-400 hover:text-white;
+  }
+
+  /* Outline blue button variant */
+  .btn-outline-accent {
+    @apply inline-flex items-center gap-2 border border-accent text-accent font-medium px-5 py-2.5 rounded-lg text-sm
+           hover:bg-accent hover:text-white transition-all duration-200;
   }
 
   /* ── Cards ── */
   .card-gold {
-    @apply bg-white border border-gray-200 rounded-lg p-5 shadow-sm;
+    @apply bg-card border border-border rounded-xl p-5;
   }
 
   /* ── Badges ── */
   .cert-badge {
-    @apply text-xs font-bold tracking-wider text-gold bg-amber-50 border border-amber-200 rounded px-2 py-0.5;
+    @apply text-[10px] font-bold tracking-wider text-gold bg-amber-950/60 border border-gold/30 rounded px-2 py-0.5;
   }
 
   /* ── Form inputs ── */
   .form-input {
     @apply w-full bg-white border border-gray-300 rounded-lg px-4 py-2.5 text-sm text-gray-900 placeholder-gray-400
-           focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold/40 transition-colors;
+           focus:outline-none focus:border-accent focus:ring-1 focus:ring-accent/40 transition-colors;
   }
 
   .popup-input {
-    @apply w-full bg-dark border border-border-dark rounded-md px-3 py-2 text-sm text-white placeholder-gray-600
-           focus:outline-none focus:border-gold/50 focus:ring-1 focus:ring-gold/30 transition-colors;
+    @apply w-full bg-dark border border-border rounded-md px-3 py-2 text-sm text-white placeholder-gray-600
+           focus:outline-none focus:border-accent/60 focus:ring-1 focus:ring-accent/30 transition-colors;
   }
 
   /* ── Scroll reveal ── */
   .reveal {
     opacity: 0;
-    transform: translateY(22px);
+    transform: translateY(24px);
     transition: opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1),
                 transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
   }
-  .reveal.visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
 
-  /* ── Card hover lift ── */
+  /* ── Card hover lifts ── */
   .card-lift {
-    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),
-                box-shadow 0.25s ease,
-                border-color 0.2s ease;
+    transition: transform 0.25s cubic-bezier(0.16,1,0.3,1), box-shadow 0.25s ease, border-color 0.2s ease;
   }
   .card-lift:hover {
     transform: translateY(-4px);
-    box-shadow: 0 16px 40px -8px rgba(0, 0, 0, 0.18);
+    box-shadow: 0 16px 48px -8px rgba(0,0,0,0.14);
   }
   .dark-card-lift {
-    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),
-                box-shadow 0.25s ease,
-                border-color 0.2s ease;
+    transition: transform 0.25s cubic-bezier(0.16,1,0.3,1), box-shadow 0.25s ease, border-color 0.2s ease;
   }
   .dark-card-lift:hover {
     transform: translateY(-4px);
-    border-color: rgba(245, 158, 11, 0.35) !important;
-    box-shadow: 0 16px 40px -8px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(245, 158, 11, 0.15);
+    border-color: rgba(37,99,235,0.4) !important;
+    box-shadow: 0 16px 48px -8px rgba(0,0,0,0.4), 0 0 0 1px rgba(37,99,235,0.15);
   }
+
+  /* ── Page hero band (inner pages) ── */
+  .page-hero {
+    @apply bg-dark border-b border-border py-14 lg:py-20;
+  }
+  .page-hero .stag   { color: var(--tag-color); }
+  .page-hero .stitle { color: #F1F5F9; }
+  .page-hero .ssub   { color: #CBD5E1; }
 }
 
-/* ── Animation keyframes (outside layers for global scope) ── */
+/* ── Keyframes ── */
+@keyframes heroFade {
+  from { opacity: 0; transform: translateY(18px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
 @keyframes dropdownIn {
   from { opacity: 0; transform: translateY(-8px) scale(0.97); }
   to   { opacity: 1; transform: translateY(0) scale(1); }
 }
-
+@keyframes mobileItemIn {
+  from { opacity: 0; transform: translateX(-10px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
 @keyframes mobileItemIn {
   from { opacity: 0; transform: translateX(-10px); }
   to   { opacity: 1; transform: translateX(0); }
 }
 
-@keyframes fadeIn {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
+.animate-mobile-item { animation: mobileItemIn 0.3s cubic-bezier(0.16,1,0.3,1) both; }
 
-@keyframes heroFade {
-  from { opacity: 0; transform: translateY(16px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-
-.animate-dropdown {
-  animation: dropdownIn 0.18s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-  transform-origin: top center;
-}
-
-.animate-mobile-item {
-  animation: mobileItemIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) both;
-}
-
-.animate-hero-1 { animation: heroFade 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both; }
-.animate-hero-2 { animation: heroFade 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both; }
-.animate-hero-3 { animation: heroFade 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.35s both; }
-.animate-hero-4 { animation: heroFade 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.5s both; }
-.animate-hero-5 { animation: heroFade 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.65s both; }
+.animate-hero-1 { animation: heroFade 0.7s cubic-bezier(0.16,1,0.3,1) 0.05s both; }
+.animate-hero-2 { animation: heroFade 0.7s cubic-bezier(0.16,1,0.3,1) 0.18s both; }
+.animate-hero-3 { animation: heroFade 0.7s cubic-bezier(0.16,1,0.3,1) 0.32s both; }
+.animate-hero-4 { animation: heroFade 0.7s cubic-bezier(0.16,1,0.3,1) 0.46s both; }
+.animate-hero-5 { animation: heroFade 0.7s cubic-bezier(0.16,1,0.3,1) 0.58s both; }

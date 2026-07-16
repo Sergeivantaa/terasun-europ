@@ -10,28 +10,31 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Nav, footer, hero sections
-        dark:     '#111318',
-        darker:   '#0D0F14',
-        // Light page background
-        page:     '#F5F6F8',
-        // Gold accent — amber-orange, works on both light and dark
+        // ── Dark/navy (all dark sections) ──
+        dark:     '#0C1929',
+        darker:   '#080F1A',
+        // ── Blue accent — primary CTA, replaces orange as lead color ──
+        accent:        '#2563EB',
+        'accent-dark': '#1D4ED8',
+        'accent-light':'#EFF6FF',
+        // ── Gold — secondary only: cert badges, cert numbers ──
         gold:     '#B45309',
         gold2:    '#F59E0B',
         'gold-light':   '#FEF3C7',
         'gold-border':  '#FDE68A',
-        // Utility
-        muted:    '#6B7280',
-        light:    '#9CA3AF',
-        // Dark borders (backward compat — most pages use these inside dark sections)
-        border:       '#2d3040',
-        'border-dark': '#1F2937',
-        // Dark cards (backward compat)
-        card:        '#1C1F2B',
-        'card-dark': '#1C1F2B',
-        // Light-section tokens
+        // ── Page backgrounds ──
+        page:     '#F4F7FB',
+        // ── Utility text ──
+        muted:    '#64748B',
+        light:    '#94A3B8',
+        // ── Dark-section borders + cards (navy tint) ──
+        border:       '#1E3A57',
+        'border-dark': '#162E47',
+        card:        '#0F2135',
+        'card-dark': '#0F2135',
+        // ── Light-section tokens ──
         surface:      '#FFFFFF',
-        'border-light': '#E5E7EB',
+        'border-light': '#D1DCF0',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
