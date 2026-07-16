@@ -40,12 +40,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 }
 
-const HERO_CERTS = [
-  { label: 'CE Marking',       val: PRODUCT.ce,        note: 'Construction Products Regulation' },
-  { label: 'ETA',              val: PRODUCT.eta,       note: 'European Technical Assessment' },
-  { label: 'Fire Resistance',  val: PRODUCT.fireClass, note: PRODUCT.fireReport },
-  { label: 'EPD',              val: PRODUCT.epd,       note: `Valid until ${PRODUCT.epdValidUntil}` },
-]
+// HERO_CERTS labels are rendered inline with translation calls below
 
 export default async function HomePage({ params }: Props) {
   const { locale } = await params
@@ -54,6 +49,9 @@ export default async function HomePage({ params }: Props) {
   const about = await getTranslations({ locale, namespace: 'about' })
   const auth = await getTranslations({ locale, namespace: 'authorised' })
   const nav = await getTranslations({ locale, namespace: 'nav' })
+  const home = await getTranslations({ locale, namespace: 'home' })
+  const apps = await getTranslations({ locale, namespace: 'applications' })
+  const certs = await getTranslations({ locale, namespace: 'certifications' })
 
   const navHref = (path: string) => `/${locale}${path}`
 
@@ -99,8 +97,13 @@ export default async function HomePage({ params }: Props) {
             {/* Cert grid */}
             <div>
               <div className="grid grid-cols-2 gap-3 mb-4">
-                {HERO_CERTS.map((c) => (
-                  <div key={c.label} className="bg-card-dark border border-border-dark rounded-lg p-4">
+                {[
+                  { label: certs('ce.label'),    val: PRODUCT.ce,        note: certs('ce.badge') },
+                  { label: certs('eta.label'),   val: PRODUCT.eta,       note: certs('eta.badge') },
+                  { label: home('certLabelFire'), val: PRODUCT.fireClass, note: PRODUCT.fireReport },
+                  { label: certs('epd.label'),   val: PRODUCT.epd,       note: certs('epd.badge') },
+                ].map((c) => (
+                  <div key={c.val} className="bg-card-dark border border-border-dark rounded-lg p-4">
                     <div className="text-[10px] font-bold tracking-widest text-gray-400 uppercase mb-1">{c.label}</div>
                     <div className="text-sm font-bold text-gold2 mb-1">{c.val}</div>
                     <div className="text-[11px] text-gray-500">{c.note}</div>
@@ -203,17 +206,17 @@ export default async function HomePage({ params }: Props) {
         <div className="container-page">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="stag">Product</p>
-              <h2 className="stitle">Terasun TSM lightweight cement board</h2>
+              <p className="stag">{home('productStag')}</p>
+              <h2 className="stitle">{home('productTitle')}</h2>
               <div className="rule" aria-hidden="true"/>
               <p className="text-base leading-relaxed mb-6" style={{color:'var(--body-color)'}}>
-                A lightweight cement-based panel reinforced with fibreglass mesh, designed for structural performance, moisture resistance, and fire safety. CE-certified, ETA-approved, asbestos-free.
+                {home('productDesc')}
               </p>
               <div className="grid grid-cols-3 gap-3 mb-6">
                 {[
-                  { label: 'Weight', val: `${PRODUCT.weightKgM2} kg/m²` },
-                  { label: 'Thickness', val: `${PRODUCT.thickness} mm` },
-                  { label: 'Standard size', val: `${PRODUCT.width}×${PRODUCT.length}` },
+                  { label: home('labelWeight'), val: `${PRODUCT.weightKgM2} kg/m²` },
+                  { label: home('labelThickness'), val: `${PRODUCT.thickness} mm` },
+                  { label: home('labelSize'), val: `${PRODUCT.width}×${PRODUCT.length}` },
                 ].map((s) => (
                   <div key={s.label} className="bg-card-dark border border-border-dark rounded-lg p-3 text-center">
                     <div className="text-base font-bold text-gold2">{s.val}</div>
@@ -222,8 +225,8 @@ export default async function HomePage({ params }: Props) {
                 ))}
               </div>
               <div className="flex gap-3">
-                <Link href={navHref('/products')} className="btn-primary text-sm">View full specs →</Link>
-                <Link href={navHref('/certifications')} className="btn-secondary text-sm">Certifications</Link>
+                <Link href={navHref('/products')} className="btn-primary text-sm">{home('btnSpecs')} →</Link>
+                <Link href={navHref('/certifications')} className="btn-secondary text-sm">{nav('certifications')}</Link>
               </div>
             </div>
             <div className="grid grid-cols-2 gap-3">
@@ -243,14 +246,14 @@ export default async function HomePage({ params }: Props) {
       {/* ── MANUFACTURER ── */}
       <section className="bg-white py-16 lg:py-20" id="manufacturer">
         <div className="container-page">
-          <p className="stag">Manufacturer</p>
+          <p className="stag">{home('mfrStag')}</p>
           <h2 className="stitle">{MANUFACTURER.name}</h2>
           <div className="rule" aria-hidden="true"/>
           <div className="grid lg:grid-cols-3 gap-6">
             {[
-              { label: 'Founded', val: MANUFACTURER.founded },
-              { label: 'Country', val: MANUFACTURER.country },
-              { label: 'Website', val: MANUFACTURER.websiteDisplay, href: MANUFACTURER.website },
+              { label: home('labelFounded'), val: MANUFACTURER.founded },
+              { label: home('labelCountry'), val: MANUFACTURER.country },
+              { label: home('labelWebsite'), val: MANUFACTURER.websiteDisplay, href: MANUFACTURER.website },
             ].map((s) => (
               <div key={s.label} className="bg-page border border-gray-200 rounded-lg p-5">
                 <div className="text-xs text-gray-500 mb-1">{s.label}</div>
@@ -262,8 +265,8 @@ export default async function HomePage({ params }: Props) {
             ))}
           </div>
           <p className="text-sm text-gray-500 mt-4">
-            Terasun Europe is not the manufacturer. We act as the Authorised European Representative managing CE/ETA documentation and European distribution.{' '}
-            <Link href={navHref('/manufacturer')} className="text-gold hover:text-amber-700 transition-colors">Learn more →</Link>
+            {home('mfrNote')}{' '}
+            <Link href={navHref('/manufacturer')} className="text-gold hover:text-amber-700 transition-colors">{nav('manufacturer')} →</Link>
           </p>
         </div>
       </section>
@@ -271,21 +274,21 @@ export default async function HomePage({ params }: Props) {
       {/* ── APPLICATIONS ── */}
       <section className="bg-page py-16 lg:py-20" id="applications">
         <div className="container-page">
-          <p className="stag">Applications</p>
-          <h2 className="stitle">Cement board applications</h2>
+          <p className="stag">{home('appStag')}</p>
+          <h2 className="stitle">{home('appTitle')}</h2>
           <div className="rule" aria-hidden="true"/>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
             {[
-              { icon: '🏗️', title: 'Facade systems',          href: '/applications/facade-systems',    tags: ['Ventilated', 'All climates'] },
-              { icon: '🔥', title: 'Fire protection',          href: '/applications/fire-protection',   tags: ['E 120', 'EI 90', 'EW 120'] },
-              { icon: '🚿', title: 'Wet rooms',                href: '/applications/wet-rooms',         tags: ['Mapei', 'Schönox'] },
-              { icon: '🏢', title: 'Commercial buildings',     href: '/applications/commercial-buildings', tags: ['Interior', 'Exterior'] },
-              { icon: '🏭', title: 'Steel-frame construction', href: '/applications/steel-frame',       tags: ['Industrial', '400/600 mm'] },
-              { icon: '🏠', title: 'Residential',             href: '/applications/residential',        tags: ['Timber frame'] },
+              { icon: '🏗️', slug: 'facade-systems',    tags: ['Ventilated', 'All climates'] },
+              { icon: '🔥', slug: 'fire-protection',   tags: ['E 120', 'EI 90', 'EW 120'] },
+              { icon: '🚿', slug: 'wet-rooms',         tags: ['Mapei', 'Schönox'] },
+              { icon: '🏢', slug: 'commercial-buildings', tags: ['Interior', 'Exterior'] },
+              { icon: '🏭', slug: 'steel-frame',       tags: ['Industrial', '400/600 mm'] },
+              { icon: '🏠', slug: 'residential',       tags: ['Timber frame'] },
             ].map((app) => (
-              <Link key={app.href} href={navHref(app.href)} className="bg-white border border-gray-200 rounded-lg p-5 hover:border-gold/60 hover:shadow-md transition-all group">
+              <Link key={app.slug} href={navHref(`/applications/${app.slug}`)} className="bg-white border border-gray-200 rounded-lg p-5 hover:border-gold/60 hover:shadow-md transition-all group">
                 <div className="text-2xl mb-3">{app.icon}</div>
-                <h3 className="text-sm font-semibold text-gray-900 mb-2 group-hover:text-gold transition-colors">{app.title}</h3>
+                <h3 className="text-sm font-semibold text-gray-900 mb-2 group-hover:text-gold transition-colors">{apps(`${app.slug}.title`)}</h3>
                 <div className="flex flex-wrap gap-1">
                   {app.tags.map((tag) => (
                     <span key={tag} className="text-[11px] bg-gray-100 text-gray-500 px-2 py-0.5 rounded">{tag}</span>
@@ -295,7 +298,7 @@ export default async function HomePage({ params }: Props) {
             ))}
           </div>
           <Link href={navHref('/applications')} className="btn-secondary text-sm">
-            All applications →
+            {home('btnAllApps')} →
           </Link>
         </div>
       </section>
@@ -303,15 +306,15 @@ export default async function HomePage({ params }: Props) {
       {/* ── CERTIFICATIONS HIGHLIGHTS ── */}
       <section className="bg-darker py-16 lg:py-20" id="certifications">
         <div className="container-page">
-          <p className="stag">Certifications</p>
-          <h2 className="stitle">Full European certification documentation</h2>
+          <p className="stag">{home('certStag')}</p>
+          <h2 className="stitle">{home('certTitle')}</h2>
           <div className="rule" aria-hidden="true"/>
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
             {[
-              { icon: '🏷️', label: 'CE Marking',     ref: PRODUCT.ce },
-              { icon: '📋', label: 'ETA',             ref: PRODUCT.eta },
-              { icon: '📄', label: 'Fire Resistance', ref: PRODUCT.fireClass },
-              { icon: '🌿', label: 'EPD',             ref: PRODUCT.epd },
+              { icon: '🏷️', label: home('certLabelCE'),   ref: PRODUCT.ce },
+              { icon: '📋', label: home('certLabelETA'),  ref: PRODUCT.eta },
+              { icon: '📄', label: home('certLabelFire'), ref: PRODUCT.fireClass },
+              { icon: '🌿', label: home('certLabelEPD'),  ref: PRODUCT.epd },
             ].map((c) => (
               <div key={c.ref} className="bg-card-dark border border-border-dark rounded-lg p-4">
                 <div className="text-xl mb-2">{c.icon}</div>
@@ -320,7 +323,7 @@ export default async function HomePage({ params }: Props) {
               </div>
             ))}
           </div>
-          <Link href={navHref('/certifications')} className="btn-secondary text-sm">All certifications →</Link>
+          <Link href={navHref('/certifications')} className="btn-secondary text-sm">{home('btnAllCerts')} →</Link>
         </div>
       </section>
 
@@ -328,23 +331,23 @@ export default async function HomePage({ params }: Props) {
       <section className="bg-white py-16 lg:py-20">
         <div className="container-page">
           <div className="bg-dark border border-border-dark rounded-xl p-8 lg:p-12 text-center">
-            <p className="stag text-center">Partnership</p>
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">Become a European distributor</h2>
+            <p className="stag text-center">{home('distStag')}</p>
+            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">{home('distTitle')}</h2>
             <p className="text-gray-400 max-w-xl mx-auto mb-8 leading-relaxed">
-              Most European markets are open. We work with stocking distributors, building panel suppliers, and project-based buyers across the EU and EEA.
+              {home('distDesc')}
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-8">
               {['Germany', 'Netherlands', 'France', 'Poland', 'Czech Republic', 'Spain', 'Italy', 'Austria'].map((c) => (
-                <span key={c} className="text-xs bg-card-dark text-gray-400 px-3 py-1.5 rounded-full">{c} — open</span>
+                <span key={c} className="text-xs bg-card-dark text-gray-400 px-3 py-1.5 rounded-full">{c} — {home('distCountryLabel')}</span>
               ))}
             </div>
             <div className="flex flex-wrap justify-center gap-3">
-              <Link href={navHref('/distributors')} className="btn-primary">Partnership programme →</Link>
-              <Link href={navHref('/contact')} className="btn-secondary">Contact us</Link>
+              <Link href={navHref('/distributors')} className="btn-primary">{home('btnPartnership')} →</Link>
+              <Link href={navHref('/contact')} className="btn-secondary">{nav('contact')}</Link>
             </div>
             <div className="mt-8 pt-6 border-t border-border-dark">
-              <p className="text-sm font-semibold text-gold2 mb-1">FinnBuild 2026</p>
-              <p className="text-sm text-gray-400">Meet us in Helsinki · {FINNBUILD.dates} · {FINNBUILD.venue}</p>
+              <p className="text-sm font-semibold text-gold2 mb-1">{home('finnbuildLabel')}</p>
+              <p className="text-sm text-gray-400">{home('finnbuildDesc')} · {FINNBUILD.dates} · {FINNBUILD.venue}</p>
             </div>
           </div>
         </div>
@@ -355,21 +358,21 @@ export default async function HomePage({ params }: Props) {
         <div className="container-page">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <p className="stag">Contact</p>
-              <h2 className="stitle">Request a quotation or send an enquiry</h2>
+              <p className="stag">{home('ctaStag')}</p>
+              <h2 className="stitle">{home('ctaTitle')}</h2>
               <div className="rule" aria-hidden="true"/>
               <p className="text-gray-400 leading-relaxed mb-6">
-                Use our form to request a price quotation, technical documentation, samples, or distribution partnership. We respond within 2 business days.
+                {home('ctaDesc')}
               </p>
               <Link href={navHref('/contact')} className="btn-primary">
-                Open enquiry form →
+                {home('btnOpenForm')} →
               </Link>
             </div>
             <div className="space-y-3">
               {[
-                { label: 'Email',    val: CONTACT.email,       href: `mailto:${CONTACT.email}` },
-                { label: 'Phone',    val: CONTACT.phoneDisplay, href: `tel:${CONTACT.phone}` },
-                { label: 'Location', val: CONTACT.location,     href: undefined },
+                { label: home('labelEmail'),    val: CONTACT.email,       href: `mailto:${CONTACT.email}` },
+                { label: home('labelPhone'),    val: CONTACT.phoneDisplay, href: `tel:${CONTACT.phone}` },
+                { label: home('labelLocation'), val: CONTACT.location,     href: undefined },
               ].map((c) => (
                 <div key={c.label} className="bg-card-dark border border-border-dark rounded-lg p-4 flex items-center gap-4">
                   <div className="text-xs font-bold tracking-wider text-gray-500 uppercase w-16 shrink-0">{c.label}</div>
