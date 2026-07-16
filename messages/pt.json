@@ -632,84 +632,84 @@
     "h1": "Perguntas frequentes",
     "sub": "Perguntas técnicas, comerciais e de logística sobre a placa de fibrocimento Terasun TSM.",
     "ce": {
-      "question": "Does Terasun TSM have CE marking?",
-      "answer": "Yes. CE 1023-CPR-1565 P. The product complies with the EU Construction Products Regulation and carries CE marking for sale and use across the European Economic Area."
+      "question": "O Terasun TSM possui marcação CE?",
+      "answer": "Sim. CE 1023-CPR-1565 P. O produto está em conformidade com a CPR (Regulamento de Produtos de Construção) da UE e possui marcação CE para venda e uso em toda a Área Económica Europeia."
     },
     "eta": {
-      "question": "Is there a European Technical Assessment (ETA)?",
-      "answer": "Yes. ETA 24/0895 has been issued by a designated ETA body. It independently confirms the product's performance characteristics for its intended uses. Full ETA available for download."
+      "question": "Existe uma Avaliação Técnica Europeia (ETA)?",
+      "answer": "Sim. A ETA 24/0895 foi emitida por um organismo ETA designado. Confirma independentemente as características de desempenho do produto para suas utilizações previstas. ETA completa disponível para descarregar."
     },
     "epd": {
-      "question": "Is there an EPD (Environmental Product Declaration)?",
-      "answer": "Yes. EPD-IES-0018268, published 2025-03-14, valid until 2029-03-14. ISO 14025 compliant. Declared unit: 1 m² at 12 mm, weight 9.96 kg/m². Supports LEED, BREEAM, and DGNB certification projects."
+      "question": "Existe uma EPD (Declaração Ambiental do Produto)?",
+      "answer": "Sim. EPD-IES-0018268, publicada em 2025-03-14, válida até 2029-03-14. Conforme ISO 14025. Unidade declarada: 1 m² a 12 mm, peso 9,96 kg/m². Suporta projetos de certificação LEED, BREEAM e DGNB."
     },
     "weight": {
-      "question": "What is the declared weight of the board?",
-      "answer": "The declared weight per EPD-IES-0018268 is 9.96 kg/m² at 12 mm thickness. Thinner boards are proportionally lighter. Full thickness/weight table in the technical data sheet."
+      "question": "Qual é o peso declarado da placa?",
+      "answer": "O peso declarado conforme EPD-IES-0018268 é 9,96 kg/m² a 12 mm de espessura. As placas mais finas são proporcionalmente mais leves. Tabela completa de espessura/peso na folha de dados técnicos."
     },
     "fire": {
-      "question": "What fire resistance does the board achieve?",
-      "answer": "The tested system achieves E 120 (integrity 120 min), EI 90 (integrity and insulation 90 min), and EW 120 (integrity and radiation limitation 120 min). Test reference: FIRES-CR-284-25-AUPE. These are system-level classifications — specify the tested system configuration."
+      "question": "Que resistência ao fogo a placa alcança?",
+      "answer": "O sistema testado alcança E 120 (integridade 120 min), EI 90 (integridade e isolamento 90 min) e EW 120 (integridade e limitação de radiação 120 min). Referência de teste: FIRES-CR-284-25-AUPE. Estas são classificações ao nível do sistema — especifique a configuração do sistema testado."
     },
     "wetroom": {
-      "question": "Can Terasun TSM be used in wet rooms?",
-      "answer": "Yes. Approved as a tile backing substrate in Mapei and Schönox wet room systems. Dimensionally stable, moisture-resistant substrate for bathrooms, showers, and commercial kitchens."
+      "question": "Pode o Terasun TSM ser utilizado em casas de banho?",
+      "answer": "Sim. Aprovado como substrato de suporte de azulejos nos sistemas de casas de banho Mapei e Schönox. Substrato dimensionalmente estável e resistente à humidade para casas de banho, chuveiros e cozinhas comerciais."
     },
     "facade": {
-      "question": "Can the board be used for exterior facade cladding?",
-      "answer": "Yes. Specified as the facade board in CBSS and CBMV ventilated facade systems. Can also be used as a render carrier. Suitable for all European climate zones."
+      "question": "Pode o painel ser utilizado para revestimento de fachada exterior?",
+      "answer": "Sim. Especificado como painel de fachada nos sistemas de fachada ventilada CBSS e CBMV. Pode também ser utilizado como suporte de revestimento. Adequado para todas as zonas climáticas europeias."
     },
     "asbestos": {
-      "question": "Is the board asbestos-free?",
-      "answer": "Yes. Terasun TSM is completely asbestos-free. The board uses Portland cement with inorganic binders and fibreglass mesh reinforcement. REACH SVHC declaration confirming no SVHC above 0.1% w/w is available."
+      "question": "O painel é isento de amianto?",
+      "answer": "Sim. O Terasun TSM é completamente isento de amianto. O painel utiliza cimento Portland com ligantes inorgânicos e reforço de malha de fibra de vidro. Declaração REACH SVHC confirmando que não há SVHC acima de 0,1% m/m está disponível."
     },
     "moq": {
-      "question": "What is the minimum order quantity?",
-      "answer": "Minimum order is typically one 20-foot container (approx. 1,600–2,200 m² depending on thickness). Smaller quantities may be available from Finnish warehouse stock. Contact us for availability."
+      "question": "Qual é a quantidade mínima de encomenda?",
+      "answer": "A encomenda mínima é tipicamente um contentor de 20 pés (aprox. 1.600–2.200 m² dependendo da espessura). Quantidades menores podem estar disponíveis em stock do armazém finlandês. Contacte-nos para disponibilidade."
     },
     "samples": {
-      "question": "Are samples available before placing an order?",
-      "answer": "Yes. Physical samples and documentation packs are available to qualified distributors, architects, and contractors. Contact us to request a sample pack including board, TDS, CE certificate, and ETA."
+      "question": "Existem amostras disponíveis antes de fazer uma encomenda?",
+      "answer": "Sim. Amostras físicas e pacotes de documentação estão disponíveis para distribuidores qualificados, arquitetos e empreiteiros. Contacte-nos para solicitar um pacote de amostra incluindo painel, TDS, certificado CE e ETA."
     },
     "leadtime": {
-      "question": "How long does delivery take?",
-      "answer": "Container orders take approximately 6–10 weeks from order confirmation to European port delivery. DDP warehouse delivery adds 1–2 weeks. Finnish stock: 1–2 weeks."
+      "question": "Quanto tempo demora a entrega?",
+      "answer": "Os pedidos por contentor demoram aproximadamente 6–10 semanas desde a confirmação da encomenda até à entrega no porto europeu. A entrega em armazém DDP adiciona 1–2 semanas. Stock finlandês: 1–2 semanas."
     },
     "origin": {
-      "question": "Where is the product manufactured?",
-      "answer": "Manufactured by Zhejiang Terasun Air Duct Co., Ltd. in Zhejiang Province, People's Republic of China. Terasun Europe is the Authorised European Representative responsible for CE documentation and EU market compliance."
+      "question": "Onde é fabricado o produto?",
+      "answer": "Fabricado por Zhejiang Terasun Air Duct Co., Ltd. na Província de Zhejiang, República Popular da China. A Terasun Europe é a Representante Autorizada Europeia responsável pela documentação CE e conformidade do mercado da UE."
     },
     "whoIsTerasun": {
-      "question": "What is Terasun Europe?",
-      "answer": "Terasun Europe is the Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd., based in Vantaa, Finland. We manage CE documentation, EU market compliance, and European customer relationships. We are not the manufacturer of Terasun products."
+      "question": "O que é a Terasun Europe?",
+      "answer": "A Terasun Europe é a Representante Autorizada Europeia para Zhejiang Terasun Air Duct Co., Ltd., com sede em Vantaa, Finlândia. Gerenciamos a documentação CE, conformidade do mercado da UE e relacionamento com clientes europeus. Não somos o fabricante dos produtos Terasun."
     },
     "authorisation": {
-      "question": "Is there an authorisation letter from the manufacturer?",
-      "answer": "Yes. Official authorisation letter from Zhejiang Terasun Air Duct Co., Ltd. confirming Terasun Europe as the Authorised European Representative is available for review."
+      "question": "Existe uma carta de autorização do fabricante?",
+      "answer": "Sim. A carta de autorização oficial da Zhejiang Terasun Air Duct Co., Ltd. confirmando a Terasun Europe como a Representante Autorizada Europeia está disponível para consulta."
     },
     "distributor": {
-      "question": "Can I become a distributor in my country?",
-      "answer": "Yes. We are actively seeking stocking distributors and project partners across Europe. Territory-based agreements, competitive margins, documentation support, and technical training. Contact us to discuss."
+      "question": "Posso tornar-me distribuidor no meu país?",
+      "answer": "Sim. Procuramos ativamente distribuidores de stock e parceiros de projeto em toda a Europa. Acordos baseados em território, margens competitivas, suporte de documentação e treinamento técnico. Entre em contato para discutir."
     },
     "openMarkets": {
-      "question": "Which countries are open for distribution?",
-      "answer": "Germany, Netherlands, Belgium, France, Spain, Portugal, Italy, Austria, Switzerland, Poland, Czech Republic, Slovakia, Hungary, and others are open for new distribution partners. Contact us for territory availability."
+      "question": "Quais países estão abertos para distribuição?",
+      "answer": "Alemanha, Países Baixos, Bélgica, França, Espanha, Portugal, Itália, Áustria, Suíça, Polônia, República Tcheca, Eslováquia, Hungria e outros estão abertos para novos parceiros de distribuição. Entre em contato conosco para verificar a disponibilidade de territórios."
     },
     "studSpacing": {
-      "question": "What stud spacing is required?",
-      "answer": "Compatible with 400 mm and 600 mm stud spacing in both timber and steel frame systems. Specific recommendations depend on board thickness, orientation, and load — refer to the technical data sheet."
+      "question": "Qual espaçamento entre montantes é necessário?",
+      "answer": "Compatível com espaçamento entre montantes de 400 mm e 600 mm em sistemas de estrutura de madeira e aço. As recomendações específicas dependem da espessura, orientação e carga da placa — consulte a ficha técnica."
     },
     "training": {
-      "question": "Is technical training available for distributors?",
-      "answer": "Yes. Technical product training, installation guidance, and documentation support are available to registered distributors. Training can be delivered on-site or remotely."
+      "question": "Há treinamento técnico disponível para distribuidores?",
+      "answer": "Sim. Treinamento técnico de produtos, orientação de instalação e suporte de documentação estão disponíveis para distribuidores registrados. O treinamento pode ser fornecido presencialmente ou remotamente."
     },
     "publicProjects": {
-      "question": "Can Terasun TSM be used on public and infrastructure projects?",
-      "answer": "Yes. CE, ETA, DoP, EPD, and fire test documentation meets the requirements of public sector procurement across Europe. Full documentation packs available for specification and tender submission."
+      "question": "Terasun TSM pode ser usado em projetos públicos e de infraestrutura?",
+      "answer": "Sim. A documentação CE, ETA, DoP, EPD e testes de fogo atende aos requisitos de compras do setor público em toda a Europa. Pacotes completos de documentação disponíveis para especificação e envio de propostas."
     },
     "cuttingTools": {
-      "question": "What cutting tools are needed for installation?",
-      "answer": "Terasun TSM can be cut with a circular saw or angle grinder fitted with a fibre cement or diamond blade. Score-and-snap for straight cuts on thinner boards. Wear a dust mask and eye protection. Full guidance in the installation manual."
+      "question": "Quais ferramentas de corte são necessárias para a instalação?",
+      "answer": "Terasun TSM pode ser cortado com uma serra circular ou esmerilhadeira equipada com uma lâmina de cimento de fibra ou diamante. Marque e quebre para cortes retos em placas mais finas. Use máscara de poeira e proteção ocular. Orientação completa no manual de instalação."
     }
   },
   "contact": {

@@ -632,84 +632,84 @@
     "h1": "Dažnai užduodami klausimai",
     "sub": "Techniniai, komerciniai ir logistiniai klausimai apie Terasun TSM pluoštinio cemento plokštę.",
     "ce": {
-      "question": "Does Terasun TSM have CE marking?",
-      "answer": "Yes. CE 1023-CPR-1565 P. The product complies with the EU Construction Products Regulation and carries CE marking for sale and use across the European Economic Area."
+      "question": "Ar Terasun TSM turi CE žymą?",
+      "answer": "Taip. CE 1023-CPR-1565 P. Produktas atitinka ES Statybos produktų reglamentą ir turi CE žymą pardavimui bei naudojimui visoje Europos ekonominėje erdvėje."
     },
     "eta": {
-      "question": "Is there a European Technical Assessment (ETA)?",
-      "answer": "Yes. ETA 24/0895 has been issued by a designated ETA body. It independently confirms the product's performance characteristics for its intended uses. Full ETA available for download."
+      "question": "Ar yra Europos techninis vertinimas (ETA)?",
+      "answer": "Taip. ETA 24/0895 išdavė paskirtas ETA subjektas. Jis nepriklausomai patvirtina produkto veiklos charakteristikas jo numatytam naudojimui. Visas ETA prieinamas parsisiuntimui."
     },
     "epd": {
-      "question": "Is there an EPD (Environmental Product Declaration)?",
-      "answer": "Yes. EPD-IES-0018268, published 2025-03-14, valid until 2029-03-14. ISO 14025 compliant. Declared unit: 1 m² at 12 mm, weight 9.96 kg/m². Supports LEED, BREEAM, and DGNB certification projects."
+      "question": "Ar yra EPD (Aplinkos produkto deklaracija)?",
+      "answer": "Taip. EPD-IES-0018268, paskelbta 2025-03-14, galioja iki 2029-03-14. ISO 14025 atitikimas. Deklaruotas vienetas: 1 m² 12 mm, svoris 9,96 kg/m². Palaiko LEED, BREEAM ir DGNB sertifikavimo projektus."
     },
     "weight": {
-      "question": "What is the declared weight of the board?",
-      "answer": "The declared weight per EPD-IES-0018268 is 9.96 kg/m² at 12 mm thickness. Thinner boards are proportionally lighter. Full thickness/weight table in the technical data sheet."
+      "question": "Kokia yra deklaruotas lentos svoris?",
+      "answer": "Deklaruotas svoris pagal EPD-IES-0018268 yra 9,96 kg/m² esant 12 mm storiui. Plonesnės lentos proporsingai lengvesnės. Pilna storio/svorio lentelė techninių duomenų lape."
     },
     "fire": {
-      "question": "What fire resistance does the board achieve?",
-      "answer": "The tested system achieves E 120 (integrity 120 min), EI 90 (integrity and insulation 90 min), and EW 120 (integrity and radiation limitation 120 min). Test reference: FIRES-CR-284-25-AUPE. These are system-level classifications — specify the tested system configuration."
+      "question": "Kokį atsparumą ugniai pasiekia lenta?",
+      "answer": "Testuota sistema pasiekia E 120 (vientisumo 120 min), EI 90 (vientisumo ir izoliacijos 90 min) ir EW 120 (vientisumo ir spinduliuotės ribojimo 120 min). Testo nuoroda: FIRES-CR-284-25-AUPE. Tai sistemos lygio klasifikacijos — nurodykite testuotą sistemos konfigūraciją."
     },
     "wetroom": {
-      "question": "Can Terasun TSM be used in wet rooms?",
-      "answer": "Yes. Approved as a tile backing substrate in Mapei and Schönox wet room systems. Dimensionally stable, moisture-resistant substrate for bathrooms, showers, and commercial kitchens."
+      "question": "Ar Terasun TSM gali būti naudojamos drėgnose patalpose?",
+      "answer": "Taip. Patvirtinta kaip plytelių pagrindo medžiaga Mapei ir Schönox drėgnų patalpų sistemose. Dimensijų stabili, drėgmei atspari medžiaga vonios kambariam, dušams ir komercinėms virtuvėm."
     },
     "facade": {
-      "question": "Can the board be used for exterior facade cladding?",
-      "answer": "Yes. Specified as the facade board in CBSS and CBMV ventilated facade systems. Can also be used as a render carrier. Suitable for all European climate zones."
+      "question": "Ar plokštė gali būti naudojama išorinei fasado apdailai?",
+      "answer": "Taip. Naudojama kaip fasado plokštė CBSS ir CBMV ventiliuojamose fasado sistemose. Taip pat gali būti naudojama kaip glaistymo pagrindas. Tinka visoms Europos klimato zonoms."
     },
     "asbestos": {
-      "question": "Is the board asbestos-free?",
-      "answer": "Yes. Terasun TSM is completely asbestos-free. The board uses Portland cement with inorganic binders and fibreglass mesh reinforcement. REACH SVHC declaration confirming no SVHC above 0.1% w/w is available."
+      "question": "Ar plokštė be asbestos?",
+      "answer": "Taip. Terasun TSM yra visiškai be asbestos. Plokštė naudoja portlandinio cemento ryšiklį su neorganiniais rišikliais ir stiklo pluošto tinklo armatyru. Prieinama REACH SVHC deklaracija, patvirtinanti, kad nėra SVHC, viršijančio 0,1% w/w."
     },
     "moq": {
-      "question": "What is the minimum order quantity?",
-      "answer": "Minimum order is typically one 20-foot container (approx. 1,600–2,200 m² depending on thickness). Smaller quantities may be available from Finnish warehouse stock. Contact us for availability."
+      "question": "Kokia yra minimali užsakymo kiekis?",
+      "answer": "Minimalus užsakymas paprastai yra vienas 20 pėdų konteineris (apytiksliai 1 600–2 200 m² priklausomai nuo storio). Mažesni kiekiai gali būti prieinami iš Suomijos sandėlio atsargų. Apie prieinamumą susisiekite su mumis."
     },
     "samples": {
-      "question": "Are samples available before placing an order?",
-      "answer": "Yes. Physical samples and documentation packs are available to qualified distributors, architects, and contractors. Contact us to request a sample pack including board, TDS, CE certificate, and ETA."
+      "question": "Ar pavyzdžiai prieinami prieš pateikiant užsakymą?",
+      "answer": "Taip. Fiziniai pavyzdžiai ir dokumentacijos paketai yra prieinami kvalifikuotiems platintojams, architektoriams ir rangovams. Susisiekite su mumis, norėdami paprašyti pavyzdžio paketo, kuriame yra plokštė, TDS, CE sertifikatas ir ETA."
     },
     "leadtime": {
-      "question": "How long does delivery take?",
-      "answer": "Container orders take approximately 6–10 weeks from order confirmation to European port delivery. DDP warehouse delivery adds 1–2 weeks. Finnish stock: 1–2 weeks."
+      "question": "Kiek laiko užtrunka pristatymas?",
+      "answer": "Konteinerių užsakymai užtrunka maždaug 6–10 savaičių nuo užsakymo patvirtinimo iki pristatymo į Europos uostą. DDP sandėlio pristatymas prideda dar 1–2 savaites. Suomijos atsargos: 1–2 savaitės."
     },
     "origin": {
-      "question": "Where is the product manufactured?",
-      "answer": "Manufactured by Zhejiang Terasun Air Duct Co., Ltd. in Zhejiang Province, People's Republic of China. Terasun Europe is the Authorised European Representative responsible for CE documentation and EU market compliance."
+      "question": "Kur gaminamas produktas?",
+      "answer": "Pagaminta Zhejiang Terasun Air Duct Co., Ltd. Zhejiang provincijoje, Kinijos Liaudies Respublikoje. Terasun Europe yra įgaliotasis Europos atstovas, atsakingas už CE dokumentaciją ir ES rinkos atitiktį."
     },
     "whoIsTerasun": {
-      "question": "What is Terasun Europe?",
-      "answer": "Terasun Europe is the Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd., based in Vantaa, Finland. We manage CE documentation, EU market compliance, and European customer relationships. We are not the manufacturer of Terasun products."
+      "question": "Kas yra Terasun Europe?",
+      "answer": "Terasun Europe – Zhejiang Terasun Air Duct Co., Ltd. įgaliotasis Europos atstovas, kurio buveinė yra Vantoje, Suomijoje. Tvarkome CE dokumentaciją, ES rinkos atitiktį ir santykius su Europos klientais. Nėsame Terasun produktų gamintojai."
     },
     "authorisation": {
-      "question": "Is there an authorisation letter from the manufacturer?",
-      "answer": "Yes. Official authorisation letter from Zhejiang Terasun Air Duct Co., Ltd. confirming Terasun Europe as the Authorised European Representative is available for review."
+      "question": "Ar yra gamintojo įgaliojimo raštas?",
+      "answer": "Taip. Oficialus Zhejiang Terasun Air Duct Co., Ltd. įgaliojimo raštas, patvirtinantis Terasun Europe kaip įgaliotąjį Europos atstovą, yra prieinamas peržiūrai."
     },
     "distributor": {
-      "question": "Can I become a distributor in my country?",
-      "answer": "Yes. We are actively seeking stocking distributors and project partners across Europe. Territory-based agreements, competitive margins, documentation support, and technical training. Contact us to discuss."
+      "question": "Ar galiu tapti platintoju savo šalyje?",
+      "answer": "Taip. Aktyviai ieškome platintojų, turinčių atsargas, ir projektų partnerių visoje Europoje. Teritoriniu pagrindu sudaromi sutartymai, konkurencingi maržai, dokumentacijos paramos ir techniniai mokymai. Susisiekite su mumis aptarti."
     },
     "openMarkets": {
-      "question": "Which countries are open for distribution?",
-      "answer": "Germany, Netherlands, Belgium, France, Spain, Portugal, Italy, Austria, Switzerland, Poland, Czech Republic, Slovakia, Hungary, and others are open for new distribution partners. Contact us for territory availability."
+      "question": "Kurie šalys yra atviros distribucijoms?",
+      "answer": "Vokietija, Nyderlandai, Belgija, Prancūzija, Ispanija, Portugalija, Italija, Austrija, Šveicarija, Lenkija, Čekija, Slovakija, Vengrija ir kitos šalys yra atviros naujiems distribucijos partneriams. Susisiekite su mumis dėl teritorijos prieinamumo."
     },
     "studSpacing": {
-      "question": "What stud spacing is required?",
-      "answer": "Compatible with 400 mm and 600 mm stud spacing in both timber and steel frame systems. Specific recommendations depend on board thickness, orientation, and load — refer to the technical data sheet."
+      "question": "Kokia stulpų tarpa reikalinga?",
+      "answer": "Suderinama su 400 mm ir 600 mm stulpų tarpais tiek medžio, tiek plieno karkasų sistemose. Konkrečios rekomendacijos priklauso nuo plokštės storio, orientacijos ir apkrovos — žr. techninį duomenų lapą."
     },
     "training": {
-      "question": "Is technical training available for distributors?",
-      "answer": "Yes. Technical product training, installation guidance, and documentation support are available to registered distributors. Training can be delivered on-site or remotely."
+      "question": "Ar yra techninių mokymų distributoriams?",
+      "answer": "Taip. Techninis produkto mokymas, diegimo nurodymai ir dokumentacijos palaikymas yra prieinami registruotiems distributoriams. Mokymai gali būti teikiami vietoje arba nuotoliniu būdu."
     },
     "publicProjects": {
-      "question": "Can Terasun TSM be used on public and infrastructure projects?",
-      "answer": "Yes. CE, ETA, DoP, EPD, and fire test documentation meets the requirements of public sector procurement across Europe. Full documentation packs available for specification and tender submission."
+      "question": "Ar Terasun TSM gali būti naudojamas viešosiose ir infrastruktūros projektuose?",
+      "answer": "Taip. CE, ETA, DoP, EPD ir ugnies bandymų dokumentacija atitinka viešojo sektoriaus pirkimo reikalavimus visoje Europoje. Pilni dokumentacijos paketai prieinami specifikacijai ir pasiūlymo teikimui."
     },
     "cuttingTools": {
-      "question": "What cutting tools are needed for installation?",
-      "answer": "Terasun TSM can be cut with a circular saw or angle grinder fitted with a fibre cement or diamond blade. Score-and-snap for straight cuts on thinner boards. Wear a dust mask and eye protection. Full guidance in the installation manual."
+      "question": "Kokie pjovimo įrankiai reikalingi diegimui?",
+      "answer": "Terasun TSM gali būti pjauta žiedinėmis pjūklais arba kampiniais šlifuokliais su skaidulų cemento arba deimanto peilia. Žymėkite ir laužykite tiesiems pjūviams plonesnėse plokštėse. Dėvėkite dulkių maskę ir akių apsaugą. Išsamūs nurodymai diegimo vadovėlyje."
     }
   },
   "contact": {
