@@ -25,11 +25,39 @@ const MORE_LINKS = [
   { key: 'faq',          href: '/faq' },
 ] as const
 
+// ISO code shown in trigger button; full native name shown in dropdown
+const LOCALE_CODE: Record<Locale, string> = {
+  en:'EN', bg:'BG', hr:'HR', cs:'CS', da:'DA', nl:'NL', et:'ET', fi:'FI',
+  fr:'FR', de:'DE', el:'EL', hu:'HU', ga:'GA', it:'IT', lv:'LV', lt:'LT',
+  mt:'MT', pl:'PL', pt:'PT', ro:'RO', sk:'SK', sl:'SL', es:'ES', sv:'SV', nb:'NB',
+}
+
 const LOCALE_LABELS: Record<Locale, string> = {
-  en:'EN', de:'DE', fr:'FR', es:'ES', it:'IT', pt:'PT', nl:'NL', pl:'PL',
-  fi:'FI', sv:'SV', no:'NO', da:'DA', et:'ET', lv:'LV', lt:'LT',
-  cs:'CS', sk:'SK', hu:'HU', ro:'RO', bg:'BG', el:'EL', hr:'HR', sl:'SL',
-  uk:'UK', ru:'RU',
+  en: 'English',
+  bg: 'Български',
+  hr: 'Hrvatski',
+  cs: 'Čeština',
+  da: 'Dansk',
+  nl: 'Nederlands',
+  et: 'Eesti',
+  fi: 'Suomi',
+  fr: 'Français',
+  de: 'Deutsch',
+  el: 'Ελληνικά',
+  hu: 'Magyar',
+  ga: 'Gaeilge',
+  it: 'Italiano',
+  lv: 'Latviešu',
+  lt: 'Lietuvių',
+  mt: 'Malti',
+  pl: 'Polski',
+  pt: 'Português',
+  ro: 'Română',
+  sk: 'Slovenčina',
+  sl: 'Slovenščina',
+  es: 'Español',
+  sv: 'Svenska',
+  nb: 'Norsk',
 }
 
 export default function Header({ locale }: Props) {
@@ -153,31 +181,51 @@ export default function Header({ locale }: Props) {
           {/* Language picker */}
           <div className="relative" ref={langRef}>
             <button
-              className="px-2.5 py-1.5 text-xs font-bold text-gray-400 hover:text-white border border-border-dark rounded-md hover:border-gray-500 transition-all duration-150"
+              className="flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold text-white border border-white/20 rounded-md hover:border-white/50 hover:bg-white/8 transition-all duration-150"
               onClick={() => { setLangOpen(v => !v); setMoreOpen(false) }}
               aria-label="Select language"
+              aria-expanded={langOpen}
             >
-              {LOCALE_LABELS[locale as Locale] ?? locale.toUpperCase()}
+              <svg className="w-3 h-3 text-white/60" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+                <circle cx="8" cy="8" r="6.5"/>
+                <path d="M8 1.5C8 1.5 5.5 4.5 5.5 8s2.5 6.5 2.5 6.5M8 1.5C8 1.5 10.5 4.5 10.5 8S8 14.5 8 14.5M1.5 8h13"/>
+              </svg>
+              {LOCALE_CODE[locale as Locale] ?? locale.toUpperCase()}
+              <svg className={`w-2.5 h-2.5 text-white/50 transition-transform duration-200 ${langOpen ? 'rotate-180' : ''}`} viewBox="0 0 10 6" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+                <path d="M1 1l4 4 4-4"/>
+              </svg>
             </button>
 
             <div
-              className={`absolute right-0 top-full mt-2 rounded-xl shadow-2xl shadow-black/40 border py-2 max-h-64 overflow-y-auto min-w-[72px] transition-all duration-200 ${
+              className={`absolute right-0 top-full mt-2 rounded-xl shadow-2xl shadow-black/50 border py-2 max-h-72 overflow-y-auto min-w-[160px] transition-all duration-200 ${
                 langOpen
                   ? 'opacity-100 translate-y-0 pointer-events-auto'
                   : 'opacity-0 -translate-y-2 pointer-events-none'
               }`}
-              style={{ background: 'rgba(13,15,20,0.97)', backdropFilter: 'blur(16px)', borderColor: 'rgba(45,48,64,0.8)' }}
+              style={{ background: 'rgba(10,18,30,0.98)', backdropFilter: 'blur(16px)', borderColor: 'rgba(92,164,214,0.2)' }}
+              role="listbox"
+              aria-label="Language"
             >
               {locales.map((loc) => (
                 <Link
                   key={loc}
                   href={localePath(loc)}
-                  className={`block px-3 py-1.5 text-xs font-bold transition-colors duration-150 hover:bg-white/6 ${
-                    loc === locale ? 'text-[#5CA4D6]' : 'text-gray-400 hover:text-white'
+                  role="option"
+                  aria-selected={loc === locale}
+                  className={`flex items-center gap-2.5 px-4 py-2 text-xs transition-colors duration-150 hover:bg-white/8 ${
+                    loc === locale
+                      ? 'text-white font-semibold bg-white/6'
+                      : 'text-[#B8CADE] hover:text-white font-medium'
                   }`}
                   onClick={() => setLangOpen(false)}
                 >
+                  <span className="text-[10px] font-mono text-white/40 w-6 shrink-0">{LOCALE_CODE[loc]}</span>
                   {LOCALE_LABELS[loc]}
+                  {loc === locale && (
+                    <svg className="ml-auto w-3 h-3 text-[#5CA4D6]" viewBox="0 0 12 12" fill="currentColor" aria-hidden="true">
+                      <path d="M2 6l3 3 5-5" stroke="currentColor" fill="none" strokeWidth="1.5" strokeLinecap="round"/>
+                    </svg>
+                  )}
                 </Link>
               ))}
             </div>
@@ -255,18 +303,20 @@ export default function Header({ locale }: Props) {
               </a>
 
               {/* Language grid */}
-              <div className="flex flex-wrap gap-1 mt-2">
+              <p className="text-[10px] font-bold tracking-widest uppercase text-white/30 mb-2 mt-1">Language</p>
+              <div className="grid grid-cols-2 gap-1">
                 {locales.map((loc) => (
                   <Link
                     key={loc}
                     href={localePath(loc)}
-                    className={`px-2 py-1 text-xs font-bold rounded-md border transition-colors duration-150 ${
+                    className={`flex items-center gap-2 px-3 py-2 text-xs rounded-md border transition-colors duration-150 ${
                       loc === locale
-                        ? 'border-[#245A85] text-[#245A85] bg-[#245A85]/10'
-                        : 'border-border-dark text-gray-400 hover:text-white hover:border-gray-500'
+                        ? 'border-[#5CA4D6]/60 text-white bg-[#5CA4D6]/15 font-semibold'
+                        : 'border-white/10 text-[#B8CADE] hover:text-white hover:border-white/25 hover:bg-white/6 font-medium'
                     }`}
                     onClick={() => setMobileOpen(false)}
                   >
+                    <span className="text-[9px] font-mono text-white/30 shrink-0">{LOCALE_CODE[loc]}</span>
                     {LOCALE_LABELS[loc]}
                   </Link>
                 ))}

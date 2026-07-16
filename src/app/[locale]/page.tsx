@@ -107,7 +107,7 @@ export default async function HomePage({ params }: Props) {
           <div className="flex flex-col justify-center py-20 lg:py-0" style={{ minHeight: '92vh', maxWidth: '56%' }}>
             {/* Eyebrow badge */}
             <div className="animate-hero-1">
-              <span className="inline-flex items-center gap-2 text-[10px] font-bold tracking-[0.2em] text-accent uppercase border border-accent/30 bg-accent/10 rounded-full px-4 py-1.5 mb-6">
+              <span className="inline-flex items-center gap-2 text-[10px] font-bold tracking-[0.2em] text-white uppercase border border-white/25 bg-white/10 rounded-full px-4 py-1.5 mb-6">
                 {t('eyebrow')}
               </span>
             </div>
@@ -116,7 +116,7 @@ export default async function HomePage({ params }: Props) {
             <h1 className="animate-hero-2 font-black leading-[1.05] tracking-tight text-white mb-6"
               style={{ fontSize: 'clamp(2.2rem, 4.5vw, 4rem)' }}>
               {t('h1Line1')}<br/>
-              <span className="text-accent">{t('h1Line2Emphasis')}</span>{' '}
+              <span className="text-[#5CA4D6]">{t('h1Line2Emphasis')}</span>{' '}
               {t('h1Line2')}<br/>
               {t('h1Line3')}
             </h1>
@@ -283,7 +283,7 @@ export default async function HomePage({ params }: Props) {
                   { label: home('labelSize'),       val: `${PRODUCT.width}×${PRODUCT.length}` },
                 ].map((s) => (
                   <div key={s.label} className="dark-card-lift bg-card border border-border rounded-xl p-4 text-center">
-                    <div className="text-base font-black text-accent mb-0.5">{s.val}</div>
+                    <div className="text-base font-black text-[#5CA4D6] mb-0.5">{s.val}</div>
                     <div className="text-[10px] text-slate-500 leading-tight">{s.label}</div>
                   </div>
                 ))}
@@ -389,7 +389,7 @@ export default async function HomePage({ params }: Props) {
                   <div key={s.label} className="flex items-center gap-4 border-b border-border py-3">
                     <span className="text-xs font-semibold text-slate-500 w-20 shrink-0">{s.label}</span>
                     {s.href
-                      ? <a href={s.href} target="_blank" rel="noopener noreferrer" className="text-sm font-semibold text-accent hover:text-accent-dark transition-colors">{s.val}</a>
+                      ? <a href={s.href} target="_blank" rel="noopener noreferrer" className="text-sm font-semibold text-[#5CA4D6] hover:text-white transition-colors">{s.val}</a>
                       : <span className="text-sm font-semibold text-slate-100">{s.val}</span>
                     }
                   </div>
@@ -397,7 +397,7 @@ export default async function HomePage({ params }: Props) {
               </div>
               <p className="text-xs text-slate-500 leading-relaxed">
                 {home('mfrNote')}{' '}
-                <Link href={navHref('/manufacturer')} className="text-accent hover:text-accent-dark transition-colors">{nav('manufacturer')} →</Link>
+                <Link href={navHref('/manufacturer')} className="text-[#5CA4D6] hover:text-white transition-colors">{nav('manufacturer')} →</Link>
               </p>
             </ScrollReveal>
             <ScrollReveal delay={150}>
