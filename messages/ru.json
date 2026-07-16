@@ -463,7 +463,8 @@
       "badge": "REACH",
       "label": "REACH SVHC Declaration",
       "desc": "No substances of very high concern (SVHC) above 0.1% w/w. Full REACH compliance declaration available upon request."
-    }
+    },
+    "notMfrNote": "Terasun Europe является Уполномоченным Европейским Представителем Zhejiang Terasun Air Duct Co., Ltd. Terasun Europe не является производителем продукции Terasun."
   },
   "downloads": {
     "eyebrow": "Document library",

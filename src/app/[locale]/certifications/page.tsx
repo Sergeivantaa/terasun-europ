@@ -90,8 +90,8 @@ export default async function CertificationsPage({ params }: { params: Promise<{
           </div>
 
           {/* Not manufacturer note */}
-          <div className="rounded-xl border border-blue-200 bg-blue-50 p-5 text-sm text-blue-800 text-center">
-            Terasun Europe is the Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd. Terasun Europe is not the manufacturer of Terasun products.
+          <div className="rounded-xl border border-[#C8DFF0] bg-[#EBF4FB] p-5 text-sm text-[#245A85] text-center">
+            {t('notMfrNote')}
           </div>
         </div>
       </section>
