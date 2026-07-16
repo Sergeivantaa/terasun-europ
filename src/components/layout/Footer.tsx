@@ -19,7 +19,7 @@ export default function Footer({ locale }: Props) {
           {/* Brand */}
           <div>
             <div className="text-lg font-black tracking-widest text-white mb-0.5">{t('brand')}</div>
-            <div className="text-xs font-semibold tracking-wider text-accent/80 uppercase mb-4">{t('brandSub')}</div>
+            <div className="text-xs font-semibold tracking-wider text-[#5CA4D6] uppercase mb-4">{t('brandSub')}</div>
             <p className="text-sm text-gray-400 leading-relaxed">
               {t('desc')}<br/>
               <a href={`tel:${CONTACT.phone}`} className="hover:text-white transition-colors">{CONTACT.phoneDisplay}</a>

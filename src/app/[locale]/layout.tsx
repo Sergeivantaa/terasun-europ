@@ -21,10 +21,13 @@ const inter = Inter({
 const OG_LOCALES: Record<string, string> = {
   en: 'en_GB', de: 'de_DE', fr: 'fr_FR', es: 'es_ES', it: 'it_IT',
   pt: 'pt_PT', nl: 'nl_NL', pl: 'pl_PL', fi: 'fi_FI', sv: 'sv_SE',
-  no: 'nb_NO', da: 'da_DK', et: 'et_EE', lv: 'lv_LV', lt: 'lt_LT',
+  nb: 'nb_NO', da: 'da_DK', et: 'et_EE', lv: 'lv_LV', lt: 'lt_LT',
   cs: 'cs_CZ', sk: 'sk_SK', hu: 'hu_HU', ro: 'ro_RO', bg: 'bg_BG',
-  el: 'el_GR', hr: 'hr_HR', sl: 'sl_SI', uk: 'uk_UA', ru: 'ru_RU',
+  el: 'el_GR', hr: 'hr_HR', sl: 'sl_SI', ga: 'ga_IE', mt: 'mt_MT',
 }
+
+// Locales whose translations are incomplete — excluded from indexing
+const NOINDEX_LOCALES = new Set(['ga', 'mt'])
 
 type Props = {
   children: React.ReactNode
@@ -49,6 +52,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       canonical: `${SITE_URL}/${locale}`,
       languages: hreflangMap,
     },
+    robots: NOINDEX_LOCALES.has(locale) ? { index: false, follow: false } : undefined,
     openGraph: {
       locale: OG_LOCALES[locale] ?? 'en_GB',
       alternateLocale: routing.locales
