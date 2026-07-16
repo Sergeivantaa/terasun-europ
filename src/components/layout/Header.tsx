@@ -298,6 +298,7 @@ export default function Header({ locale }: Props) {
 
             {/* CTA buttons */}
             <div className="mt-4 pt-4 flex flex-col gap-2.5" style={{ borderTop: '1px solid rgba(255,255,255,0.08)' }}>
+              <p className="text-[9px] text-center pb-1" style={{ color: 'rgba(255,255,255,0.25)' }}>↓ scroll for language / язык / sprache</p>
               <Link
                 href={navHref('/contact')}
                 onClick={() => setMobileOpen(false)}
@@ -317,7 +318,10 @@ export default function Header({ locale }: Props) {
 
             {/* Language selector */}
             <div className="mt-5 pt-4" style={{ borderTop: '1px solid rgba(255,255,255,0.08)' }}>
-              <p className="text-[10px] font-bold tracking-[0.18em] uppercase mb-3 px-1" style={{ color: 'rgba(255,255,255,0.3)' }}>Language</p>
+              <div className="flex items-center justify-between mb-3 px-1">
+                <p className="text-[11px] font-bold tracking-[0.18em] uppercase" style={{ color: 'rgba(255,255,255,0.6)' }}>🌐 Language / Язык / Sprache</p>
+                <span className="text-[10px]" style={{ color: 'rgba(255,255,255,0.35)' }}>25 EU</span>
+              </div>
               <div className="grid grid-cols-2 gap-1.5">
                 {locales.map((loc) => (
                   <Link
