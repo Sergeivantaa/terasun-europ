@@ -67,7 +67,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
       <JsonLd data={articleSchema} />
 
       <article className="container-page py-12 md:py-16 max-w-3xl">
-        <Link href={`/${locale}/blog`} className="text-sm text-accent hover:text-white transition-colors mb-8 inline-block">
+        <Link href={`/${locale}/blog`} className="text-sm text-[#245A85] hover:text-[#132238] transition-colors mb-8 inline-block font-medium">
           ← Back to blog
         </Link>
 
@@ -81,14 +81,14 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
           </div>
         )}
 
-        <h1 className="text-3xl sm:text-4xl font-black text-white leading-tight mb-4">{post.title}</h1>
-        <p className="text-gray-400 text-base leading-relaxed mb-2">{post.description}</p>
+        <h1 className="text-3xl sm:text-4xl font-black text-[#132238] leading-tight mb-4">{post.title}</h1>
+        <p className="text-[#4A5B6D] text-base leading-relaxed mb-2">{post.description}</p>
         <div className="text-xs text-gray-500 mb-8 flex gap-4">
           <span>{new Date(post.publishedAt).toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
           {post.author && <span>{post.author}</span>}
         </div>
 
-        <div className="prose prose-invert max-w-none text-gray-300 leading-relaxed space-y-4">
+        <div className="prose max-w-none text-[#4A5B6D] leading-relaxed space-y-4">
           {post.body.split('\n\n').map((block, i) => {
             if (block.startsWith('## ')) return <h2 key={i} className="text-xl font-bold text-[#132238] mt-8 mb-3">{block.slice(3)}</h2>
             if (block.startsWith('### ')) return <h3 key={i} className="text-lg font-semibold text-[#132238] mt-6 mb-2">{block.slice(4)}</h3>
@@ -97,7 +97,7 @@ export default async function BlogPostPage({ params }: { params: Promise<{ local
               return <ul key={i} className="list-disc list-inside space-y-1">{items.map((item, j) => <li key={j}>{item.slice(2)}</li>)}</ul>
             }
             if (block.startsWith('**') && block.endsWith('**')) {
-              return <p key={i} className="font-semibold text-white">{block.slice(2, -2)}</p>
+              return <p key={i} className="font-semibold text-[#132238]">{block.slice(2, -2)}</p>
             }
             return <p key={i}>{block}</p>
           })}

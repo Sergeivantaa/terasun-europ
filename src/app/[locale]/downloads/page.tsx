@@ -55,7 +55,7 @@ export default async function DownloadsPage({ params }: { params: Promise<{ loca
         <div className="rounded-xl border border-[#D8E1E9] bg-accent/5 p-5 mb-10 flex items-start gap-4">
           <span className="text-2xl">🔐</span>
           <div>
-            <p className="text-white text-sm font-semibold mb-1">{t('authNote.title')}</p>
+            <p className="text-[#132238] text-sm font-semibold mb-1">{t('authNote.title')}</p>
             <p className="text-[#4A5B6D] text-sm">{t('authNote.text')}</p>
           </div>
         </div>
@@ -70,7 +70,7 @@ export default async function DownloadsPage({ params }: { params: Promise<{ loca
                 <div className="flex items-center gap-4">
                   <span className="text-2xl shrink-0">{icon}</span>
                   <div>
-                    <p className="text-white text-sm font-semibold">{t(`docs.${doc.key}.name`)}</p>
+                    <p className="text-[#132238] text-sm font-semibold">{t(`docs.${doc.key}.name`)}</p>
                     <p className="text-[#6B7A8D] text-xs">{t(`docs.${doc.key}.desc`)} · {doc.size}</p>
                   </div>
                 </div>
