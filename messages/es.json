@@ -106,22 +106,22 @@
     ]
   },
   "about": {
-    "eyebrow": "About Terasun Europe",
-    "h1": "European cement board supplier and technical partner",
-    "sub": "Your authorised source for CE-certified Terasun TSM fiber cement board across Europe.",
-    "statusTitle": "Authorised European Representative",
-    "statusText": "Terasun Europe is the officially appointed Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd. We are responsible for CE documentation, EU market compliance, and European customer support.",
-    "body": "We serve architects, main contractors, building material distributors, and project specifiers across all EU member states. Our team provides technical guidance, documentation, logistics coordination, and long-term supply relationships.",
-    "disclaimerTitle": "Important: Terasun Europe is not the manufacturer",
-    "disclaimerText": "Terasun Europe is the Authorised European Representative only. The product is manufactured by Zhejiang Terasun Air Duct Co., Ltd. in Zhejiang Province, China. Terasun Europe is responsible for CE marking documentation and European market compliance in accordance with EU Construction Products Regulation.",
-    "stag": "About us",
-    "title": "Your authorised European partner for fiber cement board",
-    "missionStag": "Our mission",
-    "missionText": "To give European construction professionals reliable access to CE-certified, technically documented fiber cement board — with responsive logistics and expert support.",
+    "eyebrow": "Acerca de Terasun Europe",
+    "h1": "Proveedor europeo de tableros de cemento y socio técnico",
+    "sub": "Tu fuente autorizada para tableros de fibrocemento Terasun TSM certificados CE en toda Europa.",
+    "statusTitle": "Representante Europeo Autorizado",
+    "statusText": "Terasun Europe es el Representante Europeo Autorizado oficialmente designado para Zhejiang Terasun Air Duct Co., Ltd. Somos responsables de la documentación CE, el cumplimiento del mercado de la UE y el apoyo al cliente europeo.",
+    "body": "Servimos a arquitectos, contratistas principales, distribuidores de materiales de construcción y especificadores de proyectos en todos los estados miembros de la UE. Nuestro equipo proporciona orientación técnica, documentación, coordinación logística y relaciones de suministro a largo plazo.",
+    "disclaimerTitle": "Importante: Terasun Europe no es el fabricante",
+    "disclaimerText": "Terasun Europe es únicamente el Representante Europeo Autorizado. El producto es fabricado por Zhejiang Terasun Air Duct Co., Ltd. en la provincia de Zhejiang, China. Terasun Europe es responsable de la documentación de marcado CE y el cumplimiento del mercado europeo de conformidad con el Reglamento de Productos de Construcción de la UE.",
+    "stag": "Acerca de nosotros",
+    "title": "Tu socio europeo autorizado para tableros de fibrocemento",
+    "missionStag": "Nuestra misión",
+    "missionText": "Proporcionar a los profesionales de la construcción europeos acceso fiable a tableros de fibrocemento certificados CE y técnicamente documentados — con logística receptiva y apoyo experto.",
     "stat1Num": "1989",
-    "stat1Label": "Manufacturer founded",
+    "stat1Label": "Fabricante fundado",
     "stat2Num": "25",
-    "stat2Label": "EU languages supported",
+    "stat2Label": "Idiomas de la UE soportados",
     "points": [
       {
         "title": "Documentación CE",
@@ -163,11 +163,11 @@
     "title": "Authorised European Representative"
   },
   "manufacturer": {
-    "eyebrow": "About the manufacturer",
+    "eyebrow": "Acerca del fabricante",
     "h1": "Zhejiang Terasun Air Duct Co., Ltd.",
-    "sub": "Founded in 1989 in Zhejiang Province, China — manufacturer of Terasun TSM fiber cement board with full European certification.",
-    "desc1": "Zhejiang Terasun Air Duct Co., Ltd. is an established cement board manufacturer producing fiber cement and construction board products since 1989. Its Terasun range includes products supported by full European technical documentation including CE, ETA, EPD, and fire test certifications.",
-    "desc2": "All boards are produced in compliance with ETA 24/0895 requirements. Third-party testing confirms performance data matches the Declaration of Performance. Modern production lines support large-volume export orders with quality control applied across all board specifications.",
+    "sub": "Fundada en 1989 en la provincia de Zhejiang, China — fabricante de tablero de cemento fibrado Terasun TSM con certificación europea completa.",
+    "desc1": "Zhejiang Terasun Air Duct Co., Ltd. es un fabricante establecido de tableros de cemento que produce tableros de cemento fibrado y productos de construcción desde 1989. Su gama Terasun incluye productos respaldados por documentación técnica europea completa incluyendo certificaciones CE, ETA, EPD y pruebas de fuego.",
+    "desc2": "Todos los tableros se producen en cumplimiento con los requisitos ETA 24/0895. Las pruebas de terceros confirman que los datos de rendimiento coinciden con la Declaración de Desempeño. Las líneas de producción modernas apoyan pedidos de exportación de gran volumen con control de calidad aplicado en todas las especificaciones de tableros.",
     "stats": {
       "capacity": {
         "value": "1989",
@@ -186,7 +186,7 @@
         "label": "Fire tested"
       }
     },
-    "timelineTitle": "Company milestones",
+    "timelineTitle": "Hitos de la empresa",
     "timeline": {
       "founded": {
         "year": "1989",
@@ -219,8 +219,8 @@
         "body": "EPD-IES-0018268 published March 2025, valid until 2029. ISO 14025 compliant environmental declaration."
       }
     },
-    "noteTitle": "Manufacturer relationship",
-    "noteText": "Terasun Europe is the Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd. Terasun Europe does not manufacture Terasun products. All products are manufactured in China and supplied via direct container shipment. European Representative: Terasun Europe, 01370 Vantaa, Finland."
+    "noteTitle": "Relación con el fabricante",
+    "noteText": "Terasun Europe es el Representante Europeo Autorizado de Zhejiang Terasun Air Duct Co., Ltd. Terasun Europe no fabrica productos Terasun. Todos los productos se fabrican en China y se suministran mediante envío directo en contenedor. Representante Europeo: Terasun Europe, 01370 Vantaa, Finlandia."
   },
   "products": {
     "eyebrow": "Product",
@@ -278,11 +278,11 @@
     "thicknessNote": "Gama completa 3–25 mm, sujeto a volumen de pedido y disponibilidad de producción. Datos técnicos confirmados para 12 mm; otras espesores bajo consulta."
   },
   "applications": {
-    "eyebrow": "Applications",
-    "h1": "Fiber cement board applications",
-    "sub": "Terasun TSM is specified across a wide range of European construction applications — from ventilated facades to fire-rated partitions and wet rooms.",
-    "ctaTitle": "Not sure which system fits your project?",
-    "ctaText": "Contact our technical team for application guidance, system specifications, and a tailored quotation.",
+    "eyebrow": "Aplicaciones",
+    "h1": "Aplicaciones de placas de fibrocemento",
+    "sub": "Terasun TSM se especifica en una amplia gama de aplicaciones de construcción europeas — desde fachadas ventiladas hasta tabiques resistentes al fuego y baños húmedos.",
+    "ctaTitle": "¿No está seguro de qué sistema se adapta a su proyecto?",
+    "ctaText": "Póngase en contacto con nuestro equipo técnico para obtener orientación de aplicaciones, especificaciones del sistema y una cotización personalizada.",
     "tags": {
       "Ventilated": "Ventilated",
       "All climates": "All climates",
@@ -422,9 +422,9 @@
     "downloadLabel": "Descargar ↗"
   },
   "certifications": {
-    "eyebrow": "Certifications & declarations",
-    "h1": "Full European certification documentation",
-    "sub": "Terasun TSM carries mandatory CE marking and comprehensive third-party certification for European construction compliance.",
+    "eyebrow": "Certificaciones y declaraciones",
+    "h1": "Documentación completa de certificación europea",
+    "sub": "Terasun TSM cuenta con marcado CE obligatorio y certificación integral de terceros para cumplir con los requisitos de construcción europeos.",
     "ce": {
       "badge": "Mandatory",
       "label": "CE Marking",
@@ -570,9 +570,9 @@
     "ctaEmail": "Email us directly"
   },
   "logistics": {
-    "eyebrow": "Logistics & supply chain",
-    "h1": "Cement board supply from factory to warehouse",
-    "sub": "Full supply chain coordination — from manufacturing in China to delivery at your European site or warehouse.",
+    "eyebrow": "Logística y cadena de suministro",
+    "h1": "Suministro de placas de cemento de fábrica a almacén",
+    "sub": "Coordinación completa de la cadena de suministro — desde la fabricación en China hasta la entrega en su sitio o almacén europeo.",
     "steps": {
       "order": {
         "title": "Order confirmation",
@@ -599,7 +599,7 @@
         "body": "DAP or DDP delivery to your European warehouse or construction site. Unloading coordination on request."
       }
     },
-    "leadTimesTitle": "Typical lead times",
+    "leadTimesTitle": "Tiempos de entrega típicos",
     "leadTimes": {
       "stock": {
         "value": "~2 wks",
@@ -617,8 +617,8 @@
         "desc": "Non-standard sizes or custom board specifications"
       }
     },
-    "incotermsTitle": "Available incoterms",
-    "incotermsNote": "We supply on EXW, FOB, CFR, CIF, DAP, and DDP terms. Agreed per order at quotation stage.",
+    "incotermsTitle": "Incoterms disponibles",
+    "incotermsNote": "Suministramos en condiciones EXW, FOB, CFR, CIF, DAP y DDP. Acordado por pedido en la etapa de cotización.",
     "ctaFreight": "Solicitar presupuesto de transporte"
   },
   "gallery": {
@@ -629,87 +629,87 @@
   },
   "faq": {
     "eyebrow": "FAQ",
-    "h1": "Frequently asked questions",
-    "sub": "Technical, commercial, and logistics questions about Terasun TSM fiber cement board.",
+    "h1": "Preguntas frecuentes",
+    "sub": "Preguntas técnicas, comerciales y logísticas sobre la placa de cemento fibra Terasun TSM.",
     "ce": {
-      "question": "Does Terasun TSM have CE marking?",
-      "answer": "Yes. CE 1023-CPR-1565 P. The product complies with the EU Construction Products Regulation and carries CE marking for sale and use across the European Economic Area."
+      "question": "¿Tiene Terasun TSM marcado CE?",
+      "answer": "Sí. CE 1023-CPR-1565 P. El producto cumple con la Regulación de Productos de Construcción de la UE y lleva marcado CE para la venta y uso en toda el Área Económica Europea."
     },
     "eta": {
-      "question": "Is there a European Technical Assessment (ETA)?",
-      "answer": "Yes. ETA 24/0895 has been issued by a designated ETA body. It independently confirms the product's performance characteristics for its intended uses. Full ETA available for download."
+      "question": "¿Hay una Evaluación Técnica Europea (ETA)?",
+      "answer": "Sí. ETA 24/0895 ha sido emitida por un organismo ETA designado. Confirma de forma independiente las características de rendimiento del producto para sus usos previstos. ETA completa disponible para descargar."
     },
     "epd": {
-      "question": "Is there an EPD (Environmental Product Declaration)?",
-      "answer": "Yes. EPD-IES-0018268, published 2025-03-14, valid until 2029-03-14. ISO 14025 compliant. Declared unit: 1 m² at 12 mm, weight 9.96 kg/m². Supports LEED, BREEAM, and DGNB certification projects."
+      "question": "¿Hay una EPD (Declaración Ambiental de Producto)?",
+      "answer": "Sí. EPD-IES-0018268, publicada 2025-03-14, válida hasta 2029-03-14. Conforme a ISO 14025. Unidad declarada: 1 m² a 12 mm, peso 9,96 kg/m². Apoya proyectos de certificación LEED, BREEAM y DGNB."
     },
     "weight": {
-      "question": "What is the declared weight of the board?",
-      "answer": "The declared weight per EPD-IES-0018268 is 9.96 kg/m² at 12 mm thickness. Thinner boards are proportionally lighter. Full thickness/weight table in the technical data sheet."
+      "question": "¿Cuál es el peso declarado de la placa?",
+      "answer": "El peso declarado según EPD-IES-0018268 es 9,96 kg/m² a 12 mm de espesor. Las placas más delgadas pesan proporcionalmente menos. Tabla completa de espesor/peso en la hoja de datos técnicos."
     },
     "fire": {
-      "question": "What fire resistance does the board achieve?",
-      "answer": "The tested system achieves E 120 (integrity 120 min), EI 90 (integrity and insulation 90 min), and EW 120 (integrity and radiation limitation 120 min). Test reference: FIRES-CR-284-25-AUPE. These are system-level classifications — specify the tested system configuration."
+      "question": "¿Qué resistencia al fuego logra la placa?",
+      "answer": "El sistema probado logra E 120 (integridad 120 min), EI 90 (integridad y aislamiento 90 min) y EW 120 (integridad y limitación de radiación 120 min). Referencia de prueba: FIRES-CR-284-25-AUPE. Estas son clasificaciones a nivel de sistema — especifique la configuración del sistema probado."
     },
     "wetroom": {
-      "question": "Can Terasun TSM be used in wet rooms?",
-      "answer": "Yes. Approved as a tile backing substrate in Mapei and Schönox wet room systems. Dimensionally stable, moisture-resistant substrate for bathrooms, showers, and commercial kitchens."
+      "question": "¿Se puede usar Terasun TSM en cuartos húmedos?",
+      "answer": "Sí. Aprobado como sustrato base para baldosas en sistemas de cuartos húmedos Mapei y Schönox. Sustrato dimensionalmente estable y resistente a la humedad para baños, duchas y cocinas comerciales."
     },
     "facade": {
-      "question": "Can the board be used for exterior facade cladding?",
-      "answer": "Yes. Specified as the facade board in CBSS and CBMV ventilated facade systems. Can also be used as a render carrier. Suitable for all European climate zones."
+      "question": "¿Puede la placa utilizarse para revestimiento de fachada exterior?",
+      "answer": "Sí. Especificada como placa de fachada en sistemas de fachada ventilada CBSS y CBMV. También puede utilizarse como soporte de revestimiento. Adecuada para todas las zonas climáticas europeas."
     },
     "asbestos": {
-      "question": "Is the board asbestos-free?",
-      "answer": "Yes. Terasun TSM is completely asbestos-free. The board uses Portland cement with inorganic binders and fibreglass mesh reinforcement. REACH SVHC declaration confirming no SVHC above 0.1% w/w is available."
+      "question": "¿Está la placa libre de amianto?",
+      "answer": "Sí. Terasun TSM está completamente libre de amianto. La placa utiliza cemento Portland con aglutinantes inorgánicos y refuerzo de malla de fibra de vidrio. Está disponible la declaración REACH SVHC confirmando que no hay SVHC por encima del 0,1% p/p."
     },
     "moq": {
-      "question": "What is the minimum order quantity?",
-      "answer": "Minimum order is typically one 20-foot container (approx. 1,600–2,200 m² depending on thickness). Smaller quantities may be available from Finnish warehouse stock. Contact us for availability."
+      "question": "¿Cuál es la cantidad mínima de pedido?",
+      "answer": "El pedido mínimo es típicamente un contenedor de 20 pies (aprox. 1.600–2.200 m² según el espesor). Cantidades más pequeñas pueden estar disponibles desde el stock del almacén finlandés. Contáctenos para disponibilidad."
     },
     "samples": {
-      "question": "Are samples available before placing an order?",
-      "answer": "Yes. Physical samples and documentation packs are available to qualified distributors, architects, and contractors. Contact us to request a sample pack including board, TDS, CE certificate, and ETA."
+      "question": "¿Hay muestras disponibles antes de hacer un pedido?",
+      "answer": "Sí. Las muestras físicas y paquetes de documentación están disponibles para distribuidores, arquitectos y contratistas calificados. Contáctenos para solicitar un paquete de muestras que incluya placa, TDS, certificado CE y ETA."
     },
     "leadtime": {
-      "question": "How long does delivery take?",
-      "answer": "Container orders take approximately 6–10 weeks from order confirmation to European port delivery. DDP warehouse delivery adds 1–2 weeks. Finnish stock: 1–2 weeks."
+      "question": "¿Cuánto tiempo tarda la entrega?",
+      "answer": "Los pedidos en contenedor tardan aproximadamente 6-10 semanas desde la confirmación del pedido hasta la entrega en puerto europeo. La entrega en almacén DDP añade 1-2 semanas. Stock finlandés: 1-2 semanas."
     },
     "origin": {
-      "question": "Where is the product manufactured?",
-      "answer": "Manufactured by Zhejiang Terasun Air Duct Co., Ltd. in Zhejiang Province, People's Republic of China. Terasun Europe is the Authorised European Representative responsible for CE documentation and EU market compliance."
+      "question": "¿Dónde se fabrica el producto?",
+      "answer": "Fabricado por Zhejiang Terasun Air Duct Co., Ltd. en la Provincia de Zhejiang, República Popular China. Terasun Europe es el Representante Autorizado Europeo responsable de la documentación CE y el cumplimiento normativo del mercado de la UE."
     },
     "whoIsTerasun": {
-      "question": "What is Terasun Europe?",
-      "answer": "Terasun Europe is the Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd., based in Vantaa, Finland. We manage CE documentation, EU market compliance, and European customer relationships. We are not the manufacturer of Terasun products."
+      "question": "¿Qué es Terasun Europe?",
+      "answer": "Terasun Europe es el Representante Autorizado Europeo de Zhejiang Terasun Air Duct Co., Ltd., con sede en Vantaa, Finlandia. Gestionamos la documentación CE, el cumplimiento normativo de la UE y las relaciones con clientes europeos. No somos el fabricante de productos Terasun."
     },
     "authorisation": {
-      "question": "Is there an authorisation letter from the manufacturer?",
-      "answer": "Yes. Official authorisation letter from Zhejiang Terasun Air Duct Co., Ltd. confirming Terasun Europe as the Authorised European Representative is available for review."
+      "question": "¿Existe una carta de autorización del fabricante?",
+      "answer": "Sí. La carta de autorización oficial de Zhejiang Terasun Air Duct Co., Ltd. que confirma a Terasun Europe como Representante Autorizado Europeo está disponible para revisión."
     },
     "distributor": {
-      "question": "Can I become a distributor in my country?",
-      "answer": "Yes. We are actively seeking stocking distributors and project partners across Europe. Territory-based agreements, competitive margins, documentation support, and technical training. Contact us to discuss."
+      "question": "¿Puedo convertirme en distribuidor en mi país?",
+      "answer": "Sí. Estamos buscando activamente distribuidores con stock y socios de proyectos en toda Europa. Acuerdos basados en territorios, márgenes competitivos, soporte de documentación y capacitación técnica. Contáctenos para discutirlo."
     },
     "openMarkets": {
-      "question": "Which countries are open for distribution?",
-      "answer": "Germany, Netherlands, Belgium, France, Spain, Portugal, Italy, Austria, Switzerland, Poland, Czech Republic, Slovakia, Hungary, and others are open for new distribution partners. Contact us for territory availability."
+      "question": "¿Cuáles son los países abiertos para distribución?",
+      "answer": "Alemania, Países Bajos, Bélgica, Francia, España, Portugal, Italia, Austria, Suiza, Polonia, República Checa, Eslovaquia, Hungría y otros están abiertos para nuevos socios de distribución. Contáctanos para conocer la disponibilidad de territorio."
     },
     "studSpacing": {
-      "question": "What stud spacing is required?",
-      "answer": "Compatible with 400 mm and 600 mm stud spacing in both timber and steel frame systems. Specific recommendations depend on board thickness, orientation, and load — refer to the technical data sheet."
+      "question": "¿Qué espaciado de montantes se requiere?",
+      "answer": "Compatible con espaciado de montantes de 400 mm y 600 mm en sistemas de marco de madera y acero. Las recomendaciones específicas dependen del grosor de la placa, la orientación y la carga — consultar la hoja de datos técnicos."
     },
     "training": {
-      "question": "Is technical training available for distributors?",
-      "answer": "Yes. Technical product training, installation guidance, and documentation support are available to registered distributors. Training can be delivered on-site or remotely."
+      "question": "¿Hay entrenamiento técnico disponible para distribuidores?",
+      "answer": "Sí. El entrenamiento técnico de productos, orientación de instalación y apoyo de documentación están disponibles para distribuidores registrados. El entrenamiento se puede entregar en las instalaciones o de forma remota."
     },
     "publicProjects": {
-      "question": "Can Terasun TSM be used on public and infrastructure projects?",
-      "answer": "Yes. CE, ETA, DoP, EPD, and fire test documentation meets the requirements of public sector procurement across Europe. Full documentation packs available for specification and tender submission."
+      "question": "¿Se puede usar Terasun TSM en proyectos públicos e infraestructura?",
+      "answer": "Sí. La documentación de CE, ETA, DoP, EPD y ensayos de fuego cumple con los requisitos de contratación del sector público en toda Europa. Paquetes de documentación completa disponibles para especificación y presentación de licitaciones."
     },
     "cuttingTools": {
-      "question": "What cutting tools are needed for installation?",
-      "answer": "Terasun TSM can be cut with a circular saw or angle grinder fitted with a fibre cement or diamond blade. Score-and-snap for straight cuts on thinner boards. Wear a dust mask and eye protection. Full guidance in the installation manual."
+      "question": "¿Qué herramientas de corte se necesitan para la instalación?",
+      "answer": "Terasun TSM se puede cortar con una sierra circular o amoladora angular equipada con una hoja de fibrocemento o diamante. Rayado y rotura para cortes rectos en placas más delgadas. Usar máscara de polvo y protección ocular. Orientación completa en el manual de instalación."
     }
   },
   "contact": {

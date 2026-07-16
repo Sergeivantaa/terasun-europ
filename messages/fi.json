@@ -106,22 +106,22 @@
     ]
   },
   "about": {
-    "eyebrow": "About Terasun Europe",
-    "h1": "European cement board supplier and technical partner",
-    "sub": "Your authorised source for CE-certified Terasun TSM fiber cement board across Europe.",
-    "statusTitle": "Authorised European Representative",
-    "statusText": "Terasun Europe is the officially appointed Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd. We are responsible for CE documentation, EU market compliance, and European customer support.",
-    "body": "We serve architects, main contractors, building material distributors, and project specifiers across all EU member states. Our team provides technical guidance, documentation, logistics coordination, and long-term supply relationships.",
-    "disclaimerTitle": "Important: Terasun Europe is not the manufacturer",
-    "disclaimerText": "Terasun Europe is the Authorised European Representative only. The product is manufactured by Zhejiang Terasun Air Duct Co., Ltd. in Zhejiang Province, China. Terasun Europe is responsible for CE marking documentation and European market compliance in accordance with EU Construction Products Regulation.",
-    "stag": "About us",
-    "title": "Your authorised European partner for fiber cement board",
-    "missionStag": "Our mission",
-    "missionText": "To give European construction professionals reliable access to CE-certified, technically documented fiber cement board — with responsive logistics and expert support.",
+    "eyebrow": "Tietoa Terasun Europesta",
+    "h1": "Euroopan kuitubetonilaatat-toimittaja ja tekninen kumppani",
+    "sub": "Valtuutettu lähde CE-sertifioitujen Terasun TSM kuitubetonilaatojen saamiseksi kaikkialla Euroopassa.",
+    "statusTitle": "Valtuutettu euroopan edustaja",
+    "statusText": "Terasun Europe on virallisesti nimetty Zhejiang Terasun Air Duct Co., Ltd:n valtuutettu euroopan edustaja. Vastaamme CE-dokumentaatiosta, EU-markkinoiden vaatimuksista ja eurooppalaisesta asiakaspalvelusta.",
+    "body": "Palvelemme arkkitehtejä, pääurakoitsijoita, rakennusmateriaalien jakelijoita ja projektimäärittelijöitä kaikissa EU:n jäsenvaltioissa. Tiimimme tarjoaa teknistä konsultaatiota, dokumentaatiota, logistiikan koordinointia ja pitkäaikaisia toimittajasuhteita.",
+    "disclaimerTitle": "Tärkeää: Terasun Europe ei ole valmistaja",
+    "disclaimerText": "Terasun Europe on pelkästään valtuutettu euroopan edustaja. Tuote valmistetaan Zhejiang Terasun Air Duct Co., Ltd:n toimesta Zhejiangin maakunnassa, Kiinassa. Terasun Europe vastaa CE-merkinnän dokumentaatiosta ja eurooppalaisesta markkinoiden vaatimuksista EU:n rakennustuotteiden asetuksen mukaisesti.",
+    "stag": "Tietoa meistä",
+    "title": "Sinun valtuutettu euroopan kumppani kuitubetonilaatoille",
+    "missionStag": "Tehtävämme",
+    "missionText": "Tarjota eurooppalaisille rakennusalan ammattilaisille luotettava pääsy CE-sertifioituihin, teknisesti dokumentoituihin kuitubetonilaatoihin — nopealla logistiikalla ja asiantuntija-avulla.",
     "stat1Num": "1989",
-    "stat1Label": "Manufacturer founded",
+    "stat1Label": "Valmistaja perustettu",
     "stat2Num": "25",
-    "stat2Label": "EU languages supported",
+    "stat2Label": "EU-kielten tuki",
     "points": [
       {
         "title": "CE-dokumentaatio",
@@ -163,11 +163,11 @@
     "title": "Authorised European Representative"
   },
   "manufacturer": {
-    "eyebrow": "About the manufacturer",
+    "eyebrow": "Tietoja valmistajasta",
     "h1": "Zhejiang Terasun Air Duct Co., Ltd.",
-    "sub": "Founded in 1989 in Zhejiang Province, China — manufacturer of Terasun TSM fiber cement board with full European certification.",
-    "desc1": "Zhejiang Terasun Air Duct Co., Ltd. is an established cement board manufacturer producing fiber cement and construction board products since 1989. Its Terasun range includes products supported by full European technical documentation including CE, ETA, EPD, and fire test certifications.",
-    "desc2": "All boards are produced in compliance with ETA 24/0895 requirements. Third-party testing confirms performance data matches the Declaration of Performance. Modern production lines support large-volume export orders with quality control applied across all board specifications.",
+    "sub": "Perustettu vuonna 1989 Zhejiang-provinssissa, Kiinassa – Terasun TSM -kuitubetonilautoja valmistavalla yrityksellä on kaikki eurooppalaiset sertifikaatit.",
+    "desc1": "Zhejiang Terasun Air Duct Co., Ltd. on vakiintunut kuitubetonilautoja ja rakennuslevytuotteita vuodesta 1989 lähtien valmistanut yritys. Sen Terasun-valikoimaan kuuluvat tuotteet, joilla on täydellinen eurooppalaiset tekniset dokumentit, mukaan lukien CE, ETA, EPD ja palon testisertifikaatit.",
+    "desc2": "Kaikki levyt valmistetaan ETA 24/0895 -vaatimusten mukaisesti. Riippumaton kolmannen osapuolen testaus vahvistaa, että suoritustiedot vastaavat suoritusselosteita. Modernit tuotantolinjat tukevat suuria vientitilauksita, ja laatuvalvonta sovelletaan kaikkiin levyspesifikaatioihin.",
     "stats": {
       "capacity": {
         "value": "1989",
@@ -186,7 +186,7 @@
         "label": "Fire tested"
       }
     },
-    "timelineTitle": "Company milestones",
+    "timelineTitle": "Yrityksen virstanpylväät",
     "timeline": {
       "founded": {
         "year": "1989",
@@ -219,8 +219,8 @@
         "body": "EPD-IES-0018268 published March 2025, valid until 2029. ISO 14025 compliant environmental declaration."
       }
     },
-    "noteTitle": "Manufacturer relationship",
-    "noteText": "Terasun Europe is the Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd. Terasun Europe does not manufacture Terasun products. All products are manufactured in China and supplied via direct container shipment. European Representative: Terasun Europe, 01370 Vantaa, Finland."
+    "noteTitle": "Valmistajasuhde",
+    "noteText": "Terasun Europe on Zhejiang Terasun Air Duct Co., Ltd.:n valtuutettu eurooppalaisin edustaja. Terasun Europe ei valmista Terasun-tuotteita. Kaikki tuotteet valmistetaan Kiinassa ja toimitetaan suoran konttilastikuljetuksen kautta. Eurooppalainen edustaja: Terasun Europe, 01370 Vantaa, Suomi."
   },
   "products": {
     "eyebrow": "Product",
@@ -278,11 +278,11 @@
     "thicknessNote": "Täydellinen valikoima 3–25 mm, tilaustarpeen ja tuotannon saatavuuden mukaan. Tekniset tiedot vahvistettu 12 mm:lle; muut paksuudet pyydettäessä."
   },
   "applications": {
-    "eyebrow": "Applications",
-    "h1": "Fiber cement board applications",
-    "sub": "Terasun TSM is specified across a wide range of European construction applications — from ventilated facades to fire-rated partitions and wet rooms.",
-    "ctaTitle": "Not sure which system fits your project?",
-    "ctaText": "Contact our technical team for application guidance, system specifications, and a tailored quotation.",
+    "eyebrow": "Sovellukset",
+    "h1": "Kuitubetonilaatojen sovellukset",
+    "sub": "Terasun TSM:ää käytetään laajalla valikoimalla eurooppalaisia rakennussovelluksia — ilmasoiduista julkisivuista palosuojattuihin väliseiniin ja märkätiloihin.",
+    "ctaTitle": "Epävarma, mikä järjestelmä sopii projektillesi?",
+    "ctaText": "Ota yhteyttä tekniikan tiimiin sovelluksen ohjausta, järjestelmän teknisiä tietoja ja räätälöityä tarjousta varten.",
     "tags": {
       "Ventilated": "Ventilated",
       "All climates": "All climates",
@@ -300,120 +300,120 @@
       "Timber frame": "Timber frame"
     },
     "facade-systems": {
-      "title": "Facade systems",
-      "summary": "Lightweight facade cladding in ventilated and render systems for exterior walls across all European climate zones.",
-      "metaTitle": "Fiber Cement Board Facade Systems | Terasun TSM | Terasun Europe",
-      "metaDesc": "Terasun TSM for ventilated facade systems (CBSS/CBMV). Lightweight, CE-certified, paintable. Supply across Europe.",
-      "h1": "Fiber cement board for facade systems",
-      "lead": "Specified as a facade cement board in CBSS and CBMV ventilated facade systems across European climate zones.",
-      "body1": "Terasun TSM is used as the facade board in ventilated cladding systems, providing a lightweight exterior skin that breathes and drains behind cladding rails. The board is paintable with mineral or silicone render finishes.",
+      "title": "Julkisivujärjestelmät",
+      "summary": "Kevyt julkisivuverhoilu tuuletetuissa ja rappatusjärjestelmissä ulkoseinille kaikissa Euroopan ilmastovyöhykkeissä.",
+      "metaTitle": "Kuitubetonilevy julkisivujärjestelmille | Terasun TSM | Terasun Europe",
+      "metaDesc": "Terasun TSM tuuletettuihin julkisivujärjestelmiin (CBSS/CBMV). Kevyt, CE-sertifioitu, maalattava. Toimitus koko Euroopassa.",
+      "h1": "Kuitubetonilevy julkisivujärjestelmille",
+      "lead": "Määritelty julkisivubetonillevyksi CBSS ja CBMV -tuuletetuissa järjestelmissä Euroopan ilmastovyöhykkeissä.",
+      "body1": "Terasun TSM:ää käytetään julkisivulevynä tuuletetuissa verhoilujärjestelmissä, mikä tarjoaa kevyen ulkokuoren, joka hengittää ja kuivaa verhojuuksien takana. Levy on maalattava mineraali- tai silikonirapatusten kanssa.",
       "body2": "In render carrier applications, TSM acts as the substrate for external mineral render systems. Its autoclaved surface provides excellent adhesion and dimensional stability for render finishes in exposed conditions.",
-      "featuresTitle": "Key technical features",
-      "feature1": "Lightweight — 9.96 kg/m² at 12 mm reduces structural load",
-      "feature2": "CE certified under EN 12467 — mandatory for EEA use",
-      "feature3": "Suitable for ventilated and direct fix systems",
-      "feature4": "Paintable — compatible with mineral and silicone renders",
-      "feature5": "All climates — tested for Nordic and Central European conditions",
-      "feature6": "Available in thicknesses 6–18 mm for different facade loads",
-      "spec_Ventilated": "CBSS / CBMV systems",
-      "spec_All climates": "Nordic to Mediterranean",
-      "spec_Paintable": "Mineral / silicone render"
+      "featuresTitle": "Tärkeimmät tekniset ominaisuudet",
+      "feature1": "Kevyt — 9,96 kg/m² 12 mm paksuudella vähentää rakenteellista kuormitusta",
+      "feature2": "CE-sertifioitu EN 12467 -standardin mukaan — pakollinen ETA-alueella",
+      "feature3": "Soveltuu tuuletettuihin ja suoraan kiinnitettäviin järjestelmiin",
+      "feature4": "Maalattava — yhteensopiva mineraali- ja silikonirapatusten kanssa",
+      "feature5": "Kaikissa ilmastoissa — testattu pohjoisen ja Keski-Euroopan olosuhteissa",
+      "feature6": "Saatavana paksuuksina 6–18 mm erilaisille julkisivukuormille",
+      "spec_Ventilated": "CBSS / CBMV -järjestelmät",
+      "spec_All climates": "Pohjoinen - Välimeri",
+      "spec_Paintable": "Mineraali- / silikoniraput"
     },
     "fire-protection": {
-      "title": "Fire protection",
-      "summary": "Independently tested fire-rated partition systems achieving E120, EI90, and EW120 fire resistance classifications.",
-      "metaTitle": "Fire Resistant Cement Board Partitions | E120 EI90 EW120 | Terasun Europe",
-      "metaDesc": "Terasun TSM fire-rated wall system: E120 / EI90 / EW120. Independently tested per FIRES-CR-284-25-AUPE.",
-      "h1": "Fire-resistant cement board partitions",
-      "lead": "Independently tested fire-rated wall system achieving E 120, EI 90, and EW 120 classifications.",
-      "body1": "The Terasun TSM fire-rated wall system achieves E 120, EI 90, and EW 120 classifications per FIRES-CR-284-25-AUPE.",
-      "body2": "Suitable for commercial, public, and industrial buildings. Specifications should reference the tested system configuration.",
-      "featuresTitle": "Fire performance features",
-      "feature1": "E 120 — integrity 120 minutes",
-      "feature2": "EI 90 — integrity and insulation 90 minutes",
-      "feature3": "EW 120 — integrity and radiation limitation 120 minutes",
-      "feature4": "Independently tested — FIRES-CR-284-25-AUPE",
-      "feature5": "CE certified for fire performance under the EU Construction Products Regulation",
-      "feature6": "Suitable for commercial, public, and industrial occupancies",
-      "spec_E 120": "Integrity 120 min",
-      "spec_EI 90": "Integrity + insulation 90 min",
-      "spec_EW 120": "Integrity + radiation 120 min"
+      "title": "Palosuojaus",
+      "summary": "Itsenäisesti testatut paloluokitellut väliseinäjärjestelmät, jotka saavuttavat E120, EI90 ja EW120 palosuojaluokitukset.",
+      "metaTitle": "Palosuojatut sementtilevy-väliseinät | E120 EI90 EW120 | Terasun Europe",
+      "metaDesc": "Terasun TSM paloluokiteltu seinäjärjestelmä: E120 / EI90 / EW120. Itsenäisesti testattu standardin FIRES-CR-284-25-AUPE mukaan.",
+      "h1": "Palosuojatut sementtilevy-väliseinät",
+      "lead": "Itsenäisesti testattu paloluokiteltu seinäjärjestelmä, joka saavuttaa E 120, EI 90 ja EW 120 luokitukset.",
+      "body1": "Terasun TSM paloluokiteltu seinäjärjestelmä saavuttaa E 120, EI 90 ja EW 120 luokitukset standardin FIRES-CR-284-25-AUPE mukaan.",
+      "body2": "Sopii kaupallisiin, julkisiin ja teollisuusrakennuksiin. Teknisissä tiedoissa tulee viitata testattuun järjestelmäkonfiguraatioon.",
+      "featuresTitle": "Palosuojaominaisuudet",
+      "feature1": "E 120 — eheys 120 minuuttia",
+      "feature2": "EI 90 — eheys ja eristävyys 90 minuuttia",
+      "feature3": "EW 120 — eheys ja säteily-rajoitus 120 minuuttia",
+      "feature4": "Itsenäisesti testattu — FIRES-CR-284-25-AUPE",
+      "feature5": "CE-merkitty palosuojaluokituksessa EU:n rakennustuoteasetuksen mukaisesti",
+      "feature6": "Sopii kaupallisiin, julkisiin ja teollisuuskäyttöön",
+      "spec_E 120": "Eheys 120 min",
+      "spec_EI 90": "Eheys + eristävyys 90 min",
+      "spec_EW 120": "Eheys + säteily 120 min"
     },
     "wet-rooms": {
-      "title": "Wet room systems",
-      "summary": "Tile backing substrate in Mapei and Schönox approved wet room systems for bathrooms, showers, and commercial kitchens.",
-      "metaTitle": "Fiber Cement Wet Room Substrate | Mapei Schönox | Terasun Europe",
-      "metaDesc": "Terasun TSM as tile backing in Mapei and Schönox wet room systems. CE-certified, moisture-resistant.",
-      "h1": "Fiber cement board for wet rooms",
-      "lead": "Moisture-resistant tile backing in Mapei and Schönox approved wet room systems.",
-      "body1": "Terasun TSM is used as the tile backing substrate in Mapei and Schönox approved wet area tiling systems. The board provides a dimensionally stable, moisture-resistant surface for direct tile application.",
+      "title": "Märkätila-järjestelmät",
+      "summary": "Laattaalustas Mapei- ja Schönox-hyväksetyissä märkätila-järjestelmissä kylpyhuoneisiin, suihkuihin ja kaupallisiin keittiöihin.",
+      "metaTitle": "Kuitusementti märkätila-alustas | Mapei Schönox | Terasun Europe",
+      "metaDesc": "Terasun TSM laattaalustana Mapei ja Schönox märkätila-järjestelmissä. CE-sertifioitu, kosteustenkestävä.",
+      "h1": "Kuitusementtilevy märkätiloihin",
+      "lead": "Kosteustenkestävä laattaalustas Mapei- ja Schönox-hyväksetyissä märkätila-järjestelmissä.",
+      "body1": "Terasun TSM käytetään laattaalusta-aineena Mapei- ja Schönox-hyväksetyissä märkätilojen laatoitusjärjestelmissä. Levy tarjoaa mittapysyvän, kosteustenkestävän pinnan suoraan laatakoinnille.",
       "body2": "The autoclaved surface does not expand or contract with moisture cycling — ideal for areas with continuous water exposure.",
-      "featuresTitle": "Wet room performance",
-      "feature1": "Moisture resistant — dimensionally stable in wet conditions",
-      "feature2": "Direct tile substrate — compatible with polymer-modified adhesives",
-      "feature3": "Mapei system approved",
-      "feature4": "Schönox system approved",
-      "feature5": "CE certified for wet area applications",
-      "feature6": "Suitable for floors, walls, and ceilings in wet rooms",
-      "spec_Mapei": "Mapei approved system",
-      "spec_Schönox": "Schönox approved system"
+      "featuresTitle": "Märkätilan suorituskyky",
+      "feature1": "Kosteustenkestävä — mittapysyvä märkissä olosuhteissa",
+      "feature2": "Suora laattaalustas — yhteensopiva polymeeripohjaisten liimainten kanssa",
+      "feature3": "Mapei-järjestelmä hyväksytty",
+      "feature4": "Schönox-järjestelmä hyväksytty",
+      "feature5": "CE-sertifioitu märkätila-sovelluksille",
+      "feature6": "Soveltuu märkätilojen lattiuille, seinille ja kattoille",
+      "spec_Mapei": "Mapei-hyväksytty järjestelmä",
+      "spec_Schönox": "Schönox-hyväksytty järjestelmä"
     },
     "commercial-buildings": {
-      "title": "Commercial buildings",
-      "summary": "Interior and exterior cladding for commercial buildings, retail, offices, and mixed-use developments.",
-      "metaTitle": "Fiber Cement Cladding Commercial Buildings | CE | Terasun Europe",
-      "metaDesc": "Terasun TSM for commercial building cladding. CE-certified, lightweight, EPD for LEED/BREEAM projects.",
-      "h1": "Fiber cement board for commercial buildings",
-      "lead": "Interior and exterior cladding for commercial buildings requiring CE-certified, durable panels.",
-      "body1": "Terasun TSM is specified for offices, retail, hospitality, and mixed-use developments. CE marking and EPD support green building certification.",
-      "body2": "The board's lightweight nature reduces structural loads. Large format boards up to 1200×3000 mm reduce joints and installation time.",
-      "featuresTitle": "Commercial features",
-      "feature1": "CE certified — mandatory documentation for commercial specification",
-      "feature2": "EPD available — supports LEED, BREEAM, DGNB projects",
-      "feature3": "Lightweight — reduces structural loads",
-      "feature4": "Fire rated — E120/EI90/EW120",
-      "feature5": "Interior and exterior — single product for whole-building specification",
-      "feature6": "Large format — 1200×3000 mm reduces joints",
-      "spec_Interior": "Drylining, ceilings, partitions",
-      "spec_Exterior": "Facade cladding, soffits"
+      "title": "Kaupalliset rakennukset",
+      "summary": "Sisä- ja ulkoverhoustus kaupallisiin rakennuksiin, vähittäiskaupan tiloihin, toimistoihin ja sekakäyttöisiin hankkeisiin.",
+      "metaTitle": "Kuitubetoninen verhoustus kaupallisiin rakennuksiin | CE | Terasun Europe",
+      "metaDesc": "Terasun TSM kaupallisten rakennusten verhoukseen. CE-sertifioitu, kevyt, EPD LEED/BREEAM-projekteille.",
+      "h1": "Kuitubetonilevy kaupallisiin rakennuksiin",
+      "lead": "Sisä- ja ulkoverhoustus kaupallisiin rakennuksiin, joissa vaaditaan CE-sertifioituja, kestäviä paneeleita.",
+      "body1": "Terasun TSM on määritelty toimistoihin, vähittäiskauppaan, majoituspalveluihin ja sekakäyttöisiin hankkeisiin. CE-merkintä ja EPD tukevat kestävän rakentamisen sertifiointia.",
+      "body2": "Levyn kevyt rakenne vähentää rakenteellista kuormitusta. Suuret paneeli-kokot (enintään 1200×3000 mm) vähentävät liitoksia ja asennusaikaa.",
+      "featuresTitle": "Kaupalliset ominaisuudet",
+      "feature1": "CE-sertifioitu — pakollinen dokumentaatio kaupalliseen käyttöön",
+      "feature2": "EPD saatavilla — tukee LEED-, BREEAM- ja DGNB-projekteja",
+      "feature3": "Kevyt — vähentää rakenteellista kuormitusta",
+      "feature4": "Paloluokka — E120/EI90/EW120",
+      "feature5": "Sisä- ja ulkokäyttö — yksi tuote koko rakennuksen verhoukseen",
+      "feature6": "Suuret koot — 1200×3000 mm vähentää liitoksia",
+      "spec_Interior": "Kuivaverhous, katot, väliseinät",
+      "spec_Exterior": "Julkisivujen verhous, aluskatto"
     },
     "steel-frame": {
-      "title": "Steel frame construction",
-      "summary": "Heavy-duty industrial sheathing and cladding for steel frame structures, warehouses, and industrial buildings.",
-      "metaTitle": "Fiber Cement Steel Frame Industrial | Heavy-Duty | Terasun Europe",
-      "metaDesc": "Terasun TSM for steel frame industrial sheathing. CE-certified, heavy-duty for warehouses and industrial buildings.",
-      "h1": "Fiber cement board for steel frame construction",
-      "lead": "Heavy-duty industrial sheathing for steel frame structures, warehouses, and industrial buildings.",
-      "body1": "Terasun TSM provides robust sheathing for steel frame industrial buildings. High density and impact resistance make it suitable for warehouse walls, industrial facades, and machine room cladding.",
-      "body2": "Compatible with standard steel stud systems at 400 mm or 600 mm spacing and direct fix to purlins.",
-      "featuresTitle": "Steel frame features",
-      "feature1": "Compatible with 400 mm and 600 mm steel stud spacing",
-      "feature2": "High impact resistance for industrial environments",
-      "feature3": "CE certified for commercial and industrial use",
-      "feature4": "Fire rated — E120/EI90/EW120",
-      "feature5": "Available up to 18 mm for heavy-duty loads",
-      "feature6": "Paintable surface for finished industrial aesthetics",
-      "spec_Industrial": "Warehouses, machine rooms",
-      "spec_Heavy-duty": "Direct fix to steel purlins"
+      "title": "Teräsrunkorakentaminen",
+      "summary": "Raskaskäyttöinen teollisuuden verhoilu ja julkisivuverhoilu teräsrunkorakenteille, varastoille ja teollisuusrakennuksille.",
+      "metaTitle": "Kuitubetonilaatat teräsrunkorakentamiseen | Raskaskäyttöinen | Terasun Europe",
+      "metaDesc": "Terasun TSM teräsrunkoisten rakennusten verhailuun. CE-merkitty, raskaskäyttöinen varastoille ja teollisuusrakennuksille.",
+      "h1": "Kuitubetonilaatat teräsrunkorakentamiseen",
+      "lead": "Raskaskäyttöinen teollisuuden verhoilu teräsrunkorakenteille, varastoille ja teollisuusrakennuksille.",
+      "body1": "Terasun TSM tarjoaa kestävää verhailua teräsrunkoisten teollisuusrakennusten rakentamiseen. Korkea tiheys ja iskunkestävyys tekevät siitä sopivan varastojen seiniin, teollisuuden julkisivuihin ja konehallien verhoiluun.",
+      "body2": "Yhteensopiva vakiomuotoisten teräsrankojen kanssa 400 mm tai 600 mm väleillä ja suora kiinnitys kattokannattajiin.",
+      "featuresTitle": "Teräsrungon ominaisuudet",
+      "feature1": "Yhteensopiva 400 mm ja 600 mm teräsrankoväleillä",
+      "feature2": "Korkea iskunkestävyys teollisuusympäristöille",
+      "feature3": "CE-merkitty kaupalliseen ja teollisuuskäyttöön",
+      "feature4": "Paloluokitus — E120/EI90/EW120",
+      "feature5": "Saatavana jopa 18 mm raskaskuormille",
+      "feature6": "Maalattava pinta ammattimaisen teollisuuden ilmeen saavuttamiseksi",
+      "spec_Industrial": "Varastot, konehuoneet",
+      "spec_Heavy-duty": "Suora kiinnitys teräskattokannattajiin"
     },
     "residential": {
-      "title": "Residential construction",
-      "summary": "Lightweight exterior and interior boards for timber frame and masonry residential buildings.",
-      "metaTitle": "Fiber Cement Board Residential Timber Frame | CE | Terasun Europe",
-      "metaDesc": "Terasun TSM for residential timber frame and masonry. CE-certified lightweight boards for houses and apartments.",
-      "h1": "Fiber cement board for residential construction",
-      "lead": "Lightweight exterior and interior boards for timber frame and masonry residential buildings.",
-      "body1": "Terasun TSM is widely used in residential construction for facade cladding, wet room substrates, and interior wall sheathing in timber frame and masonry builds.",
-      "body2": "Moisture resistance and fire performance make it suitable for all residential occupancy types, including multi-family apartments requiring fire-rated separation.",
-      "featuresTitle": "Residential features",
-      "feature1": "Lightweight — easy handling on residential sites",
-      "feature2": "Timber frame compatible — 400 mm and 600 mm stud spacing",
-      "feature3": "Moisture resistant — exterior and wet area use",
-      "feature4": "Fire rated — suitable for party wall fire separation",
-      "feature5": "CE certified for residential building regulations",
-      "feature6": "Wet room substrate — direct tile application in bathrooms",
-      "spec_Residential": "Houses, apartments, terraced",
-      "spec_Timber frame": "Timber stud at 400 / 600 mm"
+      "title": "Asuinrakentaminen",
+      "summary": "Kevyet ulko- ja sisälevyt puurunko- ja muuratuille asuinrakennuksille.",
+      "metaTitle": "Kuitubetonilevy Asuinrakennus Puurunko | CE | Terasun Europe",
+      "metaDesc": "Terasun TSM puurunko- ja muuratuille asuinrakennuksille. CE-sertifioidut kevyet levyt taloihin ja kerrostaloihin.",
+      "h1": "Kuitubetonilevy asuinrakentamista varten",
+      "lead": "Kevyet ulko- ja sisälevyt puurunko- ja muuratuille asuinrakennuksille.",
+      "body1": "Terasun TSM:ää käytetään laajalti asuinrakentamisessa julkisivuverhoiluun, kosteiden tilojen alustaksi ja sisäseinien verhoukseen puurunko- ja muuratuissa rakennuksissa.",
+      "body2": "Kosteudenkestävyys ja palonkestävyys tekevät siitä sopivan kaikille asuinrakennuksille, mukaan lukien palosululla erotetut kerrostalot.",
+      "featuresTitle": "Asuinrakentamisen ominaisuudet",
+      "feature1": "Kevyt — helppo käsitellä asuinrakentamisen kohteissa",
+      "feature2": "Puurunkoyhteensopiva — 400 mm ja 600 mm pilarivälillä",
+      "feature3": "Kosteudenkestävä — ulko- ja kosteisiin tiloihin",
+      "feature4": "Palonestetty — sopii väliseinien palosuojaukseen",
+      "feature5": "CE-sertifioitu asuinrakentamisen määräysten mukaisesti",
+      "feature6": "Kostean tilan alusta — suora laatoitus kylpyhuoneissa",
+      "spec_Residential": "Talot, kerrostalot, rivitalot",
+      "spec_Timber frame": "Puupilarit 400 / 600 mm:n välillä"
     },
     "sidebarSpecs": "Tekniset tiedot",
     "sidebarQuote": "Pyydä tarjous",
@@ -422,9 +422,9 @@
     "downloadLabel": "Lataa ↗"
   },
   "certifications": {
-    "eyebrow": "Certifications & declarations",
-    "h1": "Full European certification documentation",
-    "sub": "Terasun TSM carries mandatory CE marking and comprehensive third-party certification for European construction compliance.",
+    "eyebrow": "Sertifioinnit ja ilmoitukset",
+    "h1": "Täydellinen eurooppalainen sertifiointidokumentaatio",
+    "sub": "Terasun TSM kantaa pakollisen CE-merkinnän ja kattavat kolmannen osapuolen sertifioinnit eurooppalaiselle rakentamiselle.",
     "ce": {
       "badge": "Mandatory",
       "label": "CE Marking",
@@ -532,9 +532,9 @@
     }
   },
   "distributors": {
-    "eyebrow": "Partnership programme",
-    "h1": "European distribution partnerships",
-    "sub": "Terasun Europe works with stocking distributors, importers, and project partners across all European markets.",
+    "eyebrow": "Kumppanuusohjelma",
+    "h1": "Eurooppalaiset jakelukumppanuudet",
+    "sub": "Terasun Europe työskentelee varaston hallinnassa olevien jälleenmyyjien, maahantuojien ja projektikumppaneiden kanssa kaikilla Euroopan markkinoilla.",
     "benefits": {
       "margin": {
         "icon": "💰",
@@ -557,22 +557,22 @@
         "body": "Territory-based distribution agreements. Priority markets available now."
       }
     },
-    "mapTitle": "Markets across Europe",
+    "mapTitle": "Markkinat Euroopan ympäri",
     "status": {
       "hq": "HQ — Finland",
       "active": "Active partner",
       "open": "Partner wanted",
       "available": "Available"
     },
-    "ctaTitle": "Apply for distribution in your country",
-    "ctaText": "We are actively seeking stocking distributors, importers, and project partners across Europe. Exclusive territory agreements available.",
-    "ctaApply": "Apply to become a distributor",
-    "ctaEmail": "Email us directly"
+    "ctaTitle": "Hae jakeluoikeuksia maassasi",
+    "ctaText": "Etsimme aktiivisesti varaston hallinnassa olevia jälleenmyyjiä, maahantuojia ja projektikumppaneita Euroopan ympäri. Ekskluusiivisia aluesopimuksia saatavilla.",
+    "ctaApply": "Hae jälleenmyyjäksi",
+    "ctaEmail": "Ota meihin yhteyttä sähköpostilla"
   },
   "logistics": {
-    "eyebrow": "Logistics & supply chain",
-    "h1": "Cement board supply from factory to warehouse",
-    "sub": "Full supply chain coordination — from manufacturing in China to delivery at your European site or warehouse.",
+    "eyebrow": "Logistiikka ja toimitusketju",
+    "h1": "Sementtilevyjen toimitus tehtaalta varastoon",
+    "sub": "Täysi toimitusketjun koordinointi — valmistuksesta Kiinasta toimittamiseen eurooppalaiselle paikallesi tai varastollesi.",
     "steps": {
       "order": {
         "title": "Order confirmation",
@@ -599,7 +599,7 @@
         "body": "DAP or DDP delivery to your European warehouse or construction site. Unloading coordination on request."
       }
     },
-    "leadTimesTitle": "Typical lead times",
+    "leadTimesTitle": "Tyypilliset toimitusajat",
     "leadTimes": {
       "stock": {
         "value": "~2 wks",
@@ -617,20 +617,20 @@
         "desc": "Non-standard sizes or custom board specifications"
       }
     },
-    "incotermsTitle": "Available incoterms",
-    "incotermsNote": "We supply on EXW, FOB, CFR, CIF, DAP, and DDP terms. Agreed per order at quotation stage.",
+    "incotermsTitle": "Saatavilla olevat incoterms",
+    "incotermsNote": "Toimitetaan EXW, FOB, CFR, CIF, DAP ja DDP -ehdoilla. Sovitaan tilauskohtaisesti tarjousvaiheessa.",
     "ctaFreight": "Pyydä rahtitarjous"
   },
   "gallery": {
-    "eyebrow": "Project gallery",
-    "h1": "Terasun TSM in use",
-    "sub": "Real installations across Europe — facade cladding, wet room systems, fire-rated partitions, and more.",
-    "cta": "Have a completed project using Terasun TSM? Send us your photos."
+    "eyebrow": "Projektien galleria",
+    "h1": "Terasun TSM käytössä",
+    "sub": "Todellisia asennuksia Euroopassa — julkisivuverhoilu, märkätilan järjestelmät, palosuojatut väliseinät ja muuta.",
+    "cta": "Sinulla on valmistunut projekti Terasun TSM:n kanssa? Lähetä meille valokuvasi."
   },
   "faq": {
-    "eyebrow": "FAQ",
-    "h1": "Frequently asked questions",
-    "sub": "Technical, commercial, and logistics questions about Terasun TSM fiber cement board.",
+    "eyebrow": "UKK",
+    "h1": "Usein kysytyt kysymykset",
+    "sub": "Tekniset, kaupalliset ja logistiset kysymykset Terasun TSM-kuitubetonilaudasta.",
     "ce": {
       "question": "Does Terasun TSM have CE marking?",
       "answer": "Yes. CE 1023-CPR-1565 P. The product complies with the EU Construction Products Regulation and carries CE marking for sale and use across the European Economic Area."
@@ -725,9 +725,9 @@
     "notMfrNote": "Terasun Europe on ainoastaan Valtuutettu Eurooppalainen Edustaja. Emme ole Terasun-tuotteiden valmistaja."
   },
   "installation": {
-    "eyebrow": "Installation guide",
-    "h1": "Installing Terasun TSM fiber cement board",
-    "sub": "Complete contractor guide — tools, cutting, fastening, joints, weather protection, and finishing.",
+    "eyebrow": "Asennusopas",
+    "h1": "Terasun TSM kuitubetonilaatoitteen asennus",
+    "sub": "Täydellinen urakoitsijan opas — työkalut, leikkaus, kiinnitys, liitokset, sääsuoja ja viimeistely.",
     "features": {
       "tools": {
         "icon": "🔧",
@@ -760,8 +760,8 @@
         "body": "Prime with alkali-resistant primer before paint or render. Compatible with mineral, silicone, and acrylic finishes. Interior surfaces can be directly tiled with polymer-modified adhesive."
       }
     },
-    "downloadTitle": "Download the installation manual",
-    "downloadText": "Full installation guidance including system drawings, fixing patterns, and substrate requirements."
+    "downloadTitle": "Lataa asennusopas",
+    "downloadText": "Täydellinen asennusohjeistus mukaan lukien järjestelmäpiirustukset, kiinnityskuviot ja alustavaatimukset."
   },
   "footer": {
     "brand": "TERASUN",
@@ -794,7 +794,7 @@
     "loginLink": "Sign in"
   },
   "markets": {
-    "eyebrow": "European market",
+    "eyebrow": "Euroopan markkina",
     "country_features": {
       "certifications": {
         "title": "Full CE documentation",
@@ -813,9 +813,9 @@
         "body": "Exclusive territory distribution available. Competitive margins and full technical support."
       }
     },
-    "ctaQuote": "Request quotation for",
-    "ctaPartner": "Become a distributor",
-    "marketInfo": "Market information",
+    "ctaQuote": "Pyydä tarjousta",
+    "ctaPartner": "Tule jälleenmyyjäksi",
+    "marketInfo": "Markkinatiedot",
     "finland": {
       "metaTitle": "Fiber Cement Board Finland | Terasun TSM | CE & ETA | Terasun Europe",
       "metaDesc": "CE-certified Terasun TSM fiber cement board in Finland. Based in Vantaa. Supply to Finnish contractors, architects, and distributors.",

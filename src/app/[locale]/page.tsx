@@ -482,7 +482,7 @@ export default async function HomePage({ params }: Props) {
       {/* ══════════════════════════════════════════
           MANUFACTURER
       ══════════════════════════════════════════ */}
-      <section className="bg-[#0C1929] py-20 lg:py-28" id="manufacturer">
+      <section className="bg-[#0C1929] section-dark py-20 lg:py-28" id="manufacturer">
         <div className="container-page">
           <div className="grid lg:grid-cols-2 gap-14 items-center">
             <ScrollReveal>

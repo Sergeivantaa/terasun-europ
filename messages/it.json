@@ -106,22 +106,22 @@
     ]
   },
   "about": {
-    "eyebrow": "About Terasun Europe",
-    "h1": "European cement board supplier and technical partner",
-    "sub": "Your authorised source for CE-certified Terasun TSM fiber cement board across Europe.",
-    "statusTitle": "Authorised European Representative",
-    "statusText": "Terasun Europe is the officially appointed Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd. We are responsible for CE documentation, EU market compliance, and European customer support.",
-    "body": "We serve architects, main contractors, building material distributors, and project specifiers across all EU member states. Our team provides technical guidance, documentation, logistics coordination, and long-term supply relationships.",
-    "disclaimerTitle": "Important: Terasun Europe is not the manufacturer",
-    "disclaimerText": "Terasun Europe is the Authorised European Representative only. The product is manufactured by Zhejiang Terasun Air Duct Co., Ltd. in Zhejiang Province, China. Terasun Europe is responsible for CE marking documentation and European market compliance in accordance with EU Construction Products Regulation.",
-    "stag": "About us",
-    "title": "Your authorised European partner for fiber cement board",
-    "missionStag": "Our mission",
-    "missionText": "To give European construction professionals reliable access to CE-certified, technically documented fiber cement board — with responsive logistics and expert support.",
+    "eyebrow": "Su Terasun Europe",
+    "h1": "Fornitore europeo di pannelli in cemento e partner tecnico",
+    "sub": "La vostra fonte autorizzata per pannelli in cemento fibroso Terasun TSM certificati CE in tutta Europa.",
+    "statusTitle": "Rappresentante Europeo Autorizzato",
+    "statusText": "Terasun Europe è il Rappresentante Europeo Autorizzato ufficialmente designato per Zhejiang Terasun Air Duct Co., Ltd. Siamo responsabili della documentazione CE, della conformità al mercato dell'UE e del supporto clienti europeo.",
+    "body": "Serviamo architetti, appaltatori principali, distributori di materiali da costruzione e specifier di progetti in tutti gli stati membri dell'UE. Il nostro team fornisce guida tecnica, documentazione, coordinamento della logistica e relazioni di fornitura a lungo termine.",
+    "disclaimerTitle": "Importante: Terasun Europe non è il produttore",
+    "disclaimerText": "Terasun Europe è solo il Rappresentante Europeo Autorizzato. Il prodotto è prodotto da Zhejiang Terasun Air Duct Co., Ltd. nella provincia dello Zhejiang, Cina. Terasun Europe è responsabile della documentazione di marcatura CE e della conformità al mercato europeo in conformità al Regolamento sui Prodotti da Costruzione dell'UE.",
+    "stag": "Chi siamo",
+    "title": "Il vostro partner europeo autorizzato per pannelli in cemento fibroso",
+    "missionStag": "La nostra missione",
+    "missionText": "Fornire ai professionisti della costruzione europei accesso affidabile a pannelli in cemento fibroso certificati CE e tecnicamente documentati, con logistica reattiva e supporto esperto.",
     "stat1Num": "1989",
-    "stat1Label": "Manufacturer founded",
+    "stat1Label": "Produttore fondato",
     "stat2Num": "25",
-    "stat2Label": "EU languages supported",
+    "stat2Label": "Lingue dell'UE supportate",
     "points": [
       {
         "title": "Documentazione CE",
@@ -163,11 +163,11 @@
     "title": "Authorised European Representative"
   },
   "manufacturer": {
-    "eyebrow": "About the manufacturer",
+    "eyebrow": "Informazioni sul produttore",
     "h1": "Zhejiang Terasun Air Duct Co., Ltd.",
-    "sub": "Founded in 1989 in Zhejiang Province, China — manufacturer of Terasun TSM fiber cement board with full European certification.",
-    "desc1": "Zhejiang Terasun Air Duct Co., Ltd. is an established cement board manufacturer producing fiber cement and construction board products since 1989. Its Terasun range includes products supported by full European technical documentation including CE, ETA, EPD, and fire test certifications.",
-    "desc2": "All boards are produced in compliance with ETA 24/0895 requirements. Third-party testing confirms performance data matches the Declaration of Performance. Modern production lines support large-volume export orders with quality control applied across all board specifications.",
+    "sub": "Fondata nel 1989 nella provincia dello Zhejiang, Cina — produttore di pannelli in fibrocemento Terasun TSM con piena certificazione europea.",
+    "desc1": "Zhejiang Terasun Air Duct Co., Ltd. è un affermato produttore di pannelli in cemento che produce prodotti in fibrocemento e pannelli da costruzione dal 1989. La gamma Terasun include prodotti supportati da completa documentazione tecnica europea che comprende certificazioni CE, ETA, EPD e test di resistenza al fuoco.",
+    "desc2": "Tutti i pannelli sono prodotti in conformità ai requisiti ETA 24/0895. I test di terze parti confermano che i dati di prestazione corrispondono alla Dichiarazione di Prestazione. Le linee di produzione moderne supportano ordini di esportazione di grandi volumi con controllo qualità applicato a tutte le specifiche dei pannelli.",
     "stats": {
       "capacity": {
         "value": "1989",
@@ -186,7 +186,7 @@
         "label": "Fire tested"
       }
     },
-    "timelineTitle": "Company milestones",
+    "timelineTitle": "Pietre miliari dell'azienda",
     "timeline": {
       "founded": {
         "year": "1989",
@@ -219,8 +219,8 @@
         "body": "EPD-IES-0018268 published March 2025, valid until 2029. ISO 14025 compliant environmental declaration."
       }
     },
-    "noteTitle": "Manufacturer relationship",
-    "noteText": "Terasun Europe is the Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd. Terasun Europe does not manufacture Terasun products. All products are manufactured in China and supplied via direct container shipment. European Representative: Terasun Europe, 01370 Vantaa, Finland."
+    "noteTitle": "Relazione con il produttore",
+    "noteText": "Terasun Europe è il Rappresentante Europeo Autorizzato per Zhejiang Terasun Air Duct Co., Ltd. Terasun Europe non produce prodotti Terasun. Tutti i prodotti sono fabbricati in Cina e forniti tramite spedizione diretta in container. Rappresentante Europeo: Terasun Europe, 01370 Vantaa, Finlandia."
   },
   "products": {
     "eyebrow": "Product",
@@ -278,11 +278,11 @@
     "thicknessNote": "Gamma completa 3–25 mm, soggetta al volume d'ordine e alla disponibilità produttiva. Dati tecnici confermati per 12 mm; altri spessori su richiesta."
   },
   "applications": {
-    "eyebrow": "Applications",
-    "h1": "Fiber cement board applications",
-    "sub": "Terasun TSM is specified across a wide range of European construction applications — from ventilated facades to fire-rated partitions and wet rooms.",
-    "ctaTitle": "Not sure which system fits your project?",
-    "ctaText": "Contact our technical team for application guidance, system specifications, and a tailored quotation.",
+    "eyebrow": "Applicazioni",
+    "h1": "Applicazioni delle lastre di cemento fibroso",
+    "sub": "Terasun TSM è specificato in un'ampia gamma di applicazioni costruttive europee — dalle facciate ventilate alle pareti divisorie resistenti al fuoco e alle stanze umide.",
+    "ctaTitle": "Non sei sicuro di quale sistema si adatta al tuo progetto?",
+    "ctaText": "Contatta il nostro team tecnico per indicazioni sull'applicazione, specifiche del sistema e un preventivo personalizzato.",
     "tags": {
       "Ventilated": "Ventilated",
       "All climates": "All climates",
@@ -422,9 +422,9 @@
     "downloadLabel": "Scarica ↗"
   },
   "certifications": {
-    "eyebrow": "Certifications & declarations",
-    "h1": "Full European certification documentation",
-    "sub": "Terasun TSM carries mandatory CE marking and comprehensive third-party certification for European construction compliance.",
+    "eyebrow": "Certificazioni e dichiarazioni",
+    "h1": "Documentazione completa di certificazione europea",
+    "sub": "Terasun TSM ha la marcatura CE obbligatoria e la certificazione completa di terze parti per la conformità edilizia europea.",
     "ce": {
       "badge": "Mandatory",
       "label": "CE Marking",
@@ -570,9 +570,9 @@
     "ctaEmail": "Email us directly"
   },
   "logistics": {
-    "eyebrow": "Logistics & supply chain",
-    "h1": "Cement board supply from factory to warehouse",
-    "sub": "Full supply chain coordination — from manufacturing in China to delivery at your European site or warehouse.",
+    "eyebrow": "Logistica e catena di approvvigionamento",
+    "h1": "Fornitura di pannelli in cemento dalla fabbrica al magazzino",
+    "sub": "Coordinamento completo della catena di approvvigionamento — dalla produzione in Cina alla consegna presso il vostro sito europeo o magazzino.",
     "steps": {
       "order": {
         "title": "Order confirmation",
@@ -599,7 +599,7 @@
         "body": "DAP or DDP delivery to your European warehouse or construction site. Unloading coordination on request."
       }
     },
-    "leadTimesTitle": "Typical lead times",
+    "leadTimesTitle": "Tempi di consegna tipici",
     "leadTimes": {
       "stock": {
         "value": "~2 wks",
@@ -617,8 +617,8 @@
         "desc": "Non-standard sizes or custom board specifications"
       }
     },
-    "incotermsTitle": "Available incoterms",
-    "incotermsNote": "We supply on EXW, FOB, CFR, CIF, DAP, and DDP terms. Agreed per order at quotation stage.",
+    "incotermsTitle": "Incoterms disponibili",
+    "incotermsNote": "Forniamo con termini EXW, FOB, CFR, CIF, DAP e DDP. Concordati per ogni ordine in fase di quotazione.",
     "ctaFreight": "Richiedi preventivo di spedizione"
   },
   "gallery": {
@@ -629,8 +629,8 @@
   },
   "faq": {
     "eyebrow": "FAQ",
-    "h1": "Frequently asked questions",
-    "sub": "Technical, commercial, and logistics questions about Terasun TSM fiber cement board.",
+    "h1": "Domande frequenti",
+    "sub": "Domande tecniche, commerciali e logistiche su Terasun TSM lastra in fibrocemento.",
     "ce": {
       "question": "Does Terasun TSM have CE marking?",
       "answer": "Yes. CE 1023-CPR-1565 P. The product complies with the EU Construction Products Regulation and carries CE marking for sale and use across the European Economic Area."
