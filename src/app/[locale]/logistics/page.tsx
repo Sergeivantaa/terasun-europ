@@ -91,7 +91,7 @@ export default async function LogisticsPage({ params }: { params: Promise<{ loca
         </div>
 
         <div className="text-center">
-          <Link href={navHref('/contact')} className="btn-primary px-8 py-3">Request freight quotation</Link>
+          <Link href={navHref('/contact')} className="btn-primary px-8 py-3">{t('ctaFreight')}</Link>
         </div>
         </div>
       </section>

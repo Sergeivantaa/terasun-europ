@@ -72,7 +72,7 @@ export default async function CertificationsPage({ params }: { params: Promise<{
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Download ↗
+                    {t('downloadLabel')}
                   </a>
                 )}
               </div>
