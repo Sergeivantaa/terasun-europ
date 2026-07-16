@@ -632,84 +632,84 @@
     "h1": "Συχνές ερωτήσεις",
     "sub": "Τεχνικές, εμπορικές και λογιστικές ερωτήσεις σχετικά με Terasun TSM σανίδα ινών τσιμέντου.",
     "ce": {
-      "question": "Does Terasun TSM have CE marking?",
-      "answer": "Yes. CE 1023-CPR-1565 P. The product complies with the EU Construction Products Regulation and carries CE marking for sale and use across the European Economic Area."
+      "question": "Έχει το Terasun TSM σήμανση CE;",
+      "answer": "Ναι. CE 1023-CPR-1565 P. Το προϊόν συμμορφώνεται με τη EU Construction Products Regulation και φέρει σήμανση CE για πώληση και χρήση σε όλη την European Economic Area."
     },
     "eta": {
-      "question": "Is there a European Technical Assessment (ETA)?",
-      "answer": "Yes. ETA 24/0895 has been issued by a designated ETA body. It independently confirms the product's performance characteristics for its intended uses. Full ETA available for download."
+      "question": "Υπάρχει European Technical Assessment (ETA);",
+      "answer": "Ναι. Το ETA 24/0895 έχει εκδοθεί από ένα ορισμένο όργανο ETA. Επιβεβαιώνει ανεξάρτητα τα χαρακτηριστικά απόδοσης του προϊόντος για τις προβλεπόμενες χρήσεις του. Πλήρες ETA διαθέσιμο για λήψη."
     },
     "epd": {
-      "question": "Is there an EPD (Environmental Product Declaration)?",
-      "answer": "Yes. EPD-IES-0018268, published 2025-03-14, valid until 2029-03-14. ISO 14025 compliant. Declared unit: 1 m² at 12 mm, weight 9.96 kg/m². Supports LEED, BREEAM, and DGNB certification projects."
+      "question": "Υπάρχει EPD (Environmental Product Declaration);",
+      "answer": "Ναι. EPD-IES-0018268, δημοσιευμένο 2025-03-14, ισχύει μέχρι 2029-03-14. ISO 14025 συμμορφό. Δηλωθείσα μονάδα: 1 m² σε 12 mm, βάρος 9.96 kg/m². Υποστηρίζει έργα πιστοποίησης LEED, BREEAM και DGNB."
     },
     "weight": {
-      "question": "What is the declared weight of the board?",
-      "answer": "The declared weight per EPD-IES-0018268 is 9.96 kg/m² at 12 mm thickness. Thinner boards are proportionally lighter. Full thickness/weight table in the technical data sheet."
+      "question": "Ποιο είναι το δηλωθέν βάρος της σανίδας;",
+      "answer": "Το δηλωθέν βάρος σύμφωνα με το EPD-IES-0018268 είναι 9.96 kg/m² σε πάχος 12 mm. Οι λεπτότερες σανίδες είναι αναλογικά ελαφρύτερες. Πλήρης πίνακας πάχους/βάρους στο τεχνικό φύλλο δεδομένων."
     },
     "fire": {
-      "question": "What fire resistance does the board achieve?",
-      "answer": "The tested system achieves E 120 (integrity 120 min), EI 90 (integrity and insulation 90 min), and EW 120 (integrity and radiation limitation 120 min). Test reference: FIRES-CR-284-25-AUPE. These are system-level classifications — specify the tested system configuration."
+      "question": "Τι αντίσταση στη φωτιά επιτυγχάνει η σανίδα;",
+      "answer": "Το δοκιμασμένο σύστημα επιτυγχάνει E 120 (ακεραιότητα 120 min), EI 90 (ακεραιότητα και μόνωση 90 min), και EW 120 (ακεραιότητα και περιορισμό ακτινοβολίας 120 min). Αναφορά δοκιμής: FIRES-CR-284-25-AUPE. Αυτές είναι ταξινομήσεις επιπέδου συστήματος — καθορίστε τη δοκιμασμένη διαμόρφωση συστήματος."
     },
     "wetroom": {
-      "question": "Can Terasun TSM be used in wet rooms?",
-      "answer": "Yes. Approved as a tile backing substrate in Mapei and Schönox wet room systems. Dimensionally stable, moisture-resistant substrate for bathrooms, showers, and commercial kitchens."
+      "question": "Μπορεί το Terasun TSM να χρησιμοποιηθεί σε υγρούς χώρους;",
+      "answer": "Ναι. Εγκεκριμένο ως υπόστρωμα υποστήριξης πλακιδίων στα συστήματα υγρών χώρων Mapei και Schönox. Διαστασιακά σταθερό, υπόστρωμα ανθεκτικό στην υγρασία για μπάνια, ντους και εμπορικές κουζίνες."
     },
     "facade": {
-      "question": "Can the board be used for exterior facade cladding?",
-      "answer": "Yes. Specified as the facade board in CBSS and CBMV ventilated facade systems. Can also be used as a render carrier. Suitable for all European climate zones."
+      "question": "Μπορεί η σανίδα να χρησιμοποιηθεί για εξωτερική κάλυψη πρόσοψης;",
+      "answer": "Ναι. Καθορίστηκε ως σανίδα πρόσοψης στα αεριζόμενα συστήματα πρόσοψης CBSS και CBMV. Μπορεί επίσης να χρησιμοποιηθεί ως φορέας επίχρισης. Κατάλληλο για όλες τις ευρωπαϊκές κλιματικές ζώνες."
     },
     "asbestos": {
-      "question": "Is the board asbestos-free?",
-      "answer": "Yes. Terasun TSM is completely asbestos-free. The board uses Portland cement with inorganic binders and fibreglass mesh reinforcement. REACH SVHC declaration confirming no SVHC above 0.1% w/w is available."
+      "question": "Είναι η σανίδα χωρίς αμίαντο;",
+      "answer": "Ναι. Το Terasun TSM είναι εντελώς χωρίς αμίαντο. Η σανίδα χρησιμοποιεί τσιμέντο Portland με ανόργανα συνδετικά και ενίσχυση από πλέγμα ινών γυαλιού. Η δήλωση REACH SVHC επιβεβαιώνει ότι δεν υπάρχει SVHC πάνω από 0,1% w/w διαθέσιμη."
     },
     "moq": {
-      "question": "What is the minimum order quantity?",
-      "answer": "Minimum order is typically one 20-foot container (approx. 1,600–2,200 m² depending on thickness). Smaller quantities may be available from Finnish warehouse stock. Contact us for availability."
+      "question": "Ποια είναι η ελάχιστη ποσότητα παραγγελίας;",
+      "answer": "Η ελάχιστη παραγγελία είναι συνήθως ένα κοντέινερ 20 ποδιών (περίπου 1.600–2.200 m² ανάλογα με το πάχος). Μικρότερες ποσότητες μπορεί να είναι διαθέσιμες από το φινλανδικό απόθεμα αποθήκης. Επικοινωνήστε μαζί μας για τη διαθεσιμότητα."
     },
     "samples": {
-      "question": "Are samples available before placing an order?",
-      "answer": "Yes. Physical samples and documentation packs are available to qualified distributors, architects, and contractors. Contact us to request a sample pack including board, TDS, CE certificate, and ETA."
+      "question": "Υπάρχουν δείγματα διαθέσιμα πριν τοποθετήσετε μια παραγγελία;",
+      "answer": "Ναι. Φυσικά δείγματα και πακέτα τεκμηρίωσης είναι διαθέσιμα σε ειδικευμένους διανομείς, αρχιτέκτονες και εργολάβους. Επικοινωνήστε μαζί μας για να ζητήσετε ένα πακέτο δειγμάτων που περιλαμβάνει σανίδα, TDS, πιστοποιητικό CE και ETA."
     },
     "leadtime": {
-      "question": "How long does delivery take?",
-      "answer": "Container orders take approximately 6–10 weeks from order confirmation to European port delivery. DDP warehouse delivery adds 1–2 weeks. Finnish stock: 1–2 weeks."
+      "question": "Πόσο καιρό διαρκεί η παραδοση;",
+      "answer": "Οι παραγγελίες κοντέϊνερ διαρκούν περίπου 6–10 εβδομάδες από την επιβεβαίωση της παραγγελίας έως την παράδοση στο ευρωπαϊκό λιμάνι. Η παράδοση DDP αποθήκης προσθέτει 1–2 εβδομάδες. Φινλανδικό απόθεμα: 1–2 εβδομάδες."
     },
     "origin": {
-      "question": "Where is the product manufactured?",
-      "answer": "Manufactured by Zhejiang Terasun Air Duct Co., Ltd. in Zhejiang Province, People's Republic of China. Terasun Europe is the Authorised European Representative responsible for CE documentation and EU market compliance."
+      "question": "Πού κατασκευάζεται το προϊόν;",
+      "answer": "Κατασκευάζεται από την Zhejiang Terasun Air Duct Co., Ltd. στην επαρχία Zhejiang, Λαϊκή Δημοκρατία της Κίνας. Η Terasun Europe είναι ο Εξουσιοδοτημένος Ευρωπαϊκός Αντιπρόσωπος υπεύθυνος για την τεκμηρίωση CE και τη συμμόρφωση της αγοράς ΕΕ."
     },
     "whoIsTerasun": {
-      "question": "What is Terasun Europe?",
-      "answer": "Terasun Europe is the Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd., based in Vantaa, Finland. We manage CE documentation, EU market compliance, and European customer relationships. We are not the manufacturer of Terasun products."
+      "question": "Τι είναι η Terasun Europe;",
+      "answer": "Η Terasun Europe είναι ο Εξουσιοδοτημένος Ευρωπαϊκός Αντιπρόσωπος της Zhejiang Terasun Air Duct Co., Ltd., με έδρα στο Vantaa, Φινλανδία. Διαχειριζόμαστε την τεκμηρίωση CE, τη συμμόρφωση της αγοράς ΕΕ και τις σχέσεις με ευρωπαϊκούς πελάτες. Δεν είμαστε ο κατασκευαστής των προϊόντων Terasun."
     },
     "authorisation": {
-      "question": "Is there an authorisation letter from the manufacturer?",
-      "answer": "Yes. Official authorisation letter from Zhejiang Terasun Air Duct Co., Ltd. confirming Terasun Europe as the Authorised European Representative is available for review."
+      "question": "Υπάρχει επιστολή εξουσιοδότησης από τον κατασκευαστή;",
+      "answer": "Ναι. Επίσημη επιστολή εξουσιοδότησης από την Zhejiang Terasun Air Duct Co., Ltd. που επιβεβαιώνει την Terasun Europe ως τον Εξουσιοδοτημένο Ευρωπαϊκό Αντιπρόσωπο είναι διαθέσιμη για αναθεώρηση."
     },
     "distributor": {
-      "question": "Can I become a distributor in my country?",
-      "answer": "Yes. We are actively seeking stocking distributors and project partners across Europe. Territory-based agreements, competitive margins, documentation support, and technical training. Contact us to discuss."
+      "question": "Μπορώ να γίνω διανομέας στη χώρα μου;",
+      "answer": "Ναι. Αναζητούμε ενεργά διανομείς αποθήκης και συνεργάτες έργων σε όλη την Ευρώπη. Συμφωνίες βάσης περιοχής, ανταγωνιστικά περιθώρια, υποστήριξη τεκμηρίωσης και τεχνική κατάρτιση. Επικοινωνήστε μαζί μας για να συζητήσουμε."
     },
     "openMarkets": {
-      "question": "Which countries are open for distribution?",
-      "answer": "Germany, Netherlands, Belgium, France, Spain, Portugal, Italy, Austria, Switzerland, Poland, Czech Republic, Slovakia, Hungary, and others are open for new distribution partners. Contact us for territory availability."
+      "question": "Ποιες χώρες είναι ανοιχτές για διανομή;",
+      "answer": "Η Γερμανία, Ολλανδία, Βέλγιο, Γαλλία, Ισπανία, Πορτογαλία, Ιταλία, Αυστρία, Ελβετία, Πολωνία, Τσεχία, Σλοβακία, Ουγγαρία και άλλες είναι ανοιχτές για νέους εταίρους διανομής. Επικοινωνήστε μαζί μας για τη διαθεσιμότητα περιοχών."
     },
     "studSpacing": {
-      "question": "What stud spacing is required?",
-      "answer": "Compatible with 400 mm and 600 mm stud spacing in both timber and steel frame systems. Specific recommendations depend on board thickness, orientation, and load — refer to the technical data sheet."
+      "question": "Ποια απόσταση μεσοδοκών απαιτείται;",
+      "answer": "Συμβατό με απόσταση μεσοδοκών 400 mm και 600 mm τόσο σε συστήματα ξύλινων όσο και χαλύβδινων πλαισίων. Οι συγκεκριμένες συστάσεις εξαρτώνται από το πάχος του πίνακα, τον προσανατολισμό και το φορτίο — ανατρέξτε στο τεχνικό φύλλο δεδομένων."
     },
     "training": {
-      "question": "Is technical training available for distributors?",
-      "answer": "Yes. Technical product training, installation guidance, and documentation support are available to registered distributors. Training can be delivered on-site or remotely."
+      "question": "Διατίθεται τεχνική κατάρτιση για τους διανομείς;",
+      "answer": "Ναι. Η τεχνική κατάρτιση προϊόντος, οδηγός εγκατάστασης και υποστήριξη τεκμηρίωσης είναι διαθέσιμα για τους εγγεγραμμένους διανομείς. Η κατάρτιση μπορεί να παρέχεται επί τόπου ή απομακρυσμένα."
     },
     "publicProjects": {
-      "question": "Can Terasun TSM be used on public and infrastructure projects?",
-      "answer": "Yes. CE, ETA, DoP, EPD, and fire test documentation meets the requirements of public sector procurement across Europe. Full documentation packs available for specification and tender submission."
+      "question": "Μπορεί το Terasun TSM να χρησιμοποιηθεί σε δημόσια και έργα υποδομής;",
+      "answer": "Ναι. Η τεκμηρίωση CE, ETA, DoP, EPD και δοκιμής πυρκαϊάς πληροί τις απαιτήσεις των δημόσιων προμηθειών σε όλη την Ευρώπη. Πλήρεις πακέτα τεκμηρίωσης διαθέσιμα για προδιαγραφή και υποβολή προσφορών."
     },
     "cuttingTools": {
-      "question": "What cutting tools are needed for installation?",
-      "answer": "Terasun TSM can be cut with a circular saw or angle grinder fitted with a fibre cement or diamond blade. Score-and-snap for straight cuts on thinner boards. Wear a dust mask and eye protection. Full guidance in the installation manual."
+      "question": "Ποια εργαλεία κοπής απαιτούνται για την εγκατάσταση;",
+      "answer": "Το Terasun TSM μπορεί να κοπεί με κυκλικό πριόνι ή γωνιακό λειαντήρα εξοπλισμένο με λάμα ινοτσιμέντου ή διαμαντιού. Σχίστε και σπάστε για ευθείες κοπές σε λεπτότερους πίνακες. Φοράτε μάσκα σκόνης και προστασία ματιών. Πλήρεις οδηγίες στο εγχειρίδιο εγκατάστασης."
     }
   },
   "contact": {
