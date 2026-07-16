@@ -38,6 +38,14 @@
   * {
     box-sizing: border-box;
   }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+    .reveal { opacity: 1 !important; transform: none !important; }
+  }
 }
 
 @layer components {
@@ -46,17 +54,9 @@
   }
 
   /* Section variants */
-  .section-light {
-    @apply bg-white;
-  }
-
-  .section-alt {
-    @apply bg-page;
-  }
-
-  .section-dark {
-    @apply bg-dark;
-  }
+  .section-light { @apply bg-white; }
+  .section-alt   { @apply bg-page; }
+  .section-dark  { @apply bg-dark; }
 
   /* ── Typography utilities (context-aware via CSS vars) ── */
   .stag {
@@ -81,13 +81,28 @@
 
   /* ── Buttons ── */
   .btn-primary {
-    @apply inline-flex items-center gap-2 bg-gold text-white font-semibold px-5 py-2.5 rounded text-sm
-           hover:bg-amber-700 transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold;
+    @apply relative overflow-hidden inline-flex items-center gap-2 bg-gold text-white font-semibold px-5 py-2.5 rounded text-sm
+           hover:bg-amber-700 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold;
+  }
+  .btn-primary::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(105deg, transparent 40%, rgba(255,255,255,0.18) 50%, transparent 60%);
+    transform: translateX(-100%);
+    transition: transform 0.45s ease;
+    pointer-events: none;
+  }
+  .btn-primary:hover::after {
+    transform: translateX(100%);
   }
 
   .btn-secondary {
     @apply inline-flex items-center gap-2 border border-gray-300 text-gray-700 font-medium px-5 py-2.5 rounded text-sm
-           hover:border-gray-500 hover:text-gray-900 transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-400;
+           hover:border-gray-500 hover:text-gray-900 transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-400;
+  }
+  .btn-secondary:hover {
+    transform: translateY(-1px);
   }
 
   /* btn-secondary inside dark sections */
@@ -117,4 +132,73 @@
     @apply w-full bg-dark border border-border-dark rounded-md px-3 py-2 text-sm text-white placeholder-gray-600
            focus:outline-none focus:border-gold/50 focus:ring-1 focus:ring-gold/30 transition-colors;
   }
+
+  /* ── Scroll reveal ── */
+  .reveal {
+    opacity: 0;
+    transform: translateY(22px);
+    transition: opacity 0.65s cubic-bezier(0.16, 1, 0.3, 1),
+                transform 0.65s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* ── Card hover lift ── */
+  .card-lift {
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+                box-shadow 0.25s ease,
+                border-color 0.2s ease;
+  }
+  .card-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 16px 40px -8px rgba(0, 0, 0, 0.18);
+  }
+  .dark-card-lift {
+    transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+                box-shadow 0.25s ease,
+                border-color 0.2s ease;
+  }
+  .dark-card-lift:hover {
+    transform: translateY(-4px);
+    border-color: rgba(245, 158, 11, 0.35) !important;
+    box-shadow: 0 16px 40px -8px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(245, 158, 11, 0.15);
+  }
 }
+
+/* ── Animation keyframes (outside layers for global scope) ── */
+@keyframes dropdownIn {
+  from { opacity: 0; transform: translateY(-8px) scale(0.97); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+@keyframes mobileItemIn {
+  from { opacity: 0; transform: translateX(-10px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes heroFade {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.animate-dropdown {
+  animation: dropdownIn 0.18s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  transform-origin: top center;
+}
+
+.animate-mobile-item {
+  animation: mobileItemIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-hero-1 { animation: heroFade 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both; }
+.animate-hero-2 { animation: heroFade 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both; }
+.animate-hero-3 { animation: heroFade 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.35s both; }
+.animate-hero-4 { animation: heroFade 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.5s both; }
+.animate-hero-5 { animation: heroFade 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0.65s both; }
