@@ -89,10 +89,14 @@ export default function Header({ locale }: Props) {
     return () => document.removeEventListener('mousedown', onDown)
   }, [])
 
-  // Lock body scroll when mobile menu is open
+  // Lock body scroll + signal popup guard when mobile menu is open
   useEffect(() => {
     document.body.style.overflow = mobileOpen ? 'hidden' : ''
-    return () => { document.body.style.overflow = '' }
+    document.body.setAttribute('data-mobile-open', mobileOpen ? 'true' : 'false')
+    return () => {
+      document.body.style.overflow = ''
+      document.body.removeAttribute('data-mobile-open')
+    }
   }, [mobileOpen])
 
   const localePath = (loc: string) => {
@@ -263,60 +267,72 @@ export default function Header({ locale }: Props) {
         </button>
       </div>
 
-      {/* Mobile menu — height transition for smooth open/close */}
+      {/* Mobile menu */}
       <div
-        className={`lg:hidden overflow-hidden transition-all duration-350 ease-in-out`}
+        className="lg:hidden overflow-hidden"
         style={{
-          maxHeight: mobileOpen ? '600px' : '0',
+          maxHeight: mobileOpen ? '85vh' : '0',
           opacity: mobileOpen ? 1 : 0,
-          transitionDuration: mobileOpen ? '380ms' : '220ms',
+          overflowY: mobileOpen ? 'auto' : 'hidden',
+          transition: `max-height ${mobileOpen ? '380ms' : '220ms'} ease-in-out, opacity ${mobileOpen ? '280ms' : '180ms'} ease`,
         }}
         aria-label="Mobile navigation"
       >
         <div
-          className="border-t py-4"
-          style={{ background: 'rgba(13,15,20,0.98)', backdropFilter: 'blur(20px)', borderColor: 'rgba(45,48,64,0.7)' }}
+          className="border-t py-5"
+          style={{ background: '#0D1520', borderColor: 'rgba(45,48,64,0.8)' }}
         >
           <div className="container-page flex flex-col gap-0.5">
+            {/* Nav links */}
             {[...NAV_LINKS, ...MORE_LINKS].map(({ key, href }, i) => (
               <Link
                 key={key}
                 href={navHref(href)}
-                className="px-3 py-2.5 text-sm text-gray-300 hover:text-white hover:bg-white/6 rounded-md transition-colors duration-150 animate-mobile-item"
-                style={{ animationDelay: `${i * 35}ms` }}
+                className="px-3 py-3 text-sm text-gray-300 hover:text-white hover:bg-white/6 rounded-lg transition-colors duration-150"
+                style={{ animationDelay: `${i * 30}ms` }}
                 onClick={() => setMobileOpen(false)}
               >
                 {t(key)}
               </Link>
             ))}
 
-            <div className="border-t border-white/8 mt-3 pt-3 flex flex-col gap-2">
+            {/* CTA buttons */}
+            <div className="mt-4 pt-4 flex flex-col gap-2.5" style={{ borderTop: '1px solid rgba(255,255,255,0.08)' }}>
               <Link
                 href={navHref('/contact')}
-                className="btn-secondary text-sm text-center justify-center"
                 onClick={() => setMobileOpen(false)}
+                className="block text-center py-3 px-4 rounded-xl text-sm font-semibold text-white transition-colors duration-150"
+                style={{ border: '1px solid rgba(255,255,255,0.22)', backgroundColor: 'transparent' }}
               >
                 {t('requestQuotation')}
               </Link>
-              <a href={LOGIN_URL} className="btn-primary text-sm text-center justify-center">
+              <a
+                href={LOGIN_URL}
+                className="block text-center py-3 px-4 rounded-xl text-sm font-bold text-white transition-colors duration-150"
+                style={{ backgroundColor: '#245A85' }}
+              >
                 {t('login')}
               </a>
+            </div>
 
-              {/* Language grid */}
-              <p className="text-[10px] font-bold tracking-widest uppercase text-white/30 mb-2 mt-1">Language</p>
-              <div className="grid grid-cols-2 gap-1">
+            {/* Language selector */}
+            <div className="mt-5 pt-4" style={{ borderTop: '1px solid rgba(255,255,255,0.08)' }}>
+              <p className="text-[10px] font-bold tracking-[0.18em] uppercase mb-3 px-1" style={{ color: 'rgba(255,255,255,0.3)' }}>Language</p>
+              <div className="grid grid-cols-2 gap-1.5">
                 {locales.map((loc) => (
                   <Link
                     key={loc}
                     href={localePath(loc)}
-                    className={`flex items-center gap-2 px-3 py-2 text-xs rounded-md border transition-colors duration-150 ${
-                      loc === locale
-                        ? 'border-[#5CA4D6]/60 text-white bg-[#5CA4D6]/15 font-semibold'
-                        : 'border-white/10 text-[#B8CADE] hover:text-white hover:border-white/25 hover:bg-white/6 font-medium'
-                    }`}
                     onClick={() => setMobileOpen(false)}
+                    className="flex items-center gap-2 px-3 py-2.5 text-xs rounded-lg border transition-colors duration-150"
+                    style={loc === locale
+                      ? { borderColor: 'rgba(92,164,214,0.5)', color: '#ffffff', backgroundColor: 'rgba(92,164,214,0.12)', fontWeight: 600 }
+                      : { borderColor: 'rgba(255,255,255,0.1)', color: '#B8CADE', backgroundColor: 'transparent', fontWeight: 500 }
+                    }
                   >
-                    <span className="text-[9px] font-mono text-white/30 shrink-0">{LOCALE_CODE[loc]}</span>
+                    <span className="text-[9px] font-mono shrink-0" style={{ color: 'rgba(255,255,255,0.35)', fontFamily: 'monospace' }}>
+                      {LOCALE_CODE[loc]}
+                    </span>
                     {LOCALE_LABELS[loc]}
                   </Link>
                 ))}

@@ -314,8 +314,10 @@ export default function LeadPopup() {
   // ── shouldShow guard ─────────────────────────────────────────────────────
   const shouldShow = useCallback(() => {
     if (typeof window === 'undefined') return false
-    if (localStorage.getItem(LS_SUBMITTED)) return false          // submitted ever
+    if (localStorage.getItem(LS_SUBMITTED)) return false
     if (shownThisVisit.current >= MAX_SHOWS_PER_VISIT) return false
+    // Don't interrupt if mobile nav is open (data-mobile-open="true" set by Header)
+    if (document.body.getAttribute('data-mobile-open') === 'true') return false
     return true
   }, [])
 
@@ -490,19 +492,28 @@ export default function LeadPopup() {
                 <div className="space-y-2.5">
                   <button
                     onClick={() => setView('sample')}
-                    className="w-full btn-primary text-white font-bold text-sm py-3 rounded-lg transition-colors"
+                    className="w-full font-bold text-sm py-3 rounded-lg transition-colors text-white"
+                    style={{ backgroundColor: '#245A85' }}
+                    onMouseEnter={e => (e.currentTarget.style.backgroundColor = '#1A4470')}
+                    onMouseLeave={e => (e.currentTarget.style.backgroundColor = '#245A85')}
                   >
                     Request Free Sample
                   </button>
                   <button
                     onClick={() => setView('distributor')}
-                    className="w-full bg-card hover:bg-white/10 border border-border text-white font-semibold text-sm py-2.5 rounded-lg transition-colors"
+                    className="w-full font-semibold text-sm py-2.5 rounded-lg transition-colors text-white"
+                    style={{ backgroundColor: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.2)' }}
+                    onMouseEnter={e => (e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.14)')}
+                    onMouseLeave={e => (e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.08)')}
                   >
                     Become a Distributor
                   </button>
                   <button
                     onClick={() => setView('quotation')}
-                    className="w-full bg-transparent hover:bg-white/5 border border-border/60 text-gray-300 font-medium text-sm py-2.5 rounded-lg transition-colors"
+                    className="w-full font-medium text-sm py-2.5 rounded-lg transition-colors text-gray-300"
+                    style={{ backgroundColor: 'transparent', border: '1px solid rgba(255,255,255,0.12)' }}
+                    onMouseEnter={e => (e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.05)')}
+                    onMouseLeave={e => (e.currentTarget.style.backgroundColor = 'transparent')}
                   >
                     Request a Quotation
                   </button>
