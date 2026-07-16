@@ -9,9 +9,9 @@ const LS_SHOW_COUNT = 'tsm_popup_shown_count'  // shows during this session
 const LS_LAST_SHOWN = 'tsm_popup_last_shown'   // timestamp of last show (session)
 
 // ─── Timing ──────────────────────────────────────────────────────────────────
-const FIRST_TRIGGER_MS    = 12_000   // 12 s after page load
-const SCROLL_TRIGGER_PCT  = 0.35     // 35% scroll depth
-const RETRY_DELAY_MS      = 35_000   // 35 s after first close, if no interaction
+const FIRST_TRIGGER_MS    = 35_000   // 35 s after page load
+const SCROLL_TRIGGER_PCT  = 0.45     // 45% scroll depth
+const RETRY_DELAY_MS      = 120_000  // 2 min after first close, if no interaction
 const MAX_SHOWS_PER_VISIT = 2        // hard limit per browser session
 
 // ─── Types ───────────────────────────────────────────────────────────────────
@@ -284,7 +284,7 @@ function SuccessScreen({ onClose }: { onClose: () => void }) {
       <p className="text-gray-400 text-sm mb-6">
         We will review your request and get back to you within 1–2 business days.
       </p>
-      <button onClick={onClose} className="text-sm text-accent hover:text-accent-dark transition-colors font-medium">
+      <button onClick={onClose} className="text-sm text-[#5CA4D6] hover:text-white transition-colors font-medium">
         Close
       </button>
     </div>
@@ -314,8 +314,10 @@ export default function LeadPopup() {
   // ── shouldShow guard ─────────────────────────────────────────────────────
   const shouldShow = useCallback(() => {
     if (typeof window === 'undefined') return false
-    if (localStorage.getItem(LS_SUBMITTED)) return false          // submitted ever
+    if (localStorage.getItem(LS_SUBMITTED)) return false
     if (shownThisVisit.current >= MAX_SHOWS_PER_VISIT) return false
+    // Don't interrupt if mobile nav is open (data-mobile-open="true" set by Header)
+    if (document.body.getAttribute('data-mobile-open') === 'true') return false
     return true
   }, [])
 
@@ -461,7 +463,7 @@ export default function LeadPopup() {
               <>
                 {/* Menu view */}
                 <div className="text-center mb-6">
-                  <div className="inline-flex items-center gap-1.5 text-[10px] font-bold tracking-widest text-accent uppercase border border-accent/30 rounded-full px-3 py-1 mb-4">
+                  <div className="inline-flex items-center gap-1.5 text-[10px] font-bold tracking-widest text-[#5CA4D6] uppercase border border-[#5CA4D6]/30 rounded-full px-3 py-1 mb-4">
                     Terasun TSM Cement Board
                   </div>
                   <h2 className="text-xl font-black text-white leading-tight mb-2">
@@ -476,8 +478,8 @@ export default function LeadPopup() {
                 <ul className="space-y-2 mb-6">
                   {BENEFITS.map(b => (
                     <li key={b} className="flex items-center gap-2.5 text-sm text-gray-300">
-                      <span className="w-4 h-4 rounded-full bg-accent/20 border border-accent/40 flex items-center justify-center shrink-0">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="w-2.5 h-2.5 text-accent">
+                      <span className="w-4 h-4 rounded-full bg-[#5CA4D6]/15 border border-[#5CA4D6]/35 flex items-center justify-center shrink-0">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="w-2.5 h-2.5 text-[#5CA4D6]">
                           <polyline points="20 6 9 17 4 12" />
                         </svg>
                       </span>
@@ -490,19 +492,28 @@ export default function LeadPopup() {
                 <div className="space-y-2.5">
                   <button
                     onClick={() => setView('sample')}
-                    className="w-full btn-primary text-white font-bold text-sm py-3 rounded-lg transition-colors"
+                    className="w-full font-bold text-sm py-3 rounded-lg transition-colors text-white"
+                    style={{ backgroundColor: '#245A85' }}
+                    onMouseEnter={e => (e.currentTarget.style.backgroundColor = '#1A4470')}
+                    onMouseLeave={e => (e.currentTarget.style.backgroundColor = '#245A85')}
                   >
                     Request Free Sample
                   </button>
                   <button
                     onClick={() => setView('distributor')}
-                    className="w-full bg-card hover:bg-white/10 border border-border text-white font-semibold text-sm py-2.5 rounded-lg transition-colors"
+                    className="w-full font-semibold text-sm py-2.5 rounded-lg transition-colors text-white"
+                    style={{ backgroundColor: 'rgba(255,255,255,0.08)', border: '1px solid rgba(255,255,255,0.2)' }}
+                    onMouseEnter={e => (e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.14)')}
+                    onMouseLeave={e => (e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.08)')}
                   >
                     Become a Distributor
                   </button>
                   <button
                     onClick={() => setView('quotation')}
-                    className="w-full bg-transparent hover:bg-white/5 border border-border/60 text-gray-300 font-medium text-sm py-2.5 rounded-lg transition-colors"
+                    className="w-full font-medium text-sm py-2.5 rounded-lg transition-colors text-gray-300"
+                    style={{ backgroundColor: 'transparent', border: '1px solid rgba(255,255,255,0.12)' }}
+                    onMouseEnter={e => (e.currentTarget.style.backgroundColor = 'rgba(255,255,255,0.05)')}
+                    onMouseLeave={e => (e.currentTarget.style.backgroundColor = 'transparent')}
                   >
                     Request a Quotation
                   </button>

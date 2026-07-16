@@ -53,7 +53,7 @@ export default async function MarketPage({ params }: { params: Promise<{ locale:
         <div className="stag mb-12">
           <div className="flex items-center gap-3 mb-4">
             <span className="text-4xl">{c.flag}</span>
-            <span className="text-accent text-xs font-bold tracking-widest uppercase">{t('eyebrow')}</span>
+            <span className="text-[#5CA4D6] text-xs font-bold tracking-widest uppercase">{t('eyebrow')}</span>
           </div>
           <h1 className="stitle">{t(`${country}.h1`)}</h1>
           <p className="ssub max-w-2xl">{t(`${country}.lead`)}</p>
