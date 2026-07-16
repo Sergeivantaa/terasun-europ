@@ -100,7 +100,7 @@
       "CE 1023-CPR-1565 P",
       "ETA 24/0895",
       "EPD-IES-0018268",
-      "Fire E120 · EI90 · EW120",
+      "Wall assembly: E120/EI90/EW120",
       "REACH compliant",
       "25 EU languages"
     ]
@@ -228,7 +228,7 @@
     "sub": "CE-certified, asbestos-free fiber cement board for European construction. Facades, wet rooms, fire partitions, and more.",
     "name": "Terasun TSM Fiber Cement Board",
     "tagline": "CE 1023-CPR-1565 P · ETA 24/0895 · EPD-IES-0018268",
-    "desc": "A lightweight cement panel reinforced with cellulose fiber, designed for structural performance, moisture resistance, and fire safety in documented wall systems. Asbestos-free, CE certified, and manufactured to ETA 24/0895 requirements.",
+    "desc": "A lightweight cement-based construction board with inorganic binders, lightweight components and fibreglass mesh reinforcement, designed for structural performance, moisture resistance, and fire safety in documented wall systems. Asbestos-free, CE certified, and manufactured to ETA 24/0895 requirements.",
     "techEyebrow": "Technical specifications",
     "techH1": "Full technical data — Terasun TSM",
     "techSub": "Complete specification table with declared values, standards references, and thickness comparison.",
@@ -271,8 +271,11 @@
       "waterResistant": {
         "name": "Moisture resistant",
         "detail": "Suitable for exterior use and wet room applications"
-      }
-    }
+      },
+      "short": "Ελαφρύς τσιμεντένιος πυρήνας με ανόργανα συνδετικά και ενίσχυση από πλέγμα υαλονημάτων.",
+      "full": "Η τσιμεντένια πλάκα TSM είναι μια ελαφριά τσιμεντένια πλάκα κατασκευής που κατασκευάζεται από ανόργανα τσιμεντένια συνδετικά, ελαφριά συστατικά και ενισχυτικό πλέγμα υαλονημάτων. Ο ελαφρύς, ελαφρά πορώδης τσιμεντένιος πυρήνας μειώνει το βάρος της πλάκας διατηρώντας παράλληλα την καταλληλόλητα για τεκμηριωμένες εσωτερικές και εξωτερικές κατασκευαστικές εφαρμογές."
+    },
+    "thicknessNote": "Πλήρης γκάμα 3–25 mm, ανάλογα με τον όγκο παραγγελίας και τη διαθεσιμότητα παραγωγής. Τεχνικά δεδομένα επιβεβαιωμένα για 12 mm· άλλα πάχη κατόπιν αιτήματος."
   },
   "applications": {
     "eyebrow": "Applications",
@@ -650,7 +653,7 @@
     },
     "asbestos": {
       "question": "Is the board asbestos-free?",
-      "answer": "Yes. Terasun TSM is completely asbestos-free. The board uses Portland cement and cellulose fiber reinforcement. REACH SVHC declaration confirming no SVHC above 0.1% w/w is available."
+      "answer": "Yes. Terasun TSM is completely asbestos-free. The board uses Portland cement with inorganic binders and fibreglass mesh reinforcement. REACH SVHC declaration confirming no SVHC above 0.1% w/w is available."
     },
     "moq": {
       "question": "What is the minimum order quantity?",
@@ -1054,5 +1057,43 @@
     "notManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
     "authRep": "Authorised European Representative",
     "backToTop": "Back to top"
+  },
+  "home": {
+    "productStag": "Προϊόν",
+    "productTitle": "Ελαφριά τσιμεντένια πλάκα Terasun TSM",
+    "productDesc": "Ένα ελαφρύ τσιμεντένιο πάνελ ενισχυμένο με πλέγμα υαλονημάτων, σχεδιασμένο για δομική απόδοση, αντοχή στην υγρασία και πυρασφάλεια. Πιστοποιημένο CE, εγκεκριμένο ETA, χωρίς αμίαντο.",
+    "labelWeight": "Βάρος",
+    "labelThickness": "Πάχος",
+    "labelSize": "Τυπικό μέγεθος",
+    "btnSpecs": "Δείτε πλήρεις προδιαγραφές",
+    "mfrStag": "Κατασκευαστής",
+    "labelFounded": "Ιδρύθηκε",
+    "labelCountry": "Χώρα",
+    "labelWebsite": "Ιστοσελίδα",
+    "mfrNote": "Η Terasun Europe δεν είναι ο κατασκευαστής. Ενεργούμε ως Εξουσιοδοτημένος Ευρωπαϊκός Αντιπρόσωπος διαχειριζόμενοι την τεκμηρίωση CE/ETA και την ευρωπαϊκή διανομή.",
+    "appStag": "Εφαρμογές",
+    "appTitle": "Εφαρμογές τσιμεντένιων πλακών",
+    "btnAllApps": "Όλες οι εφαρμογές",
+    "certStag": "Πιστοποιητικά",
+    "certTitle": "Πλήρης ευρωπαϊκή τεκμηρίωση πιστοποίησης",
+    "certLabelCE": "Σήμανση CE",
+    "certLabelETA": "ETA",
+    "certLabelFire": "Πυροαντίσταση",
+    "certLabelEPD": "EPD",
+    "btnAllCerts": "Όλα τα πιστοποιητικά",
+    "distStag": "Εταιρική σχέση",
+    "distTitle": "Γίνετε Ευρωπαίος διανομέας",
+    "distDesc": "Οι περισσότερες ευρωπαϊκές αγορές είναι ανοιχτές. Συνεργαζόμαστε με αποθηκεύοντες διανομείς, προμηθευτές οικοδομικών πάνελ και αγοραστές βάσει έργων στην ΕΕ και τον ΕΟΧ.",
+    "distCountryLabel": "ανοιχτή",
+    "btnPartnership": "Πρόγραμμα εταιρικής σχέσης",
+    "finnbuildLabel": "FinnBuild 2026",
+    "finnbuildDesc": "Συναντήστε μας στο Ελσίνκι",
+    "ctaStag": "Επικοινωνία",
+    "ctaTitle": "Ζητήστε προσφορά ή στείλτε ερώτημα",
+    "ctaDesc": "Χρησιμοποιήστε τη φόρμα μας για να ζητήσετε τιμή, τεχνική τεκμηρίωση, δείγματα ή σχέση διανομής. Απαντούμε εντός 2 εργάσιμων ημερών.",
+    "btnOpenForm": "Άνοιγμα φόρμας αιτήματος",
+    "labelEmail": "Email",
+    "labelPhone": "Τηλέφωνο",
+    "labelLocation": "Τοποθεσία"
   }
 }

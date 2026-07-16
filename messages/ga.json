@@ -1,20 +1,20 @@
 {
   "meta": {
     "home": {
-      "title": "Terasun Europe — CE-certifierade fibercementskivor",
-      "description": "Auktoriserad Europeisk Representant för Terasun TSM fibercementskivor. CE 1023-CPR-1565 P · ETA 24/0895 · EPD. Leverans till entreprenörer, arkitekter och distributörer i Europa."
+      "title": "Terasun Europe — CE-Certified Fiber Cement Board Supplier",
+      "description": "Authorised European Representative for Terasun TSM lightweight fiber cement board. CE 1023-CPR-1565 P · ETA 24/0895 · EPD. Supply to contractors, architects, and distributors across Europe."
     },
     "about": {
-      "title": "Om oss — Auktoriserad Europeisk Representant | Terasun Europe",
-      "description": "Terasun Europe är Auktoriserad Europeisk Representant baserad i Vanda, Finland."
+      "title": "About Terasun Europe — Authorised European Representative",
+      "description": "Terasun Europe is the Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd., based in Vantaa, Finland. CE-certified fiber cement board for European construction."
     },
     "manufacturer": {
       "title": "Manufacturer — Zhejiang Terasun Air Duct Co., Ltd. | Terasun Europe",
       "description": "Founded 1989 in Zhejiang Province, China. Manufacturer of Terasun TSM fiber cement board with CE, ETA 24/0895, and EPD for European markets."
     },
     "products": {
-      "title": "Terasun TSM Fibercementskivor — CE & ETA | Terasun Europe",
-      "description": "Lätta asbestfria fibercementskivor. CE · ETA 24/0895 · EPD · Brandmotstånd E120/EI90/EW120."
+      "title": "Terasun TSM Fiber Cement Board — CE & ETA Certified | Terasun Europe",
+      "description": "Lightweight asbestos-free fiber cement board. 9.96 kg/m² at 12 mm. CE 1023-CPR-1565 P · ETA 24/0895 · EPD-IES-0018268 · Tested wall assembly: E120/EI90/EW120. Thicknesses 6–18 mm."
     },
     "applications": {
       "title": "Fiber Cement Board Applications — Facades, Fire, Wet Rooms | Terasun Europe",
@@ -29,8 +29,8 @@
       "description": "Installation guide for Terasun TSM fiber cement board: tools, cutting, fastening, joints, weather protection, and finishing. Download the full installation manual."
     },
     "certifications": {
-      "title": "Certifieringar — CE · ETA · EPD · Brand | Terasun Europe",
-      "description": "Certifieringar Terasun TSM: CE 1023-CPR-1565 P, ETA 24/0895, DoP, EPD, brandmotstånd E120."
+      "title": "Certifications — CE · ETA · EPD · Fire · REACH | Terasun Europe",
+      "description": "Terasun TSM certifications: CE 1023-CPR-1565 P, ETA 24/0895, DoP TRS-20250610F, EPD-IES-0018268, Fire FIRES-CR-284-25-AUPE, VOC/Intertek, REACH."
     },
     "downloads": {
       "title": "Document Library — Technical Documents | Terasun Europe",
@@ -49,12 +49,12 @@
       "description": "Photos of Terasun TSM fiber cement board installations: facade cladding, wet rooms, fire partitions, and more across European construction projects."
     },
     "faq": {
-      "title": "FAQ — Terasun TSM Fibercementskivor | Terasun Europe",
-      "description": "Vanliga frågor om Terasun TSM: CE, ETA, brandmotstånd, våtrum, MOQ och leveranstider."
+      "title": "FAQ — Terasun TSM Fiber Cement Board | Terasun Europe",
+      "description": "Frequently asked questions about Terasun TSM: CE marking, ETA, fire rating, wet room use, MOQ, lead times, distribution, and installation."
     },
     "contact": {
-      "title": "Kontakt & Offertförfrågan — Terasun Europe",
-      "description": "Begär offert, prov eller teknisk information. Vi svarar inom 1 arbetsdag."
+      "title": "Contact & Quotation Request — Terasun Europe",
+      "description": "Request a quotation, sample, or technical information for Terasun TSM fiber cement board. We respond within 1 business day."
     },
     "blog": {
       "title": "Blog & Resources — Fiber Cement Construction | Terasun Europe",
@@ -62,38 +62,38 @@
     }
   },
   "nav": {
-    "about": "Om oss",
-    "manufacturer": "Tillverkare",
-    "products": "Produkt",
-    "applications": "Applikationer",
-    "certifications": "Certifieringar",
-    "downloads": "Nedladdningar",
-    "distributors": "Distribution",
-    "logistics": "Logistik",
-    "gallery": "Galleri",
+    "about": "About",
+    "manufacturer": "Manufacturer",
+    "products": "Product",
+    "applications": "Applications",
+    "certifications": "Certifications",
+    "downloads": "Downloads",
+    "distributors": "Distributors",
+    "logistics": "Logistics",
+    "gallery": "Gallery",
     "faq": "FAQ",
-    "contact": "Kontakt",
-    "login": "Partnerinloggning",
-    "requestQuotation": "Begär offert",
-    "more": "Mer",
-    "mobileLogin": "Partnerinloggning",
-    "technicalData": "Tekniska data",
+    "contact": "Contact",
+    "login": "Partner Login",
+    "requestQuotation": "Request Quotation",
+    "more": "More",
+    "mobileLogin": "Partner Login",
+    "technicalData": "Technical Data",
     "installation": "Installation"
   },
   "hero": {
     "eyebrow": "CE · ETA · EPD · Fire certified",
-    "h1": "Lätta fibercementskivor för europeiskt byggande",
-    "sub": "Terasun TSM — asbestfri, CE-certifierad, 9,96 kg/m² vid 12 mm. Direktleverans från fabrik.",
-    "btnQuote": "Begär offert",
-    "btnContact": "Kontakta oss",
-    "btnDownloads": "Nedladdningar",
+    "h1": "Lightweight fiber cement board for European construction",
+    "sub": "Terasun TSM — asbestos-free, CE-certified, 9.96 kg/m² at 12 mm. Supplied direct from factory to your project or warehouse.",
+    "btnQuote": "Request quotation",
+    "btnContact": "Contact us",
+    "btnDownloads": "Downloads",
     "tagline": "Authorised European Representative",
     "note": "Terasun Europe is the Authorised European Representative.",
     "noteManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
-    "h1Line1": "Lätta fibercementskivor",
-    "h1Line2Emphasis": "CE-certifierade",
-    "h1Line2": "för europeiskt byggande",
-    "h1Line3": "— ETA 24/0895 · EPD · Brand E120"
+    "h1Line1": "Lightweight fiber cement board",
+    "h1Line2Emphasis": "CE-certified",
+    "h1Line2": "for European construction",
+    "h1Line3": "— ETA 24/0895 · EPD · Wall assembly E120/EI90/EW120"
   },
   "trustBar": {
     "items": [
@@ -243,39 +243,15 @@
       "fireResistance": "Fire resistance",
       "weight12mm": "Declared weight (12 mm)",
       "epd": "EPD reference",
-      "binder": "Binder",
+      "binder": "Binder system",
       "reinforcement": "Reinforcement",
       "studSpacing": "Stud spacing"
     },
     "composition": {
-      "cement": {
-        "name": "Portland cement",
-        "detail": "Primary structural binder — asbestos-free"
-      },
-      "cellulose": {
-        "name": "Cellulose fiber",
-        "detail": "Natural reinforcement for flexibility and impact resistance"
-      },
-      "silica": {
-        "name": "Silica",
-        "detail": "For dimensional stability and surface hardness"
-      },
-      "autoclaved": {
-        "name": "Autoclaved manufacturing",
-        "detail": "High-pressure steam curing for strength and durability"
-      },
-      "asbestosFree": {
-        "name": "Asbestos-free",
-        "detail": "Fully compliant with EU regulations — no asbestos content"
-      },
-      "waterResistant": {
-        "name": "Moisture resistant",
-        "detail": "Suitable for exterior use and wet room applications"
-      },
-      "short": "Lätt cementbaserad kärna med oorganiska bindemedel och glasfibernätförstärkning.",
-      "full": "TSM-cementskiva är en lätt cementbaserad byggskiva tillverkad av oorganiska cementbindemedel, lätta komponenter och förstärkande glasfibernät. Dess lätta, lätt porösa cementkärna minskar skivvikten och bibehåller lämpligheten för dokumenterade inomhus- och utomhusbyggnadsapplikationer."
+      "short": "Lightweight cement-based core with inorganic binders and fibreglass mesh reinforcement.",
+      "full": "TSM Cement Board is a lightweight cement-based construction board manufactured from inorganic cementitious binders, lightweight components and reinforcing fibreglass mesh. Its lightweight, slightly porous cementitious core reduces board weight while maintaining suitability for documented interior and exterior construction applications."
     },
-    "thicknessNote": "Komplett sortiment 3–25 mm, beroende på ordervolym och produktionstillgänglighet. Tekniska data bekräftade för 12 mm; andra tjocklekar på begäran."
+    "thicknessNote": "Full commercial range 3–25 mm, subject to order volume and production availability. Technical data confirmed for 12 mm; contact us for other thicknesses."
   },
   "applications": {
     "eyebrow": "Applications",
@@ -766,7 +742,7 @@
     "privacy": "Privacy policy",
     "cookies": "Cookie policy",
     "terms": "Terms of use",
-    "legal": "© 2025 Terasun Europe. Alla rättigheter förbehållna.",
+    "legal": "© 2025 Terasun Europe. All rights reserved.",
     "legalMfr": "Products manufactured by Zhejiang Terasun Air Duct Co., Ltd., China.",
     "legalCerts": "CE 1023-CPR-1565 P · ETA 24/0895 · EPD-IES-0018268"
   },
@@ -1033,21 +1009,21 @@
     }
   },
   "breadcrumb": {
-    "home": "Hem",
-    "about": "Om oss",
-    "manufacturer": "Tillverkare",
-    "products": "Produkt",
-    "applications": "Applikationer",
-    "technicalData": "Tekniska data",
-    "certifications": "Certifieringar",
-    "downloads": "Nedladdningar",
-    "distributors": "Distribution",
-    "logistics": "Logistik",
-    "gallery": "Galleri",
+    "home": "Home",
+    "about": "About",
+    "manufacturer": "Manufacturer",
+    "products": "Product",
+    "applications": "Applications",
+    "technicalData": "Technical Data",
+    "certifications": "Certifications",
+    "downloads": "Downloads",
+    "distributors": "Distributors",
+    "logistics": "Logistics",
+    "gallery": "Gallery",
     "faq": "FAQ",
-    "contact": "Kontakt",
+    "contact": "Contact",
     "installation": "Installation",
-    "markets": "Marknader"
+    "markets": "Markets"
   },
   "common": {
     "learnMore": "Learn more",
@@ -1059,41 +1035,46 @@
     "backToTop": "Back to top"
   },
   "home": {
-    "productStag": "Produkt",
-    "productTitle": "Terasun TSM lättviktscementskiva",
-    "productDesc": "En lättviktspanel av cementbas förstärkt med glasfibernät, utformad för strukturell prestanda, fuktbeständighet och brandsäkerhet. CE-certifierad, ETA-godkänd, asbestfri.",
-    "labelWeight": "Vikt",
-    "labelThickness": "Tjocklek",
-    "labelSize": "Standardstorlek",
-    "btnSpecs": "Se alla specifikationer",
-    "mfrStag": "Tillverkare",
-    "labelFounded": "Grundat",
-    "labelCountry": "Land",
-    "labelWebsite": "Webbplats",
-    "mfrNote": "Terasun Europe är inte tillverkaren. Vi agerar som Auktoriserad Europeisk Representant och hanterar CE/ETA-dokumentation och europeisk distribution.",
-    "appStag": "Tillämpningar",
-    "appTitle": "Cementskivans tillämpningar",
-    "btnAllApps": "Alla tillämpningar",
-    "certStag": "Certifieringar",
-    "certTitle": "Fullständig europeisk certifieringsdokumentation",
-    "certLabelCE": "CE-märkning",
+    "productStag": "Product",
+    "productTitle": "Terasun TSM lightweight cement board",
+    "productDesc": "A lightweight cement-based panel reinforced with fibreglass mesh, designed for structural performance, moisture resistance, and fire safety. CE-certified, ETA-approved, asbestos-free.",
+    "labelWeight": "Weight",
+    "labelThickness": "Thickness",
+    "labelSize": "Standard size",
+    "btnSpecs": "View full specs",
+    "mfrStag": "Manufacturer",
+    "labelFounded": "Founded",
+    "labelCountry": "Country",
+    "labelWebsite": "Website",
+    "mfrNote": "Terasun Europe is not the manufacturer. We act as the Authorised European Representative managing CE/ETA documentation and European distribution.",
+    "appStag": "Applications",
+    "appTitle": "Cement board applications",
+    "btnAllApps": "All applications",
+    "certStag": "Certifications",
+    "certTitle": "Full European certification documentation",
+    "certLabelCE": "CE Marking",
     "certLabelETA": "ETA",
-    "certLabelFire": "Brandmotstånd",
+    "certLabelFire": "Fire Resistance",
     "certLabelEPD": "EPD",
-    "btnAllCerts": "Alla certifieringar",
-    "distStag": "Partnerskap",
-    "distTitle": "Bli en europeisk distributör",
-    "distDesc": "De flesta europeiska marknader är öppna. Vi samarbetar med lagerdistributörer, leverantörer av byggnadsskivor och projektbaserade köpare i EU och EES.",
-    "distCountryLabel": "öppen",
-    "btnPartnership": "Partnerskapsprogram",
+    "btnAllCerts": "All certifications",
+    "distStag": "Partnership",
+    "distTitle": "Become a European distributor",
+    "distDesc": "Most European markets are open. We work with stocking distributors, building panel suppliers, and project-based buyers across the EU and EEA.",
+    "distCountryLabel": "open",
+    "btnPartnership": "Partnership programme",
     "finnbuildLabel": "FinnBuild 2026",
-    "finnbuildDesc": "Möt oss i Helsingfors",
-    "ctaStag": "Kontakt",
-    "ctaTitle": "Begär offert eller skicka förfrågan",
-    "ctaDesc": "Använd vårt formulär för att begära pris, teknisk dokumentation, prover eller distributionspartnerskap. Vi svarar inom 2 arbetsdagar.",
-    "btnOpenForm": "Öppna förfrågningsformulär",
-    "labelEmail": "E-post",
-    "labelPhone": "Telefon",
-    "labelLocation": "Plats"
+    "finnbuildDesc": "Meet us in Helsinki",
+    "ctaStag": "Contact",
+    "ctaTitle": "Request a quotation or send an enquiry",
+    "ctaDesc": "Use our form to request a price quotation, technical documentation, samples, or distribution partnership. We respond within 2 business days.",
+    "btnOpenForm": "Open enquiry form",
+    "labelEmail": "Email",
+    "labelPhone": "Phone",
+    "labelLocation": "Location"
+  },
+  "_meta": {
+    "status": "ai-translated",
+    "noindex": true,
+    "lang": "ga"
   }
 }

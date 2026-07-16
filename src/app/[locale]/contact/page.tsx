@@ -37,59 +37,63 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
         { name: bc('contact'), url: `${SITE_URL}/${locale}/contact` },
       ])} />
 
-      <section className="container-page py-12 md:py-16">
-        <div className="stag mb-12">
-          <p className="text-gold text-xs font-bold tracking-widest uppercase mb-2">{t('eyebrow')}</p>
-          <h1 className="stitle">{t('h1')}</h1>
+      <div className="page-hero">
+        <div className="container-page">
+          <p className="stag">{t('eyebrow')}</p>
+          <h1 className="stitle-xl">{t('h1')}</h1>
           <p className="ssub">{t('sub')}</p>
         </div>
+      </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-          {/* Form */}
-          <div className="lg:col-span-2">
-            <QuotationForm locale={locale} />
-          </div>
+      <section className="section-alt py-16">
+        <div className="container-page">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+            {/* Form */}
+            <div className="lg:col-span-2">
+              <QuotationForm locale={locale} />
+            </div>
 
-          {/* Sidebar */}
-          <aside className="space-y-6">
-            <div className="card-gold p-6">
-              <h3 className="font-bold text-white mb-4">{t('sidebar.contactTitle')}</h3>
-              <div className="space-y-3 text-sm">
-                <div>
-                  <p className="text-gray-500 text-xs uppercase tracking-wider mb-0.5">Email</p>
-                  <a href={`mailto:${CONTACT.email}`} className="text-gold2 hover:text-white transition-colors">{CONTACT.email}</a>
-                </div>
-                <div>
-                  <p className="text-gray-500 text-xs uppercase tracking-wider mb-0.5">Phone / WhatsApp</p>
-                  <a href={`tel:${CONTACT.phone}`} className="text-white hover:text-gold2 transition-colors">{CONTACT.phoneDisplay}</a>
-                </div>
-                <div>
-                  <p className="text-gray-500 text-xs uppercase tracking-wider mb-0.5">VAT ID</p>
-                  <p className="text-gray-300">{CONTACT.vat}</p>
+            {/* Sidebar */}
+            <aside className="space-y-5">
+              <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+                <h3 className="font-bold text-slate-900 mb-4">{t('sidebar.contactTitle')}</h3>
+                <div className="space-y-3 text-sm">
+                  <div>
+                    <p className="text-slate-400 text-xs uppercase tracking-wider mb-0.5">Email</p>
+                    <a href={`mailto:${CONTACT.email}`} className="text-accent hover:text-accent-dark transition-colors font-medium">{CONTACT.email}</a>
+                  </div>
+                  <div>
+                    <p className="text-slate-400 text-xs uppercase tracking-wider mb-0.5">Phone / WhatsApp</p>
+                    <a href={`tel:${CONTACT.phone}`} className="text-slate-800 hover:text-accent transition-colors font-medium">{CONTACT.phoneDisplay}</a>
+                  </div>
+                  <div>
+                    <p className="text-slate-400 text-xs uppercase tracking-wider mb-0.5">VAT ID</p>
+                    <p className="text-slate-600">{CONTACT.vat}</p>
+                  </div>
                 </div>
               </div>
-            </div>
 
-            <div className="card-gold p-6">
-              <h3 className="font-bold text-white mb-3">{t('sidebar.responseTitle')}</h3>
-              <p className="text-sm text-gray-300">{t('sidebar.responseText')}</p>
-            </div>
+              <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+                <h3 className="font-bold text-slate-900 mb-3">{t('sidebar.responseTitle')}</h3>
+                <p className="text-sm text-slate-500">{t('sidebar.responseText')}</p>
+              </div>
 
-            <div className="card-gold p-6">
-              <h3 className="font-bold text-white mb-3">{t('sidebar.addressTitle')}</h3>
-              <address className="not-italic text-sm text-gray-300 leading-relaxed">
-                Terasun Europe<br />
-                {CONTACT.address}<br />
-                {CONTACT.city}
-              </address>
-            </div>
+              <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
+                <h3 className="font-bold text-slate-900 mb-3">{t('sidebar.addressTitle')}</h3>
+                <address className="not-italic text-sm text-slate-600 leading-relaxed">
+                  Terasun Europe<br />
+                  {CONTACT.address}<br />
+                  {CONTACT.city}
+                </address>
+              </div>
 
-            <div className="rounded-xl border border-yellow-700/40 bg-yellow-950/20 p-4">
-              <p className="text-xs text-yellow-300/80 leading-relaxed">
-                <strong className="text-yellow-300">Note:</strong> Terasun Europe is the Authorised European Representative only. We are not the manufacturer of Terasun products.
-              </p>
-            </div>
-          </aside>
+              <div className="rounded-xl border border-blue-200 bg-blue-50 p-4">
+                <p className="text-xs text-blue-700 leading-relaxed">
+                  <strong>Note:</strong> Terasun Europe is the Authorised European Representative only. We are not the manufacturer of Terasun products.
+                </p>
+              </div>
+            </aside>
+          </div>
         </div>
       </section>
     </>

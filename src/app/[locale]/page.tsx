@@ -1,8 +1,9 @@
 import type { Metadata } from 'next'
-import { getTranslations, setRequestLocale} from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import Link from 'next/link'
 import Image from 'next/image'
 import JsonLd from '@/components/seo/JsonLd'
+import ScrollReveal from '@/components/ui/ScrollReveal'
 import { organizationSchema, webSiteSchema, productSchema } from '@/lib/structured-data'
 import { SITE_URL, CONTACT, PRODUCT, FINNBUILD, MANUFACTURER } from '@/lib/constants'
 import { routing } from '@/i18n/routing'
@@ -29,31 +30,50 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       },
     },
     openGraph: {
-      type: 'website',
-      title: t('title'),
-      description: t('description'),
-      url: `${SITE_URL}/${locale}`,
-      siteName: 'Terasun Europe',
+      type: 'website', title: t('title'), description: t('description'),
+      url: `${SITE_URL}/${locale}`, siteName: 'Terasun Europe',
       images: [{ url: `${SITE_URL}/imgs/products/product1.jpeg`, width: 1200, height: 900 }],
     },
     twitter: { card: 'summary_large_image', title: t('title'), description: t('description') },
   }
 }
 
-const HERO_CERTS = [
-  { label: 'CE Marking',       val: PRODUCT.ce,        note: 'Construction Products Regulation' },
-  { label: 'ETA',              val: PRODUCT.eta,       note: 'European Technical Assessment' },
-  { label: 'Fire Resistance',  val: PRODUCT.fireClass, note: PRODUCT.fireReport },
-  { label: 'EPD',              val: PRODUCT.epd,       note: `Valid until ${PRODUCT.epdValidUntil}` },
-]
+/* ── Application data with SVG icon keys ── */
+const APP_SLUGS = [
+  { slug: 'facade-systems',    icon: 'facade' },
+  { slug: 'fire-protection',   icon: 'fire' },
+  { slug: 'wet-rooms',         icon: 'wet' },
+  { slug: 'commercial-buildings', icon: 'commercial' },
+  { slug: 'steel-frame',       icon: 'steel' },
+  { slug: 'residential',       icon: 'residential' },
+] as const
+
+/* ── Inline SVG icons for applications ── */
+function AppIcon({ type }: { type: string }) {
+  const cls = 'w-6 h-6 text-accent'
+  switch (type) {
+    case 'facade':     return <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="2" y="3" width="20" height="18" rx="1"/><line x1="2" y1="9" x2="22" y2="9"/><line x1="2" y1="15" x2="22" y2="15"/><line x1="8" y1="3" x2="8" y2="21"/><line x1="16" y1="3" x2="16" y2="21"/></svg>
+    case 'fire':       return <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M12 2c0 6-6 8-6 14a6 6 0 0012 0c0-6-6-8-6-14z"/><path d="M12 12c0 3-2 4-2 6a2 2 0 004 0c0-2-2-3-2-6z"/></svg>
+    case 'wet':        return <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M12 2l-8 10h16L12 2z"/><rect x="4" y="12" width="16" height="10" rx="1"/><line x1="9" y1="12" x2="9" y2="22"/><line x1="15" y1="12" x2="15" y2="22"/></svg>
+    case 'commercial': return <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><rect x="3" y="4" width="18" height="17" rx="1"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="9" y1="4" x2="9" y2="21"/><rect x="13" y="14" width="4" height="7"/></svg>
+    case 'steel':      return <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M4 21V4l4-2 4 2 4-2 4 2v17"/><line x1="4" y1="10" x2="20" y2="10"/><line x1="4" y1="16" x2="20" y2="16"/></svg>
+    case 'residential':return <svg className={cls} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M3 11L12 2l9 9"/><rect x="4" y="11" width="16" height="10" rx="1"/><rect x="9" y="15" width="6" height="6"/></svg>
+    default: return null
+  }
+}
 
 export default async function HomePage({ params }: Props) {
   const { locale } = await params
-  const t = await getTranslations({ locale, namespace: 'hero' })
-  const tabs = await getTranslations({ locale, namespace: 'trustBar' })
+  setRequestLocale(locale)
+
+  const t     = await getTranslations({ locale, namespace: 'hero' })
+  const tabs  = await getTranslations({ locale, namespace: 'trustBar' })
   const about = await getTranslations({ locale, namespace: 'about' })
-  const auth = await getTranslations({ locale, namespace: 'authorised' })
-  const nav = await getTranslations({ locale, namespace: 'nav' })
+  const auth  = await getTranslations({ locale, namespace: 'authorised' })
+  const nav   = await getTranslations({ locale, namespace: 'nav' })
+  const home  = await getTranslations({ locale, namespace: 'home' })
+  const apps  = await getTranslations({ locale, namespace: 'applications' })
+  const certs = await getTranslations({ locale, namespace: 'certifications' })
 
   const navHref = (path: string) => `/${locale}${path}`
 
@@ -61,323 +81,415 @@ export default async function HomePage({ params }: Props) {
     <>
       <JsonLd data={[organizationSchema(locale), webSiteSchema(locale), productSchema(locale)]} />
 
-      {/* ── HERO ── */}
-      <section className="relative bg-darker overflow-hidden" id="top">
-        <div className="absolute inset-0 bg-gradient-to-br from-dark via-darker to-dark opacity-80 pointer-events-none" aria-hidden="true" />
-        <div className="container-page relative py-20 lg:py-28">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <p className="text-xs font-semibold tracking-widest text-gold uppercase mb-4">
+      {/* ══ HERO — split panel ══ */}
+      <section className="relative bg-dark overflow-hidden" id="top" style={{ minHeight: '92vh' }}>
+        {/* Subtle dot grid texture */}
+        <div className="absolute inset-0 pointer-events-none" aria-hidden="true"
+          style={{ backgroundImage: 'radial-gradient(circle, rgba(255,255,255,0.04) 1px, transparent 1px)', backgroundSize: '32px 32px' }}
+        />
+        {/* Product image — right panel, full bleed */}
+        <div className="absolute top-0 right-0 w-full lg:w-[50%] h-full" aria-hidden="true">
+          <Image
+            src="https://terasun-europe.eu/imgs/products/product1.jpeg"
+            alt=""
+            fill
+            className="object-cover object-center"
+            priority
+          />
+          {/* Gradient fade into navy on the left edge */}
+          <div className="absolute inset-0" style={{ background: 'linear-gradient(90deg, #0C1929 0%, rgba(12,25,41,0.85) 30%, rgba(12,25,41,0.3) 60%, transparent 100%)' }} />
+          {/* Bottom overlay for mobile */}
+          <div className="absolute inset-0 lg:hidden" style={{ background: 'rgba(8,15,26,0.75)' }} />
+        </div>
+
+        {/* Content */}
+        <div className="container-page relative h-full">
+          <div className="flex flex-col justify-center py-20 lg:py-0" style={{ minHeight: '92vh', maxWidth: '56%' }}>
+            {/* Eyebrow badge */}
+            <div className="animate-hero-1">
+              <span className="inline-flex items-center gap-2 text-[10px] font-bold tracking-[0.2em] text-white uppercase border border-white/25 bg-white/10 rounded-full px-4 py-1.5 mb-6">
                 {t('eyebrow')}
-              </p>
-              <h1 className="text-4xl sm:text-5xl font-black text-white leading-tight mb-6">
-                {t('h1Line1')}<br/>
-                <em className="not-italic text-gold2">{t('h1Line2Emphasis')}</em>{' '}
-                {t('h1Line2')}<br/>
-                {t('h1Line3')}
-              </h1>
-              <p className="text-lg text-gray-300 leading-relaxed mb-8 max-w-xl">
-                {t('sub')}
-              </p>
-              <div className="flex flex-wrap gap-3 mb-8">
-                <Link href={navHref('/contact')} className="btn-primary">
-                  {t('btnQuote')}
-                </Link>
-                <Link href={navHref('/downloads')} className="btn-secondary">
-                  {t('btnDownloads')}
-                </Link>
-                <Link href={navHref('/contact')} className="btn-secondary">
-                  {t('btnContact')}
-                </Link>
-              </div>
-              <p className="text-xs text-gray-500 leading-relaxed">
-                {t('note')}<br/>
-                {t('noteManufacturer')}
-              </p>
+              </span>
             </div>
 
-            {/* Cert grid */}
-            <div>
-              <div className="grid grid-cols-2 gap-3 mb-4">
-                {HERO_CERTS.map((c) => (
-                  <div key={c.label} className="bg-card border border-border rounded-lg p-4">
-                    <div className="text-[10px] font-bold tracking-widest text-gray-400 uppercase mb-1">{c.label}</div>
-                    <div className="text-sm font-bold text-gold2 mb-1">{c.val}</div>
-                    <div className="text-[11px] text-gray-500">{c.note}</div>
-                  </div>
-                ))}
-              </div>
-              <p className="text-xs text-center text-gray-500">{t('tagline')}</p>
+            {/* H1 */}
+            <h1 className="animate-hero-2 font-black leading-[1.05] tracking-tight text-white mb-6"
+              style={{ fontSize: 'clamp(2.2rem, 4.5vw, 4rem)' }}>
+              {t('h1Line1')}<br/>
+              <span className="text-[#5CA4D6]">{t('h1Line2Emphasis')}</span>{' '}
+              {t('h1Line2')}<br/>
+              {t('h1Line3')}
+            </h1>
+
+            {/* Sub */}
+            <p className="animate-hero-3 text-slate-300 text-base lg:text-lg leading-relaxed mb-8 max-w-lg">
+              {t('sub')}
+            </p>
+
+            {/* Cert strip */}
+            <div className="animate-hero-3 flex flex-wrap gap-2 mb-8">
+              {[
+                { label: 'CE', val: PRODUCT.ce },
+                { label: 'ETA', val: PRODUCT.eta },
+                { label: 'EPD', val: PRODUCT.epd },
+                { label: 'Fire', val: PRODUCT.fireClass },
+              ].map((c) => (
+                <div key={c.val} className="flex items-center gap-1.5 bg-white/5 border border-white/10 rounded-lg px-3 py-1.5">
+                  <span className="text-[9px] font-bold tracking-widest text-slate-400 uppercase">{c.label}</span>
+                  <span className="text-[11px] font-bold text-sky">{c.val}</span>
+                </div>
+              ))}
             </div>
+
+            {/* CTAs */}
+            <div className="animate-hero-4 flex flex-wrap gap-3 mb-8">
+              <Link href={navHref('/contact')} className="btn-primary px-6 py-3 text-sm">
+                {t('btnQuote')}
+              </Link>
+              <Link href={navHref('/downloads')} className="btn-secondary px-6 py-3 text-sm">
+                {t('btnDownloads')}
+              </Link>
+            </div>
+
+            {/* Disclaimer */}
+            <p className="animate-hero-5 text-xs text-slate-500 leading-relaxed">
+              {t('note')}<br/>{t('noteManufacturer')}
+            </p>
           </div>
         </div>
       </section>
 
-      {/* ── TRUST BAR ── */}
-      <div className="bg-card border-y border-border overflow-x-auto" role="list" aria-label="Certifications summary">
+      {/* ══ TRUST BAR ══ */}
+      <div className="bg-white border-b border-border-light overflow-x-auto" role="list" aria-label="Certifications summary">
         <div className="container-page py-3 flex items-center gap-6 min-w-max">
           {(tabs.raw('items') as string[]).map((item: string) => (
-            <div key={item} role="listitem" className="flex items-center gap-2 text-xs font-medium text-gray-400 whitespace-nowrap">
-              <span className="w-1.5 h-1.5 rounded-full bg-gold shrink-0" aria-hidden="true"/>
+            <div key={item} role="listitem" className="flex items-center gap-2 text-xs font-medium text-gray-500 whitespace-nowrap">
+              <span className="w-1 h-1 rounded-full bg-accent shrink-0" aria-hidden="true"/>
               {item}
             </div>
           ))}
         </div>
       </div>
 
-      {/* ── ABOUT (condensed) ── */}
-      <section className="bg-dark py-16 lg:py-20" id="about">
+      {/* ══ ABOUT + AUTH REP (white) ══ */}
+      <section className="bg-white py-16 lg:py-24" id="about">
         <div className="container-page">
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
-            <div>
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
+            {/* About */}
+            <ScrollReveal>
               <p className="stag">{about('stag')}</p>
               <h2 className="stitle">{about('title')}</h2>
               <div className="rule" aria-hidden="true"/>
-              <div className="space-y-6">
+              <div className="space-y-5 mb-8">
                 {(about.raw('points') as {title:string;text:string}[]).map((p) => (
                   <div key={p.title} className="flex gap-4">
-                    <span className="text-gold font-bold mt-0.5 shrink-0">—</span>
+                    <span className="w-5 h-5 rounded-full bg-accent/10 border border-accent/20 flex items-center justify-center shrink-0 mt-0.5">
+                      <span className="w-1.5 h-1.5 rounded-full bg-accent" />
+                    </span>
                     <div>
-                      <h3 className="text-sm font-semibold text-white mb-1">{p.title}</h3>
-                      <p className="text-sm text-gray-400 leading-relaxed">{p.text}</p>
+                      <h3 className="text-sm font-semibold text-gray-900 mb-0.5">{p.title}</h3>
+                      <p className="text-sm text-gray-500 leading-relaxed">{p.text}</p>
                     </div>
                   </div>
                 ))}
               </div>
-            </div>
-            <div>
-              <p className="stag">{about('missionStag')}</p>
-              <p className="text-base text-gray-400 leading-relaxed mb-6">{about('missionText')}</p>
-              <div className="bg-gold-light border border-gold-border rounded-lg p-5 mb-6">
-                <h3 className="text-sm font-bold text-dark mb-2">{about('statusTitle')}</h3>
-                <p className="text-sm text-amber-900 leading-relaxed">{about('statusText')}</p>
+              <div className="bg-slate-50 border border-slate-200 rounded-xl p-5">
+                <h3 className="text-sm font-bold text-slate-800 mb-1.5">{about('statusTitle')}</h3>
+                <p className="text-sm text-slate-600 leading-relaxed">{about('statusText')}</p>
               </div>
-              <div className="grid grid-cols-2 gap-4 mb-6">
-                <div className="bg-card border border-border rounded-lg p-4 text-center">
-                  <div className="text-2xl font-black text-gold2">{about('stat1Num')}</div>
-                  <div className="text-xs text-gray-400 mt-1">{about('stat1Label')}</div>
-                </div>
-                <div className="bg-card border border-border rounded-lg p-4 text-center">
-                  <div className="text-2xl font-black text-gold2">{about('stat2Num')}</div>
-                  <div className="text-xs text-gray-400 mt-1">{about('stat2Label')}</div>
-                </div>
-              </div>
-              <div className="flex justify-center">
-                <Image
-                  src="https://terasun-europe.eu/imgs/LK_luottamusmerkki_Luottamusmerkki-3-vuotta.png"
-                  alt="Luotettava Kumppani trust mark"
-                  width={180}
-                  height={96}
-                  loading="lazy"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+            </ScrollReveal>
 
-      {/* ── AUTHORISED REP ── */}
-      <section className="bg-darker py-16 lg:py-20" id="authorised">
-        <div className="container-page">
-          <p className="stag">{auth('stag')}</p>
-          <h2 className="stitle">{auth('title')}</h2>
-          <div className="rule" aria-hidden="true"/>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {Object.values(auth.raw('cards') as Record<string, {title:string;body:string;cta?:string}>).map((card) => (
-              <div key={card.title} className="bg-card border border-border rounded-lg p-5">
-                <h3 className="text-sm font-bold text-white mb-2">{card.title}</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">{card.body}</p>
-                {card.cta && (
-                  <Link href={navHref('/contact')} className="inline-block mt-3 text-xs font-semibold text-gold hover:text-gold2 transition-colors">
-                    {card.cta} →
-                  </Link>
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── PRODUCT HIGHLIGHT ── */}
-      <section className="bg-dark py-16 lg:py-20" id="product">
-        <div className="container-page">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <p className="stag">Product</p>
-              <h2 className="stitle">Terasun TSM lightweight cement board</h2>
+            {/* Auth rep cards */}
+            <ScrollReveal delay={120}>
+              <p className="stag">{auth('stag')}</p>
+              <h2 className="stitle">{auth('title')}</h2>
               <div className="rule" aria-hidden="true"/>
-              <p className="text-base text-gray-400 leading-relaxed mb-6">
-                A lightweight cement panel reinforced with cellulose fiber and designed for structural performance, moisture resistance, and fire safety. CE-certified, ETA-approved, asbestos-free.
-              </p>
-              <div className="grid grid-cols-3 gap-3 mb-6">
-                {[
-                  { label: 'Weight', val: `${PRODUCT.weightKgM2} kg/m²` },
-                  { label: 'Thickness', val: `${PRODUCT.thickness} mm` },
-                  { label: 'Standard size', val: `${PRODUCT.width}×${PRODUCT.length}` },
-                ].map((s) => (
-                  <div key={s.label} className="bg-card border border-border rounded-lg p-3 text-center">
-                    <div className="text-base font-bold text-gold2">{s.val}</div>
-                    <div className="text-[11px] text-gray-500 mt-0.5">{s.label}</div>
+              <div className="grid grid-cols-2 gap-3 mb-6">
+                {Object.values(auth.raw('cards') as Record<string, {title:string;body:string;cta?:string}>).map((card, i) => (
+                  <div key={card.title} className="card-lift bg-page border border-border-light rounded-xl p-4">
+                    <div className="w-7 h-7 rounded-lg bg-accent/10 flex items-center justify-center mb-3">
+                      <span className="text-xs font-black text-accent">{String(i+1).padStart(2,'0')}</span>
+                    </div>
+                    <h3 className="text-xs font-bold text-gray-800 mb-1">{card.title}</h3>
+                    <p className="text-xs text-gray-500 leading-relaxed">{card.body}</p>
+                    {card.cta && (
+                      <Link href={navHref('/contact')} className="inline-block mt-2 text-[11px] font-semibold text-accent hover:text-accent-dark transition-colors">
+                        {card.cta} →
+                      </Link>
+                    )}
                   </div>
                 ))}
               </div>
-              <div className="flex gap-3">
-                <Link href={navHref('/products')} className="btn-primary text-sm">View full specs →</Link>
-                <Link href={navHref('/certifications')} className="btn-secondary text-sm">Certifications</Link>
-              </div>
-            </div>
-            <div className="grid grid-cols-2 gap-3">
-              <Image
-                src="https://terasun-europe.eu/imgs/products/product1.jpeg"
-                alt="Terasun TSM fiber cement board"
-                width={600}
-                height={450}
-                className="rounded-lg object-cover w-full col-span-2"
-                loading="lazy"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ── MANUFACTURER ── */}
-      <section className="bg-darker py-16 lg:py-20" id="manufacturer">
-        <div className="container-page">
-          <p className="stag">Manufacturer</p>
-          <h2 className="stitle">{MANUFACTURER.name}</h2>
-          <div className="rule" aria-hidden="true"/>
-          <div className="grid lg:grid-cols-3 gap-6">
-            {[
-              { label: 'Founded', val: MANUFACTURER.founded },
-              { label: 'Country', val: MANUFACTURER.country },
-              { label: 'Website', val: MANUFACTURER.websiteDisplay, href: MANUFACTURER.website },
-            ].map((s) => (
-              <div key={s.label} className="bg-card border border-border rounded-lg p-5">
-                <div className="text-xs text-gray-500 mb-1">{s.label}</div>
-                {s.href
-                  ? <a href={s.href} target="_blank" rel="noopener noreferrer" className="text-base font-semibold text-gold2 hover:text-white transition-colors">{s.val}</a>
-                  : <div className="text-base font-semibold text-white">{s.val}</div>
-                }
-              </div>
-            ))}
-          </div>
-          <p className="text-sm text-gray-500 mt-4">
-            Terasun Europe is not the manufacturer. We act as the Authorised European Representative managing CE/ETA documentation and European distribution.{' '}
-            <Link href={navHref('/manufacturer')} className="text-gold hover:text-gold2 transition-colors">Learn more →</Link>
-          </p>
-        </div>
-      </section>
-
-      {/* ── APPLICATIONS ── */}
-      <section className="bg-dark py-16 lg:py-20" id="applications">
-        <div className="container-page">
-          <p className="stag">Applications</p>
-          <h2 className="stitle">Cement board applications</h2>
-          <div className="rule" aria-hidden="true"/>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
-            {[
-              { icon: '🏗️', title: 'Facade systems',          href: '/applications/facade-systems',    tags: ['Ventilated', 'All climates'] },
-              { icon: '🔥', title: 'Fire protection',          href: '/applications/fire-protection',   tags: ['E 120', 'EI 90', 'EW 120'] },
-              { icon: '🚿', title: 'Wet rooms',                href: '/applications/wet-rooms',         tags: ['Mapei', 'Schönox'] },
-              { icon: '🏢', title: 'Commercial buildings',     href: '/applications/commercial-buildings', tags: ['Interior', 'Exterior'] },
-              { icon: '🏭', title: 'Steel-frame construction', href: '/applications/steel-frame',       tags: ['Industrial', '400/600 mm'] },
-              { icon: '🏠', title: 'Residential',             href: '/applications/residential',        tags: ['Timber frame'] },
-            ].map((app) => (
-              <Link key={app.href} href={navHref(app.href)} className="bg-card border border-border rounded-lg p-5 hover:border-gold/40 transition-colors group">
-                <div className="text-2xl mb-3">{app.icon}</div>
-                <h3 className="text-sm font-semibold text-white mb-2 group-hover:text-gold2 transition-colors">{app.title}</h3>
-                <div className="flex flex-wrap gap-1">
-                  {app.tags.map((tag) => (
-                    <span key={tag} className="text-[11px] bg-border text-gray-400 px-2 py-0.5 rounded">{tag}</span>
-                  ))}
+              <div className="flex items-center gap-4">
+                <div className="grid grid-cols-2 gap-3 flex-1">
+                  <div className="card-lift bg-page border border-border-light rounded-xl p-4 text-center">
+                    <div className="text-xl font-black text-accent">{about('stat1Num')}</div>
+                    <div className="text-[11px] text-gray-500 mt-0.5">{about('stat1Label')}</div>
+                  </div>
+                  <div className="card-lift bg-page border border-border-light rounded-xl p-4 text-center">
+                    <div className="text-xl font-black text-accent">{about('stat2Num')}</div>
+                    <div className="text-[11px] text-gray-500 mt-0.5">{about('stat2Label')}</div>
+                  </div>
                 </div>
-              </Link>
-            ))}
-          </div>
-          <Link href={navHref('/applications')} className="btn-secondary text-sm">
-            All applications →
-          </Link>
-        </div>
-      </section>
-
-      {/* ── CERTIFICATIONS HIGHLIGHTS ── */}
-      <section className="bg-darker py-16 lg:py-20" id="certifications">
-        <div className="container-page">
-          <p className="stag">Certifications</p>
-          <h2 className="stitle">Full European certification documentation</h2>
-          <div className="rule" aria-hidden="true"/>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-            {[
-              { icon: '🏷️', label: 'CE Marking',     ref: PRODUCT.ce },
-              { icon: '📋', label: 'ETA',             ref: PRODUCT.eta },
-              { icon: '📄', label: 'Fire Resistance', ref: PRODUCT.fireClass },
-              { icon: '🌿', label: 'EPD',             ref: PRODUCT.epd },
-            ].map((c) => (
-              <div key={c.ref} className="bg-card border border-border rounded-lg p-4">
-                <div className="text-xl mb-2">{c.icon}</div>
-                <div className="text-xs text-gray-500 mb-1">{c.label}</div>
-                <div className="text-sm font-bold text-gold2">{c.ref}</div>
+                <Image
+                  src="https://terasun-europe.eu/imgs/LK_luottamusmerkki_Luottamusmerkki-3-vuotta.png"
+                  alt="Luotettava Kumppani trust mark"
+                  width={90}
+                  height={48}
+                  loading="lazy"
+                  className="shrink-0 opacity-80 hover:opacity-100 transition-opacity"
+                />
               </div>
-            ))}
-          </div>
-          <Link href={navHref('/certifications')} className="btn-secondary text-sm">All certifications →</Link>
-        </div>
-      </section>
-
-      {/* ── DISTRIBUTORS CTA ── */}
-      <section className="bg-dark py-16 lg:py-20">
-        <div className="container-page">
-          <div className="bg-card border border-border rounded-xl p-8 lg:p-12 text-center">
-            <p className="stag text-center">Partnership</p>
-            <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">Become a European distributor</h2>
-            <p className="text-gray-400 max-w-xl mx-auto mb-8 leading-relaxed">
-              Most European markets are open. We work with stocking distributors, building panel suppliers, and project-based buyers across the EU and EEA.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4 mb-8">
-              {['Germany', 'Netherlands', 'France', 'Poland', 'Czech Republic', 'Spain', 'Italy', 'Austria'].map((c) => (
-                <span key={c} className="text-xs bg-border text-gray-400 px-3 py-1.5 rounded-full">{c} — open</span>
-              ))}
-            </div>
-            <div className="flex flex-wrap justify-center gap-3">
-              <Link href={navHref('/distributors')} className="btn-primary">Partnership programme →</Link>
-              <Link href={navHref('/contact')} className="btn-secondary">Contact us</Link>
-            </div>
-            <div className="mt-8 pt-6 border-t border-border">
-              <p className="text-sm font-semibold text-gold2 mb-1">FinnBuild 2026</p>
-              <p className="text-sm text-gray-400">Meet us in Helsinki · {FINNBUILD.dates} · {FINNBUILD.venue}</p>
-            </div>
+            </ScrollReveal>
           </div>
         </div>
       </section>
 
-      {/* ── CONTACT CTA ── */}
-      <section className="bg-darker py-16 lg:py-20" id="contact">
+      {/* ══ PRODUCT (dark navy, split with real image) ══ */}
+      <section className="bg-dark py-16 lg:py-24" id="product">
         <div className="container-page">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <p className="stag">Contact</p>
-              <h2 className="stitle">Request a quotation or send an enquiry</h2>
+            {/* Image — large, rounded, zoom on hover */}
+            <ScrollReveal delay={80}>
+              <div className="relative rounded-2xl overflow-hidden aspect-[4/3] bg-card">
+                <Image
+                  src="https://terasun-europe.eu/imgs/products/product1.jpeg"
+                  alt="Terasun TSM fiber cement board"
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-700 ease-in-out"
+                  loading="lazy"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+                {/* Cert overlay badge */}
+                <div className="absolute top-4 left-4 flex flex-col gap-1.5">
+                  <span className="cert-badge">CE 1023-CPR-1565 P</span>
+                  <span className="cert-badge">ETA 24/0895</span>
+                </div>
+              </div>
+            </ScrollReveal>
+
+            {/* Specs */}
+            <ScrollReveal delay={180}>
+              <p className="stag">{home('productStag')}</p>
+              <h2 className="stitle">{home('productTitle')}</h2>
               <div className="rule" aria-hidden="true"/>
-              <p className="text-gray-400 leading-relaxed mb-6">
-                Use our form to request a price quotation, technical documentation, samples, or distribution partnership. We respond within 2 business days.
+              <p className="text-slate-300 text-sm leading-relaxed mb-8">{home('productDesc')}</p>
+
+              {/* Key specs — 3 tiles */}
+              <div className="grid grid-cols-3 gap-3 mb-8">
+                {[
+                  { label: home('labelWeight'),    val: `${PRODUCT.weightKgM2} kg/m²` },
+                  { label: home('labelThickness'),  val: `${PRODUCT.thickness} mm` },
+                  { label: home('labelSize'),       val: `${PRODUCT.width}×${PRODUCT.length}` },
+                ].map((s) => (
+                  <div key={s.label} className="dark-card-lift bg-card border border-border rounded-xl p-4 text-center">
+                    <div className="text-base font-black text-[#5CA4D6] mb-0.5">{s.val}</div>
+                    <div className="text-[10px] text-slate-500 leading-tight">{s.label}</div>
+                  </div>
+                ))}
+              </div>
+
+              {/* Additional spec rows */}
+              <div className="space-y-2 mb-8">
+                {[
+                  { k: 'Fire', v: `${PRODUCT.fireClass} — ${PRODUCT.fireReport}` },
+                  { k: 'EPD', v: `${PRODUCT.epd} · valid until ${PRODUCT.epdValidUntil}` },
+                  { k: 'Surface', v: 'Asbestos-free · Paintable · CE marked' },
+                ].map((r) => (
+                  <div key={r.k} className="flex gap-3 text-sm border-b border-border pb-2">
+                    <span className="text-slate-500 w-16 shrink-0">{r.k}</span>
+                    <span className="text-slate-200">{r.v}</span>
+                  </div>
+                ))}
+              </div>
+
+              <div className="flex gap-3">
+                <Link href={navHref('/products')} className="btn-primary text-sm">{home('btnSpecs')} →</Link>
+                <Link href={navHref('/certifications')} className="btn-secondary text-sm">{nav('certifications')}</Link>
+              </div>
+            </ScrollReveal>
+          </div>
+        </div>
+      </section>
+
+      {/* ══ APPLICATIONS (page bg, icon grid) ══ */}
+      <section className="bg-page py-16 lg:py-24" id="applications">
+        <div className="container-page">
+          <ScrollReveal>
+            <p className="stag">{home('appStag')}</p>
+            <h2 className="stitle">{home('appTitle')}</h2>
+            <div className="rule" aria-hidden="true"/>
+          </ScrollReveal>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+            {APP_SLUGS.map(({ slug, icon }, i) => (
+              <ScrollReveal key={slug} delay={i * 60}>
+                <Link href={navHref(`/applications/${slug}`)} className="card-lift group block h-full bg-white border border-border-light rounded-xl p-6 hover:border-accent/30">
+                  <div className="w-10 h-10 rounded-lg bg-accent/8 border border-accent/12 flex items-center justify-center mb-4 group-hover:bg-accent/12 transition-colors">
+                    <AppIcon type={icon} />
+                  </div>
+                  <h3 className="text-sm font-bold text-gray-800 mb-1 group-hover:text-accent transition-colors">{apps(`${slug}.title`)}</h3>
+                  <p className="text-xs text-gray-500 leading-relaxed line-clamp-2">{apps(`${slug}.summary`)}</p>
+                </Link>
+              </ScrollReveal>
+            ))}
+          </div>
+          <ScrollReveal>
+            <Link href={navHref('/applications')} className="btn-secondary text-sm">{home('btnAllApps')} →</Link>
+          </ScrollReveal>
+        </div>
+      </section>
+
+      {/* ══ CERTIFICATIONS (white, premium cards) ══ */}
+      <section className="bg-white py-16 lg:py-24" id="certifications">
+        <div className="container-page">
+          <ScrollReveal>
+            <p className="stag">{home('certStag')}</p>
+            <h2 className="stitle">{home('certTitle')}</h2>
+            <div className="rule" aria-hidden="true"/>
+          </ScrollReveal>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+            {[
+              { label: certs('ce.label'),    ref: PRODUCT.ce,        badge: certs('ce.badge'),    desc: certs('ce.desc').slice(0, 60) + '…' },
+              { label: certs('eta.label'),   ref: PRODUCT.eta,       badge: certs('eta.badge'),   desc: certs('eta.desc').slice(0, 60) + '…' },
+              { label: home('certLabelFire'),ref: PRODUCT.fireClass,  badge: 'Tested',             desc: `${PRODUCT.fireReport}` },
+              { label: certs('epd.label'),   ref: PRODUCT.epd,       badge: certs('epd.badge'),   desc: `Valid until ${PRODUCT.epdValidUntil}` },
+            ].map((c, i) => (
+              <ScrollReveal key={c.ref} delay={i * 70}>
+                <div className="card-lift h-full bg-page border border-border-light rounded-xl p-5">
+                  <div className="flex items-start justify-between mb-4">
+                    <span className="text-[9px] font-bold tracking-wider text-accent bg-amber-50 border border-accent/20 rounded px-2 py-0.5 uppercase">{c.badge}</span>
+                  </div>
+                  <div className="text-xs font-bold tracking-wide text-gray-500 uppercase mb-1">{c.label}</div>
+                  <div className="text-base font-black text-gray-900 mb-2">{c.ref}</div>
+                  <p className="text-[11px] text-gray-500 leading-relaxed">{c.desc}</p>
+                </div>
+              </ScrollReveal>
+            ))}
+          </div>
+          <ScrollReveal>
+            <Link href={navHref('/certifications')} className="btn-primary text-sm">{home('btnAllCerts')} →</Link>
+          </ScrollReveal>
+        </div>
+      </section>
+
+      {/* ══ MANUFACTURER (dark, factory image) ══ */}
+      <section className="bg-dark py-16 lg:py-24" id="manufacturer">
+        <div className="container-page">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <ScrollReveal>
+              <p className="stag">{home('mfrStag')}</p>
+              <h2 className="stitle">{MANUFACTURER.name}</h2>
+              <div className="rule" aria-hidden="true"/>
+              <div className="space-y-3 mb-6">
+                {[
+                  { label: home('labelFounded'), val: MANUFACTURER.founded },
+                  { label: home('labelCountry'), val: MANUFACTURER.country },
+                  { label: home('labelWebsite'), val: MANUFACTURER.websiteDisplay, href: MANUFACTURER.website },
+                ].map((s) => (
+                  <div key={s.label} className="flex items-center gap-4 border-b border-border py-3">
+                    <span className="text-xs font-semibold text-slate-500 w-20 shrink-0">{s.label}</span>
+                    {s.href
+                      ? <a href={s.href} target="_blank" rel="noopener noreferrer" className="text-sm font-semibold text-[#5CA4D6] hover:text-white transition-colors">{s.val}</a>
+                      : <span className="text-sm font-semibold text-slate-100">{s.val}</span>
+                    }
+                  </div>
+                ))}
+              </div>
+              <p className="text-xs text-slate-500 leading-relaxed">
+                {home('mfrNote')}{' '}
+                <Link href={navHref('/manufacturer')} className="text-[#5CA4D6] hover:text-white transition-colors">{nav('manufacturer')} →</Link>
               </p>
-              <Link href={navHref('/contact')} className="btn-primary">
-                Open enquiry form →
-              </Link>
+            </ScrollReveal>
+            <ScrollReveal delay={150}>
+              <div className="relative rounded-2xl overflow-hidden aspect-video bg-card">
+                <Image
+                  src="https://terasun-europe.eu/imgs/manufacturer/factory.jpg"
+                  alt="Terasun factory — Zhejiang, China"
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-700"
+                  loading="lazy"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-dark/60 to-transparent pointer-events-none" />
+              </div>
+            </ScrollReveal>
+          </div>
+        </div>
+      </section>
+
+      {/* ══ DISTRIBUTORS CTA (accent-blue bg) ══ */}
+      <section className="py-16 lg:py-24" style={{ background: 'linear-gradient(135deg, #1D4ED8 0%, #2563EB 50%, #1E40AF 100%)' }}>
+        <div className="container-page">
+          <ScrollReveal>
+            <div className="max-w-3xl mx-auto text-center">
+              <span className="inline-block text-[11px] font-bold tracking-[0.18em] text-blue-200 uppercase mb-4">{home('distStag')}</span>
+              <h2 className="text-3xl sm:text-4xl font-black text-white mb-4 tracking-tight">{home('distTitle')}</h2>
+              <p className="text-blue-100 leading-relaxed mb-8 text-base">{home('distDesc')}</p>
+
+              {/* Open-market country chips */}
+              <div className="flex flex-wrap justify-center gap-2 mb-8">
+                {['Germany', 'Netherlands', 'France', 'Poland', 'Czech Republic', 'Spain', 'Italy', 'Austria'].map((c) => (
+                  <span key={c} className="text-xs bg-white/10 border border-white/20 text-white px-3 py-1.5 rounded-full">
+                    {c} — {home('distCountryLabel')}
+                  </span>
+                ))}
+              </div>
+
+              <div className="flex flex-wrap justify-center gap-3 mb-8">
+                <Link href={navHref('/distributors')} className="inline-flex items-center gap-2 bg-white text-accent font-bold px-6 py-3 rounded-lg text-sm hover:bg-blue-50 transition-colors">
+                  {home('btnPartnership')} →
+                </Link>
+                <Link href={navHref('/contact')} className="inline-flex items-center gap-2 border border-white/30 text-white font-medium px-6 py-3 rounded-lg text-sm hover:bg-white/10 transition-colors">
+                  {nav('contact')}
+                </Link>
+              </div>
+
+              {/* FinnBuild badge */}
+              <div className="inline-flex items-center gap-3 bg-white/10 border border-white/20 rounded-xl px-5 py-3">
+                <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse shrink-0" />
+                <div className="text-left">
+                  <p className="text-sm font-bold text-white">{home('finnbuildLabel')} — {FINNBUILD.dates}</p>
+                  <p className="text-xs text-blue-200">{FINNBUILD.venue} · {home('finnbuildDesc')}</p>
+                </div>
+              </div>
             </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
+      {/* ══ CONTACT CTA (light, clean) ══ */}
+      <section className="bg-page py-16 lg:py-24" id="contact">
+        <div className="container-page">
+          <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <ScrollReveal>
+              <p className="stag">{home('ctaStag')}</p>
+              <h2 className="stitle">{home('ctaTitle')}</h2>
+              <div className="rule" aria-hidden="true"/>
+              <p className="text-gray-500 leading-relaxed mb-6">{home('ctaDesc')}</p>
+              <Link href={navHref('/contact')} className="btn-primary">{home('btnOpenForm')} →</Link>
+            </ScrollReveal>
+
+            {/* Contact info tiles */}
             <div className="space-y-3">
               {[
-                { label: 'Email',    val: CONTACT.email,       href: `mailto:${CONTACT.email}` },
-                { label: 'Phone',    val: CONTACT.phoneDisplay, href: `tel:${CONTACT.phone}` },
-                { label: 'Location', val: CONTACT.location,     href: undefined },
-              ].map((c) => (
-                <div key={c.label} className="bg-card border border-border rounded-lg p-4 flex items-center gap-4">
-                  <div className="text-xs font-bold tracking-wider text-gray-500 uppercase w-16 shrink-0">{c.label}</div>
-                  {c.href
-                    ? <a href={c.href} className="text-sm text-white hover:text-gold2 transition-colors">{c.val}</a>
-                    : <span className="text-sm text-white">{c.val}</span>
-                  }
-                </div>
+                { label: home('labelEmail'),    val: CONTACT.email,       href: `mailto:${CONTACT.email}` },
+                { label: home('labelPhone'),    val: CONTACT.phoneDisplay, href: `tel:${CONTACT.phone}` },
+                { label: home('labelLocation'), val: CONTACT.location,     href: undefined },
+              ].map((c, i) => (
+                <ScrollReveal key={c.label} delay={i * 80}>
+                  <div className="card-lift flex items-center gap-4 bg-white border border-border-light rounded-xl p-4">
+                    <div className="w-8 h-8 rounded-lg bg-accent/8 border border-accent/12 flex items-center justify-center shrink-0">
+                      <div className="w-1.5 h-1.5 rounded-full bg-accent" />
+                    </div>
+                    <div>
+                      <div className="text-[10px] font-bold tracking-wider text-gray-400 uppercase mb-0.5">{c.label}</div>
+                      {c.href
+                        ? <a href={c.href} className="text-sm font-semibold text-gray-800 hover:text-accent transition-colors">{c.val}</a>
+                        : <span className="text-sm font-semibold text-gray-800">{c.val}</span>
+                      }
+                    </div>
+                  </div>
+                </ScrollReveal>
               ))}
             </div>
           </div>

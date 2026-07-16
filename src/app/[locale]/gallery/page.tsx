@@ -53,12 +53,16 @@ export default async function GalleryPage({ params }: { params: Promise<{ locale
         { name: bc('gallery'), url: `${SITE_URL}/${locale}/gallery` },
       ])} />
 
-      <section className="container-page py-12 md:py-16">
-        <div className="stag mb-12">
-          <p className="text-gold text-xs font-bold tracking-widest uppercase mb-2">{t('eyebrow')}</p>
-          <h1 className="stitle">{t('h1')}</h1>
+      <div className="page-hero">
+        <div className="container-page">
+          <p className="stag">{t('eyebrow')}</p>
+          <h1 className="stitle-xl">{t('h1')}</h1>
           <p className="ssub max-w-2xl">{t('sub')}</p>
         </div>
+      </div>
+
+      <section className="section-alt py-16">
+        <div className="container-page">
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
           {GALLERY_IMAGES.map((img, i) => (
@@ -76,8 +80,9 @@ export default async function GalleryPage({ params }: { params: Promise<{ locale
         </div>
 
         <div className="mt-12 text-center">
-          <p className="text-gray-400 text-sm mb-6">{t('cta')}</p>
+          <p className="text-[#4A5B6D] text-sm mb-6">{t('cta')}</p>
           <Link href={navHref('/contact')} className="btn-primary px-8 py-3">Request product samples</Link>
+        </div>
         </div>
       </section>
     </>

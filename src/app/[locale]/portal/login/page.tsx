@@ -23,14 +23,14 @@ export default async function PortalLoginPage({ params }: { params: Promise<{ lo
     <section className="container-page py-16 flex justify-center">
       <div className="w-full max-w-md">
         <div className="stag mb-8 text-center">
-          <h1 className="text-2xl font-bold text-white mb-2">{t('loginTitle')}</h1>
-          <p className="text-gray-400 text-sm">{t('loginSub')}</p>
+          <h1 className="text-2xl font-bold text-[#132238] mb-2">{t('loginTitle')}</h1>
+          <p className="text-[#4A5B6D] text-sm">{t('loginSub')}</p>
         </div>
         <div className="card-gold p-8 text-center">
-          <p className="text-gray-300 text-sm mb-6">{t('loginRedirectText')}</p>
+          <p className="text-[#132238] text-sm mb-6">{t('loginRedirectText')}</p>
           <a href={LOGIN_URL} className="btn-primary px-8 py-3 block w-full text-center">{t('loginBtn')}</a>
           <div className="rule my-6" />
-          <p className="text-gray-500 text-xs">{t('noAccount')}</p>
+          <p className="text-[#6B7A8D] text-xs">{t('noAccount')}</p>
           <a href={REGISTER_URL} className="btn-secondary text-sm py-2 px-6 mt-3 inline-block">{t('registerLink')}</a>
         </div>
       </div>

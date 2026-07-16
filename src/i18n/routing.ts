@@ -1,10 +1,10 @@
 import { defineRouting } from 'next-intl/routing'
 
+// 25 EU official languages + Norwegian (EEA market)
 export const locales = [
-  'en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'pl',
-  'fi', 'sv', 'no', 'da', 'et', 'lv', 'lt',
-  'cs', 'sk', 'hu', 'ro', 'bg', 'el', 'hr', 'sl',
-  'uk', 'ru',
+  'en', 'bg', 'hr', 'cs', 'da', 'nl', 'et', 'fi', 'fr', 'de',
+  'el', 'hu', 'ga', 'it', 'lv', 'lt', 'mt', 'pl', 'pt', 'ro',
+  'sk', 'sl', 'es', 'sv', 'nb',
 ] as const
 
 export type Locale = (typeof locales)[number]

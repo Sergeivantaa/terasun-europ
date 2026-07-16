@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Terasun Europe — Fiber Cement Boards | Authorised European Representative</title>
-<meta name="description" content="Terasun TSM fiber cement boards — CE certified (1023-CPR-1565 P), ETA 24/0895 approved. Authorised European Representative: Terasun Europe, Helsinki, Finland.">
+<meta name="description" content="Terasun TSM fiber cement boards — CE certified (1023-CPR-1565 P), ETA 24/0895 approved. Authorised European Representative: Terasun Europe, Vantaa, Finland.">
 <meta name="robots" content="index,follow">
 <meta name="theme-color" content="#1a1c22">
 <link rel="canonical" href="https://terasuneurope.com/">
@@ -13,14 +13,14 @@
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://terasuneurope.com/">
 <meta property="og:title" content="Terasun Europe — CE Certified Fiber Cement Boards">
-<meta property="og:description" content="Terasun TSM fiber cement boards — CE certified, ETA 24/0895. Authorised European Representative: Terasun Europe, Helsinki, Finland. Full European documentation available.">
+<meta property="og:description" content="Terasun TSM fiber cement boards — CE certified, ETA 24/0895. Authorised European Representative: Terasun Europe, Vantaa, Finland. Full European documentation available.">
 <meta property="og:site_name" content="Terasun Europe">
 <meta property="og:locale" content="en_GB">
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Terasun Europe — CE Certified Fiber Cement Boards">
-<meta name="twitter:description" content="Terasun TSM — CE 1023-CPR-1565 P, ETA 24/0895, EPD, fire-rated E 120/EI 90/EW 120. Authorised European Representative, Helsinki, Finland.">
+<meta name="twitter:description" content="Terasun TSM — CE 1023-CPR-1565 P, ETA 24/0895, EPD, fire-rated E 120/EI 90/EW 120. Authorised European Representative, Vantaa, Finland.">
 
 <!-- Favicon (inline SVG) -->
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231a1c22'/%3E%3Ctext x='16' y='24' font-family='Arial' font-size='22' font-weight='700' fill='%23b8932a' text-anchor='middle'%3ET%3C/text%3E%3C/svg%3E">
@@ -33,17 +33,27 @@
   "name": "Terasun Europe",
   "description": "Authorised European Representative of Zhejiang Terasun Air Duct Co., Ltd. Distributing Terasun TSM CE-certified fiber cement boards across Europe.",
   "url": "https://terasuneurope.com",
-  "email": "info@terasuneurope.com",
+  "email": "sales@terasun-europe.eu",
+  "telephone": "+358465887177",
+  "vatID": "FI33599486",
   "address": {
     "@type": "PostalAddress",
-    "addressLocality": "Helsinki",
+    "postalCode": "01370",
+    "addressLocality": "Vantaa",
     "addressCountry": "FI"
   },
   "areaServed": {
     "@type": "Place",
     "name": "European Union"
   },
-  "knowsAbout": ["Fiber cement boards","CE certification","ETA 24/0895","Construction Products Regulation"]
+  "knowsAbout": ["Fiber cement boards","CE certification","ETA 24/0895","Construction Products Regulation"],
+  "manufacturer": {
+    "@type": "Organization",
+    "name": "Zhejiang Terasun Air Duct Co., Ltd.",
+    "url": "https://www.terasun.cn/",
+    "foundingDate": "1989",
+    "addressCountry": "CN"
+  }
 }
 </script>
 
@@ -193,6 +203,19 @@ section{padding:5rem 2rem}
 .spec-table td{padding:11px 16px;border-bottom:1px solid var(--border);color:var(--text)}
 .spec-table tr:nth-child(even) td{background:var(--white)}
 .spec-table td:first-child{font-weight:600;color:var(--muted);font-size:11px;letter-spacing:.3px;text-transform:uppercase;white-space:nowrap}
+.tsm-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:1.25rem;margin-bottom:2.5rem}
+@media(max-width:800px){.tsm-cards{grid-template-columns:1fr}}
+.tsm-card{border:1px solid var(--border);border-radius:6px;overflow:hidden;background:var(--white)}
+.tsm-card-hdr{background:var(--dark);color:#fff;font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:10px 16px}
+.tsm-card table{width:100%;border-collapse:collapse;font-size:13px}
+.tsm-card table th{background:#f6f7f9;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);padding:8px 14px;text-align:left;border-bottom:1px solid var(--border)}
+.tsm-card table td{padding:8px 14px;border-bottom:1px solid var(--border);color:var(--text);vertical-align:middle}
+.tsm-card table tr:last-child td{border-bottom:none}
+.tsm-card table td:first-child{font-weight:600;color:var(--dark)}
+.tsm-card table td.cert{font-size:11px;color:var(--muted)}
+.tsm-badge{display:inline-block;font-size:10px;font-weight:700;padding:2px 7px;border-radius:2px;background:var(--gold-light);border:1px solid var(--gold-border);color:var(--gold);margin-left:4px;vertical-align:middle}
+.tsm-dot-declared{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--gold);margin-right:4px;flex-shrink:0}
+.tsm-note{font-size:11px;color:var(--muted);padding:10px 14px;border-top:1px solid var(--border);background:#fafafa;line-height:1.6}
 
 /* APPLICATIONS */
 .app-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.25rem}
@@ -242,6 +265,16 @@ section{padding:5rem 2rem}
 .eu-chips{display:flex;flex-wrap:wrap;gap:8px;margin:1.5rem 0}
 .chip{background:var(--white);border:1px solid var(--border);border-radius:3px;font-size:12px;padding:6px 13px;color:var(--muted);font-weight:500}
 .chip.active{background:var(--gold-light);border-color:var(--gold-border);color:var(--gold);font-weight:700}
+.chip.covered{background:#e8f5f0;border-color:#7ec8a8;color:#2a7a55;font-weight:600}
+.chip.open{background:#eef3ff;border-color:#8aaae0;color:#2650a0;font-weight:600}
+.territory-legend{display:flex;flex-wrap:wrap;gap:.5rem 1.25rem;margin-bottom:1rem;font-size:11px;color:var(--muted)}
+.territory-legend span{display:flex;align-items:center;gap:.35rem}
+.territory-legend .dot{width:10px;height:10px;border-radius:2px;flex-shrink:0}
+.partner-models{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin-top:1.25rem}
+@media(max-width:600px){.partner-models{grid-template-columns:1fr}}
+.partner-model-card{border:1px solid var(--border);border-radius:6px;padding:1.25rem 1.5rem;background:var(--white)}
+.partner-model-card h4{font-size:15px;font-weight:700;color:var(--dark);margin-bottom:.5rem}
+.partner-model-card p{font-size:13px;color:var(--muted);line-height:1.7;margin:0}
 .event-banner{background:var(--dark);border-radius:6px;padding:2rem 2.5rem;display:flex;align-items:center;justify-content:space-between;gap:2rem;flex-wrap:wrap;margin-top:2.5rem}
 .event-banner h3{font-size:1rem;font-weight:700;color:#fff}
 .event-banner p{font-size:13px;color:#8a8e9e;margin-top:3px}
@@ -316,6 +349,22 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
 .footer-links a{font-size:11px;color:#3a3e4e;text-decoration:none;transition:color .2s}
 .footer-links a:hover,.footer-links a:focus-visible{color:var(--gold2)}
 
+/* QUOTATION SECTION */
+.quot-wrap{display:grid;grid-template-columns:1.35fr 1fr;gap:4rem;align-items:start}
+@media(max-width:900px){.quot-wrap{grid-template-columns:1fr}}
+.quot-group{margin-bottom:1.25rem;border:1px solid var(--border);border-radius:6px;overflow:hidden}
+.quot-group-title{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);background:var(--gold-light);border-bottom:1px solid var(--gold-border);padding:.7rem 1.1rem}
+.quot-group-body{padding:1.1rem 1.1rem .4rem}
+.quot-sidebar{display:flex;flex-direction:column;gap:1rem}
+.quot-why{background:var(--dark);border-radius:6px;padding:1.75rem}
+.quot-why h3{font-size:.88rem;font-weight:700;color:#fff;margin-bottom:.85rem}
+.quot-why-item{display:flex;gap:.75rem;align-items:flex-start;margin-bottom:.75rem}
+.quot-why-item:last-child{margin-bottom:0}
+.quot-why-dot{width:5px;height:5px;border-radius:50%;background:var(--gold2);flex-shrink:0;margin-top:6px}
+.quot-why-item p{font-size:12px;color:#8a8e9e;line-height:1.6}
+.quot-note-box{background:var(--bg);border:1px solid var(--border);border-left:3px solid var(--gold);border-radius:4px;padding:1.1rem 1.25rem}
+.quot-note-box p{font-size:12px;color:var(--muted);line-height:1.7}
+
 /* MODAL */
 .modal-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:999;align-items:center;justify-content:center;padding:1rem}
 .modal-bg.open{display:flex}
@@ -324,6 +373,40 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
 .modal p{font-size:13px;color:var(--muted);line-height:1.7}
 .modal-close{margin-top:1.5rem;background:var(--gold);color:#fff;font-weight:700;border:none;border-radius:var(--r);padding:10px 28px;cursor:pointer;font-size:13px}
 .modal-close:focus-visible{outline:2px solid var(--gold2);outline-offset:2px}
+/* PHOTO GRID */
+.photo-grid{display:grid;gap:1rem;margin:2rem 0}
+.photo-grid-3{grid-template-columns:repeat(3,1fr)}
+.photo-grid-2{grid-template-columns:repeat(2,1fr)}
+@media(max-width:700px){.photo-grid-3,.photo-grid-2{grid-template-columns:1fr 1fr}}
+@media(max-width:440px){.photo-grid-3,.photo-grid-2{grid-template-columns:1fr}}
+.photo-slot{aspect-ratio:4/3;background:var(--border);border-radius:6px;overflow:hidden;position:relative;display:flex;align-items:center;justify-content:center}
+.photo-slot img{width:100%;height:100%;object-fit:cover;display:block}
+.photo-slot-ph{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.5rem;width:100%;height:100%;background:linear-gradient(135deg,var(--border2) 0%,var(--border) 100%)}
+.photo-slot-ph span{font-size:28px;opacity:.5}
+.photo-slot-ph small{font-size:10px;color:var(--light);letter-spacing:1px;text-transform:uppercase}
+.photo-slot.wide{aspect-ratio:16/7}
+.photo-slot.tall{aspect-ratio:3/4}
+
+/* GALLERY SECTION */
+.gallery-filter{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1.5rem}
+.gf-btn{font-size:11px;font-weight:600;letter-spacing:.3px;padding:6px 14px;border-radius:20px;border:1px solid var(--border);background:var(--white);color:var(--muted);cursor:pointer;transition:all .2s}
+.gf-btn.active,.gf-btn:hover{border-color:var(--gold);color:var(--gold);background:var(--gold-light)}
+.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+@media(max-width:700px){.gallery-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:440px){.gallery-grid{grid-template-columns:1fr}}
+.gallery-item{position:relative;border-radius:6px;overflow:hidden;cursor:pointer;background:var(--border)}
+.gallery-item img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s}
+.gallery-item:hover img{transform:scale(1.04)}
+.gallery-item-ph{aspect-ratio:4/3;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(135deg,#e8e6e0 0%,var(--border) 100%)}
+.gallery-item-ph span{font-size:36px;opacity:.4}
+.gallery-caption{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(to top,rgba(26,28,34,.85) 0%,transparent 100%);padding:1.25rem .9rem .75rem;color:#fff;font-size:12px;font-weight:600;letter-spacing:.2px}
+.gallery-caption small{display:block;font-size:10px;font-weight:400;color:#aaa;margin-top:2px}
+
+/* PARTNER LOGIN BUTTON */
+.btn-portal{font-size:11px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:var(--dark);background:transparent;border:1px solid var(--border2);padding:7px 13px;border-radius:var(--r);cursor:pointer;transition:all .2s;white-space:nowrap;display:flex;align-items:center;gap:5px}
+.btn-portal:hover,.btn-portal:focus-visible{border-color:var(--gold);color:var(--gold);background:var(--gold-light)}
+.btn-portal svg{width:13px;height:13px;flex-shrink:0}
+
 </style>
 </head>
 <body>
@@ -346,12 +429,15 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
       <a href="#downloads" role="listitem">Downloads</a>
       <a href="#distributors" role="listitem">Distributors</a>
       <a href="#logistics" role="listitem">Logistics</a>
+      <a href="#gallery" role="listitem">Gallery</a>
       <a href="#faq" role="listitem">FAQ</a>
       <a href="#contact" role="listitem">Contact</a>
     </div>
     <div class="nav-actions">
       <button class="btn-ghost" onclick="go('downloads')">Downloads</button>
-      <button class="btn-nav" onclick="go('contact')">Request pricing</button>
+      <button class="btn-ghost" onclick="go('contact')">Request quotation</button>
+      <a class="btn-portal" href="portal.html" title="Partner &amp; distributor portal"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="8" cy="5" r="3"/><path d="M2 14c0-3.3 2.7-6 6-6s6 2.7 6 6"/></svg>Login</a>
+      <button class="btn-nav" onclick="go('contact')">Contact</button>
     </div>
     <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
       <span></span><span></span><span></span>
@@ -374,11 +460,14 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
   <a href="#distributors" onclick="closeMenu()">Distributors</a>
   <a href="#logistics" onclick="closeMenu()">Logistics</a>
   <a href="#compare" onclick="closeMenu()">Compare</a>
+  <a href="#gallery" onclick="closeMenu()">Gallery</a>
   <a href="#faq" onclick="closeMenu()">FAQ</a>
   <a href="#contact" onclick="closeMenu()">Contact</a>
   <div class="mob-btns">
-    <button class="mob-btn-p" onclick="go('downloads');closeMenu()">Download documents</button>
-    <button class="mob-btn-s" onclick="go('contact');closeMenu()">Request pricing</button>
+    <a class="mob-btn-s" href="portal.html" style="text-align:center;display:block;padding:13px">Partner login</a>
+    <button class="mob-btn-p" onclick="go('contact');closeMenu()">Request quotation</button>
+    <button class="mob-btn-s" onclick="go('downloads');closeMenu()">Download documents</button>
+    <button class="mob-btn-s" onclick="go('contact');closeMenu()">Contact us</button>
   </div>
 </nav>
 
@@ -388,15 +477,15 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
 <section class="hero" id="top">
   <div class="hero-inner">
     <div>
-      <p class="hero-eyebrow">Authorised European Representative · Helsinki, Finland</p>
+      <p class="hero-eyebrow">Authorised European Representative · Vantaa, Finland</p>
       <h1>Fiber cement boards<br>for <em>European</em><br>construction</h1>
       <p class="hero-sub">Terasun TSM — CE certified, ETA approved fiber cement boards for facade systems, fire-rated partitions, and wet room applications. Backed by full European technical documentation.</p>
       <div class="hero-btns">
-        <button class="btn-p" onclick="go('contact')">Request distributor pricing</button>
-        <button class="btn-s" onclick="go('distributors')">Become a partner</button>
+        <button class="btn-p" onclick="go('contact')">Request quotation</button>
+        <button class="btn-s" onclick="go('contact')">Contact us</button>
         <button class="btn-s" onclick="go('downloads')">Download documents</button>
       </div>
-      <p class="hero-note">Terasun Europe · Authorised European Representative · Helsinki, Finland<br>Manufacturer: Zhejiang Terasun Air Duct Co., Ltd.</p>
+      <p class="hero-note">Terasun Europe · Authorised European Representative · Vantaa, Finland<br>Manufacturer: Zhejiang Terasun Air Duct Co., Ltd.</p>
     </div>
     <div>
       <div class="cert-grid-hero" aria-label="Key certifications">
@@ -432,7 +521,7 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
         <h2 class="stitle">Your European partner for Terasun fiber cement</h2>
         <div class="rule" aria-hidden="true"></div>
         <div class="apoints">
-          <div class="apoint"><div class="amark" aria-hidden="true">—</div><div><h3>Who we are</h3><p>Terasun Europe is the Authorised European Representative of Zhejiang Terasun Air Duct Co., Ltd. Based in Helsinki, Finland, we manage distribution, technical documentation, and commercial partnerships for Terasun TSM fiber cement boards across Europe.</p></div></div>
+          <div class="apoint"><div class="amark" aria-hidden="true">—</div><div><h3>Who we are</h3><p>Terasun Europe is the Authorised European Representative of Zhejiang Terasun Air Duct Co., Ltd. Based in Vantaa, Finland, we manage distribution, technical documentation, and commercial partnerships for Terasun TSM fiber cement boards across Europe.</p></div></div>
           <div class="apoint"><div class="amark" aria-hidden="true">—</div><div><h3>European regulatory expertise</h3><p>We manage CE certification, ETA documentation, and all European regulatory compliance. We provide full technical support and commercial partnerships across the EU and EEA.</p></div></div>
           <div class="apoint"><div class="amark" aria-hidden="true">—</div><div><h3>Established in Finland</h3><p>Since our founding, we have been actively distributing and supporting Terasun TSM boards in Finland, building references with contractors, developers, and architects.</p></div></div>
           <div class="apoint"><div class="amark" aria-hidden="true">—</div><div><h3>European distribution network</h3><p>We are building a structured European distributor network with open partnership opportunities across all major EU and EEA markets.</p></div></div>
@@ -460,19 +549,9 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
     <p class="stag">Legal status</p>
     <h2 class="stitle">Authorised European Representative</h2>
     <div class="rule" aria-hidden="true"></div>
-    <div class="auth-highlight">
-      <h3>Terasun Europe — Authorised European Representative</h3>
-      <p>Terasun Europe is the Authorised European Representative of Zhejiang Terasun Air Duct Co., Ltd. (China), headquartered in Helsinki, Finland. We represent Terasun for the purpose of making Terasun TSM fiber cement boards available on the European market in compliance with the EU Construction Products Regulation (CPR).</p>
-      <div class="auth-detail-row">
-        <div class="auth-detail"><strong>Company</strong><span>Terasun Europe</span></div>
-        <div class="auth-detail"><strong>Status</strong><span>Authorised European Representative</span></div>
-        <div class="auth-detail"><strong>Location</strong><span>Helsinki, Finland</span></div>
-        <div class="auth-detail"><strong>Manufacturer</strong><span>Zhejiang Terasun Air Duct Co., Ltd.</span></div>
-      </div>
-    </div>
     <div class="auth-grid">
       <div class="auth-card">
-        <h3>CPR compliance management</h3>
+        <h3>EU regulatory compliance</h3>
         <p>Terasun Europe holds and maintains the CE marking (1023-CPR-1565 P), Declaration of Performance (DoP TRS-20250610F), and European Technical Assessment (ETA 24/0895) required under the EU Construction Products Regulation for Terasun TSM boards.</p>
       </div>
       <div class="auth-card">
@@ -486,7 +565,7 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
       <div class="auth-card">
         <h3>Authorisation letter</h3>
         <p>An authorisation letter confirming Terasun Europe's role as Authorised European Representative is available for download. Provided for use in procurement, tendering, and specification processes.</p>
-        <a class="dl-btn" href="/docs/Terasun-Authorization-Letter.pdf">↓ Download authorisation letter</a>
+        <a class="dl-btn" href="#contact" onclick="go('contact')">Request document access</a>
       </div>
     </div>
   </div>
@@ -515,7 +594,7 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
           <div class="mfr-stat"><div class="mfr-stat-num">EPD</div><div class="mfr-stat-label">Eco declaration</div></div>
         </div>
         <div class="dark-box">
-          <p>Manufacturer: Zhejiang Terasun Air Duct Co., Ltd., China.<br>European Representative: Terasun Europe, Helsinki, Finland.<br>Terasun Europe is not the manufacturer of Terasun products.</p>
+          <p>Manufacturer: Zhejiang Terasun Air Duct Co., Ltd.<br>Address: Zhejiang Province, People's Republic of China<br>Official website: <a href="https://www.terasun.cn/" target="_blank" rel="noopener noreferrer" style="color:var(--gold2)">www.terasun.cn</a><br>European Representative: Terasun Europe, 01370 Vantaa, Finland.<br>Terasun Europe is not the manufacturer of Terasun products.</p>
         </div>
         <p class="stag" style="color:var(--gold2)">Company history</p>
         <div class="timeline">
@@ -548,27 +627,90 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
     <h2 class="stitle">Terasun TSM — Fiber Cement Board</h2>
     <div class="rule" aria-hidden="true"></div>
     <p class="ssub">A cement-based construction panel reinforced with cellulose fiber. Engineered for structural performance, moisture resistance, and fire safety. Asbestos-free. CE certified for European markets.</p>
-    <h3 style="font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-bottom:1rem">Technical specifications — verified values only</h3>
+    <!-- Product format cards -->
+    <div class="tsm-cards">
+
+      <!-- Card 1: Thicknesses -->
+      <div class="tsm-card">
+        <div class="tsm-card-hdr">Available thicknesses</div>
+        <table>
+          <thead><tr><th>Thickness</th><th>Weight</th></tr></thead>
+          <tbody>
+            <tr><td>6 mm</td><td class="cert">on request</td></tr>
+            <tr><td>8 mm</td><td class="cert">on request</td></tr>
+            <tr><td>9 mm</td><td class="cert">on request</td></tr>
+            <tr><td>10 mm</td><td class="cert">on request</td></tr>
+            <tr><td>12 mm <span class="tsm-badge">EPD</span></td><td><strong>9.96 kg/m²</strong></td></tr>
+            <tr><td>15 mm</td><td class="cert">on request</td></tr>
+            <tr><td>18 mm</td><td class="cert">on request</td></tr>
+          </tbody>
+        </table>
+        <div class="tsm-note">Weight certified at 12 mm per EPD-IES-0018268. Other thicknesses available — contact for data sheet.</div>
+      </div>
+
+      <!-- Card 2: Board formats -->
+      <div class="tsm-card">
+        <div class="tsm-card-hdr">Board formats</div>
+        <table>
+          <thead><tr><th>Width × Length</th><th>Area / sheet</th></tr></thead>
+          <tbody>
+            <tr><td>1200 × 2400 mm</td><td>2.88 m²</td></tr>
+            <tr><td>1200 × 2500 mm</td><td>3.00 m²</td></tr>
+            <tr><td>1200 × 2600 mm</td><td>3.12 m²</td></tr>
+            <tr><td>1200 × 3000 mm</td><td>3.60 m²</td></tr>
+          </tbody>
+        </table>
+        <div class="tsm-note">Standard format: 1200 × 2400 mm. Other lengths available on order. Confirm availability by thickness when ordering.</div>
+      </div>
+
+      <!-- Card 3: Packaging -->
+      <div class="tsm-card">
+        <div class="tsm-card-hdr">Packaging &amp; pallet</div>
+        <table>
+          <thead><tr><th>Parameter</th><th>Value</th></tr></thead>
+          <tbody>
+            <tr><td>Packing type</td><td>Palletised, shrink-wrapped</td></tr>
+            <tr><td>Sheets / pallet</td><td class="cert">confirm by thickness</td></tr>
+            <tr><td>Pallet dimensions</td><td class="cert">confirm by thickness</td></tr>
+            <tr><td>Pallets / 20 ft container</td><td class="cert">confirm on order</td></tr>
+            <tr><td>Pallets / 40 ft container</td><td class="cert">confirm on order</td></tr>
+            <tr><td>Supply unit</td><td>1 container (min. order)</td></tr>
+          </tbody>
+        </table>
+        <div class="tsm-note">Exact pallet counts and container loading plans provided with quotation. Request a quotation for full logistics data.</div>
+      </div>
+
+    </div>
+
+    <!-- Product photos -->
+    <h3 style="font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-bottom:1rem">Product photos</h3>
+    <div class="photo-grid photo-grid-3" style="margin-bottom:2.5rem">
+      <div class="photo-slot">
+        <div class="photo-slot-ph"><span>📷</span><small>Board surface</small></div>
+      </div>
+      <div class="photo-slot">
+        <div class="photo-slot-ph"><span>📷</span><small>Cross-section</small></div>
+      </div>
+      <div class="photo-slot">
+        <div class="photo-slot-ph"><span>📷</span><small>Pallet / packaging</small></div>
+      </div>
+    </div>
+
+    <!-- Certified technical data -->
+    <h3 style="font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--muted);margin-bottom:1rem">Certified technical data</h3>
     <div style="overflow-x:auto;margin-bottom:3rem">
       <table class="spec-table">
-        <thead><tr><th scope="col">Property</th><th scope="col">Value</th><th scope="col">Reference / note</th></tr></thead>
+        <thead><tr><th scope="col">Property</th><th scope="col">Value</th><th scope="col">Reference</th></tr></thead>
         <tbody>
-          <tr><td>Board size (declared)</td><td>12 mm × 1200 mm × 2400 mm</td><td>Declared unit per EPD-IES-0018268</td></tr>
-          <tr><td>Weight</td><td>9.96 kg/m²</td><td>At 12 mm — EPD-IES-0018268</td></tr>
-          <tr><td>EPD declared unit</td><td>1 m²</td><td>EPD-IES-0018268</td></tr>
-          <tr><td>EPD publication date</td><td>2025-03-14</td><td>EPD-IES-0018268</td></tr>
-          <tr><td>EPD valid until</td><td>2029-03-14</td><td>EPD-IES-0018268</td></tr>
-          <tr><td>Fire resistance</td><td>E 120 / EI 90 / EW 120</td><td>Test report FIRES-CR-284-25-AUPE</td></tr>
-          <tr><td>CE Marking</td><td>1023-CPR-1565 P</td><td>Construction Products Regulation</td></tr>
-          <tr><td>ETA</td><td>24/0895</td><td>European Technical Assessment</td></tr>
+          <tr><td>CE Marking</td><td>1023-CPR-1565 P</td><td>EU Construction Products Regulation</td></tr>
+          <tr><td>European Technical Assessment</td><td>ETA 24/0895</td><td>Issued by designated ETA body</td></tr>
           <tr><td>Declaration of Performance</td><td>DoP TRS-20250610F</td><td>Per ETA 24/0895</td></tr>
-          <tr><td>Binder</td><td>Portland cement</td><td>—</td></tr>
-          <tr><td>Reinforcement</td><td>Cellulose fiber</td><td>Asbestos-free</td></tr>
-          <tr><td>Manufacturing process</td><td>Autoclaved</td><td>Dimensional stability</td></tr>
-          <tr><td>Moisture resistance</td><td>High</td><td>Wet room and facade applications</td></tr>
+          <tr><td>Fire resistance</td><td>E 120 / EI 90 / EW 120</td><td>FIRES-CR-284-25-AUPE</td></tr>
+          <tr><td>Declared weight (12 mm)</td><td>9.96 kg/m²</td><td>EPD-IES-0018268</td></tr>
+          <tr><td>EPD valid until</td><td>2029-03-14</td><td>EPD-IES-0018268 — ISO 14025</td></tr>
+          <tr><td>Binder</td><td>Portland cement</td><td>Asbestos-free</td></tr>
+          <tr><td>Reinforcement</td><td>Cellulose fiber</td><td>Autoclaved manufacturing</td></tr>
           <tr><td>Stud spacing</td><td>400 or 600 mm</td><td>Timber or steel frame</td></tr>
-          <tr><td>Storage</td><td>Dry, flat, off the ground</td><td>Covered, horizontally stacked</td></tr>
-          <tr><td>Packaging</td><td>Palletised, shrink-wrapped</td><td>Container supply</td></tr>
         </tbody>
       </table>
     </div>
@@ -578,6 +720,9 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
       <div class="card card-gold"><h3>Cellulose fiber</h3><p>Reinforcement matrix improving tensile strength and impact resistance. Asbestos-free formulation.</p></div>
       <div class="card card-gold"><h3>Silica aggregate</h3><p>Filler contributing to density, compressive strength, and surface hardness of the finished board.</p></div>
       <div class="card card-gold"><h3>Autoclaved curing</h3><p>High-pressure steam curing ensures permanent hydration and eliminates post-installation shrinkage.</p></div>
+    </div>
+    <div style="margin-top:2.5rem">
+      <button class="btn-p" onclick="go('contact')" style="font-size:12px">Request a quotation →</button>
     </div>
   </div>
 </section>
@@ -659,16 +804,19 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
     <p class="stag">Certifications &amp; declarations</p>
     <h2 class="stitle">Full European certification documentation</h2>
     <div class="rule" aria-hidden="true"></div>
-    <p class="ssub">All certificates available for download. Contact us if you require documents in a specific format for your market's building authority.</p>
+    <p class="ssub">All certification documents available upon request. Contact us if you require documents in a specific format for your market's building authority.</p>
     <div class="cert-grid">
-      <div class="cert-card"><div class="cert-icon" aria-hidden="true">🏷️</div><div><h3>CE Marking</h3><span class="cert-ref">CE 1023-CPR-1565 P</span><p>Mandatory for sale and use in the EEA. Construction Products Regulation compliance confirmed.</p><a class="dl-btn" href="/docs/ETA-24-0895-CE-1023-CPR-1565-P.pdf">↓ Download PDF</a></div></div>
-      <div class="cert-card"><div class="cert-icon" aria-hidden="true">📋</div><div><h3>European Technical Assessment</h3><span class="cert-ref">ETA 24/0895</span><p>Independent assessment of product performance for intended uses, issued by a designated ETA body.</p><a class="dl-btn" href="/docs/ETA-24-0895-CE-1023-CPR-1565-P.pdf">↓ Download PDF</a></div></div>
-      <div class="cert-card"><div class="cert-icon" aria-hidden="true">📄</div><div><h3>Declaration of Performance</h3><span class="cert-ref">DoP TRS-20250610F</span><p>Full declaration of all performance characteristics in accordance with the CPR and ETA 24/0895.</p><a class="dl-btn" href="/docs/DoP-Terasun-TRS-20250610F.pdf">↓ Download PDF</a></div></div>
-      <div class="cert-card"><div class="cert-icon" aria-hidden="true">🌿</div><div><h3>Environmental Product Declaration</h3><span class="cert-ref">EPD-IES-0018268 · Valid until 2029-03-14</span><p>ISO 14025. Declared unit: 1 m² at 12 mm, weight 9.96 kg/m². Supports LEED, BREEAM, DGNB.</p><a class="dl-btn" href="/docs/EPD-IES-0018268.pdf">↓ Download PDF</a></div></div>
-      <div class="cert-card"><div class="cert-icon" aria-hidden="true">🔥</div><div><h3>Fire resistance test report</h3><span class="cert-ref">FIRES-CR-284-25-AUPE</span><p>Classification E 120 / EI 90 / EW 120. Independent test by notified body.</p><a class="dl-btn" href="/docs/FIRES-CR-284-25-AUPE.pdf">↓ Download PDF</a></div></div>
-      <div class="cert-card"><div class="cert-icon" aria-hidden="true">💨</div><div><h3>VOC / Emissions declaration</h3><span class="cert-ref">Intertek</span><p>Indoor air emissions data for projects requiring VOC compliance or low-emission product specification.</p><a class="dl-btn" href="/docs/VOC-Intertek-CE-Verification.pdf">↓ Download PDF</a></div></div>
-      <div class="cert-card"><div class="cert-icon" aria-hidden="true">📜</div><div><h3>Authorisation letter</h3><span class="cert-ref">Manufacturer → Terasun Europe</span><p>Confirms Terasun Europe as the Authorised European Representative of Zhejiang Terasun Air Duct Co., Ltd.</p><a class="dl-btn" href="/docs/Terasun-Authorization-Letter.pdf">↓ Download PDF</a></div></div>
-      <div class="cert-card"><div class="cert-icon" aria-hidden="true">⚗️</div><div><h3>REACH / SVHC declaration</h3><span class="cert-ref">No SVHC above 0.1% w/w</span><p>EU REACH regulation compliance. Asbestos-free confirmed. Available on request.</p><a class="dl-btn" href="mailto:info@terasuneurope.com">↓ Request by email</a></div></div>
+      <div class="cert-card"><div class="cert-icon" aria-hidden="true">🏷️</div><div><h3>CE Marking</h3><span class="cert-ref">CE 1023-CPR-1565 P</span><p>Mandatory for sale and use in the EEA. Construction Products Regulation compliance confirmed.</p><a class="dl-btn" href="#contact" onclick="go('contact')">Request document access</a></div></div>
+      <div class="cert-card"><div class="cert-icon" aria-hidden="true">📋</div><div><h3>European Technical Assessment</h3><span class="cert-ref">ETA 24/0895</span><p>Independent assessment of product performance for intended uses, issued by a designated ETA body.</p><a class="dl-btn" href="#contact" onclick="go('contact')">Request document access</a></div></div>
+      <div class="cert-card"><div class="cert-icon" aria-hidden="true">📄</div><div><h3>Declaration of Performance</h3><span class="cert-ref">DoP TRS-20250610F</span><p>Full declaration of all performance characteristics in accordance with the CPR and ETA 24/0895.</p><a class="dl-btn" href="#contact" onclick="go('contact')">Request document access</a></div></div>
+      <div class="cert-card"><div class="cert-icon" aria-hidden="true">🌿</div><div><h3>Environmental Product Declaration</h3><span class="cert-ref">EPD-IES-0018268 · Valid until 2029-03-14</span><p>ISO 14025. Declared unit: 1 m² at 12 mm, weight 9.96 kg/m². Supports LEED, BREEAM, DGNB.</p><a class="dl-btn" href="#contact" onclick="go('contact')">Request document access</a></div></div>
+      <div class="cert-card"><div class="cert-icon" aria-hidden="true">🔥</div><div><h3>Fire resistance test report</h3><span class="cert-ref">FIRES-CR-284-25-AUPE</span><p>Classification E 120 / EI 90 / EW 120. Independent test by notified body.</p><a class="dl-btn" href="#contact" onclick="go('contact')">Request document access</a></div></div>
+      <div class="cert-card"><div class="cert-icon" aria-hidden="true">💨</div><div><h3>VOC / Emissions declaration</h3><span class="cert-ref">Intertek</span><p>Indoor air emissions data for projects requiring VOC compliance or low-emission product specification.</p><a class="dl-btn" href="#contact" onclick="go('contact')">Request document access</a></div></div>
+      <div class="cert-card"><div class="cert-icon" aria-hidden="true">📜</div><div><h3>Authorisation letter</h3><span class="cert-ref">Manufacturer → Terasun Europe</span><p>Confirms Terasun Europe as the Authorised European Representative of Zhejiang Terasun Air Duct Co., Ltd.</p><a class="dl-btn" href="#contact" onclick="go('contact')">Request document access</a></div></div>
+      <div class="cert-card"><div class="cert-icon" aria-hidden="true">⚗️</div><div><h3>REACH / SVHC declaration</h3><span class="cert-ref">No SVHC above 0.1% w/w</span><p>EU REACH regulation compliance. Asbestos-free confirmed. Available on request.</p><a class="dl-btn" href="#contact" onclick="go('contact')">Request document access</a></div></div>
+    </div>
+    <div style="margin-top:2.5rem">
+      <button class="btn-p" onclick="go('contact')" style="font-size:12px">Request a quotation →</button>
     </div>
   </div>
 </section>
@@ -676,63 +824,112 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
 <!-- DOWNLOADS -->
 <section id="downloads">
   <div class="container">
-    <p class="stag">Download centre</p>
+    <p class="stag">Document library</p>
     <h2 class="stitle">Technical &amp; commercial documents</h2>
     <div class="rule" aria-hidden="true"></div>
+    <p class="ssub">Documents are available to qualified distributors, architects, contractors, and project specifiers. Submit a request below and Terasun Europe will send the relevant files directly.</p>
     <div class="dl-grid">
-      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">📊</div><div><h3>Technical Data Sheet</h3><p>Full product specification</p></div><a class="dl-link" href="/docs/TSM-Safety-Data-Sheet.pdf" aria-label="Download Technical Data Sheet">↓</a></div>
-      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">📘</div><div><h3>Installation Manual</h3><p>General installation guide</p></div><a class="dl-link" href="/docs/TSM-Installation-Manual.pdf" aria-label="Download Installation Manual">↓</a></div>
-      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">📰</div><div><h3>Product Brochure</h3><p>Commercial overview</p></div><a class="dl-link" href="/docs/Terasun-TSM-Brochure.pdf" aria-label="Download Product Brochure">↓</a></div>
-      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">🏗️</div><div><h3>Facade System Guide</h3><p>CBSS / CBMV systems</p></div><a class="dl-link" href="/docs/Facade-System-Guide.pdf" aria-label="Download Facade System Guide">↓</a></div>
-      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">🚿</div><div><h3>Wet Room System Guide</h3><p>Mapei &amp; Schönox systems</p></div><a class="dl-link" href="/docs/TSM-Wet-Room-System-Guide.pdf" aria-label="Download Wet Room System Guide">↓</a></div>
-      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">🔥</div><div><h3>Fire Partition Guide</h3><p>E 120 / EI 90 systems</p></div><a class="dl-link" href="/docs/Fire-Partition-Guide.pdf" aria-label="Download Fire Partition Guide">↓</a></div>
-      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">✂️</div><div><h3>Cutting &amp; Fixing Guide</h3><p>Tools, fasteners, spacing</p></div><a class="dl-link" href="/docs/Cutting-Fixing-Guide.pdf" aria-label="Download Cutting and Fixing Guide">↓</a></div>
-      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">📦</div><div><h3>Storage &amp; Handling Guide</h3><p>Site requirements</p></div><a class="dl-link" href="/docs/Storage-Handling-Guide.pdf" aria-label="Download Storage and Handling Guide">↓</a></div>
-      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">🏷️</div><div><h3>CE Certificate</h3><p>CE 1023-CPR-1565 P</p></div><a class="dl-link" href="/docs/ETA-24-0895-CE-1023-CPR-1565-P.pdf" aria-label="Download CE Certificate">↓</a></div>
-      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">📋</div><div><h3>ETA 24/0895</h3><p>European Technical Assessment</p></div><a class="dl-link" href="/docs/ETA-24-0895-CE-1023-CPR-1565-P.pdf" aria-label="Download ETA 24/0895">↓</a></div>
-      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">📄</div><div><h3>Declaration of Performance</h3><p>DoP TRS-20250610F</p></div><a class="dl-link" href="/docs/DoP-Terasun-TRS-20250610F.pdf" aria-label="Download Declaration of Performance">↓</a></div>
-      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">🌿</div><div><h3>EPD</h3><p>EPD-IES-0018268</p></div><a class="dl-link" href="/docs/EPD-IES-0018268.pdf" aria-label="Download Environmental Product Declaration">↓</a></div>
-      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">🔥</div><div><h3>Fire Test Report</h3><p>FIRES-CR-284-25-AUPE</p></div><a class="dl-link" href="/docs/FIRES-CR-284-25-AUPE.pdf" aria-label="Download Fire Test Report">↓</a></div>
-      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">💨</div><div><h3>VOC Declaration</h3><p>Intertek emissions data</p></div><a class="dl-link" href="/docs/VOC-Intertek-CE-Verification.pdf" aria-label="Download VOC Declaration">↓</a></div>
-      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">📜</div><div><h3>Authorisation Letter</h3><p>Manufacturer → Terasun Europe</p></div><a class="dl-link" href="/docs/Terasun-Authorization-Letter.pdf" aria-label="Download Authorisation Letter">↓</a></div>
+      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">📊</div><div><h3>Technical Data Sheet</h3><p>Full product specification</p></div><a class="dl-link" href="#contact" onclick="go('contact')" aria-label="Request document access">🔒</a></div>
+      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">📘</div><div><h3>Installation Manual</h3><p>General installation guide</p></div><a class="dl-link" href="#contact" onclick="go('contact')" aria-label="Request document access">🔒</a></div>
+      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">📰</div><div><h3>Product Brochure</h3><p>Commercial overview</p></div><a class="dl-link" href="#contact" onclick="go('contact')" aria-label="Request document access">🔒</a></div>
+      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">🏗️</div><div><h3>Facade System Guide</h3><p>CBSS / CBMV systems</p></div><a class="dl-link" href="#contact" onclick="go('contact')" aria-label="Request document access">🔒</a></div>
+      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">🚿</div><div><h3>Wet Room System Guide</h3><p>Mapei &amp; Schönox systems</p></div><a class="dl-link" href="#contact" onclick="go('contact')" aria-label="Request document access">🔒</a></div>
+      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">🔥</div><div><h3>Fire Partition Guide</h3><p>E 120 / EI 90 systems</p></div><a class="dl-link" href="#contact" onclick="go('contact')" aria-label="Request document access">🔒</a></div>
+      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">✂️</div><div><h3>Cutting &amp; Fixing Guide</h3><p>Tools, fasteners, spacing</p></div><a class="dl-link" href="#contact" onclick="go('contact')" aria-label="Request document access">🔒</a></div>
+      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">📦</div><div><h3>Storage &amp; Handling Guide</h3><p>Site requirements</p></div><a class="dl-link" href="#contact" onclick="go('contact')" aria-label="Request document access">🔒</a></div>
+      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">🏷️</div><div><h3>CE Certificate</h3><p>CE 1023-CPR-1565 P</p></div><a class="dl-link" href="#contact" onclick="go('contact')" aria-label="Request document access">🔒</a></div>
+      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">📋</div><div><h3>ETA 24/0895</h3><p>European Technical Assessment</p></div><a class="dl-link" href="#contact" onclick="go('contact')" aria-label="Request document access">🔒</a></div>
+      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">📄</div><div><h3>Declaration of Performance</h3><p>DoP TRS-20250610F</p></div><a class="dl-link" href="#contact" onclick="go('contact')" aria-label="Request document access">🔒</a></div>
+      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">🌿</div><div><h3>EPD</h3><p>EPD-IES-0018268</p></div><a class="dl-link" href="#contact" onclick="go('contact')" aria-label="Request document access">🔒</a></div>
+      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">🔥</div><div><h3>Fire Test Report</h3><p>FIRES-CR-284-25-AUPE</p></div><a class="dl-link" href="#contact" onclick="go('contact')" aria-label="Request document access">🔒</a></div>
+      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">💨</div><div><h3>VOC Declaration</h3><p>Intertek emissions data</p></div><a class="dl-link" href="#contact" onclick="go('contact')" aria-label="Request document access">🔒</a></div>
+      <div class="dl-card"><div class="dl-file-icon" aria-hidden="true">📜</div><div><h3>Authorisation Letter</h3><p>Manufacturer → Terasun Europe</p></div><a class="dl-link" href="#contact" onclick="go('contact')" aria-label="Request document access">🔒</a></div>
     </div>
-    <p style="font-size:12px;color:var(--light);margin-top:1.5rem">Certification documents are served from <code style="font-size:11px;background:var(--border);padding:1px 5px;border-radius:2px">/docs/</code>. Additional documents (brochure, installation manual, fire partition guide) will be added when available. Need a document now? Email <a href="mailto:info@terasuneurope.com">info@terasuneurope.com</a></p>
+    <div style="margin-top:2rem;text-align:center">
+      <button class="btn-p" onclick="go('contact')">Request document access →</button>
+    </div>
   </div>
 </section>
 
 <!-- DISTRIBUTOR -->
 <section class="s-alt" id="distributors">
   <div class="container">
-    <p class="stag">Distributor programme</p>
-    <h2 class="stitle">Become a Terasun distribution partner</h2>
+    <p class="stag">Partnership programme</p>
+    <h2 class="stitle">Join the Terasun Europe network</h2>
     <div class="rule" aria-hidden="true"></div>
-    <p class="ssub">We are building a professional European distribution network. Here is what we offer to committed partners.</p>
-    <div class="dist-grid">
-      <div class="dist-card"><h3>Available territories</h3><p>Most European markets are open. Territory coverage discussed individually based on your network and target volumes.</p></div>
-      <div class="dist-card"><h3>Minimum order</h3><p>One 20 ft or 40 ft container. Exact volume depends on thickness and size mix. Trial arrangements possible for new partners.</p></div>
-      <div class="dist-card"><h3>Sample kits</h3><p>Sample boards available for evaluation before placing a container order. Shipping costs apply outside Finland.</p></div>
-      <div class="dist-card"><h3>Commercial margin</h3><p>Attractive margin structure above confirmed factory floor price. Detailed pricing provided under NDA upon request.</p></div>
-      <div class="dist-card"><h3>Technical support</h3><p>Full CE documentation, installation guidance, and technical response for your clients, architects, and contractors.</p></div>
-      <div class="dist-card"><h3>Marketing support</h3><p>Datasheets, system drawings, and co-branded materials in your language. We support your market entry.</p></div>
-      <div class="dist-card"><h3>Sales training</h3><p>Remote or in-person training covering product, systems, and certifications for your sales and technical teams.</p></div>
-      <div class="dist-card"><h3>Long-term cooperation</h3><p>We invest in long-term partnerships — joint marketing, trade fair presence, and ongoing product development input.</p></div>
-    </div>
-    <div style="margin-top:3rem">
-      <p class="stag">Open distribution territories</p>
-      <div class="eu-chips" aria-label="Distribution territory status">
-        <div class="chip active">🇫🇮 Finland — active</div>
-        <div class="chip">🇸🇪 Sweden</div><div class="chip">🇳🇴 Norway</div>
-        <div class="chip">🇩🇰 Denmark</div><div class="chip">🇩🇪 Germany</div>
-        <div class="chip">🇳🇱 Netherlands</div><div class="chip">🇧🇪 Belgium</div>
-        <div class="chip">🇫🇷 France</div><div class="chip">🇵🇱 Poland</div>
-        <div class="chip">🇨🇿 Czech Republic</div><div class="chip">🇦🇹 Austria</div>
-        <div class="chip">🇪🇪 Estonia</div><div class="chip">🇱🇻 Latvia</div>
-        <div class="chip">🇱🇹 Lithuania</div><div class="chip">+ other EU / EEA</div>
+    <p class="ssub">We work with different types of partners depending on your business model — from stocking distributors to project-specific cooperation. If you import, distribute, install or specify construction materials in your market, we want to hear from you.</p>
+
+    <!-- Partner models -->
+    <div style="margin-bottom:2.5rem">
+      <p class="stag" style="margin-bottom:.75rem">Who we work with</p>
+      <div class="partner-models">
+        <div class="partner-model-card">
+          <h4>B2B distributor / importer</h4>
+          <p>You maintain stock in your market, sell to contractors, retailers, or developers, and handle local logistics. We supply by container with full CE documentation and technical support. Ideal for companies already distributing construction board products or dry-wall systems.</p>
+        </div>
+        <div class="partner-model-card">
+          <h4>Project-based cooperation</h4>
+          <p>You have a specific construction project, tender, or specification requiring CE-certified fiber cement boards. We supply directly for that project — no long-term stocking commitment required. Suitable for contractors, developers, architects and procurement companies with a defined project volume.</p>
+        </div>
       </div>
     </div>
+
+    <!-- What we offer -->
+    <p class="stag" style="margin-bottom:.75rem">What we provide</p>
+    <div class="dist-grid">
+      <div class="dist-card"><h3>Minimum order</h3><p>One 20 ft or 40 ft container. Exact volume depends on thickness and size mix. Trial arrangements possible for new partners entering the market.</p></div>
+      <div class="dist-card"><h3>Sample kits</h3><p>Sample boards available for evaluation before placing a container order. Shipping costs apply outside Finland.</p></div>
+      <div class="dist-card"><h3>Technical documentation</h3><p>Full CE certificate, ETA 24/0895, Declaration of Performance, EPD, fire test report, and VOC declaration — provided to all qualified partners and project specifiers.</p></div>
+      <div class="dist-card"><h3>Technical support</h3><p>Installation guidance, system drawings, and technical response for your clients, architects, and building control authorities.</p></div>
+      <div class="dist-card"><h3>Marketing support</h3><p>Datasheets, system drawings, and co-branded materials in your language. We support your market entry and ongoing sales activities.</p></div>
+      <div class="dist-card"><h3>Sales &amp; product training</h3><p>Remote or in-person training covering product performance, installation systems, and certifications for your sales and technical teams.</p></div>
+      <div class="dist-card"><h3>Logistics coordination</h3><p>Terasun Europe coordinates container shipment, export documentation, EU customs clearance, and delivery to your nominated port or warehouse.</p></div>
+      <div class="dist-card"><h3>Long-term partnership</h3><p>We invest in partners committed to their market — joint marketing activities, trade fair presence, and ongoing input into product and system development.</p></div>
+    </div>
+
+    <!-- Territory status -->
+    <div style="margin-top:3rem">
+      <p class="stag" style="margin-bottom:.75rem">Territory status</p>
+      <div class="territory-legend" aria-hidden="true">
+        <span><span class="dot" style="background:#f0c040"></span>Terasun Europe HQ</span>
+        <span><span class="dot" style="background:#7ec8a8"></span>Partner active</span>
+        <span><span class="dot" style="background:#8aaae0"></span>Open — seeking partner</span>
+        <span><span class="dot" style="background:var(--border)"></span>Available on request</span>
+      </div>
+      <div class="eu-chips" aria-label="Distribution territory status">
+        <div class="chip active">🇫🇮 Finland — HQ</div>
+        <div class="chip covered">🇳🇴 Norway — partner active</div>
+        <div class="chip covered">🇩🇰 Denmark — partner active</div>
+        <div class="chip covered">🇸🇪 Sweden — partner active</div>
+        <div class="chip covered">🇪🇪 Estonia — partner active</div>
+        <div class="chip covered">🇱🇻 Latvia — partner active</div>
+        <div class="chip covered">🇱🇹 Lithuania — partner active</div>
+        <div class="chip open">🇵🇱 Poland — open</div>
+        <div class="chip open">🇨🇿 Czech Republic — open</div>
+        <div class="chip open">🇸🇰 Slovakia — open</div>
+        <div class="chip open">🇭🇺 Hungary — open</div>
+        <div class="chip open">🇪🇸 Spain — open</div>
+        <div class="chip open">🇩🇪 Germany — open</div>
+        <div class="chip open">🇳🇱 Netherlands — open</div>
+        <div class="chip open">🇧🇪 Belgium — open</div>
+        <div class="chip open">🇫🇷 France — open</div>
+        <div class="chip open">🇦🇹 Austria — open</div>
+        <div class="chip open">🇨🇭 Switzerland — open</div>
+        <div class="chip open">🇮🇹 Italy — open</div>
+        <div class="chip">🇷🇴 Romania</div>
+        <div class="chip">🇧🇬 Bulgaria</div>
+        <div class="chip">🇭🇷 Croatia</div>
+        <div class="chip">🇵🇹 Portugal</div>
+        <div class="chip">+ other EU / EEA</div>
+      </div>
+    </div>
+
     <div class="event-banner">
       <div><h3>Meet us at FinnBuild 2026</h3><p>Helsinki · Messukeskus · Nordic region's leading construction trade fair</p></div>
       <div class="event-date"><time datetime="2026-09-29">29 Sep – 1 Oct 2026</time></div>
+    </div>
+    <div style="margin-top:2.5rem">
+      <button class="btn-p" onclick="go('contact')" style="font-size:12px">Contact us about partnership →</button>
     </div>
   </div>
 </section>
@@ -783,6 +980,50 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
 </section>
 
 <!-- FAQ -->
+<!-- PROJECT GALLERY -->
+<section id="gallery">
+  <div class="container">
+    <p class="stag">Project gallery</p>
+    <h2 class="stitle">Terasun TSM in use</h2>
+    <div class="rule" aria-hidden="true"></div>
+    <p class="ssub">Real installations across Europe — facade cladding, wet room systems, fire-rated partitions, and more. Photos added as project references become available.</p>
+    <div class="gallery-filter" role="list" aria-label="Filter gallery">
+      <button class="gf-btn active">All</button>
+      <button class="gf-btn">Facade</button>
+      <button class="gf-btn">Wet room</button>
+      <button class="gf-btn">Fire partition</button>
+      <button class="gf-btn">Industrial</button>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <div class="gallery-item-ph"><span>🏗️</span></div>
+        <div class="gallery-caption">Facade cladding — Finland<small>Ventilated system · 12 mm TSM</small></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-item-ph"><span>🚿</span></div>
+        <div class="gallery-caption">Wet room substrate — Sweden<small>Mapei Mapegum WPS system</small></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-item-ph"><span>🔥</span></div>
+        <div class="gallery-caption">Fire partition — Norway<small>EI 90 rated system</small></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-item-ph"><span>🏢</span></div>
+        <div class="gallery-caption">Commercial facade — Estonia<small>15 mm TSM · steel subframe</small></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-item-ph"><span>🏠</span></div>
+        <div class="gallery-caption">Residential facade — Denmark<small>Timber frame · 12 mm TSM</small></div>
+      </div>
+      <div class="gallery-item">
+        <div class="gallery-item-ph"><span>🏭</span></div>
+        <div class="gallery-caption">Industrial panel — Latvia<small>18 mm TSM · heavy duty</small></div>
+      </div>
+    </div>
+    <p style="font-size:13px;color:var(--muted);margin-top:1.5rem;text-align:center">Have a completed project using Terasun TSM? <a href="#contact" onclick="go('contact')" style="color:var(--gold)">Send us your photos</a> — we'd love to feature it here.</p>
+  </div>
+</section>
+
 <section id="faq">
   <div class="container">
     <p class="stag">FAQ</p>
@@ -800,8 +1041,8 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
       <div class="faq-item"><button class="faq-q" onclick="faq(this)" aria-expanded="false">What is the minimum order quantity?<span class="faq-arrow" aria-hidden="true">⌄</span></button><div class="faq-a">The minimum order is one container (20 ft or 40 ft). Volume depends on thickness and size mix. Flexible arrangements possible for initial trial orders from new partners.</div></div>
       <div class="faq-item"><button class="faq-q" onclick="faq(this)" aria-expanded="false">Are samples available before placing an order?<span class="faq-arrow" aria-hidden="true">⌄</span></button><div class="faq-a">Yes. Sample boards available for technical evaluation and customer presentations. Shipping costs apply outside Finland.</div></div>
       <div class="faq-item"><button class="faq-q" onclick="faq(this)" aria-expanded="false">How long does delivery take?<span class="faq-arrow" aria-hidden="true">⌄</span></button><div class="faq-a">Approximately 10–14 weeks from order confirmation to delivery in Central Europe: production (3–5 weeks) + ocean freight (4–6 weeks) + customs clearance and inland transport.</div></div>
-      <div class="faq-item"><button class="faq-q" onclick="faq(this)" aria-expanded="false">Where is the product manufactured?<span class="faq-arrow" aria-hidden="true">⌄</span></button><div class="faq-a">Terasun TSM boards are manufactured by Zhejiang Terasun Air Duct Co., Ltd. in China. Terasun Europe, based in Helsinki, Finland, acts as the Authorised European Representative and manages all European documentation, logistics, and commercial relationships.</div></div>
-      <div class="faq-item"><button class="faq-q" onclick="faq(this)" aria-expanded="false">What is Terasun Europe?<span class="faq-arrow" aria-hidden="true">⌄</span></button><div class="faq-a">Terasun Europe is the Authorised European Representative of Zhejiang Terasun Air Duct Co., Ltd., headquartered in Helsinki, Finland. We manage all European documentation, distribution, and commercial relationships for Terasun TSM fiber cement boards.</div></div>
+      <div class="faq-item"><button class="faq-q" onclick="faq(this)" aria-expanded="false">Where is the product manufactured?<span class="faq-arrow" aria-hidden="true">⌄</span></button><div class="faq-a">Terasun TSM boards are manufactured by Zhejiang Terasun Air Duct Co., Ltd. in China. Terasun Europe, based in Vantaa, Finland, acts as the Authorised European Representative and manages all European documentation, logistics, and commercial relationships.</div></div>
+      <div class="faq-item"><button class="faq-q" onclick="faq(this)" aria-expanded="false">What is Terasun Europe?<span class="faq-arrow" aria-hidden="true">⌄</span></button><div class="faq-a">Terasun Europe is the Authorised European Representative of Zhejiang Terasun Air Duct Co., Ltd., headquartered in Vantaa, Finland. We manage all European documentation, distribution, and commercial relationships for Terasun TSM fiber cement boards.</div></div>
       <div class="faq-item"><button class="faq-q" onclick="faq(this)" aria-expanded="false">Is there an authorisation letter from the manufacturer?<span class="faq-arrow" aria-hidden="true">⌄</span></button><div class="faq-a">Yes. An authorisation letter confirming Terasun Europe as the Authorised European Representative is available for download. This document can be used in procurement, tendering, and specification processes.</div></div>
       <div class="faq-item"><button class="faq-q" onclick="faq(this)" aria-expanded="false">Can I become a distributor in my country?<span class="faq-arrow" aria-hidden="true">⌄</span></button><div class="faq-a">Yes — most European markets are open. Use the contact form to describe your distribution network, target market, and expected volumes. We respond within 2 business days.</div></div>
       <div class="faq-item"><button class="faq-q" onclick="faq(this)" aria-expanded="false">Which countries are open for distribution?<span class="faq-arrow" aria-hidden="true">⌄</span></button><div class="faq-a">Finland is our active market. All other EU and EEA countries are open, including Sweden, Norway, Denmark, Germany, Netherlands, Belgium, France, Poland, Czech Republic, Austria, Estonia, Latvia, Lithuania, and more.</div></div>
@@ -813,88 +1054,301 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
   </div>
 </section>
 
-<!-- CONTACT -->
+<!-- QUOTATION -->
+<!-- CONTACT / ENQUIRY -->
 <section class="s-alt" id="contact">
   <div class="container">
-    <p class="stag">Contact</p>
-    <h2 class="stitle">Get in touch</h2>
+    <p class="stag">Enquiry &amp; quotation</p>
+    <h2 class="stitle">Request a Quotation or Send an Enquiry</h2>
     <div class="rule" aria-hidden="true"></div>
-    <div class="contact-wrap">
+    <div class="quot-wrap">
       <div>
-        <p style="font-size:15px;color:var(--muted);line-height:1.8;margin-bottom:1.5rem">Request distributor pricing, order samples, or enquire about partnership opportunities in your market. All enquiries handled personally and confidentially.</p>
-        <form id="contactForm" novalidate onsubmit="handleSubmit(event)">
-          <div class="form-row">
-            <div class="form-field"><label for="f-name">Full name *</label><input type="text" id="f-name" name="name" placeholder="Anna Müller" required autocomplete="name"></div>
-            <div class="form-field"><label for="f-company">Company *</label><input type="text" id="f-company" name="company" placeholder="Your company name" required autocomplete="organization"></div>
-          </div>
-          <div class="form-row">
-            <div class="form-field"><label for="f-email">Email *</label><input type="email" id="f-email" name="email" placeholder="you@company.com" required autocomplete="email"></div>
-            <div class="form-field"><label for="f-phone">Phone / WhatsApp</label><input type="tel" id="f-phone" name="phone" placeholder="+49 ..." autocomplete="tel"></div>
-          </div>
-          <div class="form-row">
-            <div class="form-field"><label for="f-country">Country *</label>
-              <select id="f-country" name="country" required autocomplete="country-name">
-                <option value="">Select country</option>
-                <option>Finland</option><option>Sweden</option><option>Norway</option><option>Denmark</option>
-                <option>Germany</option><option>Netherlands</option><option>Belgium</option><option>France</option>
-                <option>Poland</option><option>Czech Republic</option><option>Austria</option>
-                <option>Estonia</option><option>Latvia</option><option>Lithuania</option><option>Other EU/EEA</option>
-              </select>
-            </div>
-            <div class="form-field"><label for="f-volume">Annual purchase volume</label>
-              <select id="f-volume" name="volume">
-                <option value="">Select range</option>
-                <option>Evaluation / samples only</option>
-                <option>1–3 containers / year</option>
-                <option>4–10 containers / year</option>
-                <option>10+ containers / year</option>
-              </select>
+        <p style="font-size:15px;color:var(--muted);line-height:1.8;margin-bottom:1.5rem">Use this form to request a price quotation, become a distributor, order samples, or ask for technical documentation. All fields relevant to your request help us respond faster and more accurately.</p>
+        <form id="contactForm" action="https://formspree.io/f/mbdvkyak" method="POST" novalidate>
+          <input type="hidden" id="u-form-type" name="form_type" value="General enquiry">
+          <input type="hidden" name="source" value="Terasun Europe website">
+          <input type="hidden" name="product" value="TSM Cement Board">
+          <input type="hidden" id="u-ref" name="inquiry_reference" value="">
+          <input type="hidden" id="u-replyto" name="_replyto" value="">
+          <input type="hidden" id="u-subject" name="_subject" value="">
+
+          <!-- Intent -->
+          <div class="quot-group">
+            <div class="quot-group-title">0 — Request type *</div>
+            <div class="quot-group-body">
+              <div class="form-field">
+                <select id="u-intent" name="request_type" required>
+                  <option value="">— Select request type —</option>
+                  <option value="distributor">Become a distributor / dealer</option>
+                  <option value="quotation">Price quotation for a project or order</option>
+                  <option value="documentation">Technical documentation / certificates</option>
+                  <option value="sample">Sample request</option>
+                  <option value="general">General information</option>
+                </select>
+              </div>
             </div>
           </div>
-          <div class="form-field"><label for="f-website">Company website</label><input type="url" id="f-website" name="website" placeholder="https://yourcompany.com" autocomplete="url"></div>
-          <div class="form-field"><label for="f-type">Enquiry type</label>
-            <select id="f-type" name="enquiry_type">
-              <option value="">Select type</option>
-              <option>Distributor partnership</option>
-              <option>Pricing &amp; availability</option>
-              <option>Sample request</option>
-              <option>Technical documentation</option>
-              <option>Specification support</option>
-              <option>Other</option>
-            </select>
+
+          <!-- Contact details -->
+          <div class="quot-group">
+            <div class="quot-group-title">1 — Customer information</div>
+            <div class="quot-group-body">
+              <div class="form-row">
+                <div class="form-field"><label for="u-name">Full name *</label><input type="text" id="u-name" name="name" placeholder="Anna Müller" required autocomplete="name"></div>
+                <div class="form-field"><label for="u-company">Company *</label><input type="text" id="u-company" name="company" placeholder="Your company name" required autocomplete="organization"></div>
+              </div>
+              <div class="form-row">
+                <div class="form-field"><label for="u-email">Email *</label><input type="email" id="u-email" name="email" placeholder="you@company.com" required autocomplete="email"></div>
+                <div class="form-field"><label for="u-phone">Phone / WhatsApp</label><input type="tel" id="u-phone" name="phone" placeholder="+49 ..." autocomplete="tel"></div>
+              </div>
+              <div class="form-row">
+                <div class="form-field"><label for="u-country">Country *</label>
+                  <select id="u-country" name="country" required autocomplete="country-name">
+                    <option value="">Select country</option>
+                    <option>Finland</option><option>Sweden</option><option>Norway</option><option>Denmark</option>
+                    <option>Germany</option><option>Netherlands</option><option>Belgium</option><option>France</option>
+                    <option>Poland</option><option>Czech Republic</option><option>Austria</option>
+                    <option>Estonia</option><option>Latvia</option><option>Lithuania</option><option>Other EU/EEA</option>
+                  </select>
+                </div>
+                <div class="form-field"><label for="u-website">Company website</label><input type="url" id="u-website" name="website" placeholder="https://yourcompany.com" autocomplete="url"></div>
+              </div>
+              <div class="form-row">
+                <div class="form-field"><label for="u-biztype">Business type</label>
+                  <select id="u-biztype" name="business_type">
+                    <option value="">— Select —</option>
+                    <option>Distributor / importer</option>
+                    <option>Building contractor</option>
+                    <option>Facade contractor</option>
+                    <option>Wet room contractor</option>
+                    <option>Architect / designer</option>
+                    <option>Developer</option>
+                    <option>Retailer / building material store</option>
+                    <option>Consultant / specifier</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="form-field"><label for="u-volume">Annual purchase volume</label>
+                  <select id="u-volume" name="volume">
+                    <option value="">Select range</option>
+                    <option>Evaluation / samples only</option>
+                    <option>1–3 containers / year</option>
+                    <option>4–10 containers / year</option>
+                    <option>10+ containers / year</option>
+                  </select>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="form-field"><label for="f-message">Message *</label><textarea id="f-message" name="message" placeholder="Describe your distribution network, market, and expected annual volumes." required></textarea></div>
-          <button type="submit" class="submit-btn">Send enquiry →</button>
+
+          <!-- Product selection (quotation only) -->
+          <div class="quot-group" id="u-product-group">
+            <div class="quot-group-title">2 — Product selection</div>
+            <div class="quot-group-body">
+              <div class="form-row">
+                <div class="form-field"><label for="u-thickness">Thickness *</label>
+                  <select id="u-thickness" name="thickness">
+                    <option value="">Select thickness</option>
+                    <option>6 mm</option><option>8 mm</option><option>9 mm</option><option>10 mm</option>
+                    <option>12 mm</option><option>15 mm</option><option>18 mm</option>
+                    <option>Other / please specify</option>
+                  </select>
+                </div>
+                <div class="form-field"><label for="u-size">Board size *</label>
+                  <select id="u-size" name="board_size">
+                    <option value="">Select size</option>
+                    <option>1200 × 2400 mm</option>
+                    <option>1200 × 2500 mm</option>
+                    <option>1200 × 2600 mm</option>
+                    <option>1200 × 3000 mm</option>
+                    <option>Other / please specify</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-field"><label for="u-application">Application</label>
+                <select id="u-application" name="application">
+                  <option value="">Select application</option>
+                  <option>Facade cladding</option>
+                  <option>Wet room substrate</option>
+                  <option>Fire-rated partition</option>
+                  <option>Ceiling</option>
+                  <option>Floor</option>
+                  <option>Industrial use</option>
+                  <option>Other</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quantity (quotation only) -->
+          <div class="quot-group" id="u-qty-group">
+            <div class="quot-group-title">3 — Quantity <span style="font-weight:400;text-transform:none;letter-spacing:0;font-size:10px;color:var(--light)">(fill in at least one, if applicable)</span></div>
+            <div class="quot-group-body">
+              <div class="form-row">
+                <div class="form-field"><label for="u-qty-boards">Number of boards</label><input type="number" id="u-qty-boards" name="quantity_boards" min="1" placeholder="e.g. 500"></div>
+                <div class="form-field"><label for="u-qty-m2">Square metres (m²)</label><input type="number" id="u-qty-m2" name="quantity_m2" min="1" placeholder="e.g. 720"></div>
+              </div>
+              <div class="form-row">
+                <div class="form-field"><label for="u-qty-pallets">Number of pallets</label><input type="number" id="u-qty-pallets" name="quantity_pallets" min="1" placeholder="e.g. 10"></div>
+                <div class="form-field"><label for="u-qty-container">Container enquiry</label>
+                  <select id="u-qty-container" name="quantity_container">
+                    <option value="">— select if applicable —</option>
+                    <option>Less than container load</option>
+                    <option>20 ft container</option>
+                    <option>40 ft container</option>
+                    <option>Multiple containers</option>
+                    <option>Not sure yet</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Logistics (quotation only) -->
+          <div class="quot-group" id="u-logistics-group">
+            <div class="quot-group-title">4 — Logistics &amp; delivery</div>
+            <div class="quot-group-body">
+              <p style="font-size:12px;color:var(--muted);line-height:1.7;margin-bottom:1rem;padding:.65rem .9rem;background:var(--gold-light);border:1px solid var(--gold-border);border-radius:4px">
+                <strong style="color:var(--dark)">Note:</strong> Sea freight and arrival port costs can be estimated separately from inland transport. Please provide both the preferred arrival port and final delivery location so we can calculate a realistic full delivery quotation.
+              </p>
+              <div class="form-row">
+                <div class="form-field"><label for="u-incoterms">Preferred Incoterms</label>
+                  <select id="u-incoterms" name="incoterms">
+                    <option value="">— select or ask —</option>
+                    <option>FOB China port</option>
+                    <option>CIF arrival port</option>
+                    <option>DAP final destination</option>
+                    <option>DDP if available</option>
+                    <option>Not sure / please advise</option>
+                  </select>
+                </div>
+                <div class="form-field"><label for="u-arrival-port">Preferred arrival port *</label>
+                  <select id="u-arrival-port" name="arrival_port">
+                    <option value="">Select port</option>
+                    <option>Helsinki</option><option>Kotka</option><option>Turku</option>
+                    <option>Stockholm</option><option>Gothenburg</option><option>Oslo</option>
+                    <option>Copenhagen</option><option>Hamburg</option><option>Rotterdam</option>
+                    <option>Antwerp</option><option>Gdansk</option><option>Tallinn</option>
+                    <option>Riga</option><option>Klaipeda</option>
+                    <option>Other port / please specify</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-field"><label for="u-del-country">Final delivery country *</label><input type="text" id="u-del-country" name="delivery_country" placeholder="e.g. Germany" autocomplete="country-name"></div>
+                <div class="form-field"><label for="u-del-city">Final delivery city *</label><input type="text" id="u-del-city" name="delivery_city" placeholder="e.g. Hamburg" autocomplete="address-level2"></div>
+              </div>
+              <div class="form-row">
+                <div class="form-field"><label for="u-del-postal">Postal code</label><input type="text" id="u-del-postal" name="delivery_postal_code" placeholder="e.g. 20457" autocomplete="postal-code"></div>
+                <div class="form-field"><label for="u-del-address">Delivery address</label><input type="text" id="u-del-address" name="delivery_address" placeholder="Street address if available" autocomplete="street-address"></div>
+              </div>
+              <div class="form-row">
+                <div class="form-field"><label for="u-unloading">Unloading equipment at destination</label>
+                  <select id="u-unloading" name="unloading_equipment">
+                    <option value="">— select —</option>
+                    <option>Yes, forklift available</option>
+                    <option>Yes, crane available</option>
+                    <option>No unloading equipment</option>
+                    <option>Not sure</option>
+                  </select>
+                </div>
+                <div class="form-field"><label for="u-del-access">Delivery access</label>
+                  <select id="u-del-access" name="delivery_access">
+                    <option value="">— select —</option>
+                    <option>Warehouse</option>
+                    <option>Construction site</option>
+                    <option>Retail store</option>
+                    <option>Port pickup only</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-field"><label for="u-del-time">Desired delivery time</label>
+                <select id="u-del-time" name="delivery_time">
+                  <option value="">— select —</option>
+                  <option>As soon as possible</option>
+                  <option>Within 1 month</option>
+                  <option>Within 2–3 months</option>
+                  <option>Flexible</option>
+                  <option>Specific deadline (specify in message)</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project info (quotation only) -->
+          <div class="quot-group" id="u-project-group">
+            <div class="quot-group-title">5 — Project information</div>
+            <div class="quot-group-body">
+              <div class="form-row">
+                <div class="form-field"><label for="u-project-name">Project name</label><input type="text" id="u-project-name" name="project_name" placeholder="e.g. Riverside Apartments Block C"></div>
+                <div class="form-field"><label for="u-project-type">Project type</label>
+                  <select id="u-project-type" name="project_type">
+                    <option value="">Select type</option>
+                    <option>Residential</option><option>Commercial</option><option>Industrial</option>
+                    <option>Public building</option><option>Renovation</option><option>New construction</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-field"><label for="u-annual-vol">Estimated annual volume (if distributor)</label><input type="text" id="u-annual-vol" name="annual_volume" placeholder="e.g. 2–3 containers / year"></div>
+                <div class="form-field"><label for="u-supply-type">One-time or recurring supply</label>
+                  <select id="u-supply-type" name="supply_type">
+                    <option value="">— select —</option>
+                    <option>One-time project</option>
+                    <option>Regular supply</option>
+                    <option>Distributor stock order</option>
+                    <option>Not sure yet</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Message -->
+          <div class="quot-group">
+            <div class="quot-group-title">6 — Message</div>
+            <div class="quot-group-body">
+              <div class="form-field"><label for="u-message">Message *</label><textarea id="u-message" name="message" placeholder="Describe your enquiry, project, or the documents you need." required></textarea></div>
+            </div>
+          </div>
+
+          <div id="form-error" role="alert" style="display:none;color:#c0392b;font-size:13px;margin-bottom:.75rem;padding:.6rem .9rem;background:#fff0f0;border:1px solid #f5c6c6;border-radius:4px"></div>
+          <button type="submit" class="submit-btn">Send enquiry / request quotation →</button>
           <p style="font-size:11px;color:var(--light);margin-top:.75rem">We respond within 2 business days. Your information is handled confidentially and not shared with third parties.</p>
         </form>
       </div>
-      <div class="cinfo-cards">
-        <div class="cinfo-card">
-          <h3>Terasun Europe</h3>
-          <div class="cinfo-line"><span class="cinfo-label">Company</span><span>Terasun Europe</span></div>
-          <div class="cinfo-line"><span class="cinfo-label">Status</span><span>Authorised European Representative</span></div>
-          <div class="cinfo-line"><span class="cinfo-label">Location</span><span>Helsinki, Finland</span></div>
-          <div class="cinfo-line"><span class="cinfo-label">Email</span><a href="mailto:info@terasuneurope.com">info@terasuneurope.com</a></div>
-          <div class="cinfo-line"><span class="cinfo-label">Phone</span><span>+358 — (to be added)</span></div>
-          <div class="cinfo-line"><span class="cinfo-label">WhatsApp</span><span>Contact by email first</span></div>
-          <div class="cinfo-line"><span class="cinfo-label">Website</span><a href="https://terasuneurope.com" target="_blank" rel="noopener noreferrer">terasuneurope.com</a></div>
+      <div class="quot-sidebar">
+        <div class="quot-why">
+          <h3>What can you request?</h3>
+          <div class="quot-why-item"><div class="quot-why-dot"></div><p><strong>Distributor / dealer:</strong> Request partnership terms, territory exclusivity, and pricing structure for your market.</p></div>
+          <div class="quot-why-item"><div class="quot-why-dot"></div><p><strong>Price quotation:</strong> Receive a detailed offer covering product cost, sea freight, and logistics to your destination.</p></div>
+          <div class="quot-why-item"><div class="quot-why-dot"></div><p><strong>Technical documentation:</strong> CE certificate, ETA, DoP, EPD, fire test report, installation guides — all available on request.</p></div>
+          <div class="quot-why-item"><div class="quot-why-dot"></div><p><strong>Sample request:</strong> Physical samples for testing, specification, or client presentation.</p></div>
+          <div class="quot-why-item"><div class="quot-why-dot"></div><p>All enquiries are handled personally. We respond within 2 business days.</p></div>
+        </div>
+        <div class="quot-note-box">
+          <p><strong style="color:var(--dark)">Product:</strong> Terasun TSM Cement Board<br>
+          <strong style="color:var(--dark)">CE Marking:</strong> 1023-CPR-1565 P<br>
+          <strong style="color:var(--dark)">ETA:</strong> 24/0895<br>
+          <strong style="color:var(--dark)">Available thicknesses:</strong> 6 – 18 mm<br>
+          <strong style="color:var(--dark)">Standard size:</strong> 1200 × 2400 mm<br>
+          <strong style="color:var(--dark)">Weight (12 mm):</strong> 9.96 kg/m²<br>
+          <strong style="color:var(--dark)">Manufacturer:</strong> Zhejiang Terasun Air Duct Co., Ltd.<br>
+          <strong style="color:var(--dark)">Mfr. website:</strong> <a href="https://www.terasun.cn/" target="_blank" rel="noopener noreferrer">www.terasun.cn</a><br>
+          <strong style="color:var(--dark)">Representative:</strong> Terasun Europe, Vantaa, Finland</p>
         </div>
         <div class="cinfo-card">
-          <h3>Connect with us</h3>
-          <div class="social-row">
-            <a class="social-btn" href="#" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a class="social-btn" href="mailto:info@terasuneurope.com">Email</a>
-            <a class="social-btn" href="#">WhatsApp</a>
-            <a class="social-btn" href="#" target="_blank" rel="noopener noreferrer">Google Maps</a>
-          </div>
+          <h4>Direct contact</h4>
+          <div class="cinfo-line"><span class="cinfo-label">Email</span><a href="mailto:sales@terasun-europe.eu">sales@terasun-europe.eu</a></div>
+          <div class="cinfo-line"><span class="cinfo-label">Phone</span><a href="tel:+358465887177">+358 465 887 177</a></div>
+          <div class="cinfo-line"><span class="cinfo-label">Location</span><span>01370 Vantaa, Finland</span></div>
+          <div class="cinfo-line"><span class="cinfo-label">Response</span><span>Within 2 business days</span></div>
         </div>
         <div class="cinfo-card" style="background:var(--gold-light);border-color:var(--gold-border)">
-          <h3>FinnBuild 2026</h3>
+          <h4>FinnBuild 2026</h4>
           <p style="font-size:13px;color:#5a4a20;line-height:1.7">Meet us in Helsinki at Finland's largest construction trade fair.<br><strong><time datetime="2026-09-29">29 September – 1 October 2026</time></strong><br>Messukeskus, Helsinki, Finland</p>
-        </div>
-        <div class="cinfo-card">
-          <h3>Response time</h3>
-          <p style="font-size:13px;color:var(--muted);line-height:1.7">All enquiries are handled personally and confidentially. We respond within 2 business days. For urgent matters, contact us directly by email.</p>
         </div>
       </div>
     </div>
@@ -910,7 +1364,7 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
       <div>
         <div class="footer-brand">TERASUN EUROPE</div>
         <div class="footer-brand-sub">Authorised European Representative</div>
-        <p class="footer-desc">Terasun Europe · Helsinki, Finland<br>Authorised European Representative of Zhejiang Terasun Air Duct Co., Ltd.<br>for the distribution of Terasun TSM fiber cement boards in Europe.<br>Terasun Europe is not the manufacturer of Terasun products.</p>
+        <p class="footer-desc">Terasun Europe · 01370 Vantaa, Finland<br>VAT FI33599486 · <a href="tel:+358465887177" style="color:inherit">+358 465 887 177</a> · <a href="mailto:sales@terasun-europe.eu" style="color:inherit">sales@terasun-europe.eu</a><br>Authorised European Representative of Zhejiang Terasun Air Duct Co., Ltd.<br>Terasun Europe is not the manufacturer of Terasun products.</p>
       </div>
       <nav class="footer-col" aria-label="Product links">
         <h3>Product</h3>
@@ -922,11 +1376,8 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
       <nav class="footer-col" aria-label="Documentation links">
         <h3>Documentation</h3>
         <a href="#certs">Certifications</a>
-        <a href="#downloads">All downloads</a>
-        <a href="/docs/ETA-24-0895-CE-1023-CPR-1565-P.pdf">ETA 24/0895</a>
-        <a href="/docs/EPD-IES-0018268.pdf">EPD</a>
-        <a href="/docs/FIRES-CR-284-25-AUPE.pdf">Fire report</a>
-        <a href="/docs/Terasun-Authorization-Letter.pdf">Authorisation letter</a>
+        <a href="#downloads">Document library</a>
+        <a href="#contact">Contact &amp; requests</a>
       </nav>
       <nav class="footer-col" aria-label="Company links">
         <h3>Company</h3>
@@ -935,13 +1386,15 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
         <a href="#manufacturer">Manufacturer</a>
         <a href="#distributors">Distributors</a>
         <a href="#logistics">Logistics</a>
+        <a href="#contact">Request enquiry</a>
+        <a href="#gallery">Project gallery</a>
         <a href="#faq">FAQ</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
     <div class="footer-bottom">
       <p class="footer-legal">
-        © 2026 Terasun Europe · Helsinki, Finland · Authorised European Representative for Terasun fiber cement products<br>
+        © 2026 Terasun Europe · 01370 Vantaa, Finland · VAT FI33599486 · Authorised European Representative for Terasun fiber cement products<br>
         Manufacturer: Zhejiang Terasun Air Duct Co., Ltd. · Terasun Europe is not the manufacturer.<br>
         Technical data per: EPD-IES-0018268 · ETA 24/0895 · CE 1023-CPR-1565 P · FIRES-CR-284-25-AUPE. Subject to change without notice.
       </p>
@@ -954,19 +1407,39 @@ footer{background:var(--dark2);padding:3rem 2rem 2rem}
   </div>
 </footer>
 
-<!-- SUCCESS MODAL -->
+<!-- CONTACT SUCCESS MODAL -->
 <div class="modal-bg" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
   <div class="modal">
-    <h2 id="modal-title" class="modal h3">Enquiry sent</h2>
-    <p>Thank you! Your message has been sent successfully.<br><br>We will respond within 2 business days. For urgent matters: <strong>info@terasuneurope.com</strong></p>
-    <button class="modal-close" onclick="closeModal()">Close</button>
+    <h2 id="modal-title" class="modal h3">Request sent</h2>
+    <p id="modal-body">Thank you. Your request has been received.<br><br>Terasun Europe will review your request and contact you within 2 business days.<br><br>For urgent matters: <strong>sales@terasun-europe.eu</strong></p>
+    <button class="modal-close" onclick="closeModal('modal')">Close</button>
   </div>
 </div>
+
+
 
 <script>
 function go(id){
   var el=document.getElementById(id);
   if(el)el.scrollIntoView({behavior:'smooth'});
+}
+
+function generateRef(){
+  var now=new Date();
+  var y=now.getFullYear();
+  var m=String(now.getMonth()+1).padStart(2,'0');
+  var d=String(now.getDate()).padStart(2,'0');
+  var rnd=String(Math.floor(100+Math.random()*900));
+  return 'TE-'+y+m+d+'-'+rnd;
+}
+
+function setModalBody(modalId,ref,formLabel){
+  var el=document.getElementById(modalId+'-body');
+  if(!el)return;
+  el.innerHTML='Thank you. Your request has been received.<br><br>'
+    +'Your reference number is: <strong>'+ref+'</strong><br><br>'
+    +'Terasun Europe will review your '+formLabel+' and contact you within 2 business days.<br><br>'
+    +'For urgent matters: <strong>sales@terasun-europe.eu</strong>';
 }
 
 var menuOpen=false;
@@ -1029,74 +1502,117 @@ function faq(btn){
   }
 }
 
-function handleSubmit(e){
-  e.preventDefault();
-  var form=e.target;
-  var name=document.getElementById('f-name').value.trim();
-  var email=document.getElementById('f-email').value.trim();
-  var company=document.getElementById('f-company').value.trim();
-  var country=document.getElementById('f-country').value;
-  var msg=document.getElementById('f-message').value.trim();
+(function(){
+  var form=document.getElementById('contactForm');
+  if(!form)return;
 
-  if(!name||!email||!company||!country||!msg){
-    alert('Please complete all required fields (marked *).');
-    return;
-  }
-  var emailRe=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  if(!emailRe.test(email)){
-    alert('Please enter a valid email address.');
-    return;
-  }
+  var intentLabels={
+    'distributor':'Distributor / dealer enquiry',
+    'quotation':'Price quotation request',
+    'documentation':'Documentation request',
+    'sample':'Sample request',
+    'general':'General enquiry'
+  };
 
-  var btn=form.querySelector('button[type="submit"]');
-  if(btn){btn.disabled=true;btn.textContent='Sending…';}
+  var quotGroups=['u-product-group','u-qty-group','u-logistics-group','u-project-group'];
 
-  fetch('https://formspree.io/f/mbdvkyak',{
-    method:'POST',
-    headers:{'Accept':'application/json'},
-    body:new FormData(form)
-  }).then(function(r){
-    if(btn){btn.disabled=false;btn.textContent='Send enquiry →';}
-    if(r.ok){
-      form.reset();
-      openModal();
-    } else {
-      return r.json().then(function(data){
-        var msg=data&&data.errors?data.errors.map(function(x){return x.message;}).join(', '):'Submission failed.';
-        alert(msg+' Please email info@terasuneurope.com.');
-      }).catch(function(){
-        alert('Submission failed. Please email info@terasuneurope.com.');
-      });
-    }
-  }).catch(function(){
-    if(btn){btn.disabled=false;btn.textContent='Send enquiry →';}
-    alert('Network error. Please email info@terasuneurope.com.');
+  document.getElementById('u-intent').addEventListener('change',function(){
+    var v=this.value;
+    var ft=document.getElementById('u-form-type');
+    if(ft)ft.value=intentLabels[v]||'General enquiry';
   });
-}
 
-function openModal(){
-  var modal=document.getElementById('modal');
-  modal.classList.add('open');
-  modal.removeAttribute('aria-hidden');
-  modal.querySelector('.modal-close').focus();
-}
-
-function closeModal(){
-  var modal=document.getElementById('modal');
-  modal.classList.remove('open');
-  modal.setAttribute('aria-hidden','true');
-}
-
-document.getElementById('modal').addEventListener('click',function(e){
-  if(e.target===this)closeModal();
-});
-
-document.addEventListener('keydown',function(e){
-  if(e.key==='Escape'){
-    if(document.getElementById('modal').classList.contains('open'))closeModal();
-    if(menuOpen)closeMenu();
+  function showError(msg){
+    var el=document.getElementById('form-error');
+    if(!el)return;
+    el.textContent=msg;
+    el.style.display='block';
+    el.scrollIntoView({behavior:'smooth',block:'nearest'});
   }
-});
+  function clearError(){
+    var el=document.getElementById('form-error');
+    if(el){el.textContent='';el.style.display='none';}
+  }
+
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    clearError();
+
+    var intent=document.getElementById('u-intent').value;
+    var name=document.getElementById('u-name').value.trim();
+    var email=document.getElementById('u-email').value.trim();
+    var company=document.getElementById('u-company').value.trim();
+    var country=document.getElementById('u-country').value;
+    var message=document.getElementById('u-message').value.trim();
+
+    if(!intent){showError('Please select what you are requesting.');return;}
+    if(!name||!company||!country){showError('Please complete all required fields (marked *).');return;}
+    if(!email||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){showError('Please enter a valid email address.');return;}
+    if(!message){showError('Please add a message describing your request.');return;}
+
+    if(intent==='quotation'){
+      var thickness=document.getElementById('u-thickness').value;
+      var size=document.getElementById('u-size').value;
+      var boards=document.getElementById('u-qty-boards').value.trim();
+      var m2=document.getElementById('u-qty-m2').value.trim();
+      var pallets=document.getElementById('u-qty-pallets').value.trim();
+      var container=document.getElementById('u-qty-container').value;
+      var arrivalPort=document.getElementById('u-arrival-port').value;
+      var delCountry=document.getElementById('u-del-country').value.trim();
+      var delCity=document.getElementById('u-del-city').value.trim();
+      if(!thickness){showError('Please select a thickness for your quotation.');return;}
+      if(!size){showError('Please select a board size for your quotation.');return;}
+      if(!boards&&!m2&&!pallets&&!container){showError('Please provide at least one quantity figure.');return;}
+      if(!arrivalPort){showError('Please select your preferred arrival port.');return;}
+      if(!delCountry||!delCity){showError('Please fill in the final delivery country and city.');return;}
+    }
+
+    var ref=generateRef();
+    var refEl=document.getElementById('u-ref');
+    if(refEl)refEl.value=ref;
+    var rtoEl=document.getElementById('u-replyto');
+    if(rtoEl)rtoEl.value=email;
+    var label=intentLabels[intent]||'enquiry';
+    var subEl=document.getElementById('u-subject');
+    if(subEl)subEl.value='New Terasun Europe '+label+' ['+ref+']';
+    var ftEl=document.getElementById('u-form-type');
+    if(ftEl)ftEl.value=label;
+
+    var btn=form.querySelector('button[type="submit"]');
+    if(btn){btn.disabled=true;btn.textContent='Sending…';}
+
+    var endpoint='https://formspree.io/f/mbdvkyak';
+    console.log('[Formspree] POST →',endpoint,'ref:',ref,'intent:',intent);
+
+    fetch(endpoint,{
+      method:'POST',
+      headers:{'Accept':'application/json'},
+      body:new FormData(form)
+    }).then(function(r){
+      console.log('[Formspree] HTTP',r.status,r.statusText);
+      if(r.ok){
+        console.log('[Formspree] Accepted ✓ ref:',ref);
+        if(btn){btn.disabled=false;btn.textContent='Send enquiry / request quotation →';}
+        setModalBody('modal',ref,label.toLowerCase());
+        form.reset();
+        openModal('modal');
+      } else {
+        return r.json().then(function(data){
+          console.error('[Formspree] Error:',JSON.stringify(data));
+          var errMsg=data&&data.errors?data.errors.map(function(x){return x.message;}).join(' '):'Submission failed (HTTP '+r.status+').';
+          if(btn){btn.disabled=false;btn.textContent='Send enquiry / request quotation →';}
+          showError(errMsg+' Please email sales@terasun-europe.eu.');
+        }).catch(function(){
+          if(btn){btn.disabled=false;btn.textContent='Send enquiry / request quotation →';}
+          showError('Submission failed (HTTP '+r.status+'). Please email sales@terasun-europe.eu.');
+        });
+      }
+    }).catch(function(err){
+      console.error('[Formspree] Network error:',err);
+      if(btn){btn.disabled=false;btn.textContent='Send enquiry / request quotation →';}
+      showError('Network error — please email sales@terasun-europe.eu.');
+    });
+  });
+})();
+
 </script>
-</body>
-</html>

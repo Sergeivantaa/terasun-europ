@@ -100,7 +100,7 @@
       "CE 1023-CPR-1565 P",
       "ETA 24/0895",
       "EPD-IES-0018268",
-      "Fire E120 · EI90 · EW120",
+      "Wall assembly: E120/EI90/EW120",
       "REACH compliant",
       "25 EU languages"
     ]
@@ -228,7 +228,7 @@
     "sub": "CE-certified, asbestos-free fiber cement board for European construction. Facades, wet rooms, fire partitions, and more.",
     "name": "Terasun TSM Fiber Cement Board",
     "tagline": "CE 1023-CPR-1565 P · ETA 24/0895 · EPD-IES-0018268",
-    "desc": "A lightweight cement panel reinforced with cellulose fiber, designed for structural performance, moisture resistance, and fire safety in documented wall systems. Asbestos-free, CE certified, and manufactured to ETA 24/0895 requirements.",
+    "desc": "A lightweight cement-based construction board with inorganic binders, lightweight components and fibreglass mesh reinforcement, designed for structural performance, moisture resistance, and fire safety in documented wall systems. Asbestos-free, CE certified, and manufactured to ETA 24/0895 requirements.",
     "techEyebrow": "Technical specifications",
     "techH1": "Full technical data — Terasun TSM",
     "techSub": "Complete specification table with declared values, standards references, and thickness comparison.",
@@ -271,8 +271,11 @@
       "waterResistant": {
         "name": "Moisture resistant",
         "detail": "Suitable for exterior use and wet room applications"
-      }
-    }
+      },
+      "short": "Núcleo ligero a base de cemento con aglomerantes inorgánicos y refuerzo de malla de fibra de vidrio.",
+      "full": "La placa de cemento TSM es una placa de construcción ligera a base de cemento fabricada con aglomerantes cementosos inorgánicos, componentes ligeros y malla de fibra de vidrio de refuerzo. Su núcleo cementoso ligero y ligeramente poroso reduce el peso de la placa manteniendo la idoneidad para aplicaciones de construcción interior y exterior documentadas."
+    },
+    "thicknessNote": "Gama completa 3–25 mm, sujeto a volumen de pedido y disponibilidad de producción. Datos técnicos confirmados para 12 mm; otras espesores bajo consulta."
   },
   "applications": {
     "eyebrow": "Applications",
@@ -650,7 +653,7 @@
     },
     "asbestos": {
       "question": "Is the board asbestos-free?",
-      "answer": "Yes. Terasun TSM is completely asbestos-free. The board uses Portland cement and cellulose fiber reinforcement. REACH SVHC declaration confirming no SVHC above 0.1% w/w is available."
+      "answer": "Yes. Terasun TSM is completely asbestos-free. The board uses Portland cement with inorganic binders and fibreglass mesh reinforcement. REACH SVHC declaration confirming no SVHC above 0.1% w/w is available."
     },
     "moq": {
       "question": "What is the minimum order quantity?",
@@ -1054,5 +1057,43 @@
     "notManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
     "authRep": "Authorised European Representative",
     "backToTop": "Back to top"
+  },
+  "home": {
+    "productStag": "Producto",
+    "productTitle": "Placa de cemento ligera Terasun TSM",
+    "productDesc": "Un panel liviano a base de cemento reforzado con malla de fibra de vidrio, diseñado para rendimiento estructural, resistencia a la humedad y seguridad contra incendios. Certificado CE, aprobado ETA, sin amianto.",
+    "labelWeight": "Peso",
+    "labelThickness": "Grosor",
+    "labelSize": "Tamaño estándar",
+    "btnSpecs": "Ver especificaciones completas",
+    "mfrStag": "Fabricante",
+    "labelFounded": "Fundado",
+    "labelCountry": "País",
+    "labelWebsite": "Sitio web",
+    "mfrNote": "Terasun Europe no es el fabricante. Actuamos como Representante Europeo Autorizado gestionando la documentación CE/ETA y la distribución europea.",
+    "appStag": "Aplicaciones",
+    "appTitle": "Aplicaciones de la placa de cemento",
+    "btnAllApps": "Todas las aplicaciones",
+    "certStag": "Certificaciones",
+    "certTitle": "Documentación completa de certificación europea",
+    "certLabelCE": "Marcado CE",
+    "certLabelETA": "ETA",
+    "certLabelFire": "Resistencia al fuego",
+    "certLabelEPD": "EPD",
+    "btnAllCerts": "Todas las certificaciones",
+    "distStag": "Asociación",
+    "distTitle": "Conviértase en distribuidor europeo",
+    "distDesc": "La mayoría de los mercados europeos están abiertos. Trabajamos con distribuidores en stock, proveedores de paneles de construcción y compradores por proyectos en la UE y el EEE.",
+    "distCountryLabel": "abierto",
+    "btnPartnership": "Programa de asociación",
+    "finnbuildLabel": "FinnBuild 2026",
+    "finnbuildDesc": "Visítenos en Helsinki",
+    "ctaStag": "Contacto",
+    "ctaTitle": "Solicitar presupuesto o enviar consulta",
+    "ctaDesc": "Use nuestro formulario para solicitar un precio, documentación técnica, muestras o asociación de distribución. Respondemos en 2 días hábiles.",
+    "btnOpenForm": "Abrir formulario de consulta",
+    "labelEmail": "Correo electrónico",
+    "labelPhone": "Teléfono",
+    "labelLocation": "Ubicación"
   }
 }

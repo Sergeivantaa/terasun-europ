@@ -100,7 +100,7 @@
       "CE 1023-CPR-1565 P",
       "ETA 24/0895",
       "EPD-IES-0018268",
-      "Fire E120 · EI90 · EW120",
+      "Wall assembly: E120/EI90/EW120",
       "REACH compliant",
       "25 EU languages"
     ]
@@ -228,7 +228,7 @@
     "sub": "CE-certified, asbestos-free fiber cement board for European construction. Facades, wet rooms, fire partitions, and more.",
     "name": "Terasun TSM Fiber Cement Board",
     "tagline": "CE 1023-CPR-1565 P · ETA 24/0895 · EPD-IES-0018268",
-    "desc": "A lightweight cement panel reinforced with cellulose fiber, designed for structural performance, moisture resistance, and fire safety in documented wall systems. Asbestos-free, CE certified, and manufactured to ETA 24/0895 requirements.",
+    "desc": "A lightweight cement-based construction board with inorganic binders, lightweight components and fibreglass mesh reinforcement, designed for structural performance, moisture resistance, and fire safety in documented wall systems. Asbestos-free, CE certified, and manufactured to ETA 24/0895 requirements.",
     "techEyebrow": "Technical specifications",
     "techH1": "Full technical data — Terasun TSM",
     "techSub": "Complete specification table with declared values, standards references, and thickness comparison.",
@@ -271,8 +271,11 @@
       "waterResistant": {
         "name": "Moisture resistant",
         "detail": "Suitable for exterior use and wet room applications"
-      }
-    }
+      },
+      "short": "Leichter zementbasierter Kern mit anorganischen Bindemitteln und Glasfasergewebe-Verstärkung.",
+      "full": "TSM Cementplatten ist eine leichte zementbasierte Bauplatte, hergestellt aus anorganischen Zementbindemitteln, leichten Komponenten und verstärkendem Glasfasergewebe. Ihr leichter, leicht poröser Zementkern reduziert das Plattengewicht und erhält gleichzeitig die Eignung für dokumentierte Innen- und Außenbauanwendungen."
+    },
+    "thicknessNote": "Vollständiges Sortiment 3–25 mm, abhängig von Bestellmenge und Produktionsverfügbarkeit. Technische Daten für 12 mm bestätigt; für andere Dicken auf Anfrage."
   },
   "applications": {
     "eyebrow": "Applications",
@@ -650,7 +653,7 @@
     },
     "asbestos": {
       "question": "Is the board asbestos-free?",
-      "answer": "Yes. Terasun TSM is completely asbestos-free. The board uses Portland cement and cellulose fiber reinforcement. REACH SVHC declaration confirming no SVHC above 0.1% w/w is available."
+      "answer": "Yes. Terasun TSM is completely asbestos-free. The board uses Portland cement with inorganic binders and fibreglass mesh reinforcement. REACH SVHC declaration confirming no SVHC above 0.1% w/w is available."
     },
     "moq": {
       "question": "What is the minimum order quantity?",
@@ -1054,5 +1057,43 @@
     "notManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
     "authRep": "Authorised European Representative",
     "backToTop": "Back to top"
+  },
+  "home": {
+    "productStag": "Produkt",
+    "productTitle": "Terasun TSM Leichtzementplatte",
+    "productDesc": "Ein leichtes, zementbasiertes Panel mit Glasfasergewebe-Verstärkung für strukturelle Leistung, Feuchtigkeitsbeständigkeit und Brandschutz. CE-zertifiziert, ETA-zugelassen, asbestfrei.",
+    "labelWeight": "Gewicht",
+    "labelThickness": "Stärke",
+    "labelSize": "Standardformat",
+    "btnSpecs": "Alle Spezifikationen",
+    "mfrStag": "Hersteller",
+    "labelFounded": "Gegründet",
+    "labelCountry": "Land",
+    "labelWebsite": "Website",
+    "mfrNote": "Terasun Europe ist nicht der Hersteller. Wir fungieren als Autorisierter Europäischer Vertreter und verwalten CE/ETA-Dokumentation und europäischen Vertrieb.",
+    "appStag": "Anwendungen",
+    "appTitle": "Zementplatten-Anwendungen",
+    "btnAllApps": "Alle Anwendungen",
+    "certStag": "Zertifizierungen",
+    "certTitle": "Vollständige europäische Zertifizierungsdokumentation",
+    "certLabelCE": "CE-Kennzeichnung",
+    "certLabelETA": "ETA",
+    "certLabelFire": "Feuerwiderstand",
+    "certLabelEPD": "EPD",
+    "btnAllCerts": "Alle Zertifikate",
+    "distStag": "Partnerschaft",
+    "distTitle": "Werden Sie europäischer Distributor",
+    "distDesc": "Die meisten europäischen Märkte sind offen. Wir arbeiten mit Lagerdistributoren, Bauplattenhändlern und projektbezogenen Käufern in der EU und im EWR zusammen.",
+    "distCountryLabel": "offen",
+    "btnPartnership": "Partnerschaftsprogramm",
+    "finnbuildLabel": "FinnBuild 2026",
+    "finnbuildDesc": "Treffen Sie uns in Helsinki",
+    "ctaStag": "Kontakt",
+    "ctaTitle": "Angebot oder Anfrage senden",
+    "ctaDesc": "Nutzen Sie unser Formular für Preisanfragen, technische Dokumentation, Muster oder Vertriebspartnerschaft. Wir antworten innerhalb von 2 Werktagen.",
+    "btnOpenForm": "Anfageformular öffnen",
+    "labelEmail": "E-Mail",
+    "labelPhone": "Telefon",
+    "labelLocation": "Standort"
   }
 }

@@ -100,7 +100,7 @@
       "CE 1023-CPR-1565 P",
       "ETA 24/0895",
       "EPD-IES-0018268",
-      "Fire E120 · EI90 · EW120",
+      "Wall assembly: E120/EI90/EW120",
       "REACH compliant",
       "25 EU languages"
     ]
@@ -228,7 +228,7 @@
     "sub": "CE-certified, asbestos-free fiber cement board for European construction. Facades, wet rooms, fire partitions, and more.",
     "name": "Terasun TSM Fiber Cement Board",
     "tagline": "CE 1023-CPR-1565 P · ETA 24/0895 · EPD-IES-0018268",
-    "desc": "A lightweight cement panel reinforced with cellulose fiber, designed for structural performance, moisture resistance, and fire safety in documented wall systems. Asbestos-free, CE certified, and manufactured to ETA 24/0895 requirements.",
+    "desc": "A lightweight cement-based construction board with inorganic binders, lightweight components and fibreglass mesh reinforcement, designed for structural performance, moisture resistance, and fire safety in documented wall systems. Asbestos-free, CE certified, and manufactured to ETA 24/0895 requirements.",
     "techEyebrow": "Technical specifications",
     "techH1": "Full technical data — Terasun TSM",
     "techSub": "Complete specification table with declared values, standards references, and thickness comparison.",
@@ -271,8 +271,11 @@
       "waterResistant": {
         "name": "Moisture resistant",
         "detail": "Suitable for exterior use and wet room applications"
-      }
-    }
+      },
+      "short": "Kevyt sementtipohjaine ydin epäorgaanisilla sideaineilla ja lasikasukkavahvistuksella.",
+      "full": "TSM-sementtilevy on kevyt sementtipohjaine rakennuslevy, joka on valmistettu epäorgaanisista sementtisideaineista, kevyistä komponenteista ja vahvistavasta lasikuituverkosta. Sen kevyt, hieman huokoinen sementtiydin vähentää levyn painoa säilyttäen samalla soveltuvuuden dokumentoituihin sisä- ja ulkorakentamissovelluksiin."
+    },
+    "thicknessNote": "Täydellinen valikoima 3–25 mm, tilaustarpeen ja tuotannon saatavuuden mukaan. Tekniset tiedot vahvistettu 12 mm:lle; muut paksuudet pyydettäessä."
   },
   "applications": {
     "eyebrow": "Applications",
@@ -650,7 +653,7 @@
     },
     "asbestos": {
       "question": "Is the board asbestos-free?",
-      "answer": "Yes. Terasun TSM is completely asbestos-free. The board uses Portland cement and cellulose fiber reinforcement. REACH SVHC declaration confirming no SVHC above 0.1% w/w is available."
+      "answer": "Yes. Terasun TSM is completely asbestos-free. The board uses Portland cement with inorganic binders and fibreglass mesh reinforcement. REACH SVHC declaration confirming no SVHC above 0.1% w/w is available."
     },
     "moq": {
       "question": "What is the minimum order quantity?",
@@ -1054,5 +1057,43 @@
     "notManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
     "authRep": "Authorised European Representative",
     "backToTop": "Back to top"
+  },
+  "home": {
+    "productStag": "Tuote",
+    "productTitle": "Terasun TSM kevyt sementtilevy",
+    "productDesc": "Kevyt sementtipohjaine paneeli, joka on vahvistettu lasikuituverkolla ja suunniteltu rakenteelliseen suorituskykyyn, kosteudenkestävyyteen ja palotruvallisuuteen. CE-sertifioitu, ETA-hyväksytty, asbestiton.",
+    "labelWeight": "Paino",
+    "labelThickness": "Paksuus",
+    "labelSize": "Vakiokoko",
+    "btnSpecs": "Näytä kaikki tekniset tiedot",
+    "mfrStag": "Valmistaja",
+    "labelFounded": "Perustettu",
+    "labelCountry": "Maa",
+    "labelWebsite": "Verkkosivusto",
+    "mfrNote": "Terasun Europe ei ole valmistaja. Toimimme valtuutettuna eurooppalaisena edustajana halliten CE/ETA-dokumentaatiota ja eurooppalaista jakelua.",
+    "appStag": "Sovellukset",
+    "appTitle": "Sementtilevyn sovellukset",
+    "btnAllApps": "Kaikki sovellukset",
+    "certStag": "Sertifioinnit",
+    "certTitle": "Täydellinen eurooppalainen sertifiointidokumentaatio",
+    "certLabelCE": "CE-merkintä",
+    "certLabelETA": "ETA",
+    "certLabelFire": "Paloluokitus",
+    "certLabelEPD": "EPD",
+    "btnAllCerts": "Kaikki sertifioinnit",
+    "distStag": "Kumppanuus",
+    "distTitle": "Ryhdy eurooppalaiseksi jakelukumppaniksi",
+    "distDesc": "Useimmat eurooppalaiset markkinat ovat avoinna. Teemme yhteistyötä varastojakelukumppaneiden, rakennuslevytoimittajien ja projektikohtaisten ostajien kanssa EU:ssa ja ETA-alueella.",
+    "distCountryLabel": "avoinna",
+    "btnPartnership": "Kumppanuusohjelma",
+    "finnbuildLabel": "FinnBuild 2026",
+    "finnbuildDesc": "Tapaa meidät Helsingissä",
+    "ctaStag": "Yhteydenotto",
+    "ctaTitle": "Pyydä tarjous tai lähetä tiedustelu",
+    "ctaDesc": "Käytä lomakettamme hintapyynnön, teknisen dokumentaation, näytteiden tai jakelukumppanuuden pyytämiseen. Vastaamme 2 arkipäivän kuluessa.",
+    "btnOpenForm": "Avaa kyselylomake",
+    "labelEmail": "Sähköposti",
+    "labelPhone": "Puhelin",
+    "labelLocation": "Sijainti"
   }
 }

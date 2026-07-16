@@ -63,10 +63,10 @@ export default function QuotationForm({ locale }: { locale: string }) {
 
       {/* Section 1: Request type */}
       <fieldset>
-        <legend className="text-sm font-bold text-gold2 uppercase tracking-wider mb-4">1. Request type</legend>
+        <legend className="text-sm font-bold text-sky uppercase tracking-wider mb-4">1. Request type</legend>
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
           {REQUEST_TYPES.map(rt => (
-            <label key={rt} className={`flex items-center gap-2 p-3 rounded-lg border cursor-pointer transition-colors ${requestType === rt ? 'border-gold bg-gold/10 text-gold2' : 'border-border text-gray-400 hover:border-gray-500'}`}>
+            <label key={rt} className={`flex items-center gap-2 p-3 rounded-lg border cursor-pointer transition-colors ${requestType === rt ? 'border-[#245A85] bg-[#EBF4FB] text-[#245A85]' : 'border-[#D8E1E9] text-[#4A5B6D] hover:border-[#245A85]'}`}>
               <input type="radio" name="request_type" value={rt} checked={requestType === rt} onChange={() => setRequestType(rt)} className="sr-only" />
               <span className="text-sm font-medium capitalize">{rt}</span>
             </label>
@@ -76,7 +76,7 @@ export default function QuotationForm({ locale }: { locale: string }) {
 
       {/* Section 2: Contact */}
       <fieldset>
-        <legend className="text-sm font-bold text-gold2 uppercase tracking-wider mb-4">2. Contact information</legend>
+        <legend className="text-sm font-bold text-sky uppercase tracking-wider mb-4">2. Contact information</legend>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
             <label className="block text-xs text-gray-400 mb-1">Full name <span className="text-red-400">*</span></label>
@@ -115,7 +115,7 @@ export default function QuotationForm({ locale }: { locale: string }) {
 
       {/* Section 3: Product specification */}
       <fieldset>
-        <legend className="text-sm font-bold text-gold2 uppercase tracking-wider mb-4">3. Product specification</legend>
+        <legend className="text-sm font-bold text-sky uppercase tracking-wider mb-4">3. Product specification</legend>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
             <label className="block text-xs text-gray-400 mb-1">Thickness</label>
@@ -147,7 +147,7 @@ export default function QuotationForm({ locale }: { locale: string }) {
 
       {/* Section 4: Quantity */}
       <fieldset>
-        <legend className="text-sm font-bold text-gold2 uppercase tracking-wider mb-4">4. Quantity required</legend>
+        <legend className="text-sm font-bold text-sky uppercase tracking-wider mb-4">4. Quantity required</legend>
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
           <div>
             <label className="block text-xs text-gray-400 mb-1">Boards (pcs)</label>
@@ -170,7 +170,7 @@ export default function QuotationForm({ locale }: { locale: string }) {
 
       {/* Section 5: Logistics */}
       <fieldset>
-        <legend className="text-sm font-bold text-gold2 uppercase tracking-wider mb-4">5. Logistics & delivery</legend>
+        <legend className="text-sm font-bold text-sky uppercase tracking-wider mb-4">5. Logistics & delivery</legend>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
             <label className="block text-xs text-gray-400 mb-1">Incoterms</label>
@@ -216,7 +216,7 @@ export default function QuotationForm({ locale }: { locale: string }) {
 
       {/* Section 6: Project */}
       <fieldset>
-        <legend className="text-sm font-bold text-gold2 uppercase tracking-wider mb-4">6. Project details</legend>
+        <legend className="text-sm font-bold text-sky uppercase tracking-wider mb-4">6. Project details</legend>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div>
             <label className="block text-xs text-gray-400 mb-1">Project name</label>
