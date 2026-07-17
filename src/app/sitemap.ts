@@ -4,6 +4,7 @@ export const dynamic = 'force-static'
 import { locales } from '@/i18n/routing'
 import { countries } from '@/data/countries'
 import { applications } from '@/data/applications'
+import { getBlogPosts } from '@/lib/content'
 import { SITE_URL } from '@/lib/constants'
 
 type SitemapEntry = MetadataRoute.Sitemap[number]
@@ -20,18 +21,23 @@ const staticPages = [
   { path: '', priority: 1.0, changeFrequency: 'weekly' as const },
   { path: '/about', priority: 0.8, changeFrequency: 'monthly' as const },
   { path: '/manufacturer', priority: 0.7, changeFrequency: 'monthly' as const },
-  { path: '/products', priority: 0.9, changeFrequency: 'monthly' as const },
+  // Main product SEO page (canonical)
+  { path: '/products/lightweight-cement-board', priority: 1.0, changeFrequency: 'monthly' as const },
   { path: '/applications', priority: 0.8, changeFrequency: 'monthly' as const },
   { path: '/technical-data', priority: 0.8, changeFrequency: 'monthly' as const },
   { path: '/installation', priority: 0.7, changeFrequency: 'monthly' as const },
   { path: '/certifications', priority: 0.9, changeFrequency: 'monthly' as const },
   { path: '/downloads', priority: 0.7, changeFrequency: 'monthly' as const },
-  { path: '/distributors', priority: 0.8, changeFrequency: 'monthly' as const },
+  { path: '/distributors', priority: 0.7, changeFrequency: 'monthly' as const },
   { path: '/logistics', priority: 0.6, changeFrequency: 'monthly' as const },
-  { path: '/gallery', priority: 0.6, changeFrequency: 'monthly' as const },
+  { path: '/gallery', priority: 0.5, changeFrequency: 'monthly' as const },
   { path: '/faq', priority: 0.8, changeFrequency: 'monthly' as const },
   { path: '/contact', priority: 0.9, changeFrequency: 'monthly' as const },
-  { path: '/blog', priority: 0.5, changeFrequency: 'weekly' as const },
+  { path: '/blog', priority: 0.7, changeFrequency: 'weekly' as const },
+  // Commercial landing pages
+  { path: '/request-a-quote', priority: 0.9, changeFrequency: 'monthly' as const },
+  { path: '/request-free-sample', priority: 0.9, changeFrequency: 'monthly' as const },
+  { path: '/become-a-distributor', priority: 0.8, changeFrequency: 'monthly' as const },
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -77,6 +83,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
         alternates: buildAlternates(path),
       })
     }
+  }
+
+  // Blog posts (English only — other locales fall back to English content)
+  try {
+    const posts = getBlogPosts('en')
+    for (const post of posts) {
+      const path = `/blog/${post.slug}`
+      for (const locale of locales) {
+        entries.push({
+          url: `${SITE_URL}/${locale}${path}`,
+          lastModified: post.publishedAt ? new Date(post.publishedAt) : now,
+          changeFrequency: 'monthly',
+          priority: 0.6,
+          alternates: buildAlternates(path),
+        })
+      }
+    }
+  } catch {
+    // no blog posts yet
   }
 
   return entries
