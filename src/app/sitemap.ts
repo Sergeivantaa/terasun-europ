@@ -38,6 +38,10 @@ const staticPages = [
   { path: '/request-a-quote', priority: 0.9, changeFrequency: 'monthly' as const },
   { path: '/request-free-sample', priority: 0.9, changeFrequency: 'monthly' as const },
   { path: '/become-a-distributor', priority: 0.8, changeFrequency: 'monthly' as const },
+  // Comparison pages
+  { path: '/compare/fiber-cement-board-vs-osb', priority: 0.8, changeFrequency: 'monthly' as const },
+  { path: '/compare/fiber-cement-board-vs-gypsum-board', priority: 0.8, changeFrequency: 'monthly' as const },
+  { path: '/compare/fiber-cement-board-vs-plywood', priority: 0.8, changeFrequency: 'monthly' as const },
 ]
 
 export default function sitemap(): MetadataRoute.Sitemap {
