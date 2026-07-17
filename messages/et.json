@@ -9,44 +9,44 @@
       "description": "Terasun Europe on Volitatud Euroopa Esindaja, asub Vantaas, Soomes."
     },
     "manufacturer": {
-      "title": "Manufacturer — Zhejiang Terasun Air Duct Co., Ltd. | Terasun Europe",
-      "description": "Founded 1989 in Zhejiang Province, China. Manufacturer of Terasun TSM fiber cement board with CE, ETA 24/0895, and EPD for European markets."
+      "title": "Tootaja — Zhejiang Terasun Air Duct Co., Ltd. | Terasun Europe",
+      "description": "Asutatud 1989. aastal Zhejiang provintsist, Hiinas. Terasun TSM kiudtsementpaardi tootja, millel on CE, ETA 24/0895 ja EPD Euroopa turul."
     },
     "products": {
       "title": "Terasun TSM Kiudtsementplaadid — CE & ETA | Terasun Europe",
       "description": "Kerged asbestitvabad kiudtsementplaadid. CE · ETA 24/0895 · EPD · Tulekindlus E120/EI90/EW120."
     },
     "applications": {
-      "title": "Fiber Cement Board Applications — Facades, Fire, Wet Rooms | Terasun Europe",
-      "description": "Terasun TSM fiber cement board for facade cladding, fire-rated partitions, wet rooms, commercial buildings, steel frame, and residential construction across Europe."
+      "title": "Kiudtsementpaardi rakendused — Fassaadid, Tulekindel, Märgad ruumid | Terasun Europe",
+      "description": "Terasun TSM kiudtsemendi plaat fassaadide vermikuleerimiseks, tulekindlate vaheseinten, märgade ruumide, äriehitiste, terase kaarkonstruktsioonide ja elamute ehitamiseks Euroopas."
     },
     "technicalData": {
-      "title": "Technical Data — Terasun TSM Fiber Cement Board | Terasun Europe",
-      "description": "Full technical specifications: weight, dimensions, fire ratings, CE and ETA references, thickness table, and board format data for Terasun TSM fiber cement board."
+      "title": "Tehniline teave — Terasun TSM kiudtsemendi plaat | Terasun Europe",
+      "description": "Täielikud tehnilistel andmed: kaal, mõõtmed, tulepüsivusastmed, CE ja ETA viited, paksuse tabel ja plaadi formaadi andmed Terasun TSM kiudtsemendi plaadi jaoks."
     },
     "installation": {
-      "title": "Installation Guide — Terasun TSM Fiber Cement Board | Terasun Europe",
-      "description": "Installation guide for Terasun TSM fiber cement board: tools, cutting, fastening, joints, weather protection, and finishing. Download the full installation manual."
+      "title": "Paigaldamise juhend — Terasun TSM kiudtsemendi plaat | Terasun Europe",
+      "description": "Terasun TSM kiudtsemendi plaadi paigaldamise juhend: tööriistad, lõikamine, kinnitamine, liited, ilmastikukaitse ja viimistlemine. Laadige alla täielik paigaldamise käsiraamat."
     },
     "certifications": {
       "title": "Sertifikaadid — CE · ETA · EPD · Tuli | Terasun Europe",
       "description": "Terasun TSM sertifikaadid: CE 1023-CPR-1565 P, ETA 24/0895, DoP, EPD, tulekindlus E120."
     },
     "downloads": {
-      "title": "Document Library — Technical Documents | Terasun Europe",
-      "description": "Download technical data sheets, installation manuals, CE certificate, ETA, EPD, fire test report, and system guides for Terasun TSM fiber cement board."
+      "title": "Dokumentide raamatukogu — Tehnilistest dokumentidest | Terasun Europe",
+      "description": "Laadige alla tehnilised andmelehekülged, paigaldamise käsiraamatud, CE sertifikaat, ETA, EPD, tuletesti aruanne ja süsteemi juhendid Terasun TSM kiudtsemendi plaadi jaoks."
     },
     "distributors": {
-      "title": "Distribution Partnership — Become a Terasun Distributor | Terasun Europe",
-      "description": "Exclusive distribution opportunities across Europe for Terasun TSM CE-certified fiber cement board. Competitive margins, technical support, and training."
+      "title": "Jaotuse partnerlus — Saage Terasun jaotaja | Terasun Europe",
+      "description": "Eksklusiivsed jaotuse võimalused Euroopas Terasun TSM CE-sertifitseeritud kiudtsemendi plaadi jaoks. Konkurentsivõimelised marginaalid, tehniline tugi ja koolitus."
     },
     "logistics": {
-      "title": "Logistics & Supply Chain — Container Delivery | Terasun Europe",
-      "description": "Terasun TSM boards shipped from China by container. EXW, FOB, CFR, CIF, DAP, DDP. Typical lead time 6–10 weeks. European warehouse delivery available."
+      "title": "Logistika ja tarne ahel — Konteineri kohaletoimetamine | Terasun Europe",
+      "description": "Terasun TSM plaadid saadetud Hiinast konteineri kaudu. EXW, FOB, CFR, CIF, DAP, DDP. Tüüpiline tarneaeg 6–10 nädalat. Euroopa lao kohaletoimetamine saadaval."
     },
     "gallery": {
-      "title": "Project Gallery — Terasun TSM Installations | Terasun Europe",
-      "description": "Photos of Terasun TSM fiber cement board installations: facade cladding, wet rooms, fire partitions, and more across European construction projects."
+      "title": "Projektide galerii — Terasun TSM paigaldused | Terasun Europe",
+      "description": "Terasun TSM kiudtsemendi plaadi paigalduste fotod: fassaadi vermikuleermine, märgad ruumid, tulekindlad vaheseinad ja palju muud Euroopa ehitusprojektides."
     },
     "faq": {
       "title": "KKK — Terasun TSM Kiudtsementplaadid | Terasun Europe",
@@ -57,8 +57,8 @@
       "description": "Küsige hinnapakkumist, näidist või tehnilist teavet. Vastame 1 tööpäeva jooksul."
     },
     "blog": {
-      "title": "Blog & Resources — Fiber Cement Construction | Terasun Europe",
-      "description": "Articles, installation guides, and industry news about fiber cement board for European construction professionals."
+      "title": "Ajaveeb ja ressursid — Kiudtsemendi ehitus | Terasun Europe",
+      "description": "Artiklid, paigaldamise juhendid ja tööstuse uudised kiudtsemendi plaadi kohta Euroopa ehitusspetsialistidele."
     }
   },
   "nav": {
@@ -81,15 +81,15 @@
     "installation": "Paigaldus"
   },
   "hero": {
-    "eyebrow": "CE · ETA · EPD · Fire certified",
+    "eyebrow": "CE · ETA · EPD · Tulesertifitseeritud",
     "h1": "Kerged kiudtsementplaadid Euroopa ehituseks",
     "sub": "Terasun TSM — asbestitvaba, CE-sertifitseeritud, 9,96 kg/m² 12 mm juures. Otsetarne tehasest.",
     "btnQuote": "Küsi hinnapakkumist",
     "btnContact": "Võta ühendust",
     "btnDownloads": "Allalaadimised",
-    "tagline": "Authorised European Representative",
-    "note": "Terasun Europe is the Authorised European Representative.",
-    "noteManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
+    "tagline": "Volitatud Euroopa esindaja",
+    "note": "Terasun Europe on volitatud Euroopa esindaja.",
+    "noteManufacturer": "Terasun Europe ei ole Terasun toodete tootaja.",
     "h1Line1": "Kerged kiudtsementplaadid",
     "h1Line2Emphasis": "CE-sertifitseeritud",
     "h1Line2": "Euroopa ehituseks",
@@ -100,9 +100,9 @@
       "CE 1023-CPR-1565 P",
       "ETA 24/0895",
       "EPD-IES-0018268",
-      "Wall assembly: E120/EI90/EW120",
-      "REACH compliant",
-      "25 EU languages"
+      "Seina komplekt: E120/EI90/EW120",
+      "REACH vastavus",
+      "25 EL keelt"
     ]
   },
   "about": {
@@ -124,43 +124,43 @@
     "stat2Label": "EL keeltes toetatud",
     "points": [
       {
-        "title": "CE documentation",
-        "text": "Maintaining all EU construction product compliance documents — Declaration of Performance, CE marking, and technical files."
+        "title": "CE dokumentatsioon",
+        "text": "Kõigi EL ehitustoote vastavusdokumentide säilitamine — Toimivusdeklaratsioon, CE märge ja tehnilised failid."
       },
       {
-        "title": "European supply",
-        "text": "Direct container supply from factory in China to distributors and contractors across all EU and EEA member states."
+        "title": "Euroopa tarne",
+        "text": "Otsene konteinerite tarne tehasest Hiinas kõikidele EL ja EMA liikmesriikide distributoritele ja ehitajatele."
       },
       {
-        "title": "Technical support",
-        "text": "ETA, EPD, fire test reports, and REACH declarations for architects, specifiers, and building authorities."
+        "title": "Tehniline tugi",
+        "text": "ETA, EPD, tuletestide aruanded ja REACH deklaratsioonid arhitektidele, määralejatele ja ehitusamedidele."
       }
     ]
   },
   "authorised": {
-    "eyebrow": "Our role in the supply chain",
-    "h1": "Authorised European Representative",
-    "sub": "Appointed by the manufacturer to act as the official European point of contact for CE documentation, market compliance, and customer support.",
+    "eyebrow": "Meie roll tarneahelas",
+    "h1": "Autoriseeritud Euroopa esindaja",
+    "sub": "Tootja poolt määratud ametlikuks Euroopa kontaktpunktiks CE dokumentatsiooni, turujärgimise ja klienditoe osas.",
     "cards": {
       "ce": {
-        "title": "CE Documentation",
-        "body": "Maintaining all EU construction product compliance documentation — Declaration of Performance, CE marking, and technical files."
+        "title": "CE dokumentatsioon",
+        "body": "Kõigi EL-i ehitustoodete vastavusdokumentatsiooni säilitamine — jõudlustedeklaratsioon, CE märk ja tehnilised failid."
       },
       "rep": {
-        "title": "Official Representative",
-        "body": "Appointed by Zhejiang Terasun Air Duct Co., Ltd. as the Authorised European Representative under EU Construction Products Regulation."
+        "title": "Ametlik esindaja",
+        "body": "Määratud Zhejiang Terasun Air Duct Co., Ltd. poolt autoriseeritud Euroopa esindajaks EL-i ehitustoodete määruse alusel."
       },
       "docs": {
-        "title": "Technical Support",
-        "body": "Providing ETA, EPD, fire test reports, and REACH declarations to architects, specifiers, and building authorities."
+        "title": "Tehniline tugi",
+        "body": "ETA, EPD, tulekatsete aruannete ja REACH deklaratsioonide pakkumine arhitektidele, projekteerijatele ja ehitusametnike jaoks."
       },
       "mkt": {
-        "title": "European Markets",
-        "body": "Serving all EU member states, EEA countries, and the wider European market from our base in Vantaa, Finland."
+        "title": "Euroopa turud",
+        "body": "Teenindame kõiki ELi liikmesriike, EEA riike ja laiemaid Euroopa turusid meie baasist Vantaa, Finland."
       }
     },
-    "stag": "Our role",
-    "title": "Authorised European Representative"
+    "stag": "Meie roll",
+    "title": "Volitatud Euroopa esindaja"
   },
   "manufacturer": {
     "eyebrow": "Tootja kohta",
@@ -171,11 +171,11 @@
     "stats": {
       "capacity": {
         "value": "1989",
-        "label": "Founded"
+        "label": "Asutatud"
       },
       "employees": {
         "value": "CE + ETA",
-        "label": "Certified"
+        "label": "Sertifitseeritud"
       },
       "countries": {
         "value": "EPD",
@@ -183,69 +183,69 @@
       },
       "patents": {
         "value": "E120",
-        "label": "Fire tested"
+        "label": "Tuletestitud"
       }
     },
     "timelineTitle": "Ettevõtte verstapostid",
     "timeline": {
       "founded": {
         "year": "1989",
-        "title": "Company founded",
-        "body": "Zhejiang Terasun Air Duct Co., Ltd. established in Zhejiang Province, China."
+        "title": "Ettevõtte asutamine",
+        "body": "Zhejiang Terasun Air Duct Co., Ltd. asutatud Zhejiang provintsisse, China."
       },
       "iso": {
-        "year": "2000s",
-        "title": "ISO certification",
-        "body": "Manufacturing processes certified to international quality management standards."
+        "year": "2000. aastad",
+        "title": "ISO sertifitseering",
+        "body": "Tootmisprotsessid on sertifitseeritud rahvusvaheliste kvaliteedi juhtimise standarditega."
       },
       "expansion": {
         "year": "2018",
-        "title": "Production expansion",
-        "body": "Expanded fiber cement board production capacity to serve growing European export demand."
+        "title": "Tootmise laiendamine",
+        "body": "Suurendati kiudtsemendi plaatide tootmisvõimsust kasvava Euroopa ekspordnõudluse rahuldamiseks."
       },
       "europe": {
         "year": "2023",
-        "title": "European representative appointed",
-        "body": "Terasun Europe established as the Authorised European Representative in Vantaa, Finland."
+        "title": "Euroopa esindaja määratud",
+        "body": "Terasun Europe asutati Autoriseeritud Euroopa esindajaks Vantaas, Finland."
       },
       "eta": {
         "year": "2024",
-        "title": "ETA 24/0895 issued",
-        "body": "European Technical Assessment issued by a designated ETA body. CE marking confirmed under the EU Construction Products Regulation."
+        "title": "ETA 24/0895 väljastatud",
+        "body": "Euroopa Tehniline Hindamine väljastatud määratud ETA asutuse poolt. CE märge kinnitatud EL ehitustoodete määruse alusel."
       },
       "epd": {
         "year": "2025",
-        "title": "EPD published",
-        "body": "EPD-IES-0018268 published March 2025, valid until 2029. ISO 14025 compliant environmental declaration."
+        "title": "EPD avaldatud",
+        "body": "EPD-IES-0018268 avaldatud märtsil 2025, kehtiv kuni 2029. ISO 14025 nõuetele vastav keskkonnadeklaratsioon."
       }
     },
     "noteTitle": "Tootja suhted",
     "noteText": "Terasun Europe on Zhejiang Terasun Air Duct Co., Ltd. volitatud Euroopa esindaja. Terasun Europe ei tooda Terasun tooteid. Kõik tooted toodetakse Hiinas ja tarnitakse otsestel konteinervedudel. Euroopa esindaja: Terasun Europe, 01370 Vantaa, Soome."
   },
   "products": {
-    "eyebrow": "Product",
-    "h1": "Terasun TSM — lightweight fiber cement board",
-    "sub": "CE-certified, asbestos-free fiber cement board for European construction. Facades, wet rooms, fire partitions, and more.",
-    "name": "Terasun TSM Fiber Cement Board",
+    "eyebrow": "Toode",
+    "h1": "Terasun TSM — kerge kiudtsementplaat",
+    "sub": "CE-sertifitseeritud, asbestos-vaba kiudtsementplaat Euroopa ehitusele. Fassaadid, niisked ruumid, tuleseinad ja palju muud.",
+    "name": "Terasun TSM kiudtsementplaat",
     "tagline": "CE 1023-CPR-1565 P · ETA 24/0895 · EPD-IES-0018268",
-    "desc": "A lightweight cement-based construction board with inorganic binders, lightweight components and fibreglass mesh reinforcement, designed for structural performance, moisture resistance, and fire safety in documented wall systems. Asbestos-free, CE certified, and manufactured to ETA 24/0895 requirements.",
-    "techEyebrow": "Technical specifications",
-    "techH1": "Full technical data — Terasun TSM",
-    "techSub": "Complete specification table with declared values, standards references, and thickness comparison.",
-    "thicknessTitle": "Available thicknesses",
-    "formatsTitle": "Standard board formats",
-    "compositionTitle": "Material composition",
-    "galleryTitle": "Product photos",
+    "desc": "Kerge tsementpõhine ehitusplaat anorgaaniliste sidujate, kerge komponentide ja klaasfiibri võrkarmeeringuga, mis on mõeldud struktuurilisele jõudlusele, niiskuskindlusele ja tulekindlusele dokumenteeritud seinasüsteemides. Asbestos-vaba, CE-sertifitseeritud ja ETA 24/0895 nõuete kohaselt toodetud.",
+    "techEyebrow": "Tehniline spetsifikatsioon",
+    "techH1": "Täielik tehniline teave — Terasun TSM",
+    "techSub": "Täielik spetsifikatsioonitabel deklareeritud väärtustega, standardite viidetega ja paksuse võrdlusega.",
+    "thicknessTitle": "Saadaolevad paksused",
+    "formatsTitle": "Standardsed plaadi formaadid",
+    "compositionTitle": "Materjali koostis",
+    "galleryTitle": "Toote fotod",
     "specs": {
-      "ceMarking": "CE Marking",
-      "eta": "European Technical Assessment",
-      "dop": "Declaration of Performance",
-      "fireResistance": "Fire resistance",
-      "weight12mm": "Declared weight (12 mm)",
-      "epd": "EPD reference",
+      "ceMarking": "CE märgistus",
+      "eta": "Euroopa tehniline hindamine",
+      "dop": "Toimivuse deklaratsioon",
+      "fireResistance": "Tulekindlus",
+      "weight12mm": "Deklareeritud kaal (12 mm)",
+      "epd": "EPD viide",
       "binder": "Binder",
-      "reinforcement": "Reinforcement",
-      "studSpacing": "Stud spacing"
+      "reinforcement": "Armeering",
+      "studSpacing": "Posti vahemaa"
     },
     "composition": {
       "cement": {
@@ -284,20 +284,20 @@
     "ctaTitle": "Pole kindel, milline süsteem sobib teie projektiga?",
     "ctaText": "Võtke ühendust meie tehnilise meeskonnaga rakenduste juhendamise, süsteemi spetsifikatsioonide ja kohandatud pakkumise saamiseks.",
     "tags": {
-      "Ventilated": "Ventilated",
-      "All climates": "All climates",
-      "Paintable": "Paintable",
+      "Ventilated": "Ventileeritud",
+      "All climates": "Kõigis kliimavööndites",
+      "Paintable": "Värvitav",
       "E 120": "E 120",
       "EI 90": "EI 90",
       "EW 120": "EW 120",
-      "Mapei": "Mapei system",
-      "Schönox": "Schönox system",
-      "Interior": "Interior",
-      "Exterior": "Exterior",
-      "Industrial": "Industrial",
-      "Heavy-duty": "Heavy-duty",
-      "Residential": "Residential",
-      "Timber frame": "Timber frame"
+      "Mapei": "Mapei süsteem",
+      "Schönox": "Schönox süsteem",
+      "Interior": "Sisemine",
+      "Exterior": "Väline",
+      "Industrial": "Tööstuslik",
+      "Heavy-duty": "Raskekoormused",
+      "Residential": "Elamuline",
+      "Timber frame": "Puitkarkass"
     },
     "facade-systems": {
       "title": "Fassaadi süsteemid",
@@ -426,108 +426,108 @@
     "h1": "Täielik Euroopa sertifitseerimisdokumentatsioon",
     "sub": "Terasun TSM omab kohustuslikku CE märgistust ja põhjalikku kolmanda osapoole sertifitseerimist Euroopa ehituskäituse vastavuse tagamiseks.",
     "ce": {
-      "badge": "Mandatory",
-      "label": "CE Marking",
-      "desc": "CE 1023-CPR-1565 P. Mandatory for sale and use in the European Economic Area. Confirms compliance with EU Construction Products Regulation."
+      "badge": "Kohustuslik",
+      "label": "CE märgistus",
+      "desc": "CE 1023-CPR-1565 P. Kohustuslik müümiseks ja kasutamiseks Euroopa Majanduspiirkonnas. Kinnitab vastavust EL-i ehitustoodete määrusele."
     },
     "eta": {
-      "badge": "Independent",
-      "label": "European Technical Assessment",
-      "desc": "ETA 24/0895. Independently confirms the product's performance characteristics for all declared intended uses."
+      "badge": "Sõltumatu",
+      "label": "Euroopa tehniline hindamine",
+      "desc": "ETA 24/0895. Kinnitab sõltumatult toote jõudlusomadusi kõigil deklareeritud kasutusotstarvetel."
     },
     "dop": {
-      "badge": "DoP Declared",
-      "label": "Declaration of Performance",
-      "desc": "DoP TRS-20250610F. Full declaration of all performance characteristics in accordance with the EU Construction Products Regulation and ETA 24/0895.",
-      "eyebrow": "Declaration of Performance",
-      "title": "Download the Declaration of Performance",
-      "text": "The Declaration of Performance (DoP TRS-20250610F) declares all technical performance values in accordance with ETA 24/0895 and the EU Construction Products Regulation. Required by building authorities in all EEA member states.",
-      "cta": "Download all documents"
+      "badge": "DoP deklareeritud",
+      "label": "Toimivuse deklaratsioon",
+      "desc": "DoP TRS-20250610F. Täielik deklaratsioon kõigi jõudlusomaduste kohta vastavalt EL-i ehitustoodete määrusele ja ETA 24/0895-le.",
+      "eyebrow": "Toimivuse deklaratsioon",
+      "title": "Laadi alla toimivuse deklaratsioon",
+      "text": "Jõudlustedeklaratsioon (DoP TRS-20250610F) deklareerib kõiki tehnilisi jõudlusväärtusi kooskõlas ETA 24/0895 ja EL-i ehitustoodete määrusega. Nõutud ehitusametnike poolt kõigis EMP liikmesriikides.",
+      "cta": "Laadige alla kõik dokumendid"
     },
     "epd": {
       "badge": "ISO 14025",
-      "label": "Environmental Product Declaration",
-      "desc": "EPD-IES-0018268. ISO 14025. Declared unit: 1 m² at 12 mm, 9.96 kg/m². Valid until 2029-03-14. Supports LEED, BREEAM, and DGNB projects."
+      "label": "Keskkonnadeklaratsioon",
+      "desc": "EPD-IES-0018268. ISO 14025. Deklareeritud ühik: 1 m² 12 mm juures, 9,96 kg/m². Kehtib kuni 2029-03-14. Toetab LEED, BREEAM ja DGNB projekte."
     },
     "fire": {
-      "badge": "Tested",
-      "label": "Fire Resistance",
-      "desc": "E 120 / EI 90 / EW 120. Independently tested per FIRES-CR-284-25-AUPE. Suitable for fire-rated partition wall systems in commercial and industrial buildings."
+      "badge": "Testitud",
+      "label": "Tulekindlus",
+      "desc": "E 120 / EI 90 / EW 120. Sõltumatult testitud vastavalt FIRES-CR-284-25-AUPE. Sobib tulekindlatele vaheseinasüsteemidele äri- ja tööstushoonetest."
     },
     "voc": {
       "badge": "Intertek",
-      "label": "VOC & Indoor Air Quality",
-      "desc": "Tested by Intertek for volatile organic compound emissions. Suitable for interior applications with indoor air quality requirements."
+      "label": "VOC ja sisesiseõhu kvaliteet",
+      "desc": "Intertek poolt testitud korduva orgaanilise ühendi (VOC) emissiooni osas. Sobib sisekeskkonna rakendusele õhu kvaliteedinõuetega."
     },
     "authorisation": {
-      "badge": "Official",
-      "label": "Manufacturer Authorisation",
-      "desc": "Official authorisation letter from Zhejiang Terasun Air Duct Co., Ltd. appointing Terasun Europe as the Authorised European Representative."
+      "badge": "Ametlik",
+      "label": "Tootja volitamine",
+      "desc": "Ametlik volituskiri Zhejiang Terasun Air Duct Co., Ltd. poolt, mis määrab Terasun Europe'i autoriseeritud Euroopa esindajaks."
     },
     "reach": {
       "badge": "REACH",
-      "label": "REACH SVHC Declaration",
-      "desc": "No substances of very high concern (SVHC) above 0.1% w/w. Full REACH compliance declaration available upon request."
+      "label": "REACH SVHC deklaratsioon",
+      "desc": "Ühtegi väga muret tekitavat ainet (SVHC) üle 0,1% m/m. Täielik REACH vastavusdeklaratsioon saadaval taotlusel."
     },
     "notMfrNote": "Terasun Europe on Zhejiang Terasun Air Duct Co., Ltd. volitatud Euroopa esindaja. Terasun Europe ei ole Terasun toodete tootja.",
     "downloadLabel": "Lae alla ↗"
   },
   "downloads": {
-    "eyebrow": "Document library",
-    "h1": "Technical documents for Terasun TSM",
-    "sub": "All certification, technical, and installation documents. Some files require partner login.",
+    "eyebrow": "Dokumendide teek",
+    "h1": "Terasun TSM tehnilised dokumendid",
+    "sub": "Kõik sertifikatsiooni-, tehniilised ja installatsioonidokumendid. Mõned failid nõuavad partneri sisselogimist.",
     "authNote": {
-      "title": "Partner login required for some documents",
-      "text": "Public documents are available to all. Protected documents (installation manuals, system guides) require partner registration and account approval."
+      "title": "Mõnede dokumentide jaoks on vajalik partneri sisselogimine",
+      "text": "Avalikud dokumendid on kõigile saadaval. Kaitstud dokumendid (installatsioonijuhendid, süsteemijuhendid) nõuavad partneri registreerimist ja konto kinnitamist."
     },
     "docs": {
       "tds": {
-        "name": "Technical Data Sheet",
-        "desc": "Declared specifications, physical properties, and compliance references"
+        "name": "Tehniliste andmete leht",
+        "desc": "Deklareeritud spetsifikatsioonid, füüsikalised omadused ja vastavuse viited"
       },
       "installation": {
-        "name": "Installation Manual",
-        "desc": "Step-by-step installation guide for all system types"
+        "name": "Installatsioonijuhend",
+        "desc": "Samm-sammulise installatsioonijuhend kõigi süsteemitüüpide jaoks"
       },
       "brochure": {
-        "name": "Product Brochure",
-        "desc": "Overview of Terasun TSM applications and features"
+        "name": "Toote brošüür",
+        "desc": "Terasun TSM rakenduste ja funktsioonide ülevaade"
       },
       "facade": {
-        "name": "Facade System Guide",
-        "desc": "CBSS and CBMV ventilated facade system specifications"
+        "name": "Fassaadisusteemi juhend",
+        "desc": "CBSS ja CBMV ventileeritud fassaadisusteemi spetsifikatsioonid"
       },
       "wetroom": {
-        "name": "Wet Room System Guide",
-        "desc": "Mapei and Schönox approved wet room tile backing systems"
+        "name": "Märja ruumi süsteemi juhend",
+        "desc": "Mapei ja Schönox poolt heakskiidetud märja ruumi paanide alusmaterjalid"
       },
       "cutting": {
-        "name": "Cutting & Fixing Guide",
-        "desc": "Tools, cutting methods, and fixing specifications"
+        "name": "Lõikamise ja paigaldamise juhend",
+        "desc": "Tööristad, lõikamismeetodid ja paigaldamise spetsifikatsioonid"
       },
       "sds": {
-        "name": "Safety Data Sheet",
-        "desc": "Material safety data for handling and disposal"
+        "name": "Ohutusteave",
+        "desc": "Materjali ohutusteave käitlemise ja kasutuselt kõrvaldamise kohta"
       },
       "ce": {
-        "name": "CE Certificate",
-        "desc": "CE marking certificate — 1023-CPR-1565 P"
+        "name": "CE sertifikaat",
+        "desc": "CE märgistussertifikaat — 1023-CPR-1565 P"
       },
       "eta": {
-        "name": "European Technical Assessment",
-        "desc": "ETA 24/0895 — full assessment document"
+        "name": "Euroopa tehniline hindamine",
+        "desc": "ETA 24/0895 — täielik hindamisdokument"
       },
       "epd": {
-        "name": "Environmental Product Declaration",
-        "desc": "EPD-IES-0018268 — ISO 14025, valid until 2029"
+        "name": "Keskkonnaalane toote deklaratsioon",
+        "desc": "EPD-IES-0018268 — ISO 14025, kehtib kuni 2029. aastani"
       },
       "fire": {
-        "name": "Fire Test Report",
-        "desc": "FIRES-CR-284-25-AUPE — E120/EI90/EW120 system test"
+        "name": "Tulekindluse testiaruanne",
+        "desc": "FIRES-CR-284-25-AUPE — E120/EI90/EW120 süsteemi test"
       },
       "voc": {
-        "name": "VOC / Intertek Certificate",
-        "desc": "Indoor air quality and VOC emission test certificate"
+        "name": "VOC / Intertek sertifikaat",
+        "desc": "Siseilma kvaliteedi ja VOC emissiooni testi sertifikaat"
       }
     }
   },
@@ -538,31 +538,31 @@
     "benefits": {
       "margin": {
         "icon": "💰",
-        "title": "Competitive margins",
-        "body": "Exclusive territory pricing with attractive distributor margins. Volume discounts for stocking partners."
+        "title": "Konkurentsivõimelised marginaalid",
+        "body": "Eksklusiivne territoriumi hinnakirjandus atraktiivsete distribuutori marginaalidega. Mahuallahindlused laotamispartneritele."
       },
       "support": {
         "icon": "🛠️",
-        "title": "Technical support",
-        "body": "Full documentation support including CE, ETA, EPD, and fire test documents for your customer's building authorities."
+        "title": "Tehniline tugi",
+        "body": "Täielik dokumentatsiooni tugi, sealhulgas CE, ETA, EPD ja tuletestide dokumendid teie kliendi ehitusasutuste jaoks."
       },
       "training": {
         "icon": "📚",
-        "title": "Training & marketing",
-        "body": "Product training, installation guidance, and marketing materials to support your sales team and projects."
+        "title": "Koolitamine ja turundus",
+        "body": "Tootetreeningud, paigaldamise juhised ja turundusmaterjali teie müügimeeskonna ja projektide toetamiseks."
       },
       "territory": {
         "icon": "🗺️",
-        "title": "Exclusive territory",
-        "body": "Territory-based distribution agreements. Priority markets available now."
+        "title": "Eksklusiivne territoorium",
+        "body": "Territooriumipõhised jaotuslepingud. Prioriteetturud on nüüd saadaval."
       }
     },
     "mapTitle": "Turud üle Euroopa",
     "status": {
-      "hq": "HQ — Finland",
-      "active": "Active partner",
-      "open": "Partner wanted",
-      "available": "Available"
+      "hq": "Peakontor — Finland",
+      "active": "Aktiivne partner",
+      "open": "Partneri otsitakse",
+      "available": "Saadaval"
     },
     "ctaTitle": "Taotlege levitusõigust oma riigis",
     "ctaText": "Otsime aktiivselt varude levitajaid, importeerijaid ja projektpartnereid kogu Euroopas. Saadaval on eksklusiivsed territooriumilepped.",
@@ -575,46 +575,46 @@
     "sub": "Täielik tarneahela koordineerimine — tootmisest Hiinas kuni teie Euroopa asukohta või lattu.",
     "steps": {
       "order": {
-        "title": "Order confirmation",
-        "body": "Submit your requirements — product specification, quantity, format, and destination. We confirm pricing, incoterms, and lead time."
+        "title": "Tellimuse kinnitus",
+        "body": "Esitage oma nõuded — tootemääratlus, kogus, formaat ja sihtkoht. Me kinnitame hinna, kaubatingimused ja tarneaja."
       },
       "production": {
-        "title": "Manufacturing (China)",
-        "body": "Production at Zhejiang Terasun factory. Boards manufactured to ETA 24/0895 specification with factory quality control."
+        "title": "Tootmine (Hiina)",
+        "body": "Tootmine Zhejiang Terasun tehases. Plaadid valmistatud ETA 24/0895 spetsifikatsiooni järgi tehase kvaliteedikontrolliga."
       },
       "quality": {
-        "title": "Quality inspection",
-        "body": "Third-party or factory quality inspection before loading. Documents prepared: packing list, COO, phytosanitary, CE documents."
+        "title": "Kvaliteedi inspektsioon",
+        "body": "Kolmanda poole või tehasekontroll enne laadimist. Dokumendid: pakendi loend, COO, taimekaalustuse dokumendid, CE dokumendid."
       },
       "shipping": {
-        "title": "Container shipping",
-        "body": "20' or 40' container loaded and shipped from Chinese port. Tracking provided throughout. Transit time typically 4–6 weeks."
+        "title": "Konteineri saatmine",
+        "body": "20' või 40' konteiner laaditud ja saadetud Hiina sadamast. Jälgimine kogu aeg. Transiidiaeg tavaliselt 4–6 nädalat."
       },
       "customs": {
-        "title": "EU customs clearance",
-        "body": "Import documents prepared. EU customs duties and VAT handled per agreed incoterms. CE documents available for customs."
+        "title": "EL tolliläbipääs",
+        "body": "Importdokumendid koostatud. EL tollimaksud ja käibemaks käsitletakse vastavalt kokkulepitud incoterms-ile. CE dokumendid on tolliasutustele kättesaadavad."
       },
       "delivery": {
-        "title": "Delivery to warehouse",
-        "body": "DAP or DDP delivery to your European warehouse or construction site. Unloading coordination on request."
+        "title": "Tarnimine lattu",
+        "body": "DAP või DDP tarnimine teie Euroopa lattu või ehituskohale. Mahalaadimise koordineerimine taotluse korral."
       }
     },
     "leadTimesTitle": "Tavapärased tarnekajad",
     "leadTimes": {
       "stock": {
-        "value": "~2 wks",
-        "label": "From stock (Finland)",
-        "desc": "Small quantities from Finnish warehouse when available"
+        "value": "~2 nädalat",
+        "label": "Laost (Finland)",
+        "desc": "Väikesed kogused Soome laost, kui saadaval"
       },
       "production": {
-        "value": "6–10 wks",
-        "label": "Standard container",
-        "desc": "Full container order from China production"
+        "value": "6–10 nädalat",
+        "label": "Standardne konteiner",
+        "desc": "Täiskonteineri tellimus Hiina tootmisest"
       },
       "custom": {
-        "value": "On request",
-        "label": "Custom specification",
-        "desc": "Non-standard sizes or custom board specifications"
+        "value": "Taotluse korral",
+        "label": "Kohandatud spetsifikatsioon",
+        "desc": "Mittestandardsed suurused või kohandatud plaadi spetsifikatsioonid"
       }
     },
     "incotermsTitle": "Saadaval olevad incoterms",
@@ -713,15 +713,16 @@
     }
   },
   "contact": {
-    "eyebrow": "Enquiry & quotation",
-    "h1": "Request a quotation or technical information",
-    "sub": "Use this form to request a price, sample, technical documentation, or to apply for distribution. We respond within 1 business day.",
+    "eyebrow": "Päring ja pakkumine",
+    "h1": "Taotlege hinnapakkumist või tehnilist teavet",
+    "sub": "Kasutage seda vormi hinna, proovi, tehnilise dokumentatsiooni taotlemiseks või levitamise taotlemiseks. Vastame 1 tööpäeva jooksul.",
     "sidebar": {
-      "contactTitle": "Direct contact",
-      "responseTitle": "Response time",
-      "responseText": "We respond to all enquiries within 1 business day. For urgent requests, please call or WhatsApp.",
-      "addressTitle": "Our address"
-    }
+      "contactTitle": "Otsene kontakt",
+      "responseTitle": "Vastusaeg",
+      "responseText": "Vastame kõigile päringutele 1 tööpäeva jooksul. Kiireloomuliste taotluste korral palun helistage või saatke WhatsAppi.",
+      "addressTitle": "Meie aadress"
+    },
+    "notMfrNote": "Terasun Europe on ainult volitatud Euroopa esindaja. Me ei ole Terasun toodete tootaja."
   },
   "installation": {
     "eyebrow": "Paigaldamisjuhend",
@@ -730,33 +731,33 @@
     "features": {
       "tools": {
         "icon": "🔧",
-        "title": "Tools required",
-        "body": "Circular saw or angle grinder with fibre cement blade, drill/driver, measuring tape, chalk line, and PPE (dust mask, goggles)."
+        "title": "Vajalikud tööriistad",
+        "body": "Ringkämpsakoor või nurklihvija kiudsimenditera, puur-kruvtsepp, mõõdulint, kriidijoon ja isikukaitse (tolmumask, kaitseprillid)."
       },
       "cutting": {
         "icon": "✂️",
-        "title": "Cutting methods",
-        "body": "Cut with circular saw (fibre cement blade) or score-and-snap for straight cuts on thinner boards. Wet cutting reduces dust."
+        "title": "Lõikamise meetodid",
+        "body": "Lõigake ringkämpsakoorega (kiudsimenditera) või kriimusta ja murra sirgete lõigete jaoks õhematel plaatidel. Märg lõikamine vähendab tolmu."
       },
       "fastening": {
         "icon": "🔩",
-        "title": "Fastening",
-        "body": "Fix with stainless steel or corrosion-resistant self-tapping screws or annular ring nails. Min 12 mm edge distance, 200 mm edge spacing, 300 mm field spacing."
+        "title": "Kinnitamine",
+        "body": "Kinnitage roostevabast terasest või korrosioonikindlate isekeeruvate kruvidega või ringnaelaga. Min servakaugus 12 mm, servavahe 200 mm, välja vahel 300 mm."
       },
       "joints": {
         "icon": "📐",
-        "title": "Joints & gaps",
-        "body": "Leave 3 mm expansion gap at all board edges. Tape and fill butt joints for interior. For exterior, leave open joints with sealant or cover with feature joint profiles."
+        "title": "Liited ja vahed",
+        "body": "Jätke 3 mm paisumisvahu kõigil plaadi servadel. Kasutage teipi ja täitke otsaliited sisemistele pindadele. Välispindadele jätke avatut liiteid silikooniga või katke liiteprofiilide abil."
       },
       "weather": {
         "icon": "🌧️",
-        "title": "Weather protection",
-        "body": "Do not install in freezing conditions. Protect boards from rain until system is weather-sealed. Store under cover — boards must not sit in standing water."
+        "title": "Ilmastiku kaitse",
+        "body": "Ärge paigaldage külmade ilmade ajal. Kaitske plaate vihmast kuni süsteem on ilmastikku vastupidav. Ladustage katuse all — plaadid ei tohi seista seisvas vees."
       },
       "finishing": {
         "icon": "🎨",
-        "title": "Finishing & paint",
-        "body": "Prime with alkali-resistant primer before paint or render. Compatible with mineral, silicone, and acrylic finishes. Interior surfaces can be directly tiled with polymer-modified adhesive."
+        "title": "Lõpetamine ja värvimine",
+        "body": "Kasutage alkali-vastupidavat pohjustust enne värvimist või renderdamist. Ühilduv mineraalsete, silikoonpõhiste ja akrüülsete viimistlustega. Sisepindu saab otseselt plaatida polümeermodifitseeritud liimiga."
       }
     },
     "downloadTitle": "Laadi alla paigaldamise juhend",
@@ -765,32 +766,32 @@
   "footer": {
     "brand": "TERASUN",
     "brandSub": "Europe",
-    "desc": "Authorised European Representative for Terasun TSM fiber cement board.",
-    "authLine": "Authorised European Representative",
-    "notManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
-    "colProduct": "Product",
-    "colDocs": "Documentation",
-    "colCompany": "Company",
-    "privacy": "Privacy policy",
-    "cookies": "Cookie policy",
-    "terms": "Terms of use",
+    "desc": "Autoriseeritud Euroopa esindaja Terasun TSM kiudtsemendi plaadi jaoks.",
+    "authLine": "Autoriseeritud Euroopa esindaja",
+    "notManufacturer": "Terasun Europe ei ole Terasun toodete tootja.",
+    "colProduct": "Toode",
+    "colDocs": "Dokumentatsioon",
+    "colCompany": "Ettevõte",
+    "privacy": "Privaatsuspoliitika",
+    "cookies": "Küpsiste poliitika",
+    "terms": "Kasutamistingimused",
     "legal": "© 2025 Terasun Europe. Kõik õigused kaitstud.",
-    "legalMfr": "Products manufactured by Zhejiang Terasun Air Duct Co., Ltd., China.",
+    "legalMfr": "Tooted, mille on tootnud Zhejiang Terasun Air Duct Co., Ltd., China.",
     "legalCerts": "CE 1023-CPR-1565 P · ETA 24/0895 · EPD-IES-0018268"
   },
   "portal": {
-    "loginTitle": "Partner Portal Login",
-    "loginSub": "Access protected technical documents and account management.",
-    "loginRedirectText": "The partner portal is hosted on our main platform. Click below to sign in.",
-    "loginBtn": "Sign in to partner portal",
-    "noAccount": "Don't have an account yet?",
-    "registerLink": "Apply for partner access",
-    "registerTitle": "Apply for Partner Access",
-    "registerSub": "Apply to become an authorised Terasun Europe distributor or verified partner.",
-    "registerRedirectText": "Partner registration is processed on our main platform. Click below to submit your application.",
-    "registerBtn": "Submit partner application",
-    "haveAccount": "Already have an account?",
-    "loginLink": "Sign in"
+    "loginTitle": "Partneri portaali sisselogimine",
+    "loginSub": "Juurdepääs kaitsetud tehnilistele dokumentidele ja kontohaldusele.",
+    "loginRedirectText": "Partneri portaal asub meie peamisel platvormil. Klõpsake allpool sisselogimiseks.",
+    "loginBtn": "Logi sisse partneri portaali",
+    "noAccount": "Teil ei ole veel kontot?",
+    "registerLink": "Taotlege partneri juurdepääsu",
+    "registerTitle": "Taotlege partneri juurdepääsu",
+    "registerSub": "Taotlege autoriseeritud Terasun Europe jaotujaks või kinnitatud partneriks.",
+    "registerRedirectText": "Partneri registreerimine töödeldakse meie peamisel platvormil. Klõpsake allpool taotluse esitamiseks.",
+    "registerBtn": "Esitage partneri taotlus",
+    "haveAccount": "Teil on juba konto?",
+    "loginLink": "Logi sisse"
   },
   "markets": {
     "eyebrow": "Euroopa turg",
@@ -1058,13 +1059,13 @@
     "markets": "Turud"
   },
   "common": {
-    "learnMore": "Learn more",
-    "requestQuotation": "Request quotation",
-    "contactUs": "Contact us",
-    "downloadDocs": "Download documents",
-    "notManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
-    "authRep": "Authorised European Representative",
-    "backToTop": "Back to top"
+    "learnMore": "Lisateave",
+    "requestQuotation": "Taotlege hinnapakkumist",
+    "contactUs": "Võtke meiega ühendust",
+    "downloadDocs": "Laadige dokumendid alla",
+    "notManufacturer": "Terasun Europe ei ole Terasun toodete tootaja.",
+    "authRep": "Volitatud Euroopa esindaja",
+    "backToTop": "Tagasi üles"
   },
   "home": {
     "productStag": "Toode",

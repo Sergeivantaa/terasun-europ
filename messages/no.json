@@ -9,44 +9,44 @@
       "description": "Terasun Europe er Autorisert Europeisk Representant med base i Vantaa, Finland."
     },
     "manufacturer": {
-      "title": "Manufacturer — Zhejiang Terasun Air Duct Co., Ltd. | Terasun Europe",
-      "description": "Founded 1989 in Zhejiang Province, China. Manufacturer of Terasun TSM fiber cement board with CE, ETA 24/0895, and EPD for European markets."
+      "title": "Produsent — Zhejiang Terasun Air Duct Co., Ltd. | Terasun Europe",
+      "description": "Grunnlagt 1989 i Zhejiang-provinsen, Kina. Produsent av Terasun TSM-fiberbetonplate med CE, ETA 24/0895 og EPD for europeiske markeder."
     },
     "products": {
       "title": "Terasun TSM Fibersementplater — CE & ETA | Terasun Europe",
       "description": "Lette asbestfrie fibersementplater. CE · ETA 24/0895 · EPD · Brannmotstand E120/EI90/EW120."
     },
     "applications": {
-      "title": "Fiber Cement Board Applications — Facades, Fire, Wet Rooms | Terasun Europe",
-      "description": "Terasun TSM fiber cement board for facade cladding, fire-rated partitions, wet rooms, commercial buildings, steel frame, and residential construction across Europe."
+      "title": "Fiberbetonplatens bruksområder — Fasader, brann, våtrom | Terasun Europe",
+      "description": "Terasun TSM-fiberbetonplate for fasadekleding, brannsikre skillevegger, våtrom, næringsbygg, stålramme og boligkonstruksjon i hele Europa."
     },
     "technicalData": {
-      "title": "Technical Data — Terasun TSM Fiber Cement Board | Terasun Europe",
-      "description": "Full technical specifications: weight, dimensions, fire ratings, CE and ETA references, thickness table, and board format data for Terasun TSM fiber cement board."
+      "title": "Tekniske data — Terasun TSM-fiberbetonplate | Terasun Europe",
+      "description": "Fullstendige tekniske spesifikasjoner: vekt, dimensjoner, brannklassifisering, CE- og ETA-referanser, tykkelsestabel og plateformatdata for Terasun TSM-fiberbetonplate."
     },
     "installation": {
-      "title": "Installation Guide — Terasun TSM Fiber Cement Board | Terasun Europe",
-      "description": "Installation guide for Terasun TSM fiber cement board: tools, cutting, fastening, joints, weather protection, and finishing. Download the full installation manual."
+      "title": "Installasjonsguide — Terasun TSM-fiberbetonplate | Terasun Europe",
+      "description": "Installasjonsguide for Terasun TSM-fiberbetonplate: verktøy, snitt, montering, skjøter, værproteksjon og sluttbehandling. Last ned fullstendig installasjonshåndbok."
     },
     "certifications": {
       "title": "Sertifiseringer — CE · ETA · EPD · Brann | Terasun Europe",
       "description": "Sertifiseringer Terasun TSM: CE 1023-CPR-1565 P, ETA 24/0895, DoP, EPD, brannmotstand E120."
     },
     "downloads": {
-      "title": "Document Library — Technical Documents | Terasun Europe",
-      "description": "Download technical data sheets, installation manuals, CE certificate, ETA, EPD, fire test report, and system guides for Terasun TSM fiber cement board."
+      "title": "Dokumentbibliotek — Tekniske dokumenter | Terasun Europe",
+      "description": "Last ned tekniske datablad, installasjonshåndbøker, CE-sertifikat, ETA, EPD, branntest-rapport og systemguider for Terasun TSM-fiberbetonplate."
     },
     "distributors": {
-      "title": "Distribution Partnership — Become a Terasun Distributor | Terasun Europe",
-      "description": "Exclusive distribution opportunities across Europe for Terasun TSM CE-certified fiber cement board. Competitive margins, technical support, and training."
+      "title": "Distribusjonspartnerskap — Bli Terasun-distributør | Terasun Europe",
+      "description": "Eksklusive distribusjonsemuligheter i hele Europa for Terasun TSM CE-sertifisert fiberbetonplate. Konkurransedyktige marginer, teknisk støtte og opplæring."
     },
     "logistics": {
-      "title": "Logistics & Supply Chain — Container Delivery | Terasun Europe",
-      "description": "Terasun TSM boards shipped from China by container. EXW, FOB, CFR, CIF, DAP, DDP. Typical lead time 6–10 weeks. European warehouse delivery available."
+      "title": "Logistikk og forsyningskjede — Containerlevering | Terasun Europe",
+      "description": "Terasun TSM-plater sendt fra Kina med container. EXW, FOB, CFR, CIF, DAP, DDP. Typisk leveringstid 6–10 uker. Europisk lagerlevering tilgjengelig."
     },
     "gallery": {
-      "title": "Project Gallery — Terasun TSM Installations | Terasun Europe",
-      "description": "Photos of Terasun TSM fiber cement board installations: facade cladding, wet rooms, fire partitions, and more across European construction projects."
+      "title": "Prosjektgalleri — Terasun TSM-installasjoner | Terasun Europe",
+      "description": "Bilder av Terasun TSM-fiberbetonplate-installasjoner: fasadekleding, våtrom, brannvegger og mer fra europeiske byggprosjekter."
     },
     "faq": {
       "title": "FAQ — Terasun TSM Fibersementplater | Terasun Europe",
@@ -57,8 +57,8 @@
       "description": "Be om tilbud, prøve eller teknisk informasjon. Vi svarer innen 1 arbeidsdag."
     },
     "blog": {
-      "title": "Blog & Resources — Fiber Cement Construction | Terasun Europe",
-      "description": "Articles, installation guides, and industry news about fiber cement board for European construction professionals."
+      "title": "Blogg og ressurser — Fiberbetonkonstruksjon | Terasun Europe",
+      "description": "Artikler, installasjonsguider og industrinyheter om fibercement-plate for europeiske bygningsfagfolk."
     }
   },
   "nav": {
@@ -81,15 +81,15 @@
     "installation": "Installasjon"
   },
   "hero": {
-    "eyebrow": "CE · ETA · EPD · Fire certified",
+    "eyebrow": "CE · ETA · EPD · Brannsertifisert",
     "h1": "Lette fibersementplater for europeisk bygg",
     "sub": "Terasun TSM — asbestfri, CE-sertifisert, 9,96 kg/m² ved 12 mm. Direktelevering fra fabrikk.",
     "btnQuote": "Be om tilbud",
     "btnContact": "Kontakt oss",
     "btnDownloads": "Nedlastinger",
-    "tagline": "Authorised European Representative",
-    "note": "Terasun Europe is the Authorised European Representative.",
-    "noteManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
+    "tagline": "Autorisert europeisk representant",
+    "note": "Terasun Europe er den autoriserte europeiske representanten.",
+    "noteManufacturer": "Terasun Europe er ikke produsenten av Terasun-produkter.",
     "h1Line1": "Lette fibersementplater",
     "h1Line2Emphasis": "CE-sertifisert",
     "h1Line2": "for europeisk bygg",
@@ -100,82 +100,82 @@
       "CE 1023-CPR-1565 P",
       "ETA 24/0895",
       "EPD-IES-0018268",
-      "Wall assembly: E120/EI90/EW120",
-      "REACH compliant",
-      "25 EU languages"
+      "Veggsamling: E120/EI90/EW120",
+      "REACH-konform",
+      "25 EU-språk"
     ]
   },
   "about": {
-    "eyebrow": "About Terasun Europe",
-    "h1": "European cement board supplier and technical partner",
-    "sub": "Your authorised source for CE-certified Terasun TSM fiber cement board across Europe.",
-    "statusTitle": "Authorised European Representative",
-    "statusText": "Terasun Europe is the officially appointed Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd. We are responsible for CE documentation, EU market compliance, and European customer support.",
-    "body": "We serve architects, main contractors, building material distributors, and project specifiers across all EU member states. Our team provides technical guidance, documentation, logistics coordination, and long-term supply relationships.",
-    "disclaimerTitle": "Important: Terasun Europe is not the manufacturer",
-    "disclaimerText": "Terasun Europe is the Authorised European Representative only. The product is manufactured by Zhejiang Terasun Air Duct Co., Ltd. in Zhejiang Province, China. Terasun Europe is responsible for CE marking documentation and European market compliance in accordance with EU Construction Products Regulation.",
-    "stag": "About us",
-    "title": "Your authorised European partner for fiber cement board",
-    "missionStag": "Our mission",
-    "missionText": "To give European construction professionals reliable access to CE-certified, technically documented fiber cement board — with responsive logistics and expert support.",
+    "eyebrow": "Om Terasun Europe",
+    "h1": "Europeisk sementplatteleverandør og teknisk partner",
+    "sub": "Din autoriserte kilde for CE-sertifisert Terasun TSM fibersementplate i hele Europa.",
+    "statusTitle": "Autorisert europeisk representant",
+    "statusText": "Terasun Europe er den offisielt oppnevnte autoriserte europeiske representanten for Zhejiang Terasun Air Duct Co., Ltd. Vi er ansvarlige for CE-dokumentasjon, EU-markedsoverholdelse, og europeisk kundesupport.",
+    "body": "Vi betjener arkitekter, hovedentreprenører, byggematerialedistributører, og prosjektspesifikatører på tvers av alle EU-medlemsstater. Vårt team gir teknisk veiledning, dokumentasjon, logistikkkoordinering, og langsiktige forsyningsrelasjoner.",
+    "disclaimerTitle": "Viktig: Terasun Europe er ikke produsenten",
+    "disclaimerText": "Terasun Europe er kun den autoriserte europeiske representanten. Produktet er produsert av Zhejiang Terasun Air Duct Co., Ltd. i Zhejiang-provinsen, Kina. Terasun Europe er ansvarlig for CE-merking dokumentasjon og europeisk marked-konformitet i samsvar med EU-regelverket for konstruksjonsprodukter.",
+    "stag": "Om oss",
+    "title": "Din autoriserte europeiske partner for fiberbasert sementplate",
+    "missionStag": "Vårt oppdrag",
+    "missionText": "Å gi europeiske byggefagfolk pålitelig tilgang til CE-sertifisert, teknisk dokumentert fiberbasert sementplate — med responsiv logistikk og ekspertstøtte.",
     "stat1Num": "1989",
-    "stat1Label": "Manufacturer founded",
+    "stat1Label": "Produsent grunnlagt",
     "stat2Num": "25",
-    "stat2Label": "EU languages supported",
+    "stat2Label": "EU-språk støttet",
     "points": [
       {
-        "title": "CE documentation",
-        "text": "Maintaining all EU construction product compliance documents — Declaration of Performance, CE marking, and technical files."
+        "title": "CE-dokumentasjon",
+        "text": "Vedlikehold av alle EU-konstruksjonsproduktkompliansedokumenter — Ytelsesdeklarasjon, CE-merking og tekniske filer."
       },
       {
-        "title": "European supply",
-        "text": "Direct container supply from factory in China to distributors and contractors across all EU and EEA member states."
+        "title": "Europeisk forsyning",
+        "text": "Direkte containerforsyning fra fabrikk i Kina til distributører og entreprenører over hele EU og EØS medlemsstater."
       },
       {
-        "title": "Technical support",
-        "text": "ETA, EPD, fire test reports, and REACH declarations for architects, specifiers, and building authorities."
+        "title": "Teknisk støtte",
+        "text": "ETA, EPD, branntest-rapporter og REACH-erklæringer for arkitekter, prosjektanter og byggemyndigheter."
       }
     ]
   },
   "authorised": {
-    "eyebrow": "Our role in the supply chain",
-    "h1": "Authorised European Representative",
-    "sub": "Appointed by the manufacturer to act as the official European point of contact for CE documentation, market compliance, and customer support.",
+    "eyebrow": "Vår rolle i forsyningskjeden",
+    "h1": "Autorisert europeisk representant",
+    "sub": "Utnevnt av produsenten til å fungere som den offisielle europeiske kontaktpunktet for CE-dokumentasjon, markedssamsvar og kundeservice.",
     "cards": {
       "ce": {
-        "title": "CE Documentation",
-        "body": "Maintaining all EU construction product compliance documentation — Declaration of Performance, CE marking, and technical files."
+        "title": "CE-dokumentasjon",
+        "body": "Vedlikehold av all dokumentasjon for EU-byggeproduktets samsvar — Erklæring om ytelse, CE-merking og tekniske filer."
       },
       "rep": {
-        "title": "Official Representative",
-        "body": "Appointed by Zhejiang Terasun Air Duct Co., Ltd. as the Authorised European Representative under EU Construction Products Regulation."
+        "title": "Offisiell representant",
+        "body": "Utnevnt av Zhejiang Terasun Air Duct Co., Ltd. som autorisert europeisk representant under EU-byggeproduktforordningen."
       },
       "docs": {
-        "title": "Technical Support",
-        "body": "Providing ETA, EPD, fire test reports, and REACH declarations to architects, specifiers, and building authorities."
+        "title": "Teknisk støtte",
+        "body": "Levering av ETA, EPD, branntestrapporter og REACH-erklæringer til arkitekter, konstruktører og byggmyndigheter."
       },
       "mkt": {
-        "title": "European Markets",
-        "body": "Serving all EU member states, EEA countries, and the wider European market from our base in Vantaa, Finland."
+        "title": "Europeiske markeder",
+        "body": "Betjener alle EU-medlemsstater, EØS-land og det bredere europeiske markedet fra vår base i Vantaa, Finland."
       }
     },
-    "stag": "Our role",
-    "title": "Authorised European Representative"
+    "stag": "Vår rolle",
+    "title": "Autorisert europeisk representant"
   },
   "manufacturer": {
-    "eyebrow": "About the manufacturer",
+    "eyebrow": "Om produsenten",
     "h1": "Zhejiang Terasun Air Duct Co., Ltd.",
-    "sub": "Founded in 1989 in Zhejiang Province, China — manufacturer of Terasun TSM fiber cement board with full European certification.",
-    "desc1": "Zhejiang Terasun Air Duct Co., Ltd. is an established cement board manufacturer producing fiber cement and construction board products since 1989. Its Terasun range includes products supported by full European technical documentation including CE, ETA, EPD, and fire test certifications.",
-    "desc2": "All boards are produced in compliance with ETA 24/0895 requirements. Third-party testing confirms performance data matches the Declaration of Performance. Modern production lines support large-volume export orders with quality control applied across all board specifications.",
+    "sub": "Grunnlagt i 1989 i Zhejiang-provinsen, Kina — produsent av Terasun TSM fibercement-tavle med full europeisk sertifisering.",
+    "desc1": "Zhejiang Terasun Air Duct Co., Ltd. er en etablert sementplateleverandør som produserer fibercement- og bygningsplateprodukter siden 1989. Terasun-serien inkluderer produkter støttet av komplett europeisk teknisk dokumentasjon inkludert CE, ETA, EPD og brannprøvingssertifiseringer.",
+    "desc2": "Alle plater produseres i samsvar med ETA 24/0895-krav. Test av tredje part bekrefter at ytelsedata samsvarer med ytelseserklæringen. Moderne produksjonsliner støtter storvolum-eksportordrer med kvalitetskontroll anvendt på alle platespesifikasjoner.",
     "stats": {
       "capacity": {
         "value": "1989",
-        "label": "Founded"
+        "label": "Grunnlagt"
       },
       "employees": {
         "value": "CE + ETA",
-        "label": "Certified"
+        "label": "Sertifisert"
       },
       "countries": {
         "value": "EPD",
@@ -183,69 +183,69 @@
       },
       "patents": {
         "value": "E120",
-        "label": "Fire tested"
+        "label": "Brannprøvd"
       }
     },
-    "timelineTitle": "Company milestones",
+    "timelineTitle": "Selskapets milepæler",
     "timeline": {
       "founded": {
         "year": "1989",
-        "title": "Company founded",
-        "body": "Zhejiang Terasun Air Duct Co., Ltd. established in Zhejiang Province, China."
+        "title": "Selskapet grunnlagt",
+        "body": "Zhejiang Terasun Air Duct Co., Ltd. etablert i Zhejiang Province, Kina."
       },
       "iso": {
-        "year": "2000s",
-        "title": "ISO certification",
-        "body": "Manufacturing processes certified to international quality management standards."
+        "year": "2000-tallet",
+        "title": "ISO-sertifisering",
+        "body": "Produksjonsprosesser sertifisert til internasjonale kvalitetsstandarder."
       },
       "expansion": {
         "year": "2018",
-        "title": "Production expansion",
-        "body": "Expanded fiber cement board production capacity to serve growing European export demand."
+        "title": "Produksjonsutvidelse",
+        "body": "Utvidet fibercement-plateproduksjonskapasitet for å betjene voksende europeisk eksportetterspørsel."
       },
       "europe": {
         "year": "2023",
-        "title": "European representative appointed",
-        "body": "Terasun Europe established as the Authorised European Representative in Vantaa, Finland."
+        "title": "Europeisk representant oppnevnt",
+        "body": "Terasun Europe etablert som autorisert europeisk representant i Vantaa, Finland."
       },
       "eta": {
         "year": "2024",
-        "title": "ETA 24/0895 issued",
-        "body": "European Technical Assessment issued by a designated ETA body. CE marking confirmed under the EU Construction Products Regulation."
+        "title": "ETA 24/0895 utstedt",
+        "body": "Europeisk teknisk vurdering utstedt av et utpekt ETA-organ. CE-merking bekreftet under EU-konstruksjonsproduktsforordningen."
       },
       "epd": {
         "year": "2025",
-        "title": "EPD published",
-        "body": "EPD-IES-0018268 published March 2025, valid until 2029. ISO 14025 compliant environmental declaration."
+        "title": "EPD publisert",
+        "body": "EPD-IES-0018268 publisert mars 2025, gyldig til 2029. ISO 14025-kompatibel miljøerklæring."
       }
     },
-    "noteTitle": "Manufacturer relationship",
-    "noteText": "Terasun Europe is the Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd. Terasun Europe does not manufacture Terasun products. All products are manufactured in China and supplied via direct container shipment. European Representative: Terasun Europe, 01370 Vantaa, Finland."
+    "noteTitle": "Produsentforhold",
+    "noteText": "Terasun Europe er autorisert europeisk representant for Zhejiang Terasun Air Duct Co., Ltd. Terasun Europe produserer ikke Terasun-produkter. Alle produkter produseres i Kina og leveres via direkte containerfrakt. Europeisk representant: Terasun Europe, 01370 Vantaa, Finland."
   },
   "products": {
-    "eyebrow": "Product",
-    "h1": "Terasun TSM — lightweight fiber cement board",
-    "sub": "CE-certified, asbestos-free fiber cement board for European construction. Facades, wet rooms, fire partitions, and more.",
-    "name": "Terasun TSM Fiber Cement Board",
+    "eyebrow": "Produkt",
+    "h1": "Terasun TSM — lett fibersementplate",
+    "sub": "CE-sertifisert, asbestfri fibersementplate for europeisk konstruksjon. Fasader, våtrom, brannmurer og mer.",
+    "name": "Terasun TSM fibersementplate",
     "tagline": "CE 1023-CPR-1565 P · ETA 24/0895 · EPD-IES-0018268",
-    "desc": "A lightweight cement-based construction board with inorganic binders, lightweight components and fibreglass mesh reinforcement, designed for structural performance, moisture resistance, and fire safety in documented wall systems. Asbestos-free, CE certified, and manufactured to ETA 24/0895 requirements.",
-    "techEyebrow": "Technical specifications",
-    "techH1": "Full technical data — Terasun TSM",
-    "techSub": "Complete specification table with declared values, standards references, and thickness comparison.",
-    "thicknessTitle": "Available thicknesses",
-    "formatsTitle": "Standard board formats",
-    "compositionTitle": "Material composition",
-    "galleryTitle": "Product photos",
+    "desc": "Et lett sementbasert konstruksjonsbrett med uorganiske bindere, lette komponenter og glassfiber-nettarmering, designet for strukturell ytelse, fuktresistans og brannsikkerhet i dokumenterte veggystemer. Asbestfritt, CE-sertifisert og produsert i henhold til ETA 24/0895-krav.",
+    "techEyebrow": "Tekniske spesifikasjoner",
+    "techH1": "Fullstendige tekniske data — Terasun TSM",
+    "techSub": "Fullstendig spesifikasjonstabell med deklarerte verdier, standardreferanser og tykkelsessammenlikning.",
+    "thicknessTitle": "Tilgjengelige tykkelser",
+    "formatsTitle": "Standard brettformater",
+    "compositionTitle": "Materialsammensetning",
+    "galleryTitle": "Produktfotografier",
     "specs": {
-      "ceMarking": "CE Marking",
-      "eta": "European Technical Assessment",
-      "dop": "Declaration of Performance",
-      "fireResistance": "Fire resistance",
-      "weight12mm": "Declared weight (12 mm)",
-      "epd": "EPD reference",
+      "ceMarking": "CE-merking",
+      "eta": "Europeisk teknisk vurdering",
+      "dop": "Ytelseserklæring",
+      "fireResistance": "Branntålighet",
+      "weight12mm": "Deklarert vekt (12 mm)",
+      "epd": "EPD-referanse",
       "binder": "Binder",
-      "reinforcement": "Reinforcement",
-      "studSpacing": "Stud spacing"
+      "reinforcement": "Armering",
+      "studSpacing": "Studs-avstand"
     },
     "composition": {
       "cement": {
@@ -278,512 +278,520 @@
     "thicknessNote": "Komplett sortiment 3–25 mm, avhengig av bestillingsvolum og produksjonstilgjengelighet. Tekniske data bekreftet for 12 mm; andre tykkelser på forespørsel."
   },
   "applications": {
-    "eyebrow": "Applications",
-    "h1": "Fiber cement board applications",
-    "sub": "Terasun TSM is specified across a wide range of European construction applications — from ventilated facades to fire-rated partitions and wet rooms.",
-    "ctaTitle": "Not sure which system fits your project?",
-    "ctaText": "Contact our technical team for application guidance, system specifications, and a tailored quotation.",
+    "eyebrow": "Bruksområder",
+    "h1": "Bruksområder for fiberbasert sementplate",
+    "sub": "Terasun TSM er spesifisert over et bredt spekter av europeiske konstruksjonsapplikasjoner — fra ventilerte fasader til brannklassifiserte skillevegger og fuktige rom.",
+    "ctaTitle": "Usikker på hvilket system som passer til ditt prosjekt?",
+    "ctaText": "Kontakt vårt tekniske team for applikasjonsveiledning, systemspesifikasjoner og skreddersydd tilbud.",
     "tags": {
-      "Ventilated": "Ventilated",
-      "All climates": "All climates",
-      "Paintable": "Paintable",
+      "Ventilated": "Ventilert",
+      "All climates": "Alle klima",
+      "Paintable": "Malbar",
       "E 120": "E 120",
       "EI 90": "EI 90",
       "EW 120": "EW 120",
       "Mapei": "Mapei system",
       "Schönox": "Schönox system",
-      "Interior": "Interior",
-      "Exterior": "Exterior",
-      "Industrial": "Industrial",
-      "Heavy-duty": "Heavy-duty",
-      "Residential": "Residential",
-      "Timber frame": "Timber frame"
+      "Interior": "Innvendig",
+      "Exterior": "Utvendig",
+      "Industrial": "Industriell",
+      "Heavy-duty": "Tungt arbeid",
+      "Residential": "Bolig",
+      "Timber frame": "Trekonstruksjon"
     },
     "facade-systems": {
-      "title": "Facade systems",
-      "summary": "Lightweight facade cladding in ventilated and render systems for exterior walls across all European climate zones.",
-      "metaTitle": "Fiber Cement Board Facade Systems | Terasun TSM | Terasun Europe",
-      "metaDesc": "Terasun TSM for ventilated facade systems (CBSS/CBMV). Lightweight, CE-certified, paintable. Supply across Europe.",
-      "h1": "Fiber cement board for facade systems",
-      "lead": "Specified as a facade cement board in CBSS and CBMV ventilated facade systems across European climate zones.",
-      "body1": "Terasun TSM is used as the facade board in ventilated cladding systems, providing a lightweight exterior skin that breathes and drains behind cladding rails. The board is paintable with mineral or silicone render finishes.",
+      "title": "Fasadesystemer",
+      "summary": "Lett fasadekledning i ventilerte og putsede systemer for yttervegger på tvers av alle europeiske klimasoner.",
+      "metaTitle": "Fibercement Fasadesystemer | Terasun TSM | Terasun Europe",
+      "metaDesc": "Terasun TSM for ventilerte fasadesystemer (CBSS/CBMV). Lett, CE-sertifisert, malbar. Forsyning over hele Europa.",
+      "h1": "Fibercement plater for fasadesystemer",
+      "lead": "Spesifisert som fasadecementplate i CBSS og CBMV ventilerte fasadesystemer på tvers av europeiske klimasoner.",
+      "body1": "Terasun TSM brukes som fasadeplaten i ventilerte kledningssystemer, som gir et lett utvendigt skall som ånder og dreneres bak kledningsmonteringer. Platen er malbar med mineral- eller silikonputsfinish.",
       "body2": "In render carrier applications, TSM acts as the substrate for external mineral render systems. Its autoclaved surface provides excellent adhesion and dimensional stability for render finishes in exposed conditions.",
-      "featuresTitle": "Key technical features",
-      "feature1": "Lightweight — 9.96 kg/m² at 12 mm reduces structural load",
-      "feature2": "CE certified under EN 12467 — mandatory for EEA use",
-      "feature3": "Suitable for ventilated and direct fix systems",
-      "feature4": "Paintable — compatible with mineral and silicone renders",
-      "feature5": "All climates — tested for Nordic and Central European conditions",
-      "feature6": "Available in thicknesses 6–18 mm for different facade loads",
-      "spec_Ventilated": "CBSS / CBMV systems",
-      "spec_All climates": "Nordic to Mediterranean",
-      "spec_Paintable": "Mineral / silicone render"
+      "featuresTitle": "Viktige tekniske egenskaper",
+      "feature1": "Lett — 9,96 kg/m² ved 12 mm reduserer strukturbelastning",
+      "feature2": "CE-sertifisert under EN 12467 — obligatorisk for EØS-bruk",
+      "feature3": "Egnet for ventilerte og direkte faste systemer",
+      "feature4": "Malbar — kompatibel med mineral- og silikonputser",
+      "feature5": "Alle klima — testet for nordiske og sentral-europeiske forhold",
+      "feature6": "Tilgjengelig i tykkelser 6–18 mm for ulike fasadebelastninger",
+      "spec_Ventilated": "CBSS / CBMV systemer",
+      "spec_All climates": "Nordisk til Middelhavet",
+      "spec_Paintable": "Mineral- / silikonputse"
     },
     "fire-protection": {
-      "title": "Fire protection",
-      "summary": "Independently tested fire-rated partition systems achieving E120, EI90, and EW120 fire resistance classifications.",
-      "metaTitle": "Fire Resistant Cement Board Partitions | E120 EI90 EW120 | Terasun Europe",
-      "metaDesc": "Terasun TSM fire-rated wall system: E120 / EI90 / EW120. Independently tested per FIRES-CR-284-25-AUPE.",
-      "h1": "Fire-resistant cement board partitions",
-      "lead": "Independently tested fire-rated wall system achieving E 120, EI 90, and EW 120 classifications.",
-      "body1": "The Terasun TSM fire-rated wall system achieves E 120, EI 90, and EW 120 classifications per FIRES-CR-284-25-AUPE.",
-      "body2": "Suitable for commercial, public, and industrial buildings. Specifications should reference the tested system configuration.",
-      "featuresTitle": "Fire performance features",
-      "feature1": "E 120 — integrity 120 minutes",
-      "feature2": "EI 90 — integrity and insulation 90 minutes",
-      "feature3": "EW 120 — integrity and radiation limitation 120 minutes",
-      "feature4": "Independently tested — FIRES-CR-284-25-AUPE",
-      "feature5": "CE certified for fire performance under the EU Construction Products Regulation",
-      "feature6": "Suitable for commercial, public, and industrial occupancies",
-      "spec_E 120": "Integrity 120 min",
-      "spec_EI 90": "Integrity + insulation 90 min",
-      "spec_EW 120": "Integrity + radiation 120 min"
+      "title": "Brannvern",
+      "summary": "Uavhengig testet brannklassifiserte veggpartisjonssystemer som oppnår E120, EI90 og EW120 brannmotstands klassifiseringer.",
+      "metaTitle": "Brannmotstandsdyktige Cementplater | E120 EI90 EW120 | Terasun Europe",
+      "metaDesc": "Terasun TSM brannklassifisert veggystem: E120 / EI90 / EW120. Uavhengig testet etter FIRES-CR-284-25-AUPE.",
+      "h1": "Brannmotstandsdyktige cementplater",
+      "lead": "Uavhengig testet brannklassifisert veggystem som oppnår E 120, EI 90 og EW 120 klassifiseringer.",
+      "body1": "Terasun TSM brannmotstandig veggsystem oppnår E 120, EI 90 og EW 120 klassifiseringer per FIRES-CR-284-25-AUPE.",
+      "body2": "Egnet for kommersielle, offentlige og industrielle bygg. Spesifikasjoner bør referere til den testede systemkonfigurasjonen.",
+      "featuresTitle": "Brannytelsesegenskaper",
+      "feature1": "E 120 — integritet 120 minutter",
+      "feature2": "EI 90 — integritet og isolasjon 90 minutter",
+      "feature3": "EW 120 — integritet og strålingsgrensing 120 minutter",
+      "feature4": "Uavhengig testet — FIRES-CR-284-25-AUPE",
+      "feature5": "CE-sertifisert for brannytelse under EU Construction Products Regulation",
+      "feature6": "Egnet for kommersielle, offentlige og industrielle virksomheter",
+      "spec_E 120": "Integritet 120 min",
+      "spec_EI 90": "Integritet + isolasjon 90 min",
+      "spec_EW 120": "Integritet + stråling 120 min"
     },
     "wet-rooms": {
-      "title": "Wet room systems",
-      "summary": "Tile backing substrate in Mapei and Schönox approved wet room systems for bathrooms, showers, and commercial kitchens.",
-      "metaTitle": "Fiber Cement Wet Room Substrate | Mapei Schönox | Terasun Europe",
-      "metaDesc": "Terasun TSM as tile backing in Mapei and Schönox wet room systems. CE-certified, moisture-resistant.",
-      "h1": "Fiber cement board for wet rooms",
-      "lead": "Moisture-resistant tile backing in Mapei and Schönox approved wet room systems.",
-      "body1": "Terasun TSM is used as the tile backing substrate in Mapei and Schönox approved wet area tiling systems. The board provides a dimensionally stable, moisture-resistant surface for direct tile application.",
+      "title": "Våtromssystemer",
+      "summary": "Flisubstrat i Mapei og Schönox-godkjente våtromssystemer for bad, dusjer og kommersielle kjøkken.",
+      "metaTitle": "Fibercement Våtrom Substrat | Mapei Schönox | Terasun Europe",
+      "metaDesc": "Terasun TSM som flisbelegg i Mapei og Schönox våtromssystemer. CE-sertifisert, fuktsikker.",
+      "h1": "Fibercement plater for våtrom",
+      "lead": "Fuktsikker flisbelegg i Mapei og Schönox-godkjente våtromssystemer.",
+      "body1": "Terasun TSM brukes som flisbelegg i Mapei og Schönox-godkjente våtromsflisleggingssystemer. Platen gir en dimensjonsstabil, fuktsikker overflate for direkte flislegging.",
       "body2": "The autoclaved surface does not expand or contract with moisture cycling — ideal for areas with continuous water exposure.",
-      "featuresTitle": "Wet room performance",
-      "feature1": "Moisture resistant — dimensionally stable in wet conditions",
-      "feature2": "Direct tile substrate — compatible with polymer-modified adhesives",
-      "feature3": "Mapei system approved",
-      "feature4": "Schönox system approved",
-      "feature5": "CE certified for wet area applications",
-      "feature6": "Suitable for floors, walls, and ceilings in wet rooms",
-      "spec_Mapei": "Mapei approved system",
-      "spec_Schönox": "Schönox approved system"
+      "featuresTitle": "Våtromsytelse",
+      "feature1": "Fuktsikker — dimensjonsstabil i våte forhold",
+      "feature2": "Direkte flissubstrat — kompatibel med polymermodifisert lim",
+      "feature3": "Mapei-system godkjent",
+      "feature4": "Schönox-system godkjent",
+      "feature5": "CE-sertifisert for våtromapplikasjoner",
+      "feature6": "Egnet for gulv, vegger og tak i våtrom",
+      "spec_Mapei": "Mapei-godkjent system",
+      "spec_Schönox": "Schönox-godkjent system"
     },
     "commercial-buildings": {
-      "title": "Commercial buildings",
-      "summary": "Interior and exterior cladding for commercial buildings, retail, offices, and mixed-use developments.",
-      "metaTitle": "Fiber Cement Cladding Commercial Buildings | CE | Terasun Europe",
-      "metaDesc": "Terasun TSM for commercial building cladding. CE-certified, lightweight, EPD for LEED/BREEAM projects.",
-      "h1": "Fiber cement board for commercial buildings",
-      "lead": "Interior and exterior cladding for commercial buildings requiring CE-certified, durable panels.",
-      "body1": "Terasun TSM is specified for offices, retail, hospitality, and mixed-use developments. CE marking and EPD support green building certification.",
-      "body2": "The board's lightweight nature reduces structural loads. Large format boards up to 1200×3000 mm reduce joints and installation time.",
-      "featuresTitle": "Commercial features",
-      "feature1": "CE certified — mandatory documentation for commercial specification",
-      "feature2": "EPD available — supports LEED, BREEAM, DGNB projects",
-      "feature3": "Lightweight — reduces structural loads",
-      "feature4": "Fire rated — E120/EI90/EW120",
-      "feature5": "Interior and exterior — single product for whole-building specification",
-      "feature6": "Large format — 1200×3000 mm reduces joints",
-      "spec_Interior": "Drylining, ceilings, partitions",
-      "spec_Exterior": "Facade cladding, soffits"
+      "title": "Kommersielle bygg",
+      "summary": "Innvendig og utvendig kledning for kommersielle bygg, detaljhandel, kontorer og multifunksjonsutviklinger.",
+      "metaTitle": "Fibercement Kledning Kommersielle Bygg | CE | Terasun Europe",
+      "metaDesc": "Terasun TSM for kommersiell bygningskledning. CE-sertifisert, lett, EPD for LEED/BREEAM-prosjekter.",
+      "h1": "Fibercement-plate for kommersielle bygninger",
+      "lead": "Innvendig og utvendig kledning for kommersiell bygninger som krever CE-sertifiserte, holdbare plater.",
+      "body1": "Terasun TSM er spesifisert for kontorer, detaljhandel, gjestfrihet og blandede bruksarealer. CE-merking og EPD støtter grønn byggesertifisering.",
+      "body2": "Platens lette natur reduserer strukturbelastninger. Store formatplater opp til 1200×3000 mm reduserer fuger og installasjonstid.",
+      "featuresTitle": "Kommersielle funksjoner",
+      "feature1": "CE-sertifisert — obligatorisk dokumentasjon for kommersiell spesifikasjon",
+      "feature2": "EPD tilgjengelig — støtter LEED, BREEAM, DGNB-prosjekter",
+      "feature3": "Lett — reduserer strukturbelastninger",
+      "feature4": "Brannsertifisert — E120/EI90/EW120",
+      "feature5": "Innvendig og utvendig — ett enkelt produkt for hel bygningsspesifikasjon",
+      "feature6": "Stort format — 1200×3000 mm reduserer fuger",
+      "spec_Interior": "Tørkledning, tak, skillevegger",
+      "spec_Exterior": "Fasadekledning, sofitter"
     },
     "steel-frame": {
-      "title": "Steel frame construction",
-      "summary": "Heavy-duty industrial sheathing and cladding for steel frame structures, warehouses, and industrial buildings.",
-      "metaTitle": "Fiber Cement Steel Frame Industrial | Heavy-Duty | Terasun Europe",
-      "metaDesc": "Terasun TSM for steel frame industrial sheathing. CE-certified, heavy-duty for warehouses and industrial buildings.",
-      "h1": "Fiber cement board for steel frame construction",
-      "lead": "Heavy-duty industrial sheathing for steel frame structures, warehouses, and industrial buildings.",
-      "body1": "Terasun TSM provides robust sheathing for steel frame industrial buildings. High density and impact resistance make it suitable for warehouse walls, industrial facades, and machine room cladding.",
-      "body2": "Compatible with standard steel stud systems at 400 mm or 600 mm spacing and direct fix to purlins.",
-      "featuresTitle": "Steel frame features",
-      "feature1": "Compatible with 400 mm and 600 mm steel stud spacing",
-      "feature2": "High impact resistance for industrial environments",
-      "feature3": "CE certified for commercial and industrial use",
-      "feature4": "Fire rated — E120/EI90/EW120",
-      "feature5": "Available up to 18 mm for heavy-duty loads",
-      "feature6": "Paintable surface for finished industrial aesthetics",
-      "spec_Industrial": "Warehouses, machine rooms",
-      "spec_Heavy-duty": "Direct fix to steel purlins"
+      "title": "Stålrammekonstruksjon",
+      "summary": "Tungt industrielt innhylling og kledning for stålrammekonstruksjoner, varehus og industrielle bygninger.",
+      "metaTitle": "Fibercement Stålramme Industriell | Tungt | Terasun Europe",
+      "metaDesc": "Terasun TSM for stålramme industrielt innhylling. CE-sertifisert, tungt for varehus og industrielle bygninger.",
+      "h1": "Fibercement-plate for stålrammekonstruksjon",
+      "lead": "Tungt industrielt innhylling for stålrammekonstruksjoner, varehus og industrielle bygninger.",
+      "body1": "Terasun TSM gir robust innhylling for stålramme industrielle bygninger. Høy tetthet og slagmotstand gjør det egnet for varehusvegg, industrielle fasader og maskinromkleding.",
+      "body2": "Kompatibel med standard stålstudssystemer med 400 mm eller 600 mm avstand og direkte festing til purlinjer.",
+      "featuresTitle": "Stålrammeegenskaper",
+      "feature1": "Kompatibel med 400 mm og 600 mm stålstudavstand",
+      "feature2": "Høy slagmotstand for industrielle miljøer",
+      "feature3": "CE-sertifisert for kommersiell og industriell bruk",
+      "feature4": "Brannklassifisert — E120/EI90/EW120",
+      "feature5": "Tilgjengelig opp til 18 mm for tunge belastninger",
+      "feature6": "Malbar overflate for fullført industriell estetikk",
+      "spec_Industrial": "Lagerhaller, maskinrom",
+      "spec_Heavy-duty": "Direkte montering på stålrumler"
     },
     "residential": {
-      "title": "Residential construction",
-      "summary": "Lightweight exterior and interior boards for timber frame and masonry residential buildings.",
-      "metaTitle": "Fiber Cement Board Residential Timber Frame | CE | Terasun Europe",
-      "metaDesc": "Terasun TSM for residential timber frame and masonry. CE-certified lightweight boards for houses and apartments.",
-      "h1": "Fiber cement board for residential construction",
-      "lead": "Lightweight exterior and interior boards for timber frame and masonry residential buildings.",
-      "body1": "Terasun TSM is widely used in residential construction for facade cladding, wet room substrates, and interior wall sheathing in timber frame and masonry builds.",
-      "body2": "Moisture resistance and fire performance make it suitable for all residential occupancy types, including multi-family apartments requiring fire-rated separation.",
-      "featuresTitle": "Residential features",
-      "feature1": "Lightweight — easy handling on residential sites",
-      "feature2": "Timber frame compatible — 400 mm and 600 mm stud spacing",
-      "feature3": "Moisture resistant — exterior and wet area use",
-      "feature4": "Fire rated — suitable for party wall fire separation",
-      "feature5": "CE certified for residential building regulations",
-      "feature6": "Wet room substrate — direct tile application in bathrooms",
-      "spec_Residential": "Houses, apartments, terraced",
-      "spec_Timber frame": "Timber stud at 400 / 600 mm"
-    }
+      "title": "Boligkonstruksjon",
+      "summary": "Lette utvendige og innvendige plater for timmerkonstruksjoner og murkonstruksjoner.",
+      "metaTitle": "Fibercement-plate Bolig Timmerkonstruksjon | CE | Terasun Europe",
+      "metaDesc": "Terasun TSM for boligtimmerkonstruksjoner og murkonstruksjoner. CE-sertifiserte lette plater for hus og leiligheter.",
+      "h1": "Fibercement-plate for boligkonstruksjon",
+      "lead": "Lette utvendige og innvendige plater for timmerkonstruksjoner og murkonstruksjoner.",
+      "body1": "Terasun TSM brukes mye i boligkonstruksjon til fasadebekledning, våtromsunderlag og innvendig veggbelegg i timmerkonstruksjoner og murkonstruksjoner.",
+      "body2": "Fuktresistens og brannytelse gjør den egnet for alle typer boligbruk, inkludert flerfamilieleiligheter som krever brannklassifisert separasjon.",
+      "featuresTitle": "Boligfunksjoner",
+      "feature1": "Lett — enkel håndtering på boligsteder",
+      "feature2": "Kompatibel med timmerkonstruksjon — 400 mm og 600 mm staveavstand",
+      "feature3": "Fuktbestandig — til utvendig og våt bruk",
+      "feature4": "Brannklassifisert — egnet for brannseperering av skillevegger",
+      "feature5": "CE-sertifisert for boligbyggingsbestemmelser",
+      "feature6": "Våtromsunderlag — direkte flislegging i bad",
+      "spec_Residential": "Hus, leiligheter, rekkehus",
+      "spec_Timber frame": "Timmerstav ved 400 / 600 mm"
+    },
+    "sidebarSpecs": "Spesifikasjoner",
+    "sidebarQuote": "Få tilbud",
+    "sidebarQuoteDesc": "Fortell oss om prosjektet ditt for å få et skreddersydd tilbud.",
+    "otherApps": "Andre bruksområder",
+    "downloadLabel": "Last ned ↗"
   },
   "certifications": {
-    "eyebrow": "Certifications & declarations",
-    "h1": "Full European certification documentation",
-    "sub": "Terasun TSM carries mandatory CE marking and comprehensive third-party certification for European construction compliance.",
+    "eyebrow": "Sertifiseringer og erklæringer",
+    "h1": "Fullstendig europeisk sertifiseringsdokumentasjon",
+    "sub": "Terasun TSM har obligatorisk CE-merking og omfattende tredjeparts-sertifisering for europeisk byggstandard-overholdelse.",
     "ce": {
-      "badge": "Mandatory",
-      "label": "CE Marking",
-      "desc": "CE 1023-CPR-1565 P. Mandatory for sale and use in the European Economic Area. Confirms compliance with EU Construction Products Regulation."
+      "badge": "Obligatorisk",
+      "label": "CE-merking",
+      "desc": "CE 1023-CPR-1565 P. Obligatorisk for salg og bruk i Det europeiske økonomiske område. Bekrefter samsvar med EU-byggeproduktforordningen."
     },
     "eta": {
-      "badge": "Independent",
-      "label": "European Technical Assessment",
-      "desc": "ETA 24/0895. Independently confirms the product's performance characteristics for all declared intended uses."
+      "badge": "Uavhengig",
+      "label": "Europeisk teknisk vurdering",
+      "desc": "ETA 24/0895. Bekrefter uavhengig produktets ytelsesegenskaper for alle erklærte tiltenkte bruksformål."
     },
     "dop": {
-      "badge": "DoP Declared",
-      "label": "Declaration of Performance",
-      "desc": "DoP TRS-20250610F. Full declaration of all performance characteristics in accordance with the EU Construction Products Regulation and ETA 24/0895.",
-      "eyebrow": "Declaration of Performance",
-      "title": "Download the Declaration of Performance",
-      "text": "The Declaration of Performance (DoP TRS-20250610F) declares all technical performance values in accordance with ETA 24/0895 and the EU Construction Products Regulation. Required by building authorities in all EEA member states.",
-      "cta": "Download all documents"
+      "badge": "DoP erklært",
+      "label": "Ytelseserklæring",
+      "desc": "DoP TRS-20250610F. Fullstendig erklæring om alle prestasjonsmessige egenskaper i samsvar med EU-byggeproduktforordningen og ETA 24/0895.",
+      "eyebrow": "Erklæring om ytelse",
+      "title": "Last ned erklæringen om ytelse",
+      "text": "Erklæringen om ytelse (DoP TRS-20250610F) erklærer alle tekniske ytelsesverdier i samsvar med ETA 24/0895 og EU-byggeproduktforordningen. Kreves av byggemyndighetene i alle EØS-medlemsstater.",
+      "cta": "Last ned alle dokumenter"
     },
     "epd": {
       "badge": "ISO 14025",
-      "label": "Environmental Product Declaration",
-      "desc": "EPD-IES-0018268. ISO 14025. Declared unit: 1 m² at 12 mm, 9.96 kg/m². Valid until 2029-03-14. Supports LEED, BREEAM, and DGNB projects."
+      "label": "Miljøproduktdeklarasjon",
+      "desc": "EPD-IES-0018268. ISO 14025. Deklarert enhet: 1 m² ved 12 mm, 9,96 kg/m². Gyldig til 2029-03-14. Støtter LEED, BREEAM og DGNB-prosjekter."
     },
     "fire": {
-      "badge": "Tested",
-      "label": "Fire Resistance",
-      "desc": "E 120 / EI 90 / EW 120. Independently tested per FIRES-CR-284-25-AUPE. Suitable for fire-rated partition wall systems in commercial and industrial buildings."
+      "badge": "Testet",
+      "label": "Brannmotstand",
+      "desc": "E 120 / EI 90 / EW 120. Uavhengig testet etter FIRES-CR-284-25-AUPE. Egnet for brannsikrede skilleveggsystemer i kommersielle og industrielle bygninger."
     },
     "voc": {
       "badge": "Intertek",
-      "label": "VOC & Indoor Air Quality",
-      "desc": "Tested by Intertek for volatile organic compound emissions. Suitable for interior applications with indoor air quality requirements."
+      "label": "Flyktige organiske stoffer og inneklimakvalitet",
+      "desc": "Testet av Intertek for utslipp av flyktige organiske forbindelser. Egnet for innvendige bruksområder med krav til inneklimakvalitet."
     },
     "authorisation": {
-      "badge": "Official",
-      "label": "Manufacturer Authorisation",
-      "desc": "Official authorisation letter from Zhejiang Terasun Air Duct Co., Ltd. appointing Terasun Europe as the Authorised European Representative."
+      "badge": "Offisiell",
+      "label": "Produsentens autorisasjon",
+      "desc": "Offisiell autorisasjonsbrev fra Zhejiang Terasun Air Duct Co., Ltd. som utpeker Terasun Europe som den autoriserte europeiske representanten."
     },
     "reach": {
       "badge": "REACH",
-      "label": "REACH SVHC Declaration",
-      "desc": "No substances of very high concern (SVHC) above 0.1% w/w. Full REACH compliance declaration available upon request."
-    }
+      "label": "REACH SVHC-erklæring",
+      "desc": "Ingen stoffer av svært høy bekymring (SVHC) over 0,1% w/w. Fullstendig REACH-samsvarsdeklarasjon tilgjengelig på forespørsel."
+    },
+    "notMfrNote": "Terasun Europe er den autoriserte europeiske representanten for Zhejiang Terasun Air Duct Co., Ltd. Terasun Europe er ikke produsenten av Terasun-produkter.",
+    "downloadLabel": "Last ned ↗"
   },
   "downloads": {
-    "eyebrow": "Document library",
-    "h1": "Technical documents for Terasun TSM",
-    "sub": "All certification, technical, and installation documents. Some files require partner login.",
+    "eyebrow": "Dokumentbibliotek",
+    "h1": "Tekniske dokumenter for Terasun TSM",
+    "sub": "Alle sertifiserings-, tekniske og installasjondokumenter. Noen filer krever partnerinnlogging.",
     "authNote": {
-      "title": "Partner login required for some documents",
-      "text": "Public documents are available to all. Protected documents (installation manuals, system guides) require partner registration and account approval."
+      "title": "Partnerinnlogging kreves for noen dokumenter",
+      "text": "Offentlige dokumenter er tilgjengelige for alle. Beskyttede dokumenter (installasjonsveivisere, systemveiledninger) krever partnerregistrering og godkjenning av konto."
     },
     "docs": {
       "tds": {
-        "name": "Technical Data Sheet",
-        "desc": "Declared specifications, physical properties, and compliance references"
+        "name": "Teknisk datablad",
+        "desc": "Deklarerte spesifikasjoner, fysiske egenskaper og samsvaringsreferanser"
       },
       "installation": {
-        "name": "Installation Manual",
-        "desc": "Step-by-step installation guide for all system types"
+        "name": "Installasjonsmanual",
+        "desc": "Trinnvis installasjonsguide for alle systemtyper"
       },
       "brochure": {
-        "name": "Product Brochure",
-        "desc": "Overview of Terasun TSM applications and features"
+        "name": "Produktbrosjyre",
+        "desc": "Oversikt over Terasun TSM-applikasjoner og funksjoner"
       },
       "facade": {
-        "name": "Facade System Guide",
-        "desc": "CBSS and CBMV ventilated facade system specifications"
+        "name": "Fasadesystemveiledning",
+        "desc": "CBSS og CBMV ventilerte fasadesystemspesifikasjoner"
       },
       "wetroom": {
-        "name": "Wet Room System Guide",
-        "desc": "Mapei and Schönox approved wet room tile backing systems"
+        "name": "Vaskeromssystemveiledning",
+        "desc": "Mapei- og Schönox-godkjente fliseunderlagssystemer for vaskerom"
       },
       "cutting": {
-        "name": "Cutting & Fixing Guide",
-        "desc": "Tools, cutting methods, and fixing specifications"
+        "name": "Klipp- og monteringsveiledning",
+        "desc": "Verktøy, kuttemetoder og monteringsspesifikasjoner"
       },
       "sds": {
-        "name": "Safety Data Sheet",
-        "desc": "Material safety data for handling and disposal"
+        "name": "Sikkerhetsdatablad",
+        "desc": "Materialsikkerhetsdata for håndtering og avhending"
       },
       "ce": {
-        "name": "CE Certificate",
-        "desc": "CE marking certificate — 1023-CPR-1565 P"
+        "name": "CE-sertifikat",
+        "desc": "CE-merkingssertifikat — 1023-CPR-1565 P"
       },
       "eta": {
-        "name": "European Technical Assessment",
-        "desc": "ETA 24/0895 — full assessment document"
+        "name": "Europeisk teknisk vurdering",
+        "desc": "ETA 24/0895 — fullstendig vurderingsdokument"
       },
       "epd": {
-        "name": "Environmental Product Declaration",
-        "desc": "EPD-IES-0018268 — ISO 14025, valid until 2029"
+        "name": "Miljøproduktdeklarasjon",
+        "desc": "EPD-IES-0018268 — ISO 14025, gyldig til 2029"
       },
       "fire": {
-        "name": "Fire Test Report",
-        "desc": "FIRES-CR-284-25-AUPE — E120/EI90/EW120 system test"
+        "name": "Branntest-rapport",
+        "desc": "FIRES-CR-284-25-AUPE — E120/EI90/EW120 systemtest"
       },
       "voc": {
-        "name": "VOC / Intertek Certificate",
-        "desc": "Indoor air quality and VOC emission test certificate"
+        "name": "VOC / Intertek-sertifikat",
+        "desc": "Sertifikat for inneklima og VOC-utslippstest"
       }
     }
   },
   "distributors": {
-    "eyebrow": "Partnership programme",
-    "h1": "European distribution partnerships",
-    "sub": "Terasun Europe works with stocking distributors, importers, and project partners across all European markets.",
+    "eyebrow": "Partnerskapsprogram",
+    "h1": "Europeiske distribusjonspartnerskaper",
+    "sub": "Terasun Europe samarbeider med lagerholdende distributører, importører og prosjektpartnere på tvers av alle europeiske markeder.",
     "benefits": {
       "margin": {
         "icon": "💰",
-        "title": "Competitive margins",
-        "body": "Exclusive territory pricing with attractive distributor margins. Volume discounts for stocking partners."
+        "title": "Konkurransedyktige marginer",
+        "body": "Eksklusiv territoriumprising med attraktive distributørmarginer. Volumrabatter for lagerholdende partnere."
       },
       "support": {
         "icon": "🛠️",
-        "title": "Technical support",
-        "body": "Full documentation support including CE, ETA, EPD, and fire test documents for your customer's building authorities."
+        "title": "Teknisk støtte",
+        "body": "Full dokumentasjonsstøtte inkludert CE, ETA, EPD og branntestrapporter for dine kunders byggmyndigheter."
       },
       "training": {
         "icon": "📚",
-        "title": "Training & marketing",
-        "body": "Product training, installation guidance, and marketing materials to support your sales team and projects."
+        "title": "Opplæring og markedsføring",
+        "body": "Produktopplæring, installasjonsveiledning og markedsføringsmaterialer for å støtte salgsteamet og prosjektene dine."
       },
       "territory": {
         "icon": "🗺️",
-        "title": "Exclusive territory",
-        "body": "Territory-based distribution agreements. Priority markets available now."
+        "title": "Eksklusivt territorium",
+        "body": "Territorialbaserte distribusjonsavtaler. Prioriterte markeder tilgjengelig nå."
       }
     },
-    "mapTitle": "Markets across Europe",
+    "mapTitle": "Markeder over hele Europa",
     "status": {
-      "hq": "HQ — Finland",
-      "active": "Active partner",
-      "open": "Partner wanted",
-      "available": "Available"
+      "hq": "Hovedkontor — Finland",
+      "active": "Aktiv partner",
+      "open": "Søker partner",
+      "available": "Tilgjengelig"
     },
-    "ctaTitle": "Apply for distribution in your country",
-    "ctaText": "We are actively seeking stocking distributors, importers, and project partners across Europe. Exclusive territory agreements available.",
-    "ctaApply": "Apply to become a distributor",
-    "ctaEmail": "Email us directly"
+    "ctaTitle": "Søk om distribusjon i ditt land",
+    "ctaText": "Vi søker aktivt lagerholdende distributører, importører og prosjektpartnere over hele Europa. Eksklusive territorialavtaler tilgjengelig.",
+    "ctaApply": "Søk for å bli distributør",
+    "ctaEmail": "Send oss e-post direkte"
   },
   "logistics": {
-    "eyebrow": "Logistics & supply chain",
-    "h1": "Cement board supply from factory to warehouse",
-    "sub": "Full supply chain coordination — from manufacturing in China to delivery at your European site or warehouse.",
+    "eyebrow": "Logistikk og forsyningskjede",
+    "h1": "Sementbrettforsyning fra fabrikk til lager",
+    "sub": "Fullstendig forsyningskjede-koordinering — fra produksjon i Kina til levering på ditt europeiske område eller lager.",
     "steps": {
       "order": {
-        "title": "Order confirmation",
-        "body": "Submit your requirements — product specification, quantity, format, and destination. We confirm pricing, incoterms, and lead time."
+        "title": "Orderbekreftelse",
+        "body": "Legg inn dine krav — produktspesifikasjon, mengde, format og destinasjon. Vi bekrefter prising, incoterms og leveringstid."
       },
       "production": {
-        "title": "Manufacturing (China)",
-        "body": "Production at Zhejiang Terasun factory. Boards manufactured to ETA 24/0895 specification with factory quality control."
+        "title": "Produksjon (Kina)",
+        "body": "Produksjon ved Zhejiang Terasun-fabrikk. Brett produsert i henhold til ETA 24/0895-spesifikasjon med fabrikkkvalitetskontroll."
       },
       "quality": {
-        "title": "Quality inspection",
-        "body": "Third-party or factory quality inspection before loading. Documents prepared: packing list, COO, phytosanitary, CE documents."
+        "title": "Kvalitetskontroll",
+        "body": "Tredjeparts eller fabrikkkvalitetskontroll før lasting. Dokumenter utarbeidet: pakkeliste, COO, phytosanitær, CE-dokumenter."
       },
       "shipping": {
-        "title": "Container shipping",
-        "body": "20' or 40' container loaded and shipped from Chinese port. Tracking provided throughout. Transit time typically 4–6 weeks."
+        "title": "Containerfrakt",
+        "body": "20' eller 40' container lastet og sendt fra kinesisk havn. Sporing hele veien. Transittid typisk 4–6 uker."
       },
       "customs": {
-        "title": "EU customs clearance",
-        "body": "Import documents prepared. EU customs duties and VAT handled per agreed incoterms. CE documents available for customs."
+        "title": "EU tollavklarelse",
+        "body": "Importdokumenter utarbeidet. EU tollgebyrer og VAT håndtert per avtalt incoterms. CE-dokumenter tilgjengelig for toll."
       },
       "delivery": {
-        "title": "Delivery to warehouse",
-        "body": "DAP or DDP delivery to your European warehouse or construction site. Unloading coordination on request."
+        "title": "Levering til lager",
+        "body": "DAP eller DDP-levering til ditt europeiske lager eller byggeplass. Lossingskoordinering etter forespørsel."
       }
     },
-    "leadTimesTitle": "Typical lead times",
+    "leadTimesTitle": "Typiske leveringstider",
     "leadTimes": {
       "stock": {
-        "value": "~2 wks",
-        "label": "From stock (Finland)",
-        "desc": "Small quantities from Finnish warehouse when available"
+        "value": "~2 uker",
+        "label": "Fra lager (Finland)",
+        "desc": "Små mengder fra finsk lager når tilgjengelig"
       },
       "production": {
-        "value": "6–10 wks",
-        "label": "Standard container",
-        "desc": "Full container order from China production"
+        "value": "6–10 uker",
+        "label": "Standardbeholder",
+        "desc": "Full containerordre fra kinesisk produksjon"
       },
       "custom": {
-        "value": "On request",
-        "label": "Custom specification",
-        "desc": "Non-standard sizes or custom board specifications"
+        "value": "Etter forespørsel",
+        "label": "Tilpasset spesifikasjon",
+        "desc": "Ikke-standardiserte størrelser eller tilpassede tavlespesifikasjoner"
       }
     },
-    "incotermsTitle": "Available incoterms",
-    "incotermsNote": "We supply on EXW, FOB, CFR, CIF, DAP, and DDP terms. Agreed per order at quotation stage.",
-    "ctaFreight": "Request freight quotation"
+    "incotermsTitle": "Tilgjengelige incoterms",
+    "incotermsNote": "Vi leverer på EXW, FOB, CFR, CIF, DAP og DDP vilkår. Avtalt per ordre ved tilbud.",
+    "ctaFreight": "Be om frakttilbud"
   },
   "gallery": {
-    "eyebrow": "Project gallery",
-    "h1": "Terasun TSM in use",
-    "sub": "Real installations across Europe — facade cladding, wet room systems, fire-rated partitions, and more.",
-    "cta": "Have a completed project using Terasun TSM? Send us your photos."
+    "eyebrow": "Prosjektgalleri",
+    "h1": "Terasun TSM i bruk",
+    "sub": "Virkelige installasjoner over hele Europa — fasadebekledning, våtromssystemer, brannklassifiserte skillevegger og mer.",
+    "cta": "Har du et fullført prosjekt med Terasun TSM? Send oss bildene dine."
   },
   "faq": {
     "eyebrow": "FAQ",
-    "h1": "Frequently asked questions",
-    "sub": "Technical, commercial, and logistics questions about Terasun TSM fiber cement board.",
+    "h1": "Ofte stilte spørsmål",
+    "sub": "Tekniske, kommersielle og logistiske spørsmål om Terasun TSM fibercement-plate.",
     "ce": {
-      "question": "Does Terasun TSM have CE marking?",
-      "answer": "Yes. CE 1023-CPR-1565 P. The product complies with the EU Construction Products Regulation and carries CE marking for sale and use across the European Economic Area."
+      "question": "Har Terasun TSM CE-merking?",
+      "answer": "Ja. CE 1023-CPR-1565 P. Produktet oppfyller EU-bygningsproduktforordningen og har CE-merking for salg og bruk i hele det europeiske økonomiske området."
     },
     "eta": {
-      "question": "Is there a European Technical Assessment (ETA)?",
-      "answer": "Yes. ETA 24/0895 has been issued by a designated ETA body. It independently confirms the product's performance characteristics for its intended uses. Full ETA available for download."
+      "question": "Finnes det en europeisk teknisk vurdering (ETA)?",
+      "answer": "Ja. ETA 24/0895 er utstedt av et utpekt ETA-organ. Det bekrefter uavhengig produktets ytelseskarakteristika for dets tiltenkte bruk. Full ETA er tilgjengelig for nedlasting."
     },
     "epd": {
-      "question": "Is there an EPD (Environmental Product Declaration)?",
-      "answer": "Yes. EPD-IES-0018268, published 2025-03-14, valid until 2029-03-14. ISO 14025 compliant. Declared unit: 1 m² at 12 mm, weight 9.96 kg/m². Supports LEED, BREEAM, and DGNB certification projects."
+      "question": "Finnes det en EPD (miljøproduktdeklarasjon)?",
+      "answer": "Ja. EPD-IES-0018268, publisert 2025-03-14, gyldig til 2029-03-14. ISO 14025-kompatibel. Deklarert enhet: 1 m² ved 12 mm, vekt 9,96 kg/m². Støtter LEED, BREEAM og DGNB-sertifiseringsprosjekter."
     },
     "weight": {
-      "question": "What is the declared weight of the board?",
-      "answer": "The declared weight per EPD-IES-0018268 is 9.96 kg/m² at 12 mm thickness. Thinner boards are proportionally lighter. Full thickness/weight table in the technical data sheet."
+      "question": "Hva er den deklarerte vekten på brettet?",
+      "answer": "Den deklarerte vekten per EPD-IES-0018268 er 9,96 kg/m² ved 12 mm tykkelse. Tynnere brett er proporsjonalt lettere. Full tykkelse/vekttabell i det tekniske dataarket."
     },
     "fire": {
-      "question": "What fire resistance does the board achieve?",
-      "answer": "The tested system achieves E 120 (integrity 120 min), EI 90 (integrity and insulation 90 min), and EW 120 (integrity and radiation limitation 120 min). Test reference: FIRES-CR-284-25-AUPE. These are system-level classifications — specify the tested system configuration."
+      "question": "Hvilken brannmotstand oppnår brettet?",
+      "answer": "Det testede systemet oppnår E 120 (integritet 120 min), EI 90 (integritet og isolasjon 90 min) og EW 120 (integritet og strålingsbegrensning 120 min). Testreferanse: FIRES-CR-284-25-AUPE. Dette er klassifikasjoner på systemnivå — angi den testede systemkonfigurasjonen."
     },
     "wetroom": {
-      "question": "Can Terasun TSM be used in wet rooms?",
-      "answer": "Yes. Approved as a tile backing substrate in Mapei and Schönox wet room systems. Dimensionally stable, moisture-resistant substrate for bathrooms, showers, and commercial kitchens."
+      "question": "Kan Terasun TSM brukes i fuktrom?",
+      "answer": "Ja. Godkjent som flisunderlag i Mapei og Schönox fuktromsystemer. Dimensjonalt stabilt, fuktresistent underlag for bad, dusjer og kommersielle kjøkkener."
     },
     "facade": {
-      "question": "Can the board be used for exterior facade cladding?",
-      "answer": "Yes. Specified as the facade board in CBSS and CBMV ventilated facade systems. Can also be used as a render carrier. Suitable for all European climate zones."
+      "question": "Kan brettet brukes til ytre fasadekledning?",
+      "answer": "Ja. Spesifisert som fasadebrettet i CBSS og CBMV ventilerte fasadesystemer. Kan også brukes som putsunderlag. Egnet for alle europeiske klimasoner."
     },
     "asbestos": {
-      "question": "Is the board asbestos-free?",
-      "answer": "Yes. Terasun TSM is completely asbestos-free. The board uses Portland cement with inorganic binders and fibreglass mesh reinforcement. REACH SVHC declaration confirming no SVHC above 0.1% w/w is available."
+      "question": "Er brettet asbestfritt?",
+      "answer": "Ja. Terasun TSM er helt asbestfritt. Platen bruker Portland-sement med uorganiske bindere og glassfiber-nettarmering. REACH SVHC-erklæring som bekrefter ingen SVHC over 0,1% w/w er tilgjengelig."
     },
     "moq": {
-      "question": "What is the minimum order quantity?",
-      "answer": "Minimum order is typically one 20-foot container (approx. 1,600–2,200 m² depending on thickness). Smaller quantities may be available from Finnish warehouse stock. Contact us for availability."
+      "question": "Hva er minimumsordremengden?",
+      "answer": "Minimumsordre er typisk en 20-fots container (ca. 1 600–2 200 m² avhengig av tykkelse). Mindre mengder kan være tilgjengelig fra finsk lagerbestand. Kontakt oss for tilgjengelighet."
     },
     "samples": {
-      "question": "Are samples available before placing an order?",
-      "answer": "Yes. Physical samples and documentation packs are available to qualified distributors, architects, and contractors. Contact us to request a sample pack including board, TDS, CE certificate, and ETA."
+      "question": "Er prøver tilgjengelig før bestilling?",
+      "answer": "Ja. Fysiske prøver og dokumentasjonspakker er tilgjengelig for kvalifiserte distributører, arkitekter og leverandører. Kontakt oss for å be om en prøvepakke inkludert plate, TDS, CE-sertifikat og ETA."
     },
     "leadtime": {
-      "question": "How long does delivery take?",
-      "answer": "Container orders take approximately 6–10 weeks from order confirmation to European port delivery. DDP warehouse delivery adds 1–2 weeks. Finnish stock: 1–2 weeks."
+      "question": "Hvor lang tid tar leveringen?",
+      "answer": "Containerordrer tar omtrent 6–10 uker fra ordrebekreftelse til leveranse til europeisk havn. DDP lagerleveranse legger til 1–2 uker. Finsk lager: 1–2 uker."
     },
     "origin": {
-      "question": "Where is the product manufactured?",
-      "answer": "Manufactured by Zhejiang Terasun Air Duct Co., Ltd. in Zhejiang Province, People's Republic of China. Terasun Europe is the Authorised European Representative responsible for CE documentation and EU market compliance."
+      "question": "Hvor er produktet produsert?",
+      "answer": "Produsert av Zhejiang Terasun Air Duct Co., Ltd. i Zhejiang-provinsen, Folkerepublikken Kina. Terasun Europe er den autoriserte europeiske representanten ansvarlig for CE-dokumentasjon og EU-markedssamsvar."
     },
     "whoIsTerasun": {
-      "question": "What is Terasun Europe?",
-      "answer": "Terasun Europe is the Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd., based in Vantaa, Finland. We manage CE documentation, EU market compliance, and European customer relationships. We are not the manufacturer of Terasun products."
+      "question": "Hva er Terasun Europe?",
+      "answer": "Terasun Europe er den autoriserte europeiske representanten for Zhejiang Terasun Air Duct Co., Ltd., basert i Vantaa, Finland. Vi administrerer CE-dokumentasjon, EU-markedssamsvar og europeiske kundeforhold. Vi er ikke produsenten av Terasun-produkter."
     },
     "authorisation": {
-      "question": "Is there an authorisation letter from the manufacturer?",
-      "answer": "Yes. Official authorisation letter from Zhejiang Terasun Air Duct Co., Ltd. confirming Terasun Europe as the Authorised European Representative is available for review."
+      "question": "Finnes det et autoriseringsbrev fra produsenten?",
+      "answer": "Ja. Offisielt autoriseringsbrev fra Zhejiang Terasun Air Duct Co., Ltd. som bekrefter Terasun Europe som den autoriserte europeiske representanten er tilgjengelig for gjennomgang."
     },
     "distributor": {
-      "question": "Can I become a distributor in my country?",
-      "answer": "Yes. We are actively seeking stocking distributors and project partners across Europe. Territory-based agreements, competitive margins, documentation support, and technical training. Contact us to discuss."
+      "question": "Kan jeg bli distributør i mitt land?",
+      "answer": "Ja. Vi søker aktivt distribusjonsforhandlere og prosjektpartnere i hele Europa. Territoriebaserte avtaler, konkurransedyktige marginer, dokumentasjonsstøtte og teknisk opplæring. Kontakt oss for å diskutere."
     },
     "openMarkets": {
-      "question": "Which countries are open for distribution?",
-      "answer": "Germany, Netherlands, Belgium, France, Spain, Portugal, Italy, Austria, Switzerland, Poland, Czech Republic, Slovakia, Hungary, and others are open for new distribution partners. Contact us for territory availability."
+      "question": "Hvilke land er åpne for distribusjon?",
+      "answer": "Tyskland, Nederland, Belgia, Frankrike, Spania, Portugal, Italia, Østerrike, Sveits, Polen, Tsjekkia, Slovakia, Ungarn og andre er åpne for nye distribusjonspartnere. Kontakt oss angående territoriemessig tilgjengelighet."
     },
     "studSpacing": {
-      "question": "What stud spacing is required?",
-      "answer": "Compatible with 400 mm and 600 mm stud spacing in both timber and steel frame systems. Specific recommendations depend on board thickness, orientation, and load — refer to the technical data sheet."
+      "question": "Hvilken stenderavstand er påkrevd?",
+      "answer": "Kompatibel med 400 mm og 600 mm stenderavstand i både tre- og stålrammesystemer. Spesifikke anbefalinger avhenger av platetykkelse, orientering og belastning — se teknisk datablad."
     },
     "training": {
-      "question": "Is technical training available for distributors?",
-      "answer": "Yes. Technical product training, installation guidance, and documentation support are available to registered distributors. Training can be delivered on-site or remotely."
+      "question": "Er teknisk opplæring tilgjengelig for distributører?",
+      "answer": "Ja. Teknisk produktopplæring, monteringsveiledning og dokumentasjonsstøtte er tilgjengelig for registrerte distributører. Opplæring kan leveres på stedet eller eksternt."
     },
     "publicProjects": {
-      "question": "Can Terasun TSM be used on public and infrastructure projects?",
-      "answer": "Yes. CE, ETA, DoP, EPD, and fire test documentation meets the requirements of public sector procurement across Europe. Full documentation packs available for specification and tender submission."
+      "question": "Kan Terasun TSM brukes på offentlige og infrastrukturprosjekter?",
+      "answer": "Ja. CE, ETA, DoP, EPD og branntest-dokumentasjon oppfyller kravene til offentlig sektor innkjøp i hele Europa. Fulle dokumentasjonspakker tilgjengelig for spesifikasjon og anbudsinnsendelser."
     },
     "cuttingTools": {
-      "question": "What cutting tools are needed for installation?",
-      "answer": "Terasun TSM can be cut with a circular saw or angle grinder fitted with a fibre cement or diamond blade. Score-and-snap for straight cuts on thinner boards. Wear a dust mask and eye protection. Full guidance in the installation manual."
+      "question": "Hvilke skjæreverktøy er nødvendige for installasjon?",
+      "answer": "Terasun TSM kan kuttes med en sirkelsag eller vinkelsliber utstyrt med et fibercement- eller diamantblad. Ridse og bryt for rette snitt på tynnere plater. Bruk støvmaske og øyebeskyttelse. Full veiledning i installeringshåndboken."
     }
   },
   "contact": {
-    "eyebrow": "Enquiry & quotation",
-    "h1": "Request a quotation or technical information",
-    "sub": "Use this form to request a price, sample, technical documentation, or to apply for distribution. We respond within 1 business day.",
+    "eyebrow": "Forespørsel & tilbud",
+    "h1": "Be om tilbud eller teknisk informasjon",
+    "sub": "Bruk dette skjemaet for å be om pris, prøve, teknisk dokumentasjon, eller for å søke om distribusjon. Vi svarer innen 1 arbeidsdags tid.",
     "sidebar": {
-      "contactTitle": "Direct contact",
-      "responseTitle": "Response time",
-      "responseText": "We respond to all enquiries within 1 business day. For urgent requests, please call or WhatsApp.",
-      "addressTitle": "Our address"
-    }
+      "contactTitle": "Direkte kontakt",
+      "responseTitle": "Responstid",
+      "responseText": "Vi svarer på alle forespørsler innen 1 arbeidsdags tid. For presserende henvendelser, vennligst ring eller send WhatsApp.",
+      "addressTitle": "Vår adresse"
+    },
+    "notMfrNote": "Terasun Europe er kun den autoriserte europeiske representanten. Vi er ikke produsenten av Terasun-produkter."
   },
   "installation": {
-    "eyebrow": "Installation guide",
-    "h1": "Installing Terasun TSM fiber cement board",
-    "sub": "Complete contractor guide — tools, cutting, fastening, joints, weather protection, and finishing.",
+    "eyebrow": "Installasjonsveiledning",
+    "h1": "Installasjon av Terasun TSM fibercement-tavle",
+    "sub": "Komplett håndbok for entreprenører — verktøy, kutt, festing, fuger, værbeskyttelse og finish.",
     "features": {
       "tools": {
         "icon": "🔧",
-        "title": "Tools required",
-        "body": "Circular saw or angle grinder with fibre cement blade, drill/driver, measuring tape, chalk line, and PPE (dust mask, goggles)."
+        "title": "Nødvendige verktøy",
+        "body": "Sirkulær sag eller vinkelsliper med fibercement-blad, bor/driver, målebånd, kritt-linje og verneutstyr (støvmaske, vernebriller)."
       },
       "cutting": {
         "icon": "✂️",
-        "title": "Cutting methods",
-        "body": "Cut with circular saw (fibre cement blade) or score-and-snap for straight cuts on thinner boards. Wet cutting reduces dust."
+        "title": "Skjæremetoder",
+        "body": "Kutt med sirkulær sag (fibercement-blad) eller score-and-snap for rette kutt på tynnere tavler. Vått kutt reduserer støv."
       },
       "fastening": {
         "icon": "🔩",
-        "title": "Fastening",
-        "body": "Fix with stainless steel or corrosion-resistant self-tapping screws or annular ring nails. Min 12 mm edge distance, 200 mm edge spacing, 300 mm field spacing."
+        "title": "Festing",
+        "body": "Fest med rustfritt stål eller korrosjonsbestandige selvskjærende skruer eller ringspiker. Min 12 mm kantavstand, 200 mm kanteavstand, 300 mm feltavstand."
       },
       "joints": {
         "icon": "📐",
-        "title": "Joints & gaps",
-        "body": "Leave 3 mm expansion gap at all board edges. Tape and fill butt joints for interior. For exterior, leave open joints with sealant or cover with feature joint profiles."
+        "title": "Fuger & spalter",
+        "body": "La 3 mm utvidelseskluft ved alle tavlekanter. Teip og fyll støtfuger innvendig. Utvendig, la åpne fuger med tetningsmiddel eller dekk med profilerte fuger."
       },
       "weather": {
         "icon": "🌧️",
-        "title": "Weather protection",
-        "body": "Do not install in freezing conditions. Protect boards from rain until system is weather-sealed. Store under cover — boards must not sit in standing water."
+        "title": "Værbeskyttelse",
+        "body": "Ikke installer under frysende forhold. Beskytt tavler fra regn til systemet er værtett. Lagre under tak — tavler må ikke stå i stående vann."
       },
       "finishing": {
         "icon": "🎨",
-        "title": "Finishing & paint",
-        "body": "Prime with alkali-resistant primer before paint or render. Compatible with mineral, silicone, and acrylic finishes. Interior surfaces can be directly tiled with polymer-modified adhesive."
+        "title": "Finishing & maling",
+        "body": "Grunnmale med alkali-resistent grunnmaling før maling eller putsing. Kompatibel med mineral-, silikon- og akrylfinish. Innvendige overflater kan flises direkte med polymer-modifisert lim."
       }
     },
-    "downloadTitle": "Download the installation manual",
-    "downloadText": "Full installation guidance including system drawings, fixing patterns, and substrate requirements."
+    "downloadTitle": "Last ned installasjonsmanualen",
+    "downloadText": "Full installasjonsveiledning inkludert systemtegninger, festemønstre og underlags krav."
   },
   "footer": {
     "brand": "TERASUN",
-    "brandSub": "Europe",
-    "desc": "Authorised European Representative for Terasun TSM fiber cement board.",
-    "authLine": "Authorised European Representative",
-    "notManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
-    "colProduct": "Product",
-    "colDocs": "Documentation",
-    "colCompany": "Company",
-    "privacy": "Privacy policy",
-    "cookies": "Cookie policy",
-    "terms": "Terms of use",
+    "brandSub": "Europa",
+    "desc": "Autorisert europeisk representant for Terasun TSM fibersementplate.",
+    "authLine": "Autorisert europeisk representant",
+    "notManufacturer": "Terasun Europe er ikke produsenten av Terasun-produkter.",
+    "colProduct": "Produkt",
+    "colDocs": "Dokumentasjon",
+    "colCompany": "Selskap",
+    "privacy": "Personvernpolicy",
+    "cookies": "Cookiepolicy",
+    "terms": "Vilkår for bruk",
     "legal": "© 2025 Terasun Europe. Alle rettigheter forbeholdt.",
-    "legalMfr": "Products manufactured by Zhejiang Terasun Air Duct Co., Ltd., China.",
+    "legalMfr": "Produkter produsert av Zhejiang Terasun Air Duct Co., Ltd., Kina.",
     "legalCerts": "CE 1023-CPR-1565 P · ETA 24/0895 · EPD-IES-0018268"
   },
   "portal": {
-    "loginTitle": "Partner Portal Login",
-    "loginSub": "Access protected technical documents and account management.",
-    "loginRedirectText": "The partner portal is hosted on our main platform. Click below to sign in.",
-    "loginBtn": "Sign in to partner portal",
-    "noAccount": "Don't have an account yet?",
-    "registerLink": "Apply for partner access",
-    "registerTitle": "Apply for Partner Access",
-    "registerSub": "Apply to become an authorised Terasun Europe distributor or verified partner.",
-    "registerRedirectText": "Partner registration is processed on our main platform. Click below to submit your application.",
-    "registerBtn": "Submit partner application",
-    "haveAccount": "Already have an account?",
-    "loginLink": "Sign in"
+    "loginTitle": "Partner Portal Innlogging",
+    "loginSub": "Få tilgang til beskyttede tekniske dokumenter og kontoadministrasjon.",
+    "loginRedirectText": "Partnerportalen er vert på vår hovedplattform. Klikk nedenfor for å logge inn.",
+    "loginBtn": "Logg inn på partnerportalen",
+    "noAccount": "Har du ikke en konto ennå?",
+    "registerLink": "Søk om partneradgang",
+    "registerTitle": "Søk om Partneradgang",
+    "registerSub": "Søk for å bli en autorisert Terasun Europe distributor eller verifisert partner.",
+    "registerRedirectText": "Partnerregistrering behandles på vår hovedplattform. Klikk nedenfor for å sende inn din søknad.",
+    "registerBtn": "Send inn partneransøknad",
+    "haveAccount": "Har du allerede en konto?",
+    "loginLink": "Logg inn"
   },
   "markets": {
     "eyebrow": "European market",
@@ -1051,13 +1059,13 @@
     "markets": "Markeder"
   },
   "common": {
-    "learnMore": "Learn more",
-    "requestQuotation": "Request quotation",
-    "contactUs": "Contact us",
-    "downloadDocs": "Download documents",
-    "notManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
-    "authRep": "Authorised European Representative",
-    "backToTop": "Back to top"
+    "learnMore": "Lær mer",
+    "requestQuotation": "Be om tilbud",
+    "contactUs": "Kontakt oss",
+    "downloadDocs": "Last ned dokumenter",
+    "notManufacturer": "Terasun Europe er ikke produsenten av Terasun-produkter.",
+    "authRep": "Autorisert europeisk representant",
+    "backToTop": "Tilbake til toppen"
   },
   "home": {
     "productStag": "Produkt",

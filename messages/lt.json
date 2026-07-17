@@ -9,15 +9,15 @@
       "description": "Terasun Europe yra Įgaliotasis Europos atstovas, įsikūręs Vantaoje, Suomijoje."
     },
     "manufacturer": {
-      "title": "Manufacturer — Zhejiang Terasun Air Duct Co., Ltd. | Terasun Europe",
-      "description": "Founded 1989 in Zhejiang Province, China. Manufacturer of Terasun TSM fiber cement board with CE, ETA 24/0895, and EPD for European markets."
+      "title": "Gamintojas — Zhejiang Terasun Air Duct Co., Ltd. | Terasun Europe",
+      "description": "Įkurta 1989 m. Žejiang provincijoje, Kinijoje. Gamina Terasun TSM skaidulinio cemento lentas su CE, ETA 24/0895 ir EPD Europos rinkoms."
     },
     "products": {
       "title": "Terasun TSM Pluoštinio cemento plokštės — CE & ETA | Terasun Europe",
       "description": "Lengvos be asbestinės pluoštinio cemento plokštės. CE · ETA 24/0895 · EPD · Atsparumas ugniai E120/EI90/EW120."
     },
     "applications": {
-      "title": "Fiber Cement Board Applications — Facades, Fire, Wet Rooms | Terasun Europe",
+      "title": "Skaidulinio cemento lentos taikymai — Fasadai, Gaisro atsparumas, Šlapios patalpos | Terasun Europe",
       "description": "Terasun TSM fiber cement board for facade cladding, fire-rated partitions, wet rooms, commercial buildings, steel frame, and residential construction across Europe."
     },
     "technicalData": {
@@ -81,15 +81,15 @@
     "installation": "Montavimas"
   },
   "hero": {
-    "eyebrow": "CE · ETA · EPD · Fire certified",
+    "eyebrow": "CE · ETA · EPD · Gaisro sertifikuota",
     "h1": "Lengvos pluoštinio cemento plokštės Europos statybai",
     "sub": "Terasun TSM — be asbestinės, CE sertifikuotas, 9,96 kg/m² ties 12 mm. Tiesioginės tiekimas iš gamyklos.",
     "btnQuote": "Prašyti pasiūlymo",
     "btnContact": "Susisiekti",
     "btnDownloads": "Atsisiuntimai",
-    "tagline": "Authorised European Representative",
-    "note": "Terasun Europe is the Authorised European Representative.",
-    "noteManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
+    "tagline": "Autorizuotas Europos atstovas",
+    "note": "Terasun Europe yra autorizuotas Europos atstovas.",
+    "noteManufacturer": "Terasun Europe nėra Terasun produktų gamintoja.",
     "h1Line1": "Lengvos pluoštinio cemento plokštės",
     "h1Line2Emphasis": "CE sertifikuotos",
     "h1Line2": "Europos statybai",
@@ -100,9 +100,9 @@
       "CE 1023-CPR-1565 P",
       "ETA 24/0895",
       "EPD-IES-0018268",
-      "Wall assembly: E120/EI90/EW120",
-      "REACH compliant",
-      "25 EU languages"
+      "Sienos surinkimas: E120/EI90/EW120",
+      "Atitinka REACH",
+      "25 ES kalbos"
     ]
   },
   "about": {
@@ -124,43 +124,43 @@
     "stat2Label": "ES kalbos palaikomos",
     "points": [
       {
-        "title": "CE documentation",
-        "text": "Maintaining all EU construction product compliance documents — Declaration of Performance, CE marking, and technical files."
+        "title": "CE dokumentacija",
+        "text": "Visų ES statybinių produktų atitikties dokumentų palaikymas — Našumo deklaracija, CE žymėjimas ir techniniai failai."
       },
       {
-        "title": "European supply",
-        "text": "Direct container supply from factory in China to distributors and contractors across all EU and EEA member states."
+        "title": "Europos tiekimas",
+        "text": "Tiesioginis konteinerio tiekimas iš gamyklos Kinijoje platintojams ir rangovams visose ES ir EEE valstybėse narėse."
       },
       {
-        "title": "Technical support",
-        "text": "ETA, EPD, fire test reports, and REACH declarations for architects, specifiers, and building authorities."
+        "title": "Techninė pagalba",
+        "text": "ETA, EPD, gaisro bandymų ataskaitos ir REACH deklaracijos architektams, specifikuotojams ir statybos valdžios institucijoms."
       }
     ]
   },
   "authorised": {
-    "eyebrow": "Our role in the supply chain",
-    "h1": "Authorised European Representative",
-    "sub": "Appointed by the manufacturer to act as the official European point of contact for CE documentation, market compliance, and customer support.",
+    "eyebrow": "Mūsų vaidmuo tiekimo grandinėje",
+    "h1": "Autorizuotas Europos atstovas",
+    "sub": "Paskirtas gamintojo veikti kaip oficialus Europos kontaktinis taškas CE dokumentacijai, rinkos atitikčiai ir klientų palaikymui.",
     "cards": {
       "ce": {
-        "title": "CE Documentation",
-        "body": "Maintaining all EU construction product compliance documentation — Declaration of Performance, CE marking, and technical files."
+        "title": "CE dokumentacija",
+        "body": "Tvarkoma visa ES statybos produktų atitikties dokumentacija — Veiklos deklaracija, CE ženklas ir techninės bylos."
       },
       "rep": {
-        "title": "Official Representative",
-        "body": "Appointed by Zhejiang Terasun Air Duct Co., Ltd. as the Authorised European Representative under EU Construction Products Regulation."
+        "title": "Oficialus atstovas",
+        "body": "Paskirtas Zhejiang Terasun Air Duct Co., Ltd. kaip Autorizuotas Europos atstovas pagal ES Statybos produktų reglamentą."
       },
       "docs": {
-        "title": "Technical Support",
-        "body": "Providing ETA, EPD, fire test reports, and REACH declarations to architects, specifiers, and building authorities."
+        "title": "Techninis palaikymas",
+        "body": "Suteikiant ETA, EPD, gaisro testavimo ataskaitas ir REACH deklaracijas architektams, specialistams ir statybos valdžiai."
       },
       "mkt": {
-        "title": "European Markets",
-        "body": "Serving all EU member states, EEA countries, and the wider European market from our base in Vantaa, Finland."
+        "title": "Europos rinkos",
+        "body": "Aptarnaujame visas ES narės valstybes, EEA šalis ir platesnę Europos rinką iš mūsų biuro Vantaa, Finland."
       }
     },
-    "stag": "Our role",
-    "title": "Authorised European Representative"
+    "stag": "Mūsų vaidmuo",
+    "title": "Autorizuotas Europos atstovas"
   },
   "manufacturer": {
     "eyebrow": "Apie gamintoją",
@@ -171,11 +171,11 @@
     "stats": {
       "capacity": {
         "value": "1989",
-        "label": "Founded"
+        "label": "Įkurta"
       },
       "employees": {
         "value": "CE + ETA",
-        "label": "Certified"
+        "label": "Sertifikuota"
       },
       "countries": {
         "value": "EPD",
@@ -183,69 +183,69 @@
       },
       "patents": {
         "value": "E120",
-        "label": "Fire tested"
+        "label": "Ugnies bandyta"
       }
     },
     "timelineTitle": "Bendrovės etapai",
     "timeline": {
       "founded": {
         "year": "1989",
-        "title": "Company founded",
-        "body": "Zhejiang Terasun Air Duct Co., Ltd. established in Zhejiang Province, China."
+        "title": "Įmonė įkurta",
+        "body": "Zhejiang Terasun Air Duct Co., Ltd. įkurta Zhejiang provincijoje, Kinijoje."
       },
       "iso": {
-        "year": "2000s",
-        "title": "ISO certification",
-        "body": "Manufacturing processes certified to international quality management standards."
+        "year": "2000-aisiais",
+        "title": "ISO sertifikacija",
+        "body": "Gamybos procesai sertifikuoti tarptautiniais kokybės vadybos standartais."
       },
       "expansion": {
         "year": "2018",
-        "title": "Production expansion",
-        "body": "Expanded fiber cement board production capacity to serve growing European export demand."
+        "title": "Gamybos plėtra",
+        "body": "Padidinta skaidulinio cemento plokščių gamybos talpa, siekiant patenkinti didėjančią Europos eksporto paklausą."
       },
       "europe": {
         "year": "2023",
-        "title": "European representative appointed",
-        "body": "Terasun Europe established as the Authorised European Representative in Vantaa, Finland."
+        "title": "Paskirtas Europos atstovas",
+        "body": "Terasun Europe įkurta kaip nustatytas Europos atstovas mieste Vantaa, Suomijoje."
       },
       "eta": {
         "year": "2024",
-        "title": "ETA 24/0895 issued",
-        "body": "European Technical Assessment issued by a designated ETA body. CE marking confirmed under the EU Construction Products Regulation."
+        "title": "ETA 24/0895 išduota",
+        "body": "Europos techninis vertinimas, išduotas paskirtos ETA institucijos. CE ženklas patvirtintas pagal ES Statybinių produktų reglamentą."
       },
       "epd": {
         "year": "2025",
-        "title": "EPD published",
-        "body": "EPD-IES-0018268 published March 2025, valid until 2029. ISO 14025 compliant environmental declaration."
+        "title": "EPD publikuota",
+        "body": "EPD-IES-0018268 publikuota 2025 m. kovalio mėn., galioja iki 2029 m. ISO 14025 atitinkanti aplinkosaugos deklaracija."
       }
     },
     "noteTitle": "Santykis su gamintoju",
     "noteText": "Terasun Europe yra įgaliotas Europos atstovas Zhejiang Terasun Air Duct Co., Ltd. Terasun Europe negamina Terasun produktų. Visi produktai gaminami Kinijoje ir tiekiami per tiesioginį konteinerio siuntimą. Europos atstovas: Terasun Europe, 01370 Vantaa, Suomija."
   },
   "products": {
-    "eyebrow": "Product",
-    "h1": "Terasun TSM — lightweight fiber cement board",
-    "sub": "CE-certified, asbestos-free fiber cement board for European construction. Facades, wet rooms, fire partitions, and more.",
-    "name": "Terasun TSM Fiber Cement Board",
+    "eyebrow": "Produktas",
+    "h1": "Terasun TSM — lengva skaidulos cemento lenta",
+    "sub": "CE sertifikuota, neasbesto skaidulos cemento lenta Europos statyboms. Fasadai, drėgnos patalpos, gaisrinės pertvaros ir daugiau.",
+    "name": "Terasun TSM skaidulos cemento lenta",
     "tagline": "CE 1023-CPR-1565 P · ETA 24/0895 · EPD-IES-0018268",
-    "desc": "A lightweight cement-based construction board with inorganic binders, lightweight components and fibreglass mesh reinforcement, designed for structural performance, moisture resistance, and fire safety in documented wall systems. Asbestos-free, CE certified, and manufactured to ETA 24/0895 requirements.",
-    "techEyebrow": "Technical specifications",
-    "techH1": "Full technical data — Terasun TSM",
-    "techSub": "Complete specification table with declared values, standards references, and thickness comparison.",
-    "thicknessTitle": "Available thicknesses",
-    "formatsTitle": "Standard board formats",
-    "compositionTitle": "Material composition",
-    "galleryTitle": "Product photos",
+    "desc": "Lengva cemento pagrindu pagaminta statybos lenta su neorganiniais rišikliais, lengvais komponentais ir stiklo pluošto tinklo stiprinimais, skirta struktūriniam našumui, drėgmės atsparumui ir gaisrinei saugai dokumentuotose sienų sistemose. Neasbesto, CE sertifikuota ir pagaminta pagal ETA 24/0895 reikalavimus.",
+    "techEyebrow": "Techninės specifikacijos",
+    "techH1": "Pilni techniniai duomenys — Terasun TSM",
+    "techSub": "Pilna specifikacijos lentelė su deklaruotomis reikšmėmis, standartų nuorodomis ir storio palyginimu.",
+    "thicknessTitle": "Pasiekiami storiai",
+    "formatsTitle": "Standartiniai lentos formatai",
+    "compositionTitle": "Medžiagos sudėtis",
+    "galleryTitle": "Produkto nuotraukos",
     "specs": {
-      "ceMarking": "CE Marking",
-      "eta": "European Technical Assessment",
-      "dop": "Declaration of Performance",
-      "fireResistance": "Fire resistance",
-      "weight12mm": "Declared weight (12 mm)",
-      "epd": "EPD reference",
+      "ceMarking": "CE ženklinimas",
+      "eta": "Europos techninis vertinimas",
+      "dop": "Darbų deklaracija",
+      "fireResistance": "Priešgaisrinis atsparumas",
+      "weight12mm": "Deklaruojamas svoris (12 mm)",
+      "epd": "EPD nuoroda",
       "binder": "Binder",
-      "reinforcement": "Reinforcement",
-      "studSpacing": "Stud spacing"
+      "reinforcement": "Stiprinimas",
+      "studSpacing": "Stulpų tarpas"
     },
     "composition": {
       "cement": {
@@ -284,20 +284,20 @@
     "ctaTitle": "Nežinote, kuris sistemos variantas jums tinka?",
     "ctaText": "Susisiekite su mūsų technine komanda norėdami gauti taikymo vadovą, sistemos specifikacijas ir pritaikytą pasiūlymą.",
     "tags": {
-      "Ventilated": "Ventilated",
-      "All climates": "All climates",
-      "Paintable": "Paintable",
+      "Ventilated": "Vėdinamas",
+      "All climates": "Visi klimatai",
+      "Paintable": "Dažytinas",
       "E 120": "E 120",
       "EI 90": "EI 90",
       "EW 120": "EW 120",
-      "Mapei": "Mapei system",
-      "Schönox": "Schönox system",
-      "Interior": "Interior",
-      "Exterior": "Exterior",
-      "Industrial": "Industrial",
-      "Heavy-duty": "Heavy-duty",
-      "Residential": "Residential",
-      "Timber frame": "Timber frame"
+      "Mapei": "Mapei sistema",
+      "Schönox": "Schönox sistema",
+      "Interior": "Vidinis",
+      "Exterior": "Išorinis",
+      "Industrial": "Pramoninis",
+      "Heavy-duty": "Didelio apkrovimo",
+      "Residential": "Gyvenamasis",
+      "Timber frame": "Medienos rėmas"
     },
     "facade-systems": {
       "title": "Fasado sistemos",
@@ -426,108 +426,108 @@
     "h1": "Išsami Europos sertifikavimo dokumentacija",
     "sub": "Terasun TSM turi privalomą CE žymą ir išsamią trečiųjų šalių sertifikaciją Europos statybų atitikimo reikalavimams.",
     "ce": {
-      "badge": "Mandatory",
-      "label": "CE Marking",
-      "desc": "CE 1023-CPR-1565 P. Mandatory for sale and use in the European Economic Area. Confirms compliance with EU Construction Products Regulation."
+      "badge": "Privalomas",
+      "label": "CE žyma",
+      "desc": "CE 1023-CPR-1565 P. Privalomas pardavimui ir naudojimui Europos ekonominėje erdvėje. Patvirtina atitiktį ES Statybos produktų reglamentui."
     },
     "eta": {
-      "badge": "Independent",
-      "label": "European Technical Assessment",
-      "desc": "ETA 24/0895. Independently confirms the product's performance characteristics for all declared intended uses."
+      "badge": "Nepriklausomas",
+      "label": "Europos techninis vertinimas",
+      "desc": "ETA 24/0895. Nepriklausomai patvirtina produkto veiklos charakteristikas visiems deklaruotiems numatytiems naudojimams."
     },
     "dop": {
-      "badge": "DoP Declared",
-      "label": "Declaration of Performance",
-      "desc": "DoP TRS-20250610F. Full declaration of all performance characteristics in accordance with the EU Construction Products Regulation and ETA 24/0895.",
-      "eyebrow": "Declaration of Performance",
-      "title": "Download the Declaration of Performance",
-      "text": "The Declaration of Performance (DoP TRS-20250610F) declares all technical performance values in accordance with ETA 24/0895 and the EU Construction Products Regulation. Required by building authorities in all EEA member states.",
-      "cta": "Download all documents"
+      "badge": "DoP deklaruota",
+      "label": "Veiklos deklaracija",
+      "desc": "DoP TRS-20250610F. Pilna visų veiklos charakteristikų deklaracija pagal ES Statybos produktų reglamentą ir ETA 24/0895.",
+      "eyebrow": "Veiklos deklaracija",
+      "title": "Atsisiųsti Veiklos deklaraciją",
+      "text": "Veiklos deklaracija (DoP TRS-20250610F) deklaruoja visas technines veiklos vertes pagal ETA 24/0895 ir ES Statybos produktų reglamentą. Reikalinga statybos valdžios visose EEE valstybėse.",
+      "cta": "Atsisiųsti visus dokumentus"
     },
     "epd": {
       "badge": "ISO 14025",
-      "label": "Environmental Product Declaration",
-      "desc": "EPD-IES-0018268. ISO 14025. Declared unit: 1 m² at 12 mm, 9.96 kg/m². Valid until 2029-03-14. Supports LEED, BREEAM, and DGNB projects."
+      "label": "Aplinkos produkto deklaracija",
+      "desc": "EPD-IES-0018268. ISO 14025. Deklaruotas vienetas: 1 m² 12 mm, 9,96 kg/m². Galioja iki 2029-03-14. Palaikytas LEED, BREEAM ir DGNB projektams."
     },
     "fire": {
-      "badge": "Tested",
-      "label": "Fire Resistance",
-      "desc": "E 120 / EI 90 / EW 120. Independently tested per FIRES-CR-284-25-AUPE. Suitable for fire-rated partition wall systems in commercial and industrial buildings."
+      "badge": "Išbandyta",
+      "label": "Atsparumas ugniai",
+      "desc": "E 120 / EI 90 / EW 120. Nepriklausomai testuota pagal FIRES-CR-284-25-AUPE. Tinka gaisrui atsparių pertvarinių sienų sistemoms komercinėse ir pramonėse patalpose."
     },
     "voc": {
       "badge": "Intertek",
-      "label": "VOC & Indoor Air Quality",
-      "desc": "Tested by Intertek for volatile organic compound emissions. Suitable for interior applications with indoor air quality requirements."
+      "label": "VOC ir vidaus oro kokybė",
+      "desc": "Testuota Intertek dėl lakių organinių jungčių emisijų. Tinka vidaus taikymams su vidaus oro kokybės reikalavimais."
     },
     "authorisation": {
-      "badge": "Official",
-      "label": "Manufacturer Authorisation",
-      "desc": "Official authorisation letter from Zhejiang Terasun Air Duct Co., Ltd. appointing Terasun Europe as the Authorised European Representative."
+      "badge": "Oficialus",
+      "label": "Gamintojo autorizacija",
+      "desc": "Oficialus autorizacijos laiškas iš Zhejiang Terasun Air Duct Co., Ltd. paskiriant Terasun Europe kaip Autorizuotą Europos atstovą."
     },
     "reach": {
       "badge": "REACH",
-      "label": "REACH SVHC Declaration",
-      "desc": "No substances of very high concern (SVHC) above 0.1% w/w. Full REACH compliance declaration available upon request."
+      "label": "REACH SVHC deklaracija",
+      "desc": "Jokių labai problematiškų medžiagų (SVHC) daugiau nei 0,1% m/m. Išsami REACH atitikties deklaracija prieinama pagal pareikalavimą."
     },
     "notMfrNote": "Terasun Europe yra įgaliotasis Europos atstovas Zhejiang Terasun Air Duct Co., Ltd. Terasun Europe nėra Terasun produktų gamintoja.",
     "downloadLabel": "Atsisiųsti ↗"
   },
   "downloads": {
-    "eyebrow": "Document library",
-    "h1": "Technical documents for Terasun TSM",
-    "sub": "All certification, technical, and installation documents. Some files require partner login.",
+    "eyebrow": "Dokumentų biblioteka",
+    "h1": "Techniniai dokumentai Terasun TSM",
+    "sub": "Visi sertifikavimo, techniniai ir diegimo dokumentai. Kai kuriems failams reikalina partnerio prisijungimas.",
     "authNote": {
-      "title": "Partner login required for some documents",
-      "text": "Public documents are available to all. Protected documents (installation manuals, system guides) require partner registration and account approval."
+      "title": "Kai kuriems dokumentams reikalina partnerio prisijungimas",
+      "text": "Viešieji dokumentai yra prieinami visiems. Apsaugoti dokumentai (diegimo instrukcijos, sistemos vadovai) reikalauja partnerio registracijos ir paskyros patvirtinimo."
     },
     "docs": {
       "tds": {
-        "name": "Technical Data Sheet",
-        "desc": "Declared specifications, physical properties, and compliance references"
+        "name": "Techninis duomenų lapas",
+        "desc": "Deklaruojamos specifikacijos, fizikinės savybės ir atitikties nuorodos"
       },
       "installation": {
-        "name": "Installation Manual",
-        "desc": "Step-by-step installation guide for all system types"
+        "name": "Diegimo instrukcija",
+        "desc": "Žingsnis po žingsnio diegimo vadovas visų sistemos tipų"
       },
       "brochure": {
-        "name": "Product Brochure",
-        "desc": "Overview of Terasun TSM applications and features"
+        "name": "Produkto brošiūra",
+        "desc": "Terasun TSM programų ir funkcijų apžvalga"
       },
       "facade": {
-        "name": "Facade System Guide",
-        "desc": "CBSS and CBMV ventilated facade system specifications"
+        "name": "Fasado sistemos vadovas",
+        "desc": "CBSS ir CBMV vėdinamos fasado sistemos specifikacijos"
       },
       "wetroom": {
-        "name": "Wet Room System Guide",
-        "desc": "Mapei and Schönox approved wet room tile backing systems"
+        "name": "Drėgno kambario sistemos vadovas",
+        "desc": "Mapei ir Schönox patvirtintos drėgno kambario plytelių pagrindo sistemos"
       },
       "cutting": {
-        "name": "Cutting & Fixing Guide",
-        "desc": "Tools, cutting methods, and fixing specifications"
+        "name": "Pjaustymo ir tvirtinimo vadovas",
+        "desc": "Įrankiai, pjaustymo metodai ir tvirtinimo specifikacijos"
       },
       "sds": {
-        "name": "Safety Data Sheet",
-        "desc": "Material safety data for handling and disposal"
+        "name": "Saugos duomenų lapas",
+        "desc": "Medžiagos saugos duomenys tvarkymo ir šalinimo atžvilgiu"
       },
       "ce": {
-        "name": "CE Certificate",
-        "desc": "CE marking certificate — 1023-CPR-1565 P"
+        "name": "CE sertifikatas",
+        "desc": "CE žymos sertifikatas — 1023-CPR-1565 P"
       },
       "eta": {
-        "name": "European Technical Assessment",
-        "desc": "ETA 24/0895 — full assessment document"
+        "name": "Europos techninis vertinimas",
+        "desc": "ETA 24/0895 — išsamus vertinimo dokumentas"
       },
       "epd": {
-        "name": "Environmental Product Declaration",
-        "desc": "EPD-IES-0018268 — ISO 14025, valid until 2029"
+        "name": "Aplinkos produkto deklaracija",
+        "desc": "EPD-IES-0018268 — ISO 14025, galioja iki 2029"
       },
       "fire": {
-        "name": "Fire Test Report",
-        "desc": "FIRES-CR-284-25-AUPE — E120/EI90/EW120 system test"
+        "name": "Ugnies atsprumo testo ataskaita",
+        "desc": "FIRES-CR-284-25-AUPE — E120/EI90/EW120 sistemos testas"
       },
       "voc": {
-        "name": "VOC / Intertek Certificate",
-        "desc": "Indoor air quality and VOC emission test certificate"
+        "name": "VOC / Intertek sertifikatas",
+        "desc": "Vidaus oro kokybės ir VOC išmetamų dujų testo sertifikatas"
       }
     }
   },
@@ -538,31 +538,31 @@
     "benefits": {
       "margin": {
         "icon": "💰",
-        "title": "Competitive margins",
-        "body": "Exclusive territory pricing with attractive distributor margins. Volume discounts for stocking partners."
+        "title": "Konkurencingos maržos",
+        "body": "Ekskliuzyvus kainodaros modelis su patraukliadomis platintojo maržomis. Tūrio nuolaidos atsargų partneriams."
       },
       "support": {
         "icon": "🛠️",
-        "title": "Technical support",
-        "body": "Full documentation support including CE, ETA, EPD, and fire test documents for your customer's building authorities."
+        "title": "Techninis palaikymas",
+        "body": "Pilna dokumentacijos pagalba, įskaitant CE, ETA, EPD ir priešgaisrinių bandymų dokumentus jūsų klientų savivaldos institucijoms."
       },
       "training": {
         "icon": "📚",
-        "title": "Training & marketing",
-        "body": "Product training, installation guidance, and marketing materials to support your sales team and projects."
+        "title": "Mokymai ir rinkodara",
+        "body": "Produkto mokymai, montavimo gidai ir rinkodaros medžiaga, skirta jūsų pardavimo komandai ir projektams palaikyti."
       },
       "territory": {
         "icon": "🗺️",
-        "title": "Exclusive territory",
-        "body": "Territory-based distribution agreements. Priority markets available now."
+        "title": "Ekskliuzyvi teritorija",
+        "body": "Teritorijomis grįstos platinimo sutartys. Prioritetinės rinkos šiuo metu galimos."
       }
     },
     "mapTitle": "Rinkos visoje Europoje",
     "status": {
-      "hq": "HQ — Finland",
-      "active": "Active partner",
-      "open": "Partner wanted",
-      "available": "Available"
+      "hq": "Būstinė — Finland",
+      "active": "Aktyvus partneris",
+      "open": "Ieškomas partneris",
+      "available": "Prieinamas"
     },
     "ctaTitle": "Paprašykite paskirstymo jūsų šalyje",
     "ctaText": "Mes aktyviai ieškome sandėlio paskirstytojų, importuotojų ir projektų partnerių visoje Europoje. Galimi ekskluyvūs teritoriniai susitarimai.",
@@ -575,46 +575,46 @@
     "sub": "Pilna tiekimo grandinės koordinacija — nuo gamybos Kinijoje iki pristatymo jūsų Europos teritorijoje ar sandėlyje.",
     "steps": {
       "order": {
-        "title": "Order confirmation",
-        "body": "Submit your requirements — product specification, quantity, format, and destination. We confirm pricing, incoterms, and lead time."
+        "title": "Užsakymo patvirtinimas",
+        "body": "Pateikite savo reikalavimus — produkto specifikaciją, kiekį, formatą ir paskirties vietą. Patvirtintame kainodarą, incoterms sąlygas ir pristatymo laiką."
       },
       "production": {
-        "title": "Manufacturing (China)",
-        "body": "Production at Zhejiang Terasun factory. Boards manufactured to ETA 24/0895 specification with factory quality control."
+        "title": "Gamyba (China)",
+        "body": "Gamyba Zhejiang Terasun gamykloje. Plokštės pagamintos pagal ETA 24/0895 specifikaciją su gamyklos kokybės kontrole."
       },
       "quality": {
-        "title": "Quality inspection",
-        "body": "Third-party or factory quality inspection before loading. Documents prepared: packing list, COO, phytosanitary, CE documents."
+        "title": "Kokybės kontrolė",
+        "body": "Trečiosios šalies arba gamyklos kokybės kontrolė prieš kraustymą. Paruošti dokumentai: pakavimo sąrašas, COO, fitosanitarinis, CE dokumentai."
       },
       "shipping": {
-        "title": "Container shipping",
-        "body": "20' or 40' container loaded and shipped from Chinese port. Tracking provided throughout. Transit time typically 4–6 weeks."
+        "title": "Konteinerio siuntimas",
+        "body": "20' arba 40' konteineris užkrautas ir išsiųstas iš Kinijos uosto. Sekimas teikiamas visą laiką. Tranzito laikas paprastai 4–6 savaitės."
       },
       "customs": {
-        "title": "EU customs clearance",
-        "body": "Import documents prepared. EU customs duties and VAT handled per agreed incoterms. CE documents available for customs."
+        "title": "Muitinės išklaida",
+        "body": "Paruošti importo dokumentai. ES muitinės mokesčiai ir PVM tvarkomi pagal sutartus Incoterms. CE dokumentai prieinami muitinei."
       },
       "delivery": {
-        "title": "Delivery to warehouse",
-        "body": "DAP or DDP delivery to your European warehouse or construction site. Unloading coordination on request."
+        "title": "Pristatymas į sandėlį",
+        "body": "DAP arba DDP pristatymas į jūsų Europos sandėlį arba statybvietę. Iškrovimo koordinavimas pagal užklausą."
       }
     },
     "leadTimesTitle": "Įprasti tiekimo laikai",
     "leadTimes": {
       "stock": {
-        "value": "~2 wks",
-        "label": "From stock (Finland)",
-        "desc": "Small quantities from Finnish warehouse when available"
+        "value": "~2 sav.",
+        "label": "Iš atsargų (Finland)",
+        "desc": "Nedideli kiekiai iš Suomijos sandėlio, jei prieinami"
       },
       "production": {
-        "value": "6–10 wks",
-        "label": "Standard container",
-        "desc": "Full container order from China production"
+        "value": "6–10 sav.",
+        "label": "Standartinis konteineris",
+        "desc": "Pilnas konteinerio užsakymas iš Kinijos gamybos"
       },
       "custom": {
-        "value": "On request",
-        "label": "Custom specification",
-        "desc": "Non-standard sizes or custom board specifications"
+        "value": "Pagal užklausą",
+        "label": "Pasirinktinė specifikacija",
+        "desc": "Nestandartiniai dydžiai arba pasirinktinės plokščių specifikacijos"
       }
     },
     "incotermsTitle": "Galimi incoterms",
@@ -713,15 +713,16 @@
     }
   },
   "contact": {
-    "eyebrow": "Enquiry & quotation",
-    "h1": "Request a quotation or technical information",
-    "sub": "Use this form to request a price, sample, technical documentation, or to apply for distribution. We respond within 1 business day.",
+    "eyebrow": "Užklausa ir pasiūlymas",
+    "h1": "Prašyti pasiūlymo arba techninės informacijos",
+    "sub": "Naudokite šią formą norėdami prašyti kainos, pavyzdžio, techninės dokumentacijos arba tapti distributoriumi. Atsakome per 1 darbo dieną.",
     "sidebar": {
-      "contactTitle": "Direct contact",
-      "responseTitle": "Response time",
-      "responseText": "We respond to all enquiries within 1 business day. For urgent requests, please call or WhatsApp.",
-      "addressTitle": "Our address"
-    }
+      "contactTitle": "Tiesioginiai kontaktai",
+      "responseTitle": "Atsakymo laikas",
+      "responseText": "Atsakome į visas užklausas per 1 darbo dieną. Skubiam prašymam naudokite telefono skambutį arba WhatsApp.",
+      "addressTitle": "Mūsų adresas"
+    },
+    "notMfrNote": "Terasun Europe yra tik autorizuotas Europos atstovas. Mes nesame Terasun produktų gamintoja."
   },
   "installation": {
     "eyebrow": "Montavimo vadovas",
@@ -730,33 +731,33 @@
     "features": {
       "tools": {
         "icon": "🔧",
-        "title": "Tools required",
-        "body": "Circular saw or angle grinder with fibre cement blade, drill/driver, measuring tape, chalk line, and PPE (dust mask, goggles)."
+        "title": "Reikalingi įrankiai",
+        "body": "Apskritasis pjūklas arba kampinis šlifuoklis su skaidulos cemento ašmenimis, grąžtas/suktuvas, matavimo juosta, kreidos linija ir asmeninės apsaugos priemonės (dulkių kaukė, apsauginiai akiniai)."
       },
       "cutting": {
         "icon": "✂️",
-        "title": "Cutting methods",
-        "body": "Cut with circular saw (fibre cement blade) or score-and-snap for straight cuts on thinner boards. Wet cutting reduces dust."
+        "title": "Pjovimo būdai",
+        "body": "Pjaukite apskritojo pjūklo (skaidulos cemento ašmenimis) arba žymėjimo-atlūžimo metodu tiesūs pjūviams ant plonesnių plokščių. Šlapi pjova sumažina dulkę."
       },
       "fastening": {
         "icon": "🔩",
-        "title": "Fastening",
-        "body": "Fix with stainless steel or corrosion-resistant self-tapping screws or annular ring nails. Min 12 mm edge distance, 200 mm edge spacing, 300 mm field spacing."
+        "title": "Tvirtinimas",
+        "body": "Tvirtinkite nerūdijančiomis plieno arba korozijos atspariomis savigręžiavimis varžtais arba žiediniais nagais. Min 12 mm atstumas nuo krašto, 200 mm tarpas prie krašto, 300 mm tarpas lauke."
       },
       "joints": {
         "icon": "📐",
-        "title": "Joints & gaps",
-        "body": "Leave 3 mm expansion gap at all board edges. Tape and fill butt joints for interior. For exterior, leave open joints with sealant or cover with feature joint profiles."
+        "title": "Jungčių ir tarpai",
+        "body": "Palikite 3 mm išsiplėtimo tarpą visose plokščių briaunose. Lipnia juostele ir užpildykite stulpines jungtis viduje. Išorėje palikite atviras jungtis su sandarikliu arba padenkite jungčių profilius."
       },
       "weather": {
         "icon": "🌧️",
-        "title": "Weather protection",
-        "body": "Do not install in freezing conditions. Protect boards from rain until system is weather-sealed. Store under cover — boards must not sit in standing water."
+        "title": "Apsauga nuo oro poveikio",
+        "body": "Neinstaliuokite esant šalnoms. Apsaugokite plokštes nuo lietaus, kol sistema bus apsaugota nuo oro poveikio. Laikykite po viršumi – plokštės negali sėdėti stovinčiame vandenyje."
       },
       "finishing": {
         "icon": "🎨",
-        "title": "Finishing & paint",
-        "body": "Prime with alkali-resistant primer before paint or render. Compatible with mineral, silicone, and acrylic finishes. Interior surfaces can be directly tiled with polymer-modified adhesive."
+        "title": "Baigimas ir dažymas",
+        "body": "Gruntuokite alkaliui atsparia gruntu prieš dažant ar glaistant. Suderinama su mineraliniais, silikoniniais ir akrylo pabaigomis. Vidines paviršius galima tiesiogiai kloti su polimeru modifikuotais klijavimo mišiniais."
       }
     },
     "downloadTitle": "Atsisiųsti montavimo vadovą",
@@ -764,33 +765,33 @@
   },
   "footer": {
     "brand": "TERASUN",
-    "brandSub": "Europe",
-    "desc": "Authorised European Representative for Terasun TSM fiber cement board.",
-    "authLine": "Authorised European Representative",
-    "notManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
-    "colProduct": "Product",
-    "colDocs": "Documentation",
-    "colCompany": "Company",
-    "privacy": "Privacy policy",
-    "cookies": "Cookie policy",
-    "terms": "Terms of use",
+    "brandSub": "Europa",
+    "desc": "Nustatytas Europos atstovas Terasun TSM skaidulinio cemento plokščiams.",
+    "authLine": "Nustatytas Europos atstovas",
+    "notManufacturer": "Terasun Europe nėra Terasun produktų gamintoja.",
+    "colProduct": "Produktas",
+    "colDocs": "Dokumentacija",
+    "colCompany": "Įmonė",
+    "privacy": "Privatumo politika",
+    "cookies": "Slapukų politika",
+    "terms": "Naudojimo sąlygos",
     "legal": "© 2025 Terasun Europe. Visos teisės saugomos.",
-    "legalMfr": "Products manufactured by Zhejiang Terasun Air Duct Co., Ltd., China.",
+    "legalMfr": "Produktai, pagaminti Zhejiang Terasun Air Duct Co., Ltd., Kinijoje.",
     "legalCerts": "CE 1023-CPR-1565 P · ETA 24/0895 · EPD-IES-0018268"
   },
   "portal": {
-    "loginTitle": "Partner Portal Login",
-    "loginSub": "Access protected technical documents and account management.",
-    "loginRedirectText": "The partner portal is hosted on our main platform. Click below to sign in.",
-    "loginBtn": "Sign in to partner portal",
-    "noAccount": "Don't have an account yet?",
-    "registerLink": "Apply for partner access",
-    "registerTitle": "Apply for Partner Access",
-    "registerSub": "Apply to become an authorised Terasun Europe distributor or verified partner.",
-    "registerRedirectText": "Partner registration is processed on our main platform. Click below to submit your application.",
-    "registerBtn": "Submit partner application",
-    "haveAccount": "Already have an account?",
-    "loginLink": "Sign in"
+    "loginTitle": "Partnero portalo prisijungimas",
+    "loginSub": "Prieiga prie apsaugotų techninių dokumentų ir paskyros valdymo.",
+    "loginRedirectText": "Partnero portalas talpinamas mūsų pagrindinėje platformoje. Spustelėkite žemiau, kad prisijungtumėte.",
+    "loginBtn": "Prisijungti prie partnero portalo",
+    "noAccount": "Dar neturite paskyros?",
+    "registerLink": "Prašyti partnero prieigos",
+    "registerTitle": "Prašyti partnero prieigos",
+    "registerSub": "Prašyti tapti nustatytu Terasun Europe platintoju arba patikrintu partneriu.",
+    "registerRedirectText": "Partnerio registracija apdorojama mūsų pagrindinėje platformoje. Spustelėkite žemiau ir pateikite savo paraišką.",
+    "registerBtn": "Pateikti partnerio paraišką",
+    "haveAccount": "Jau turite paskyrą?",
+    "loginLink": "Prisijungti"
   },
   "markets": {
     "eyebrow": "Europos rinka",
@@ -1058,13 +1059,13 @@
     "markets": "Rinkos"
   },
   "common": {
-    "learnMore": "Learn more",
-    "requestQuotation": "Request quotation",
-    "contactUs": "Contact us",
-    "downloadDocs": "Download documents",
-    "notManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
-    "authRep": "Authorised European Representative",
-    "backToTop": "Back to top"
+    "learnMore": "Sužinoti daugiau",
+    "requestQuotation": "Prašyti pasiūlymo",
+    "contactUs": "Susisiekite su mumis",
+    "downloadDocs": "Atsisiųsti dokumentus",
+    "notManufacturer": "Terasun Europe nėra Terasun produktų gamintoja.",
+    "authRep": "Autorizuotas Europos atstovas",
+    "backToTop": "Grįžti į viršų"
   },
   "home": {
     "productStag": "Produktas",
