@@ -9,44 +9,44 @@
       "description": "Terasun Europe е Упълномощен Европейски Представител, базиран във Вантаа, Финландия."
     },
     "manufacturer": {
-      "title": "Manufacturer — Zhejiang Terasun Air Duct Co., Ltd. | Terasun Europe",
-      "description": "Founded 1989 in Zhejiang Province, China. Manufacturer of Terasun TSM fiber cement board with CE, ETA 24/0895, and EPD for European markets."
+      "title": "Производител — Zhejiang Terasun Air Duct Co., Ltd. | Terasun Europe",
+      "description": "Основана през 1989 г. в провинция Zhejiang, Китай. Производител на фибробетонни плочи Terasun TSM с CE, ETA 24/0895 и EPD за европейски пазари."
     },
     "products": {
       "title": "Terasun TSM Влакноциментови плочи — CE & ETA | Terasun Europe",
       "description": "Леки плочи без азбест. CE · ETA 24/0895 · EPD · Огнеустойчивост E120/EI90/EW120."
     },
     "applications": {
-      "title": "Fiber Cement Board Applications — Facades, Fire, Wet Rooms | Terasun Europe",
-      "description": "Terasun TSM fiber cement board for facade cladding, fire-rated partitions, wet rooms, commercial buildings, steel frame, and residential construction across Europe."
+      "title": "Приложения на фибробетонни плочи — Фасади, Огън, Мокри помещения | Terasun Europe",
+      "description": "Фиброцимент Terasun TSM за облицовка на фасад, пожаробезопасни прегради, мокри помещения, търговски сгради, стоманена конструкция и жилищно строителство в цялата Европа."
     },
     "technicalData": {
-      "title": "Technical Data — Terasun TSM Fiber Cement Board | Terasun Europe",
-      "description": "Full technical specifications: weight, dimensions, fire ratings, CE and ETA references, thickness table, and board format data for Terasun TSM fiber cement board."
+      "title": "Технически данни — Фиброцимент Terasun TSM | Terasun Europe",
+      "description": "Пълни технически спецификации: тегло, размери, пожарни класове, CE и ETA препратки, таблица за дебелина и данни за формата на плочата Terasun TSM."
     },
     "installation": {
-      "title": "Installation Guide — Terasun TSM Fiber Cement Board | Terasun Europe",
-      "description": "Installation guide for Terasun TSM fiber cement board: tools, cutting, fastening, joints, weather protection, and finishing. Download the full installation manual."
+      "title": "Ръководство за монтаж — Фиброцимент Terasun TSM | Terasun Europe",
+      "description": "Ръководство за монтаж на фиброцимент Terasun TSM: инструменти, рязане, закрепване, фуги, защита от време и завършване. Изтеглете пълното ръководство за монтаж."
     },
     "certifications": {
       "title": "Сертификати — CE · ETA · EPD · Огън | Terasun Europe",
       "description": "Сертификати Terasun TSM: CE 1023-CPR-1565 P, ETA 24/0895, DoP, EPD, огнеустойчивост E120."
     },
     "downloads": {
-      "title": "Document Library — Technical Documents | Terasun Europe",
-      "description": "Download technical data sheets, installation manuals, CE certificate, ETA, EPD, fire test report, and system guides for Terasun TSM fiber cement board."
+      "title": "Библиотека с документи — Технически документи | Terasun Europe",
+      "description": "Изтеглете технически спецификации, ръководства за монтаж, CE сертификат, ETA, EPD, доклад за пожарно тестване и системни ръководства за фиброцимент Terasun TSM."
     },
     "distributors": {
-      "title": "Distribution Partnership — Become a Terasun Distributor | Terasun Europe",
-      "description": "Exclusive distribution opportunities across Europe for Terasun TSM CE-certified fiber cement board. Competitive margins, technical support, and training."
+      "title": "Партньорство по дистрибуция — Станете дистрибьютор на Terasun | Terasun Europe",
+      "description": "Екскузивни възможности за дистрибуция в цялата Европа за CE-сертифициран фиброцимент Terasun TSM. Конкурентни маржове, технически поддръжка и обучение."
     },
     "logistics": {
-      "title": "Logistics & Supply Chain — Container Delivery | Terasun Europe",
-      "description": "Terasun TSM boards shipped from China by container. EXW, FOB, CFR, CIF, DAP, DDP. Typical lead time 6–10 weeks. European warehouse delivery available."
+      "title": "Логистика и верига на доставката — Доставка на контейнер | Terasun Europe",
+      "description": "Плочи Terasun TSM се изпращат от Китай с контейнер. EXW, FOB, CFR, CIF, DAP, DDP. Типично време за доставка 6–10 седмици. Налична доставка от европейски склад."
     },
     "gallery": {
-      "title": "Project Gallery — Terasun TSM Installations | Terasun Europe",
-      "description": "Photos of Terasun TSM fiber cement board installations: facade cladding, wet rooms, fire partitions, and more across European construction projects."
+      "title": "Галерия на проекти — Инсталации Terasun TSM | Terasun Europe",
+      "description": "Снимки на инсталации на фиброцимент Terasun TSM: облицовка на фасад, мокри помещения, пожарни прегради и много други в европейски строителни проекти."
     },
     "faq": {
       "title": "ЧЗВ — Terasun TSM Влакноциментови плочи | Terasun Europe",
@@ -57,8 +57,8 @@
       "description": "Поискайте оферта, мостра или техническа информация. Отговаряме в рамките на 1 работен ден."
     },
     "blog": {
-      "title": "Blog & Resources — Fiber Cement Construction | Terasun Europe",
-      "description": "Articles, installation guides, and industry news about fiber cement board for European construction professionals."
+      "title": "Блог и ресурси — Строителство с фиброцимент | Terasun Europe",
+      "description": "Статии, ръководства за монтаж и новини на индустрията за фиброцимент за европейски строителни професионалисти."
     }
   },
   "nav": {
@@ -81,15 +81,15 @@
     "installation": "Монтаж"
   },
   "hero": {
-    "eyebrow": "CE · ETA · EPD · Fire certified",
+    "eyebrow": "CE · ETA · EPD · Сертифициран за огън",
     "h1": "Леки влакноциментови плочи за европейско строителство",
     "sub": "Terasun TSM — без азбест, CE сертифицирани, 9,96 kg/m² при 12 mm. Директна доставка от завода.",
     "btnQuote": "Запитване за оферта",
     "btnContact": "Свържете се с нас",
     "btnDownloads": "Изтегляния",
-    "tagline": "Authorised European Representative",
-    "note": "Terasun Europe is the Authorised European Representative.",
-    "noteManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
+    "tagline": "Оторизиран европейски представител",
+    "note": "Terasun Europe е Оторизиран европейски представител.",
+    "noteManufacturer": "Terasun Europe не е производител на продукти Terasun.",
     "h1Line1": "Леки влакноциментови плочи",
     "h1Line2Emphasis": "CE сертифицирани",
     "h1Line2": "за европейско строителство",
@@ -100,9 +100,9 @@
       "CE 1023-CPR-1565 P",
       "ETA 24/0895",
       "EPD-IES-0018268",
-      "Wall assembly: E120/EI90/EW120",
-      "REACH compliant",
-      "25 EU languages"
+      "Конструкция на стена: E120/EI90/EW120",
+      "Съответно на REACH",
+      "25 EU езика"
     ]
   },
   "about": {
@@ -124,43 +124,43 @@
     "stat2Label": "Поддържани езици на ЕС",
     "points": [
       {
-        "title": "CE documentation",
-        "text": "Maintaining all EU construction product compliance documents — Declaration of Performance, CE marking, and technical files."
+        "title": "CE документация",
+        "text": "Съхранение на всички документи за съответствие на EU продукти — Декларация за производителност, CE маркиране и технически файлове."
       },
       {
-        "title": "European supply",
-        "text": "Direct container supply from factory in China to distributors and contractors across all EU and EEA member states."
+        "title": "Европейско снабдяване",
+        "text": "Преки доставки на контейнери от фабрика в Китай до дистрибутори и подрядчици на всички държави членки на EU и EEA."
       },
       {
-        "title": "Technical support",
-        "text": "ETA, EPD, fire test reports, and REACH declarations for architects, specifiers, and building authorities."
+        "title": "Техническа поддръжка",
+        "text": "ETA, EPD, доклади от тестове за огън и REACH декларации за архитекти, проектанти и строителни органи."
       }
     ]
   },
   "authorised": {
-    "eyebrow": "Our role in the supply chain",
-    "h1": "Authorised European Representative",
-    "sub": "Appointed by the manufacturer to act as the official European point of contact for CE documentation, market compliance, and customer support.",
+    "eyebrow": "Нашата роля в веригата на доставка",
+    "h1": "Упълномощен европейски представител",
+    "sub": "Назначен от производителя, за да действа като официалната европейска точка на контакт за CE документация, съответствие на пазара и поддръжка на клиентите.",
     "cards": {
       "ce": {
-        "title": "CE Documentation",
-        "body": "Maintaining all EU construction product compliance documentation — Declaration of Performance, CE marking, and technical files."
+        "title": "CE документация",
+        "body": "Поддържане на цялата EU документация за съответствие на строителните продукти — Декларация за производ, CE маркировка и технически файлове."
       },
       "rep": {
-        "title": "Official Representative",
-        "body": "Appointed by Zhejiang Terasun Air Duct Co., Ltd. as the Authorised European Representative under EU Construction Products Regulation."
+        "title": "Официален представител",
+        "body": "Назначен от Zhejiang Terasun Air Duct Co., Ltd. като упълномощен европейски представител согласно EU Регламент за строителни продукти."
       },
       "docs": {
-        "title": "Technical Support",
-        "body": "Providing ETA, EPD, fire test reports, and REACH declarations to architects, specifiers, and building authorities."
+        "title": "Техническа поддръжка",
+        "body": "Предоставяне на ETA, EPD, доклади от огневи тестове и REACH декларации на архитекти, специалисти и органи по строителството."
       },
       "mkt": {
-        "title": "European Markets",
-        "body": "Serving all EU member states, EEA countries, and the wider European market from our base in Vantaa, Finland."
+        "title": "Европейски пазари",
+        "body": "Обслужваме всички държави членки на ЕС, страни от ЕИП и по-широкия европейски пазар от нашата база в Vantaa, Finland."
       }
     },
-    "stag": "Our role",
-    "title": "Authorised European Representative"
+    "stag": "Нашата роля",
+    "title": "Оторизиран европейски представител"
   },
   "manufacturer": {
     "eyebrow": "За производителя",
@@ -171,11 +171,11 @@
     "stats": {
       "capacity": {
         "value": "1989",
-        "label": "Founded"
+        "label": "Основана"
       },
       "employees": {
         "value": "CE + ETA",
-        "label": "Certified"
+        "label": "Сертифициран"
       },
       "countries": {
         "value": "EPD",
@@ -183,69 +183,69 @@
       },
       "patents": {
         "value": "E120",
-        "label": "Fire tested"
+        "label": "Тестван за огнеустойчивост"
       }
     },
     "timelineTitle": "Вехи на компанията",
     "timeline": {
       "founded": {
         "year": "1989",
-        "title": "Company founded",
-        "body": "Zhejiang Terasun Air Duct Co., Ltd. established in Zhejiang Province, China."
+        "title": "Компания основана",
+        "body": "Zhejiang Terasun Air Duct Co., Ltd. основана в Zhejiang провинция, Китай."
       },
       "iso": {
-        "year": "2000s",
-        "title": "ISO certification",
-        "body": "Manufacturing processes certified to international quality management standards."
+        "year": "2000-те години",
+        "title": "ISO сертификация",
+        "body": "Производствени процеси сертифицирани към международни стандарти за управление на качеството."
       },
       "expansion": {
         "year": "2018",
-        "title": "Production expansion",
-        "body": "Expanded fiber cement board production capacity to serve growing European export demand."
+        "title": "Разширение на производството",
+        "body": "Разширена производствена мощност за фибробетонни плочи, за да отговори на растящото търсене на европейския експорт."
       },
       "europe": {
         "year": "2023",
-        "title": "European representative appointed",
-        "body": "Terasun Europe established as the Authorised European Representative in Vantaa, Finland."
+        "title": "Назначен европейски представител",
+        "body": "Terasun Europe основана като Оторизиран европейски представител в Vantaa, Finland."
       },
       "eta": {
         "year": "2024",
-        "title": "ETA 24/0895 issued",
-        "body": "European Technical Assessment issued by a designated ETA body. CE marking confirmed under the EU Construction Products Regulation."
+        "title": "ETA 24/0895 издадена",
+        "body": "Европейска техническа оценка издадена от определен орган за ETA. CE маркировка потвърдена според Регламента на ЕС за строителни продукти."
       },
       "epd": {
         "year": "2025",
-        "title": "EPD published",
-        "body": "EPD-IES-0018268 published March 2025, valid until 2029. ISO 14025 compliant environmental declaration."
+        "title": "EPD публикувана",
+        "body": "EPD-IES-0018268 публикувана март 2025 г., валидна до 2029 г. Екологична декларация, съответстваща на ISO 14025."
       }
     },
     "noteTitle": "Отношение на производителя",
     "noteText": "Terasun Europe е Упълномощен европейски представител на Zhejiang Terasun Air Duct Co., Ltd. Terasun Europe не производи продукти на Terasun. Всички продукти се произвеждат в Китай и се доставляват чрез преки контейнерни пратки. Европейски представител: Terasun Europe, 01370 Vantaa, Финландия."
   },
   "products": {
-    "eyebrow": "Product",
-    "h1": "Terasun TSM — lightweight fiber cement board",
-    "sub": "CE-certified, asbestos-free fiber cement board for European construction. Facades, wet rooms, fire partitions, and more.",
-    "name": "Terasun TSM Fiber Cement Board",
+    "eyebrow": "Продукт",
+    "h1": "Terasun TSM — лека фибро-циментова плоча",
+    "sub": "CE-сертифицирана, без азбест фибро-циментова плоча за европейското строителство. Фасади, мокри помещения, противопожарни преградки и още.",
+    "name": "Terasun TSM фибро-циментова плоча",
     "tagline": "CE 1023-CPR-1565 P · ETA 24/0895 · EPD-IES-0018268",
-    "desc": "A lightweight cement-based construction board with inorganic binders, lightweight components and fibreglass mesh reinforcement, designed for structural performance, moisture resistance, and fire safety in documented wall systems. Asbestos-free, CE certified, and manufactured to ETA 24/0895 requirements.",
-    "techEyebrow": "Technical specifications",
-    "techH1": "Full technical data — Terasun TSM",
-    "techSub": "Complete specification table with declared values, standards references, and thickness comparison.",
-    "thicknessTitle": "Available thicknesses",
-    "formatsTitle": "Standard board formats",
-    "compositionTitle": "Material composition",
-    "galleryTitle": "Product photos",
+    "desc": "Лека циментно-базирана конструкционна плоча с неорганични свързващи вещества, леки компоненти и армировка от стъклена мрежа, разработена за конструкционна производителност, съпротива на влага и пожарна безопасност в документирани системи на стени. Без азбест, CE сертифицирана и произведена в съответствие с изискванията на ETA 24/0895.",
+    "techEyebrow": "Технически спецификации",
+    "techH1": "Пълни технически данни — Terasun TSM",
+    "techSub": "Таблица с пълни спецификации със декларирани стойности, справки за стандарти и сравнение на дебелините.",
+    "thicknessTitle": "Налични дебелини",
+    "formatsTitle": "Стандартни формати на плочи",
+    "compositionTitle": "Състав на материала",
+    "galleryTitle": "Снимки на продукта",
     "specs": {
-      "ceMarking": "CE Marking",
-      "eta": "European Technical Assessment",
-      "dop": "Declaration of Performance",
-      "fireResistance": "Fire resistance",
-      "weight12mm": "Declared weight (12 mm)",
-      "epd": "EPD reference",
+      "ceMarking": "CE маркировка",
+      "eta": "Европейска техническа оценка",
+      "dop": "Декларация за производителност",
+      "fireResistance": "Огнеустойчивост",
+      "weight12mm": "Декларирано тегло (12 mm)",
+      "epd": "EPD справка",
       "binder": "Binder",
-      "reinforcement": "Reinforcement",
-      "studSpacing": "Stud spacing"
+      "reinforcement": "Армировка",
+      "studSpacing": "Разстояние между профилите"
     },
     "composition": {
       "cement": {
@@ -284,20 +284,20 @@
     "ctaTitle": "Не сте сигурни коя система е подходяща за вашия проект?",
     "ctaText": "Свържете се с нашия технически екип за указания относно приложението, спецификации на системата и персонализирана оценка.",
     "tags": {
-      "Ventilated": "Ventilated",
-      "All climates": "All climates",
-      "Paintable": "Paintable",
+      "Ventilated": "Вентилиран",
+      "All climates": "Всички климати",
+      "Paintable": "Боядисваем",
       "E 120": "E 120",
       "EI 90": "EI 90",
       "EW 120": "EW 120",
-      "Mapei": "Mapei system",
-      "Schönox": "Schönox system",
-      "Interior": "Interior",
-      "Exterior": "Exterior",
-      "Industrial": "Industrial",
-      "Heavy-duty": "Heavy-duty",
-      "Residential": "Residential",
-      "Timber frame": "Timber frame"
+      "Mapei": "Система Mapei",
+      "Schönox": "Система Schönox",
+      "Interior": "Вътрешна",
+      "Exterior": "Външна",
+      "Industrial": "Индустриален",
+      "Heavy-duty": "За тежки условия",
+      "Residential": "Жилищен",
+      "Timber frame": "Дървена конструкция"
     },
     "facade-systems": {
       "title": "Системи за фасада",
@@ -426,108 +426,108 @@
     "h1": "Пълна европейска документация за сертификация",
     "sub": "Terasun TSM носи задължителния CE маркер и всеобхватна сертификация на трета страна за европейското строително съответствие.",
     "ce": {
-      "badge": "Mandatory",
-      "label": "CE Marking",
-      "desc": "CE 1023-CPR-1565 P. Mandatory for sale and use in the European Economic Area. Confirms compliance with EU Construction Products Regulation."
+      "badge": "Задължително",
+      "label": "CE маркировка",
+      "desc": "CE 1023-CPR-1565 P. Задължително за продажба и използване в Европейското икономическо пространство. Потвърждава съответствието с Регламента на ЕС за строителни продукти."
     },
     "eta": {
-      "badge": "Independent",
-      "label": "European Technical Assessment",
-      "desc": "ETA 24/0895. Independently confirms the product's performance characteristics for all declared intended uses."
+      "badge": "Независим",
+      "label": "Европейска техническа оценка",
+      "desc": "ETA 24/0895. Независимо потвърждава характеристиките на производителност на продукта за всички декларирани предвидени употреби."
     },
     "dop": {
-      "badge": "DoP Declared",
-      "label": "Declaration of Performance",
-      "desc": "DoP TRS-20250610F. Full declaration of all performance characteristics in accordance with the EU Construction Products Regulation and ETA 24/0895.",
-      "eyebrow": "Declaration of Performance",
-      "title": "Download the Declaration of Performance",
-      "text": "The Declaration of Performance (DoP TRS-20250610F) declares all technical performance values in accordance with ETA 24/0895 and the EU Construction Products Regulation. Required by building authorities in all EEA member states.",
-      "cta": "Download all documents"
+      "badge": "DoP Декларирана",
+      "label": "Декларация за производителност",
+      "desc": "DoP TRS-20250610F. Пълна декларация на всички характеристики на производителност в съответствие с Регламента на ЕС за строителни продукти и ETA 24/0895.",
+      "eyebrow": "Декларация за производителност",
+      "title": "Изтеглете Декларацията за производителност",
+      "text": "Декларацията за производ (DoP TRS-20250610F) декларира всички технически характеристики в съответствие с ETA 24/0895 и Европейския регламент за строителни продукти. Изисквана от органите на всички държави членки на ЕИП.",
+      "cta": "Изтегляне на всички документи"
     },
     "epd": {
       "badge": "ISO 14025",
-      "label": "Environmental Product Declaration",
-      "desc": "EPD-IES-0018268. ISO 14025. Declared unit: 1 m² at 12 mm, 9.96 kg/m². Valid until 2029-03-14. Supports LEED, BREEAM, and DGNB projects."
+      "label": "Екологична декларация на продукта",
+      "desc": "EPD-IES-0018268. ISO 14025. Декларирана единица: 1 m² при 12 мм, 9.96 kg/m². Валидна до 2029-03-14. Поддържа LEED, BREEAM и DGNB проекти."
     },
     "fire": {
-      "badge": "Tested",
-      "label": "Fire Resistance",
-      "desc": "E 120 / EI 90 / EW 120. Independently tested per FIRES-CR-284-25-AUPE. Suitable for fire-rated partition wall systems in commercial and industrial buildings."
+      "badge": "Тестирано",
+      "label": "Огнева устойчивост",
+      "desc": "E 120 / EI 90 / EW 120. Независимо тестирано според FIRES-CR-284-25-AUPE. Подходящо за системи от разделни стени с огнева устойчивост в търговски и промишлени сгради."
     },
     "voc": {
       "badge": "Intertek",
-      "label": "VOC & Indoor Air Quality",
-      "desc": "Tested by Intertek for volatile organic compound emissions. Suitable for interior applications with indoor air quality requirements."
+      "label": "Летливи органични съединения и качество на вътрешния въздух",
+      "desc": "Тестирано от Intertek за емисии на летливи органични съединения. Подходящо за вътрешни приложения с изисквания за качество на вътрешния въздух."
     },
     "authorisation": {
-      "badge": "Official",
-      "label": "Manufacturer Authorisation",
-      "desc": "Official authorisation letter from Zhejiang Terasun Air Duct Co., Ltd. appointing Terasun Europe as the Authorised European Representative."
+      "badge": "Официално",
+      "label": "Упълномощаване от производителя",
+      "desc": "Официално писмо за упълномощаване от Zhejiang Terasun Air Duct Co., Ltd., назначаващо Terasun Europe като упълномощен европейски представител."
     },
     "reach": {
       "badge": "REACH",
-      "label": "REACH SVHC Declaration",
-      "desc": "No substances of very high concern (SVHC) above 0.1% w/w. Full REACH compliance declaration available upon request."
+      "label": "REACH SVHC Декларация",
+      "desc": "Няма вещества с висока степен на загриженост (SVHC) над 0.1% w/w. Пълна REACH декларация за съответствие е налична по поискване."
     },
     "notMfrNote": "Terasun Europe е оторизиран европейски представител на Zhejiang Terasun Air Duct Co., Ltd. Terasun Europe не е производител на продукти Terasun.",
     "downloadLabel": "Изтегляне ↗"
   },
   "downloads": {
-    "eyebrow": "Document library",
-    "h1": "Technical documents for Terasun TSM",
-    "sub": "All certification, technical, and installation documents. Some files require partner login.",
+    "eyebrow": "Библиотека с документи",
+    "h1": "Технически документи за Terasun TSM",
+    "sub": "Всички сертификационни, технически и инсталационни документи. Някои файлове изискват вход на партньор.",
     "authNote": {
-      "title": "Partner login required for some documents",
-      "text": "Public documents are available to all. Protected documents (installation manuals, system guides) require partner registration and account approval."
+      "title": "Вход на партньор е необходим за някои документи",
+      "text": "Публичните документи са достъпни за всички. Защитени документи (инсталационни ръководства, системни ръководства) изискват партньорска регистрация и одобрение на акаунт."
     },
     "docs": {
       "tds": {
-        "name": "Technical Data Sheet",
-        "desc": "Declared specifications, physical properties, and compliance references"
+        "name": "Технически лист на данни",
+        "desc": "Декларирани спецификации, физични свойства и справки за съответствие"
       },
       "installation": {
-        "name": "Installation Manual",
-        "desc": "Step-by-step installation guide for all system types"
+        "name": "Инсталационно ръководство",
+        "desc": "Стъпка по стъпка ръководство за инсталация за всички типове системи"
       },
       "brochure": {
-        "name": "Product Brochure",
-        "desc": "Overview of Terasun TSM applications and features"
+        "name": "Брошура на продукта",
+        "desc": "Преглед на приложенията и характеристиките на Terasun TSM"
       },
       "facade": {
-        "name": "Facade System Guide",
-        "desc": "CBSS and CBMV ventilated facade system specifications"
+        "name": "Ръководство за системата на фасадата",
+        "desc": "CBSS и CBMV спецификации на системата за вентилирана фасада"
       },
       "wetroom": {
-        "name": "Wet Room System Guide",
-        "desc": "Mapei and Schönox approved wet room tile backing systems"
+        "name": "Ръководство за система за мокри помещения",
+        "desc": "Системи за поддръжка на плочки в мокри помещения, одобрени от Mapei и Schönox"
       },
       "cutting": {
-        "name": "Cutting & Fixing Guide",
-        "desc": "Tools, cutting methods, and fixing specifications"
+        "name": "Ръководство за рязане и фиксиране",
+        "desc": "Инструменти, методи за рязане и спецификации за фиксиране"
       },
       "sds": {
-        "name": "Safety Data Sheet",
-        "desc": "Material safety data for handling and disposal"
+        "name": "Лист за безопасност на данните",
+        "desc": "Данни за безопасност на материала за обработка и отстраняване"
       },
       "ce": {
-        "name": "CE Certificate",
-        "desc": "CE marking certificate — 1023-CPR-1565 P"
+        "name": "CE сертификат",
+        "desc": "CE маркировка сертификат — 1023-CPR-1565 P"
       },
       "eta": {
-        "name": "European Technical Assessment",
-        "desc": "ETA 24/0895 — full assessment document"
+        "name": "Европейска техническа оценка",
+        "desc": "ETA 24/0895 — пълен документ за оценка"
       },
       "epd": {
-        "name": "Environmental Product Declaration",
-        "desc": "EPD-IES-0018268 — ISO 14025, valid until 2029"
+        "name": "Декларация за екологичност на продукта",
+        "desc": "EPD-IES-0018268 — ISO 14025, валидна до 2029"
       },
       "fire": {
-        "name": "Fire Test Report",
-        "desc": "FIRES-CR-284-25-AUPE — E120/EI90/EW120 system test"
+        "name": "Отчет за тест на огън",
+        "desc": "FIRES-CR-284-25-AUPE — тест на система E120/EI90/EW120"
       },
       "voc": {
-        "name": "VOC / Intertek Certificate",
-        "desc": "Indoor air quality and VOC emission test certificate"
+        "name": "VOC / Intertek сертификат",
+        "desc": "Сертификат за тест на качество на въздуха в помещението и емисия на летливи органични съединения"
       }
     }
   },
@@ -538,31 +538,31 @@
     "benefits": {
       "margin": {
         "icon": "💰",
-        "title": "Competitive margins",
-        "body": "Exclusive territory pricing with attractive distributor margins. Volume discounts for stocking partners."
+        "title": "Конкурентни маржове",
+        "body": "Екскузивно територално ценообразуване с привлекателни маржове за дистрибутори. Отстъпки по обем за партньори със запасите."
       },
       "support": {
         "icon": "🛠️",
-        "title": "Technical support",
-        "body": "Full documentation support including CE, ETA, EPD, and fire test documents for your customer's building authorities."
+        "title": "Техническа поддръжка",
+        "body": "Пълна документална поддръжка включително CE, ETA, EPD и документи за тестване на огнеустойчивост за строителните органи на вашите клиенти."
       },
       "training": {
         "icon": "📚",
-        "title": "Training & marketing",
-        "body": "Product training, installation guidance, and marketing materials to support your sales team and projects."
+        "title": "Обучение и маркетинг",
+        "body": "Обучение по продукти, указания за монтаж и маркетингови материали за поддръжка на вашия екип по продажби и проекти."
       },
       "territory": {
         "icon": "🗺️",
-        "title": "Exclusive territory",
-        "body": "Territory-based distribution agreements. Priority markets available now."
+        "title": "Екскузивна територия",
+        "body": "Договори за територална дистрибуция. Приоритетни пазари вече са налични."
       }
     },
     "mapTitle": "Пазари в цяла Европа",
     "status": {
-      "hq": "HQ — Finland",
-      "active": "Active partner",
-      "open": "Partner wanted",
-      "available": "Available"
+      "hq": "Централа — Finland",
+      "active": "Активен партньор",
+      "open": "Търсим партньор",
+      "available": "Налично"
     },
     "ctaTitle": "Кандидатствайте за разпространение във вашата страна",
     "ctaText": "Активно търсим дистрибутори, които поддържат запаси, импортьори и партньори по проекти в цяла Европа. Налични са изключителни територални споразумения.",
@@ -575,46 +575,46 @@
     "sub": "Пълна координация на веригата на доставка — от производство в China до доставка на вашия европейски обект или склад.",
     "steps": {
       "order": {
-        "title": "Order confirmation",
-        "body": "Submit your requirements — product specification, quantity, format, and destination. We confirm pricing, incoterms, and lead time."
+        "title": "Потвърждение на поръчката",
+        "body": "Представете вашите изисквания — спецификация на продукта, количество, формат и дестинация. Ние потвърждаваме ценообразуването, условия на доставка и време на доставка."
       },
       "production": {
-        "title": "Manufacturing (China)",
-        "body": "Production at Zhejiang Terasun factory. Boards manufactured to ETA 24/0895 specification with factory quality control."
+        "title": "Производство (China)",
+        "body": "Производство в завод Zhejiang Terasun. Плаки произведени според спецификация ETA 24/0895 със контрол на качеството в фабриката."
       },
       "quality": {
-        "title": "Quality inspection",
-        "body": "Third-party or factory quality inspection before loading. Documents prepared: packing list, COO, phytosanitary, CE documents."
+        "title": "Инспекция на качеството",
+        "body": "Проверка на качеството от трета страна или от фабриката преди натоварване. Документи: пакетен лист, COO, фитосанитарни, CE документи."
       },
       "shipping": {
-        "title": "Container shipping",
-        "body": "20' or 40' container loaded and shipped from Chinese port. Tracking provided throughout. Transit time typically 4–6 weeks."
+        "title": "Доставка с контейнер",
+        "body": "Контейнер 20' или 40' натоварен и изпратен от китайска пристанища. Проследяване осигурено. Преходното време е обикновено 4–6 седмици."
       },
       "customs": {
-        "title": "EU customs clearance",
-        "body": "Import documents prepared. EU customs duties and VAT handled per agreed incoterms. CE documents available for customs."
+        "title": "Митническо пропускане на ЕС",
+        "body": "Подготвени документи за внос. Мита на ЕС и VAT се обработват според договорени incoterms. CE документи са налични за митницата."
       },
       "delivery": {
-        "title": "Delivery to warehouse",
-        "body": "DAP or DDP delivery to your European warehouse or construction site. Unloading coordination on request."
+        "title": "Доставка до склад",
+        "body": "DAP или DDP доставка до вашия европейски склад или строителна площадка. Координация на разтоварване по поръчка."
       }
     },
     "leadTimesTitle": "Типични времена на доставка",
     "leadTimes": {
       "stock": {
-        "value": "~2 wks",
-        "label": "From stock (Finland)",
-        "desc": "Small quantities from Finnish warehouse when available"
+        "value": "~2 седмици",
+        "label": "От запас (Finland)",
+        "desc": "Малки количества от финския склад когато са налични"
       },
       "production": {
-        "value": "6–10 wks",
-        "label": "Standard container",
-        "desc": "Full container order from China production"
+        "value": "6–10 седмици",
+        "label": "Стандартен контейнер",
+        "desc": "Пълна поръчка на контейнер от китайско производство"
       },
       "custom": {
-        "value": "On request",
-        "label": "Custom specification",
-        "desc": "Non-standard sizes or custom board specifications"
+        "value": "По поръчка",
+        "label": "Персонализирана спецификация",
+        "desc": "Нестандартни размери или персонализирани спецификации на плаки"
       }
     },
     "incotermsTitle": "Налични условия за доставка",
@@ -713,15 +713,16 @@
     }
   },
   "contact": {
-    "eyebrow": "Enquiry & quotation",
-    "h1": "Request a quotation or technical information",
-    "sub": "Use this form to request a price, sample, technical documentation, or to apply for distribution. We respond within 1 business day.",
+    "eyebrow": "Запитване и оферта",
+    "h1": "Поискайте оферта или техническа информация",
+    "sub": "Използвайте този формуляр, за да поискате цена, образец, техническа документация или да кандидатствате за дистрибуция. Отговаряме в рамките на 1 работен ден.",
     "sidebar": {
-      "contactTitle": "Direct contact",
-      "responseTitle": "Response time",
-      "responseText": "We respond to all enquiries within 1 business day. For urgent requests, please call or WhatsApp.",
-      "addressTitle": "Our address"
-    }
+      "contactTitle": "Преки контакт",
+      "responseTitle": "Време на отговор",
+      "responseText": "Отговаряме на всички запитвания в рамките на 1 работен ден. За спешни заявки, моля позвоните или пишете в WhatsApp.",
+      "addressTitle": "Нашия адрес"
+    },
+    "notMfrNote": "Terasun Europe е единствено Оторизиран европейски представител. Ние не сме производител на продукти Terasun."
   },
   "installation": {
     "eyebrow": "Ръководство за инсталиране",
@@ -730,33 +731,33 @@
     "features": {
       "tools": {
         "icon": "🔧",
-        "title": "Tools required",
-        "body": "Circular saw or angle grinder with fibre cement blade, drill/driver, measuring tape, chalk line, and PPE (dust mask, goggles)."
+        "title": "Необходими инструменти",
+        "body": "Циркуларен трион или ъгловошлайф с диск за фибросцемент, пробивач/водач, мерна лента, маркировка с тебешир и PPE (маска за прах, очила)."
       },
       "cutting": {
         "icon": "✂️",
-        "title": "Cutting methods",
-        "body": "Cut with circular saw (fibre cement blade) or score-and-snap for straight cuts on thinner boards. Wet cutting reduces dust."
+        "title": "Методи на рязане",
+        "body": "Режете с циркуларен трион (диск за фибросцемент) или надраскайте и разломете за прави разрези на тънки плаки. Мокро рязане намалява прахта."
       },
       "fastening": {
         "icon": "🔩",
-        "title": "Fastening",
-        "body": "Fix with stainless steel or corrosion-resistant self-tapping screws or annular ring nails. Min 12 mm edge distance, 200 mm edge spacing, 300 mm field spacing."
+        "title": "Закрепване",
+        "body": "Закрепете със неръждаеми или устойчиви на корозия саморежещи винтове или пръстеновидни пирони. Минимум 12 мм разстояние до ръба, 200 мм краишно разстояние, 300 мм разстояние в полето."
       },
       "joints": {
         "icon": "📐",
-        "title": "Joints & gaps",
-        "body": "Leave 3 mm expansion gap at all board edges. Tape and fill butt joints for interior. For exterior, leave open joints with sealant or cover with feature joint profiles."
+        "title": "Фуги и пропуски",
+        "body": "Оставете 3 мм разширяваща се междина при всички краища на плаките. Залепете и запълнете челните фуги за интериора. За екстериора оставете отворени фуги с уплътнител или покрийте със специални профили за фуги."
       },
       "weather": {
         "icon": "🌧️",
-        "title": "Weather protection",
-        "body": "Do not install in freezing conditions. Protect boards from rain until system is weather-sealed. Store under cover — boards must not sit in standing water."
+        "title": "Защита от климатични условия",
+        "body": "Не инсталирайте при замръзващи условия. Защитете плаките от дъжд докато системата е защитена от времето. Съхранете под покрив — плаките не трябва да останат в стояща вода."
       },
       "finishing": {
         "icon": "🎨",
-        "title": "Finishing & paint",
-        "body": "Prime with alkali-resistant primer before paint or render. Compatible with mineral, silicone, and acrylic finishes. Interior surfaces can be directly tiled with polymer-modified adhesive."
+        "title": "Довършване и боя",
+        "body": "Подгответе с алкално-резистентен грунд преди боядисване или шпакловане. Съвместимо с минерални, силиконови и акрилни покрития. Вътрешни повърхности могат да бъдат директно облицовани с полимерно-модифициран лепило."
       }
     },
     "downloadTitle": "Изтегляне на ръководството за инсталиране",
@@ -765,32 +766,32 @@
   "footer": {
     "brand": "TERASUN",
     "brandSub": "Europe",
-    "desc": "Authorised European Representative for Terasun TSM fiber cement board.",
-    "authLine": "Authorised European Representative",
-    "notManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
-    "colProduct": "Product",
-    "colDocs": "Documentation",
-    "colCompany": "Company",
-    "privacy": "Privacy policy",
-    "cookies": "Cookie policy",
-    "terms": "Terms of use",
+    "desc": "Оторизиран европейски представител за Terasun TSM фибробетонни плочи.",
+    "authLine": "Оторизиран европейски представител",
+    "notManufacturer": "Terasun Europe не е производител на продукти на Terasun.",
+    "colProduct": "Продукт",
+    "colDocs": "Документация",
+    "colCompany": "Компания",
+    "privacy": "Политика за поверителност",
+    "cookies": "Политика за бисквитки",
+    "terms": "Условия на ползване",
     "legal": "© 2025 Terasun Europe. Всички права запазени.",
-    "legalMfr": "Products manufactured by Zhejiang Terasun Air Duct Co., Ltd., China.",
+    "legalMfr": "Продукти, произведени от Zhejiang Terasun Air Duct Co., Ltd., Китай.",
     "legalCerts": "CE 1023-CPR-1565 P · ETA 24/0895 · EPD-IES-0018268"
   },
   "portal": {
-    "loginTitle": "Partner Portal Login",
-    "loginSub": "Access protected technical documents and account management.",
-    "loginRedirectText": "The partner portal is hosted on our main platform. Click below to sign in.",
-    "loginBtn": "Sign in to partner portal",
-    "noAccount": "Don't have an account yet?",
-    "registerLink": "Apply for partner access",
-    "registerTitle": "Apply for Partner Access",
-    "registerSub": "Apply to become an authorised Terasun Europe distributor or verified partner.",
-    "registerRedirectText": "Partner registration is processed on our main platform. Click below to submit your application.",
-    "registerBtn": "Submit partner application",
-    "haveAccount": "Already have an account?",
-    "loginLink": "Sign in"
+    "loginTitle": "Вход в Партньорския портал",
+    "loginSub": "Достъп до защитени технически документи и управление на акаунта.",
+    "loginRedirectText": "Партньорския портал е хоствиран на нашата главна платформа. Кликнете по-долу, за да влезете.",
+    "loginBtn": "Вход в партньорския портал",
+    "noAccount": "Още нямате акаунт?",
+    "registerLink": "Подайте заявление за достъп на партньор",
+    "registerTitle": "Подайте заявление за достъп на партньор",
+    "registerSub": "Подайте заявление, за да станете оторизиран дистрибьютор на Terasun Europe или проверен партньор.",
+    "registerRedirectText": "Регистрацията на партньора се обработва на нашата главна платформа. Кликнете по-долу, за да подадете вашето заявление.",
+    "registerBtn": "Подайте заявление за партньор",
+    "haveAccount": "Вече имате акаунт?",
+    "loginLink": "Вход"
   },
   "markets": {
     "eyebrow": "Европейски пазар",
@@ -1058,13 +1059,13 @@
     "markets": "Пазари"
   },
   "common": {
-    "learnMore": "Learn more",
-    "requestQuotation": "Request quotation",
-    "contactUs": "Contact us",
-    "downloadDocs": "Download documents",
-    "notManufacturer": "Terasun Europe is not the manufacturer of Terasun products.",
-    "authRep": "Authorised European Representative",
-    "backToTop": "Back to top"
+    "learnMore": "Научете повече",
+    "requestQuotation": "Поискайте оферта",
+    "contactUs": "Свържете се с нас",
+    "downloadDocs": "Изтеглете документи",
+    "notManufacturer": "Terasun Europe не е производител на продукти Terasun.",
+    "authRep": "Оторизиран европейски представител",
+    "backToTop": "Назад в началото"
   },
   "home": {
     "productStag": "Продукт",
