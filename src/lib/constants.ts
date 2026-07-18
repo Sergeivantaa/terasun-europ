@@ -10,8 +10,6 @@ export const SITE_NAME = 'Terasun Europe'
 
 export const CONTACT = {
   email: 'sales@terasun-europe.eu',
-  phone: '+358465887177',
-  phoneDisplay: '+358 465 887 177',
   location: '01370 Vantaa, Finland',
   address: 'Teollisuustie, 01370',
   city: 'Vantaa, Finland',

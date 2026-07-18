@@ -66,7 +66,6 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
               <div className="text-sm text-[#4A5B6D] space-y-2">
                 <p>📍 {CONTACT.address}, {CONTACT.city}</p>
                 <p>📧 <a href={`mailto:${CONTACT.email}`} className="text-[#245A85] hover:text-[#1A4470] transition-colors font-medium">{CONTACT.email}</a></p>
-                <p>📞 <a href={`tel:${CONTACT.phone}`} className="text-[#132238] hover:text-[#245A85] transition-colors font-medium">{CONTACT.phoneDisplay}</a></p>
                 <p>🏢 VAT: {CONTACT.vat}</p>
               </div>
             </div>

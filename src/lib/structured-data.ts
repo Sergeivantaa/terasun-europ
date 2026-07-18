@@ -12,7 +12,6 @@ export function organizationSchema(locale = 'en') {
       url: `${SITE_URL}/imgs/products/product1.jpeg`,
     },
     email: CONTACT.email,
-    telephone: CONTACT.phone,
     vatID: CONTACT.vat,
     address: {
       '@type': 'PostalAddress',
@@ -28,7 +27,6 @@ export function organizationSchema(locale = 'en') {
     contactPoint: {
       '@type': 'ContactPoint',
       email: CONTACT.email,
-      telephone: CONTACT.phone,
       contactType: 'sales',
       availableLanguage: ['English', 'Finnish', 'German', 'French'],
       areaServed: 'Europe',
@@ -104,7 +102,6 @@ export function localBusinessSchema(countryName: string, countrySlug: string, lo
     name: `Terasun Europe — ${countryName}`,
     url: `${SITE_URL}/${locale}/markets/${countrySlug}`,
     email: CONTACT.email,
-    telephone: CONTACT.phone,
     parentOrganization: { '@id': `${SITE_URL}/#organization` },
     areaServed: {
       '@type': 'Country',

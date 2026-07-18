@@ -192,7 +192,6 @@ export default async function RequestAQuotePage({ params }: { params: Promise<{ 
               <h3 className="font-black text-[#132238] mb-3">Direct contact</h3>
               <div className="space-y-2 text-sm text-[#4A5B6D]">
                 <p>📧 <a href={`mailto:${CONTACT.email}`} className="text-[#245A85] hover:underline">{CONTACT.email}</a></p>
-                <p>📞 <a href={`tel:${CONTACT.phone}`} className="text-[#245A85] hover:underline">{CONTACT.phoneDisplay}</a></p>
               </div>
             </div>
 

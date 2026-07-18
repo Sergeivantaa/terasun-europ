@@ -619,9 +619,8 @@ export default async function HomePage({ params }: Props) {
 
             <div className="space-y-3">
               {[
-                { icon: 'email',    label: home('labelEmail'),    val: CONTACT.email,        href: `mailto:${CONTACT.email}` },
-                { icon: 'phone',    label: home('labelPhone'),    val: CONTACT.phoneDisplay,  href: `tel:${CONTACT.phone}` },
-                { icon: 'location', label: home('labelLocation'), val: CONTACT.location,      href: undefined },
+                { icon: 'email',    label: home('labelEmail'),    val: CONTACT.email,   href: `mailto:${CONTACT.email}` },
+                { icon: 'location', label: home('labelLocation'), val: CONTACT.location, href: undefined },
               ].map((c, i) => (
                 <ScrollReveal key={c.label} delay={i * 70}>
                   <div className="card-lift flex items-center gap-4 bg-white border border-[#D8E1E9] rounded-xl p-4 hover:border-[#5CA4D6]/40 transition-colors">
@@ -629,11 +628,6 @@ export default async function HomePage({ params }: Props) {
                       {c.icon === 'email' && (
                         <svg className="w-4 h-4 text-[#245A85]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                           <rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 7l10 7 10-7"/>
-                        </svg>
-                      )}
-                      {c.icon === 'phone' && (
-                        <svg className="w-4 h-4 text-[#245A85]" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                          <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.07 11a19.79 19.79 0 01-3.07-8.67A2 2 0 013 .18h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L7.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
                         </svg>
                       )}
                       {c.icon === 'location' && (

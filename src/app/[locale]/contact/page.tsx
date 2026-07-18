@@ -63,10 +63,6 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
                     <a href={`mailto:${CONTACT.email}`} className="text-accent hover:text-accent-dark transition-colors font-medium">{CONTACT.email}</a>
                   </div>
                   <div>
-                    <p className="text-slate-400 text-xs uppercase tracking-wider mb-0.5">Phone / WhatsApp</p>
-                    <a href={`tel:${CONTACT.phone}`} className="text-slate-800 hover:text-accent transition-colors font-medium">{CONTACT.phoneDisplay}</a>
-                  </div>
-                  <div>
                     <p className="text-slate-400 text-xs uppercase tracking-wider mb-0.5">VAT ID</p>
                     <p className="text-slate-600">{CONTACT.vat}</p>
                   </div>
