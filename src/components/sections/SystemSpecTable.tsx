@@ -87,17 +87,10 @@ export default async function SystemSpecTable({ type, applicationSlug }: Props) 
   const rows = systemSpecs[type]
   if (!rows) return null
 
-  // Get application description if available
-  let appDesc: string | null = null
-  try {
-    appDesc = t(`applicationDesc.${applicationSlug}` as Parameters<typeof t>[0])
-  } catch {
-    try {
-      appDesc = t(`applicationDesc.${type}` as Parameters<typeof t>[0])
-    } catch {
-      appDesc = null
-    }
-  }
+  // t() never throws — it returns the key string for missing keys
+  const descKey = `applicationDesc.${type}` as Parameters<typeof t>[0]
+  const rawDesc = t(descKey)
+  const appDesc = rawDesc !== descKey ? rawDesc : null
 
   // Highlight rows for fire-rated system
   const highlightKeys = new Set(['fireRating', 'testReport', 'fireClass'])

@@ -1410,7 +1410,7 @@
     "labels": {
       "board": "Plaque",
       "standard": "Norme",
-      "fireClass": "Classe feu",
+      "fireClass": "Réaction au feu (EN 13501-1)",
       "fireRating": "Résistance au feu",
       "moistureCategory": "Catégorie humidité",
       "waterproofing": "Système d'étanchéité",
@@ -1434,7 +1434,8 @@
       "fire-partition": "Paroi coupe-feu testée atteignant E 120 / EI 90 / EW 120. Essai selon EN 1364-1, rapport FIRES-CR-284-25-AUPE.",
       "steel-frame": "Plaque de doublage extérieur pour ossature métallique légère (OSM) et construction modulaire.",
       "interior-partition": "Cloisons, supports de carrelage et gaines techniques dans les bâtiments commerciaux et résidentiels.",
-      "modular": "Habillage extérieur posé en usine pour modules volumétriques et systèmes préfabriqués."
+      "modular": "Habillage extérieur posé en usine pour modules volumétriques et systèmes préfabriqués.",
+      "steel-frame-exterior": "Exterior sheathing board for light steel frame (LSF) construction and modular buildings."
     }
   }
 }

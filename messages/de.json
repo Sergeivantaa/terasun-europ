@@ -1410,7 +1410,7 @@
     "labels": {
       "board": "Platte",
       "standard": "Norm",
-      "fireClass": "Brandklasse",
+      "fireClass": "Brandverhalten (EN 13501-1)",
       "fireRating": "Feuerwiderstandsklasse",
       "moistureCategory": "Feuchtigkeitskategorie",
       "waterproofing": "Abdichtungssystem",

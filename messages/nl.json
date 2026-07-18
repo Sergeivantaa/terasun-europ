@@ -1410,7 +1410,7 @@
     "labels": {
       "board": "Plaat",
       "standard": "Norm",
-      "fireClass": "Brandklasse",
+      "fireClass": "Brandgedrag (EN 13501-1)",
       "fireRating": "Brandweerstand",
       "moistureCategory": "Vochtcategorie",
       "waterproofing": "Waterdichtsysteem",

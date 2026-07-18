@@ -1386,7 +1386,7 @@
     "labels": {
       "board": "Board",
       "standard": "Standard",
-      "fireClass": "Fire class",
+      "fireClass": "Reaction to fire (EN 13501-1)",
       "fireRating": "Fire assembly rating",
       "moistureCategory": "Moisture category",
       "waterproofing": "Waterproofing system",
