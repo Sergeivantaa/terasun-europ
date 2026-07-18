@@ -9,7 +9,7 @@ const systemSpecs: Record<DiagramType, SpecRow[]> = {
   'ventilated-facade': [
     { labelKey: 'board',            value: 'Terasun TSM · 8–18 mm' },
     { labelKey: 'standard',         value: 'EN 12467' },
-    { labelKey: 'fireClass',        value: 'A2-s1,d0' },
+    { labelKey: 'fireClass',        value: 'A1' },
     { labelKey: 'moistureCategory', value: 'Category A — EN 12467' },
     { labelKey: 'substructure',     value: 'Steel or aluminium rail system' },
     { labelKey: 'airCavity',        value: 'Min. 40 mm (drained & ventilated)' },
@@ -19,7 +19,7 @@ const systemSpecs: Record<DiagramType, SpecRow[]> = {
   'render-facade': [
     { labelKey: 'board',            value: 'Terasun TSM · 8–12 mm' },
     { labelKey: 'standard',         value: 'EN 12467' },
-    { labelKey: 'fireClass',        value: 'A2-s1,d0' },
+    { labelKey: 'fireClass',        value: 'A1' },
     { labelKey: 'moistureCategory', value: 'Category A — EN 12467' },
     { labelKey: 'renderSystem',     value: 'Mineral or silicone render on fibreglass mesh' },
     { labelKey: 'eta',              value: 'ETA 24/0895' },
@@ -28,7 +28,7 @@ const systemSpecs: Record<DiagramType, SpecRow[]> = {
   'wet-room': [
     { labelKey: 'board',            value: 'Terasun TSM · 12 mm' },
     { labelKey: 'standard',         value: 'EN 12467' },
-    { labelKey: 'fireClass',        value: 'A2-s1,d0' },
+    { labelKey: 'fireClass',        value: 'A1' },
     { labelKey: 'moistureCategory', value: 'Category A — suitable for wet areas' },
     { labelKey: 'waterproofing',    value: 'MAPEI or Schönox approved system' },
     { labelKey: 'frame',            value: 'Steel or timber studs' },
@@ -37,7 +37,7 @@ const systemSpecs: Record<DiagramType, SpecRow[]> = {
   ],
   'fire-partition': [
     { labelKey: 'board',            value: 'Terasun TSM 12 mm — both faces' },
-    { labelKey: 'fireClass',        value: 'A2-s1,d0' },
+    { labelKey: 'fireClass',        value: 'A1' },
     { labelKey: 'fireRating',       value: 'E 120 / EI 90 / EW 120' },
     { labelKey: 'testReport',       value: 'FIRES-CR-284-25-AUPE' },
     { labelKey: 'frame',            value: 'Steel C-studs 75–100 mm' },
@@ -48,7 +48,7 @@ const systemSpecs: Record<DiagramType, SpecRow[]> = {
   'steel-frame-exterior': [
     { labelKey: 'board',            value: 'Terasun TSM · 12 mm' },
     { labelKey: 'standard',         value: 'EN 12467' },
-    { labelKey: 'fireClass',        value: 'A2-s1,d0' },
+    { labelKey: 'fireClass',        value: 'A1' },
     { labelKey: 'moistureCategory', value: 'Category A — EN 12467' },
     { labelKey: 'frame',            value: 'Steel C-studs (LSF)' },
     { labelKey: 'studSpacing',      value: '400–600 mm c/c' },
@@ -58,7 +58,7 @@ const systemSpecs: Record<DiagramType, SpecRow[]> = {
   'interior-partition': [
     { labelKey: 'board',            value: 'Terasun TSM · 12 mm' },
     { labelKey: 'standard',         value: 'EN 12467' },
-    { labelKey: 'fireClass',        value: 'A2-s1,d0' },
+    { labelKey: 'fireClass',        value: 'A1' },
     { labelKey: 'frame',            value: 'Steel or timber studs' },
     { labelKey: 'studSpacing',      value: '400–600 mm c/c' },
     { labelKey: 'eta',              value: 'ETA 24/0895' },
@@ -67,7 +67,7 @@ const systemSpecs: Record<DiagramType, SpecRow[]> = {
   'modular': [
     { labelKey: 'board',            value: 'Terasun TSM · 12 mm' },
     { labelKey: 'standard',         value: 'EN 12467' },
-    { labelKey: 'fireClass',        value: 'A2-s1,d0' },
+    { labelKey: 'fireClass',        value: 'A1' },
     { labelKey: 'moistureCategory', value: 'Category A — EN 12467' },
     { labelKey: 'frame',            value: 'Steel C-studs (offsite fabricated)' },
     { labelKey: 'studSpacing',      value: '400 mm c/c' },

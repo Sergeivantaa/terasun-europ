@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   hreflang['x-default'] = `${SITE_URL}/en/compare/fiber-cement-board-vs-osb`
   return {
     title: 'Fiber Cement Board vs OSB: Complete Comparison | Terasun Europe',
-    description: 'Fiber cement board vs OSB: fire class A2 vs D, Category A moisture vs swelling 15–25%, non-combustible vs combustible. Which is better for facades and exterior walls?',
+    description: 'Fiber cement board vs OSB: fire class A1 vs D, Category A moisture vs swelling 15–25%, non-combustible vs combustible. Which is better for facades and exterior walls?',
     alternates: { canonical: url, languages: hreflang },
     openGraph: { title: 'Fiber Cement Board vs OSB | Terasun Europe', description: 'Technical comparison: fiber cement board vs OSB for facades, fire-rated walls, and wet rooms. CE 1023-CPR-1565 P, ETA 24/0895.', url, type: 'article' },
     keywords: 'fiber cement board vs OSB, cement board vs OSB, FCB OSB comparison, facade sheathing comparison, non-combustible sheathing',
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 const rows = [
-  { prop: 'Fire class', osb: 'Class D (combustible)', fcb: 'Class A2-s1,d0 (non-combustible)', winner: 'fcb' },
+  { prop: 'Fire class', osb: 'Class D (combustible)', fcb: 'Class A1 (non-combustible)', winner: 'fcb' },
   { prop: 'Moisture behaviour', osb: 'Swells 15–25% (EN 317)', fcb: 'EN 12467 Category A — <1% swelling', winner: 'fcb' },
   { prop: 'Mould resistance', osb: 'Susceptible (organic)', fcb: 'Immune (inorganic, no food source)', winner: 'fcb' },
   { prop: 'Weight (12 mm)', osb: '~10 kg/m²', fcb: '9.96 kg/m² (Terasun TSM)', winner: 'tie' },
@@ -51,7 +51,7 @@ export default async function FiberCementVsOsbPage({ params }: { params: Promise
       {
         '@type': 'Question',
         name: 'Is fiber cement board better than OSB for facades?',
-        acceptedAnswer: { '@type': 'Answer', text: 'For ventilated facade systems, fiber cement board is technically superior. It is non-combustible (Class A2-s1,d0) and dimensionally stable when wet (EN 12467 Category A). OSB is combustible (Class D) and swells 15–25% when wetted.' },
+        acceptedAnswer: { '@type': 'Answer', text: 'For ventilated facade systems, fiber cement board is technically superior. It is non-combustible (Class A1) and dimensionally stable when wet (EN 12467 Category A). OSB is combustible (Class D) and swells 15–25% when wetted.' },
       },
       {
         '@type': 'Question',
@@ -88,7 +88,7 @@ export default async function FiberCementVsOsbPage({ params }: { params: Promise
       {/* Verdict strip */}
       <div className="bg-[#132238] text-white">
         <div className="container-page py-5 grid sm:grid-cols-3 gap-4 text-center text-sm">
-          <div><p className="text-[#8BA9C4] text-xs uppercase tracking-wider mb-1">Fire class</p><p className="font-bold">A2-s1,d0 vs Class D</p></div>
+          <div><p className="text-[#8BA9C4] text-xs uppercase tracking-wider mb-1">Fire class</p><p className="font-bold">A1 vs Class D</p></div>
           <div><p className="text-[#8BA9C4] text-xs uppercase tracking-wider mb-1">Moisture</p><p className="font-bold">Cat. A (&lt;1%) vs 15–25% swelling</p></div>
           <div><p className="text-[#8BA9C4] text-xs uppercase tracking-wider mb-1">Exterior facades</p><p className="font-bold">Fiber cement wins</p></div>
         </div>
@@ -132,7 +132,7 @@ export default async function FiberCementVsOsbPage({ params }: { params: Promise
                 OSB is classified as <strong>Class D</strong> — it contributes to fire and is classed as a combustible material. Standard and fire-retardant-treated OSB typically cannot achieve Class A2 required for facades on buildings above 18 m in most European member states.
               </p>
               <p className="text-[#4A5B6D] leading-relaxed mb-3">
-                Terasun TSM fiber cement board achieves <strong>Class A2-s1,d0</strong> — non-combustible, with very limited smoke. The tested wall assembly reaches <strong>E 120 / EI 90 / EW 120</strong>, enabling use in fire-rated partitions and facades.
+                Terasun TSM fiber cement board achieves <strong>Class A1</strong> — non-combustible, with very limited smoke. The tested wall assembly reaches <strong>E 120 / EI 90 / EW 120</strong>, enabling use in fire-rated partitions and facades.
               </p>
               <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 text-sm text-amber-900">
                 <strong>Building regulation note:</strong> For facade cladding on buildings over 18 m height in most EU member states, A1 or A2 materials are required. OSB does not meet this requirement. Verify your national building code with a fire engineer.
@@ -181,7 +181,7 @@ export default async function FiberCementVsOsbPage({ params }: { params: Promise
               <h2 className="text-xl font-black text-[#132238] mb-4">Frequently asked questions</h2>
               <div className="space-y-4">
                 {[
-                  { q: 'Is fiber cement board better than OSB for facades?', a: 'For ventilated facade systems, fiber cement board is technically superior. It is non-combustible (Class A2-s1,d0), dimensionally stable when wet (EN 12467 Category A), and immune to mould. OSB is combustible (Class D) and swells 15–25% when wetted — a significant risk in exposed exterior conditions.' },
+                  { q: 'Is fiber cement board better than OSB for facades?', a: 'For ventilated facade systems, fiber cement board is technically superior. It is non-combustible (Class A1), dimensionally stable when wet (EN 12467 Category A), and immune to mould. OSB is combustible (Class D) and swells 15–25% when wetted — a significant risk in exposed exterior conditions.' },
                   { q: 'Can OSB be used on exterior facades?', a: 'OSB/3 can be used on protected exterior sheathing in some low-rise applications, but it is not recommended for ventilated facade systems exposed to rain, especially in northern European climates. Edge swelling and potential delamination are serious long-term risks.' },
                   { q: 'Which is cheaper?', a: 'OSB has a lower material cost per m². Fiber cement board costs more initially but requires no fire treatment, has a longer service life, and does not degrade when wet. Over 30–50 years, the total cost comparison often favours fiber cement board.' },
                 ].map(item => (
@@ -206,7 +206,7 @@ export default async function FiberCementVsOsbPage({ params }: { params: Promise
                   ['CE marking', '1023-CPR-1565 P'],
                   ['Standard', 'EN 12467'],
                   ['ETA', '24/0895'],
-                  ['Fire class', 'A2-s1,d0'],
+                  ['Fire class', 'A1'],
                   ['Fire assembly', 'E120 / EI90 / EW120'],
                   ['Moisture', 'Category A'],
                   ['Weight (12 mm)', '9.96 kg/m²'],

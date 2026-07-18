@@ -19,7 +19,7 @@ const diagrams: Record<DiagramType, { title: string; subtitle: string; direction
     direction: 'Exterior ←  →  Interior',
     layers: [
       { label: 'Exterior finish', sublabel: 'Paint / mineral render', thickness: '2–5 mm', fill: '#E8F4FD', stroke: '#5CA4D6', pattern: 'solid' },
-      { label: 'Terasun TSM', sublabel: 'CE 1023-CPR-1565 P · A2-s1,d0', thickness: '8–12 mm', fill: '#245A85', stroke: '#132238', pattern: 'board', highlight: true },
+      { label: 'Terasun TSM', sublabel: 'CE 1023-CPR-1565 P · A1', thickness: '8–12 mm', fill: '#245A85', stroke: '#132238', pattern: 'board', highlight: true },
       { label: 'Air cavity', sublabel: 'Ventilated gap — min. 40 mm', thickness: '40–100 mm', fill: '#F0F8FF', stroke: '#B0C8DB', pattern: 'solid' },
       { label: 'Breather membrane', sublabel: 'Wind-tight, vapour-open', thickness: '0.5 mm', fill: '#FDEBD0', stroke: '#E8A055', pattern: 'solid' },
       { label: 'Insulation + studs', sublabel: 'Mineral wool / PIR — steel or timber', thickness: '80–200 mm', fill: '#FDF6E3', stroke: '#D4A820', pattern: 'wool' },
@@ -35,7 +35,7 @@ const diagrams: Record<DiagramType, { title: string; subtitle: string; direction
       { label: 'Decorative render', sublabel: 'Mineral or silicone topcoat', thickness: '3–5 mm', fill: '#F5E6D3', stroke: '#C98A45', pattern: 'solid' },
       { label: 'Base coat', sublabel: 'Polymer-modified basecoat', thickness: '4–6 mm', fill: '#EDD9B3', stroke: '#C09055', pattern: 'solid' },
       { label: 'Fibreglass mesh', sublabel: 'Alkali-resistant, bedded in basecoat', thickness: '1 mm', fill: '#C8E6C9', stroke: '#4CAF50', pattern: 'hatch' },
-      { label: 'Terasun TSM', sublabel: 'CE 1023-CPR-1565 P · A2-s1,d0', thickness: '12 mm', fill: '#245A85', stroke: '#132238', pattern: 'board', highlight: true },
+      { label: 'Terasun TSM', sublabel: 'CE 1023-CPR-1565 P · A1', thickness: '12 mm', fill: '#245A85', stroke: '#132238', pattern: 'board', highlight: true },
       { label: 'Insulation + studs', sublabel: 'Mineral wool / PIR', thickness: '80–200 mm', fill: '#FDF6E3', stroke: '#D4A820', pattern: 'wool' },
       { label: 'Interior board', sublabel: 'Gypsum / fiber cement', thickness: '12 mm', fill: '#F5F5F5', stroke: '#AAAAAA', pattern: 'solid' },
     ],
@@ -59,7 +59,7 @@ const diagrams: Record<DiagramType, { title: string; subtitle: string; direction
     subtitle: 'Tested assembly E 120 / EI 90 / EW 120 (FIRES-CR-284-25-AUPE)',
     direction: 'Face A ←  →  Face B',
     layers: [
-      { label: 'Terasun TSM 12 mm', sublabel: 'Face A · A2-s1,d0 · CE 1023-CPR-1565 P', thickness: '12 mm', fill: '#245A85', stroke: '#132238', pattern: 'board', highlight: true },
+      { label: 'Terasun TSM 12 mm', sublabel: 'Face A · A1 · CE 1023-CPR-1565 P', thickness: '12 mm', fill: '#245A85', stroke: '#132238', pattern: 'board', highlight: true },
       { label: 'Steel C-stud', sublabel: '75–100 mm @ 400 mm c/c', thickness: '75–100 mm', fill: '#ECEFF1', stroke: '#78909C', pattern: 'hatch' },
       { label: 'Rock wool', sublabel: 'Min. 60 kg/m³ — continuous fill', thickness: '(within frame)', fill: '#FFF9C4', stroke: '#F9A825', pattern: 'wool' },
       { label: 'Terasun TSM 12 mm', sublabel: 'Face B · same board, mirrored', thickness: '12 mm', fill: '#245A85', stroke: '#132238', pattern: 'board', highlight: true },
@@ -70,7 +70,7 @@ const diagrams: Record<DiagramType, { title: string; subtitle: string; direction
     subtitle: 'Non-combustible sheathing for LSF construction',
     direction: 'Exterior ←  →  Interior',
     layers: [
-      { label: 'Terasun TSM', sublabel: 'Exterior sheathing · A2-s1,d0', thickness: '10–12 mm', fill: '#245A85', stroke: '#132238', pattern: 'board', highlight: true },
+      { label: 'Terasun TSM', sublabel: 'Exterior sheathing · A1', thickness: '10–12 mm', fill: '#245A85', stroke: '#132238', pattern: 'board', highlight: true },
       { label: 'Steel C-stud frame', sublabel: '100–200 mm @ 400–600 mm c/c', thickness: '100–200 mm', fill: '#ECEFF1', stroke: '#78909C', pattern: 'hatch' },
       { label: 'Mineral wool', sublabel: 'Between studs — thermal + acoustic', thickness: '(within frame)', fill: '#FDF6E3', stroke: '#D4A820', pattern: 'wool' },
       { label: 'Vapour control', sublabel: 'Continuous vapour control layer', thickness: '0.5 mm', fill: '#FCE8E8', stroke: '#E06060', pattern: 'solid' },
@@ -96,7 +96,7 @@ const diagrams: Record<DiagramType, { title: string; subtitle: string; direction
     direction: 'Exterior ←  →  Interior',
     layers: [
       { label: 'Protective coating', sublabel: 'Factory-applied finish or primer', thickness: '1–3 mm', fill: '#E8F4FD', stroke: '#5CA4D6', pattern: 'solid' },
-      { label: 'Terasun TSM', sublabel: 'Exterior face · A2-s1,d0', thickness: '10–12 mm', fill: '#245A85', stroke: '#132238', pattern: 'board', highlight: true },
+      { label: 'Terasun TSM', sublabel: 'Exterior face · A1', thickness: '10–12 mm', fill: '#245A85', stroke: '#132238', pattern: 'board', highlight: true },
       { label: 'Steel frame', sublabel: 'Module frame — CFS or hot-rolled', thickness: '100–150 mm', fill: '#ECEFF1', stroke: '#78909C', pattern: 'hatch' },
       { label: 'Insulation', sublabel: 'Factory-filled — mineral wool / PIR', thickness: '(within frame)', fill: '#FDF6E3', stroke: '#D4A820', pattern: 'wool' },
       { label: 'Terasun TSM', sublabel: 'Interior face — moisture stable', thickness: '12 mm', fill: '#245A85', stroke: '#132238', pattern: 'board', highlight: true },

@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 const rows = [
   { prop: 'Exterior use', gyp: 'Not suitable (dissolves when wet)', fcb: 'Yes — all climates (Category A)', winner: 'fcb' },
   { prop: 'Wet room use', gyp: 'MR grade with protection only', fcb: 'Yes — fully waterproof behind tiles', winner: 'fcb' },
-  { prop: 'Fire class', gyp: 'A2 (standard), A1 (Type F)', fcb: 'A2-s1,d0', winner: 'tie' },
+  { prop: 'Fire class', gyp: 'A2 (standard), A1 (Type F)', fcb: 'A1', winner: 'fcb' },
   { prop: 'Moisture resistance', gyp: 'MR grade resists splash — not immersion', fcb: 'EN 12467 Category A — immersion stable', winner: 'fcb' },
   { prop: 'Weight (12–13 mm)', gyp: '~10 kg/m²', fcb: '9.96 kg/m²', winner: 'tie' },
   { prop: 'Screw holding', gyp: 'Good (interior)', fcb: 'Good — use pre-drilled holes', winner: 'tie' },
@@ -194,7 +194,7 @@ export default async function FiberCementVsGypsumPage({ params }: { params: Prom
             <div className="border border-[#5CA4D6] rounded-2xl p-6 bg-[#EBF4FB]">
               <h3 className="font-black text-[#132238] mb-2">Terasun TSM Key Data</h3>
               <dl className="text-xs space-y-2 text-[#4A5B6D]">
-                {[['CE marking','1023-CPR-1565 P'],['Standard','EN 12467'],['ETA','24/0895'],['Fire class','A2-s1,d0'],['Fire assembly','E120 / EI90 / EW120'],['Moisture','Category A (<1% swelling)'],['Weight 12 mm','9.96 kg/m²'],['Thicknesses','6, 8, 10, 12, 15, 18 mm']].map(([k,v]) => (
+                {[['CE marking','1023-CPR-1565 P'],['Standard','EN 12467'],['ETA','24/0895'],['Fire class','A1'],['Fire assembly','E120 / EI90 / EW120'],['Moisture','Category A (<1% swelling)'],['Weight 12 mm','9.96 kg/m²'],['Thicknesses','6, 8, 10, 12, 15, 18 mm']].map(([k,v]) => (
                   <div key={k} className="flex justify-between gap-2"><dt className="text-[#8B9AAD]">{k}</dt><dd className="font-semibold text-[#132238] text-right">{v}</dd></div>
                 ))}
               </dl>

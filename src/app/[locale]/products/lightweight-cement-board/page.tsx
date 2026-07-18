@@ -161,7 +161,7 @@ export default async function LightweightCementBoardPage({ params }: { params: P
                 {[
                   { icon: '⚖️', title: 'Lightweight', body: '9.96 kg/m² at 12 mm. Lighter than stone, terracotta, and ceramic tile facade alternatives. Reduces structural load on fixing systems.' },
                   { icon: '💧', title: 'Moisture resistant — EN 12467 Cat. A', body: 'Classified as Category A under EN 12467 — the highest moisture classification. Dimensionally stable when wet. Suitable for exterior and wet room applications.' },
-                  { icon: '🔥', title: 'Non-combustible — Class A2-s1,d0', body: 'Reaction to fire: Class A2-s1,d0 (non-combustible). The tested wall assembly achieves E 120 / EI 90 / EW 120 (fire report FIRES-CR-284-25-AUPE).' },
+                  { icon: '🔥', title: 'Non-combustible — Class A1', body: 'Reaction to fire: Class A1 (non-combustible). The tested wall assembly achieves E 120 / EI 90 / EW 120 (fire report FIRES-CR-284-25-AUPE).' },
                   { icon: '🏗️', title: 'CE certified — EN 12467', body: 'CE marking 1023-CPR-1565 P under EN 12467. Mandatory for sale and use in the EU/EEA under the Construction Products Regulation.' },
                   { icon: '📋', title: 'European Technical Assessment', body: 'ETA 24/0895 confirms declared performance characteristics for facade, wet room, and fire protection applications.' },
                   { icon: '🌿', title: 'Environmental Product Declaration', body: 'EPD-IES-0018268 — ISO 14025 compliant. Supports LEED, BREEAM, and DGNB green building documentation.' },
@@ -194,7 +194,7 @@ export default async function LightweightCementBoardPage({ params }: { params: P
                       ['Declared weight', '9.96 kg/m² at 12 mm', 'EPD-IES-0018268'],
                       ['Moisture classification', 'Category A (highest)', 'EN 12467'],
                       ['Flexural strength (wet)', 'Class 4', 'EN 12467'],
-                      ['Reaction to fire', 'A2-s1,d0', 'EN 13501-1'],
+                      ['Reaction to fire', 'A1', 'EN 13501-1'],
                       ['Wall assembly fire rating', 'E 120 / EI 90 / EW 120', 'FIRES-CR-284-25-AUPE'],
                       ['CE certificate', '1023-CPR-1565 P', 'EN 12467 / CPR'],
                       ['ETA', '24/0895', 'CPR'],
@@ -283,7 +283,7 @@ export default async function LightweightCementBoardPage({ params }: { params: P
                   { q: 'What is lightweight cement board?', a: 'Lightweight cement board is a construction panel made from Portland cement, inorganic binders, lightweight aggregates, and fibreglass mesh reinforcement. Terasun TSM weighs 9.96 kg/m² at 12 mm — significantly lighter than stone (40–60 kg/m²) or ceramic tile alternatives, while matching the durability of traditional cement-based boards.' },
                   { q: 'Is CE certification mandatory for cement board in Europe?', a: 'Yes. Under the EU Construction Products Regulation (CPR No. 305/2011), fiber cement boards must carry CE marking when sold in the EEA. Products without CE marking cannot legally be incorporated into construction works in EU/EEA member states. Terasun TSM carries CE certificate 1023-CPR-1565 P.' },
                   { q: 'Can lightweight cement board be used on exterior facades?', a: 'Yes. Terasun TSM is classified as EN 12467 Category A — the highest moisture and climate classification — confirming suitability for exterior use in all European climate zones. It is used as the facade board in CBSS and CBMV ventilated facade systems.' },
-                  { q: 'What fire resistance does the board achieve?', a: 'The reaction to fire classification is A2-s1,d0 (non-combustible). The tested wall assembly achieves E 120 / EI 90 / EW 120 per fire test report FIRES-CR-284-25-AUPE. These are system-level classifications — the tested assembly must be replicated exactly for the classification to apply.' },
+                  { q: 'What fire resistance does the board achieve?', a: 'The reaction to fire classification is A1 (non-combustible). The tested wall assembly achieves E 120 / EI 90 / EW 120 per fire test report FIRES-CR-284-25-AUPE. These are system-level classifications — the tested assembly must be replicated exactly for the classification to apply.' },
                   { q: 'How do I order samples or get a quotation?', a: 'Sample packs (board sample + CE certificate + TDS + ETA) are available free to architects, contractors, and distributors. Container quotations (min. approx. 1,600–2,200 m² per 20ft container) are available on request. Contact us via the form or email sales@terasun-europe.eu.' },
                   { q: 'Is Terasun Europe the manufacturer?', a: 'No. Terasun Europe is the Authorised European Representative for Zhejiang Terasun Air Duct Co., Ltd. (China). Terasun Europe manages CE documentation, EU compliance, and European customer relationships. Products are manufactured in Zhejiang Province, China.' },
                 ].map((faq, i) => (
