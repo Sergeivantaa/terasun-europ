@@ -1349,5 +1349,37 @@
     "distLabelMinOrder": "Min. order",
     "distLabelLeadTime": "Lead time",
     "distLabelIncoterms": "Incoterms"
+  },
+  "techDocs": {
+    "sectionHeading": "Downloads for this System",
+    "sectionSub": "{count} documents · {available} available immediately",
+    "openCentre": "Open Download Centre",
+    "statusAvailable": "Available",
+    "statusLogin": "Login required",
+    "statusComingSoon": "Coming soon",
+    "actionDownload": "Download",
+    "actionLogin": "Sign in",
+    "lockNote": "System guides and fire test reports require a partner account",
+    "lockNoteBody": "Certifications, EPD and installation documents are freely available.",
+    "loginLink": "Sign in",
+    "registerLink": "register for access",
+    "downloadCentre": {
+      "catFilterLabel": "Category",
+      "allCategories": "All categories",
+      "countShown": "documents shown",
+      "countDownload": "immediate download",
+      "countLogin": "require login",
+      "noResults": "No documents match this filter",
+      "clearFilters": "Clear filters",
+      "appGroups": {
+        "all": "All documents",
+        "facade": "Ventilated facades",
+        "render": "Render / exterior plaster",
+        "wetroom": "Wet rooms & bathrooms",
+        "fire": "Fire-rated walls",
+        "steel": "Steel frame / LSF",
+        "interior": "Interior walls"
+      }
+    }
   }
 }

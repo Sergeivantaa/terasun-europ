@@ -1131,5 +1131,37 @@
     "distLabelMinOrder": "Min. tellimus",
     "distLabelLeadTime": "Tarne aeg",
     "distLabelIncoterms": "Tarnetingimused"
+  },
+  "techDocs": {
+    "sectionHeading": "Allalaadimised selle süsteemi jaoks",
+    "sectionSub": "{count} dokumenti · {available} kohe saadaval",
+    "openCentre": "Ava allalaadimiskeskus",
+    "statusAvailable": "Saadaval",
+    "statusLogin": "Sisselogimine vajalik",
+    "statusComingSoon": "Tuleb peagi",
+    "actionDownload": "Laadi alla",
+    "actionLogin": "Logi sisse",
+    "lockNote": "Süsteemijuhendid ja tulekatsete aruanded nõuavad partneri kontot",
+    "lockNoteBody": "Sertifikaadid, EPD ja installatsioonidokumendid on vabalt kättesaadavad.",
+    "loginLink": "Logi sisse",
+    "registerLink": "registreeri juurdepääsu saamiseks",
+    "downloadCentre": {
+      "catFilterLabel": "Category",
+      "allCategories": "All categories",
+      "countShown": "documents shown",
+      "countDownload": "immediate download",
+      "countLogin": "require login",
+      "noResults": "No documents match this filter",
+      "clearFilters": "Clear filters",
+      "appGroups": {
+        "all": "All documents",
+        "facade": "Ventilated facades",
+        "render": "Render / exterior plaster",
+        "wetroom": "Wet rooms & bathrooms",
+        "fire": "Fire-rated walls",
+        "steel": "Steel frame / LSF",
+        "interior": "Interior walls"
+      }
+    }
   }
 }

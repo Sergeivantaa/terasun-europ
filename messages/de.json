@@ -1373,5 +1373,37 @@
     "distLabelMinOrder": "Min. Bestellung",
     "distLabelLeadTime": "Lieferzeit",
     "distLabelIncoterms": "Lieferbedingungen"
+  },
+  "techDocs": {
+    "sectionHeading": "Downloads für dieses System",
+    "sectionSub": "{count} Dokumente · {available} sofort verfügbar",
+    "openCentre": "Download-Center öffnen",
+    "statusAvailable": "Verfügbar",
+    "statusLogin": "Login erforderlich",
+    "statusComingSoon": "Demnächst verfügbar",
+    "actionDownload": "Herunterladen",
+    "actionLogin": "Anmelden",
+    "lockNote": "Systemanleitungen und Brandprüfberichte erfordern ein Partnerkonto",
+    "lockNoteBody": "Zertifikate, EPD und Installationsdokumente sind frei verfügbar.",
+    "loginLink": "Anmelden",
+    "registerLink": "registrieren für Zugang",
+    "downloadCentre": {
+      "catFilterLabel": "Kategorie",
+      "allCategories": "Alle Kategorien",
+      "countShown": "Dokumente angezeigt",
+      "countDownload": "sofortiger Download",
+      "countLogin": "erfordern Login",
+      "noResults": "Keine Dokumente entsprechen diesem Filter",
+      "clearFilters": "Filter zurücksetzen",
+      "appGroups": {
+        "all": "Alle Dokumente",
+        "facade": "Hinterlüftete Fassaden",
+        "render": "Putz / Außenputz",
+        "wetroom": "Nasszellen und Bäder",
+        "fire": "Feuerwiderstandsfähige Wände",
+        "steel": "Stahlrahmenbau / LSF",
+        "interior": "Innenwände"
+      }
+    }
   }
 }

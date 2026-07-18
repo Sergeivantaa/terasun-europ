@@ -1131,5 +1131,37 @@
     "distLabelMinOrder": "Min. megrendelés",
     "distLabelLeadTime": "Szállítási idő",
     "distLabelIncoterms": "Incoterms"
+  },
+  "techDocs": {
+    "sectionHeading": "Letöltések ehhez a rendszerhez",
+    "sectionSub": "{count} dokumentum · {available} azonnal elérhető",
+    "openCentre": "Letöltési központ megnyitása",
+    "statusAvailable": "Elérhető",
+    "statusLogin": "Bejelentkezés szükséges",
+    "statusComingSoon": "Hamarosan elérhető",
+    "actionDownload": "Letöltés",
+    "actionLogin": "Bejelentkezés",
+    "lockNote": "Rendszerútmutatók és tűzpróba-jelentések partnerfiókot igényelnek",
+    "lockNoteBody": "A tanúsítványok, EPD és telepítési dokumentumok szabadon elérhetők.",
+    "loginLink": "Bejelentkezés",
+    "registerLink": "regisztráljon a hozzáférésért",
+    "downloadCentre": {
+      "catFilterLabel": "Category",
+      "allCategories": "All categories",
+      "countShown": "documents shown",
+      "countDownload": "immediate download",
+      "countLogin": "require login",
+      "noResults": "No documents match this filter",
+      "clearFilters": "Clear filters",
+      "appGroups": {
+        "all": "All documents",
+        "facade": "Ventilated facades",
+        "render": "Render / exterior plaster",
+        "wetroom": "Wet rooms & bathrooms",
+        "fire": "Fire-rated walls",
+        "steel": "Steel frame / LSF",
+        "interior": "Interior walls"
+      }
+    }
   }
 }

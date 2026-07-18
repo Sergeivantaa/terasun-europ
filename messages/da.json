@@ -1131,5 +1131,37 @@
     "distLabelMinOrder": "Min. ordre",
     "distLabelLeadTime": "Leveringstid",
     "distLabelIncoterms": "Incoterms"
+  },
+  "techDocs": {
+    "sectionHeading": "Downloads til dette system",
+    "sectionSub": "{count} dokumenter · {available} tilgængelige straks",
+    "openCentre": "Åbn downloadcenter",
+    "statusAvailable": "Tilgængelig",
+    "statusLogin": "Login påkrævet",
+    "statusComingSoon": "Kommer snart",
+    "actionDownload": "Download",
+    "actionLogin": "Log ind",
+    "lockNote": "Systemguider og brandtestrapporter kræver en partnerkonto",
+    "lockNoteBody": "Certifikater, EPD og installationsdokumenter er frit tilgængelige.",
+    "loginLink": "Log ind",
+    "registerLink": "registrer for adgang",
+    "downloadCentre": {
+      "catFilterLabel": "Kategori",
+      "allCategories": "Alle kategorier",
+      "countShown": "dokumenter vist",
+      "countDownload": "øjeblikkelig download",
+      "countLogin": "kræver login",
+      "noResults": "Ingen dokumenter matcher dette filter",
+      "clearFilters": "Nulstil filtre",
+      "appGroups": {
+        "all": "Alle dokumenter",
+        "facade": "Ventilerede facader",
+        "render": "Puds / udvendig puds",
+        "wetroom": "Vådrum og badeværelser",
+        "fire": "Brandsikre vægge",
+        "steel": "Stålstendervæg / LSF",
+        "interior": "Indvendige vægge"
+      }
+    }
   }
 }

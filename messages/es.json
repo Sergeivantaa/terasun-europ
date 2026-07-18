@@ -1373,5 +1373,37 @@
     "distLabelMinOrder": "Pedido mín.",
     "distLabelLeadTime": "Plazo de entrega",
     "distLabelIncoterms": "Incoterms"
+  },
+  "techDocs": {
+    "sectionHeading": "Descargas para este sistema",
+    "sectionSub": "{count} documentos · {available} disponibles inmediatamente",
+    "openCentre": "Abrir centro de descargas",
+    "statusAvailable": "Disponible",
+    "statusLogin": "Inicio de sesión requerido",
+    "statusComingSoon": "Próximamente",
+    "actionDownload": "Descargar",
+    "actionLogin": "Iniciar sesión",
+    "lockNote": "Las guías de sistema e informes de prueba de fuego requieren cuenta de socio",
+    "lockNoteBody": "Los certificados, EPD y documentos de instalación están disponibles libremente.",
+    "loginLink": "Iniciar sesión",
+    "registerLink": "regístrese para acceder",
+    "downloadCentre": {
+      "catFilterLabel": "Categoría",
+      "allCategories": "Todas las categorías",
+      "countShown": "documentos mostrados",
+      "countDownload": "descarga inmediata",
+      "countLogin": "requieren inicio de sesión",
+      "noResults": "Ningún documento coincide con este filtro",
+      "clearFilters": "Borrar filtros",
+      "appGroups": {
+        "all": "Todos los documentos",
+        "facade": "Fachadas ventiladas",
+        "render": "Revoque / revestimiento exterior",
+        "wetroom": "Cuartos húmedos y baños",
+        "fire": "Paredes resistentes al fuego",
+        "steel": "Estructura de acero / LSF",
+        "interior": "Paredes interiores"
+      }
+    }
   }
 }

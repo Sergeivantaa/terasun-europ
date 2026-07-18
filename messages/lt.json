@@ -1131,5 +1131,37 @@
     "distLabelMinOrder": "Min. užsakymas",
     "distLabelLeadTime": "Pristatymo laikas",
     "distLabelIncoterms": "Prekybos sąlygos"
+  },
+  "techDocs": {
+    "sectionHeading": "Atsisiuntimai šiai sistemai",
+    "sectionSub": "{count} dokumentai · {available} galima atsisiųsti iš karto",
+    "openCentre": "Atidaryti atsisiuntimų centrą",
+    "statusAvailable": "Prieinama",
+    "statusLogin": "Reikalingas prisijungimas",
+    "statusComingSoon": "Netrukus",
+    "actionDownload": "Atsisiųsti",
+    "actionLogin": "Prisijungti",
+    "lockNote": "Sistemos vadovai ir priešgaisrinių bandymų ataskaitos reikalauja partnerio paskyros",
+    "lockNoteBody": "Sertifikatai, EPD ir montavimo dokumentai yra laisvai prieinami.",
+    "loginLink": "Prisijungti",
+    "registerLink": "užsiregistruoti prieigai",
+    "downloadCentre": {
+      "catFilterLabel": "Category",
+      "allCategories": "All categories",
+      "countShown": "documents shown",
+      "countDownload": "immediate download",
+      "countLogin": "require login",
+      "noResults": "No documents match this filter",
+      "clearFilters": "Clear filters",
+      "appGroups": {
+        "all": "All documents",
+        "facade": "Ventilated facades",
+        "render": "Render / exterior plaster",
+        "wetroom": "Wet rooms & bathrooms",
+        "fire": "Fire-rated walls",
+        "steel": "Steel frame / LSF",
+        "interior": "Interior walls"
+      }
+    }
   }
 }

@@ -1131,5 +1131,37 @@
     "distLabelMinOrder": "Min. objednávka",
     "distLabelLeadTime": "Čas dodania",
     "distLabelIncoterms": "Incotermy"
+  },
+  "techDocs": {
+    "sectionHeading": "Stiahnutia pre tento systém",
+    "sectionSub": "{count} dokumentov · {available} dostupných okamžite",
+    "openCentre": "Otvoriť centrum sťahovania",
+    "statusAvailable": "Dostupné",
+    "statusLogin": "Vyžaduje prihlásenie",
+    "statusComingSoon": "Čoskoro dostupné",
+    "actionDownload": "Stiahnuť",
+    "actionLogin": "Prihlásiť sa",
+    "lockNote": "Systémové príručky a správy o požiarnych skúškach vyžadujú partnerský účet",
+    "lockNoteBody": "Certifikáty, EPD a inštalačné dokumenty sú voľne dostupné.",
+    "loginLink": "Prihlásiť sa",
+    "registerLink": "zaregistrovať sa pre prístup",
+    "downloadCentre": {
+      "catFilterLabel": "Category",
+      "allCategories": "All categories",
+      "countShown": "documents shown",
+      "countDownload": "immediate download",
+      "countLogin": "require login",
+      "noResults": "No documents match this filter",
+      "clearFilters": "Clear filters",
+      "appGroups": {
+        "all": "All documents",
+        "facade": "Ventilated facades",
+        "render": "Render / exterior plaster",
+        "wetroom": "Wet rooms & bathrooms",
+        "fire": "Fire-rated walls",
+        "steel": "Steel frame / LSF",
+        "interior": "Interior walls"
+      }
+    }
   }
 }

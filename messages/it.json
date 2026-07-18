@@ -1373,5 +1373,37 @@
     "distLabelMinOrder": "Ordine min.",
     "distLabelLeadTime": "Tempo di consegna",
     "distLabelIncoterms": "Incoterms"
+  },
+  "techDocs": {
+    "sectionHeading": "Download per questo sistema",
+    "sectionSub": "{count} documenti · {available} disponibili immediatamente",
+    "openCentre": "Apri centro download",
+    "statusAvailable": "Disponibile",
+    "statusLogin": "Accesso richiesto",
+    "statusComingSoon": "Prossimamente",
+    "actionDownload": "Scarica",
+    "actionLogin": "Accedi",
+    "lockNote": "Le guide di sistema e i rapporti di prova antincendio richiedono un account partner",
+    "lockNoteBody": "Certificati, EPD e documenti di installazione sono liberamente disponibili.",
+    "loginLink": "Accedi",
+    "registerLink": "registrati per accedere",
+    "downloadCentre": {
+      "catFilterLabel": "Categoria",
+      "allCategories": "Tutte le categorie",
+      "countShown": "documenti visualizzati",
+      "countDownload": "download immediato",
+      "countLogin": "richiedono login",
+      "noResults": "Nessun documento corrisponde a questo filtro",
+      "clearFilters": "Cancella filtri",
+      "appGroups": {
+        "all": "Tutti i documenti",
+        "facade": "Facciate ventilate",
+        "render": "Intonaco / rivestimento esterno",
+        "wetroom": "Locali umidi e bagni",
+        "fire": "Pareti antincendio",
+        "steel": "Struttura in acciaio / LSF",
+        "interior": "Pareti interne"
+      }
+    }
   }
 }

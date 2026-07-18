@@ -1,4 +1,4 @@
-import { getTranslations, setRequestLocale} from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import Image from 'next/image'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
@@ -35,12 +35,16 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function ApplicationDetailPage({ params }: { params: Promise<{ locale: string; slug: string }> }) {
   const { locale, slug } = await params
+  setRequestLocale(locale)
+
   const app = applications.find(a => a.slug === slug)
   if (!app) notFound()
 
   const t = await getTranslations({ locale, namespace: 'applications' })
   const bc = await getTranslations({ locale, namespace: 'breadcrumb' })
   const navHref = (path: string) => `/${locale}${path}`
+
+  const diagramType = applicationDiagram[slug]
 
   return (
     <>
@@ -50,9 +54,9 @@ export default async function ApplicationDetailPage({ params }: { params: Promis
         { name: t(`${slug}.title`), url: `${SITE_URL}/${locale}/applications/${slug}` },
       ])} />
 
-      <section className="container-page py-12 md:py-16">
+      <section className="container-page py-10 md:py-14">
         {/* Breadcrumb */}
-        <nav className="text-xs text-gray-500 mb-8 flex gap-2 items-center flex-wrap">
+        <nav className="text-xs text-gray-500 mb-10 flex gap-2 items-center flex-wrap">
           <Link href={navHref('')} className="hover:text-[#132238] transition-colors">{bc('home')}</Link>
           <span>/</span>
           <Link href={navHref('/applications')} className="hover:text-[#132238] transition-colors">{bc('applications')}</Link>
@@ -60,86 +64,110 @@ export default async function ApplicationDetailPage({ params }: { params: Promis
           <span className="text-[#132238]">{t(`${slug}.title`)}</span>
         </nav>
 
-        <div className="stag mb-12">
-          <div className="text-5xl mb-4">{app.icon}</div>
-          <h1 className="stitle">{t(`${slug}.h1`)}</h1>
-          <p className="ssub max-w-2xl">{t(`${slug}.lead`)}</p>
-        </div>
-
-        {/* Content */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-16">
-          <div className="lg:col-span-2 space-y-6">
-            <p className="text-[#4A5B6D] text-base leading-relaxed">{t(`${slug}.body1`)}</p>
-            <p className="text-[#4A5B6D] text-sm leading-relaxed">{t(`${slug}.body2`)}</p>
-
-            {/* Features */}
-            <div>
-              <h2 className="text-lg font-bold text-[#132238] mb-4">{t(`${slug}.featuresTitle`)}</h2>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                {[1,2,3,4,5,6].map(n => (
-                  <div key={n} className="flex items-start gap-3 p-3 rounded-lg bg-card border border-border">
-                    <span className="text-accent font-bold text-sm mt-0.5">✓</span>
-                    <p className="text-sm text-[#4A5B6D]">{t(`${slug}.feature${n}`)}</p>
-                  </div>
-                ))}
-              </div>
+        {/* ── Hero: photo + system overview ───────────────────────────────── */}
+        <div className="grid lg:grid-cols-2 gap-10 mb-14 items-start">
+          {/* Left: project photo */}
+          <div className="relative aspect-[4/3] rounded-2xl overflow-hidden bg-[#E8EEF4] shadow-sm">
+            <Image
+              src={`https://terasun-europe.eu/imgs/applications/${slug}-1.jpg`}
+              alt={`${t(`${slug}.title`)} — Terasun TSM`}
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              priority
+            />
+            {/* Caption bar */}
+            <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/60 to-transparent px-4 py-3">
+              <p className="text-white text-xs font-medium">Terasun TSM — {t(`${slug}.title`)}</p>
             </div>
           </div>
 
-          {/* Sidebar */}
-          <aside className="space-y-6">
-            <div className="card-gold p-6">
-              <h3 className="font-bold text-[#132238] mb-4">{t('sidebarSpecs')}</h3>
-              <div className="space-y-3">
+          {/* Right: system card */}
+          <div className="flex flex-col gap-5">
+            {/* Eyebrow + title */}
+            <div>
+              <p className="text-xs font-bold text-[#5CA4D6] uppercase tracking-widest mb-2">{app.icon} {t(`${slug}.title`)}</p>
+              <h1 className="text-2xl md:text-3xl font-black text-[#132238] leading-tight mb-3">
+                {t(`${slug}.h1`)}
+              </h1>
+              <p className="text-[#4A5B6D] text-sm leading-relaxed">{t(`${slug}.body1`)}</p>
+            </div>
+
+            {/* Spec tags */}
+            {app.tags.length > 0 && (
+              <div className="flex flex-wrap gap-2">
                 {app.tags.map(tag => (
-                  <div key={tag} className="flex justify-between text-sm border-b border-[#D8E1E9] pb-2">
-                    <span className="text-[#6B7A8D] text-xs">{t(`tags.${tag}`)}</span>
-                    <span className="text-[#132238] font-medium">{t(`${slug}.spec_${tag}`)}</span>
-                  </div>
+                  <span key={tag} className="text-xs px-2.5 py-1 rounded-full bg-[#EBF4FB] text-[#245A85] border border-[#C0DAEC] font-medium">
+                    {t(`tags.${tag}`)}
+                  </span>
                 ))}
               </div>
+            )}
+
+            {/* Key specs grid */}
+            <div className="grid grid-cols-2 gap-3">
+              {app.tags.slice(0, 4).map(tag => (
+                <div key={tag} className="bg-[#F5FAFF] border border-[#D8E1E9] rounded-xl p-3">
+                  <p className="text-[10px] font-bold text-[#8B9AAD] uppercase tracking-wider mb-1">{t(`tags.${tag}`)}</p>
+                  <p className="text-sm font-bold text-[#132238]">{t(`${slug}.spec_${tag}`)}</p>
+                </div>
+              ))}
             </div>
-            <div className="card-gold p-6">
-              <h3 className="font-bold text-[#132238] mb-3">{t('sidebarQuote')}</h3>
-              <p className="text-[#4A5B6D] text-xs mb-4">{t('sidebarQuoteDesc')}</p>
-              <Link href={navHref('/contact')} className="btn-primary text-sm py-2 px-4 w-full text-center block">Request quotation</Link>
+
+            {/* CTA */}
+            <div className="flex gap-3 pt-1">
+              <Link href={navHref('/contact')} className="btn-primary text-sm py-2.5 px-5">
+                {t('sidebarQuote')}
+              </Link>
+              <Link href={navHref('/downloads')} className="btn-secondary text-sm py-2.5 px-5">
+                {bc('downloads')}
+              </Link>
             </div>
-          </aside>
+          </div>
         </div>
 
-        {/* Image gallery */}
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-12">
-          {[1,2,3].map(n => (
-            <div key={n} className="relative aspect-video rounded-xl overflow-hidden bg-card">
-              <Image
-                src={`https://terasun-europe.eu/imgs/applications/${slug}-${n}.jpg`}
-                alt={`${t(`${slug}.title`)} example ${n}`}
-                fill
-                className="object-cover"
-                sizes="(max-width: 768px) 50vw, 33vw"
-              />
-            </div>
-          ))}
-        </div>
-
-        {/* System Diagram */}
-        {applicationDiagram[slug] && (
-          <div className="mb-16">
-            <SystemDiagram type={applicationDiagram[slug]} />
+        {/* ── Wall build-up diagram ────────────────────────────────────────── */}
+        {diagramType && (
+          <div className="mb-14">
+            <SystemDiagram type={diagramType} />
           </div>
         )}
 
-        {/* Technical Documentation */}
-        <TechDocsSection applicationSlug={slug} />
+        {/* ── Features grid ────────────────────────────────────────────────── */}
+        <div className="mb-14">
+          <h2 className="text-base font-black text-[#132238] mb-5">{t(`${slug}.featuresTitle`)}</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3">
+            {[1, 2, 3, 4, 5, 6].map(n => (
+              <div key={n} className="flex items-start gap-3 p-4 rounded-xl bg-white border border-[#D8E1E9]">
+                <span className="text-[#5CA4D6] font-bold text-sm mt-0.5 shrink-0">✓</span>
+                <p className="text-sm text-[#4A5B6D] leading-relaxed">{t(`${slug}.feature${n}`)}</p>
+              </div>
+            ))}
+          </div>
+        </div>
 
-        {/* Related applications */}
-        <div className="mt-16 pt-10 border-t border-[#D8E1E9]">
-          <h2 className="text-lg font-bold text-[#132238] mb-6">{t('otherApps')}</h2>
+        {/* ── Body 2 (extended description) ───────────────────────────────── */}
+        <div className="max-w-3xl mb-14">
+          <p className="text-sm text-[#4A5B6D] leading-relaxed">{t(`${slug}.body2`)}</p>
+        </div>
+
+        {/* ── System downloads ─────────────────────────────────────────────── */}
+        <TechDocsSection applicationSlug={slug} localePath={`/${locale}`} />
+
+        {/* ── Related applications ─────────────────────────────────────────── */}
+        <div className="mt-14 pt-10 border-t border-[#D8E1E9]">
+          <h2 className="text-base font-bold text-[#132238] mb-5">{t('otherApps')}</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {applications.filter(a => a.slug !== slug).slice(0, 3).map(other => (
-              <Link key={other.slug} href={navHref(`/applications/${other.slug}`)} className="card-gold p-4 flex items-center gap-3 hover:border-accent/60 transition-colors group">
+              <Link
+                key={other.slug}
+                href={navHref(`/applications/${other.slug}`)}
+                className="card-gold p-4 flex items-center gap-3 hover:border-accent/60 transition-colors group"
+              >
                 <span className="text-2xl">{other.icon}</span>
-                <span className="text-sm text-[#4A5B6D] group-hover:text-[#132238] transition-colors font-medium">{t(`${other.slug}.title`)}</span>
+                <span className="text-sm text-[#4A5B6D] group-hover:text-[#132238] transition-colors font-medium">
+                  {t(`${other.slug}.title`)}
+                </span>
               </Link>
             ))}
           </div>

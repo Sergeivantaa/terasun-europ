@@ -1131,5 +1131,37 @@
     "distLabelMinOrder": "Мін. замовлення",
     "distLabelLeadTime": "Термін доставки",
     "distLabelIncoterms": "Incoterms"
+  },
+  "techDocs": {
+    "sectionHeading": "Завантаження для цієї системи",
+    "sectionSub": "{count} документів · {available} доступних одразу",
+    "openCentre": "Відкрити центр завантажень",
+    "statusAvailable": "Доступно",
+    "statusLogin": "Потрібна авторизація",
+    "statusComingSoon": "Незабаром",
+    "actionDownload": "Завантажити",
+    "actionLogin": "Увійти",
+    "lockNote": "Системні посібники та звіти про вогневі випробування потребують партнерського акаунту",
+    "lockNoteBody": "Сертифікати, EPD та монтажні документи є у вільному доступі.",
+    "loginLink": "Увійти",
+    "registerLink": "зареєструватись для доступу",
+    "downloadCentre": {
+      "catFilterLabel": "Category",
+      "allCategories": "All categories",
+      "countShown": "documents shown",
+      "countDownload": "immediate download",
+      "countLogin": "require login",
+      "noResults": "No documents match this filter",
+      "clearFilters": "Clear filters",
+      "appGroups": {
+        "all": "All documents",
+        "facade": "Ventilated facades",
+        "render": "Render / exterior plaster",
+        "wetroom": "Wet rooms & bathrooms",
+        "fire": "Fire-rated walls",
+        "steel": "Steel frame / LSF",
+        "interior": "Interior walls"
+      }
+    }
   }
 }

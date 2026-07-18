@@ -1131,5 +1131,37 @@
     "distLabelMinOrder": "Min. ordre",
     "distLabelLeadTime": "Leveringstid",
     "distLabelIncoterms": "Incoterms"
+  },
+  "techDocs": {
+    "sectionHeading": "Nedlastinger for dette systemet",
+    "sectionSub": "{count} dokumenter · {available} tilgjengelig umiddelbart",
+    "openCentre": "Åpne nedlastingssenter",
+    "statusAvailable": "Tilgjengelig",
+    "statusLogin": "Pålogging kreves",
+    "statusComingSoon": "Kommer snart",
+    "actionDownload": "Last ned",
+    "actionLogin": "Logg inn",
+    "lockNote": "Systemveiledninger og branntestrapporten krever en partnerkonto",
+    "lockNoteBody": "Sertifikater, EPD og installasjonsdokumenter er fritt tilgjengelige.",
+    "loginLink": "Logg inn",
+    "registerLink": "registrer for tilgang",
+    "downloadCentre": {
+      "catFilterLabel": "Kategori",
+      "allCategories": "Alle kategorier",
+      "countShown": "dokumenter vist",
+      "countDownload": "umiddelbar nedlasting",
+      "countLogin": "krever innlogging",
+      "noResults": "Ingen dokumenter matcher dette filteret",
+      "clearFilters": "Nullstill filtre",
+      "appGroups": {
+        "all": "Alle dokumenter",
+        "facade": "Ventilerte fasader",
+        "render": "Puss / utvendig puss",
+        "wetroom": "Vådrom og bad",
+        "fire": "Brannsikre vegger",
+        "steel": "Stålstenderverk / LSF",
+        "interior": "Innervegger"
+      }
+    }
   }
 }

@@ -1131,5 +1131,37 @@
     "distLabelMinOrder": "Min. narudžba",
     "distLabelLeadTime": "Vrijeme dostave",
     "distLabelIncoterms": "Incoterms"
+  },
+  "techDocs": {
+    "sectionHeading": "Preuzimanja za ovaj sustav",
+    "sectionSub": "{count} dokumenta · {available} dostupnih odmah",
+    "openCentre": "Otvorite centar za preuzimanje",
+    "statusAvailable": "Dostupno",
+    "statusLogin": "Potrebna prijava",
+    "statusComingSoon": "Uskoro",
+    "actionDownload": "Preuzmi",
+    "actionLogin": "Prijavi se",
+    "lockNote": "Sistemski vodiči i izvješća o ispitivanju požara zahtijevaju partnerski račun",
+    "lockNoteBody": "Certifikati, EPD i instalacijski dokumenti su slobodno dostupni.",
+    "loginLink": "Prijavi se",
+    "registerLink": "registrirajte se za pristup",
+    "downloadCentre": {
+      "catFilterLabel": "Category",
+      "allCategories": "All categories",
+      "countShown": "documents shown",
+      "countDownload": "immediate download",
+      "countLogin": "require login",
+      "noResults": "No documents match this filter",
+      "clearFilters": "Clear filters",
+      "appGroups": {
+        "all": "All documents",
+        "facade": "Ventilated facades",
+        "render": "Render / exterior plaster",
+        "wetroom": "Wet rooms & bathrooms",
+        "fire": "Fire-rated walls",
+        "steel": "Steel frame / LSF",
+        "interior": "Interior walls"
+      }
+    }
   }
 }

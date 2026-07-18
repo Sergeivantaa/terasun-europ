@@ -1373,5 +1373,37 @@
     "distLabelMinOrder": "Min. bestelling",
     "distLabelLeadTime": "Levertijd",
     "distLabelIncoterms": "Incoterms"
+  },
+  "techDocs": {
+    "sectionHeading": "Downloads voor dit systeem",
+    "sectionSub": "{count} documenten · {available} direct beschikbaar",
+    "openCentre": "Download-centrum openen",
+    "statusAvailable": "Beschikbaar",
+    "statusLogin": "Inloggen vereist",
+    "statusComingSoon": "Binnenkort beschikbaar",
+    "actionDownload": "Downloaden",
+    "actionLogin": "Inloggen",
+    "lockNote": "Systeemgidsen en brandbeveiligingsrapporten vereisen een partneraccount",
+    "lockNoteBody": "Certificaten, EPD en installatiedocumenten zijn vrij beschikbaar.",
+    "loginLink": "Inloggen",
+    "registerLink": "registreren voor toegang",
+    "downloadCentre": {
+      "catFilterLabel": "Categorie",
+      "allCategories": "Alle categorieën",
+      "countShown": "documenten weergegeven",
+      "countDownload": "direct beschikbaar",
+      "countLogin": "vereisen login",
+      "noResults": "Geen documenten komen overeen met dit filter",
+      "clearFilters": "Filters wissen",
+      "appGroups": {
+        "all": "Alle documenten",
+        "facade": "Geventileerde gevels",
+        "render": "Stucwerk / buitenpleister",
+        "wetroom": "Natte ruimten en badkamers",
+        "fire": "Brandwerende wanden",
+        "steel": "Staalframebouw / LSF",
+        "interior": "Binnenwanden"
+      }
+    }
   }
 }

@@ -1139,5 +1139,37 @@
     "distLabelMinOrder": "Мин. заказ",
     "distLabelLeadTime": "Время доставки",
     "distLabelIncoterms": "Инкотермс"
+  },
+  "techDocs": {
+    "sectionHeading": "Загрузки для этой системы",
+    "sectionSub": "{count} документов · {available} доступных сразу",
+    "openCentre": "Открыть центр загрузок",
+    "statusAvailable": "Доступно",
+    "statusLogin": "Требуется авторизация",
+    "statusComingSoon": "Скоро",
+    "actionDownload": "Скачать",
+    "actionLogin": "Войти",
+    "lockNote": "Системные руководства и отчёты об огневых испытаниях требуют партнёрского аккаунта",
+    "lockNoteBody": "Сертификаты, EPD и монтажные документы находятся в открытом доступе.",
+    "loginLink": "Войти",
+    "registerLink": "зарегистрироваться для доступа",
+    "downloadCentre": {
+      "catFilterLabel": "Category",
+      "allCategories": "All categories",
+      "countShown": "documents shown",
+      "countDownload": "immediate download",
+      "countLogin": "require login",
+      "noResults": "No documents match this filter",
+      "clearFilters": "Clear filters",
+      "appGroups": {
+        "all": "All documents",
+        "facade": "Ventilated facades",
+        "render": "Render / exterior plaster",
+        "wetroom": "Wet rooms & bathrooms",
+        "fire": "Fire-rated walls",
+        "steel": "Steel frame / LSF",
+        "interior": "Interior walls"
+      }
+    }
   }
 }

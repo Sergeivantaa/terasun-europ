@@ -1131,5 +1131,37 @@
     "distLabelMinOrder": "Ελάχ. παραγγελία",
     "distLabelLeadTime": "Χρόνος παράδοσης",
     "distLabelIncoterms": "Incoterms"
+  },
+  "techDocs": {
+    "sectionHeading": "Λήψεις για αυτό το σύστημα",
+    "sectionSub": "{count} έγγραφα · {available} διαθέσιμα άμεσα",
+    "openCentre": "Άνοιγμα κέντρου λήψεων",
+    "statusAvailable": "Διαθέσιμο",
+    "statusLogin": "Απαιτείται σύνδεση",
+    "statusComingSoon": "Σύντομα",
+    "actionDownload": "Λήψη",
+    "actionLogin": "Σύνδεση",
+    "lockNote": "Οι οδηγοί συστήματος και οι εκθέσεις δοκιμών πυρκαγιάς απαιτούν λογαριασμό συνεργάτη",
+    "lockNoteBody": "Τα πιστοποιητικά, EPD και έγγραφα εγκατάστασης είναι ελεύθερα διαθέσιμα.",
+    "loginLink": "Σύνδεση",
+    "registerLink": "εγγραφείτε για πρόσβαση",
+    "downloadCentre": {
+      "catFilterLabel": "Category",
+      "allCategories": "All categories",
+      "countShown": "documents shown",
+      "countDownload": "immediate download",
+      "countLogin": "require login",
+      "noResults": "No documents match this filter",
+      "clearFilters": "Clear filters",
+      "appGroups": {
+        "all": "All documents",
+        "facade": "Ventilated facades",
+        "render": "Render / exterior plaster",
+        "wetroom": "Wet rooms & bathrooms",
+        "fire": "Fire-rated walls",
+        "steel": "Steel frame / LSF",
+        "interior": "Interior walls"
+      }
+    }
   }
 }

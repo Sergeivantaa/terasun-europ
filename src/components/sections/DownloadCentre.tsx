@@ -2,18 +2,9 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import { useTranslations } from 'next-intl'
 import { techDocs, categoryOrder, categoryLabels, docDownloadUrl, type TechDoc, type DocCategory } from '@/data/techDocs'
 import { LOGIN_URL } from '@/lib/constants'
-
-const applicationGroups = [
-  { label: 'All documents', value: '*' },
-  { label: 'Ventilated facades', value: 'facade-systems' },
-  { label: 'Render / exterior plaster', value: 'cement-board-exterior-plaster' },
-  { label: 'Wet rooms & bathrooms', value: 'wet-rooms' },
-  { label: 'Fire-rated walls', value: 'fire-protection' },
-  { label: 'Steel frame / LSF', value: 'steel-frame' },
-  { label: 'Interior walls', value: 'cement-board-interior-walls' },
-]
 
 function FormatBadge({ format }: { format: TechDoc['format'] }) {
   const colors: Record<string, string> = {
@@ -29,7 +20,7 @@ function FormatBadge({ format }: { format: TechDoc['format'] }) {
   )
 }
 
-function DocCard({ doc }: { doc: TechDoc }) {
+function DocCard({ doc, t }: { doc: TechDoc; t: ReturnType<typeof useTranslations> }) {
   const url = docDownloadUrl(doc)
   const isComingSoon = doc.status === 'coming-soon'
   const isLogin = doc.status === 'login'
@@ -52,7 +43,7 @@ function DocCard({ doc }: { doc: TechDoc }) {
       <div className="shrink-0 mt-0.5">
         {isComingSoon ? (
           <span className="text-xs px-2.5 py-1 rounded-full bg-[#F0F5FA] text-[#8B9AAD] font-medium border border-[#D8E1E9] whitespace-nowrap">
-            Coming soon
+            {t('statusComingSoon')}
           </span>
         ) : isLogin ? (
           <Link
@@ -63,7 +54,7 @@ function DocCard({ doc }: { doc: TechDoc }) {
               <rect x="1.5" y="5" width="8" height="5.5" rx="1.2" stroke="currentColor" strokeWidth="1.2" />
               <path d="M3.5 5V3.5a2 2 0 0 1 4 0V5" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" />
             </svg>
-            Partner login
+            {t('actionLogin')}
           </Link>
         ) : url ? (
           <a
@@ -72,7 +63,7 @@ function DocCard({ doc }: { doc: TechDoc }) {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1 text-xs px-3 py-1.5 rounded-lg border border-[#5CA4D6] bg-[#EBF4FB] text-[#245A85] font-semibold hover:bg-[#D6EAFA] transition-colors whitespace-nowrap"
           >
-            Download ↗
+            {t('actionDownload')} ↗
           </a>
         ) : null}
       </div>
@@ -80,7 +71,19 @@ function DocCard({ doc }: { doc: TechDoc }) {
   )
 }
 
+// Application filter groups — keys reference translation
+const appGroups: { key: string; value: string }[] = [
+  { key: 'all',      value: '*' },
+  { key: 'facade',   value: 'facade-systems' },
+  { key: 'render',   value: 'cement-board-exterior-plaster' },
+  { key: 'wetroom',  value: 'wet-rooms' },
+  { key: 'fire',     value: 'fire-protection' },
+  { key: 'steel',    value: 'steel-frame' },
+  { key: 'interior', value: 'cement-board-interior-walls' },
+]
+
 export default function DownloadCentre() {
+  const t = useTranslations('techDocs')
   const [activeApp, setActiveApp] = useState('*')
   const [activeCategory, setActiveCategory] = useState<DocCategory | '*'>('*')
 
@@ -110,12 +113,12 @@ export default function DownloadCentre() {
             <path d="M6 8V6a3 3 0 0 1 6 0v2" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
           </svg>
           <div>
-            <p className="text-[#7A5C00] text-sm font-semibold mb-0.5">System guides and fire test reports require a partner account</p>
+            <p className="text-[#7A5C00] text-sm font-semibold mb-0.5">{t('lockNote')}</p>
             <p className="text-[#7A5C00] text-xs">
-              Certifications, EPD, and installation documents are freely available.{' '}
-              <Link href={LOGIN_URL} className="underline hover:no-underline">Sign in</Link>
-              {' '}or{' '}
-              <Link href={LOGIN_URL.replace('/login', '/register')} className="underline hover:no-underline">register for access</Link>.
+              {t('lockNoteBody')}{' '}
+              <Link href={LOGIN_URL} className="underline hover:no-underline">{t('loginLink')}</Link>
+              {' '}·{' '}
+              <Link href={LOGIN_URL.replace('/login', '/register')} className="underline hover:no-underline">{t('registerLink')}</Link>.
             </p>
           </div>
         </div>
@@ -124,9 +127,11 @@ export default function DownloadCentre() {
           {/* Sidebar filters */}
           <aside className="space-y-6">
             <div>
-              <h3 className="text-xs font-bold text-[#8B9AAD] uppercase tracking-wider mb-3">Application</h3>
+              <h3 className="text-xs font-bold text-[#8B9AAD] uppercase tracking-wider mb-3">
+                {t('sectionHeading')}
+              </h3>
               <div className="space-y-1">
-                {applicationGroups.map(g => (
+                {appGroups.map(g => (
                   <button
                     key={g.value}
                     onClick={() => setActiveApp(g.value)}
@@ -136,14 +141,16 @@ export default function DownloadCentre() {
                         : 'text-[#4A5B6D] hover:bg-[#F0F5FA]'
                     }`}
                   >
-                    {g.label}
+                    {t(`downloadCentre.appGroups.${g.key}` as Parameters<typeof t>[0])}
                   </button>
                 ))}
               </div>
             </div>
 
             <div>
-              <h3 className="text-xs font-bold text-[#8B9AAD] uppercase tracking-wider mb-3">Category</h3>
+              <h3 className="text-xs font-bold text-[#8B9AAD] uppercase tracking-wider mb-3">
+                {t('downloadCentre.catFilterLabel')}
+              </h3>
               <div className="space-y-1">
                 <button
                   onClick={() => setActiveCategory('*')}
@@ -153,7 +160,7 @@ export default function DownloadCentre() {
                       : 'text-[#4A5B6D] hover:bg-[#F0F5FA]'
                   }`}
                 >
-                  All categories
+                  {t('downloadCentre.allCategories')}
                 </button>
                 {categoryOrder.map(cat => (
                   <button
@@ -172,9 +179,11 @@ export default function DownloadCentre() {
             </div>
 
             <div className="rounded-xl border border-[#D8E1E9] bg-white p-4 text-xs text-[#6B7A8D] space-y-1">
-              <p><span className="font-semibold text-[#132238]">{filteredDocs.length}</span> documents shown</p>
-              <p><span className="font-semibold text-[#1A6E3C]">{availableCount}</span> immediate download</p>
-              {loginCount > 0 && <p><span className="font-semibold text-[#9A7B00]">{loginCount}</span> require login</p>}
+              <p><span className="font-semibold text-[#132238]">{filteredDocs.length}</span> {t('downloadCentre.countShown')}</p>
+              <p><span className="font-semibold text-[#1A6E3C]">{availableCount}</span> {t('downloadCentre.countDownload')}</p>
+              {loginCount > 0 && (
+                <p><span className="font-semibold text-[#9A7B00]">{loginCount}</span> {t('downloadCentre.countLogin')}</p>
+              )}
             </div>
           </aside>
 
@@ -187,7 +196,7 @@ export default function DownloadCentre() {
                 </h2>
                 <div className="space-y-2">
                   {items.map(doc => (
-                    <DocCard key={doc.id} doc={doc} />
+                    <DocCard key={doc.id} doc={doc} t={t} />
                   ))}
                 </div>
               </div>
@@ -195,9 +204,12 @@ export default function DownloadCentre() {
 
             {filteredDocs.length === 0 && (
               <div className="text-center py-16 text-[#8B9AAD]">
-                <p className="text-lg mb-2">No documents match this filter</p>
-                <button onClick={() => { setActiveApp('*'); setActiveCategory('*') }} className="text-sm text-[#245A85] hover:underline">
-                  Clear filters
+                <p className="text-lg mb-2">{t('downloadCentre.noResults')}</p>
+                <button
+                  onClick={() => { setActiveApp('*'); setActiveCategory('*') }}
+                  className="text-sm text-[#245A85] hover:underline"
+                >
+                  {t('downloadCentre.clearFilters')}
                 </button>
               </div>
             )}

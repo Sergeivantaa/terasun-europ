@@ -1131,5 +1131,37 @@
     "distLabelMinOrder": "Vähimmäistilaus",
     "distLabelLeadTime": "Toimitusaika",
     "distLabelIncoterms": "Incoterms"
+  },
+  "techDocs": {
+    "sectionHeading": "Lataukset tälle järjestelmälle",
+    "sectionSub": "{count} asiakirjaa · {available} saatavilla välittömästi",
+    "openCentre": "Avaa latauspalvelu",
+    "statusAvailable": "Saatavilla",
+    "statusLogin": "Kirjautuminen vaaditaan",
+    "statusComingSoon": "Tulossa pian",
+    "actionDownload": "Lataa",
+    "actionLogin": "Kirjaudu sisään",
+    "lockNote": "Järjestelmäoppaat ja palotestiraportit vaativat kumppanitilin",
+    "lockNoteBody": "Sertifikaatit, EPD ja asennusasiakirjat ovat vapaasti saatavilla.",
+    "loginLink": "Kirjaudu sisään",
+    "registerLink": "rekisteröidy saadaksesi pääsyn",
+    "downloadCentre": {
+      "catFilterLabel": "Kategoria",
+      "allCategories": "Kaikki kategoriat",
+      "countShown": "asiakirjaa näytetty",
+      "countDownload": "välitön lataus",
+      "countLogin": "vaatii kirjautumisen",
+      "noResults": "Mikään asiakirja ei vastaa suodatinta",
+      "clearFilters": "Tyhjennä suodattimet",
+      "appGroups": {
+        "all": "Kaikki asiakirjat",
+        "facade": "Tuulettuva julkisivu",
+        "render": "Rappaus / ulkokipsi",
+        "wetroom": "Märkätilat ja kylpyhuoneet",
+        "fire": "Palonkestävät seinät",
+        "steel": "Teräsrankarakenne / LSF",
+        "interior": "Sisäseinät"
+      }
+    }
   }
 }

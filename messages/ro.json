@@ -1131,5 +1131,37 @@
     "distLabelMinOrder": "Com. min.",
     "distLabelLeadTime": "Timp de livrare",
     "distLabelIncoterms": "Termeni comerciali"
+  },
+  "techDocs": {
+    "sectionHeading": "Descărcări pentru acest sistem",
+    "sectionSub": "{count} documente · {available} disponibile imediat",
+    "openCentre": "Deschide centrul de descărcări",
+    "statusAvailable": "Disponibil",
+    "statusLogin": "Autentificare necesară",
+    "statusComingSoon": "În curând",
+    "actionDownload": "Descarcă",
+    "actionLogin": "Conectați-vă",
+    "lockNote": "Ghidurile de sistem și rapoartele de testare la foc necesită un cont de partener",
+    "lockNoteBody": "Certificatele, EPD și documentele de instalare sunt disponibile gratuit.",
+    "loginLink": "Conectați-vă",
+    "registerLink": "înregistrați-vă pentru acces",
+    "downloadCentre": {
+      "catFilterLabel": "Category",
+      "allCategories": "All categories",
+      "countShown": "documents shown",
+      "countDownload": "immediate download",
+      "countLogin": "require login",
+      "noResults": "No documents match this filter",
+      "clearFilters": "Clear filters",
+      "appGroups": {
+        "all": "All documents",
+        "facade": "Ventilated facades",
+        "render": "Render / exterior plaster",
+        "wetroom": "Wet rooms & bathrooms",
+        "fire": "Fire-rated walls",
+        "steel": "Steel frame / LSF",
+        "interior": "Interior walls"
+      }
+    }
   }
 }

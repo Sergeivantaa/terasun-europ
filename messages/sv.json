@@ -1131,5 +1131,37 @@
     "distLabelMinOrder": "Minsta beställning",
     "distLabelLeadTime": "Leveranstid",
     "distLabelIncoterms": "Leveransvillkor"
+  },
+  "techDocs": {
+    "sectionHeading": "Nedladdningar för detta system",
+    "sectionSub": "{count} dokument · {available} tillgängliga omedelbart",
+    "openCentre": "Öppna nedladdningscentret",
+    "statusAvailable": "Tillgänglig",
+    "statusLogin": "Inloggning krävs",
+    "statusComingSoon": "Kommer snart",
+    "actionDownload": "Ladda ner",
+    "actionLogin": "Logga in",
+    "lockNote": "Systemguider och brandtestrapporter kräver ett partnerkonto",
+    "lockNoteBody": "Certifikat, EPD och installationsdokument är fritt tillgängliga.",
+    "loginLink": "Logga in",
+    "registerLink": "registrera för åtkomst",
+    "downloadCentre": {
+      "catFilterLabel": "Kategori",
+      "allCategories": "Alla kategorier",
+      "countShown": "dokument visas",
+      "countDownload": "omedelbar nedladdning",
+      "countLogin": "kräver inloggning",
+      "noResults": "Inga dokument matchar detta filter",
+      "clearFilters": "Rensa filter",
+      "appGroups": {
+        "all": "Alla dokument",
+        "facade": "Ventilerade fasader",
+        "render": "Puts / utvändig puts",
+        "wetroom": "Våtutrymmen och badrum",
+        "fire": "Brandklassade väggar",
+        "steel": "Stålregelstomme / LSF",
+        "interior": "Innerväggar"
+      }
+    }
   }
 }

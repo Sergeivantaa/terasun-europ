@@ -1373,5 +1373,37 @@
     "distLabelMinOrder": "Commande min.",
     "distLabelLeadTime": "Délai de livraison",
     "distLabelIncoterms": "Incoterms"
+  },
+  "techDocs": {
+    "sectionHeading": "Téléchargements pour ce système",
+    "sectionSub": "{count} documents · {available} disponibles immédiatement",
+    "openCentre": "Ouvrir le centre de téléchargement",
+    "statusAvailable": "Disponible",
+    "statusLogin": "Connexion requise",
+    "statusComingSoon": "Bientôt disponible",
+    "actionDownload": "Télécharger",
+    "actionLogin": "Se connecter",
+    "lockNote": "Les guides système et rapports d'essai au feu nécessitent un compte partenaire",
+    "lockNoteBody": "Les certifications, EPD et documents d'installation sont en accès libre.",
+    "loginLink": "Se connecter",
+    "registerLink": "s'inscrire pour accéder",
+    "downloadCentre": {
+      "catFilterLabel": "Catégorie",
+      "allCategories": "Toutes les catégories",
+      "countShown": "documents affichés",
+      "countDownload": "téléchargement immédiat",
+      "countLogin": "nécessitent connexion",
+      "noResults": "Aucun document ne correspond à ce filtre",
+      "clearFilters": "Effacer les filtres",
+      "appGroups": {
+        "all": "Tous les documents",
+        "facade": "Façades ventilées",
+        "render": "Enduit / crépi extérieur",
+        "wetroom": "Salles d'eau et salles de bains",
+        "fire": "Murs résistants au feu",
+        "steel": "Ossature métallique / LSF",
+        "interior": "Cloisons intérieures"
+      }
+    }
   }
 }

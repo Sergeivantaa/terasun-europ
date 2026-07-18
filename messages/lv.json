@@ -1131,5 +1131,37 @@
     "distLabelMinOrder": "Min. pasūtījums",
     "distLabelLeadTime": "Izpildes laiks",
     "distLabelIncoterms": "Incoterms"
+  },
+  "techDocs": {
+    "sectionHeading": "Lejupielādes šai sistēmai",
+    "sectionSub": "{count} dokumenti · {available} pieejami uzreiz",
+    "openCentre": "Atvērt lejupielādes centru",
+    "statusAvailable": "Pieejams",
+    "statusLogin": "Nepieciešama pieteikšanās",
+    "statusComingSoon": "Drīzumā",
+    "actionDownload": "Lejupielādēt",
+    "actionLogin": "Pieteikties",
+    "lockNote": "Sistēmas rokasgrāmatas un ugunsdrošības testēšanas atskaites prasa partnera kontu",
+    "lockNoteBody": "Sertifikāti, EPD un uzstādīšanas dokumenti ir brīvi pieejami.",
+    "loginLink": "Pieteikties",
+    "registerLink": "reģistrēties piekļuvei",
+    "downloadCentre": {
+      "catFilterLabel": "Category",
+      "allCategories": "All categories",
+      "countShown": "documents shown",
+      "countDownload": "immediate download",
+      "countLogin": "require login",
+      "noResults": "No documents match this filter",
+      "clearFilters": "Clear filters",
+      "appGroups": {
+        "all": "All documents",
+        "facade": "Ventilated facades",
+        "render": "Render / exterior plaster",
+        "wetroom": "Wet rooms & bathrooms",
+        "fire": "Fire-rated walls",
+        "steel": "Steel frame / LSF",
+        "interior": "Interior walls"
+      }
+    }
   }
 }

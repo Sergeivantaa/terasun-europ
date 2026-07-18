@@ -1131,5 +1131,37 @@
     "distLabelMinOrder": "Zam. min.",
     "distLabelLeadTime": "Czas realizacji",
     "distLabelIncoterms": "Incoterms"
+  },
+  "techDocs": {
+    "sectionHeading": "Pobieranie dla tego systemu",
+    "sectionSub": "{count} dokumentów · {available} dostępnych natychmiast",
+    "openCentre": "Otwórz centrum pobierania",
+    "statusAvailable": "Dostępny",
+    "statusLogin": "Wymagane logowanie",
+    "statusComingSoon": "Wkrótce dostępne",
+    "actionDownload": "Pobierz",
+    "actionLogin": "Zaloguj się",
+    "lockNote": "Przewodniki systemowe i raporty z badań ogniowych wymagają konta partnera",
+    "lockNoteBody": "Certyfikaty, EPD i dokumenty instalacyjne są ogólnodostępne.",
+    "loginLink": "Zaloguj się",
+    "registerLink": "zarejestruj się aby uzyskać dostęp",
+    "downloadCentre": {
+      "catFilterLabel": "Kategoria",
+      "allCategories": "Wszystkie kategorie",
+      "countShown": "dokumentów wyświetlonych",
+      "countDownload": "natychmiastowe pobieranie",
+      "countLogin": "wymagają logowania",
+      "noResults": "Żadne dokumenty nie pasują do tego filtra",
+      "clearFilters": "Wyczyść filtry",
+      "appGroups": {
+        "all": "Wszystkie dokumenty",
+        "facade": "Fasady wentylowane",
+        "render": "Tynk / tynk zewnętrzny",
+        "wetroom": "Pomieszczenia mokre i łazienki",
+        "fire": "Ściany ognioodporne",
+        "steel": "Konstrukcja stalowa / LSF",
+        "interior": "Ściany wewnętrzne"
+      }
+    }
   }
 }
