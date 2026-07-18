@@ -40,9 +40,9 @@ const systemSpecs: Record<DiagramType, SpecRow[]> = {
     { labelKey: 'fireClass',        value: 'A1' },
     { labelKey: 'fireRating',       value: 'E 120 / EI 90 / EW 120' },
     { labelKey: 'testReport',       value: 'FIRES-CR-284-25-AUPE' },
-    { labelKey: 'frame',            value: 'Steel C-studs 75–100 mm' },
-    { labelKey: 'studSpacing',      value: '400 mm c/c' },
-    { labelKey: 'insulation',       value: 'Mineral wool · min. 60 kg/m³ · continuous fill' },
+    { labelKey: 'frame',            value: 'Steel C-studs C100×45×0.6 mm' },
+    { labelKey: 'studSpacing',      value: 'Max 600 mm c/c' },
+    { labelKey: 'insulation',       value: 'Rock wool · 105 kg/m³ (A1) · continuous fill' },
     { labelKey: 'eta',              value: 'ETA 24/0895' },
   ],
   'steel-frame-exterior': [

@@ -60,8 +60,8 @@ const diagrams: Record<DiagramType, { title: string; subtitle: string; direction
     direction: 'Face A ←  →  Face B',
     layers: [
       { label: 'Terasun TSM 12 mm', sublabel: 'Face A · A1 · CE 1023-CPR-1565 P', thickness: '12 mm', fill: '#245A85', stroke: '#132238', pattern: 'board', highlight: true },
-      { label: 'Steel C-stud', sublabel: '75–100 mm @ 400 mm c/c', thickness: '75–100 mm', fill: '#ECEFF1', stroke: '#78909C', pattern: 'hatch' },
-      { label: 'Rock wool', sublabel: 'Min. 60 kg/m³ — continuous fill', thickness: '(within frame)', fill: '#FFF9C4', stroke: '#F9A825', pattern: 'wool' },
+      { label: 'Steel C-stud', sublabel: 'C100×45×0.6 mm @ max 600 mm c/c', thickness: '100 mm', fill: '#ECEFF1', stroke: '#78909C', pattern: 'hatch' },
+      { label: 'Rock wool', sublabel: '105 kg/m³ (A1) — continuous fill', thickness: '(within frame)', fill: '#FFF9C4', stroke: '#F9A825', pattern: 'wool' },
       { label: 'Terasun TSM 12 mm', sublabel: 'Face B · same board, mirrored', thickness: '12 mm', fill: '#245A85', stroke: '#132238', pattern: 'board', highlight: true },
     ],
   },
