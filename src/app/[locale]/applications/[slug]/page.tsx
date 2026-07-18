@@ -7,6 +7,9 @@ import { locales } from '@/i18n/routing'
 import { applications } from '@/data/applications'
 import JsonLd from '@/components/seo/JsonLd'
 import { breadcrumbSchema } from '@/lib/structured-data'
+import SystemDiagram from '@/components/sections/SystemDiagram'
+import TechDocsSection from '@/components/sections/TechDocsSection'
+import { applicationDiagram } from '@/data/techDocs'
 
 export function generateStaticParams() {
   return locales.flatMap(locale =>
@@ -119,8 +122,18 @@ export default async function ApplicationDetailPage({ params }: { params: Promis
           ))}
         </div>
 
+        {/* System Diagram */}
+        {applicationDiagram[slug] && (
+          <div className="mb-16">
+            <SystemDiagram type={applicationDiagram[slug]} />
+          </div>
+        )}
+
+        {/* Technical Documentation */}
+        <TechDocsSection applicationSlug={slug} />
+
         {/* Related applications */}
-        <div>
+        <div className="mt-16 pt-10 border-t border-[#D8E1E9]">
           <h2 className="text-lg font-bold text-[#132238] mb-6">{t('otherApps')}</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {applications.filter(a => a.slug !== slug).slice(0, 3).map(other => (
