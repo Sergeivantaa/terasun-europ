@@ -1405,5 +1405,36 @@
         "interior": "Pareti interne"
       }
     }
+  },
+  "systemSpecs": {
+    "labels": {
+      "board": "Board",
+      "standard": "Standard",
+      "fireClass": "Fire class",
+      "fireRating": "Fire assembly rating",
+      "moistureCategory": "Moisture category",
+      "waterproofing": "Waterproofing system",
+      "frame": "Frame",
+      "finish": "Finish",
+      "eta": "ETA",
+      "ce": "CE marking",
+      "testReport": "Test report",
+      "insulation": "Insulation",
+      "studSpacing": "Stud spacing",
+      "airCavity": "Air cavity",
+      "renderSystem": "Render system",
+      "application": "Application",
+      "thickness": "Board thickness",
+      "substructure": "Substructure"
+    },
+    "applicationDesc": {
+      "ventilated-facade": "Rainscreen cladding systems for exterior walls — all European climate zones, buildings of all heights.",
+      "render-facade": "Render carrier substrate for mineral and silicone render systems on exterior walls.",
+      "wet-room": "Tile backer board for bathrooms, showers, steam rooms and permanently wet areas.",
+      "fire-partition": "Tested fire-rated wall assembly achieving E 120 / EI 90 / EW 120. Tested to EN 1364-1 under report FIRES-CR-284-25-AUPE.",
+      "steel-frame-exterior": "Exterior sheathing board for light steel frame (LSF) construction and modular buildings.",
+      "interior-partition": "Partition walls, tile substrates and service zone linings in commercial and residential buildings.",
+      "modular": "Factory-fitted sheathing for volumetric modular and prefabricated building systems."
+    }
   }
 }

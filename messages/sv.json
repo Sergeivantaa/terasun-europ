@@ -1163,5 +1163,36 @@
         "interior": "Innerväggar"
       }
     }
+  },
+  "systemSpecs": {
+    "labels": {
+      "board": "Skiva",
+      "standard": "Standard",
+      "fireClass": "Brandklass",
+      "fireRating": "Brandmotstånd",
+      "moistureCategory": "Fuktkategori",
+      "waterproofing": "Tätningssystem",
+      "frame": "Stomme",
+      "finish": "Ytskikt",
+      "eta": "ETA",
+      "ce": "CE-märkning",
+      "testReport": "Provningsrapport",
+      "insulation": "Isolering",
+      "studSpacing": "Regelavstånd",
+      "airCavity": "Luftspalt",
+      "renderSystem": "Putssystem",
+      "application": "Tillämpning",
+      "thickness": "Skivtjocklek",
+      "substructure": "Underliggande konstruktion"
+    },
+    "applicationDesc": {
+      "ventilated-facade": "Ventilerade fasadsystem för ytterväggar — alla europeiska klimatzoner och bygghöjder.",
+      "render-facade": "Puts bärare för mineral- och silikonputssystem på ytterväggar.",
+      "wet-room": "Kakelbärare för badrum, duschar, ångrum och permanent fuktiga utrymmen.",
+      "fire-partition": "Testat brandväggssystem som uppnår E 120 / EI 90 / EW 120. Testat enligt EN 1364-1, rapport FIRES-CR-284-25-AUPE.",
+      "steel-frame-exterior": "Utvändig skivbeklädnad för lättålarakonstruktioner (LSF) och modulbyggen.",
+      "interior-partition": "Skiljeväggar, kakelbärare och installationszoner i kommersiella och bostadsbyggnader.",
+      "modular": "Fabriksmonterad beklädnad för volymetriska moduler och prefabricerade byggsystem."
+    }
   }
 }

@@ -1405,5 +1405,36 @@
         "interior": "Innenwände"
       }
     }
+  },
+  "systemSpecs": {
+    "labels": {
+      "board": "Platte",
+      "standard": "Norm",
+      "fireClass": "Brandklasse",
+      "fireRating": "Feuerwiderstandsklasse",
+      "moistureCategory": "Feuchtigkeitskategorie",
+      "waterproofing": "Abdichtungssystem",
+      "frame": "Unterkonstruktion",
+      "finish": "Oberfläche",
+      "eta": "ETA",
+      "ce": "CE-Kennzeichnung",
+      "testReport": "Prüfbericht",
+      "insulation": "Dämmung",
+      "studSpacing": "Ständerabstand",
+      "airCavity": "Hinterlüftungsspalt",
+      "renderSystem": "Putzsystem",
+      "application": "Anwendung",
+      "thickness": "Plattendicke",
+      "substructure": "Unterkonstruktion"
+    },
+    "applicationDesc": {
+      "ventilated-facade": "Hinterlüftete Fassadensysteme für Außenwände — alle europäischen Klimazonen und Gebäudehöhen.",
+      "render-facade": "Putzträger für Mineral- und Silikonputzsysteme an Außenwänden.",
+      "wet-room": "Fliesenträger für Bäder, Duschen, Dampfräume und dauerhaft nasse Bereiche.",
+      "fire-partition": "Geprüftes feuerwiderstandsfähiges Wandsystem mit E 120 / EI 90 / EW 120. Geprüft nach EN 1364-1, Bericht FIRES-CR-284-25-AUPE.",
+      "steel-frame-exterior": "Außenschalung für Leichtstahlbau (LSF) und Modulbauten.",
+      "interior-partition": "Trennwände, Fliesenträger und Installationszonen in Gewerbe- und Wohngebäuden.",
+      "modular": "Werksseitig montierte Schalung für Raummodule und vorgefertigte Bausysteme."
+    }
   }
 }

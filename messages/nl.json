@@ -1405,5 +1405,36 @@
         "interior": "Binnenwanden"
       }
     }
+  },
+  "systemSpecs": {
+    "labels": {
+      "board": "Plaat",
+      "standard": "Norm",
+      "fireClass": "Brandklasse",
+      "fireRating": "Brandweerstand",
+      "moistureCategory": "Vochtcategorie",
+      "waterproofing": "Waterdichtsysteem",
+      "frame": "Draagconstructie",
+      "finish": "Afwerking",
+      "eta": "ETA",
+      "ce": "CE-markering",
+      "testReport": "Testrapport",
+      "insulation": "Isolatie",
+      "studSpacing": "Stijlafstand",
+      "airCavity": "Luchtspouw",
+      "renderSystem": "Pleistersysteem",
+      "application": "Toepassing",
+      "thickness": "Plaatdikte",
+      "substructure": "Onderconstructie"
+    },
+    "applicationDesc": {
+      "ventilated-facade": "Geventileerde gevelsystemen voor buitenwanden — alle Europese klimaatzones en gebouwhoogten.",
+      "render-facade": "Pleisterdrager voor minerale en siliconen pleistersystemen op buitenwanden.",
+      "wet-room": "Tegeldrager voor badkamers, douches, stoomruimten en permanent natte zones.",
+      "fire-partition": "Getest brandwerend wandsysteem met E 120 / EI 90 / EW 120. Getest volgens EN 1364-1, rapport FIRES-CR-284-25-AUPE.",
+      "steel-frame-exterior": "Buitenbeplating voor lichtgewicht staalframe (LSF) en modulaire bouw.",
+      "interior-partition": "Scheidingswanden, tegeldragers en installatiezones in commerciële en woongebouwen.",
+      "modular": "In de fabriek gemonteerde beplating voor volumetrische modules en geprefabriceerde bouwsystemen."
+    }
   }
 }

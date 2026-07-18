@@ -1163,5 +1163,36 @@
         "interior": "Sisäseinät"
       }
     }
+  },
+  "systemSpecs": {
+    "labels": {
+      "board": "Levy",
+      "standard": "Standardi",
+      "fireClass": "Paloluokka",
+      "fireRating": "Palo-osastointi",
+      "moistureCategory": "Kosteusluokka",
+      "waterproofing": "Vedeneristysjärjestelmä",
+      "frame": "Runko",
+      "finish": "Pinta",
+      "eta": "ETA",
+      "ce": "CE-merkintä",
+      "testReport": "Testiraportti",
+      "insulation": "Eristys",
+      "studSpacing": "Rankajako",
+      "airCavity": "Tuuletusrako",
+      "renderSystem": "Rappauspinnoite",
+      "application": "Käyttökohde",
+      "thickness": "Levyn paksuus",
+      "substructure": "Alusrakenne"
+    },
+    "applicationDesc": {
+      "ventilated-facade": "Tuulettuvat julkisivujärjestelmät ulkoseinille — kaikki eurooppalaiset ilmastovyöhykkeet ja rakennuskorkeudet.",
+      "render-facade": "Rappauslevy mineraali- ja silikonirappausjärjestelmille ulkoseinillä.",
+      "wet-room": "Laattapohja kylpyhuoneisiin, suihkuihin, saunatiloihin ja pysyvästi märkiin tiloihin.",
+      "fire-partition": "Testattu palonkestävä seinärakenne, joka saavuttaa E 120 / EI 90 / EW 120. Testattu EN 1364-1 mukaisesti raportissa FIRES-CR-284-25-AUPE.",
+      "steel-frame-exterior": "Ulkoverhouslevy teräsrankarakenteisiin (LSF) ja moduulirakennuksiin.",
+      "interior-partition": "Väliseinät, laattapohjat ja palveluvyöhykkeiden verhoukset liike- ja asuinrakennuksissa.",
+      "modular": "Tehtaalla asennettu verhoilevy tilaelementtiratkaisuihin ja esivalmistettuihin rakennusjärjestelmiin."
+    }
   }
 }

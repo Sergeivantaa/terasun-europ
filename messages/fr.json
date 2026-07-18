@@ -1405,5 +1405,36 @@
         "interior": "Cloisons intérieures"
       }
     }
+  },
+  "systemSpecs": {
+    "labels": {
+      "board": "Plaque",
+      "standard": "Norme",
+      "fireClass": "Classe feu",
+      "fireRating": "Résistance au feu",
+      "moistureCategory": "Catégorie humidité",
+      "waterproofing": "Système d'étanchéité",
+      "frame": "Ossature",
+      "finish": "Finition",
+      "eta": "ETA",
+      "ce": "Marquage CE",
+      "testReport": "Rapport d'essai",
+      "insulation": "Isolation",
+      "studSpacing": "Entraxe des montants",
+      "airCavity": "Lame d'air",
+      "renderSystem": "Système d'enduit",
+      "application": "Application",
+      "thickness": "Épaisseur de plaque",
+      "substructure": "Ossature support"
+    },
+    "applicationDesc": {
+      "ventilated-facade": "Systèmes de bardage ventilé pour façades extérieures — toutes zones climatiques européennes et hauteurs de bâtiments.",
+      "render-facade": "Plaque support d'enduit pour systèmes d'enduit minéral et silicone sur façades extérieures.",
+      "wet-room": "Plaque de doublage pour salles de bains, douches, hammams et locaux en contact permanent avec l'eau.",
+      "fire-partition": "Paroi coupe-feu testée atteignant E 120 / EI 90 / EW 120. Essai selon EN 1364-1, rapport FIRES-CR-284-25-AUPE.",
+      "steel-frame": "Plaque de doublage extérieur pour ossature métallique légère (OSM) et construction modulaire.",
+      "interior-partition": "Cloisons, supports de carrelage et gaines techniques dans les bâtiments commerciaux et résidentiels.",
+      "modular": "Habillage extérieur posé en usine pour modules volumétriques et systèmes préfabriqués."
+    }
   }
 }
