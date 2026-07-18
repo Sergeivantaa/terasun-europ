@@ -1434,7 +1434,24 @@
       "fire-partition": "Testattu palonkestävä seinärakenne, joka saavuttaa E 120 / EI 90 / EW 120. Testattu EN 1364-1 mukaisesti raportissa FIRES-CR-284-25-AUPE.",
       "steel-frame-exterior": "Ulkoverhouslevy teräsrankarakenteisiin (LSF) ja moduulirakennuksiin.",
       "interior-partition": "Väliseinät, laattapohjat ja palveluvyöhykkeiden verhoukset liike- ja asuinrakennuksissa.",
-      "modular": "Tehtaalla asennettu verhoilevy tilaelementtiratkaisuihin ja esivalmistettuihin rakennusjärjestelmiin."
+      "modular": "Tehtaalla asennettu verhoilevy tilaelementtiratkaisuihin ja esivalmistettuihin rakennusjärjestelmiin.",
+      "facade-systems": "Tuulettuvat julkisivujärjestelmät ulkoseinille — kaikki eurooppalaiset ilmastovyöhykkeet ja rakennuskorkeudet.",
+      "cement-board-ventilated-facades": "Tuulettuvat julkisivujärjestelmät ulkoseinille — kaikki eurooppalaiset ilmastovyöhykkeet ja rakennuskorkeudet.",
+      "cement-board-exterior-walls": "Tuulettuvat julkisivujärjestelmät ulkoseinille — kaikki eurooppalaiset ilmastovyöhykkeet ja rakennuskorkeudet.",
+      "commercial-buildings": "Tuulettuvat julkisivujärjestelmät ulkoseinille — kaikki eurooppalaiset ilmastovyöhykkeet ja rakennuskorkeudet.",
+      "residential": "Tuulettuvat julkisivujärjestelmät ulkoseinille — kaikki eurooppalaiset ilmastovyöhykkeet ja rakennuskorkeudet.",
+      "cement-board-renovation": "Tuulettuvat julkisivujärjestelmät ulkoseinille — kaikki eurooppalaiset ilmastovyöhykkeet ja rakennuskorkeudet.",
+      "cement-board-exterior-plaster": "Rappauslevy mineraali- ja silikonirappausjärjestelmille ulkoseinillä.",
+      "wet-rooms": "Laattapohja kylpyhuoneisiin, suihkuihin, saunatiloihin ja pysyvästi märkiin tiloihin.",
+      "cement-board-wet-rooms": "Laattapohja kylpyhuoneisiin, suihkuihin, saunatiloihin ja pysyvästi märkiin tiloihin.",
+      "cement-board-bathrooms": "Laattapohja kylpyhuoneisiin, suihkuihin, saunatiloihin ja pysyvästi märkiin tiloihin.",
+      "fire-protection": "Testattu palonkestävä seinärakenne, joka saavuttaa E 120 / EI 90 / EW 120. Testattu EN 1364-1 mukaisesti raportissa FIRES-CR-284-25-AUPE.",
+      "fire-rated-cement-board-wall-system": "Testattu palonkestävä seinärakenne, joka saavuttaa E 120 / EI 90 / EW 120. Testattu EN 1364-1 mukaisesti raportissa FIRES-CR-284-25-AUPE.",
+      "steel-frame": "Ulkoverhouslevy teräsrankarakenteisiin (LSF) ja moduulirakennuksiin.",
+      "cement-board-steel-frame-construction": "Ulkoverhouslevy teräsrankarakenteisiin (LSF) ja moduulirakennuksiin.",
+      "cement-board-modular-construction": "Tehtaalla asennettu verhoilevy tilaelementtiratkaisuihin ja esivalmistettuihin rakennusjärjestelmiin.",
+      "cement-board-prefabricated-buildings": "Tehtaalla asennettu verhoilevy tilaelementtiratkaisuihin ja esivalmistettuihin rakennusjärjestelmiin.",
+      "cement-board-interior-walls": "Väliseinät, laattapohjat ja palveluvyöhykkeiden verhoukset liike- ja asuinrakennuksissa."
     }
   }
 }

@@ -1442,7 +1442,24 @@
       "fire-partition": "Tested fire-rated wall assembly achieving E 120 / EI 90 / EW 120. Tested to EN 1364-1 under report FIRES-CR-284-25-AUPE.",
       "steel-frame-exterior": "Exterior sheathing board for light steel frame (LSF) construction and modular buildings.",
       "interior-partition": "Partition walls, tile substrates and service zone linings in commercial and residential buildings.",
-      "modular": "Factory-fitted sheathing for volumetric modular and prefabricated building systems."
+      "modular": "Factory-fitted sheathing for volumetric modular and prefabricated building systems.",
+      "facade-systems": "Rainscreen cladding systems for exterior walls — all European climate zones, buildings of all heights.",
+      "cement-board-ventilated-facades": "Rainscreen cladding systems for exterior walls — all European climate zones, buildings of all heights.",
+      "cement-board-exterior-walls": "Rainscreen cladding systems for exterior walls — all European climate zones, buildings of all heights.",
+      "commercial-buildings": "Rainscreen cladding systems for exterior walls — all European climate zones, buildings of all heights.",
+      "residential": "Rainscreen cladding systems for exterior walls — all European climate zones, buildings of all heights.",
+      "cement-board-renovation": "Rainscreen cladding systems for exterior walls — all European climate zones, buildings of all heights.",
+      "cement-board-exterior-plaster": "Render carrier substrate for mineral and silicone render systems on exterior walls.",
+      "wet-rooms": "Tile backer board for bathrooms, showers, steam rooms and permanently wet areas.",
+      "cement-board-wet-rooms": "Tile backer board for bathrooms, showers, steam rooms and permanently wet areas.",
+      "cement-board-bathrooms": "Tile backer board for bathrooms, showers, steam rooms and permanently wet areas.",
+      "fire-protection": "Tested fire-rated wall assembly achieving E 120 / EI 90 / EW 120. Tested to EN 1364-1 under report FIRES-CR-284-25-AUPE.",
+      "fire-rated-cement-board-wall-system": "Tested fire-rated wall assembly achieving E 120 / EI 90 / EW 120. Tested to EN 1364-1 under report FIRES-CR-284-25-AUPE.",
+      "steel-frame": "Exterior sheathing board for light steel frame (LSF) construction and modular buildings.",
+      "cement-board-steel-frame-construction": "Exterior sheathing board for light steel frame (LSF) construction and modular buildings.",
+      "cement-board-modular-construction": "Factory-fitted sheathing for volumetric modular and prefabricated building systems.",
+      "cement-board-prefabricated-buildings": "Factory-fitted sheathing for volumetric modular and prefabricated building systems.",
+      "cement-board-interior-walls": "Partition walls, tile substrates and service zone linings in commercial and residential buildings."
     }
   }
 }

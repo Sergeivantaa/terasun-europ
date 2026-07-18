@@ -1434,7 +1434,24 @@
       "fire-partition": "Geprüftes feuerwiderstandsfähiges Wandsystem mit E 120 / EI 90 / EW 120. Geprüft nach EN 1364-1, Bericht FIRES-CR-284-25-AUPE.",
       "steel-frame-exterior": "Außenschalung für Leichtstahlbau (LSF) und Modulbauten.",
       "interior-partition": "Trennwände, Fliesenträger und Installationszonen in Gewerbe- und Wohngebäuden.",
-      "modular": "Werksseitig montierte Schalung für Raummodule und vorgefertigte Bausysteme."
+      "modular": "Werksseitig montierte Schalung für Raummodule und vorgefertigte Bausysteme.",
+      "facade-systems": "Hinterlüftete Fassadensysteme für Außenwände — alle europäischen Klimazonen und Gebäudehöhen.",
+      "cement-board-ventilated-facades": "Hinterlüftete Fassadensysteme für Außenwände — alle europäischen Klimazonen und Gebäudehöhen.",
+      "cement-board-exterior-walls": "Hinterlüftete Fassadensysteme für Außenwände — alle europäischen Klimazonen und Gebäudehöhen.",
+      "commercial-buildings": "Hinterlüftete Fassadensysteme für Außenwände — alle europäischen Klimazonen und Gebäudehöhen.",
+      "residential": "Hinterlüftete Fassadensysteme für Außenwände — alle europäischen Klimazonen und Gebäudehöhen.",
+      "cement-board-renovation": "Hinterlüftete Fassadensysteme für Außenwände — alle europäischen Klimazonen und Gebäudehöhen.",
+      "cement-board-exterior-plaster": "Putzträger für Mineral- und Silikonputzsysteme an Außenwänden.",
+      "wet-rooms": "Fliesenträger für Bäder, Duschen, Dampfräume und dauerhaft nasse Bereiche.",
+      "cement-board-wet-rooms": "Fliesenträger für Bäder, Duschen, Dampfräume und dauerhaft nasse Bereiche.",
+      "cement-board-bathrooms": "Fliesenträger für Bäder, Duschen, Dampfräume und dauerhaft nasse Bereiche.",
+      "fire-protection": "Geprüftes feuerwiderstandsfähiges Wandsystem mit E 120 / EI 90 / EW 120. Geprüft nach EN 1364-1, Bericht FIRES-CR-284-25-AUPE.",
+      "fire-rated-cement-board-wall-system": "Geprüftes feuerwiderstandsfähiges Wandsystem mit E 120 / EI 90 / EW 120. Geprüft nach EN 1364-1, Bericht FIRES-CR-284-25-AUPE.",
+      "steel-frame": "Außenschalung für Leichtstahlbau (LSF) und Modulbauten.",
+      "cement-board-steel-frame-construction": "Außenschalung für Leichtstahlbau (LSF) und Modulbauten.",
+      "cement-board-modular-construction": "Werksseitig montierte Schalung für Raummodule und vorgefertigte Bausysteme.",
+      "cement-board-prefabricated-buildings": "Werksseitig montierte Schalung für Raummodule und vorgefertigte Bausysteme.",
+      "cement-board-interior-walls": "Trennwände, Fliesenträger und Installationszonen in Gewerbe- und Wohngebäuden."
     }
   }
 }

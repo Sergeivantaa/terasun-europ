@@ -1435,7 +1435,23 @@
       "steel-frame": "Plaque de doublage extérieur pour ossature métallique légère (OSM) et construction modulaire.",
       "interior-partition": "Cloisons, supports de carrelage et gaines techniques dans les bâtiments commerciaux et résidentiels.",
       "modular": "Habillage extérieur posé en usine pour modules volumétriques et systèmes préfabriqués.",
-      "steel-frame-exterior": "Exterior sheathing board for light steel frame (LSF) construction and modular buildings."
+      "steel-frame-exterior": "Exterior sheathing board for light steel frame (LSF) construction and modular buildings.",
+      "facade-systems": "Systèmes de bardage ventilé pour façades extérieures — toutes zones climatiques européennes et hauteurs de bâtiments.",
+      "cement-board-ventilated-facades": "Systèmes de bardage ventilé pour façades extérieures — toutes zones climatiques européennes et hauteurs de bâtiments.",
+      "cement-board-exterior-walls": "Systèmes de bardage ventilé pour façades extérieures — toutes zones climatiques européennes et hauteurs de bâtiments.",
+      "commercial-buildings": "Systèmes de bardage ventilé pour façades extérieures — toutes zones climatiques européennes et hauteurs de bâtiments.",
+      "residential": "Systèmes de bardage ventilé pour façades extérieures — toutes zones climatiques européennes et hauteurs de bâtiments.",
+      "cement-board-renovation": "Systèmes de bardage ventilé pour façades extérieures — toutes zones climatiques européennes et hauteurs de bâtiments.",
+      "cement-board-exterior-plaster": "Plaque support d'enduit pour systèmes d'enduit minéral et silicone sur façades extérieures.",
+      "wet-rooms": "Plaque de doublage pour salles de bains, douches, hammams et locaux en contact permanent avec l'eau.",
+      "cement-board-wet-rooms": "Plaque de doublage pour salles de bains, douches, hammams et locaux en contact permanent avec l'eau.",
+      "cement-board-bathrooms": "Plaque de doublage pour salles de bains, douches, hammams et locaux en contact permanent avec l'eau.",
+      "fire-protection": "Paroi coupe-feu testée atteignant E 120 / EI 90 / EW 120. Essai selon EN 1364-1, rapport FIRES-CR-284-25-AUPE.",
+      "fire-rated-cement-board-wall-system": "Paroi coupe-feu testée atteignant E 120 / EI 90 / EW 120. Essai selon EN 1364-1, rapport FIRES-CR-284-25-AUPE.",
+      "cement-board-steel-frame-construction": "Exterior sheathing board for light steel frame (LSF) construction and modular buildings.",
+      "cement-board-modular-construction": "Habillage extérieur posé en usine pour modules volumétriques et systèmes préfabriqués.",
+      "cement-board-prefabricated-buildings": "Habillage extérieur posé en usine pour modules volumétriques et systèmes préfabriqués.",
+      "cement-board-interior-walls": "Cloisons, supports de carrelage et gaines techniques dans les bâtiments commerciaux et résidentiels."
     }
   }
 }

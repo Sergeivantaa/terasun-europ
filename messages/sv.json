@@ -1434,7 +1434,24 @@
       "fire-partition": "Testat brandväggssystem som uppnår E 120 / EI 90 / EW 120. Testat enligt EN 1364-1, rapport FIRES-CR-284-25-AUPE.",
       "steel-frame-exterior": "Utvändig skivbeklädnad för lättålarakonstruktioner (LSF) och modulbyggen.",
       "interior-partition": "Skiljeväggar, kakelbärare och installationszoner i kommersiella och bostadsbyggnader.",
-      "modular": "Fabriksmonterad beklädnad för volymetriska moduler och prefabricerade byggsystem."
+      "modular": "Fabriksmonterad beklädnad för volymetriska moduler och prefabricerade byggsystem.",
+      "facade-systems": "Ventilerade fasadsystem för ytterväggar — alla europeiska klimatzoner och bygghöjder.",
+      "cement-board-ventilated-facades": "Ventilerade fasadsystem för ytterväggar — alla europeiska klimatzoner och bygghöjder.",
+      "cement-board-exterior-walls": "Ventilerade fasadsystem för ytterväggar — alla europeiska klimatzoner och bygghöjder.",
+      "commercial-buildings": "Ventilerade fasadsystem för ytterväggar — alla europeiska klimatzoner och bygghöjder.",
+      "residential": "Ventilerade fasadsystem för ytterväggar — alla europeiska klimatzoner och bygghöjder.",
+      "cement-board-renovation": "Ventilerade fasadsystem för ytterväggar — alla europeiska klimatzoner och bygghöjder.",
+      "cement-board-exterior-plaster": "Puts bärare för mineral- och silikonputssystem på ytterväggar.",
+      "wet-rooms": "Kakelbärare för badrum, duschar, ångrum och permanent fuktiga utrymmen.",
+      "cement-board-wet-rooms": "Kakelbärare för badrum, duschar, ångrum och permanent fuktiga utrymmen.",
+      "cement-board-bathrooms": "Kakelbärare för badrum, duschar, ångrum och permanent fuktiga utrymmen.",
+      "fire-protection": "Testat brandväggssystem som uppnår E 120 / EI 90 / EW 120. Testat enligt EN 1364-1, rapport FIRES-CR-284-25-AUPE.",
+      "fire-rated-cement-board-wall-system": "Testat brandväggssystem som uppnår E 120 / EI 90 / EW 120. Testat enligt EN 1364-1, rapport FIRES-CR-284-25-AUPE.",
+      "steel-frame": "Utvändig skivbeklädnad för lättålarakonstruktioner (LSF) och modulbyggen.",
+      "cement-board-steel-frame-construction": "Utvändig skivbeklädnad för lättålarakonstruktioner (LSF) och modulbyggen.",
+      "cement-board-modular-construction": "Fabriksmonterad beklädnad för volymetriska moduler och prefabricerade byggsystem.",
+      "cement-board-prefabricated-buildings": "Fabriksmonterad beklädnad för volymetriska moduler och prefabricerade byggsystem.",
+      "cement-board-interior-walls": "Skiljeväggar, kakelbärare och installationszoner i kommersiella och bostadsbyggnader."
     }
   }
 }

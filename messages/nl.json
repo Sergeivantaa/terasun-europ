@@ -1434,7 +1434,24 @@
       "fire-partition": "Getest brandwerend wandsysteem met E 120 / EI 90 / EW 120. Getest volgens EN 1364-1, rapport FIRES-CR-284-25-AUPE.",
       "steel-frame-exterior": "Buitenbeplating voor lichtgewicht staalframe (LSF) en modulaire bouw.",
       "interior-partition": "Scheidingswanden, tegeldragers en installatiezones in commerciële en woongebouwen.",
-      "modular": "In de fabriek gemonteerde beplating voor volumetrische modules en geprefabriceerde bouwsystemen."
+      "modular": "In de fabriek gemonteerde beplating voor volumetrische modules en geprefabriceerde bouwsystemen.",
+      "facade-systems": "Geventileerde gevelsystemen voor buitenwanden — alle Europese klimaatzones en gebouwhoogten.",
+      "cement-board-ventilated-facades": "Geventileerde gevelsystemen voor buitenwanden — alle Europese klimaatzones en gebouwhoogten.",
+      "cement-board-exterior-walls": "Geventileerde gevelsystemen voor buitenwanden — alle Europese klimaatzones en gebouwhoogten.",
+      "commercial-buildings": "Geventileerde gevelsystemen voor buitenwanden — alle Europese klimaatzones en gebouwhoogten.",
+      "residential": "Geventileerde gevelsystemen voor buitenwanden — alle Europese klimaatzones en gebouwhoogten.",
+      "cement-board-renovation": "Geventileerde gevelsystemen voor buitenwanden — alle Europese klimaatzones en gebouwhoogten.",
+      "cement-board-exterior-plaster": "Pleisterdrager voor minerale en siliconen pleistersystemen op buitenwanden.",
+      "wet-rooms": "Tegeldrager voor badkamers, douches, stoomruimten en permanent natte zones.",
+      "cement-board-wet-rooms": "Tegeldrager voor badkamers, douches, stoomruimten en permanent natte zones.",
+      "cement-board-bathrooms": "Tegeldrager voor badkamers, douches, stoomruimten en permanent natte zones.",
+      "fire-protection": "Getest brandwerend wandsysteem met E 120 / EI 90 / EW 120. Getest volgens EN 1364-1, rapport FIRES-CR-284-25-AUPE.",
+      "fire-rated-cement-board-wall-system": "Getest brandwerend wandsysteem met E 120 / EI 90 / EW 120. Getest volgens EN 1364-1, rapport FIRES-CR-284-25-AUPE.",
+      "steel-frame": "Buitenbeplating voor lichtgewicht staalframe (LSF) en modulaire bouw.",
+      "cement-board-steel-frame-construction": "Buitenbeplating voor lichtgewicht staalframe (LSF) en modulaire bouw.",
+      "cement-board-modular-construction": "In de fabriek gemonteerde beplating voor volumetrische modules en geprefabriceerde bouwsystemen.",
+      "cement-board-prefabricated-buildings": "In de fabriek gemonteerde beplating voor volumetrische modules en geprefabriceerde bouwsystemen.",
+      "cement-board-interior-walls": "Scheidingswanden, tegeldragers en installatiezones in commerciële en woongebouwen."
     }
   }
 }
