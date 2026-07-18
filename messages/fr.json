@@ -1412,7 +1412,7 @@
       "standard": "Norme",
       "fireClass": "Réaction au feu (EN 13501-1)",
       "fireRating": "Résistance au feu",
-      "moistureCategory": "Catégorie humidité",
+      "moistureCategory": "Résistance à l'humidité (EN 12467)",
       "waterproofing": "Système d'étanchéité",
       "frame": "Ossature",
       "finish": "Finition",

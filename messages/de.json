@@ -1412,7 +1412,7 @@
       "standard": "Norm",
       "fireClass": "Brandverhalten (EN 13501-1)",
       "fireRating": "Feuerwiderstandsklasse",
-      "moistureCategory": "Feuchtigkeitskategorie",
+      "moistureCategory": "Feuchtigkeitsbeständigkeit (EN 12467)",
       "waterproofing": "Abdichtungssystem",
       "frame": "Unterkonstruktion",
       "finish": "Oberfläche",

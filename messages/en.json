@@ -1388,7 +1388,7 @@
       "standard": "Standard",
       "fireClass": "Reaction to fire (EN 13501-1)",
       "fireRating": "Fire assembly rating",
-      "moistureCategory": "Moisture category",
+      "moistureCategory": "Moisture resistance (EN 12467)",
       "waterproofing": "Waterproofing system",
       "frame": "Frame",
       "finish": "Finish",

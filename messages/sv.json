@@ -1412,7 +1412,7 @@
       "standard": "Standard",
       "fireClass": "Brandklass (EN 13501-1)",
       "fireRating": "Brandmotstånd",
-      "moistureCategory": "Fuktkategori",
+      "moistureCategory": "Fuktbeständighet (EN 12467)",
       "waterproofing": "Tätningssystem",
       "frame": "Stomme",
       "finish": "Ytskikt",

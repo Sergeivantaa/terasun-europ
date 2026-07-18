@@ -30,6 +30,7 @@ const LOCALE_CODE: Record<Locale, string> = {
   en:'EN', bg:'BG', hr:'HR', cs:'CS', da:'DA', nl:'NL', et:'ET', fi:'FI',
   fr:'FR', de:'DE', el:'EL', hu:'HU', ga:'GA', it:'IT', lv:'LV', lt:'LT',
   mt:'MT', pl:'PL', pt:'PT', ro:'RO', sk:'SK', sl:'SL', es:'ES', sv:'SV', nb:'NB',
+  ru:'RU', uk:'UK', no:'NO',
 }
 
 const LOCALE_LABELS: Record<Locale, string> = {
@@ -57,7 +58,10 @@ const LOCALE_LABELS: Record<Locale, string> = {
   sl: 'Slovenščina',
   es: 'Español',
   sv: 'Svenska',
-  nb: 'Norsk',
+  nb: 'Norsk bokmål',
+  ru: 'Русский',
+  uk: 'Українська',
+  no: 'Norsk',
 }
 
 export default function Header({ locale }: Props) {

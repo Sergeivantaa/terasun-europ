@@ -1412,7 +1412,7 @@
       "standard": "Norm",
       "fireClass": "Brandgedrag (EN 13501-1)",
       "fireRating": "Brandweerstand",
-      "moistureCategory": "Vochtcategorie",
+      "moistureCategory": "Vochtbestendigheid (EN 12467)",
       "waterproofing": "Waterdichtsysteem",
       "frame": "Draagconstructie",
       "finish": "Afwerking",
